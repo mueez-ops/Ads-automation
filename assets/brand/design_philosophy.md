@@ -1,0 +1,13 @@
+# Measured Stillness
+
+*A design philosophy for Mez Media.*
+
+**Measured Stillness** treats attention as something that can be observed, timed and charted. Each composition reads like a page from a laboratory notebook kept by a very patient hand: hairline rules, calibrated scales, specimen labels and quiet coordinates set around one large, calm idea. Nothing shouts. Authority comes from precision. It should feel like the work of someone who measured twice, drew once, and spent countless unhurried hours deciding where a single line should end.
+
+**Space and form.** The canvas is a field of paper with a frame drawn inside its margins. A strict modular grid sits underneath every page, never shown but always felt. Forms are geometric and exact: circles drawn as instruments, rules drawn as measurements, objects rendered as single-weight technical line drawings with dimension marks rather than shading. Empty space is not left over. It is placed deliberately, as a breath between observations. Every alignment is the result of painstaking refinement, with edges sharing invisible baselines across the page.
+
+**Colour and material.** The palette is clinical and soft: a pale paper, a flat mint field, a deep ink, and a single saturated green used as rarely as a highlighter in a scientist's margin. There are no gradients, glows or shadows. Colour appears as solid, honest planes, the way a printed swatch or a cut sheet of coloured stock would. Hatching and fine dotted leaders carry tone where another style would reach for effects. The restraint is the craft, and each hue is calibrated with master-level care.
+
+**Scale and rhythm.** Two voices carry the type. A large, elegant serif speaks the idea, its italic used for the one word that matters. A small monospaced voice keeps the record: figure numbers, units, page counters and reference marks. Between them sits a modest sans for the occasional short sentence. Huge and tiny, never medium: that contrast sets the rhythm. Across a sequence of pages, the mint field moves like a tide (top, bottom, full), so a set of slides feels like chapters of one meticulously composed document.
+
+**Composition and hierarchy.** Each page holds a single observation. The eye lands on the serif statement, moves to the drawn evidence (a scale, a dial, a specimen), and comes to rest on the quiet marginalia. Information lives in the drawing, not the paragraph. Text is sparse and essential, placed like a caption on an archival plate. Nothing overlaps, nothing crowds an edge, and every element keeps generous clearance. The finished work should look like it took weeks and came from the top of the field: precise, calm and quietly sure of itself.

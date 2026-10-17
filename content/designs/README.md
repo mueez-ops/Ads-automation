@@ -1,6 +1,6 @@
 # Mez Media: first Instagram posts
 
-All images are 1080×1350 (4:5) for posts and 1080×1920 for the Reel cover, in the mint brand colours.
+All images are 1080×1350 (4:5) for posts and 1080×1920 for the Reel cover. Style: "Measured Stillness" (see `assets/brand/design_philosophy.md`). Rebuild with `node source/build_v2.js <out-dir> <fonts-dir>`.
 
 ## Posting order
 | # | When | What | Files |
