@@ -1,6 +1,6 @@
 # Mez Media: first Instagram posts
 
-All images are 1080×1350 (4:5) for posts and 1080×1920 for the Reel cover. Style: "Measured Stillness" (see `assets/brand/design_philosophy.md`). Rebuild with `node source/build_v2.js <out-dir> <fonts-dir>`.
+All images are 1080×1350 (4:5) for posts and 1080×1920 for the Reel cover. Fonts: Archivo Black (headlines) + Inter (text), flat light background, green highlight on the key words. Rebuild with `node source/build_v3.js <out-dir>`.
 
 ## Posting order
 | # | When | What | Files |
@@ -24,5 +24,5 @@ Upload carousel slides in number order (01, 02, 03…).
 > #roas #metaads #skincarebrand #ecommercetips #dtcmarketing #shopify
 
 **3 things I check**
-> Three checks, under a minute. Most fixes cost less than more ad spend. Want yours checked? DM "TEARDOWN".
+> 3 things I check in every skincare ad. Under a minute. Most fixes cost less than more ad spend. Want yours checked? DM "TEARDOWN".
 > #adteardown #metaads #skincaremarketing #creativestrategy #ukskincare
