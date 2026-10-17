@@ -11,7 +11,7 @@ Mez Media | Paid ads for UK skincare brands
 Meta + TikTok ads · free ad teardowns
 DM "TEARDOWN" for yours ↓
 ```
-Profile photo: `assets/brand/mezmedia_pfp_lilac.png` (or the peach/mint version) (light brand colours, see `assets/brand/brand_colors.md`).
+Profile photo: `assets/brand/mezmedia_pfp.png` (mint; light brand colours, see `assets/brand/brand_colors.md`).
 
 ---
 
