@@ -16,7 +16,7 @@
 - Drafted batch 1 of first messages (66–83 words each).
 
 ## Blockers
-- This session's network policy blocks brand websites and Meta Ad Library, so contact emails, Instagram handles and ad activity still need checking by hand or with wider network access.
+- Brand sites now reachable; Meta Ad Library still blocks automated access (403), so active ads are inferred from ad pixels on each site.
 - Halfsecond's Instagram has no posts yet. Prospects will check it, so post at least 3 pieces before sending.
 
 ## Lessons
