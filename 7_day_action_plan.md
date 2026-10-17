@@ -4,8 +4,8 @@ Times are shown as UK / PKT. The UK is on BST (PKT − 4h) until 25 Oct, then GM
 
 | Day | You (≈ time) | Me |
 |---|---|---|
-| **Sat 17** | Review and approve/edit batch 1 (10 messages). Give me your first name for signatures and your exact IG handle. (20 min) | Done: project set up, 10 leads, drafts, content calendar |
-| **Sun 18** | Check the 10 brands in Meta Ad Library (UK) and note which are running ads. Find contact emails on their sites. (45 min) | Upgrade leads with active ads to **A** and rewrite angles around the real ads you find |
+| **Sat 17** | ✅ Batch 1 approved; name + IG handle given | Done: project set up, 10 leads, drafts, content calendar |
+| **Sun 18** | Post the launch video (`content/launch_posts.md`). Get the contact email from each brand's website and paste them to me. Check the 10 brands in Meta Ad Library (UK) and note which are running ads. Find contact emails on their sites. (45 min) | Upgrade leads with active ads to **A** and rewrite angles around the real ads you find |
 | **Mon 19** | Set up the Halfsecond IG bio ("Paid social for UK skincare brands · DM TEARDOWN"). Post carousel #1 + short #1. (60 min) | Final batch 1 with verified emails; start researching batch 2 (15–20 leads) |
 | **Tue 20** | Post short #2. **Send approved batch 1 at 10:00 UK / 14:00 PKT.** (30 min) | Log sends in `sent_log.csv`; set follow-up dates |
 | **Wed 21** | Record a free 2-minute teardown template video (Loom or screen recording) to reuse for replies | Prepare batch 2 for approval; draft replies to any responses |
