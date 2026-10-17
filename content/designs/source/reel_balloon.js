@@ -6,12 +6,12 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 
 const [FRAMES, OUT, flag, list] = process.argv.slice(2);
-const FPS = 30, DURATION = 23;
+const FPS = 30, DURATION = 25;
 const FONTS = path.join(__dirname, 'fonts');
 const font = (f) => `url(data:font/ttf;base64,${fs.readFileSync(path.join(FONTS, f)).toString('base64')})`;
 
 // Key moments, shared with the audio script.
-const CUES = { approachEnd: 0.9, macroIn: 3.4, macroOut: 5.7, held: 7.0, textA: 7.1, textB: 9.0, textC: 11.2, punch: 13.45, pop: 13.8, logo: 16.6, cta: 18.4, end: DURATION };
+const CUES = { approachEnd: 0.9, macroIn: 3.4, macroOut: 5.7, held: 7.0, textA: 7.1, textB: 9.7, textC: 11.7, punch: 14.5, pop: 14.85, logo: 17.6, cta: 19.4, end: DURATION };
 fs.writeFileSync(path.join(__dirname, 'reel_balloon_cues.json'), JSON.stringify(CUES));
 
 const html = `<!doctype html><html><head><meta charset="utf-8"><style>
