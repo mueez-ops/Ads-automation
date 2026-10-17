@@ -1,0 +1,21 @@
+lead_id,business_name,contact_name,channel,stage,due_date,depends_on,status
+L001,By Sarah London,Sarah & Lauren Murrell,Email,2 - follow-up (new idea),2026-10-23,"M1 sent, no reply",pending
+L001,By Sarah London,Sarah & Lauren Murrell,Email,3 - final,2026-10-27,"M2 sent, no reply",pending
+L002,Dalia Botanique,Dalia Hawley,Email,2 - follow-up (new idea),2026-10-23,"M1 sent, no reply",pending
+L002,Dalia Botanique,Dalia Hawley,Email,3 - final,2026-10-27,"M2 sent, no reply",pending
+L003,Wilder Botanics,Rachel Landon,Email,2 - follow-up (new idea),2026-10-23,"M1 sent, no reply",pending
+L003,Wilder Botanics,Rachel Landon,Email,3 - final,2026-10-27,"M2 sent, no reply",pending
+L004,Skin & Tonic,Sarah Hancock,Email,2 - follow-up (new idea),2026-10-23,"M1 sent, no reply",pending
+L004,Skin & Tonic,Sarah Hancock,Email,3 - final,2026-10-27,"M2 sent, no reply",pending
+L005,Odylique,Abi Weeds,Email,2 - follow-up (new idea),2026-10-23,"M1 sent, no reply",pending
+L005,Odylique,Abi Weeds,Email,3 - final,2026-10-27,"M2 sent, no reply",pending
+L006,Evolve Organic Beauty,Laura Rudoe,Email,2 - follow-up (new idea),2026-10-23,"M1 sent, no reply",pending
+L006,Evolve Organic Beauty,Laura Rudoe,Email,3 - final,2026-10-27,"M2 sent, no reply",pending
+L007,Plenaire,Namrata Nayyar-Kamdar,Email,2 - follow-up (new idea),2026-10-23,"M1 sent, no reply",pending
+L007,Plenaire,Namrata Nayyar-Kamdar,Email,3 - final,2026-10-27,"M2 sent, no reply",pending
+L008,Balm Balm,Glenda Taylor,Email,2 - follow-up (new idea),2026-10-23,"M1 sent, no reply",pending
+L008,Balm Balm,Glenda Taylor,Email,3 - final,2026-10-27,"M2 sent, no reply",pending
+L009,Balmonds,Natalie Balmond,Email,2 - follow-up (new idea),2026-10-23,"M1 sent, no reply",pending
+L009,Balmonds,Natalie Balmond,Email,3 - final,2026-10-27,"M2 sent, no reply",pending
+L010,Haeckels,Dom Bridges,Email,2 - follow-up (new idea),2026-10-23,"M1 sent, no reply",pending
+L010,Haeckels,Dom Bridges,Email,3 - final,2026-10-27,"M2 sent, no reply",pending
