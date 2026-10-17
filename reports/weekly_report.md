@@ -17,7 +17,7 @@
 
 ## Blockers
 - Brand sites now reachable; Meta Ad Library still blocks automated access (403), so active ads are inferred from ad pixels on each site.
-- Halfsecond's Instagram has no posts yet. Prospects will check it, so post at least 3 pieces before sending.
+- Mez Media's Instagram has no posts yet. Prospects will check it, so post at least 3 pieces before sending.
 
 ## Lessons
 - (Fill in Friday)

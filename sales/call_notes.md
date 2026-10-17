@@ -6,7 +6,7 @@ Log each call below with a dated heading (`## YYYY-MM-DD — Brand — Contact`)
 
 ## Discovery call agenda (20 minutes)
 
-1. **Introductions (2 min):** who Halfsecond is and how the call will run.
+1. **Introductions (2 min):** who Mez Media is and how the call will run.
 2. **Their business (8 min):** the qualification questions below.
 3. **What I'd do (5 min):** share 2–3 findings from the teardown and what the pilot would test.
 4. **Fit and next step (5 min):** if it fits, agree to a proposal and a decision date. If not, say so honestly.
@@ -29,7 +29,7 @@ Log each call below with a dated heading (`## YYYY-MM-DD — Brand — Contact`)
 Never invent results, clients or testimonials. Never misstate where you're based. Here's what to say instead.
 
 **"Do you have case studies or results?"**
-> "I'm early in building Halfsecond, so I don't have case studies to show you yet, and I won't pretend otherwise. That's why I start with a free teardown and a short pilot: you see how I think before you pay, you get weekly reports, and you decide after 30 days. I'm also taking on my first few brands at a founding rate."
+> "I'm early in building Mez Media, so I don't have case studies to show you yet, and I won't pretend otherwise. That's why I start with a free teardown and a short pilot: you see how I think before you pay, you get weekly reports, and you decide after 30 days. I'm also taking on my first few brands at a founding rate."
 
 **"Who else have you worked with?"**
 > "No retained clients yet. You'd be one of my first, which means you get my full attention and a reduced rate. In return I'd ask for an honest testimonial if the results earn it."

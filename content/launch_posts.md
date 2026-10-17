@@ -7,28 +7,28 @@ Post them in this order. All three are drafts, and nothing gets posted until you
 ## Instagram bio (set this first)
 
 ```
-Halfsecond | Paid ads for UK skincare brands
+Mez Media | Paid ads for UK skincare brands
 Meta + TikTok ads · free ad teardowns
 DM "TEARDOWN" for yours ↓
 ```
-Profile photo: a simple "H½" or "Halfsecond" logo on a plain background. Canva has free templates.
+Profile photo: `assets/brand/mezmedia_pfp_lilac.png` (or the peach/mint version) (light brand colours, see `assets/brand/brand_colors.md`).
 
 ---
 
 ## Post 1: Launch video (Reel, 20–30 seconds) · Sun 18 or Mon 19 Oct
 
-**Idea:** the name *Halfsecond* = the time an ad has to stop someone scrolling.
+**Idea:** an ad has about half a second to stop someone scrolling, and Mez Media makes ads that win that half second.
 
 | Time | What's on screen | What you say (or write as on-screen text) |
 |---|---|---|
 | 0–2s | Fast phone scroll through Instagram | "You have **half a second**." |
 | 2–6s | Freeze on one ad | "That's how long an ad gets before people scroll past." |
-| 6–14s | You at a desk/laptop, or your hands on a keyboard | "I'm Mueez, and this is Halfsecond. I help UK skincare brands make Meta and TikTok ads that stop the scroll and bring in customers." |
+| 6–14s | You at a desk/laptop, or your hands on a keyboard | "I'm Mueez, and this is Mez Media. I help UK skincare brands make Meta and TikTok ads that stop the scroll and bring in customers." |
 | 14–22s | Screen recording: scrolling Meta Ad Library | "Every week I'll break down real skincare ads: what works, and what I'd test next." |
 | 22–30s | Logo / text card | "Run a skincare brand? DM me **TEARDOWN** and I'll review your ads for free." |
 
 - **No face?** That's fine. Use your voice over screen recordings and add big captions (CapCut auto-captions are free).
-- **Caption:** `You have half a second to stop the scroll. Halfsecond helps UK skincare brands make that half second count. Free ad teardowns every week. DM TEARDOWN for yours.`
+- **Caption:** `You have half a second to stop the scroll. Mez Media helps UK skincare brands win it. Free ad teardowns every week. DM TEARDOWN for yours.`
 - **Hashtags:** `#metaads #tiktokads #skincarebrand #ukskincare #paidsocial #indiebeauty`
 
 Don't claim results, clients or years of experience in this video. It's a launch, and saying "new" is fine.
@@ -44,7 +44,7 @@ Make it in Canva, 6 slides, big text, plain background.
 3. Example: you sell a facial oil for **£30**. Making + shipping + fees cost **£9**. Margin = 70%.
 4. 1 ÷ 0.70 = **1.43**. Below 1.43, every new order loses money.
 5. Want to beat it? Sell a **set** (e.g. £55) instead of one item. The ad costs the same, but the basket is bigger.
-6. **Comment "ROAS" and I'll work out yours.** (Halfsecond logo)
+6. **Comment "ROAS" and I'll work out yours.** (Mez Media logo)
 
 **Caption:** `Most skincare brands set their ROAS target by gut feel. Work out your break-even first. Comment ROAS and I'll calculate yours.`
 

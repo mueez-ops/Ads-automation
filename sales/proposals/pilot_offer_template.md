@@ -1,8 +1,8 @@
-# Halfsecond — 30-Day Paid Social Pilot
+# Mez Media — 30-Day Paid Social Pilot
 
 **Prepared for:** [Brand] · [Contact name]
 **Date:** [YYYY-MM-DD]
-**Prepared by:** [Your name], Halfsecond
+**Prepared by:** [Your name], Mez Media
 
 ## What we'll find out
 

@@ -1,4 +1,4 @@
-# Halfsecond: client acquisition system
+# Mez Media: client acquisition system
 
 Paid social (Meta, then TikTok) for UK DTC skincare brands.
 
