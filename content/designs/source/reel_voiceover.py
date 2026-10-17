@@ -15,13 +15,11 @@ SR = 44100
 
 # (start second, text). Spelling is phonetic where the TTS needs help.
 LINES = [
-    (0.45, "Don't scroll."),
-    (3.55, "Closer."),
-    (7.1, "You watched this for seven seconds."),
-    (9.75, "Imagine it was your brand."),
-    (11.75, "We make content people can't scroll past."),
-    (17.75, "Mezz Media."),
-    (19.5, "Run a skincare brand? D M teardown, for a free ad review."),
+    (7.15, "You watched this for seven seconds."),
+    (9.25, "Now imagine it was your brand."),
+    (11.2, "We make content people can't scroll past."),
+    (15.45, "Mezz Media."),
+    (16.5, "Run a skincare brand? D M, teardown, for a free ad review."),
 ]
 
 
@@ -40,7 +38,7 @@ voice = np.zeros_like(bed)
 tmp = Path(tempfile.mkdtemp())
 for i, (start, text) in enumerate(LINES):
     f = tmp / f"l{i}.wav"
-    subprocess.run([sys.executable, "-m", "piper", "-m", VOICE, "-f", str(f), "--length-scale", "0.97", "--sentence-silence", "0.1"],
+    subprocess.run([sys.executable, "-m", "piper", "-m", VOICE, "-f", str(f), "--length-scale", "0.86", "--sentence-silence", "0.05"],
                    input=text.encode(), check=True, capture_output=True)
     x, sr = read_wav(f)
     x = np.interp(np.arange(int(len(x) * SR / sr)) * sr / SR, np.arange(len(x)), x)  # resample to 44.1k

@@ -1,4 +1,7 @@
-"""Sound design for the needle + water balloon reel, locked to reel_balloon_cues.json.
+"""Sound bed for the needle + water balloon reel, locked to reel_balloon_cues.json.
+
+Act 1 (until the needle stops): drone, watch ticks, heartbeat, no music.
+Act 2 (after the stop): driving beat, whooshes on each camera snap, riser, pop, logo hit, outro groove.
 
 Usage: python3 reel_balloon_audio.py <out.wav>
 """
@@ -59,6 +62,11 @@ def noise(length, k_low=1, decay=0.05, attack=0.001):
     return x * env(n, attack, decay)
 
 
+def hiss(length, decay):
+    x = noise(length, 1, decay)
+    return x - lowpass(x, 6)
+
+
 def whoosh(length=0.3):
     n = int(SR * length)
     x = rng.standard_normal(n)
@@ -67,65 +75,68 @@ def whoosh(length=0.3):
     return (dark * (1 - m) * 3 + bright * m) * np.sin(np.linspace(0, np.pi, n)) ** 1.5 * 0.5
 
 
-pop_t = cues["pop"]
+stop, pop_t = cues["stop"], cues["pop"]
 
-# 1. tension drone: two detuned low sines, swelling until the pop
-drone_env = np.clip(t_all / 1.5, 0, 1) * (0.35 + 0.65 * np.clip(t_all / pop_t, 0, 1) ** 2)
-drone_env[t_all >= cues["punch"]] *= np.clip(1 - (t_all[t_all >= cues["punch"]] - cues["punch"]) / 0.15, 0, 1)
-drone = (np.sin(2 * np.pi * 55 * t_all) + 0.6 * np.sin(2 * np.pi * 55.7 * t_all) + 0.25 * np.sin(2 * np.pi * 110.4 * t_all))
-drone *= 1 + 0.25 * np.sin(2 * np.pi * 0.5 * t_all)
-out += np.tanh(drone * 0.8) * drone_env * 0.22
-
-# 2. watch-tick on every elapsed second (matches the attention timer)
-for s in range(1, int(cues["punch"]) + 1):
+# ---- act 1: tension ----
+act1 = t_all < stop
+drone = np.sin(2 * np.pi * 55 * t_all) + 0.6 * np.sin(2 * np.pi * 55.7 * t_all) + 0.25 * np.sin(2 * np.pi * 110.4 * t_all)
+drone_env = np.clip(t_all / 1.2, 0, 1) * (0.4 + 0.6 * np.clip(t_all / stop, 0, 1) ** 2) * act1
+out += np.tanh(drone * 0.8) * drone_env * 0.24
+for s in range(1, int(stop) + 1):
     add(tone(3200, 0.04, 0.0005, 0.006), s, 0.32)
-    add(noise(0.03, 1, 0.004), s, 0.1)
-
-# 3. heartbeat, speeding up from 70 to 130 bpm
-t = 0.6
-while t < cues["punch"] - 0.2:
-    bpm = 70 + 60 * (t / cues["punch"]) ** 1.5
+    add(noise(0.03, 1, 0.004), s, 0.08)
+t = 0.5
+while t < stop - 0.25:
+    bpm = 72 + 58 * (t / stop) ** 1.5
     add(thump(70, 38, 0.25, 0.07), t, 0.55)
     add(thump(62, 36, 0.22, 0.06), t + 0.16, 0.38)
     t += 60 / bpm
 
-# 4. whooshes / hits for camera cuts and text
-for c in (cues["macroIn"], cues["macroOut"]):
-    add(whoosh(0.25), c - 0.18, 0.5)
-    add(thump(140, 50, 0.3, 0.08), c, 0.5)
-add(tone(1760, 0.6, 0.002, 0.25) * 0.6 + tone(2640, 0.6, 0.002, 0.2) * 0.3, cues["held"], 0.4)  # "7 seconds" ding
-for c, lags in ((cues["textA"], (0.35,)), (cues["textB"], (0.35,)), (cues["textC"], (0.0, 0.3, 0.6))):
-    for lag in lags:
-        add(whoosh(0.22), c + lag - 0.05, 0.4)
-        add(thump(160, 55, 0.25, 0.06), c + lag, 0.45)
+# ---- the dead stop: metallic clack, then a breath of silence ----
+clack = tone(2900, 0.25, 0.0005, 0.05) * 0.6 + tone(4400, 0.25, 0.0005, 0.03) * 0.4
+add(clack, stop, 0.7)
+add(hiss(0.05, 0.006), stop, 0.5)
+add(thump(160, 60, 0.2, 0.05), stop, 0.6)
 
-# 5. riser into the pop, then near-silence for the last beat
-n = int(SR * 0.9)
-r = rng.standard_normal(n)
-r = (r - lowpass(r, 6)) * np.linspace(0, 1, n) ** 3
-add(r, pop_t - 0.9, 0.35)
-
-# 6. the pop: sharp crack + body thump + water splash tail + droplet patter
-add(noise(0.08, 1, 0.012) * 1.0, pop_t, 1.0)
-add(thump(220, 40, 0.6, 0.14), pop_t, 1.0)
-splash = noise(1.6, 3, 0.35, 0.01) - lowpass(noise(1.6, 3, 0.35, 0.01), 30)
-add(splash, pop_t + 0.02, 0.7)
-for i in range(70):
-    tt = pop_t + 0.25 + rng.random() * 2.2
-    add(noise(0.02, 2, 0.005) * (0.3 + rng.random() * 0.5), tt, 0.35)
-
-# 7. logo hit + light outro groove under the call to action
-add(thump(180, 45, 0.5, 0.12), cues["logo"], 0.9)
-add(whoosh(0.4), cues["logo"] - 0.3, 0.5)
-beat = 60 / 118
+# ---- act 2: drive ----
+beat = 60 / 128
 k = 0
-while cues["cta"] + k * beat < DUR - 0.6:
+while cues["snaps"][0] + k * beat < cues["punch"] - 0.05:
+    tt = cues["snaps"][0] + k * beat
+    add(thump(115, 42, 0.3, 0.09), tt, 0.6)
+    add(hiss(0.05, 0.012), tt + beat / 2, 0.22)
+    if k % 2 == 1:
+        add(hiss(0.12, 0.05), tt, 0.28)  # snare-ish on the backbeat
+    k += 1
+for c in cues["snaps"]:
+    add(whoosh(0.28), c - 0.1, 0.65)
+for b in cues["beats"]:
+    add(thump(170, 60, 0.22, 0.05), b, 0.4)
+
+# riser into the pop, then silence right before it
+n = int(SR * (pop_t - cues["punch"] + 0.5))
+r = rng.standard_normal(n)
+add((r - lowpass(r, 6)) * np.linspace(0, 1, n) ** 3, cues["punch"] - 0.5, 0.4)
+
+# ---- the pop ----
+add(noise(0.08, 1, 0.012), pop_t, 1.0)
+add(thump(220, 40, 0.6, 0.14), pop_t, 1.0)
+spl = noise(1.6, 3, 0.35, 0.01)
+add(spl - lowpass(spl, 30), pop_t + 0.02, 0.7)
+for _ in range(70):
+    add(noise(0.02, 2, 0.005) * (0.3 + rng.random() * 0.5), pop_t + 0.25 + rng.random() * 1.6, 0.35)
+
+# ---- logo + outro ----
+add(whoosh(0.4), cues["logo"] - 0.3, 0.5)
+add(thump(180, 45, 0.5, 0.12), cues["logo"], 0.9)
+k = 0
+while cues["cta"] + k * beat < DUR - 0.5:
     tt = cues["cta"] + k * beat
     add(thump(120, 42, 0.3, 0.1), tt, 0.5)
-    add(noise(0.05, 1, 0.015) - lowpass(noise(0.05, 1, 0.015), 6), tt + beat / 2, 0.18)
+    add(hiss(0.05, 0.015), tt + beat / 2, 0.18)
     k += 1
 
-fade = int(SR * 0.8)
+fade = int(SR * 0.6)
 out[-fade:] *= np.linspace(1, 0, fade)
 out = np.tanh(out / np.max(np.abs(out)) * 1.3) * 0.85
 pcm = (np.stack([out, out], axis=1) * 32767).astype(np.int16)

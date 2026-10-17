@@ -6,12 +6,13 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 
 const [FRAMES, OUT, flag, list] = process.argv.slice(2);
-const FPS = 30, DURATION = 25;
+const FPS = 30, DURATION = 21.5;
 const FONTS = path.join(__dirname, 'fonts');
 const font = (f) => `url(data:font/ttf;base64,${fs.readFileSync(path.join(FONTS, f)).toString('base64')})`;
 
 // Key moments, shared with the audio script.
-const CUES = { approachEnd: 0.9, macroIn: 3.4, macroOut: 5.7, held: 7.0, textA: 7.1, textB: 9.7, textC: 11.7, punch: 14.5, pop: 14.85, logo: 17.6, cta: 19.4, end: DURATION };
+const CUES = { stop: 7.0, textA: 7.15, textB: 9.25, textC: 11.2, punch: 13.55, pop: 13.95, logo: 15.4, cta: 16.5, end: DURATION,
+  snaps: [7.15, 9.2, 11.1, 13.55], beats: [11.2, 11.7, 12.2, 12.75, 16.5, 17.75, 18.1] };
 fs.writeFileSync(path.join(__dirname, 'reel_balloon_cues.json'), JSON.stringify(CUES));
 
 const html = `<!doctype html><html><head><meta charset="utf-8"><style>
@@ -38,21 +39,21 @@ canvas{position:absolute;inset:0}
   <div class="hud" id="hudL" style="left:80px"><span class="dot"></span>Attention held<b id="tm">00.0s</b></div>
   <div class="hud" id="hudR" style="right:80px;text-align:right">Gap<b id="gap">40.00 mm</b></div>
 
-  <div class="txt" id="A"><div class="small it" data-a="up" data-at="0">You just watched this for</div>
-    <div class="hook" style="font-size:190px;margin-top:22px"><span class="mark it" data-a="wipe" data-at="0.35" style="font-size:150px">7 SECONDS.</span></div></div>
+  <div class="txt" id="A"><div class="small it" data-a="up" data-at="0">You watched this for</div>
+    <div class="hook" style="font-size:150px;margin-top:22px"><span class="mark it" data-a="wipe" data-at="0.85">7 SECONDS.</span></div></div>
   <div class="txt" id="B"><div class="small it" data-a="up" data-at="0">Now imagine it was</div>
-    <div class="hook" style="font-size:190px;margin-top:22px"><span class="mark it" data-a="wipe" data-at="0.35" style="font-size:150px">YOUR BRAND.</span></div></div>
-  <div class="txt" id="C"><div class="hook" style="font-size:108px"><div class="it" data-a="slam" data-at="0">WE MAKE CONTENT</div><div class="it" data-a="slam" data-at="0.3">PEOPLE CAN'T</div>
-    <span class="mark it" data-a="wipe" data-at="0.6">SCROLL PAST.</span></div></div>
+    <div class="hook" style="font-size:150px;margin-top:22px"><span class="mark it" data-a="wipe" data-at="1.0">YOUR BRAND.</span></div></div>
+  <div class="txt" id="C"><div class="hook" style="font-size:112px"><div class="it" data-a="slam" data-at="0">WE MAKE</div><div class="it" data-a="slam" data-at="0.5">CONTENT</div><div class="it" data-a="slam" data-at="1.0">PEOPLE CAN'T</div>
+    <span class="mark it" data-a="wipe" data-at="1.55">SCROLL PAST.</span></div></div>
 
   <div class="center" id="D"><div class="hook it" data-a="slam" data-at="0" style="font-size:330px;text-transform:none;letter-spacing:-.06em">mez<span class="it" data-a="pop" data-at="0.4" style="color:#14B07F;display:inline-block">.</span></div>
     <div class="it" data-a="track" data-at="0.5" style="font-family:Body;font-weight:700;font-size:62px;color:rgba(255,255,255,.7);margin-top:24px">MEDIA</div></div>
   <div class="center" id="E" style="align-items:flex-start;text-align:left">
     <div class="small it" data-a="up" data-at="0" style="color:#fff">Run a skincare brand?</div>
-    <div class="hook it" data-a="slam" data-at="0.35" style="font-size:200px;margin-top:36px">DM</div>
-    <div class="hook" style="font-size:124px;margin-top:10px"><span class="mark it" data-a="wipe" data-at="0.6">“TEARDOWN”</span></div>
-    <div class="small it" data-a="up" data-at="1.0" style="margin-top:50px;font-size:44px;color:rgba(255,255,255,.7)">Free 2-minute review of your ads.</div>
-    <div class="it" data-a="up" data-at="1.2" style="margin-top:22px;font-family:Body;font-weight:700;font-size:48px;color:#14B07F">@mezmedia_0</div>
+    <div class="hook it" data-a="slam" data-at="1.25" style="font-size:200px;margin-top:36px">DM</div>
+    <div class="hook" style="font-size:124px;margin-top:10px"><span class="mark it" data-a="wipe" data-at="1.6">“TEARDOWN”</span></div>
+    <div class="small it" data-a="up" data-at="2.3" style="margin-top:50px;font-size:44px;color:rgba(255,255,255,.7)">Free 2-minute review of your ads.</div>
+    <div class="it" data-a="up" data-at="2.7" style="margin-top:22px;font-family:Body;font-weight:700;font-size:48px;color:#14B07F">@mezmedia_0</div>
   </div>
 </div>
 <script>
@@ -74,9 +75,8 @@ const CONTACT={x:BX-A, y:BY-6};
 const MM=14;                                    // px per mm
 
 function gapMM(t){
-  if(t<C.approachEnd) return lerp(40,12,outExpo(t/C.approachEnd));
-  if(t<C.held) return 0.22+(12-0.22)*Math.exp(-(t-C.approachEnd)*0.75);
-  if(t<C.punch) return 0.22+ (0.2-0.22)*sstep((t-C.held)/(C.punch-C.held));
+  if(t<C.stop) return 0.2+17.8*(1-t/C.stop);          // constant creep...
+  if(t<C.punch) return 0.2;                             // ...dead stop
   if(t<C.pop) return 0.2*(1-sstep((t-C.punch)/(C.pop-C.punch)));
   return 0;
 }
@@ -97,24 +97,34 @@ function outline(t,dimple){
 function pathOf(pts){g.beginPath();pts.forEach(([x,y],i)=>i?g.lineTo(x,y):g.moveTo(x,y));g.closePath()}
 
 // ---------- camera ----------
-const shots=[ // [t, zoom, fx, fy] ; hard cut when next key has cut:true
-  {t:0,z:1.0,fx:560,fy:1020},{t:C.approachEnd,z:1.12,fx:520,fy:1060},{t:C.macroIn-0.01,z:1.42,fx:450,fy:1110},
-  {t:C.macroIn,z:3.9,fx:CONTACT.x-30,fy:CONTACT.y,cut:true},{t:C.macroOut-0.01,z:3.2,fx:CONTACT.x-10,fy:CONTACT.y+10},
-  {t:C.macroOut,z:1.2,fx:520,fy:1000,cut:true},{t:C.punch,z:1.36,fx:470,fy:1010},
-  {t:C.pop,z:2.3,fx:CONTACT.x+40,fy:CONTACT.y},{t:C.pop+1.6,z:1.08,fx:560,fy:1060},{t:C.end,z:0.98,fx:560,fy:1040}];
+// Each key eases from the previous one. 'e' picks the curve: smooth (s) or snappy (x).
+const shots=[
+  {t:0,z:1.75,fx:CONTACT.x-70,fy:CONTACT.y+30,r:0},
+  {t:C.stop,z:2.7,fx:CONTACT.x-25,fy:CONTACT.y+5,r:0,e:'s'},            // one continuous push-in
+  {t:C.snaps[0],z:2.7,fx:CONTACT.x-25,fy:CONTACT.y+5,r:0},
+  {t:C.snaps[0]+0.32,z:1.15,fx:560,fy:1010,r:-0.05,e:'x'},             // snap out
+  {t:C.snaps[1],z:1.27,fx:540,fy:1010,r:-0.02,e:'s'},
+  {t:C.snaps[1]+0.3,z:1.9,fx:700,fy:1045,r:0.08,e:'x'},                // whip to the highlight side
+  {t:C.snaps[2],z:2.05,fx:680,fy:1040,r:0.06,e:'s'},
+  {t:C.snaps[2]+0.28,z:1.3,fx:430,fy:1020,r:0,e:'x'},                  // snap wide
+  {t:C.punch,z:1.46,fx:630,fy:1030,r:-0.02,e:'s'},                     // dolly across
+  {t:C.pop,z:3.3,fx:CONTACT.x+30,fy:CONTACT.y,r:0.03,e:'x'},           // punch in to the tip
+  {t:C.pop+1.4,z:1.05,fx:560,fy:1050,r:-0.04,e:'s'},
+  {t:C.end,z:0.98,fx:560,fy:1040,r:0,e:'s'}];
 function camera(t){
   let i=0;while(i<shots.length-1&&shots[i+1].t<=t)i++;
   const a=shots[i],b=shots[Math.min(i+1,shots.length-1)];
-  const k=b===a||b.cut?0:sstep((t-a.t)/(b.t-a.t));
-  let z=lerp(a.z,b.z,k),fx=lerp(a.fx,b.fx,k),fy=lerp(a.fy,b.fy,k);
-  // handheld drift
-  fx+=Math.sin(t*0.9)*6+Math.sin(t*2.3)*2; fy+=Math.cos(t*0.7)*5;
-  // pop shake
-  const u=t-C.pop; let sx=0,sy=0;
-  if(u>0&&u<0.9){const e=Math.exp(-u*5)*26;sx=Math.sin(u*90)*e;sy=Math.cos(u*77)*e}
-  return {z,tx:W/2-fx*z+sx,ty:H/2-fy*z+sy};
+  let k=b===a?0:clamp((t-a.t)/(b.t-a.t)); k=b.e==='x'?outExpo(k):sstep(k);
+  let z=lerp(a.z,b.z,k),fx=lerp(a.fx,b.fx,k),fy=lerp(a.fy,b.fy,k),r=lerp(a.r,b.r,k);
+  // zoom pulse on each word / beat after the stop
+  C.beats.forEach(bt=>{if(t>bt)z*=1+0.05*Math.exp(-(t-bt)/0.12)});
+  // gentle handheld drift only after the stop (the opening shot stays locked)
+  if(t>C.stop){fx+=Math.sin(t*1.3)*7;fy+=Math.cos(t*1.1)*6}
+  let sx=0,sy=0;
+  const st=t-C.stop; if(st>0&&st<0.35){const e=Math.exp(-st*14)*14;sx+=Math.sin(st*120)*e;sy+=Math.cos(st*97)*e}
+  const u=t-C.pop; if(u>0&&u<0.9){const e=Math.exp(-u*5)*26;sx+=Math.sin(u*90)*e;sy+=Math.cos(u*77)*e}
+  return {z,fx,fy,r,sx,sy,tx:W/2-fx*z,ty:H/2-fy*z};
 }
-
 // ---------- backdrop ----------
 const bokeh=[];for(let i=0;i<14;i++)bokeh.push({x:rnd()*W,y:rnd()*H*0.7,r:30+rnd()*120,a:0.03+rnd()*0.06,p:0.2+rnd()*0.5});
 function backdrop(t,cam){
@@ -252,13 +262,13 @@ function anim(el,lt){
   else if(a==='pop'){el.style.transform='scale('+(0.2+0.8*outBack(clamp(p/0.16)))+')'}
   else if(a==='track'){const k=outExpo(clamp(p/0.5));el.style.letterSpacing=(0.1+0.5*k)+'em';el.style.opacity=k}
 }
-const groups=[['A',C.textA,C.textB],['B',C.textB,C.textC],['C',C.textC,C.punch],['D',C.logo,C.cta],['E',C.cta,C.end+1]];
+const groups=[['A',C.textA,C.textB],['B',C.textB,C.textC],['C',C.textC,C.punch+0.1],['D',C.logo,C.cta],['E',C.cta,C.end+1]];
 
 window.setTime=(t)=>{
   seed=7; // (all random tables are built once above; nothing random per frame)
   const cam=camera(t);
   backdrop(t,cam);
-  g.setTransform(cam.z,0,0,cam.z,cam.tx,cam.ty);
+  g.setTransform(1,0,0,1,0,0);g.translate(W/2+cam.sx,H/2+cam.sy);g.rotate(cam.r);g.scale(cam.z,cam.z);g.translate(-cam.fx,-cam.fy);
   floor(t);
   if(t<C.pop){
     const dim=t>C.punch?6*sstep((t-C.punch)/(C.pop-C.punch)):0;
@@ -274,11 +284,12 @@ window.setTime=(t)=>{
   const u=t-C.pop; if(u>=0&&u<0.14){g.fillStyle='rgba(235,255,248,'+(0.85*(1-u/0.14))+')';g.fillRect(0,0,W,H)}
   if(t>C.logo-0.4){g.fillStyle='rgba(5,15,21,'+(0.82*sstep((t-C.logo+0.4)/0.5))+')';g.fillRect(0,0,W,H)}
   // HUD
-  const showHud=t>0.25&&t<C.pop;
+  const showHud=t>0.25&&t<C.stop+0.2;
   ['hudL','hudR'].forEach(id=>document.getElementById(id).style.opacity=showHud?clamp((t-0.25)/0.3):0);
   document.getElementById('tm').textContent=String(Math.min(t,99).toFixed(1)).padStart(4,'0')+'s';
   document.getElementById('gap').textContent=gapMM(t).toFixed(2)+' mm';
-  document.getElementById('tm').style.color=(t>C.held-0.05&&t<C.textB)?'#14B07F':'#fff';
+  document.getElementById('tm').textContent=String(Math.min(t,C.stop).toFixed(1)).padStart(4,'0')+'s';
+  document.getElementById('tm').style.color=t>=C.stop?'#14B07F':'#fff';document.getElementById('gap').style.color=t>=C.stop?'#14B07F':'#fff';
   groups.forEach(([id,a,b])=>{const el=document.getElementById(id);const on=t>=a&&t<b;
     el.style.display=on?(id==='D'||id==='E'?'flex':'block'):'none';if(on)el.querySelectorAll('.it').forEach(e=>anim(e,t-a))});
 };
