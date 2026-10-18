@@ -21,7 +21,7 @@ N = int(SR * DUR)
 music = np.zeros(N)
 sfx = np.zeros(N)
 rng = np.random.default_rng(5)
-BEAT = 0.5
+BEAT = C["beat"]
 B0 = C["words"][0] - BEAT * np.ceil((C["words"][0] - 0.6) / BEAT)  # beat grid lands on Hook/Story/Offer/Scale
 
 
@@ -261,7 +261,7 @@ for i in range(str_len):
     add(sfx, hp(noise(0.02, 0.004), 2) * (0.6 + 0.4 * rng.random()), ty0 + (ty1 - ty0) * i / str_len, 0.3)
 # feed swipes
 for i in range(6):
-    add(sfx, whoosh(0.22, 1.2), C["everyday"][0] + 0.25 + i * 1260 / 2300, 0.35)
+    add(sfx, whoosh(0.22, 1.2), C["everyday"][0] + 0.2 + i * 1260 / 2900, 0.35)
 add(sfx, whoosh(0.5), C["thumb"][0] - 0.1, 0.5)
 # connect-the-dots plinks, rising
 segT = (Wd["dots"] - C["connect"][0] - 0.35) / 8
@@ -287,13 +287,13 @@ vo = read_wav(sys.argv[1])[:N]
 vo = np.pad(vo, (0, N - len(vo)))
 vo /= np.max(np.abs(vo)) + 1e-9
 level = np.convolve(np.abs(vo), np.ones(int(SR * 0.04)) / (SR * 0.04), mode="same")
-duck = 1 - 0.62 * np.clip(level * 7, 0, 1)
+duck = 1 - 0.72 * np.clip(level * 7, 0, 1)
 duck = np.convolve(duck, np.ones(int(SR * 0.06)) / (SR * 0.06), mode="same")
 music /= np.max(np.abs(music)) + 1e-9
 sfx /= np.max(np.abs(sfx)) + 1e-9
 # a little presence on the voice: gentle saturation + high-shelf via added high-pass
 vo = np.tanh((vo + 0.25 * hp(vo, 6)) * 1.3) / np.tanh(1.3)
-mix = music * duck * 0.5 + sfx * (0.4 + 0.25 * duck) + vo * 0.95
+mix = music * duck * 0.42 + sfx * (0.3 + 0.25 * duck) + vo * 1.25  # voice sits clearly on top
 fade = int(SR * 0.4)
 mix[-fade:] *= np.linspace(1, 0, fade)
 mix = np.tanh(mix / np.max(np.abs(mix)) * 1.25) * 0.9

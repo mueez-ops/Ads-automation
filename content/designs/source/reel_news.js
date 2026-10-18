@@ -15,11 +15,8 @@ const b64 = (p, mime) => `data:${mime};base64,${fs.readFileSync(p).toString('bas
 const font = (f) => `url(${b64(path.join(FONTS, f), f.endsWith('woff2') ? 'font/woff2' : f.endsWith('otf') ? 'font/otf' : 'font/ttf')})`;
 const IMGS = Object.fromEntries(fs.readdirSync(PHOTOS).filter((f) => f.endsWith('.jpg')).map((f) => [f.slice(0, -4), b64(path.join(PHOTOS, f), 'image/jpeg')]));
 
-// Word-level moments inside the voice lines (offsets measured with whisper on the generated read).
-const W = {
-  stop1: C.thumb[0] + 0.62, stop2: C.witness[0] + 0.86, scrolled: C.everyday[0] + 1.6, dots: C.connect[0] + 0.8,
-  cant: C.cant[0] + 0.2, scroll: C.cant[0] + 0.67, teardown: C.dm[0] + 0.45, back: C.back[0] + 0.16, scrolling: C.back[0] + 0.85,
-};
+// Word-level moments inside the voice lines (found with whisper by reel_news_vo.py).
+const W = { ...C.at };
 W.tvoff = C.back[1] + 0.3;
 W.click = C.cant[0] - 0.06;
 
@@ -245,7 +242,7 @@ function sFeed(t){
   const t0=C.everyday[0];
   s.fillStyle='#050505';s.fillRect(0,0,W,H);
   const imgs=['ring_oval','fashion_kneel','perfume','ring_pear','fashion_walk','ring_black','lens_wide'];
-  const pitch=1260, speed=2300, start=-(t-t0)*speed+700;
+  const pitch=1260, speed=2900, start=-(t-t0)*speed+700;
   for(let i=0;i<imgs.length;i++){
     const cy=start+i*pitch+700;if(cy<-700||cy>H+700)continue;
     const passT=t0+(i*pitch+700+700-760)/speed;   // when the card reaches the upper area
@@ -388,7 +385,7 @@ function sLogo(t){
 const COLS=[['ring_oval','fashion_walk','perfume','lens_24'],['model_profile','ring_pear','fashion_kneel','ring_black'],['lens_wide','perfume','ring_oval','fashion_walk']];
 function photoWall(t,dim){
   s.fillStyle='#000';s.fillRect(0,0,W,H);
-  COLS.forEach((col,ci)=>{const dir=ci%2?1:-1, off=((t*90*dir)%2080+2080)%2080;
+  COLS.forEach((col,ci)=>{const dir=ci%2?1:-1, off=((t*170*dir)%2080+2080)%2080;
     for(let r=-1;r<col.length+1;r++){const k=col[(r+col.length)%col.length];const y=r*520-off+(ci%2?-260:0);
       s.save();rr(30+ci*345,y,330,500,20);s.clip();photo(IMG[k],30+ci*345,y,330,500,1);s.restore()}});
   shade(dim);vignette(s,0.9);
@@ -460,7 +457,8 @@ window.setTime=(t)=>{
     for(let i=0;i<n;i++){drawScene(t-i*(1/FPS)*0.6/n);a.globalAlpha=1/(i+1);a.drawImage(SC,0,0)}a.globalAlpha=1}
   else{drawScene(t);a.globalAlpha=1;a.drawImage(SC,0,0)}
   // camera
-  let z=1;PUNCH.forEach(e=>{const u=t-e;if(u>=0&&u<0.5)z+=0.045*Math.exp(-u/0.09)});
+  let z=1+0.06*clamp((t-sc[0])/(Math.min(sc[1],C.end)-sc[0]));   // every shot keeps pushing in
+  PUNCH.forEach(e=>{const u=t-e;if(u>=0&&u<0.5)z+=0.05*Math.exp(-u/0.08)});
   let sx=0,sy=0;SHAKE.forEach(e=>{const u=t-e;if(u>=0&&u<0.5){const m=Math.exp(-u*9)*22;sx+=Math.sin(u*93+e)*m;sy+=Math.cos(u*71+e)*m}});
   g.setTransform(1,0,0,1,0,0);g.fillStyle='#000';g.fillRect(0,0,W,H);
   g.translate(W/2+sx,H/2+sy);g.scale(z,z);g.translate(-W/2,-H/2);
