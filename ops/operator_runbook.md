@@ -1,4 +1,6 @@
-# Operator runbook (what each scheduled check-in does)
+# Operator runbook (what each check-in does)
+
+**Mode: manual (Option B, chosen 18 Oct 2026).** Mueez sends "check" on weekdays and Claude runs the steps below. There are no automatic scheduled runs.
 
 Mueez has given standing approval for Claude to send the scheduled outreach, follow-ups and replies described here, from mueez777666@gmail.com, following `sales/reply_playbook.md`.
 
