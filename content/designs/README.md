@@ -26,3 +26,27 @@ Upload carousel slides in number order (01, 02, 03…).
 **3 things I check**
 > 3 things I check in every skincare ad. Under a minute. Most fixes cost less than more ad spend. Want yours checked? DM "TEARDOWN".
 > #adteardown #metaads #skincaremarketing #creativestrategy #ukskincare
+
+## Reel: "Breaking news" launch (black and white)
+File: `reels/mezmedia_breaking_news_launch.mp4` (1080×1920, 30fps, about 32s, voiceover + music + SFX, -14 LUFS).
+Rebuild: `python3 source/reel_news_vo.py <kokoro-dir> <tmp>` → `node source/reel_news.js <frames> <video.mp4>` → `python3 source/reel_news_audio.py <tmp>/vo.wav <mix.wav>`, then mux. Photos are free Pexels images converted to black and white (`source/photos/`).
+
+**Script**
+> Breaking news. A thumb has stopped scrolling. Witnesses say it stopped… for an ad.
+> Every day, brands pay to be scrolled past. Scattered posts. Random boosts. No plan.
+> So we connect the dots. Hook. Story. Offer. Scale.
+> So we build ads… people can't scroll past.
+> Mez Media. Now live.
+> Run a brand? DM us "teardown". Your first ad review is on us.
+> Now… back to your scrolling.
+
+**Caption**
+> BREAKING: a thumb stopped scrolling. 🗞️
+>
+> Most brands pay for ads people scroll straight past. We build the other kind: hook, story, offer, scale.
+>
+> Mez Media is now live. Paid ads for brands.
+>
+> Run a brand? DM us "TEARDOWN" and we'll review your ads for free.
+>
+> #paidads #metaads #instagramads #facebookads #ecommerce #shopify #dtcbrand #adcreative #brandgrowth #mezmedia
