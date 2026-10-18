@@ -28,7 +28,7 @@ Upload carousel slides in number order (01, 02, 03…).
 > #adteardown #metaads #skincaremarketing #creativestrategy #ukskincare
 
 ## Reel: "Breaking news" launch (black and white)
-File: `reels/mezmedia_breaking_news_launch.mp4` (1080×1920, 30fps, about 32s, voiceover + music + SFX, -14 LUFS).
+File: `reels/mezmedia_breaking_news_launch.mp4` (1080×1920, 30fps, about 24.5s, deep British voiceover (Kokoro bm_lewis, fast read) + music + SFX, -14 LUFS).
 Rebuild: `python3 source/reel_news_vo.py <kokoro-dir> <tmp>` → `node source/reel_news.js <frames> <video.mp4>` → `python3 source/reel_news_audio.py <tmp>/vo.wav <mix.wav>`, then mux. Photos are free Pexels images converted to black and white (`source/photos/`).
 
 **Script**

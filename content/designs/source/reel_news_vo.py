@@ -33,7 +33,7 @@ LINES = [
     ("hsos", "Hook. Story. Offer. Scale.", 0.18),
     ("build", "So we build ads...", 0.18),
     ("cant", "people can't scroll past.", 0.20),
-    ("brand", "Mezz Media.", 0.45),
+    ("brand", "Mezz Media.", 0.40),  # read slower (see SLOWER) so the "M" isn't swallowed
     ("live", "Now live.", 0.06),
     ("run", "Run a brand?", 0.30),
     ("dm", "D M us, teardown.", 0.05),
@@ -41,6 +41,7 @@ LINES = [
     ("back", "Now... back to your scrolling.", 0.35),
 ]
 TAIL = 1.2
+SLOWER = {"brand": 1.12}  # per-line speed overrides
 WORD_BEAT = 0.4  # "Hook. Story. Offer. Scale." lands one word per beat (150 BPM); the music uses the same grid
 # Words the visuals hit exactly: (name, line, word as whisper spells it, fallback position in the line 0..1)
 WORD_HITS = [("stop1", "thumb", "stopped", 0.36), ("stop2", "witness", "stopped", 0.58), ("scrolled", "everyday", "scrolled", 0.6),
@@ -50,11 +51,21 @@ WORD_HITS = [("stop1", "thumb", "stopped", 0.36), ("stop2", "witness", "stopped"
 k = Kokoro(str(KDIR / "kokoro-v1.0.onnx"), str(KDIR / "voices-v1.0.bin"))
 
 
+PRE = 0.07  # extra lead-in kept before each line so soft starts like the "M" in "Mez" aren't clipped
+
+
 def trim(x, sr, thr=0.006):
     e = np.convolve(np.abs(x), np.ones(240) / 240, mode="same")
     idx = np.where(e > thr)[0]
     a, b = max(0, idx[0] - int(0.05 * sr)), min(len(x), idx[-1] + int(0.06 * sr))
     return x[a:b]
+
+
+def lead_in(x, sr):
+    """The same line with PRE seconds more of its own onset (placed PRE earlier, so timing is unchanged)."""
+    e = np.convolve(np.abs(x), np.ones(240) / 240, mode="same")
+    a = max(0, np.where(e > 0.006)[0][0] - int((0.05 + PRE) * sr))
+    return x[a:]
 
 
 def split_words(x, sr, n):
@@ -78,8 +89,8 @@ def split_words(x, sr, n):
 
 clips, cues, t = [], {}, 0.0
 for key, text, gap in LINES:
-    s, sr = k.create(text, voice=VOICE, speed=SPEED, lang="en-gb")
-    s = trim(s, sr)
+    raw, sr = k.create(text, voice=VOICE, speed=SLOWER.get(key, SPEED), lang="en-gb")
+    s = trim(raw, sr)
     t += gap
     if key == "hsos":  # one read keeps the tone; each word is then placed on its own beat
         words = split_words(s, sr, 4)
@@ -88,7 +99,8 @@ for key, text, gap in LINES:
             clips.append((w0, w))
         s = np.zeros(int((cues["words"][-1] - t) * sr) + len(words[-1]))
     else:
-        clips.append((t, s))
+        full = lead_in(raw, sr)[: len(s) + int(PRE * sr)]
+        clips.append((t - PRE, np.concatenate([np.zeros(int(PRE * sr) - (len(full) - len(s))), full]) if len(full) - len(s) < int(PRE * sr) else full))
     cues[key] = [round(t, 3), round(t + len(s) / sr, 3)]
     print(f"{t:6.2f}  {len(s)/sr:4.2f}s  {text}")
     t += len(s) / sr

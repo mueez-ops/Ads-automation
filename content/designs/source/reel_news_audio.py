@@ -194,8 +194,9 @@ pad(C["cant"][0], C["brand"][0] - 0.3, [73.4, 110.0, 146.8, 220.0], 0.07)
 add(music, riser(0.8), C["brand"][0] - 1.1, 0.4)
 
 # logo boom + shimmer, then a lighter CTA groove
-add(music, impact(1.4), C["brand"][0], 1.1)
-add(music, chord([73.4, 146.8, 220.0, 293.7, 370.0], 3.0, 1.1, "saw", 30), C["brand"][0], 0.35)
+LOGO_HIT = C["brand"][0] - 0.14  # lands just before "Mez" so the boom doesn't mask the name
+add(music, impact(1.4), LOGO_HIT, 1.1)
+add(music, chord([73.4, 146.8, 220.0, 293.7, 370.0], 3.0, 1.1, "saw", 30), LOGO_HIT, 0.25)
 groove(C["live"][0], C["back"][0] - 0.05, 0.55, hats=True, snr=True)
 pad(C["live"][0], C["back"][0], [146.8, 185.0, 220.0, 293.7], 0.045)
 
@@ -293,6 +294,13 @@ music /= np.max(np.abs(music)) + 1e-9
 sfx /= np.max(np.abs(sfx)) + 1e-9
 # a little presence on the voice: gentle saturation + high-shelf via added high-pass
 vo = np.tanh((vo + 0.25 * hp(vo, 6)) * 1.3) / np.tanh(1.3)
+# keep the brand name in the clear: the bed drops right back while "Mez Media" is said
+a0, a1 = int((C["brand"][0] - 0.02) * SR), int(C["brand"][1] * SR)
+clear = np.ones(N)
+clear[a0:a1] = 0.15
+clear = np.convolve(clear, np.ones(int(SR * 0.03)) / (SR * 0.03), mode="same")
+music *= clear
+sfx *= clear
 mix = music * duck * 0.42 + sfx * (0.3 + 0.25 * duck) + vo * 1.25  # voice sits clearly on top
 fade = int(SR * 0.4)
 mix[-fade:] *= np.linspace(1, 0, fade)
