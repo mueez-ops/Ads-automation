@@ -2,6 +2,8 @@
 
 All replies are sent from mueez777666@gmail.com, signed "Mueez, Mez Media", in plain, honest language and kept under ~90 words.
 
+**Wording rule (from Mueez):** never name a niche in our own description. Say "I run paid ads for brands" and sign "Mez Media: paid ads for brands", not "for jewellery/skincare/fashion brands". Mentioning the prospect's own products is fine.
+
 | They say | What I do |
 |---|---|
 | **Interested / "yes, send the teardown"** | Thank them. Send a written teardown within 24h: a short PDF on their site, offer and 3 ad concepts. Offer a 15-minute call with 3 time slots from Mueez's Google Calendar, within UK 10:00–17:00. |
