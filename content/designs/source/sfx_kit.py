@@ -98,7 +98,7 @@ def impact(scale=1.0):
     return y
 
 
-def mix_voice(music, sfx, voice, duck_depth=0.75, music_gain=0.4, sfx_gain=0.45, voice_gain=1.3):
+def mix_voice(music, sfx, voice, duck_depth=0.85, music_gain=0.3, sfx_gain=0.38, voice_gain=1.5):
     """Duck music and effects under the voice, put the voice clearly on top, soft-limit."""
     voice = voice / (np.max(np.abs(voice)) + 1e-9)
     level = np.convolve(np.abs(voice), np.ones(int(SR * 0.04)) / (SR * 0.04), mode="same")

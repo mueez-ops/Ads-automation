@@ -37,6 +37,8 @@ const FLASH=kinds(['flash','hit']).concat(SCENES.slice(1).map(x=>x[0]));
 const GLITCH=kinds(['glitch']);
 function decay(list,t,len){let v=0;list.forEach(e=>{const u=t-e;if(u>=0&&u<len)v=Math.max(v,1-u/len)});return v}
 const sceneAt=(t)=>SCENES.find(([a,b])=>t>=a&&t<b)||SCENES[SCENES.length-1];
+const CA1=mk(),CA1x=CA1.getContext('2d'),CA2=mk(),CA2x=CA2.getContext('2d');
+const BL=document.createElement('canvas');BL.width=270;BL.height=480;const BLx=BL.getContext('2d');
 window.setTime=(t)=>{
   const sc=sceneAt(t), n=sc[3]||0;
   a.globalAlpha=1;a.fillStyle='#000';a.fillRect(0,0,W,H);
@@ -49,6 +51,18 @@ window.setTime=(t)=>{
   g.translate(W/2+sx,H/2+sy);g.scale(z,z);g.translate(-W/2,-H/2);g.drawImage(AC,0,0);g.setTransform(1,0,0,1,0,0);
   const gl=decay(GLITCH,t,0.16);
   if(gl>0){seed=Math.floor(t*30)*13+5;for(let i=0;i<7;i++){const y=rnd()*H, h=20+rnd()*140, dx=(rnd()-.5)*160*gl;g.drawImage(out,0,y,W,h,dx,y,W,h)}}
+  // chromatic aberration on hits: red and cyan copies pulled apart
+  const ca=decay(PUNCH,t,0.25);if(ca>0&&typeof COLOR!=='undefined'){const d=Math.round(18*ca);
+    CA1x.globalCompositeOperation='copy';CA1x.drawImage(out,0,0);CA1x.globalCompositeOperation='multiply';CA1x.fillStyle='#f00';CA1x.fillRect(0,0,W,H);
+    CA2x.globalCompositeOperation='copy';CA2x.drawImage(out,0,0);CA2x.globalCompositeOperation='multiply';CA2x.fillStyle='#0ff';CA2x.fillRect(0,0,W,H);
+    g.globalCompositeOperation='copy';g.drawImage(CA1,-d,0);g.globalCompositeOperation='lighter';g.drawImage(CA2,d,0);g.globalCompositeOperation='source-over'}
+  if(typeof COLOR!=='undefined'){
+    // bloom: a blurred, brightened copy screened on top
+    BLx.filter='brightness(1.3) contrast(1.5) blur(5px)';BLx.drawImage(out,0,0,270,480);BLx.filter='none';
+    g.save();g.globalCompositeOperation='screen';g.globalAlpha=0.28;g.drawImage(BL,0,0,W,H);g.restore();
+    // drifting light leaks
+    g.save();g.globalCompositeOperation='screen';[['#FF8A3D',0.85,0.15],['#FF3B5C',0.1,0.75]].forEach(([c,fx,fy],i)=>{const x=W*fx+Math.sin(t*0.6+i)*220,y=H*fy+Math.cos(t*0.45+i)*220;
+      const q=g.createRadialGradient(x,y,0,x,y,760);q.addColorStop(0,c+'38');q.addColorStop(1,c+'00');g.fillStyle=q;g.fillRect(0,0,W,H)});g.restore()}
   const fl=decay(FLASH,t,0.1);if(fl>0){g.fillStyle='rgba(255,255,255,'+(0.6*fl*fl)+')';g.fillRect(0,0,W,H)}
   if(typeof overlay==='function')overlay(t);
   g.save();g.globalAlpha=0.07;g.globalCompositeOperation='overlay';g.drawImage(NOISE[Math.floor(t*30)%6],0,0,W,H);g.restore();
