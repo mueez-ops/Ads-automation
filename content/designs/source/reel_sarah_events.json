@@ -1,0 +1,252 @@
+{
+ "cues": {
+  "lines": {
+   "meet": {
+    "t": "Meet Sarah. 7:42 a.m., on the train, scrolling.",
+    "s": 0,
+    "e": 3.512
+   },
+   "thumb1": {
+    "t": "Her thumb is flying.",
+    "s": 3.512,
+    "e": 4.513
+   },
+   "appears": {
+    "t": "Then your ad appears.",
+    "s": 4.513,
+    "e": 5.691
+   },
+   "brain": {
+    "t": "Her brain asks one question.",
+    "s": 5.691,
+    "e": 7.246
+   },
+   "forme": {
+    "t": "\"Is this for me?\"",
+    "s": 7.246,
+    "e": 8.405
+   },
+   "logo": {
+    "t": "Your ad opens on your logo.",
+    "s": 8.405,
+    "e": 10.091
+   },
+   "files": {
+    "t": "Her brain sees a logo and files it under \"advert.\"",
+    "s": 10.091,
+    "e": 12.65
+   },
+   "slow": {
+    "t": "Her thumb doesn't even slow down.",
+    "s": 12.65,
+    "e": 14.365
+   },
+   "gone": {
+    "t": "Gone.",
+    "s": 14.365,
+    "e": 14.87
+   },
+   "nobody": {
+    "t": "But here's the part nobody tells you.",
+    "s": 14.87,
+    "e": 16.869
+   },
+   "watching": {
+    "t": "Meta was watching.",
+    "s": 16.869,
+    "e": 17.953
+   },
+   "skip": {
+    "t": "It saw Sarah skip. Then the next person. And the next.",
+    "s": 17.953,
+    "e": 21.46
+   },
+   "dislike": {
+    "t": "So Meta decides people don't like your ad.",
+    "s": 21.46,
+    "e": 24.436
+   },
+   "rewind": {
+    "t": "Now, rewind.",
+    "s": 24.436,
+    "e": 25.432
+   },
+   "same": {
+    "t": "Same train. Same Sarah.",
+    "s": 25.432,
+    "e": 26.89
+   },
+   "problem": {
+    "t": "This time, your ad opens on a problem she has.",
+    "s": 26.89,
+    "e": 29.44
+   },
+   "heels": {
+    "t": "Cracked heels. On screen. Second one.",
+    "s": 29.44,
+    "e": 31.196
+   },
+   "stops": {
+    "t": "Her thumb stops.",
+    "s": 31.196,
+    "e": 31.964
+   },
+   "taps": {
+    "t": "She watches. She taps.",
+    "s": 31.964,
+    "e": 33.413
+   },
+   "notices": {
+    "t": "Meta notices that too.",
+    "s": 33.413,
+    "e": 34.724
+   },
+   "more": {
+    "t": "So it shows your ad to more people like Sarah, for less.",
+    "s": 34.724,
+    "e": 37.191
+   },
+   "final": {
+    "t": "Same product. Same budget. Different first second.",
+    "s": 37.191,
+    "e": 39.749
+   }
+  },
+  "hits": {
+   "gone": 14.365,
+   "skip1": 18.918,
+   "next1": 19.703,
+   "next2": 20.918,
+   "logo": 9.717,
+   "logo2": 10.932,
+   "files": 11.381,
+   "stops": 31.571,
+   "taps": 33.021,
+   "less": 36.892,
+   "rewind": 24.436,
+   "cracked": 29.44,
+   "second1": 30.496,
+   "product": 37.191,
+   "budget": 37.805,
+   "different": 38.384,
+   "watching": 17.486,
+   "question": 6.816
+  },
+  "voice_end": 39.749,
+  "end": 43.15
+ },
+ "events": [
+  {
+   "t": 0,
+   "k": "tick"
+  },
+  {
+   "t": 3.462,
+   "k": "whoosh"
+  },
+  {
+   "t": 4.863,
+   "k": "land"
+  },
+  {
+   "t": 7.246,
+   "k": "pop"
+  },
+  {
+   "t": 9.717,
+   "k": "slam"
+  },
+  {
+   "t": 11.381,
+   "k": "stamp"
+  },
+  {
+   "t": 14.115,
+   "k": "drawer"
+  },
+  {
+   "t": 13.05,
+   "k": "whoosh"
+  },
+  {
+   "t": 14.365,
+   "k": "hit"
+  },
+  {
+   "t": 16.869,
+   "k": "eye"
+  },
+  {
+   "t": 18.918,
+   "k": "blip"
+  },
+  {
+   "t": 19.703,
+   "k": "blip"
+  },
+  {
+   "t": 20.918,
+   "k": "blip"
+  },
+  {
+   "t": 21.66,
+   "k": "fall"
+  },
+  {
+   "t": 24.436,
+   "k": "rewind"
+  },
+  {
+   "t": 24.436,
+   "k": "glitch"
+  },
+  {
+   "t": 25.432,
+   "k": "slam"
+  },
+  {
+   "t": 26.99,
+   "k": "whoosh"
+  },
+  {
+   "t": 29.44,
+   "k": "slam"
+  },
+  {
+   "t": 31.571,
+   "k": "stop"
+  },
+  {
+   "t": 33.021,
+   "k": "tap"
+  },
+  {
+   "t": 33.413,
+   "k": "eye"
+  },
+  {
+   "t": 35.024,
+   "k": "rise"
+  },
+  {
+   "t": 36.892,
+   "k": "slam"
+  },
+  {
+   "t": 37.191,
+   "k": "hit"
+  },
+  {
+   "t": 37.805,
+   "k": "hit"
+  },
+  {
+   "t": 38.384,
+   "k": "hit"
+  },
+  {
+   "t": 39.899,
+   "k": "boom"
+  }
+ ]
+}
