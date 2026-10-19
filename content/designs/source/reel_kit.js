@@ -57,12 +57,14 @@ window.setTime=(t)=>{
 </script></body></html>`;
 }
 
-async function render(html, { frames, out, end, flag, list }) {
+async function render(html, { frames, out, end, flag, list, gl }) {
   fs.mkdirSync(frames, { recursive: true });
-  const browser = await chromium.launch();
+  // gl: software WebGL (SwiftShader) for the three.js reels
+  const browser = await chromium.launch(gl ? { args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] } : {});
   const pg = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
   pg.on('pageerror', (e) => console.error('PAGE ERROR', e.message));
   await pg.setContent(html, { waitUntil: 'load' });
+  await pg.waitForFunction(() => window.ready, null, { timeout: 120000 });
   await pg.evaluate(async (faces) => { await Promise.all(faces.map((f) => document.fonts.load(f))); await window.ready; }, FACES);
   const times = flag === '--preview' ? list.split(',').map(Number) : Array.from({ length: Math.round(30 * end) }, (_, f) => f / 30);
   const el = await pg.$('#c');
@@ -78,4 +80,4 @@ async function render(html, { frames, out, end, flag, list }) {
   } else console.log('previews in', frames);
 }
 
-module.exports = { page, render, photos };
+module.exports = { page, render, photos, FONT_CSS };
