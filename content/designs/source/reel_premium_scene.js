@@ -334,9 +334,9 @@ const FLY = ['HOOK', 'FIRST SECOND', 'ANGLE', 'OFFER', 'CALL TO ACTION'];
 S.flyby = (x, t) => {
   const u = t - T0.flyby; darkBG(x, 0.22);
   FLY.forEach((w2, i) => { const p = (u - i * 0.11) / 0.45; if (p <= 0 || p >= 1) return;
-    const z = lerp(7, 0.35, inExpo(p) * 0.6 + p * 0.4), sc = 1 / z, side = i % 2 ? 1 : -1;
-    x.save(); x.translate(W / 2 + side * 160 * sc, 760 + (i % 3 - 1) * 120 * sc); x.scale(sc, sc); x.globalAlpha = clamp(p * 4) * clamp((1 - p) * 4) * 0.8;
-    x.filter = 'blur(' + Math.min(8, sc * 2).toFixed(1) + 'px)'; x.font = '500 90px Plex'; x.letterSpacing = '8px'; x.fillStyle = CREAM; x.textAlign = 'center'; x.fillText(w2, 0, 0); x.restore(); });
+    const z = 3.2 * Math.pow(1 - p, 1.5) + 0.25, sc = 1 / z, side = i % 2 ? 1 : -1;   // far -> readable (~p .6) -> past camera
+    x.save(); x.translate(W / 2 + side * 160 * sc, 760 + (i % 3 - 1) * 120 * sc); x.scale(sc, sc); x.globalAlpha = clamp(p * 5) * clamp((1 - p) * 3.5) * 0.9;
+    x.filter = 'blur(' + Math.min(8, Math.max(0, sc - 1.3) * 4).toFixed(1) + 'px)'; x.font = '500 90px Plex'; x.letterSpacing = '8px'; x.fillStyle = CREAM; x.textAlign = 'center'; x.fillText(w2, 0, 0); x.restore(); });
   build(x, 'At Mez Media,', W / 2, 1200, 110, CREAM, T0.flyby + 0.3, t, { per: 0.1, accent: [1, 2] });
 };
 S.redline = (x, t) => {
@@ -348,7 +348,7 @@ S.redline = (x, t) => {
   if (k1 > 0) { x.beginPath(); const cx2 = r.X + r.w * 0.46, cy2 = r.head[1] + 62; for (let i = 0; i <= 60 * k1; i++) { const a = -2.6 + i / 60 * 6.6; const xx = cx2 + Math.cos(a) * 250 * (1 + 0.04 * Math.sin(a * 3)), yy = cy2 + Math.sin(a) * 52; i ? x.lineTo(xx, yy) : x.moveTo(xx, yy); } x.stroke(); }
   if (k2 > 0) { const ax = r.X + r.w + 40, ay = r.head[1] + 60, bx = r.X + r.w - 60, by = r.img[1] + 160; x.beginPath(); x.moveTo(ax, ay); x.quadraticCurveTo(ax + 60, (ay + by) / 2, lerp(ax, bx, k2), lerp(ay, by, k2)); x.stroke(); }
   x.restore();
-  if (k3 > 0) { x.save(); x.globalAlpha = k3; x.font = 'italic 64px Hand'; x.fillStyle = PEACH; x.textAlign = 'center'; x.translate(r.X + r.w + 10, r.head[1] - 40); x.rotate(-0.08); x.fillText('clearer hook', 0, 0); x.restore(); }
+  if (k3 > 0) { x.save(); x.globalAlpha = k3; x.font = 'italic 64px Hand'; x.fillStyle = PEACH; x.textAlign = 'center'; x.translate(r.X + r.w - 110, r.Y - 44); x.rotate(-0.06); x.fillText('clearer hook', 0, 0); x.restore(); }
   build(x, 'We fix the ad first.', W / 2, 300, 96, CREAM, T0.redline, t, { per: 0.08, accent: [3] });
 };
 S.dm = (x, t) => {
