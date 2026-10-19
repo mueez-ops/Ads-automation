@@ -101,13 +101,13 @@ for e in EV:
     elif k == "click":
         sfx.add(S.mouse_click(), t, 0.8)
     elif k == "riser_short":
-        sfx.add(S.riser(0.3, 800, 8000), t, 0.5)
+        sfx.add(S.riser(0.62, 400, 9000), t, 0.85)
     elif k == "shimmer":
         sfx.add(S.chime(1760, 1.4), t, 0.4); sfx.add(S.whoosh(0.4, 3000, 12000, 0, 0, air=2), t - 0.05, 0.4)
     elif k == "scan":
         n = S.n_(1.0); tt = np.arange(n) / S.SR
         x = (np.sin(2 * np.pi * 140 * tt) + 0.5 * np.sin(2 * np.pi * 281 * tt)) * (0.7 + 0.3 * np.sin(2 * np.pi * 9 * tt)) * np.sin(np.linspace(0, np.pi, n))
-        sfx.add(S.stereo(x * 0.25, np.linspace(-0.2, 0.2, n)), t, 0.5)
+        sfx.add(S.stereo(x * 0.25, np.linspace(-0.2, 0.2, n)), t, 0.22)   # sits under 'Meta and TikTok': keep it low
     elif k == "blip":
         sfx.add(S.ui_pop(600 * 2 ** (i * 4 / 12), 1500 * 2 ** (i * 4 / 12)), t, 0.5)
     elif k == "pluck":
@@ -137,7 +137,7 @@ voice, sr = sf.read(sys.argv[1])
 assert sr == S.SR
 voice = voice if voice.ndim == 1 else voice.mean(axis=1)
 v = np.zeros(len(music.buf)); n = min(len(v), len(voice)); v[:n] = voice[:n]
-mix = S.master(S.stereo(v), music.buf, sfx.buf, duck=0.9, music_gain=0.2, sfx_gain=0.3, voice_gain=1.0)
+mix = S.master(S.stereo(v), music.buf, sfx.buf, duck=0.7, music_gain=0.14, sfx_gain=0.26, voice_gain=1.0)
 fade = S.n_(0.5); mix[-fade:] *= np.linspace(1, 0, fade)[:, None]
 sf.write(sys.argv[2], mix, S.SR, subtype="PCM_16")
 print("wrote", sys.argv[2])

@@ -33,7 +33,7 @@ LINES = [
     ("mez", "At Mezz Media, we fix the ad first.", 0.22, 1.08, ["we"]),
     ("cta", "DM us the word teardown, and we'll review your ads for free.", 0.12, 1.08, ["teardown", "and", "free"]),
 ]
-TAIL = 2.8
+TAIL = 1.7
 
 k = Kokoro(str(KDIR / "kokoro-v1.0.onnx"), str(KDIR / "voices-v1.0.bin"))
 wm = WhisperModel("small.en", compute_type="int8")
@@ -46,6 +46,35 @@ def trim(x, sr, thr=0.004):
 
 
 norm = lambda w: re.sub(r"[^a-z]", "", w.lower())
+
+
+def snap(x, sr, w0, w1, thr=-35.0):
+    """Whisper often starts a word at the end of the previous one (a pause gets folded into the next word).
+    Snap the start to the real onset: back to the end of a silence that ends just before it, or forward past
+    a silence that begins just after it."""
+    hop = int(0.01 * sr)
+    db = np.array([20 * np.log10(np.sqrt(np.mean(x[i : i + hop] ** 2)) + 1e-9) for i in range(0, len(x) - hop, hop)])
+    quiet = db < thr
+    i0 = min(len(db) - 1, int(w0 / 0.01))
+    j = i0                                    # forward: a >= 100 ms silence that starts within 100 ms after w0
+    while j < len(db) and not quiet[j] and j < i0 + 10:
+        j += 1
+    if j < i0 + 10:
+        k = j
+        while k < len(db) and quiet[k]:
+            k += 1
+        if k - j >= 10 and k * 0.01 < w1:
+            return k * 0.01
+    j = i0                                    # backward: a >= 60 ms silence that ends within 150 ms before w0
+    while j > 0 and not quiet[j - 1] and j > i0 - 15:
+        j -= 1
+    if j > i0 - 15 and j > 0:
+        k = j
+        while k > 0 and quiet[k - 1]:
+            k -= 1
+        if j - k >= 6:
+            return j * 0.01
+    return w0
 clips, cues, t = [], {"lines": {}, "at": {}}, 0.0
 for key, text, gap, speed, targets in LINES:
     raw, sr = k.create(text, voice=VOICE, speed=speed, lang="en-us")
@@ -55,7 +84,7 @@ for key, text, gap, speed, targets in LINES:
     words = [w for seg in wm.transcribe(x16, word_timestamps=True)[0] for w in seg.words]
     heard = " ".join(w.word.strip() for w in words)
     for tw in targets:
-        hit = [w.start for w in words if norm(w.word) == tw or (len(tw) > 4 and tw in norm(w.word))]
+        hit = [snap(s, sr, w.start, w.end) for w in words if norm(w.word) == tw or (len(tw) > 4 and tw in norm(w.word))]
         cues["at"][key + ":" + tw] = round(t + (hit[0] if hit else 0.5 * len(s) / sr), 3)
         if not hit:
             print(f"  ! '{tw}' not heard in '{heard}', estimated")

@@ -3,7 +3,7 @@ const CREAM = '#F6F1E7', INK = '#1E1A16', WB = '#120E0B', PEACH = '#FF7A59', WAR
 const ease = (k) => 1 - Math.pow(1 - clamp(k), 3);
 const expo = (k) => outExpo(clamp(k));
 const eio = (k) => { k = clamp(k); return k < 0.5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2; };
-const CUR = mk(), cx_ = CUR.getContext('2d'), PRV = mk(), px_ = PRV.getContext('2d'), PNL = mk(), pn = PNL.getContext('2d');
+const CUR = mk(), cx_ = CUR.getContext('2d'), PRV = mk(), px_ = PRV.getContext('2d'), PNL = mk(), pn = PNL.getContext('2d'), FB = mk(), fb = FB.getContext('2d');
 
 // ---------- primitives (all take a context) ----------
 function rrx(x, X, Y, w, h, r) { x.beginPath(); x.roundRect(X, Y, w, h, r); }
@@ -11,7 +11,7 @@ function pic(x, img, x0, y0, w, h, z = 1, fx = 0.5, fy = 0.5) {
   const sc = Math.max(w / img.width, h / img.height) * z, iw = img.width * sc, ih = img.height * sc;
   let dx = x0 + w / 2 - fx * iw, dy = y0 + h / 2 - fy * ih;
   dx = Math.min(x0, Math.max(x0 + w - iw, dx)); dy = Math.min(y0, Math.max(y0 + h - ih, dy));
-  x.drawImage(img, dx, dy, iw, ih);
+  x.save(); x.beginPath(); x.rect(x0, y0, w, h); x.clip(); x.drawImage(img, dx, dy, iw, ih); x.restore();
 }
 function darkBG(x, glow = 0.2, cy = 0.5) {
   x.fillStyle = WB; x.fillRect(0, 0, W, H);
@@ -76,14 +76,14 @@ function tag(x, str, X, Y, a = 1, size = 40) {
 // ---------- the audience panel (dark UI) ----------
 const AUD = ['Age 25–34', 'Interests: 9 selected', 'Location: 25 km', 'Lookalike 1%', 'Exclude past buyers', 'Device: mobile', 'Gender: all', 'Placements: feeds'];
 function drawPanel(x, X, Y) {
-  const w = 800, h = 960;
+  const w = 800, h = 880;
   x.save(); x.shadowColor = 'rgba(0,0,0,.6)'; x.shadowBlur = 60; x.shadowOffsetY = 20; rrx(x, X, Y, w, h, 34); x.fillStyle = '#1C1612'; x.fill(); x.restore();
   x.save(); rrx(x, X, Y, w, h, 34); x.strokeStyle = 'rgba(255,240,228,.10)'; x.lineWidth = 2; x.stroke();
   x.font = '600 44px Body'; x.fillStyle = CREAM; x.textAlign = 'left'; x.fillText('Audience', X + 56, Y + 96);
   x.font = '500 26px Plex'; x.letterSpacing = '2px'; x.fillStyle = 'rgba(246,241,231,.45)'; x.fillText('DEFINE WHO SEES YOUR AD', X + 56, Y + 140); x.letterSpacing = '0px';
   AUD.forEach((s, i) => {
-    const y = Y + 220 + i * 78, bs = 34;
-    x.fillStyle = 'rgba(255,240,228,.05)'; rrx(x, X + 40, y - 34, w - 80, 64, 14); x.fill();
+    const y = Y + 210 + i * 70, bs = 34;
+    x.fillStyle = 'rgba(255,240,228,.05)'; rrx(x, X + 40, y - 31, w - 80, 58, 14); x.fill();
     rrx(x, X + 60, y - bs / 2, bs, bs, 8); x.fillStyle = PEACH; x.fill(); checkMark(x, X + 60, y - bs / 2, bs, 1, '#fff');
     x.font = '500 32px Body'; x.fillStyle = 'rgba(246,241,231,.88)'; x.fillText(s, X + 120, y + 11);
   });
@@ -103,12 +103,12 @@ function heroCard(x, X, Y, w, state, o = {}) {
   x.font = '500 20px Body'; x.fillStyle = '#A59D90'; x.textAlign = 'right'; x.fillText('Sponsored', X + w - 26, Y + 44);
   const sy = Y + head;
   if (state === 'normal') { x.fillStyle = '#E9E2D6'; x.fillRect(X + 28, sy + 30, w * 0.7, 18); x.fillRect(X + 28, sy + 64, w * 0.45, 18); }
-  if (state === 'vague') { x.font = '500 ' + Math.round(w * 0.052) + 'px Body'; x.fillStyle = '#A59D90'; x.textAlign = 'left'; x.fillText('Discover our new collection.', X + 28, sy + 70); }
+  if (state === 'vague') { x.font = '500 ' + Math.round(w * 0.058) + 'px Body'; x.fillStyle = '#6F665B'; x.textAlign = 'left'; x.fillText('Discover our new collection.', X + 28, sy + 70); }
   if (state === 'sharp') { x.font = '800 ' + Math.round(w * 0.09) + 'px Body'; x.letterSpacing = '-1px'; x.fillStyle = INK; x.textAlign = 'left'; x.fillText('Your 7am, upgraded.', X + 28, sy + 80); x.letterSpacing = '0px'; }
   const iy = sy + strip;
   if (state === 'vague') {
     x.fillStyle = '#EDE6DA'; x.fillRect(X, iy, w, img);
-    x.save(); x.filter = 'saturate(.55) contrast(.8) brightness(1.06)'; pic(x, IMG.p_cup, X + w * 0.22, iy + img * 0.2, w * 0.56, img * 0.6, 1.0, 0.5, 0.55); x.restore();
+    pic(x, IMG.p_cup, X + w * 0.22, iy + img * 0.2, w * 0.56, img * 0.6, 1.0, 0.5, 0.55);
   } else pic(x, IMG.p_cup, X, iy, w, img, state === 'sharp' ? 1.7 : 1.15, 0.5, state === 'sharp' ? 0.55 : 0.5);
   const fy = iy + img;
   if (o.metric) {
@@ -127,24 +127,25 @@ function genericCard(x, X, Y, w, k) {   // other ads in the feed: shirt, lamp, l
   x.save(); rrx(x, X, Y, w, h, 30); x.fillStyle = '#FFFDF9'; x.fill(); x.clip();
   x.fillStyle = '#E9E2D6'; x.beginPath(); x.arc(X + 44, Y + 36, 18, 0, TAU); x.fill(); x.fillRect(X + 76, Y + 26, 150, 12);
   x.fillRect(X + 28, Y + head + 30, w * 0.6, 18); x.fillRect(X + 28, Y + head + 64, w * 0.38, 18);
-  pic(x, imgs[k % 4], X, Y + head + strip, w, img, 1.1);
+  pic(x, imgs[((k % 4) + 4) % 4], X, Y + head + strip, w, img, 1.1);
   x.fillStyle = INK; rrx(x, X + 24, Y + head + strip + img + 24, w - 48, foot - 48, 14); x.fill(); x.restore();
 }
 // phone with a scrolling feed. pos = px scrolled; hero lands with its top at the screen top + 40 when pos = FEED_HERO
-const PH = { x: 200, y: 330, w: 680, h: 1300 };
+const PH = { x: 200, y: 370, w: 680, h: 1300 };
 const CW = PH.w - 60, PITCH = cardH(CW) + 36, FEED_HERO = PITCH;
 function phone(x, pos, vel, state, o = {}) {
   x.save(); x.shadowColor = 'rgba(60,40,20,.22)'; x.shadowBlur = 70; x.shadowOffsetY = 26; rrx(x, PH.x, PH.y, PH.w, PH.h, 72); x.fillStyle = '#FBF8F2'; x.fill(); x.restore();
   x.save(); rrx(x, PH.x, PH.y, PH.w, PH.h, 72); x.lineWidth = 5; x.strokeStyle = INK; x.stroke(); x.clip();
-  const draw = (p) => {
-    for (let k = 0; k < 4; k++) {
+  const draw = (c, p) => {
+    for (let k = -2; k < 4; k++) {
       const y = PH.y + 40 + k * PITCH - p;
       if (y > PH.y + PH.h || y + PITCH < PH.y) continue;
-      if (k === 1) heroCard(x, PH.x + 30, y, CW, state, o); else genericCard(x, PH.x + 30, y, CW, k);
+      if (k === 1) heroCard(c, PH.x + 30, y, CW, state, o); else genericCard(c, PH.x + 30, y, CW, k);
     }
   };
-  const n = Math.min(7, 1 + Math.floor(Math.abs(vel) / 900));
-  if (n <= 1) draw(pos); else for (let i = 0; i < n; i++) { x.globalAlpha = i === 0 ? 1 : 1 / (i + 1); draw(pos - vel * (i / n) * 0.022); }
+  // motion blur: each sample is rendered to its own layer, then averaged (no white build-up, no ghost stacking)
+  const n = Math.min(24, 1 + Math.floor(Math.abs(vel) / 250));
+  if (n <= 1) draw(x, pos); else for (let i = 0; i < n; i++) { fb.setTransform(1, 0, 0, 1, 0, 0); fb.clearRect(0, 0, W, H); draw(fb, pos - vel * (i / n) * 0.022); x.globalAlpha = 1 / (i + 1); x.drawImage(FB, 0, 0); }
   x.globalAlpha = 1; x.restore();
   x.save(); rrx(x, PH.x + PH.w / 2 - 70, PH.y + 18, 140, 30, 15); x.fillStyle = INK; x.fill(); x.restore();
 }
@@ -184,8 +185,8 @@ S.chips = (x, t) => {
   const slide = -22 * (1 - expo(u / 0.45));
   x.save(); x.translate(slide, 0); chip(x, CHIPS3[i][0], 540, 960, { size: 58, blur: 14 * (1 - ease(u / 0.22)), tick: clamp((u - 0.12) / 0.2) }); x.restore();
 };
-const CHIPS8 = [['AGE 25–34', 300, 420, 0.9], ['INTERESTS: 9 SELECTED', 640, 560, 1], ['LOCATION: 25 KM', 330, 700, 0.7], ['LOOKALIKE 1%', 780, 800, 0.5],
-  ['EXCLUDE PAST BUYERS', 330, 1180, 1], ['DEVICE: MOBILE', 790, 1290, 0.8], ['GENDER: ALL', 300, 1420, 0.6], ['PLACEMENTS: FEEDS', 720, 1520, 0.9]];
+const CHIPS8 = [['AGE 25–34', 300, 420, 0.9], ['INTERESTS: 9 SELECTED', 600, 560, 1], ['LOCATION: 25 KM', 330, 700, 0.7], ['LOOKALIKE 1%', 730, 800, 0.5],
+  ['EXCLUDE PAST BUYERS', 330, 1180, 1], ['DEVICE: MOBILE', 700, 1290, 0.8], ['GENDER: ALL', 270, 1420, 0.6], ['PLACEMENTS: FEEDS', 690, 1490, 0.9]];
 function chipField(x, t, o = {}) {
   CHIPS8.forEach(([s2, X, Y, depth], j) => {
     const drift = (t - (o.t0 ?? 0)) * (12 + depth * 18);
@@ -197,21 +198,21 @@ S.everybox = (x, t) => { creamBG(x); chipField(x, t, { t0: T0.everybox }); build
 S.feed = (x, t) => {
   creamBG(x); const u = t - T0.feed, d = T0.nobody - T0.feed, k = u / d;
   const pos = lerp(-260, FEED_HERO - 150, k * k), vel = (FEED_HERO + 110) * 2 * k / d;
-  phone(x, pos, vel, 'normal'); build(x, 'And still,', W / 2, 250, 84, INK, T0.feed, t, { per: 0.1 });
+  phone(x, pos, vel, 'normal'); build(x, 'And still,', W / 2, 305, 84, INK, T0.feed, t, { per: 0.1 });
 };
 S.nobody = (x, t) => {
   creamBG(x); const u = t - T0.nobody;
   const pos = FEED_HERO - 150 * Math.exp(-u * 26);
   const blink = u > 0.35 && u < 0.6 ? 0.3 : 1;
   phone(x, pos, 0, 'normal', { metric: true, metricA: clamp(u / 0.12) * blink });
-  build(x, 'Nobody buys.', W / 2, 250, 96, INK, T0.nobody, t, { per: 0.12 });
+  build(x, 'Nobody buys.', W / 2, 305, 96, INK, T0.nobody, t, { per: 0.12 });
 };
 S.prompt = (x, t) => {
   const u = t - T0.prompt; darkBG(x, 0.2 * ease(u / 0.6));
   const bx = 110, by = 860, bw = 860, bh = 220;
   x.save(); x.shadowColor = 'rgba(255,122,89,.25)'; x.shadowBlur = 80; rrx(x, bx, by, bw, bh, 44); x.fillStyle = '#1A1512'; x.fill(); x.restore();
   rrx(x, bx, by, bw, bh, 44); x.strokeStyle = 'rgba(214,200,186,.35)'; x.lineWidth = 2; x.stroke();
-  const str = 'who should see this ad?', t0 = T0.prompt + 0.2, n = Math.floor(clamp((t - t0) / (23 * 0.035)) * str.length);
+  const str = 'who should see this ad?', t0 = T0.prompt + 0.2, n = t < t0 ? 0 : Math.min(str.length, 1 + Math.floor((t - t0) / 0.035));
   x.save(); x.font = '58px Display'; x.fillStyle = CREAM; x.textAlign = 'left'; x.fillText(str.slice(0, n), bx + 52, by + 96);
   const cw = x.measureText(str.slice(0, n)).width; if (Math.floor(t * 2.5) % 2 === 0 || n < str.length) x.fillRect(bx + 56 + cw, by + 52, 3, 58); x.restore();
   const press = t > SEND && t < SEND + 0.12 ? 0.88 : 1, sbx = bx + bw - 76, sby = by + bh - 70;
@@ -230,13 +231,12 @@ S.scan = (x, t) => {
   if (u < 1.05) { x.save(); const q = x.createLinearGradient(0, sy - 60, 0, sy); q.addColorStop(0, 'rgba(255,122,89,0)'); q.addColorStop(1, 'rgba(255,122,89,.35)'); x.fillStyle = q; x.fillRect(r.X - 20, sy - 60, r.w + 40, 60);
     x.fillStyle = INK; x.fillRect(r.X - 30, sy - 1.5, r.w + 60, 3); x.restore(); }
   label(x, 'META + TIKTOK', W / 2, 330, 40, INK, ease(u / 0.25), 'center', 6);
-  build(x, 'It learns from your ad.', W / 2, 1460, 76, INK, T0.scan + 0.35, t, { per: 0.09, accent: [4] });
 };
 const TAGS = [['HOOK', 'head', -1, 0.0], ['FIRST SECOND', 'img', 1, 0.35], ['OFFER', 'foot', -1, 0.7]];
 function tagPositions(r, k) {
   return TAGS.map(([s2, part, side], i) => {
-    const rc = r[part], ox = rc[0] + rc[2] / 2, oy = rc[1] + rc[3] / 2;
-    return { s: s2, ox, oy, tx: lerp(ox, W / 2 + side * 215, k[i]), ty: oy + (i === 1 ? -120 : 0) * k[i] };
+    const rc = r[part], ox = part === 'foot' ? rc[0] + rc[2] * 0.25 : rc[0] + rc[2] / 2, oy = rc[1] + rc[3] / 2;
+    return { s: s2, ox, oy, tx: lerp(ox, W / 2 + side * (i === 1 ? 130 : 215), k[i]), ty: oy + (i === 1 ? -120 : i === 2 ? 80 : 0) * k[i] };
   });
 }
 S.tags = (x, t) => {
@@ -246,6 +246,7 @@ S.tags = (x, t) => {
   tagPositions(r, ks).forEach((tp, i) => { if (ks[i] <= 0) return;
     x.save(); x.strokeStyle = PEACH; x.lineWidth = 3; x.beginPath(); x.moveTo(tp.ox, tp.oy); x.lineTo(tp.tx, tp.ty); x.stroke(); x.fillStyle = PEACH; x.beginPath(); x.arc(tp.ox, tp.oy, 8, 0, TAU); x.fill(); x.restore();
     tag(x, tp.s, tp.tx, tp.ty, clamp(ks[i] * 3), 40); });
+  build(x, 'It learns from your ad,', W / 2, 390, 72, INK, A['learns:algorithm'] + 0.13, t, { per: 0.24, accent: [4] });
 };
 // organic branches growing from three roots
 const BR = (() => { const out2 = []; let sd = 11; const rr2 = () => { sd = (sd * 16807) % 2147483647; return (sd - 1) / 2147483646; };
@@ -267,16 +268,16 @@ S.branch = (x, t) => {
   creamBG(x); const u = t - T0.branch;
   branches(x, ease(u / (T0.vignettes - T0.branch + 0.2)));
   [['HOOK', 250, 760], ['FIRST SECOND', 250, 980], ['OFFER', 250, 1200]].forEach(([s2, X, Y]) => tag(x, s2, X, Y, 1, 34));
-  build(x, 'Then it finds the people', W / 2, 330, 80, INK, T0.branch, t, { per: 0.07 });
+  build(x, 'then finds the people', W / 2, 330, 80, INK, T0.branch, t, { per: 0.07 });
 };
 S.vignettes = (x, t) => {
   creamBG(x); const u = t - T0.vignettes; branches(x, 1);
-  [['HOOK', 250, 760], ['FIRST SECOND', 250, 980], ['OFFER', 250, 1200]].forEach(([s2, X, Y]) => tag(x, s2, X, Y, 1, 34));
   [IMG.p_gymbag, IMG.p_laptop, IMG.p_backpack].forEach((img, i) => { const k = outBack(clamp((u - 0.1 - i * 0.3) / 0.35)); if (k <= 0) return;
     const [X, Y] = TIPS[i], r = 150 * k;
-    x.save(); x.strokeStyle = PEACH; x.lineWidth = 3; x.globalAlpha = clamp(k); x.beginPath(); x.moveTo(250, 980); x.quadraticCurveTo(560, Y, X - r, Y); x.stroke(); x.restore();
+    x.save(); x.strokeStyle = PEACH; x.lineWidth = 3; x.globalAlpha = clamp(k); x.beginPath(); x.moveTo(412, 980); x.quadraticCurveTo(600, Y, X - r, Y); x.stroke(); x.restore();
     x.save(); x.shadowColor = 'rgba(60,40,20,.25)'; x.shadowBlur = 40; x.beginPath(); x.arc(X, Y, r, 0, TAU); x.fillStyle = '#fff'; x.fill(); x.restore();
     x.save(); x.beginPath(); x.arc(X, Y, r - 6, 0, TAU); x.clip(); pic(x, img, X - r, Y - r, r * 2, r * 2, 1.05); x.restore(); });
+  [['HOOK', 250, 760], ['FIRST SECOND', 250, 980], ['OFFER', 250, 1200]].forEach(([s2, X, Y]) => tag(x, s2, X, Y, 1, 34));
   build(x, 'it speaks to.', W / 2, 330, 80, INK, T0.vignettes, t, { per: 0.1, accent: [1] });
 };
 let ROOM = null;
@@ -318,8 +319,8 @@ S.sharp = (x, t) => {
   const k = ease((u - 0.2) / 0.45);
   if (k > 0) { x.save(); x.strokeStyle = PEACH; x.lineWidth = 6; x.shadowColor = PEACH; x.shadowBlur = 20; const per = 2 * (r.w + r.h);
     x.setLineDash([per * k, per]); rrx(x, r.X - 10, r.Y - 10, r.w + 20, r.h + 20, 36); x.stroke(); x.restore(); }
-  [['HOOK', r.X - 30, r.head[1] + 50], ['FIRST SECOND', r.X + r.w + 30, r.img[1] + r.img[3] / 2], ['OFFER', r.X - 30, r.foot[1] + 56]].forEach(([s2, X, Y], i) => {
-    const kk = expo((u - 0.45 - i * 0.1) / 0.25); if (kk > 0) tag(x, s2, lerp(i === 1 ? X + 120 : X - 120, X, kk), Y, clamp(kk * 2), 30); });
+  [['HOOK', r.X - 60, r.head[1] + 50], ['FIRST SECOND', r.X + r.w - 40, r.img[1] + r.img[3] / 2], ['OFFER', r.X - 60, r.foot[1] + 56]].forEach(([s2, X, Y], i) => {
+    const kk = expo((u - 0.3 - i * 0.08) / 0.2); if (kk > 0) tag(x, s2, lerp(i === 1 ? X + 120 : X - 120, X, kk), Y, clamp(kk * 2), 30); });
   build(x, 'Sharp hook?', W / 2, 300, 96, INK, T0.sharp, t, { per: 0.12, accent: [0] });
 };
 S.feedstop = (x, t) => {
@@ -328,25 +329,26 @@ S.feedstop = (x, t) => {
   phone(x, pos, vel, 'sharp');
   if (u > land) { const pk = clamp((u - land) / 0.5); x.save(); x.strokeStyle = PEACH; x.globalAlpha = 1 - pk; x.lineWidth = 6 + pk * 10; x.shadowColor = PEACH; x.shadowBlur = 30;
     rrx(x, PH.x + 30 - pk * 12, PH.y + 40 - pk * 12, CW + pk * 24, cardH(CW) + pk * 24, 34); x.stroke(); x.restore(); }
-  build(x, 'Now it knows who to find.', W / 2, 250, 80, INK, T0.feedstop, t, { per: 0.07, accent: [5] });
+  build(x, 'Now it knows who to find.', W / 2, 305, 80, INK, T0.feedstop, t, { per: 0.07, accent: [5] });
 };
-const FLY = ['HOOK', 'FIRST SECOND', 'ANGLE', 'OFFER', 'CALL TO ACTION'];
+const FLY = ['HOOK', 'FIRST SECOND', 'ANGLE', 'OFFER', 'CALL TO ACTION'], LANE = [[-160, 100], [160, -160], [-160, -160], [240, 100], [-160, 0]];
 S.flyby = (x, t) => {
   const u = t - T0.flyby; darkBG(x, 0.22);
-  FLY.forEach((w2, i) => { const p = (u - i * 0.11) / 0.45; if (p <= 0 || p >= 1) return;
-    const z = 3.2 * Math.pow(1 - p, 1.5) + 0.25, sc = 1 / z, side = i % 2 ? 1 : -1;   // far -> readable (~p .6) -> past camera
-    x.save(); x.translate(W / 2 + side * 160 * sc, 760 + (i % 3 - 1) * 120 * sc); x.scale(sc, sc); x.globalAlpha = clamp(p * 5) * clamp((1 - p) * 3.5) * 0.9;
+  FLY.map((w2, i) => [w2, i]).reverse().forEach(([w2, i]) => { const p = (u - i * 0.11) / 0.45; if (p <= 0 || p >= 1) return;   // far words first
+    const z = 3.2 * Math.pow(1 - p, 1.5) + 0.25, sc = 1 / z;   // far -> readable (~p .6) -> past camera
+    x.save(); x.translate(W / 2 + LANE[i][0] * sc, 760 + LANE[i][1] * sc); x.scale(sc, sc); x.globalAlpha = clamp((p - 0.12) * 5) * clamp((1 - p) * 3.5) * 0.9;
     x.filter = 'blur(' + Math.min(8, Math.max(0, sc - 1.3) * 4).toFixed(1) + 'px)'; x.font = '500 90px Plex'; x.letterSpacing = '8px'; x.fillStyle = CREAM; x.textAlign = 'center'; x.fillText(w2, 0, 0); x.restore(); });
-  build(x, 'At Mez Media,', W / 2, 1200, 110, CREAM, T0.flyby + 0.3, t, { per: 0.1, accent: [1, 2] });
+  build(x, 'At Mez Media,', W / 2, 1200, 110, CREAM, T0.flyby + 0.08, t, { per: 0.12, accent: [1, 2] });
 };
 S.redline = (x, t) => {
   const u = t - T0.redline; darkBG(x, 0.2);
   const w = 520, h = cardH(w), X = (W - w) / 2 + 300 * (1 - expo(u / 0.35)), Y = 1000 - h / 2;
   const r = heroCard(x, X, Y, w, 'vague');
-  const k1 = clamp((u - 0.25) / 0.3), k2 = clamp((u - 0.55) / 0.25), k3 = clamp((u - 0.75) / 0.25);
+  const k1 = clamp((u - 0.25) / 0.3), k2 = clamp((u - 0.75) / 0.25), k3 = clamp((u - 0.55) / 0.25);
   x.save(); x.strokeStyle = PEACH; x.lineWidth = 6; x.lineCap = 'round';
   if (k1 > 0) { x.beginPath(); const cx2 = r.X + r.w * 0.46, cy2 = r.head[1] + 62; for (let i = 0; i <= 60 * k1; i++) { const a = -2.6 + i / 60 * 6.6; const xx = cx2 + Math.cos(a) * 250 * (1 + 0.04 * Math.sin(a * 3)), yy = cy2 + Math.sin(a) * 52; i ? x.lineTo(xx, yy) : x.moveTo(xx, yy); } x.stroke(); }
-  if (k2 > 0) { const ax = r.X + r.w + 40, ay = r.head[1] + 60, bx = r.X + r.w - 60, by = r.img[1] + 160; x.beginPath(); x.moveTo(ax, ay); x.quadraticCurveTo(ax + 60, (ay + by) / 2, lerp(ax, bx, k2), lerp(ay, by, k2)); x.stroke(); }
+  if (k2 > 0) { const ax = r.X + r.w - 170, ay = r.Y - 30, bx = r.X + r.w * 0.66, by = r.head[1] + 14; x.beginPath(); x.moveTo(ax, ay); x.quadraticCurveTo(ax + 30, (ay + by) / 2, lerp(ax, bx, k2), lerp(ay, by, k2)); x.stroke();
+    if (k2 >= 1) { x.beginPath(); x.moveTo(bx - 16, by - 20); x.lineTo(bx, by); x.lineTo(bx + 18, by - 16); x.stroke(); } }
   x.restore();
   if (k3 > 0) { x.save(); x.globalAlpha = k3; x.font = 'italic 64px Hand'; x.fillStyle = PEACH; x.textAlign = 'center'; x.translate(r.X + r.w - 110, r.Y - 44); x.rotate(-0.06); x.fillText('clearer hook', 0, 0); x.restore(); }
   build(x, 'We fix the ad first.', W / 2, 300, 96, CREAM, T0.redline, t, { per: 0.08, accent: [3] });
@@ -361,7 +363,7 @@ S.dm = (x, t) => {
     x.font = '600 56px Body'; x.fillStyle = '#fff'; x.textAlign = 'center'; x.fillText('TEARDOWN', -210, 20); x.restore();
     x.font = '500 26px Plex'; x.fillStyle = 'rgba(246,241,231,.5)'; x.textAlign = 'right'; x.globalAlpha = clamp((t - DMSEND - 0.2) / 0.2); x.fillText('Sent ✓', 900, py + 360); x.globalAlpha = 1; }
   rrx(x, 130, py + 440, 820, 120, 60); x.strokeStyle = 'rgba(214,200,186,.35)'; x.stroke();
-  const str = 'TEARDOWN', n = sent ? 0 : Math.floor(clamp((t - T0.dm - 0.35) / (8 * 0.07)) * 8);
+  const str = 'TEARDOWN', n = sent || t < T0.dm + 0.35 ? 0 : Math.min(8, 1 + Math.floor((t - T0.dm - 0.35) / 0.07));
   x.font = '600 60px Body'; x.fillStyle = CREAM; x.textAlign = 'left'; x.fillText(str.slice(0, n), 180, py + 522);
   if (!sent && Math.floor(t * 2.5) % 2 === 0) x.fillRect(184 + x.measureText(str.slice(0, n)).width, py + 470, 3, 64);
   x.fillStyle = sent ? 'rgba(246,241,231,.3)' : CREAM; x.beginPath(); x.arc(890, py + 500, 40, 0, TAU); x.fill();
@@ -379,7 +381,6 @@ S.cta = (x, t) => {
 };
 S.end = (x, t) => {
   const u = t - T0.end; darkBG(x, 0.16 + 0.06 * Math.sin(Math.min(u, 2.4) / 2.4 * Math.PI));
-  if (u > C.end - T0.end - 0.45) { x.save(); x.globalAlpha = 0.12 * clamp((u - (C.end - T0.end - 0.45)) / 0.4); drawPanelInto(); x.drawImage(PNL, 0, 0); x.restore(); }
   const k = expo(u / 0.5); x.save(); x.globalAlpha = k; x.font = '800 210px Logo'; x.letterSpacing = '-11px'; x.textAlign = 'left';
   const mw = x.measureText('mez').width, dw = x.measureText('.').width, X0 = W / 2 - (mw + dw) / 2;
   x.fillStyle = CREAM; x.fillText('mez', X0, 860); x.fillStyle = PEACH; x.fillText('.', X0 + mw, 860);
@@ -393,14 +394,14 @@ S.end = (x, t) => {
 
 // ---------- camera: one eased move per shot ----------
 const CAM = {
-  hook: { z: [1, 1.03] }, slice: { z: [1.15, 1.18], p: [540, 1050] }, chips: { z: [1, 1] }, everybox: { z: [1.12, 1], e: 'expo' },
-  feed: { z: [1, 1.03] }, nobody: { z: [1, 1.04], p: [540, 1300] }, prompt: { z: [1, 1.04] }, scan: { z: [1, 1.05], p: [540, 900] },
-  tags: { z: [1.12, 1.15], p: [540, 900], dx: [-30, 30], e: 'expo' }, branch: { z: [1.08, 1], e: 'expo' }, vignettes: { z: [1, 1], dx: [30, -30] },
-  wall: { z: [1, 1.05], p: [540, 700] }, flip: { z: [1.35, 1.38], p: [540, 470] }, vague: { z: [1, 1.03] }, greyout: { z: [1.06, 1], e: 'expo' }, sharp: { z: [1, 1.04] },
-  feedstop: { z: [1, 1.04] }, flyby: { z: [1, 1.1] }, redline: { z: [1, 1.02], dx: [20, -20] }, dm: { z: [1, 1.04] }, cta: { z: [1, 1.03] }, end: { z: [1.03, 1], e: 'expo' },
+  hook: { z: [1, 1.03] }, slice: { z: [1.10, 1.13], p: [540, 1050] }, chips: { z: [1, 1] }, everybox: { z: [1.06, 1], e: 'expo' },
+  feed: { z: [1, 1.03], p: [540, 305] }, nobody: { z: [1.03, 1.06], p: [540, 305] }, prompt: { z: [1, 1.04] }, scan: { z: [1, 1.05], p: [540, 900] },
+  tags: { z: [1.12, 1.15], p: [540, 900], dx: [-30, 30], e: 'expo' }, branch: { z: [1, 1.03] }, vignettes: { z: [1.03, 1.05] },
+  wall: { z: [1, 1.05], p: [540, 700] }, flip: { z: [1.35, 1.38], p: [540, 470] }, vague: { z: [1, 1.015] }, greyout: { z: [1.015, 1.03] }, sharp: { z: [1.03, 1.045] },
+  feedstop: { z: [1, 1.04], p: [540, 305] }, flyby: { z: [1, 1.1] }, redline: { z: [1.03, 1.05], p: [540, 300] }, dm: { z: [1, 1.04] }, cta: { z: [1, 1.03] }, end: { z: [1.04, 1], e: 'lin' },
 };
 function drawShot(i, t, x) {
-  const sh = SHOTS[i], cam = CAM[sh.key] || { z: [1, 1] }, d = sh.e - sh.s, k = (cam.e === 'expo' ? expo : ease)((t - sh.s) / d);
+  const sh = SHOTS[i], cam = CAM[sh.key] || { z: [1, 1] }, d = sh.e - sh.s, k = (cam.e === 'expo' ? expo : cam.e === 'lin' ? clamp : ease)((t - sh.s) / d);
   const z = lerp(cam.z[0], cam.z[1], k), [pxp, pyp] = cam.p || [540, 960], dx = cam.dx ? lerp(cam.dx[0], cam.dx[1], k) : 0;
   x.setTransform(1, 0, 0, 1, 0, 0); x.fillStyle = '#000'; x.fillRect(0, 0, W, H);
   x.save(); x.translate(pxp + dx, pyp); x.scale(z, z); x.translate(-pxp, -pyp);
@@ -408,7 +409,7 @@ function drawShot(i, t, x) {
 }
 
 // ---------- transitions + post ----------
-const FLASHES = [FLASH, T0.cta - 0.12];
+const FLASHES = [FLASH, T0.cta];
 window.setTime = (t) => {
   let i = 0; while (i < SHOTS.length - 1 && t >= SHOTS[i + 1].s) i++;
   const sh = SHOTS[i], u = t - sh.s;
@@ -427,8 +428,8 @@ window.setTime = (t) => {
       g.fillStyle = q; g.fillRect(-160, -1400, 320, 2800); g.restore();
     } else {
       const dir = sh.tin === 'whipL' ? [-1, 0] : sh.tin === 'whipR' ? [1, 0] : sh.tin === 'swish' ? [-0.35, 0] : [0, -1];
-      const span = (dir[0] ? W : H), blur = Math.sin(k * Math.PI) * 70;
-      const drawMoved = (cv, off) => { const n = 6; for (let j = 0; j < n; j++) { g.globalAlpha = j === 0 ? 1 : 1 / (j + 1); const o2 = off + (j / n - 0.5) * blur;
+      const span = (dir[0] ? W : H), blur = Math.sin(k * Math.PI) * span * 0.25;
+      const drawMoved = (cv, off) => { const n = Math.min(64, Math.max(6, Math.ceil(blur / 5))); for (let j = 0; j < n; j++) { g.globalAlpha = j === 0 ? 1 : 1 / (j + 1); const o2 = off + (j / n - 0.5) * blur;
           g.drawImage(cv, dir[0] * o2, dir[1] * o2); } g.globalAlpha = 1; };
       g.fillStyle = '#000'; g.fillRect(0, 0, W, H);
       if (sh.tin === 'swish') { g.drawImage(PRV, 0, 0); g.globalAlpha = k; g.drawImage(CUR, 0, 0); g.globalAlpha = 1; }

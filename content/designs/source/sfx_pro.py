@@ -250,7 +250,7 @@ def master(voice, music, sfx, duck=0.82, music_gain=0.32, sfx_gain=0.55, voice_g
     lvl = np.convolve(vl, np.ones(n_(0.03)) / n_(0.03), mode="same")
     lvl = lvl / (np.max(lvl) + 1e-9)
     d = 1 - duck * np.clip(lvl * 3.5, 0, 1)
-    d = np.convolve(d, np.ones(n_(0.08)) / n_(0.08), mode="same")[:, None]
+    d = np.convolve(d, np.ones(n_(0.25)) / n_(0.25), mode="same")[:, None]   # slow release: no pumping between phrases
     norm = lambda x: x / (np.max(np.abs(x)) + 1e-9)
-    mix = norm(v) * voice_gain + norm(music) * music_gain * d + norm(sfx) * sfx_gain * (0.55 + 0.45 * d)
+    mix = norm(v) * voice_gain + norm(music) * music_gain * d + norm(sfx) * sfx_gain * (0.4 + 0.6 * d)
     return np.tanh(mix / np.max(np.abs(mix)) * 1.15) * 0.92

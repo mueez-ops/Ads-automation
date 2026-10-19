@@ -20,8 +20,8 @@ const SHOTS = [
   ['everybox', L.ticked.s, L.still.s, 'none'],
   ['feed', L.still.s, A['still:nobody'], 'cut'],
   ['nobody', A['still:nobody'], L.why.s, 'cut'],
-  ['prompt', L.why.s, L.learns.s, 'whipU'],
-  ['scan', L.learns.s, A['learns:algorithm'] - 0.16, 'flash'],
+  ['prompt', L.why.s, flashAt, 'whipU'],
+  ['scan', flashAt, A['learns:algorithm'] - 0.16, 'flash'],
   ['tags', A['learns:algorithm'] - 0.16, A['learns:then'], 'punch'],
   ['branch', A['learns:then'], A['learns:speaks'] - 0.12, 'swish'],
   ['vignettes', A['learns:speaks'] - 0.12, L.thesis.s, 'none'],
@@ -52,20 +52,20 @@ ev(0, 'sub'); ev(0.08, 'tick'); ev(A['hook:killing'], 'slice');
 ev(L.ticked.s + 0.1, 'rustle'); ev(L.ticked.e - 0.25, 'tick');
 ev(L.still.s, 'scroll', { dur: A['still:nobody'] - L.still.s }); ev(A['still:nobody'], 'stop'); ev(L.still.e - 0.25, 'thud');
 for (let i = 0; i < 23; i++) ev(L.why.s + 0.2 + i * 0.035, 'key');
-ev(sendClick, 'click'); ev(flashAt - 0.22, 'riser_short'); ev(flashAt, 'shimmer');
-ev(L.learns.s + 0.05, 'scan'); ev(L.learns.s + 0.2, 'tick');
+ev(sendClick - 0.4, 'swish'); ev(sendClick, 'click'); ev(flashAt - 0.62, 'riser_short'); ev(flashAt, 'shimmer');
+ev(T0.scan + 0.05, 'scan'); ev(T0.scan + 0.2, 'tick');
 [0, 0.35, 0.7].forEach((d, i) => ev(T0.tags + 0.1 + d, 'blip', { i }));
 for (let i = 0; i < 6; i++) ev(T0.branch + 0.05 + i * 0.13, 'pluck', { i });
 [0, 0.3, 0.6].forEach((d, i) => ev(T0.vignettes + 0.1 + d, 'pop', { i }));
 ev(L.thesis.s - 0.55, 'swell'); ev(A['thesis:targeting'], 'sub'); ev(A['thesis:targeting'] + 0.12, 'shimmer');
 ev(L.vague.s + 0.2, 'thud');
 for (let i = 0; i < 8; i++) ev(A['vague:no'] + 0.1 + i * 0.07, 'ripple', { i });
-ev(L.sharp.s + 0.2, 'click'); [0, 0.1, 0.2].forEach((d) => ev(L.sharp.s + 0.4 + d, 'tick'));
+ev(L.sharp.s + 0.2, 'click'); [0, 0.08, 0.16].forEach((d) => ev(L.sharp.s + 0.3 + d, 'tick'));
 ev(A['sharp:now'], 'scroll', { dur: 0.55 }); ev(A['sharp:now'] + 0.6, 'stop'); ev(A['sharp:now'] + 0.65, 'pluck', { i: 5 });
-for (let i = 0; i < 5; i++) ev(L.mez.s + 0.05 + i * 0.11, 'flyby', { i });
+for (let i = 0; i < 5; i++) ev(L.mez.s + 0.22 + i * 0.11, 'flyby', { i });
 ev(A['mez:we'] + 0.05, 'swish'); ev(A['mez:we'] + 0.27, 'scribble'); ev(A['mez:we'] + 0.57, 'scribble');
 'TEARDOWN'.split('').forEach((_, i) => ev(L.cta.s + 0.35 + i * 0.07, 'key'));
-ev(dmSend, 'click'); ev(dmSend + 0.05, 'send'); ev(T0.cta - 0.1, 'shimmer');
+ev(dmSend, 'click'); ev(dmSend + 0.05, 'send'); ev(T0.cta - 0.03, 'shimmer');
 ev(T0.cta + 0.05, 'whoosh_soft'); ev(T0.cta + 0.6, 'whoosh_soft'); ev(T0.end - 0.9, 'riser');
 ev(T0.end, 'sub'); ev(T0.end + 0.15, 'chime');
 fs.writeFileSync(path.join(__dirname, 'reel_premium_events.json'), JSON.stringify({ cues: C, shots: SHOTS, events: EV, flashAt, sendClick, dmSend }, null, 1));

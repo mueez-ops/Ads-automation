@@ -57,22 +57,22 @@
   }
  },
  "at": {
-  "hook:killing": 1.07,
+  "hook:killing": 0.96,
   "list:age": 2.147,
-  "list:interests": 2.827,
+  "list:interests": 2.717,
   "list:location": 3.287,
-  "still:nobody": 6.004,
-  "learns:algorithm": 10.509,
+  "still:nobody": 5.974,
+  "learns:algorithm": 10.439,
   "learns:then": 12.349,
   "learns:speaks": 13.389,
   "thesis:targeting": 15.644,
-  "vague:no": 17.352,
-  "sharp:now": 19.566,
-  "mez:we": 21.846,
+  "vague:no": 17.322,
+  "sharp:now": 19.456,
+  "mez:we": 21.836,
   "cta:teardown": 24.095,
-  "cta:and": 24.595,
+  "cta:and": 25.005,
   "cta:free": 26.135
  },
  "voice_end": 26.54,
- "end": 29.34
+ "end": 28.24
 }
