@@ -28,7 +28,7 @@ Upload carousel slides in number order (01, 02, 03…).
 > #adteardown #metaads #skincaremarketing #creativestrategy #ukskincare
 
 ## Carousel: 5 signs your Meta Ads might be wasting money
-Files: `post4_signs/` (7 slides). Classic look: warm ivory paper, near-black type, one deep red for the numerals. Inter Display + Instrument Serif italic + DM Mono. Rebuild with `node source/build_signs.js <out-dir>`.
+Files: `post4_signs/` (7 slides). Apple-style: one centred headline per slide above an iPhone whose screen shows the point; light grey slides, black for the first and last; no numbers or labels. Inter Display + Inter. Rebuild with `node source/build_signs.js <out-dir>`.
 
 **Caption**
 > Most wasted ad spend doesn't show up as a high cost per click. It hides in these 5 places.
@@ -42,7 +42,7 @@ Files: `post4_signs/` (7 slides). Classic look: warm ivory paper, near-black typ
 > #metaads #facebookads #leadgeneration
 
 **Alt text (cover)**
-> A large deep-red number 5 above bold black text on ivory paper: "signs your Meta Ads might be wasting money", with "wasting money" underlined in red, and the line "Number 4 gets overlooked."
+> Black slide with the white headline "5 signs your Meta Ads might be wasting money." above an iPhone lock screen showing two notifications: "Payment processed: $1,240 charged for ads" and "Weekly report: 2,138 clicks. 0 customers."
 
 ## Reel: "Breaking news" launch (black and white)
 File: `reels/mezmedia_breaking_news_launch.mp4` (1080×1920, 30fps, about 24.5s, deep British voiceover (Kokoro bm_lewis, fast read) + music + SFX, -14 LUFS).

@@ -1,139 +1,130 @@
-// Mez Media carousel: "5 signs your Meta Ads might be wasting money" (7 slides, 1080x1350).
-// Classic look: warm ivory paper, near-black type, warm greys, one deep red used sparingly.
-// Inter Display for headlines, Instrument Serif italic for numerals and the key word, DM Mono for labels.
+// Mez Media carousel: "5 signs your Meta Ads might be wasting money" (7 slides, 1080x1350), Apple-style.
+// One centred headline per slide and one picture under it: an iPhone, cropped by the bottom edge, whose
+// screen shows the point. Light grey slides, black for the first and last; no numbers, labels or handles.
 // Usage: node build_signs.js <out-dir>   (writes <out-dir>/post4_signs/post4_signs_01.png ...)
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 
 const OUT = process.argv[2];
-const FONTS = path.join(__dirname, 'fonts');
-const font = (f, type) => `url(data:font/${type};base64,${fs.readFileSync(path.join(FONTS, f)).toString('base64')})`;
-const W = 1080, H = 1350, TOTAL = 7;
-
-// faint paper grain
-const GRAIN = `url("data:image/svg+xml,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .2  0 0 0 0 .15  0 0 0 0 .1  0 0 0 .6 0'/></filter><rect width='100%' height='100%' filter='url(#n)'/></svg>`)}")`;
+const data = (f, mime) => `data:${mime};base64,${fs.readFileSync(f).toString('base64')}`;
+const font = (f, type) => `url(${data(path.join(__dirname, 'fonts', f), 'font/' + type)})`;
+const PHOTO = data(path.join(__dirname, 'photos', 'o_handshake.jpg'), 'image/jpeg');
+const W = 1080, H = 1350;
+const INK = '#1D1D1F', GREY = '#8E8E93';
 
 const CSS = `
-@font-face{font-family:Logo;font-weight:800;src:${font('InterDisplay-ExtraBold.otf', 'otf')}}
-@font-face{font-family:Logo;font-weight:600;src:${font('InterDisplay-SemiBold.otf', 'otf')}}
-@font-face{font-family:Body;font-weight:500;src:${font('Inter-500.ttf', 'ttf')}}
-@font-face{font-family:Body;font-weight:600;src:${font('Inter-600.ttf', 'ttf')}}
-@font-face{font-family:Body;font-weight:700;src:${font('Inter-700.ttf', 'ttf')}}
-@font-face{font-family:Serif;font-style:italic;src:${font('InstrumentSerif-Italic.woff2', 'woff2')}}
-@font-face{font-family:Mono;src:${font('DMMono-Regular.ttf', 'ttf')}}
-:root{--paper:#F2EDE4;--card:#FBF8F2;--back:#E8E1D5;--ink:#161514;--soft:#5E5850;--mute:#8F887C;--rule:#D7CFC1;--red:#8B2D23}
+@font-face{font-family:Disp;font-weight:600;src:${font('InterDisplay-SemiBold.otf', 'otf')}}
+@font-face{font-family:Text;font-weight:400;src:${font('Inter-400.ttf', 'ttf')}}
+@font-face{font-family:Text;font-weight:500;src:${font('Inter-500.ttf', 'ttf')}}
+@font-face{font-family:Text;font-weight:600;src:${font('Inter-600.ttf', 'ttf')}}
+@font-face{font-family:Text;font-weight:700;src:${font('Inter-700.ttf', 'ttf')}}
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{width:${W}px;height:${H}px;overflow:hidden;background:var(--paper)}
-.s{position:relative;width:${W}px;height:${H}px;padding:70px 96px 66px;display:flex;flex-direction:column;background:var(--paper);color:var(--ink);font-family:Body}
-.s:after{content:"";position:absolute;inset:0;background:${GRAIN};opacity:.09;mix-blend-mode:multiply;pointer-events:none}
-.top,.foot{display:flex;justify-content:space-between;align-items:center;font-family:Mono;font-size:30px;letter-spacing:.1em;color:var(--mute)}
-.top{padding-bottom:24px;border-bottom:2px solid var(--rule)}
-.foot{padding-top:22px;border-top:2px solid var(--rule)}
-.brand{font-family:Logo;font-weight:800;font-size:44px;letter-spacing:-.045em;color:var(--ink)}
-.brand i{font-style:normal;color:var(--red)}
-.brand span{font-family:Logo;font-weight:600;font-size:17px;letter-spacing:.34em;color:var(--mute);margin-left:12px;vertical-align:7px}
-.main{flex:1;display:flex;flex-direction:column;justify-content:center}
-.h{font-family:Logo;font-weight:800;letter-spacing:-.034em;line-height:1.02;color:var(--ink)}
-.it{font-family:Serif;font-style:italic;font-weight:400;font-size:1.13em;letter-spacing:-.005em;line-height:.9}
-.num{font-family:Serif;font-style:italic;color:var(--red);line-height:.74;letter-spacing:-.02em}
-.kick{font-family:Mono;font-size:32px;letter-spacing:.16em;text-transform:uppercase;color:var(--red)}
-.body{font-weight:500;font-size:38px;line-height:1.42;color:var(--soft);margin-top:30px;max-width:870px}
-.card{background:var(--card);border:2px solid var(--rule);border-radius:26px;box-shadow:0 26px 50px -28px rgba(70,45,25,.28)}
-.lab{font-family:Mono;font-size:30px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
-.bad{color:var(--red)}
-/* sign slides */
-.nrow{display:flex;align-items:flex-end;gap:30px}
-.nrow .num{font-size:236px;margin-left:-6px}
-.nrow .meta{padding-bottom:22px;display:flex;flex-direction:column;gap:14px}
-.pill{display:inline-block;font-family:Mono;font-size:30px;letter-spacing:.1em;text-transform:uppercase;color:var(--red);border:2px solid var(--red);border-radius:40px;padding:8px 22px 6px}
-.vig{margin-top:44px}
-/* checklist */
-.li{display:flex;align-items:center;gap:30px;font-family:Logo;font-weight:600;font-size:52px;letter-spacing:-.02em;padding:22px 0;border-bottom:2px solid var(--rule)}
-.li:first-child{border-top:2px solid var(--rule)}
-.cb{width:60px;height:60px;border-radius:12px;background:var(--ink);color:var(--paper);display:flex;align-items:center;justify-content:center;font-family:Body;font-weight:700;font-size:36px;flex:none}
+html,body{width:${W}px;height:${H}px;overflow:hidden}
+.s{width:${W}px;height:${H}px;overflow:hidden;display:flex;flex-direction:column;align-items:center;padding-top:136px;background:#F5F5F7;color:${INK};font-family:Text}
+.s.dark{background:#000;color:#F5F5F7}
+h1{font-family:Disp;font-weight:600;line-height:1.07;letter-spacing:-.024em;text-align:center;max-width:880px;text-wrap:balance}
+h1 em{font-style:normal;color:#86868B}
+/* the phone */
+.stage{position:relative;flex:none;width:640px;height:1320px;margin-top:82px}
+.phone{position:absolute;inset:0;border-radius:112px;padding:7px;background:linear-gradient(140deg,#e6e6eb 0%,#a2a2a8 16%,#f3f3f6 38%,#8e8e94 60%,#d9d9de 80%,#9c9ca2 100%);box-shadow:0 70px 120px -46px rgba(0,0,0,.42),0 3px 8px rgba(0,0,0,.1)}
+.dark .phone{box-shadow:0 -20px 180px -50px rgba(255,255,255,.16)}
+.bezel{width:100%;height:100%;border-radius:105px;background:#080808;padding:13px}
+.screen{position:relative;width:100%;height:100%;border-radius:92px;overflow:hidden;background:#F2F2F7;color:${INK}}
+.island{position:absolute;top:24px;left:50%;width:188px;height:56px;margin-left:-94px;border-radius:28px;background:#000;z-index:5}
+.status{position:absolute;top:28px;left:0;right:0;height:52px;display:flex;justify-content:space-between;align-items:center;padding:0 48px 0 72px;font-weight:600;font-size:31px;z-index:4}
+.status span:last-child{display:flex;gap:9px;align-items:center}
+.glass{position:absolute;inset:0;background:linear-gradient(125deg,rgba(255,255,255,.15) 0%,rgba(255,255,255,0) 30%);pointer-events:none;z-index:6}
+.btn{position:absolute;width:7px;border-radius:4px;background:linear-gradient(90deg,#8e8e94,#dcdce1)}
+.l1{left:-5px;top:236px;height:64px}.l2{left:-5px;top:340px;height:112px}.l3{left:-5px;top:474px;height:112px}.r1{right:-5px;top:372px;height:176px}
+/* iOS pieces, drawn larger than life so they read on a phone-sized post */
+.lt{font-weight:700;font-size:60px;letter-spacing:-.02em;padding:0 46px;margin-top:122px}
+.st{font-size:29px;color:${GREY};padding:0 46px;margin-top:4px}
+.card{background:#fff;border-radius:36px;margin:24px 26px 0;padding:28px 34px 24px}
+.lab{font-size:30px;font-weight:600;color:${GREY}}
+.big{font-family:Disp;font-weight:600;font-size:118px;letter-spacing:-.035em;line-height:1.02}
+.list{background:#fff;border-radius:36px;margin:28px 26px 0;overflow:hidden}
+.row{display:flex;align-items:center;gap:24px;padding:22px 32px;border-top:2px solid #EDEDF0}
+.row:first-child{border-top:0}
+.av{flex:none;width:72px;height:72px;border-radius:50%;background:#E5E5EA;color:${GREY};font-weight:600;font-size:32px;display:flex;align-items:center;justify-content:center}
+.clock{text-align:center}
+.clock .d{font-weight:600;font-size:32px;margin-top:132px;opacity:.82}
+.clock .h{font-family:Disp;font-weight:600;font-size:186px;line-height:1;letter-spacing:-.02em;margin-top:2px}
+.note{display:flex;gap:22px;align-items:flex-start;margin:16px 22px 0;padding:26px 28px;border-radius:42px;background:rgba(255,255,255,.68);backdrop-filter:blur(24px)}
+.note.dk{background:rgba(64,64,68,.62);color:#fff}
+.ic{flex:none;width:78px;height:78px;border-radius:19px;background:${INK};display:flex;align-items:center;justify-content:center}
+.dk .ic{background:#fff}
+.nt{flex:1;min-width:0}
+.nt .t{display:flex;justify-content:space-between;align-items:baseline;font-weight:600;font-size:31px}
+.nt .t i{font-style:normal;font-weight:400;font-size:26px;color:${GREY}}
+.dk .nt .t i{color:rgba(255,255,255,.55)}
+.nt .b{font-size:30px;line-height:1.3;margin-top:4px}
+.post{background:#fff;border-bottom:12px solid #F2F2F7}
+.ph{display:flex;align-items:center;gap:18px;padding:18px 28px}
+.adimg{height:180px;background:url(${PHOTO}) center 38%/cover}
 `;
 
-const top = (n) => `<div class="top"><div class="brand">mez<i>.</i><span>MEDIA</span></div><div>${String(n).padStart(2, '0')} / ${String(TOTAL).padStart(2, '0')}</div></div>`;
-const foot = (n) => `<div class="foot"><div>@mezmedia_0</div><div style="color:var(--ink)">${n === TOTAL ? 'SAVE THIS ↓' : 'SWIPE →'}</div></div>`;
-const slide = (n, inner) => `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body><div class="s">${top(n)}<div class="main">${inner}</div>${foot(n)}</div></body></html>`;
+// status bar icons
+const SIG = (c) => `<svg width="34" height="22" viewBox="0 0 34 22"><g fill="${c}"><rect y="14" width="6" height="8" rx="1.5"/><rect x="9" y="10" width="6" height="12" rx="1.5"/><rect x="18" y="5" width="6" height="17" rx="1.5"/><rect x="27" width="6" height="22" rx="1.5"/></g></svg>`;
+const WIFI = (c) => `<svg width="30" height="22" viewBox="0 0 30 22"><g fill="none" stroke="${c}" stroke-width="3.6" stroke-linecap="round"><path d="M2.5 8.5a18 18 0 0 1 25 0"/><path d="M7.5 13.3a11 11 0 0 1 15 0"/></g><circle cx="15" cy="18.6" r="3" fill="${c}"/></svg>`;
+const BAT = (c) => `<svg width="50" height="24" viewBox="0 0 50 24"><rect x="1.5" y="1.5" width="41" height="21" rx="6" fill="none" stroke="${c}" stroke-opacity=".4" stroke-width="2.4"/><rect x="5" y="5" width="34" height="14" rx="3.4" fill="${c}"/><rect x="45" y="8" width="3.5" height="8" rx="1.6" fill="${c}" fill-opacity=".45"/></svg>`;
+// app icons for notifications
+const CHART = (c) => `<svg width="44" height="40" viewBox="0 0 44 40"><g fill="${c}"><rect x="2" y="22" width="9" height="16" rx="2.5"/><rect x="17" y="12" width="9" height="26" rx="2.5"/><rect x="32" y="2" width="9" height="36" rx="2.5"/></g></svg>`;
+const PERSON = (c) => `<svg width="40" height="42" viewBox="0 0 40 42"><g fill="${c}"><circle cx="20" cy="12" r="10"/><path d="M2 41c0-10 8-17 18-17s18 7 18 17z"/></g></svg>`;
+const CHECK = `<svg width="26" height="20" viewBox="0 0 26 20"><path d="M3 10.5l7 6.5L23 3" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
 
-// a sign slide: big numeral, the claim, one line of why, and a small illustrative card
-const sign = (n, head, body, vig, extra = '') => slide(n + 1, `
-  <div class="nrow"><div class="num">${n}</div><div class="meta"><div class="kick">Sign #${n}</div>${extra}</div></div>
-  <div class="h" style="font-size:80px;margin-top:30px">${head}</div>
-  <div class="body">${body}</div>
-  <div class="vig">${vig}</div>`);
+const phone = (screen, { dark = false, bg = '' } = {}) => `<div class="stage"><div class="phone">
+  <i class="btn l1"></i><i class="btn l2"></i><i class="btn l3"></i><i class="btn r1"></i>
+  <div class="bezel"><div class="screen" style="${bg}"><div class="island"></div>
+    <div class="status" style="color:${dark ? '#fff' : INK}"><span>9:41</span><span>${SIG(dark ? '#fff' : INK)}${WIFI(dark ? '#fff' : INK)}${BAT(dark ? '#fff' : INK)}</span></div>
+    ${screen}<div class="glass"></div></div></div></div></div>`;
+const slide = (head, img, { dark = false, size = 80, wide = 880 } = {}) => `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head>
+<body><div class="s${dark ? ' dark' : ''}"><h1 style="font-size:${size}px;max-width:${wide}px">${head}</h1>${img}</div></body></html>`;
 
-const line = (pts, color) => `<svg width="430" height="84" viewBox="0 0 430 84"><polyline points="${pts}" fill="none" style="stroke:${color}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
-const V1 = `<div class="card" style="padding:34px 40px">
-  ${[['Clicks', '6,74 66,66 126,68 186,50 246,44 306,30 366,22 424,8', 'var(--ink)', '▲'], ['Customers', '6,46 66,47 126,45 186,47 246,46 306,47 366,45 424,46', 'var(--red)', '—']].map(([lab, pts, c, mark], i) => `
-  <div style="display:flex;align-items:center;gap:26px;${i ? 'margin-top:26px;padding-top:26px;border-top:2px solid var(--rule)' : ''}">
-    <div class="lab" style="width:236px">${lab}</div>${line(pts, c)}<div style="font-family:Body;font-weight:700;font-size:38px;color:${c};margin-left:auto">${mark}</div></div>`).join('')}
-</div>`;
-
-const V2 = `<div class="card" style="padding:28px 40px 18px">
-  <div class="lab" style="margin-bottom:8px">New enquiries</div>
-  ${[['Outside your area', 0], ['Just price-checking', 0], ['Wrong budget', 0], ['Ideal customer', 1]].map(([t, ok]) => `
-  <div style="display:flex;align-items:center;gap:22px;padding:13px 0;border-top:2px solid var(--rule)">
-    <div style="width:46px;height:46px;border-radius:50%;background:${ok ? 'var(--ink)' : 'var(--back)'}"></div>
-    <div style="font-weight:${ok ? 700 : 500};font-size:34px;color:${ok ? 'var(--ink)' : 'var(--soft)'}">${t}</div>
-    <div style="margin-left:auto;font-weight:700;font-size:36px;color:${ok ? 'var(--ink)' : 'var(--red)'}">${ok ? '✓' : '✕'}</div></div>`).join('')}
-</div>`;
-
-const offerCard = (who, style, strong) => `<div class="card" style="position:absolute;left:0;right:0;height:104px;padding:0 34px;display:flex;align-items:center;gap:24px;${style}">
-  <div class="lab" style="width:92px;flex:none;color:${strong ? 'var(--ink)' : 'var(--mute)'}">${who}</div>
-  <div style="white-space:nowrap;font-weight:${strong ? 600 : 500};font-size:31px;color:${strong ? 'var(--ink)' : 'var(--mute)'}">“High-quality service at affordable prices.”</div></div>`;
-const V3 = `<div style="position:relative;height:272px">
-  ${offerCard('Them', 'top:0;transform:scale(.93) rotate(-1.4deg);background:var(--back);box-shadow:none')}
-  ${offerCard('Them', 'top:84px;transform:scale(.965) rotate(.9deg);background:#EFE9DF')}
-  ${offerCard('You', 'top:168px', true)}
-</div>`;
-
-const V4 = `<div class="card" style="padding:28px 40px 16px">
-  <div style="display:flex;align-items:center;gap:18px;margin-bottom:10px">
-    <div style="width:18px;height:18px;border-radius:50%;background:var(--red)"></div>
-    <div style="font-family:Logo;font-weight:800;font-size:40px;letter-spacing:-.02em">New lead</div>
-    <div class="lab" style="margin-left:auto">Mon 09:02</div></div>
-  ${[['First reply', '2 days later'], ['Follow-up', 'None'], ['Sale tracked', 'No']].map(([k, v]) => `
-  <div style="display:flex;align-items:center;padding:11px 0;border-top:2px solid var(--rule);font-size:34px">
-    <div style="font-weight:500;color:var(--soft)">${k}</div><div style="margin-left:auto;font-weight:700;color:var(--red)">${v}</div></div>`).join('')}
-</div>`;
-
-const V5 = `<div class="card" style="padding:26px 40px 14px">
-  <div style="display:flex;justify-content:space-between;margin-bottom:6px"><div class="lab">Campaign</div><div class="lab">Testing</div></div>
-  ${[['Campaign_v3_FINAL', 0], ['Campaign_v4_new', 0], ['Campaign_v5_test', 0], ['Campaign_v6_FINAL_real', 1]].map(([t, on]) => `
-  <div style="display:flex;align-items:center;gap:20px;padding:9px 0;border-top:2px solid var(--rule)">
-    <div style="width:16px;height:16px;border-radius:50%;background:${on ? 'var(--ink)' : 'var(--rule)'}"></div>
-    <div style="font-family:Mono;font-size:31px;color:${on ? 'var(--ink)' : 'var(--mute)'}">${t}</div>
-    <div style="margin-left:auto;font-family:Serif;font-style:italic;font-size:48px;line-height:1;color:var(--red)">?</div></div>`).join('')}
-</div>`;
+const note = (title, when, body, icon, dk) => `<div class="note${dk ? ' dk' : ''}"><div class="ic">${icon}</div>
+  <div class="nt"><div class="t"><span>${title}</span><i>${when}</i></div><div class="b">${body}</div></div></div>`;
+const lock = (date) => `<div class="clock"><div class="d">${date}</div><div class="h">9:41</div></div><div style="height:46px"></div>`;
+const chart = (d, stroke, fill) => `<svg viewBox="0 0 532 100" width="100%" height="100" style="display:block;margin-top:10px">
+  ${fill ? `<defs><linearGradient id="fa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${INK}" stop-opacity=".16"/><stop offset="1" stop-color="${INK}" stop-opacity="0"/></linearGradient></defs><path d="${d} L532 100 L0 100Z" fill="url(#fa)"/>` : ''}
+  <path d="${d}" fill="none" stroke="${stroke}" stroke-width="5" stroke-linecap="round"/></svg>`;
+const toggle = (on) => `<div style="flex:none;position:relative;width:96px;height:58px;border-radius:29px;background:${on ? INK : '#E5E5EA'}">
+  <div style="position:absolute;top:4px;${on ? 'right' : 'left'}:4px;width:50px;height:50px;border-radius:50%;background:#fff;box-shadow:0 3px 8px rgba(0,0,0,.15)"></div></div>`;
+const post = (name, you) => `<div class="post"><div class="ph"><div class="av" style="width:60px;height:60px;${you ? `background:${INK}` : ''}"></div>
+  <div><div style="font-weight:600;font-size:29px">${name}</div><div style="font-size:24px;color:${GREY}">Sponsored</div></div></div>
+  <div class="adimg"></div><div style="font-weight:600;font-size:30px;line-height:1.25;padding:18px 30px 24px;text-wrap:balance">High-quality service at affordable prices.</div></div>`;
 
 const slides = [
-  slide(1, `
-    <div style="padding:0 24px">
-    <div class="num" style="font-size:560px;line-height:.82;margin:0 0 34px -4px">5</div>
-    <div class="h" style="font-size:108px">signs your Meta Ads might be <span style="background:linear-gradient(var(--red),var(--red)) 0 94%/100% 12px no-repeat;padding-bottom:4px">wasting money.</span></div>
-    <div style="display:flex;align-items:center;gap:22px;margin-top:52px">
-      <div style="font-family:Serif;font-style:italic;font-size:60px;line-height:1;color:var(--ink)">Number 4 gets overlooked.</div>
-      <div style="font-family:Body;font-weight:500;font-size:46px;color:var(--red)">→</div></div></div>`),
-  sign(1, 'You’re celebrating clicks, not <span class="it">customers.</span>',
-    'Traffic is only useful when it helps move the right people toward your business goal.', V1),
-  sign(2, 'You’re attracting the <span class="it">wrong leads.</span>',
-    'Lots of enquiries mean little if they don’t fit your ideal customer profile.', V2),
-  sign(3, 'Your offer sounds like <span class="it">everyone else’s.</span>',
-    '“High-quality service at affordable prices” isn’t a compelling reason to choose you.', V3),
-  sign(4, 'Nobody knows what happens <span class="it">after</span> a lead comes in.',
-    'Slow responses, poor follow-up, and missing sales tracking can waste opportunities.', V4, '<div><span class="pill">Most overlooked</span></div>'),
-  sign(5, 'You keep changing campaigns without a clear <span class="it">hypothesis.</span>',
-    'If you don’t know what you’re testing, you’ll struggle to learn from the results.', V5),
-  slide(7, `
-    <div class="kick">Your next move</div>
-    <div class="h" style="font-size:94px;margin-top:24px">Before spending more, <span class="it">audit:</span></div>
-    <div style="margin-top:46px">${['Your offer', 'Your creative', 'Your lead quality', 'Your follow-up process', 'Your conversion tracking'].map((t) => `<div class="li"><div class="cb">✓</div>${t}</div>`).join('')}</div>
-    <div style="display:flex;align-items:center;gap:24px;margin-top:50px">
-      <svg width="42" height="56" viewBox="0 0 42 56" style="flex:none"><path d="M3 3h36v50L21 40 3 53z" style="fill:var(--red)"/></svg>
-      <div style="font-family:Serif;font-style:italic;font-size:52px;line-height:1.08">Save this checklist for your next campaign review.</div></div>`),
+  slide('5 signs your Meta Ads<br>might be wasting money.', phone(`${lock('Tuesday 20 October')}
+    ${note('Payment processed', 'now', '$1,240 charged for ads.', CHART(INK), true)}
+    ${note('Weekly report', '1m ago', '2,138 clicks. 0 customers.', CHART(INK), true)}`,
+  { dark: true, bg: 'background:radial-gradient(130% 75% at 50% 0%,#4a4a4e 0%,#1c1c1e 45%,#000 100%);color:#fff' }), { dark: true, size: 80, wide: 1000 }),
+
+  slide('You’re celebrating clicks, <em>not customers.</em>', phone(`<div class="lt">Overview</div><div class="st">Last 7 days</div>
+    <div class="card"><div class="lab">Clicks</div><div class="big">2,138</div>${chart('M0 92 C60 88 90 80 140 76 S230 54 280 50 S380 30 430 22 S500 9 532 5', INK, true)}</div>
+    <div class="card"><div class="lab">Customers</div><div class="big">0</div>${chart('M0 70 C100 70 160 71 260 70 S420 69 532 70', '#C7C7CC')}</div>`)),
+
+  slide('You’re attracting <em>the wrong leads.</em>', phone(`<div class="lt">Enquiries</div><div class="st">6 new</div><div class="list">
+    ${[['A', 'Alex', 'Do you do it for free?', '9:38'], ['S', 'Sam', 'Just comparing prices, thanks.', '9:21'], ['J', 'Jordan', 'Sorry, wrong number.', '8:57'],
+      ['P', 'Priya', 'Are you hiring?', '8:40'], ['C', 'Chris', 'Can you call me next year?', 'Mon'], ['D', 'Dan', 'What was this ad for?', 'Mon']].map(([i, n, m, w]) => `
+      <div class="row"><div class="av">${i}</div><div style="flex:1;min-width:0"><div style="display:flex;justify-content:space-between;align-items:baseline">
+      <b style="font-weight:600;font-size:32px">${n}</b><span style="font-size:26px;color:${GREY}">${w}</span></div>
+      <div style="font-size:30px;color:#6E6E73;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${m}</div></div></div>`).join('')}</div>`)),
+
+  slide('Your offer sounds <em>like everyone else’s.</em>', phone(`<div style="height:104px;background:#fff"></div>${post('Prime Services')}${post('Your business', true)}${post('Brightway Co.')}`, { bg: 'background:#fff' })),
+
+  slide('Nobody knows what happens <em>after a lead comes in.</em>', phone(`${lock('Tuesday 20 October')}
+    ${note('New lead', '3d ago', 'Sarah wants a quote.', PERSON('#fff'))}
+    ${note('New lead', '2d ago', 'Mike asked about prices.', PERSON('#fff'))}
+    ${note('New lead', '1d ago', 'Aisha wants to book.', PERSON('#fff'))}`, { bg: 'background:linear-gradient(180deg,#DEDEE3 0%,#BCBCC3 100%)' }), { size: 76 }),
+
+  slide('You keep changing campaigns <em>without a clear hypothesis.</em>', phone(`<div class="lt">Campaigns</div><div class="st">5 campaigns</div><div class="list">
+    ${[['Campaign_v3_FINAL', 0], ['Campaign_v4_new', 0], ['Campaign_v5_test', 0], ['Campaign_v6_FINAL_real', 1], ['Campaign_v7_try_this', 1]].map(([n, on]) => `
+      <div class="row" style="padding:26px 32px"><div style="flex:1;font-size:31px;font-weight:500">${n}</div>${toggle(on)}</div>`).join('')}</div>`), { size: 76 }),
+
+  slide('Before spending more, audit:', phone(`<div class="lt">Campaign review</div><div class="st">5 items</div><div class="list">
+    ${['Your offer', 'Your creative', 'Your lead quality', 'Your follow-up process', 'Your conversion tracking'].map((t) => `
+      <div class="row" style="padding:28px 32px"><div style="flex:none;width:52px;height:52px;border-radius:50%;background:${INK};display:flex;align-items:center;justify-content:center">${CHECK}</div>
+      <div style="font-size:33px;font-weight:500">${t}</div></div>`).join('')}</div>`), { dark: true }),
 ];
 
 (async () => {
@@ -144,13 +135,11 @@ const slides = [
   for (let i = 0; i < slides.length; i++) {
     await pg.setContent(slides[i], { waitUntil: 'load' });
     await pg.evaluate(() => document.fonts.ready);
-    // fail loudly if anything spills past the canvas or the main area overflows into the footer
-    const bad = await pg.evaluate(() => {
-      const m = document.querySelector('.main'), f = document.querySelector('.foot'), mr = m.scrollHeight > m.clientHeight + 1;
-      const out = [...document.querySelectorAll('.s *')].filter((e) => { const r = e.getBoundingClientRect(); return r.right > innerWidth - 40 || r.left < 40; }).length;
-      return { mainOverflow: mr, nearEdge: out, footTop: Math.round(f.getBoundingClientRect().top) };
+    const m = await pg.evaluate(() => {        // where the phone's screen starts, and how many lines the headline took
+      const h = document.querySelector('h1'), sc = document.querySelector('.screen');
+      return { lines: Math.round(h.getBoundingClientRect().height / parseFloat(getComputedStyle(h).lineHeight)), screenTop: Math.round(sc.getBoundingClientRect().top) };
     });
-    if (bad.mainOverflow || bad.nearEdge) console.warn('CHECK', i + 1, JSON.stringify(bad));
+    console.log('slide', i + 1, JSON.stringify(m));
     await pg.screenshot({ path: path.join(dir, `post4_signs_${String(i + 1).padStart(2, '0')}.png`) });
   }
   await browser.close();
