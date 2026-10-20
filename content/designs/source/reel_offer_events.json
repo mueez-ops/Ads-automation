@@ -1,0 +1,1243 @@
+{
+ "cues": {
+  "lines": {
+   "hook": {
+    "s": 0.05,
+    "e": 2.525,
+    "text": "i'd fix this before spending another dollar on ads"
+   },
+   "cost": {
+    "s": 2.775,
+    "e": 4.652,
+    "text": "your ads aren't always too expensive"
+   },
+   "offer": {
+    "s": 4.802,
+    "e": 6.563,
+    "text": "sometimes your offer isn't fine"
+   },
+   "wake": {
+    "s": 6.813,
+    "e": 9.039,
+    "text": "nobody wakes up wanting to buy your service"
+   },
+   "problem": {
+    "s": 9.159,
+    "e": 10.635,
+    "text": "they want a problem solved"
+   },
+   "stop": {
+    "s": 10.885,
+    "e": 12.444,
+    "text": "stop advertising what you do"
+   },
+   "start": {
+    "s": 12.564,
+    "e": 14.334,
+    "text": "start communicating why it matters"
+   },
+   "because": {
+    "s": 14.584,
+    "e": 17.784,
+    "text": "because better targeting can't fix an offer people don't want"
+   },
+   "cta": {
+    "s": 18.134,
+    "e": 20.153,
+    "text": "agree or disagree tell me below"
+   }
+  },
+  "words": [
+   {
+    "w": "i'd",
+    "s": 0.094,
+    "e": 0.244,
+    "line": "hook"
+   },
+   {
+    "w": "fix",
+    "s": 0.294,
+    "e": 0.494,
+    "line": "hook"
+   },
+   {
+    "w": "this",
+    "s": 0.544,
+    "e": 0.769,
+    "line": "hook"
+   },
+   {
+    "w": "before",
+    "s": 0.819,
+    "e": 1.019,
+    "line": "hook"
+   },
+   {
+    "w": "spending",
+    "s": 1.069,
+    "e": 1.344,
+    "line": "hook"
+   },
+   {
+    "w": "another",
+    "s": 1.369,
+    "e": 1.619,
+    "line": "hook"
+   },
+   {
+    "w": "dollar",
+    "s": 1.669,
+    "e": 1.919,
+    "line": "hook"
+   },
+   {
+    "w": "on",
+    "s": 2.019,
+    "e": 2.094,
+    "line": "hook"
+   },
+   {
+    "w": "ads",
+    "s": 2.169,
+    "e": 2.525,
+    "line": "hook"
+   },
+   {
+    "w": "your",
+    "s": 2.831,
+    "e": 2.981,
+    "line": "cost"
+   },
+   {
+    "w": "ads",
+    "s": 3.056,
+    "e": 3.306,
+    "line": "cost"
+   },
+   {
+    "w": "aren't",
+    "s": 3.381,
+    "e": 3.506,
+    "line": "cost"
+   },
+   {
+    "w": "always",
+    "s": 3.531,
+    "e": 3.806,
+    "line": "cost"
+   },
+   {
+    "w": "too",
+    "s": 3.856,
+    "e": 3.956,
+    "line": "cost"
+   },
+   {
+    "w": "expensive",
+    "s": 4.006,
+    "e": 4.704,
+    "line": "cost"
+   },
+   {
+    "w": "sometimes",
+    "s": 4.892,
+    "e": 5.442,
+    "line": "offer"
+   },
+   {
+    "w": "your",
+    "s": 5.542,
+    "e": 5.642,
+    "line": "offer"
+   },
+   {
+    "w": "offer",
+    "s": 5.692,
+    "e": 5.892,
+    "line": "offer"
+   },
+   {
+    "w": "isn't",
+    "s": 5.967,
+    "e": 6.117,
+    "line": "offer"
+   },
+   {
+    "w": "fine",
+    "s": 6.167,
+    "e": 6.615,
+    "line": "offer"
+   },
+   {
+    "w": "nobody",
+    "s": 6.893,
+    "e": 7.318,
+    "line": "wake"
+   },
+   {
+    "w": "wakes",
+    "s": 7.368,
+    "e": 7.593,
+    "line": "wake"
+   },
+   {
+    "w": "up",
+    "s": 7.668,
+    "e": 7.768,
+    "line": "wake"
+   },
+   {
+    "w": "wanting",
+    "s": 7.818,
+    "e": 8.068,
+    "line": "wake"
+   },
+   {
+    "w": "to",
+    "s": 8.118,
+    "e": 8.143,
+    "line": "wake"
+   },
+   {
+    "w": "buy",
+    "s": 8.218,
+    "e": 8.418,
+    "line": "wake"
+   },
+   {
+    "w": "your",
+    "s": 8.443,
+    "e": 8.518,
+    "line": "wake"
+   },
+   {
+    "w": "service",
+    "s": 8.568,
+    "e": 9.039,
+    "line": "wake"
+   },
+   {
+    "w": "they",
+    "s": 9.21,
+    "e": 9.36,
+    "line": "problem"
+   },
+   {
+    "w": "want",
+    "s": 9.41,
+    "e": 9.61,
+    "line": "problem"
+   },
+   {
+    "w": "a",
+    "s": 9.61,
+    "e": 9.71,
+    "line": "problem"
+   },
+   {
+    "w": "problem",
+    "s": 9.71,
+    "e": 10.11,
+    "line": "problem"
+   },
+   {
+    "w": "solved",
+    "s": 10.185,
+    "e": 10.635,
+    "line": "problem"
+   },
+   {
+    "w": "stop",
+    "s": 10.971,
+    "e": 11.246,
+    "line": "stop"
+   },
+   {
+    "w": "advertising",
+    "s": 11.296,
+    "e": 11.846,
+    "line": "stop"
+   },
+   {
+    "w": "what",
+    "s": 11.896,
+    "e": 11.996,
+    "line": "stop"
+   },
+   {
+    "w": "you",
+    "s": 12.046,
+    "e": 12.121,
+    "line": "stop"
+   },
+   {
+    "w": "do",
+    "s": 12.171,
+    "e": 12.485,
+    "line": "stop"
+   },
+   {
+    "w": "start",
+    "s": 12.65,
+    "e": 12.875,
+    "line": "start"
+   },
+   {
+    "w": "communicating",
+    "s": 12.925,
+    "e": 13.525,
+    "line": "start"
+   },
+   {
+    "w": "why",
+    "s": 13.575,
+    "e": 13.75,
+    "line": "start"
+   },
+   {
+    "w": "it",
+    "s": 13.775,
+    "e": 13.825,
+    "line": "start"
+   },
+   {
+    "w": "matters",
+    "s": 13.85,
+    "e": 14.334,
+    "line": "start"
+   },
+   {
+    "w": "because",
+    "s": 14.625,
+    "e": 14.9,
+    "line": "because"
+   },
+   {
+    "w": "better",
+    "s": 14.95,
+    "e": 15.15,
+    "line": "because"
+   },
+   {
+    "w": "targeting",
+    "s": 15.2,
+    "e": 15.85,
+    "line": "because"
+   },
+   {
+    "w": "can't",
+    "s": 15.95,
+    "e": 16.225,
+    "line": "because"
+   },
+   {
+    "w": "fix",
+    "s": 16.3,
+    "e": 16.475,
+    "line": "because"
+   },
+   {
+    "w": "an",
+    "s": 16.525,
+    "e": 16.55,
+    "line": "because"
+   },
+   {
+    "w": "offer",
+    "s": 16.625,
+    "e": 16.875,
+    "line": "because"
+   },
+   {
+    "w": "people",
+    "s": 16.925,
+    "e": 17.225,
+    "line": "because"
+   },
+   {
+    "w": "don't",
+    "s": 17.275,
+    "e": 17.425,
+    "line": "because"
+   },
+   {
+    "w": "want",
+    "s": 17.475,
+    "e": 17.784,
+    "line": "because"
+   },
+   {
+    "w": "agree",
+    "s": 18.203,
+    "e": 18.553,
+    "line": "cta"
+   },
+   {
+    "w": "or",
+    "s": 18.603,
+    "e": 18.678,
+    "line": "cta"
+   },
+   {
+    "w": "disagree",
+    "s": 18.703,
+    "e": 19.353,
+    "line": "cta"
+   },
+   {
+    "w": "tell",
+    "s": 19.503,
+    "e": 19.628,
+    "line": "cta"
+   },
+   {
+    "w": "me",
+    "s": 19.653,
+    "e": 19.753,
+    "line": "cta"
+   },
+   {
+    "w": "below",
+    "s": 19.778,
+    "e": 20.182,
+    "line": "cta"
+   }
+  ],
+  "voice_end": 20.153,
+  "end": 21.953,
+  "at": {
+   "hook:i'd": 0.094,
+   "hook:fix": 0.294,
+   "hook:this": 0.544,
+   "hook:before": 0.819,
+   "hook:spending": 1.069,
+   "hook:another": 1.369,
+   "hook:dollar": 1.669,
+   "hook:on": 2.019,
+   "hook:ads": 2.169,
+   "cost:your": 2.831,
+   "cost:ads": 3.056,
+   "cost:aren't": 3.381,
+   "cost:always": 3.531,
+   "cost:too": 3.856,
+   "cost:expensive": 4.006,
+   "offer:sometimes": 4.892,
+   "offer:your": 5.542,
+   "offer:offer": 5.692,
+   "offer:isn't": 5.967,
+   "offer:fine": 6.167,
+   "wake:nobody": 6.893,
+   "wake:wakes": 7.368,
+   "wake:up": 7.668,
+   "wake:wanting": 7.818,
+   "wake:to": 8.118,
+   "wake:buy": 8.218,
+   "wake:your": 8.443,
+   "wake:service": 8.568,
+   "problem:they": 9.21,
+   "problem:want": 9.41,
+   "problem:a": 9.61,
+   "problem:problem": 9.71,
+   "problem:solved": 10.185,
+   "stop:stop": 10.971,
+   "stop:advertising": 11.296,
+   "stop:what": 11.896,
+   "stop:you": 12.046,
+   "stop:do": 12.171,
+   "start:start": 12.65,
+   "start:communicating": 12.925,
+   "start:why": 13.575,
+   "start:it": 13.775,
+   "start:matters": 13.85,
+   "because:because": 14.625,
+   "because:better": 14.95,
+   "because:targeting": 15.2,
+   "because:can't": 15.95,
+   "because:fix": 16.3,
+   "because:an": 16.525,
+   "because:offer": 16.625,
+   "because:people": 16.925,
+   "because:don't": 17.275,
+   "because:want": 17.475,
+   "cta:agree": 18.203,
+   "cta:or": 18.603,
+   "cta:disagree": 18.703,
+   "cta:tell": 19.503,
+   "cta:me": 19.653,
+   "cta:below": 19.778
+  }
+ },
+ "shots": [
+  {
+   "key": "dash",
+   "s": 0,
+   "e": 4.802,
+   "tin": "none"
+  },
+  {
+   "key": "page",
+   "s": 4.802,
+   "e": 6.813,
+   "tin": "none"
+  },
+  {
+   "key": "wake",
+   "s": 6.813,
+   "e": 9.159,
+   "tin": "pushU"
+  },
+  {
+   "key": "problem",
+   "s": 9.159,
+   "e": 10.885,
+   "tin": "whipL"
+  },
+  {
+   "key": "rewrite",
+   "s": 10.885,
+   "e": 14.584,
+   "tin": "whipR"
+  },
+  {
+   "key": "target",
+   "s": 14.584,
+   "e": 16.525,
+   "tin": "whipU"
+  },
+  {
+   "key": "formula",
+   "s": 16.525,
+   "e": 18.134,
+   "tin": "cut"
+  },
+  {
+   "key": "concept",
+   "s": 18.134,
+   "e": 20.353,
+   "tin": "pushU"
+  },
+  {
+   "key": "logo",
+   "s": 20.353,
+   "e": 21.953,
+   "tin": "circle"
+  }
+ ],
+ "captions": [
+  {
+   "text": "your",
+   "s": 2.831,
+   "line": "cost",
+   "hl": false,
+   "e": 3.056
+  },
+  {
+   "text": "ads",
+   "s": 3.056,
+   "line": "cost",
+   "hl": false,
+   "e": 3.381
+  },
+  {
+   "text": "aren't",
+   "s": 3.381,
+   "line": "cost",
+   "hl": false,
+   "e": 3.531
+  },
+  {
+   "text": "always",
+   "s": 3.531,
+   "line": "cost",
+   "hl": false,
+   "e": 3.856
+  },
+  {
+   "text": "too",
+   "s": 3.856,
+   "line": "cost",
+   "hl": false,
+   "e": 4.006
+  },
+  {
+   "text": "expensive",
+   "s": 4.006,
+   "line": "cost",
+   "hl": true,
+   "e": 4.892
+  },
+  {
+   "text": "sometimes",
+   "s": 4.892,
+   "line": "offer",
+   "hl": false,
+   "e": 5.542
+  },
+  {
+   "text": "your",
+   "s": 5.542,
+   "line": "offer",
+   "hl": false,
+   "e": 5.692
+  },
+  {
+   "text": "offer",
+   "s": 5.692,
+   "line": "offer",
+   "hl": true,
+   "e": 5.967
+  },
+  {
+   "text": "isn't",
+   "s": 5.967,
+   "line": "offer",
+   "hl": false,
+   "e": 6.167
+  },
+  {
+   "text": "fine",
+   "s": 6.167,
+   "line": "offer",
+   "hl": true,
+   "e": 6.893
+  },
+  {
+   "text": "nobody",
+   "s": 6.893,
+   "line": "wake",
+   "hl": true,
+   "e": 7.368
+  },
+  {
+   "text": "wakes",
+   "s": 7.368,
+   "line": "wake",
+   "hl": false,
+   "e": 7.668
+  },
+  {
+   "text": "up",
+   "s": 7.668,
+   "line": "wake",
+   "hl": false,
+   "e": 7.818
+  },
+  {
+   "text": "wanting",
+   "s": 7.818,
+   "line": "wake",
+   "hl": false,
+   "e": 8.118
+  },
+  {
+   "text": "to buy",
+   "s": 8.118,
+   "line": "wake",
+   "hl": false,
+   "e": 8.443
+  },
+  {
+   "text": "your service",
+   "s": 8.443,
+   "line": "wake",
+   "hl": false,
+   "e": 9.21
+  },
+  {
+   "text": "they",
+   "s": 9.21,
+   "line": "problem",
+   "hl": false,
+   "e": 9.41
+  },
+  {
+   "text": "want",
+   "s": 9.41,
+   "line": "problem",
+   "hl": false,
+   "e": 9.61
+  },
+  {
+   "text": "a",
+   "s": 9.61,
+   "line": "problem",
+   "hl": false,
+   "e": 9.71
+  },
+  {
+   "text": "problem",
+   "s": 9.71,
+   "line": "problem",
+   "hl": true,
+   "e": 10.185
+  },
+  {
+   "text": "solved",
+   "s": 10.185,
+   "line": "problem",
+   "hl": true,
+   "e": 10.935
+  },
+  {
+   "text": "stop",
+   "s": 10.971,
+   "line": "stop",
+   "hl": false,
+   "e": 11.296
+  },
+  {
+   "text": "advertising",
+   "s": 11.296,
+   "line": "stop",
+   "hl": false,
+   "e": 11.896
+  },
+  {
+   "text": "what",
+   "s": 11.896,
+   "line": "stop",
+   "hl": false,
+   "e": 12.046
+  },
+  {
+   "text": "you do",
+   "s": 12.046,
+   "line": "stop",
+   "hl": false,
+   "e": 12.65
+  },
+  {
+   "text": "start",
+   "s": 12.65,
+   "line": "start",
+   "hl": false,
+   "e": 12.925
+  },
+  {
+   "text": "communicating",
+   "s": 12.925,
+   "line": "start",
+   "hl": false,
+   "e": 13.575
+  },
+  {
+   "text": "why",
+   "s": 13.575,
+   "line": "start",
+   "hl": true,
+   "e": 13.775
+  },
+  {
+   "text": "it matters",
+   "s": 13.775,
+   "line": "start",
+   "hl": false,
+   "e": 14.625
+  },
+  {
+   "text": "because",
+   "s": 14.625,
+   "line": "because",
+   "hl": false,
+   "e": 14.95
+  },
+  {
+   "text": "better",
+   "s": 14.95,
+   "line": "because",
+   "hl": false,
+   "e": 15.2
+  },
+  {
+   "text": "targeting",
+   "s": 15.2,
+   "line": "because",
+   "hl": true,
+   "e": 15.95
+  },
+  {
+   "text": "can't",
+   "s": 15.95,
+   "line": "because",
+   "hl": true,
+   "e": 16.3
+  },
+  {
+   "text": "fix",
+   "s": 16.3,
+   "line": "because",
+   "hl": false,
+   "e": 16.525
+  },
+  {
+   "text": "an",
+   "s": 16.525,
+   "line": "because",
+   "hl": false,
+   "e": 16.625
+  },
+  {
+   "text": "offer",
+   "s": 16.625,
+   "line": "because",
+   "hl": true,
+   "e": 16.925
+  },
+  {
+   "text": "people",
+   "s": 16.925,
+   "line": "because",
+   "hl": false,
+   "e": 17.275
+  },
+  {
+   "text": "don't",
+   "s": 17.275,
+   "line": "because",
+   "hl": false,
+   "e": 17.475
+  },
+  {
+   "text": "want",
+   "s": 17.475,
+   "line": "because",
+   "hl": false,
+   "e": 18.084
+  },
+  {
+   "text": "agree",
+   "s": 18.203,
+   "line": "cta",
+   "hl": true,
+   "e": 18.603
+  },
+  {
+   "text": "or",
+   "s": 18.603,
+   "line": "cta",
+   "hl": false,
+   "e": 18.703
+  },
+  {
+   "text": "disagree",
+   "s": 18.703,
+   "line": "cta",
+   "hl": true,
+   "e": 19.503
+  },
+  {
+   "text": "tell me below",
+   "s": 19.503,
+   "line": "cta",
+   "hl": false,
+   "e": 20.482
+  }
+ ],
+ "events": [
+  {
+   "t": 6.813,
+   "k": "whoosh_c",
+   "g": 0.7
+  },
+  {
+   "t": 9.159,
+   "k": "whoosh_b",
+   "g": 0.7
+  },
+  {
+   "t": 10.885,
+   "k": "whoosh_a",
+   "g": 0.7
+  },
+  {
+   "t": 14.584,
+   "k": "whoosh_d",
+   "g": 0.7
+  },
+  {
+   "t": 18.134,
+   "k": "whoosh_c",
+   "g": 0.7
+  },
+  {
+   "t": 20.353,
+   "k": "whoosh_f",
+   "g": 0.7
+  },
+  {
+   "t": 0.04,
+   "k": "deep",
+   "g": 0.55
+  },
+  {
+   "t": 0.42,
+   "k": "zoom_out",
+   "g": 0.6
+  },
+  {
+   "t": 0.12,
+   "k": "pop",
+   "g": 0.35
+  },
+  {
+   "t": 0.664,
+   "k": "pop",
+   "g": 0.35
+  },
+  {
+   "t": 0.764,
+   "k": "pop",
+   "g": 0.35
+  },
+  {
+   "t": 0.544,
+   "k": "hit",
+   "g": 0.6
+  },
+  {
+   "t": 0.544,
+   "k": "thump",
+   "g": 0.45
+  },
+  {
+   "t": 0.35,
+   "k": "tick",
+   "g": 0.3,
+   "pan": -0.4
+  },
+  {
+   "t": 0.5,
+   "k": "tick",
+   "g": 0.3,
+   "pan": -0.2
+  },
+  {
+   "t": 0.66,
+   "k": "tick",
+   "g": 0.3,
+   "pan": 0
+  },
+  {
+   "t": 0.82,
+   "k": "tick",
+   "g": 0.3,
+   "pan": 0.20000000000000007
+  },
+  {
+   "t": 0.98,
+   "k": "tick",
+   "g": 0.3,
+   "pan": 0.4
+  },
+  {
+   "t": 1.22,
+   "k": "scribble",
+   "g": 0.5,
+   "len": 0.32
+  },
+  {
+   "t": 1.55,
+   "k": "scribble",
+   "g": 0.5,
+   "len": 0.36
+  },
+  {
+   "t": 2.931,
+   "k": "whoosh_soft",
+   "g": 0.4
+  },
+  {
+   "t": 3.481,
+   "k": "check",
+   "g": 0.6
+  },
+  {
+   "t": 3.511,
+   "k": "pop",
+   "g": 0.4
+  },
+  {
+   "t": 4.026,
+   "k": "scribble",
+   "g": 0.5,
+   "len": 0.3
+  },
+  {
+   "t": 4.046,
+   "k": "whoosh_soft",
+   "g": 0.3
+  },
+  {
+   "t": 4.802,
+   "k": "zoom",
+   "g": 0.75
+  },
+  {
+   "t": 5.692,
+   "k": "scribble",
+   "g": 0.55,
+   "len": 0.42
+  },
+  {
+   "t": 6.042,
+   "k": "scribble",
+   "g": 0.35,
+   "len": 0.25
+  },
+  {
+   "t": 6.863,
+   "k": "rise",
+   "g": 0.5
+  },
+  {
+   "t": 7.388,
+   "k": "ping",
+   "g": 0.7
+  },
+  {
+   "t": 8.358,
+   "k": "swish",
+   "g": 0.55
+  },
+  {
+   "t": 8.358,
+   "k": "arrow",
+   "g": 0.5
+  },
+  {
+   "t": 8.919,
+   "k": "lock",
+   "g": 0.55
+  },
+  {
+   "t": 9.71,
+   "k": "thump",
+   "g": 0.45
+  },
+  {
+   "t": 9.71,
+   "k": "pop",
+   "g": 0.45
+  },
+  {
+   "t": 10.285,
+   "k": "slide",
+   "g": 0.55
+  },
+  {
+   "t": 10.485,
+   "k": "chime",
+   "g": 0.5
+  },
+  {
+   "t": 10.505,
+   "k": "check",
+   "g": 0.5
+  },
+  {
+   "t": 11.296,
+   "k": "select",
+   "g": 0.6
+  },
+  {
+   "t": 11.896,
+   "k": "keys",
+   "g": 0.5,
+   "len": 0.26
+  },
+  {
+   "t": 12.67,
+   "k": "keys",
+   "g": 0.5,
+   "len": 0.68
+  },
+  {
+   "t": 13.675,
+   "k": "whoosh_soft",
+   "g": 0.45
+  },
+  {
+   "t": 13.85,
+   "k": "pop",
+   "g": 0.5
+  },
+  {
+   "t": 13.87,
+   "k": "click",
+   "g": 0.45
+  },
+  {
+   "t": 14.95,
+   "k": "lock_on",
+   "g": 0.55,
+   "pan": -0.3
+  },
+  {
+   "t": 15.4,
+   "k": "lock_on",
+   "g": 0.55,
+   "pan": 0.3
+  },
+  {
+   "t": 15.65,
+   "k": "lock_on",
+   "g": 0.55,
+   "pan": 0
+  },
+  {
+   "t": 15.95,
+   "k": "error",
+   "g": 0.7
+  },
+  {
+   "t": 15.97,
+   "k": "glitch",
+   "g": 0.5
+  },
+  {
+   "t": 16,
+   "k": "negative",
+   "g": 0.45
+  },
+  {
+   "t": 16.525,
+   "k": "hit",
+   "g": 0.5
+  },
+  {
+   "t": 16.525,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 16.785,
+   "k": "swish",
+   "g": 0.45
+  },
+  {
+   "t": 16.905,
+   "k": "hit",
+   "g": 0.38
+  },
+  {
+   "t": 17.005,
+   "k": "hit",
+   "g": 0.5
+  },
+  {
+   "t": 17.005,
+   "k": "thump",
+   "g": 0.35
+  },
+  {
+   "t": 18.314,
+   "k": "whoosh_e",
+   "g": 0.5
+  },
+  {
+   "t": 18.634,
+   "k": "sparkle",
+   "g": 0.3
+  },
+  {
+   "t": 18.223,
+   "k": "pop",
+   "g": 0.5
+  },
+  {
+   "t": 18.723,
+   "k": "pop",
+   "g": 0.5
+  },
+  {
+   "t": 19.103,
+   "k": "tap",
+   "g": 0.6
+  },
+  {
+   "t": 19.163,
+   "k": "check",
+   "g": 0.5
+  },
+  {
+   "t": 19.553,
+   "k": "swish",
+   "g": 0.35
+  },
+  {
+   "t": 20.433,
+   "k": "sting",
+   "g": 0.75
+  }
+ ],
+ "music": {
+  "soft": 6.813,
+  "back": 9.159,
+  "tension": 14.584,
+  "stop": 16.525,
+  "resolve": 18.134,
+  "end": 20.353
+ },
+ "blur": [
+  [
+   0,
+   0.62,
+   8
+  ],
+  [
+   4.3919999999999995,
+   4.882,
+   10
+  ],
+  [
+   8.187999999999999,
+   8.638,
+   8
+  ],
+  [
+   16.505,
+   17.305,
+   6
+  ],
+  [
+   18.114,
+   18.684,
+   8
+  ],
+  [
+   20.203000000000003,
+   20.803,
+   6
+  ],
+  [
+   6.793,
+   7.263,
+   8
+  ],
+  [
+   6.6129999999999995,
+   7.0329999999999995,
+   8
+  ],
+  [
+   8.959000000000001,
+   9.379000000000001,
+   8
+  ],
+  [
+   10.685,
+   11.105,
+   8
+  ],
+  [
+   14.384,
+   14.804,
+   8
+  ],
+  [
+   17.934,
+   18.354,
+   8
+  ]
+ ]
+}
