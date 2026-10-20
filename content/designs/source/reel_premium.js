@@ -44,7 +44,7 @@ const sendClick = flashAt - 0.12, dmSend = A['cta:teardown'] + 0.42;
 const EV = [];
 const ev = (t, k, o = {}) => EV.push({ t: +t.toFixed(3), k, ...o });
 SHOTS.forEach((sh) => {
-  const m = { whipL: 'whip', whipR: 'whip', whipU: 'whip', swish: 'swish', sweep: 'sweep', punch: 'punch', slideU: 'whip', rack: 'rack', cut: 'cut' }[sh.tin];
+  const m = { whipL: 'whip', whipR: 'whip', whipU: 'whip', swish: 'whip', sweep: 'sweep', punch: 'punch', slideU: 'whip', rack: 'rack', cut: 'cut' }[sh.tin];
   if (m) ev(sh.s, m);
 });
 ev(0, 'sub'); ev(0.08, 'tick'); ev(A['hook:killing'], 'slice');

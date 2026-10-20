@@ -76,14 +76,14 @@ function tag(x, str, X, Y, a = 1, size = 40) {
 // ---------- the audience panel (dark UI) ----------
 const AUD = ['Age 25–34', 'Interests: 9 selected', 'Location: 25 km', 'Lookalike 1%', 'Exclude past buyers', 'Device: mobile', 'Gender: all', 'Placements: feeds'];
 function drawPanel(x, X, Y) {
-  const w = 800, h = 880;
+  const w = 800, h = 820;
   x.save(); x.shadowColor = 'rgba(0,0,0,.6)'; x.shadowBlur = 60; x.shadowOffsetY = 20; rrx(x, X, Y, w, h, 34); x.fillStyle = '#1C1612'; x.fill(); x.restore();
   x.save(); rrx(x, X, Y, w, h, 34); x.strokeStyle = 'rgba(255,240,228,.10)'; x.lineWidth = 2; x.stroke();
   x.font = '600 44px Body'; x.fillStyle = CREAM; x.textAlign = 'left'; x.fillText('Audience', X + 56, Y + 96);
   x.font = '500 26px Plex'; x.letterSpacing = '2px'; x.fillStyle = 'rgba(246,241,231,.45)'; x.fillText('DEFINE WHO SEES YOUR AD', X + 56, Y + 140); x.letterSpacing = '0px';
   AUD.forEach((s, i) => {
-    const y = Y + 210 + i * 70, bs = 34;
-    x.fillStyle = 'rgba(255,240,228,.05)'; rrx(x, X + 40, y - 31, w - 80, 58, 14); x.fill();
+    const y = Y + 200 + i * 66, bs = 34;
+    x.fillStyle = 'rgba(255,240,228,.05)'; rrx(x, X + 40, y - 27, w - 80, 54, 14); x.fill();
     rrx(x, X + 60, y - bs / 2, bs, bs, 8); x.fillStyle = PEACH; x.fill(); checkMark(x, X + 60, y - bs / 2, bs, 1, '#fff');
     x.font = '500 32px Body'; x.fillStyle = 'rgba(246,241,231,.88)'; x.fillText(s, X + 120, y + 11);
   });
@@ -144,8 +144,8 @@ function phone(x, pos, vel, state, o = {}) {
     }
   };
   // motion blur: each sample is rendered to its own layer, then averaged (no white build-up, no ghost stacking)
-  const n = Math.min(24, 1 + Math.floor(Math.abs(vel) / 250));
-  if (n <= 1) draw(x, pos); else for (let i = 0; i < n; i++) { fb.setTransform(1, 0, 0, 1, 0, 0); fb.clearRect(0, 0, W, H); draw(fb, pos - vel * (i / n) * 0.022); x.globalAlpha = 1 / (i + 1); x.drawImage(FB, 0, 0); }
+  const smear = Math.abs(vel) * 0.022, n = Math.min(64, 1 + Math.ceil(smear / 1.5));
+  if (n <= 1) draw(x, pos); else for (let i = 0; i < n; i++) { fb.setTransform(1, 0, 0, 1, 0, 0); fb.clearRect(0, 0, W, H); draw(fb, Math.round(pos - vel * (i / n) * 0.022)); x.globalAlpha = 1 / (i + 1); x.drawImage(FB, 0, 0); }
   x.globalAlpha = 1; x.restore();
   x.save(); rrx(x, PH.x + PH.w / 2 - 70, PH.y + 18, 140, 30, 15); x.fillStyle = INK; x.fill(); x.restore();
 }
@@ -202,9 +202,9 @@ S.feed = (x, t) => {
 };
 S.nobody = (x, t) => {
   creamBG(x); const u = t - T0.nobody;
-  const pos = FEED_HERO - 150 * Math.exp(-u * 26);
+  const pos = FEED_HERO - 150 * Math.exp(-u * 26), vel = 3900 * Math.exp(-u * 26);
   const blink = u > 0.35 && u < 0.6 ? 0.3 : 1;
-  phone(x, pos, 0, 'normal', { metric: true, metricA: clamp(u / 0.12) * blink });
+  phone(x, pos, vel, 'normal', { metric: true, metricA: clamp(u / 0.12) * blink });
   build(x, 'Nobody buys.', W / 2, 305, 96, INK, T0.nobody, t, { per: 0.12 });
 };
 S.prompt = (x, t) => {
@@ -306,14 +306,14 @@ S.flip = (x, t) => {
 function vagueLayout(x, t, state, o = {}) {
   creamBG(x);
   const top = [['AGE 25–34', 300, 410], ['INTERESTS: 9 SELECTED', 700, 410], ['LOCATION: 25 KM', 300, 490], ['LOOKALIKE 1%', 760, 490]];
-  const bot = [['EXCLUDE PAST BUYERS', 330, 1440], ['DEVICE: MOBILE', 780, 1440], ['GENDER: ALL', 300, 1520], ['PLACEMENTS: FEEDS', 740, 1520]];
+  const bot = [['EXCLUDE PAST BUYERS', 330, 1418], ['DEVICE: MOBILE', 780, 1418], ['GENDER: ALL', 300, 1490], ['PLACEMENTS: FEEDS', 740, 1490]];
   top.concat(bot).forEach(([s2, X, Y], j) => { const gk = o.greyAt ? clamp((t - o.greyAt - j * 0.07) / 0.12) : 0; chip(x, s2, X, Y, { size: 28, grey: gk > 0.5, tick: 1, a: 1 - gk * 0.4 }); });
-  const w = 480, h = cardH(w), X = (W - w) / 2, Y = 975 - h / 2;
+  const w = 480, h = cardH(w), X = (W - w) / 2, Y = 960 - h / 2;
   const drop = o.drop ?? 1;
   return heroCard(x, X, Y - (1 - drop) * 140, w, state, { blur: o.blur || 0 });
 }
-S.vague = (x, t) => { const u = t - T0.vague; vagueLayout(x, t, 'vague', { drop: ease(u / 0.25) }); build(x, 'Vague ad?', W / 2, 300, 96, INK, T0.vague, t, { per: 0.12 }); };
-S.greyout = (x, t) => { vagueLayout(x, t, 'vague', { greyAt: T0.greyout + 0.08 }); build(x, 'No audience can save it.', W / 2, 300, 80, INK, T0.greyout, t, { per: 0.08 }); };
+S.vague = (x, t) => { const u = t - T0.vague; vagueLayout(x, t, 'vague', { drop: ease(u / 0.25) }); build(x, 'Vague ad?', W / 2, 335, 96, INK, T0.vague, t, { per: 0.12 }); };
+S.greyout = (x, t) => { vagueLayout(x, t, 'vague', { greyAt: T0.greyout + 0.08 }); build(x, 'No audience can save it.', W / 2, 335, 80, INK, T0.greyout, t, { per: 0.08 }); };
 S.sharp = (x, t) => {
   const u = t - T0.sharp; const r = vagueLayout(x, t, 'sharp', { blur: 12 * (1 - ease(u / 0.27)) });
   const k = ease((u - 0.2) / 0.45);
@@ -321,23 +321,26 @@ S.sharp = (x, t) => {
     x.setLineDash([per * k, per]); rrx(x, r.X - 10, r.Y - 10, r.w + 20, r.h + 20, 36); x.stroke(); x.restore(); }
   [['HOOK', r.X - 60, r.head[1] + 50], ['FIRST SECOND', r.X + r.w - 40, r.img[1] + r.img[3] / 2], ['OFFER', r.X - 60, r.foot[1] + 56]].forEach(([s2, X, Y], i) => {
     const kk = expo((u - 0.3 - i * 0.08) / 0.2); if (kk > 0) tag(x, s2, lerp(i === 1 ? X + 120 : X - 120, X, kk), Y, clamp(kk * 2), 30); });
-  build(x, 'Sharp hook?', W / 2, 300, 96, INK, T0.sharp, t, { per: 0.12, accent: [0] });
+  build(x, 'Sharp hook?', W / 2, 335, 96, INK, T0.sharp, t, { per: 0.12, accent: [0] });
 };
 S.feedstop = (x, t) => {
   creamBG(x); const u = t - T0.feedstop, land = 0.6;
   const pos = u < land ? lerp(-900, FEED_HERO, ease(u / land)) : FEED_HERO, vel = u < land ? (FEED_HERO + 900) * 3 * Math.pow(1 - u / land, 2) / land : 0;
   phone(x, pos, vel, 'sharp');
   if (u > land) { const pk = clamp((u - land) / 0.5); x.save(); x.strokeStyle = PEACH; x.globalAlpha = 1 - pk; x.lineWidth = 6 + pk * 10; x.shadowColor = PEACH; x.shadowBlur = 30;
-    rrx(x, PH.x + 30 - pk * 12, PH.y + 40 - pk * 12, CW + pk * 24, cardH(CW) + pk * 24, 34); x.stroke(); x.restore(); }
+    rrx(x, PH.x + 30 - pk * 12, PH.y + 40 - pk * 12, CW + pk * 24, cardH(CW) + pk * 24, 34); x.stroke(); x.restore();
+    x.save(); rrx(x, PH.x + PH.w / 2 - 70, PH.y + 18, 140, 30, 15); x.fillStyle = INK; x.fill(); x.restore(); }
   build(x, 'Now it knows who to find.', W / 2, 305, 80, INK, T0.feedstop, t, { per: 0.07, accent: [5] });
 };
-const FLY = ['HOOK', 'FIRST SECOND', 'ANGLE', 'OFFER', 'CALL TO ACTION'], LANE = [[-160, 100], [160, -160], [-160, -160], [240, 100], [-160, 0]];
+const FLY = ['HOOK', 'FIRST SECOND', 'ANGLE', 'OFFER', 'CALL TO ACTION'], LANE = [[-160, 100], [160, -160], [-160, -160], [240, 100], [0, 0]];
 S.flyby = (x, t) => {
   const u = t - T0.flyby; darkBG(x, 0.22);
   FLY.map((w2, i) => [w2, i]).reverse().forEach(([w2, i]) => { const p = (u - i * 0.11) / 0.45; if (p <= 0 || p >= 1) return;   // far words first
     const z = 3.2 * Math.pow(1 - p, 1.5) + 0.25, sc = 1 / z;   // far -> readable (~p .6) -> past camera
-    x.save(); x.translate(W / 2 + LANE[i][0] * sc, 760 + LANE[i][1] * sc); x.scale(sc, sc); x.globalAlpha = clamp((p - 0.12) * 5) * clamp((1 - p) * 3.5) * 0.9;
-    x.filter = 'blur(' + Math.min(8, Math.max(0, sc - 1.3) * 4).toFixed(1) + 'px)'; x.font = '500 90px Plex'; x.letterSpacing = '8px'; x.fillStyle = CREAM; x.textAlign = 'center'; x.fillText(w2, 0, 0); x.restore(); });
+    x.save(); x.font = '500 90px Plex'; x.letterSpacing = '8px';
+    const room = W / 2 - (Math.abs(LANE[i][0]) + x.measureText(w2).width / 2) * sc * 1.1, ex = clamp((120 - room) / 120);   // 1.1 = flyby camera zoom; ex 0 -> 1 over the last 120 px to the edge
+    x.translate(W / 2 + LANE[i][0] * sc, 760 + LANE[i][1] * sc); x.scale(sc, sc); x.globalAlpha = clamp((p - 0.12) * 5) * clamp((1 - p) * 3.5) * 0.9 * (1 - 0.6 * ex);
+    x.filter = 'blur(' + Math.max(Math.min(8, Math.max(0, sc - 1.3) * 4), 8 * ex).toFixed(1) + 'px)'; x.fillStyle = CREAM; x.textAlign = 'center'; x.fillText(w2, 0, 0); x.restore(); });
   build(x, 'At Mez Media,', W / 2, 1200, 110, CREAM, T0.flyby + 0.08, t, { per: 0.12, accent: [1, 2] });
 };
 S.redline = (x, t) => {
@@ -427,13 +430,12 @@ window.setTime = (t) => {
       g.save(); g.translate(bx - 100, H / 2); g.rotate(0.3); const q = g.createLinearGradient(-160, 0, 160, 0); q.addColorStop(0, 'rgba(255,244,236,0)'); q.addColorStop(0.5, 'rgba(255,244,236,.95)'); q.addColorStop(1, 'rgba(255,244,236,0)');
       g.fillStyle = q; g.fillRect(-160, -1400, 320, 2800); g.restore();
     } else {
-      const dir = sh.tin === 'whipL' ? [-1, 0] : sh.tin === 'whipR' ? [1, 0] : sh.tin === 'swish' ? [-0.35, 0] : [0, -1];
+      const dir = sh.tin === 'whipL' || sh.tin === 'swish' ? [-1, 0] : sh.tin === 'whipR' ? [1, 0] : [0, -1];
       const span = (dir[0] ? W : H), blur = Math.sin(k * Math.PI) * span * 0.25;
       const drawMoved = (cv, off) => { const n = Math.min(64, Math.max(6, Math.ceil(blur / 5))); for (let j = 0; j < n; j++) { g.globalAlpha = j === 0 ? 1 : 1 / (j + 1); const o2 = off + (j / n - 0.5) * blur;
-          g.drawImage(cv, dir[0] * o2, dir[1] * o2); } g.globalAlpha = 1; };
-      g.fillStyle = '#000'; g.fillRect(0, 0, W, H);
-      if (sh.tin === 'swish') { g.drawImage(PRV, 0, 0); g.globalAlpha = k; g.drawImage(CUR, 0, 0); g.globalAlpha = 1; }
-      else { drawMoved(PRV, k * span); drawMoved(CUR, -(1 - k) * span); }   // previous shot whips out, the new one follows it in
+          g.drawImage(cv, Math.round(dir[0] * o2), Math.round(dir[1] * o2)); } g.globalAlpha = 1; };
+      g.fillStyle = WB; g.fillRect(0, 0, W, H);
+      drawMoved(PRV, k * span); drawMoved(CUR, -(1 - k) * span);   // previous shot whips out, the new one follows it in
     }
   } else g.drawImage(CUR, 0, 0);
   // warm flash: 4 frames, warm-white core, peach edges, never a flat colour fill
