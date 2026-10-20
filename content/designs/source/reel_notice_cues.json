@@ -1,0 +1,508 @@
+{
+ "lines": {
+  "hook": {
+   "s": 0.05,
+   "e": 4.742,
+   "text": "people are beginning to realise that your business isn't failing because your product is bad"
+  },
+  "notice": {
+   "s": 5.042,
+   "e": 7.156,
+   "text": "it might be because nobody notices it"
+  },
+  "best": {
+   "s": 7.556,
+   "e": 9.374,
+   "text": "you could have the best product in your city"
+  },
+  "same": {
+   "s": 9.674,
+   "e": 13.697,
+   "text": "but if your content looks like everyone else's customers will scroll past you"
+  },
+  "hooks": {
+   "s": 14.097,
+   "e": 14.965,
+   "text": "better hooks"
+  },
+  "creatives": {
+   "s": 15.205,
+   "e": 16.304,
+   "text": "better creatives"
+  },
+  "marketing": {
+   "s": 16.544,
+   "e": 17.514,
+   "text": "better marketing"
+  },
+  "earn": {
+   "s": 17.894,
+   "e": 19.257,
+   "text": "that's how you earn attention"
+  },
+  "cta": {
+   "s": 19.757,
+   "e": 22.11,
+   "text": "follow us if you want your brand to stand out"
+  }
+ },
+ "words": [
+  {
+   "w": "people",
+   "s": 0.094,
+   "e": 0.419,
+   "line": "hook"
+  },
+  {
+   "w": "are",
+   "s": 0.469,
+   "e": 0.544,
+   "line": "hook"
+  },
+  {
+   "w": "beginning",
+   "s": 0.569,
+   "e": 0.919,
+   "line": "hook"
+  },
+  {
+   "w": "to",
+   "s": 0.969,
+   "e": 0.994,
+   "line": "hook"
+  },
+  {
+   "w": "realise",
+   "s": 1.094,
+   "e": 1.594,
+   "line": "hook"
+  },
+  {
+   "w": "that",
+   "s": 1.644,
+   "e": 1.744,
+   "line": "hook"
+  },
+  {
+   "w": "your",
+   "s": 1.794,
+   "e": 1.919,
+   "line": "hook"
+  },
+  {
+   "w": "business",
+   "s": 1.969,
+   "e": 2.369,
+   "line": "hook"
+  },
+  {
+   "w": "isn't",
+   "s": 2.444,
+   "e": 2.619,
+   "line": "hook"
+  },
+  {
+   "w": "failing",
+   "s": 2.694,
+   "e": 3.319,
+   "line": "hook"
+  },
+  {
+   "w": "because",
+   "s": 3.394,
+   "e": 3.644,
+   "line": "hook"
+  },
+  {
+   "w": "your",
+   "s": 3.669,
+   "e": 3.744,
+   "line": "hook"
+  },
+  {
+   "w": "product",
+   "s": 3.794,
+   "e": 4.194,
+   "line": "hook"
+  },
+  {
+   "w": "is",
+   "s": 4.244,
+   "e": 4.344,
+   "line": "hook"
+  },
+  {
+   "w": "bad",
+   "s": 4.394,
+   "e": 4.743,
+   "line": "hook"
+  },
+  {
+   "w": "it",
+   "s": 5.114,
+   "e": 5.214,
+   "line": "notice"
+  },
+  {
+   "w": "might",
+   "s": 5.264,
+   "e": 5.464,
+   "line": "notice"
+  },
+  {
+   "w": "be",
+   "s": 5.514,
+   "e": 5.714,
+   "line": "notice"
+  },
+  {
+   "w": "because",
+   "s": 5.764,
+   "e": 6.039,
+   "line": "notice"
+  },
+  {
+   "w": "nobody",
+   "s": 6.089,
+   "e": 6.464,
+   "line": "notice"
+  },
+  {
+   "w": "notices",
+   "s": 6.514,
+   "e": 6.914,
+   "line": "notice"
+  },
+  {
+   "w": "it",
+   "s": 6.989,
+   "e": 7.175,
+   "line": "notice"
+  },
+  {
+   "w": "you",
+   "s": 7.621,
+   "e": 7.696,
+   "line": "best"
+  },
+  {
+   "w": "could",
+   "s": 7.746,
+   "e": 7.896,
+   "line": "best"
+  },
+  {
+   "w": "have",
+   "s": 7.946,
+   "e": 7.971,
+   "line": "best"
+  },
+  {
+   "w": "the",
+   "s": 7.996,
+   "e": 8.046,
+   "line": "best"
+  },
+  {
+   "w": "best",
+   "s": 8.096,
+   "e": 8.346,
+   "line": "best"
+  },
+  {
+   "w": "product",
+   "s": 8.396,
+   "e": 8.796,
+   "line": "best"
+  },
+  {
+   "w": "in",
+   "s": 8.821,
+   "e": 8.871,
+   "line": "best"
+  },
+  {
+   "w": "your",
+   "s": 8.896,
+   "e": 8.996,
+   "line": "best"
+  },
+  {
+   "w": "city",
+   "s": 9.046,
+   "e": 9.43,
+   "line": "best"
+  },
+  {
+   "w": "but",
+   "s": 9.697,
+   "e": 9.797,
+   "line": "same"
+  },
+  {
+   "w": "if",
+   "s": 9.822,
+   "e": 9.897,
+   "line": "same"
+  },
+  {
+   "w": "your",
+   "s": 9.922,
+   "e": 10.022,
+   "line": "same"
+  },
+  {
+   "w": "content",
+   "s": 10.072,
+   "e": 10.472,
+   "line": "same"
+  },
+  {
+   "w": "looks",
+   "s": 10.497,
+   "e": 10.672,
+   "line": "same"
+  },
+  {
+   "w": "like",
+   "s": 10.697,
+   "e": 10.847,
+   "line": "same"
+  },
+  {
+   "w": "everyone",
+   "s": 10.897,
+   "e": 11.247,
+   "line": "same"
+  },
+  {
+   "w": "else's",
+   "s": 11.272,
+   "e": 11.922,
+   "line": "same"
+  },
+  {
+   "w": "customers",
+   "s": 12.047,
+   "e": 12.572,
+   "line": "same"
+  },
+  {
+   "w": "will",
+   "s": 12.622,
+   "e": 12.747,
+   "line": "same"
+  },
+  {
+   "w": "scroll",
+   "s": 12.822,
+   "e": 13.147,
+   "line": "same"
+  },
+  {
+   "w": "past",
+   "s": 13.197,
+   "e": 13.472,
+   "line": "same"
+  },
+  {
+   "w": "you",
+   "s": 13.522,
+   "e": 13.706,
+   "line": "same"
+  },
+  {
+   "w": "better",
+   "s": 14.205,
+   "e": 14.48,
+   "line": "hooks"
+  },
+  {
+   "w": "hooks",
+   "s": 14.53,
+   "e": 15.099,
+   "line": "hooks"
+  },
+  {
+   "w": "better",
+   "s": 15.31,
+   "e": 15.585,
+   "line": "creatives"
+  },
+  {
+   "w": "creatives",
+   "s": 15.635,
+   "e": 16.314,
+   "line": "creatives"
+  },
+  {
+   "w": "better",
+   "s": 16.649,
+   "e": 16.924,
+   "line": "marketing"
+  },
+  {
+   "w": "marketing",
+   "s": 16.974,
+   "e": 17.611,
+   "line": "marketing"
+  },
+  {
+   "w": "that's",
+   "s": 17.959,
+   "e": 18.159,
+   "line": "earn"
+  },
+  {
+   "w": "how",
+   "s": 18.209,
+   "e": 18.309,
+   "line": "earn"
+  },
+  {
+   "w": "you",
+   "s": 18.359,
+   "e": 18.434,
+   "line": "earn"
+  },
+  {
+   "w": "earn",
+   "s": 18.484,
+   "e": 18.609,
+   "line": "earn"
+  },
+  {
+   "w": "attention",
+   "s": 18.659,
+   "e": 19.316,
+   "line": "earn"
+  },
+  {
+   "w": "follow",
+   "s": 19.822,
+   "e": 20.147,
+   "line": "cta"
+  },
+  {
+   "w": "us",
+   "s": 20.172,
+   "e": 20.472,
+   "line": "cta"
+  },
+  {
+   "w": "if",
+   "s": 20.547,
+   "e": 20.622,
+   "line": "cta"
+  },
+  {
+   "w": "you",
+   "s": 20.647,
+   "e": 20.722,
+   "line": "cta"
+  },
+  {
+   "w": "want",
+   "s": 20.772,
+   "e": 20.922,
+   "line": "cta"
+  },
+  {
+   "w": "your",
+   "s": 20.947,
+   "e": 21.022,
+   "line": "cta"
+  },
+  {
+   "w": "brand",
+   "s": 21.072,
+   "e": 21.372,
+   "line": "cta"
+  },
+  {
+   "w": "to",
+   "s": 21.397,
+   "e": 21.422,
+   "line": "cta"
+  },
+  {
+   "w": "stand",
+   "s": 21.497,
+   "e": 21.772,
+   "line": "cta"
+  },
+  {
+   "w": "out",
+   "s": 21.797,
+   "e": 22.117,
+   "line": "cta"
+  }
+ ],
+ "voice_end": 22.11,
+ "end": 24.11,
+ "at": {
+  "hook:people": 0.094,
+  "hook:are": 0.469,
+  "hook:beginning": 0.569,
+  "hook:to": 0.969,
+  "hook:realise": 1.094,
+  "hook:that": 1.644,
+  "hook:your": 3.669,
+  "hook:business": 1.969,
+  "hook:isn't": 2.444,
+  "hook:failing": 2.694,
+  "hook:because": 3.394,
+  "hook:product": 3.794,
+  "hook:is": 4.244,
+  "hook:bad": 4.394,
+  "notice:it": 6.989,
+  "notice:might": 5.264,
+  "notice:be": 5.514,
+  "notice:because": 5.764,
+  "notice:nobody": 6.089,
+  "notice:notices": 6.514,
+  "best:you": 7.621,
+  "best:could": 7.746,
+  "best:have": 7.946,
+  "best:the": 7.996,
+  "best:best": 8.096,
+  "best:product": 8.396,
+  "best:in": 8.821,
+  "best:your": 8.896,
+  "best:city": 9.046,
+  "same:but": 9.697,
+  "same:if": 9.822,
+  "same:your": 9.922,
+  "same:content": 10.072,
+  "same:looks": 10.497,
+  "same:like": 10.697,
+  "same:everyone": 10.897,
+  "same:else's": 11.272,
+  "same:customers": 12.047,
+  "same:will": 12.622,
+  "same:scroll": 12.822,
+  "same:past": 13.197,
+  "same:you": 13.522,
+  "hooks:better": 14.205,
+  "hooks:hooks": 14.53,
+  "creatives:better": 15.31,
+  "creatives:creatives": 15.635,
+  "marketing:better": 16.649,
+  "marketing:marketing": 16.974,
+  "earn:that's": 17.959,
+  "earn:how": 18.209,
+  "earn:you": 18.359,
+  "earn:earn": 18.484,
+  "earn:attention": 18.659,
+  "cta:follow": 19.822,
+  "cta:us": 20.172,
+  "cta:if": 20.547,
+  "cta:you": 20.647,
+  "cta:want": 20.772,
+  "cta:your": 20.947,
+  "cta:brand": 21.072,
+  "cta:to": 21.397,
+  "cta:stand": 21.497,
+  "cta:out": 21.797
+ }
+}
