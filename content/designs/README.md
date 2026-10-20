@@ -27,6 +27,23 @@ Upload carousel slides in number order (01, 02, 03…).
 > 3 things I check in every skincare ad. Under a minute. Most fixes cost less than more ad spend. Want yours checked? DM "TEARDOWN".
 > #adteardown #metaads #skincaremarketing #creativestrategy #ukskincare
 
+## Carousel: 5 signs your Meta Ads might be wasting money
+Files: `post4_signs/` (7 slides). Classic look: warm ivory paper, near-black type, one deep red for the numerals. Inter Display + Instrument Serif italic + DM Mono. Rebuild with `node source/build_signs.js <out-dir>`.
+
+**Caption**
+> Most wasted ad spend doesn't show up as a high cost per click. It hides in these 5 places.
+>
+> Sign 4 is the one most people skip: what happens after a lead comes in. Slow replies and no sales tracking can make good Meta ads look like they don't work.
+>
+> The quick audit before you spend more: your offer, your creative, your lead quality, your follow-up process and your conversion tracking.
+>
+> Save this for your next campaign review.
+>
+> #metaads #facebookads #leadgeneration
+
+**Alt text (cover)**
+> A large deep-red number 5 above bold black text on ivory paper: "signs your Meta Ads might be wasting money", with "wasting money" underlined in red, and the line "Number 4 gets overlooked."
+
 ## Reel: "Breaking news" launch (black and white)
 File: `reels/mezmedia_breaking_news_launch.mp4` (1080×1920, 30fps, about 24.5s, deep British voiceover (Kokoro bm_lewis, fast read) + music + SFX, -14 LUFS).
 Rebuild: `python3 source/reel_news_vo.py <kokoro-dir> <tmp>` → `node source/reel_news.js <frames> <video.mp4>` → `python3 source/reel_news_audio.py <tmp>/vo.wav <mix.wav>`, then mux. Photos are free Pexels images converted to black and white (`source/photos/`).
