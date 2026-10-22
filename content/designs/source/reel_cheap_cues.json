@@ -1,0 +1,575 @@
+{
+ "lines": {
+  "two": {
+   "s": 0.05,
+   "e": 2.285,
+   "text": "two businesses sold almost the same service"
+  },
+  "cheaper": {
+   "s": 2.365,
+   "e": 3.206,
+   "text": "one was cheaper"
+  },
+  "chose": {
+   "s": 3.286,
+   "e": 5.052,
+   "text": "the customer chose the expensive one"
+  },
+  "a_ad": {
+   "s": 5.232,
+   "e": 6.981,
+   "text": "business A advertised a low price"
+  },
+  "b_ad": {
+   "s": 7.081,
+   "e": 11.113,
+   "text": "business B explained exactly who its service was for and what problem it solved"
+  },
+  "a_price": {
+   "s": 11.293,
+   "e": 12.527,
+   "text": "A competed on price"
+  },
+  "b_value": {
+   "s": 12.607,
+   "e": 14.449,
+   "text": "B made the value easier to understand"
+  },
+  "lesson": {
+   "s": 14.649,
+   "e": 15.299,
+   "text": "the lesson"
+  },
+  "low": {
+   "s": 15.399,
+   "e": 18.21,
+   "text": "a low price doesn't automatically make an offer attractive"
+  },
+  "rescue": {
+   "s": 18.41,
+   "e": 21.3,
+   "text": "your ad can't rescue an offer customers don't understand"
+  },
+  "cta": {
+   "s": 21.52,
+   "e": 23.816,
+   "text": "follow for more practical marketing breakdowns"
+  }
+ },
+ "words": [
+  {
+   "w": "two",
+   "s": 0.112,
+   "e": 0.262,
+   "line": "two"
+  },
+  {
+   "w": "businesses",
+   "s": 0.312,
+   "e": 0.862,
+   "line": "two"
+  },
+  {
+   "w": "sold",
+   "s": 0.937,
+   "e": 1.162,
+   "line": "two"
+  },
+  {
+   "w": "almost",
+   "s": 1.212,
+   "e": 1.487,
+   "line": "two"
+  },
+  {
+   "w": "the",
+   "s": 1.512,
+   "e": 1.562,
+   "line": "two"
+  },
+  {
+   "w": "same",
+   "s": 1.612,
+   "e": 1.812,
+   "line": "two"
+  },
+  {
+   "w": "service",
+   "s": 1.862,
+   "e": 2.29,
+   "line": "two"
+  },
+  {
+   "w": "one",
+   "s": 2.437,
+   "e": 2.562,
+   "line": "cheaper"
+  },
+  {
+   "w": "was",
+   "s": 2.587,
+   "e": 2.712,
+   "line": "cheaper"
+  },
+  {
+   "w": "cheaper",
+   "s": 2.762,
+   "e": 3.303,
+   "line": "cheaper"
+  },
+  {
+   "w": "the",
+   "s": 3.345,
+   "e": 3.395,
+   "line": "chose"
+  },
+  {
+   "w": "customer",
+   "s": 3.445,
+   "e": 3.92,
+   "line": "chose"
+  },
+  {
+   "w": "chose",
+   "s": 3.97,
+   "e": 4.22,
+   "line": "chose"
+  },
+  {
+   "w": "the",
+   "s": 4.245,
+   "e": 4.27,
+   "line": "chose"
+  },
+  {
+   "w": "expensive",
+   "s": 4.37,
+   "e": 4.82,
+   "line": "chose"
+  },
+  {
+   "w": "one",
+   "s": 4.845,
+   "e": 5.097,
+   "line": "chose"
+  },
+  {
+   "w": "business",
+   "s": 5.272,
+   "e": 5.597,
+   "line": "a_ad"
+  },
+  {
+   "w": "A",
+   "s": 5.622,
+   "e": 5.722,
+   "line": "a_ad"
+  },
+  {
+   "w": "advertised",
+   "s": 5.772,
+   "e": 6.272,
+   "line": "a_ad"
+  },
+  {
+   "w": "a",
+   "s": 6.272,
+   "e": 6.372,
+   "line": "a_ad"
+  },
+  {
+   "w": "low",
+   "s": 6.372,
+   "e": 6.547,
+   "line": "a_ad"
+  },
+  {
+   "w": "price",
+   "s": 6.597,
+   "e": 6.981,
+   "line": "a_ad"
+  },
+  {
+   "w": "business",
+   "s": 7.122,
+   "e": 7.447,
+   "line": "b_ad"
+  },
+  {
+   "w": "B",
+   "s": 7.497,
+   "e": 7.597,
+   "line": "b_ad"
+  },
+  {
+   "w": "explained",
+   "s": 7.647,
+   "e": 8.072,
+   "line": "b_ad"
+  },
+  {
+   "w": "exactly",
+   "s": 8.122,
+   "e": 8.597,
+   "line": "b_ad"
+  },
+  {
+   "w": "who",
+   "s": 8.647,
+   "e": 8.747,
+   "line": "b_ad"
+  },
+  {
+   "w": "its",
+   "s": 8.772,
+   "e": 8.847,
+   "line": "b_ad"
+  },
+  {
+   "w": "service",
+   "s": 8.897,
+   "e": 9.222,
+   "line": "b_ad"
+  },
+  {
+   "w": "was",
+   "s": 9.247,
+   "e": 9.372,
+   "line": "b_ad"
+  },
+  {
+   "w": "for",
+   "s": 9.422,
+   "e": 9.797,
+   "line": "b_ad"
+  },
+  {
+   "w": "and",
+   "s": 9.922,
+   "e": 9.997,
+   "line": "b_ad"
+  },
+  {
+   "w": "what",
+   "s": 10.047,
+   "e": 10.172,
+   "line": "b_ad"
+  },
+  {
+   "w": "problem",
+   "s": 10.222,
+   "e": 10.597,
+   "line": "b_ad"
+  },
+  {
+   "w": "it",
+   "s": 10.622,
+   "e": 10.672,
+   "line": "b_ad"
+  },
+  {
+   "w": "solved",
+   "s": 10.722,
+   "e": 11.113,
+   "line": "b_ad"
+  },
+  {
+   "w": "A",
+   "s": 11.337,
+   "e": 11.487,
+   "line": "a_price"
+  },
+  {
+   "w": "competed",
+   "s": 11.537,
+   "e": 11.912,
+   "line": "a_price"
+  },
+  {
+   "w": "on",
+   "s": 11.962,
+   "e": 12.012,
+   "line": "a_price"
+  },
+  {
+   "w": "price",
+   "s": 12.062,
+   "e": 12.531,
+   "line": "a_price"
+  },
+  {
+   "w": "B",
+   "s": 12.648,
+   "e": 12.773,
+   "line": "b_value"
+  },
+  {
+   "w": "made",
+   "s": 12.798,
+   "e": 12.948,
+   "line": "b_value"
+  },
+  {
+   "w": "the",
+   "s": 12.973,
+   "e": 13.023,
+   "line": "b_value"
+  },
+  {
+   "w": "value",
+   "s": 13.073,
+   "e": 13.348,
+   "line": "b_value"
+  },
+  {
+   "w": "easier",
+   "s": 13.398,
+   "e": 13.723,
+   "line": "b_value"
+  },
+  {
+   "w": "to",
+   "s": 13.773,
+   "e": 13.798,
+   "line": "b_value"
+  },
+  {
+   "w": "understand",
+   "s": 13.873,
+   "e": 14.463,
+   "line": "b_value"
+  },
+  {
+   "w": "the",
+   "s": 14.704,
+   "e": 14.754,
+   "line": "lesson"
+  },
+  {
+   "w": "lesson",
+   "s": 14.804,
+   "e": 15.439,
+   "line": "lesson"
+  },
+  {
+   "w": "a",
+   "s": 15.399,
+   "e": 15.568,
+   "line": "low"
+  },
+  {
+   "w": "low",
+   "s": 15.568,
+   "e": 15.743,
+   "line": "low"
+  },
+  {
+   "w": "price",
+   "s": 15.793,
+   "e": 16.218,
+   "line": "low"
+  },
+  {
+   "w": "doesn't",
+   "s": 16.293,
+   "e": 16.518,
+   "line": "low"
+  },
+  {
+   "w": "automatically",
+   "s": 16.568,
+   "e": 17.168,
+   "line": "low"
+  },
+  {
+   "w": "make",
+   "s": 17.218,
+   "e": 17.368,
+   "line": "low"
+  },
+  {
+   "w": "an",
+   "s": 17.418,
+   "e": 17.443,
+   "line": "low"
+  },
+  {
+   "w": "offer",
+   "s": 17.493,
+   "e": 17.693,
+   "line": "low"
+  },
+  {
+   "w": "attractive",
+   "s": 17.743,
+   "e": 18.257,
+   "line": "low"
+  },
+  {
+   "w": "your",
+   "s": 18.454,
+   "e": 18.579,
+   "line": "rescue"
+  },
+  {
+   "w": "ad",
+   "s": 18.629,
+   "e": 18.804,
+   "line": "rescue"
+  },
+  {
+   "w": "can't",
+   "s": 18.854,
+   "e": 19.029,
+   "line": "rescue"
+  },
+  {
+   "w": "rescue",
+   "s": 19.079,
+   "e": 19.379,
+   "line": "rescue"
+  },
+  {
+   "w": "an",
+   "s": 19.429,
+   "e": 19.454,
+   "line": "rescue"
+  },
+  {
+   "w": "offer",
+   "s": 19.504,
+   "e": 19.704,
+   "line": "rescue"
+  },
+  {
+   "w": "customers",
+   "s": 19.754,
+   "e": 20.429,
+   "line": "rescue"
+  },
+  {
+   "w": "don't",
+   "s": 20.504,
+   "e": 20.679,
+   "line": "rescue"
+  },
+  {
+   "w": "understand",
+   "s": 20.704,
+   "e": 21.311,
+   "line": "rescue"
+  },
+  {
+   "w": "follow",
+   "s": 21.578,
+   "e": 21.953,
+   "line": "cta"
+  },
+  {
+   "w": "for",
+   "s": 22.003,
+   "e": 22.103,
+   "line": "cta"
+  },
+  {
+   "w": "more",
+   "s": 22.153,
+   "e": 22.278,
+   "line": "cta"
+  },
+  {
+   "w": "practical",
+   "s": 22.328,
+   "e": 22.778,
+   "line": "cta"
+  },
+  {
+   "w": "marketing",
+   "s": 22.828,
+   "e": 23.203,
+   "line": "cta"
+  },
+  {
+   "w": "breakdowns",
+   "s": 23.228,
+   "e": 23.816,
+   "line": "cta"
+  }
+ ],
+ "voice_end": 23.816,
+ "end": 24.916,
+ "at": {
+  "two:two": 0.112,
+  "two:businesses": 0.312,
+  "two:sold": 0.937,
+  "two:almost": 1.212,
+  "two:the": 1.512,
+  "two:same": 1.612,
+  "two:service": 1.862,
+  "cheaper:one": 2.437,
+  "cheaper:was": 2.587,
+  "cheaper:cheaper": 2.762,
+  "chose:the": 4.245,
+  "chose:customer": 3.445,
+  "chose:chose": 3.97,
+  "chose:expensive": 4.37,
+  "chose:one": 4.845,
+  "a_ad:business": 5.272,
+  "a_ad:A": 5.622,
+  "a_ad:advertised": 5.772,
+  "a_ad:a": 6.272,
+  "a_ad:low": 6.372,
+  "a_ad:price": 6.597,
+  "b_ad:business": 7.122,
+  "b_ad:B": 7.497,
+  "b_ad:explained": 7.647,
+  "b_ad:exactly": 8.122,
+  "b_ad:who": 8.647,
+  "b_ad:its": 8.772,
+  "b_ad:service": 8.897,
+  "b_ad:was": 9.247,
+  "b_ad:for": 9.422,
+  "b_ad:and": 9.922,
+  "b_ad:what": 10.047,
+  "b_ad:problem": 10.222,
+  "b_ad:it": 10.622,
+  "b_ad:solved": 10.722,
+  "a_price:A": 11.337,
+  "a_price:competed": 11.537,
+  "a_price:on": 11.962,
+  "a_price:price": 12.062,
+  "b_value:B": 12.648,
+  "b_value:made": 12.798,
+  "b_value:the": 12.973,
+  "b_value:value": 13.073,
+  "b_value:easier": 13.398,
+  "b_value:to": 13.773,
+  "b_value:understand": 13.873,
+  "lesson:the": 14.704,
+  "lesson:lesson": 14.804,
+  "low:a": 15.399,
+  "low:low": 15.568,
+  "low:price": 15.793,
+  "low:doesn't": 16.293,
+  "low:automatically": 16.568,
+  "low:make": 17.218,
+  "low:an": 17.418,
+  "low:offer": 17.493,
+  "low:attractive": 17.743,
+  "rescue:your": 18.454,
+  "rescue:ad": 18.629,
+  "rescue:can't": 18.854,
+  "rescue:rescue": 19.079,
+  "rescue:an": 19.429,
+  "rescue:offer": 19.504,
+  "rescue:customers": 19.754,
+  "rescue:don't": 20.504,
+  "rescue:understand": 20.704,
+  "cta:follow": 21.578,
+  "cta:for": 22.003,
+  "cta:more": 22.153,
+  "cta:practical": 22.328,
+  "cta:marketing": 22.828,
+  "cta:breakdowns": 23.228
+ }
+}

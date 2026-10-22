@@ -107,4 +107,4 @@ async function render(slides, out, name) {
   console.log('rendered', slides.length, 'slides to', dir);
 }
 
-module.exports = { data, INK, GREY, CHART, PERSON, CHECK, phone, slide, note, lock, chart, toggle, render };
+module.exports = { data, font, CSS, INK, GREY, SIG, WIFI, BAT, CHART, PERSON, CHECK, phone, slide, note, lock, chart, toggle, render };
