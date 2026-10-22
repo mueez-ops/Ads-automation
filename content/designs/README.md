@@ -44,6 +44,27 @@ Files: `post4_signs/` (7 slides). Apple-style: one centred headline per slide ab
 **Alt text (cover)**
 > Black slide with the white headline "5 signs your Meta Ads might be wasting money." above an iPhone lock screen showing two notifications: "Payment processed: $1,240 charged for ads" and "Weekly report: 2,138 clicks. 0 customers."
 
+## Carousel: He got 47 leads. Not one became a customer.
+Files: `post5_leads/` (7 slides), same Apple-style kit as above (`source/apple_kit.js`). A story in seven screens: the lead notifications, a great Day 1, follow-ups left on "Read", panic edits, the health check, the to-do list, the real question. Rebuild with `node source/build_leads.js <out-dir>`.
+
+**Caption**
+> 47 leads from Meta ads. 0 customers. And the ads were never the problem.
+>
+> Day 1 looked great: 12 enquiries at $4.80 a lead. People kept filling in the form. But the offer wasn't clear, nobody checked if they were a good fit, and follow-up happened whenever someone remembered.
+>
+> So he changed the audience, then the budget, then launched another campaign. None of that touches what happens after someone enquires.
+>
+> If you've had a month like this, I'd look at the follow-up first. Decide what a qualified lead looks like for you, how fast you'll reply, and track which leads became customers. That's the number that pays you.
+>
+> (The story's an example, not a client.)
+>
+> Save this before your next ad campaign.
+>
+> #metaads #leadgeneration #facebookads
+
+**Alt text (cover)**
+> Black slide with the headline "He got 47 leads. Not one became a customer." above an iPhone lock screen with a stacked "New lead: Lead #47 wants a quote" notification and "46 more notifications" under it.
+
 ## Reel: "Breaking news" launch (black and white)
 File: `reels/mezmedia_breaking_news_launch.mp4` (1080×1920, 30fps, about 24.5s, deep British voiceover (Kokoro bm_lewis, fast read) + music + SFX, -14 LUFS).
 Rebuild: `python3 source/reel_news_vo.py <kokoro-dir> <tmp>` → `node source/reel_news.js <frames> <video.mp4>` → `python3 source/reel_news_audio.py <tmp>/vo.wav <mix.wav>`, then mux. Photos are free Pexels images converted to black and white (`source/photos/`).
