@@ -1,0 +1,1465 @@
+{
+ "cues": {
+  "lines": {
+   "got": {
+    "s": 0.05,
+    "e": 1.929,
+    "text": "he got 47 leads from his ads"
+   },
+   "zero": {
+    "s": 2.149,
+    "e": 3.385,
+    "text": "and made zero sales"
+   },
+   "blamed": {
+    "s": 3.665,
+    "e": 5.004,
+    "text": "so he blamed Meta ads"
+   },
+   "off": {
+    "s": 5.104,
+    "e": 6.572,
+    "text": "he wanted to turn everything off"
+   },
+   "checked": {
+    "s": 6.852,
+    "e": 8.084,
+    "text": "but then he checked the leads"
+   },
+   "half": {
+    "s": 8.204,
+    "e": 9.909,
+    "text": "half weren't even serious buyers"
+   },
+   "wasnt": {
+    "s": 10.189,
+    "e": 11.826,
+    "text": "the problem wasn't just getting leads"
+   },
+   "right": {
+    "s": 11.926,
+    "e": 14.717,
+    "text": "it was attracting the right people and following up properly"
+   },
+   "fix": {
+    "s": 14.997,
+    "e": 17.468,
+    "text": "more leads won't fix a broken sales process"
+   },
+   "cta": {
+    "s": 17.748,
+    "e": 21.294,
+    "text": "follow for marketing lessons most businesses learn the expensive way"
+   }
+  },
+  "words": [
+   {
+    "w": "he",
+    "s": 0.088,
+    "e": 0.163,
+    "line": "got"
+   },
+   {
+    "w": "got",
+    "s": 0.188,
+    "e": 0.388,
+    "line": "got"
+   },
+   {
+    "w": "47",
+    "s": 0.438,
+    "e": 0.938,
+    "line": "got"
+   },
+   {
+    "w": "leads",
+    "s": 0.988,
+    "e": 1.238,
+    "line": "got"
+   },
+   {
+    "w": "from",
+    "s": 1.263,
+    "e": 1.363,
+    "line": "got"
+   },
+   {
+    "w": "his",
+    "s": 1.388,
+    "e": 1.513,
+    "line": "got"
+   },
+   {
+    "w": "ads",
+    "s": 1.563,
+    "e": 1.946,
+    "line": "got"
+   },
+   {
+    "w": "and",
+    "s": 2.224,
+    "e": 2.299,
+    "line": "zero"
+   },
+   {
+    "w": "made",
+    "s": 2.324,
+    "e": 2.524,
+    "line": "zero"
+   },
+   {
+    "w": "zero",
+    "s": 2.599,
+    "e": 2.899,
+    "line": "zero"
+   },
+   {
+    "w": "sales",
+    "s": 2.949,
+    "e": 3.392,
+    "line": "zero"
+   },
+   {
+    "w": "so",
+    "s": 3.752,
+    "e": 3.852,
+    "line": "blamed"
+   },
+   {
+    "w": "he",
+    "s": 3.877,
+    "e": 3.952,
+    "line": "blamed"
+   },
+   {
+    "w": "blamed",
+    "s": 4.002,
+    "e": 4.327,
+    "line": "blamed"
+   },
+   {
+    "w": "Meta",
+    "s": 4.377,
+    "e": 4.602,
+    "line": "blamed"
+   },
+   {
+    "w": "ads",
+    "s": 4.652,
+    "e": 5.009,
+    "line": "blamed"
+   },
+   {
+    "w": "he",
+    "s": 5.135,
+    "e": 5.21,
+    "line": "off"
+   },
+   {
+    "w": "wanted",
+    "s": 5.26,
+    "e": 5.46,
+    "line": "off"
+   },
+   {
+    "w": "to",
+    "s": 5.485,
+    "e": 5.51,
+    "line": "off"
+   },
+   {
+    "w": "turn",
+    "s": 5.585,
+    "e": 5.835,
+    "line": "off"
+   },
+   {
+    "w": "everything",
+    "s": 5.885,
+    "e": 6.235,
+    "line": "off"
+   },
+   {
+    "w": "off",
+    "s": 6.285,
+    "e": 6.588,
+    "line": "off"
+   },
+   {
+    "w": "but",
+    "s": 6.892,
+    "e": 6.992,
+    "line": "checked"
+   },
+   {
+    "w": "then",
+    "s": 7.017,
+    "e": 7.117,
+    "line": "checked"
+   },
+   {
+    "w": "he",
+    "s": 7.167,
+    "e": 7.242,
+    "line": "checked"
+   },
+   {
+    "w": "checked",
+    "s": 7.292,
+    "e": 7.542,
+    "line": "checked"
+   },
+   {
+    "w": "the",
+    "s": 7.567,
+    "e": 7.617,
+    "line": "checked"
+   },
+   {
+    "w": "leads",
+    "s": 7.667,
+    "e": 8.111,
+    "line": "checked"
+   },
+   {
+    "w": "half",
+    "s": 8.267,
+    "e": 8.492,
+    "line": "half"
+   },
+   {
+    "w": "weren't",
+    "s": 8.517,
+    "e": 8.667,
+    "line": "half"
+   },
+   {
+    "w": "even",
+    "s": 8.692,
+    "e": 8.917,
+    "line": "half"
+   },
+   {
+    "w": "serious",
+    "s": 8.992,
+    "e": 9.367,
+    "line": "half"
+   },
+   {
+    "w": "buyers",
+    "s": 9.417,
+    "e": 9.909,
+    "line": "half"
+   },
+   {
+    "w": "the",
+    "s": 10.25,
+    "e": 10.3,
+    "line": "wasnt"
+   },
+   {
+    "w": "problem",
+    "s": 10.35,
+    "e": 10.75,
+    "line": "wasnt"
+   },
+   {
+    "w": "wasn't",
+    "s": 10.8,
+    "e": 11,
+    "line": "wasnt"
+   },
+   {
+    "w": "just",
+    "s": 11.025,
+    "e": 11.175,
+    "line": "wasnt"
+   },
+   {
+    "w": "getting",
+    "s": 11.2,
+    "e": 11.4,
+    "line": "wasnt"
+   },
+   {
+    "w": "leads",
+    "s": 11.45,
+    "e": 11.831,
+    "line": "wasnt"
+   },
+   {
+    "w": "it",
+    "s": 11.97,
+    "e": 12.02,
+    "line": "right"
+   },
+   {
+    "w": "was",
+    "s": 12.045,
+    "e": 12.12,
+    "line": "right"
+   },
+   {
+    "w": "attracting",
+    "s": 12.145,
+    "e": 12.595,
+    "line": "right"
+   },
+   {
+    "w": "the",
+    "s": 12.62,
+    "e": 12.67,
+    "line": "right"
+   },
+   {
+    "w": "right",
+    "s": 12.72,
+    "e": 12.895,
+    "line": "right"
+   },
+   {
+    "w": "people",
+    "s": 12.945,
+    "e": 13.445,
+    "line": "right"
+   },
+   {
+    "w": "and",
+    "s": 13.545,
+    "e": 13.62,
+    "line": "right"
+   },
+   {
+    "w": "following",
+    "s": 13.695,
+    "e": 14.045,
+    "line": "right"
+   },
+   {
+    "w": "up",
+    "s": 14.095,
+    "e": 14.17,
+    "line": "right"
+   },
+   {
+    "w": "properly",
+    "s": 14.22,
+    "e": 14.721,
+    "line": "right"
+   },
+   {
+    "w": "more",
+    "s": 15.062,
+    "e": 15.212,
+    "line": "fix"
+   },
+   {
+    "w": "leads",
+    "s": 15.262,
+    "e": 15.587,
+    "line": "fix"
+   },
+   {
+    "w": "won't",
+    "s": 15.637,
+    "e": 15.862,
+    "line": "fix"
+   },
+   {
+    "w": "fix",
+    "s": 15.937,
+    "e": 16.137,
+    "line": "fix"
+   },
+   {
+    "w": "a",
+    "s": 16.137,
+    "e": 16.237,
+    "line": "fix"
+   },
+   {
+    "w": "broken",
+    "s": 16.237,
+    "e": 16.562,
+    "line": "fix"
+   },
+   {
+    "w": "sales",
+    "s": 16.612,
+    "e": 16.887,
+    "line": "fix"
+   },
+   {
+    "w": "process",
+    "s": 16.937,
+    "e": 17.468,
+    "line": "fix"
+   },
+   {
+    "w": "follow",
+    "s": 17.797,
+    "e": 18.122,
+    "line": "cta"
+   },
+   {
+    "w": "for",
+    "s": 18.172,
+    "e": 18.272,
+    "line": "cta"
+   },
+   {
+    "w": "marketing",
+    "s": 18.322,
+    "e": 18.722,
+    "line": "cta"
+   },
+   {
+    "w": "lessons",
+    "s": 18.747,
+    "e": 19.347,
+    "line": "cta"
+   },
+   {
+    "w": "most",
+    "s": 19.447,
+    "e": 19.647,
+    "line": "cta"
+   },
+   {
+    "w": "businesses",
+    "s": 19.697,
+    "e": 20.172,
+    "line": "cta"
+   },
+   {
+    "w": "learn",
+    "s": 20.222,
+    "e": 20.422,
+    "line": "cta"
+   },
+   {
+    "w": "the",
+    "s": 20.447,
+    "e": 20.472,
+    "line": "cta"
+   },
+   {
+    "w": "expensive",
+    "s": 20.572,
+    "e": 21.022,
+    "line": "cta"
+   },
+   {
+    "w": "way",
+    "s": 21.072,
+    "e": 21.295,
+    "line": "cta"
+   }
+  ],
+  "voice_end": 21.294,
+  "end": 22.394,
+  "at": {
+   "got:he": 0.088,
+   "got:got": 0.188,
+   "got:47": 0.438,
+   "got:leads": 0.988,
+   "got:from": 1.263,
+   "got:his": 1.388,
+   "got:ads": 1.563,
+   "zero:and": 2.224,
+   "zero:made": 2.324,
+   "zero:zero": 2.599,
+   "zero:sales": 2.949,
+   "blamed:so": 3.752,
+   "blamed:he": 3.877,
+   "blamed:blamed": 4.002,
+   "blamed:Meta": 4.377,
+   "blamed:ads": 4.652,
+   "off:he": 5.135,
+   "off:wanted": 5.26,
+   "off:to": 5.485,
+   "off:turn": 5.585,
+   "off:everything": 5.885,
+   "off:off": 6.285,
+   "checked:but": 6.892,
+   "checked:then": 7.017,
+   "checked:he": 7.167,
+   "checked:checked": 7.292,
+   "checked:the": 7.567,
+   "checked:leads": 7.667,
+   "half:half": 8.267,
+   "half:weren't": 8.517,
+   "half:even": 8.692,
+   "half:serious": 8.992,
+   "half:buyers": 9.417,
+   "wasnt:the": 10.25,
+   "wasnt:problem": 10.35,
+   "wasnt:wasn't": 10.8,
+   "wasnt:just": 11.025,
+   "wasnt:getting": 11.2,
+   "wasnt:leads": 11.45,
+   "right:it": 11.97,
+   "right:was": 12.045,
+   "right:attracting": 12.145,
+   "right:the": 12.62,
+   "right:right": 12.72,
+   "right:people": 12.945,
+   "right:and": 13.545,
+   "right:following": 13.695,
+   "right:up": 14.095,
+   "right:properly": 14.22,
+   "fix:more": 15.062,
+   "fix:leads": 15.262,
+   "fix:won't": 15.637,
+   "fix:fix": 15.937,
+   "fix:a": 16.137,
+   "fix:broken": 16.237,
+   "fix:sales": 16.612,
+   "fix:process": 16.937,
+   "cta:follow": 17.797,
+   "cta:for": 18.172,
+   "cta:marketing": 18.322,
+   "cta:lessons": 18.747,
+   "cta:most": 19.447,
+   "cta:businesses": 19.697,
+   "cta:learn": 20.222,
+   "cta:the": 20.447,
+   "cta:expensive": 20.572,
+   "cta:way": 21.072
+  }
+ },
+ "shots": [
+  {
+   "key": "lock",
+   "s": 0,
+   "e": 3.425,
+   "tin": "none"
+  },
+  {
+   "key": "chat",
+   "s": 3.425,
+   "e": 5.104,
+   "tin": "none"
+  },
+  {
+   "key": "camps",
+   "s": 5.104,
+   "e": 6.852,
+   "tin": "none"
+  },
+  {
+   "key": "inbox",
+   "s": 6.852,
+   "e": 10.189,
+   "tin": "none"
+  },
+  {
+   "key": "wasnt",
+   "s": 10.189,
+   "e": 11.926,
+   "tin": "none"
+  },
+  {
+   "key": "right",
+   "s": 11.926,
+   "e": 13.295,
+   "tin": "none"
+  },
+  {
+   "key": "follow",
+   "s": 13.295,
+   "e": 14.997,
+   "tin": "none"
+  },
+  {
+   "key": "fix",
+   "s": 14.997,
+   "e": 17.748,
+   "tin": "cut"
+  },
+  {
+   "key": "cta",
+   "s": 17.748,
+   "e": 22.394,
+   "tin": "pushU"
+  }
+ ],
+ "captions": [
+  {
+   "text": "he got",
+   "s": 0.088,
+   "line": "got",
+   "hl": false,
+   "e": 0.438
+  },
+  {
+   "text": "47",
+   "s": 0.438,
+   "line": "got",
+   "hl": true,
+   "e": 0.988
+  },
+  {
+   "text": "leads",
+   "s": 0.988,
+   "line": "got",
+   "hl": false,
+   "e": 1.263
+  },
+  {
+   "text": "from his",
+   "s": 1.263,
+   "line": "got",
+   "hl": false,
+   "e": 1.563
+  },
+  {
+   "text": "ads",
+   "s": 1.563,
+   "line": "got",
+   "hl": false,
+   "e": 2.224
+  },
+  {
+   "text": "and made",
+   "s": 2.224,
+   "line": "zero",
+   "hl": false,
+   "e": 2.599
+  },
+  {
+   "text": "zero",
+   "s": 2.599,
+   "line": "zero",
+   "hl": true,
+   "e": 2.949
+  },
+  {
+   "text": "sales",
+   "s": 2.949,
+   "line": "zero",
+   "hl": false,
+   "e": 3.692
+  },
+  {
+   "text": "so he",
+   "s": 3.752,
+   "line": "blamed",
+   "hl": false,
+   "e": 4.002
+  },
+  {
+   "text": "blamed",
+   "s": 4.002,
+   "line": "blamed",
+   "hl": true,
+   "e": 4.377
+  },
+  {
+   "text": "Meta",
+   "s": 4.377,
+   "line": "blamed",
+   "hl": false,
+   "e": 4.652
+  },
+  {
+   "text": "ads",
+   "s": 4.652,
+   "line": "blamed",
+   "hl": false,
+   "e": 5.135
+  },
+  {
+   "text": "he wanted",
+   "s": 5.135,
+   "line": "off",
+   "hl": false,
+   "e": 5.485
+  },
+  {
+   "text": "to turn",
+   "s": 5.485,
+   "line": "off",
+   "hl": false,
+   "e": 5.885
+  },
+  {
+   "text": "everything",
+   "s": 5.885,
+   "line": "off",
+   "hl": true,
+   "e": 6.285
+  },
+  {
+   "text": "off",
+   "s": 6.285,
+   "line": "off",
+   "hl": false,
+   "e": 6.888
+  },
+  {
+   "text": "but then",
+   "s": 6.892,
+   "line": "checked",
+   "hl": false,
+   "e": 7.167
+  },
+  {
+   "text": "he checked",
+   "s": 7.167,
+   "line": "checked",
+   "hl": false,
+   "e": 7.567
+  },
+  {
+   "text": "the leads",
+   "s": 7.567,
+   "line": "checked",
+   "hl": false,
+   "e": 8.267
+  },
+  {
+   "text": "half",
+   "s": 8.267,
+   "line": "half",
+   "hl": true,
+   "e": 8.517
+  },
+  {
+   "text": "weren't",
+   "s": 8.517,
+   "line": "half",
+   "hl": false,
+   "e": 8.692
+  },
+  {
+   "text": "even",
+   "s": 8.692,
+   "line": "half",
+   "hl": false,
+   "e": 8.992
+  },
+  {
+   "text": "serious",
+   "s": 8.992,
+   "line": "half",
+   "hl": true,
+   "e": 9.417
+  },
+  {
+   "text": "buyers",
+   "s": 9.417,
+   "line": "half",
+   "hl": false,
+   "e": 10.209
+  },
+  {
+   "text": "the",
+   "s": 10.25,
+   "line": "wasnt",
+   "hl": false,
+   "e": 10.35
+  },
+  {
+   "text": "problem",
+   "s": 10.35,
+   "line": "wasnt",
+   "hl": true,
+   "e": 10.8
+  },
+  {
+   "text": "wasn't",
+   "s": 10.8,
+   "line": "wasnt",
+   "hl": false,
+   "e": 11.025
+  },
+  {
+   "text": "just",
+   "s": 11.025,
+   "line": "wasnt",
+   "hl": false,
+   "e": 11.2
+  },
+  {
+   "text": "getting",
+   "s": 11.2,
+   "line": "wasnt",
+   "hl": false,
+   "e": 11.45
+  },
+  {
+   "text": "leads",
+   "s": 11.45,
+   "line": "wasnt",
+   "hl": false,
+   "e": 11.97
+  },
+  {
+   "text": "it was attracting",
+   "s": 11.97,
+   "line": "right",
+   "hl": false,
+   "e": 12.62
+  },
+  {
+   "text": "the",
+   "s": 12.62,
+   "line": "right",
+   "hl": false,
+   "e": 12.72
+  },
+  {
+   "text": "right",
+   "s": 12.72,
+   "line": "right",
+   "hl": true,
+   "e": 12.945
+  },
+  {
+   "text": "people",
+   "s": 12.945,
+   "line": "right",
+   "hl": false,
+   "e": 13.545
+  },
+  {
+   "text": "and",
+   "s": 13.545,
+   "line": "right",
+   "hl": false,
+   "e": 13.695
+  },
+  {
+   "text": "following",
+   "s": 13.695,
+   "line": "right",
+   "hl": true,
+   "e": 14.095
+  },
+  {
+   "text": "up properly",
+   "s": 14.095,
+   "line": "right",
+   "hl": false,
+   "e": 15.021
+  },
+  {
+   "text": "more",
+   "s": 15.062,
+   "line": "fix",
+   "hl": false,
+   "e": 15.262
+  },
+  {
+   "text": "leads",
+   "s": 15.262,
+   "line": "fix",
+   "hl": false,
+   "e": 15.637
+  },
+  {
+   "text": "won't",
+   "s": 15.637,
+   "line": "fix",
+   "hl": false,
+   "e": 15.937
+  },
+  {
+   "text": "fix",
+   "s": 15.937,
+   "line": "fix",
+   "hl": false,
+   "e": 16.137
+  },
+  {
+   "text": "a",
+   "s": 16.137,
+   "line": "fix",
+   "hl": false,
+   "e": 16.237
+  },
+  {
+   "text": "broken",
+   "s": 16.237,
+   "line": "fix",
+   "hl": true,
+   "e": 16.612
+  },
+  {
+   "text": "sales",
+   "s": 16.612,
+   "line": "fix",
+   "hl": false,
+   "e": 16.937
+  },
+  {
+   "text": "process",
+   "s": 16.937,
+   "line": "fix",
+   "hl": false,
+   "e": 17.768
+  },
+  {
+   "text": "follow",
+   "s": 17.797,
+   "line": "cta",
+   "hl": true,
+   "e": 18.172
+  },
+  {
+   "text": "for",
+   "s": 18.172,
+   "line": "cta",
+   "hl": false,
+   "e": 18.322
+  },
+  {
+   "text": "marketing",
+   "s": 18.322,
+   "line": "cta",
+   "hl": false,
+   "e": 18.747
+  },
+  {
+   "text": "lessons",
+   "s": 18.747,
+   "line": "cta",
+   "hl": false,
+   "e": 19.447
+  },
+  {
+   "text": "most",
+   "s": 19.447,
+   "line": "cta",
+   "hl": false,
+   "e": 19.697
+  },
+  {
+   "text": "businesses",
+   "s": 19.697,
+   "line": "cta",
+   "hl": false,
+   "e": 20.222
+  },
+  {
+   "text": "learn",
+   "s": 20.222,
+   "line": "cta",
+   "hl": false,
+   "e": 20.447
+  },
+  {
+   "text": "the",
+   "s": 20.447,
+   "line": "cta",
+   "hl": false,
+   "e": 20.572
+  },
+  {
+   "text": "expensive",
+   "s": 20.572,
+   "line": "cta",
+   "hl": true,
+   "e": 21.072
+  },
+  {
+   "text": "way",
+   "s": 21.072,
+   "line": "cta",
+   "hl": false,
+   "e": 21.595
+  }
+ ],
+ "events": [
+  {
+   "t": 0.03,
+   "k": "deep",
+   "g": 0.5
+  },
+  {
+   "t": 0.06,
+   "k": "hit",
+   "g": 0.45
+  },
+  {
+   "t": 0.93,
+   "k": "swish",
+   "g": 0.45
+  },
+  {
+   "t": 1.05,
+   "k": "whoosh_c",
+   "g": 0.55
+  },
+  {
+   "t": 1.4,
+   "k": "thump",
+   "g": 0.3
+  },
+  {
+   "t": 1.02,
+   "k": "pop",
+   "g": 0.17,
+   "pan": -0.3
+  },
+  {
+   "t": 1.21,
+   "k": "pop",
+   "g": 0.19,
+   "pan": 0.3
+  },
+  {
+   "t": 1.37,
+   "k": "pop",
+   "g": 0.21000000000000002,
+   "pan": -0.3
+  },
+  {
+   "t": 1.51,
+   "k": "pop",
+   "g": 0.23,
+   "pan": 0.3
+  },
+  {
+   "t": 1.63,
+   "k": "pop",
+   "g": 0.25,
+   "pan": -0.3
+  },
+  {
+   "t": 1.73,
+   "k": "pop",
+   "g": 0.27,
+   "pan": 0.3
+  },
+  {
+   "t": 1.82,
+   "k": "pop",
+   "g": 0.29000000000000004,
+   "pan": -0.3
+  },
+  {
+   "t": 1.9,
+   "k": "pop",
+   "g": 0.31000000000000005,
+   "pan": 0.3
+  },
+  {
+   "t": 2.559,
+   "k": "deep",
+   "g": 0.45
+  },
+  {
+   "t": 2.579,
+   "k": "hit",
+   "g": 0.32
+  },
+  {
+   "t": 2.719,
+   "k": "zoom",
+   "g": 0.32
+  },
+  {
+   "t": 3.525,
+   "k": "swish",
+   "g": 0.45
+  },
+  {
+   "t": 3.565,
+   "k": "whoosh_soft",
+   "g": 0.3
+  },
+  {
+   "t": 3.792,
+   "k": "tick",
+   "g": 0.1,
+   "pan": -0.25
+  },
+  {
+   "t": 3.853,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0
+  },
+  {
+   "t": 3.913,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0.25
+  },
+  {
+   "t": 3.974,
+   "k": "tick",
+   "g": 0.1,
+   "pan": -0.25
+  },
+  {
+   "t": 4.034,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0
+  },
+  {
+   "t": 4.095,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0.25
+  },
+  {
+   "t": 4.156,
+   "k": "tick",
+   "g": 0.1,
+   "pan": -0.25
+  },
+  {
+   "t": 4.216,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0
+  },
+  {
+   "t": 4.277,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0.25
+  },
+  {
+   "t": 4.377,
+   "k": "select",
+   "g": 0.4
+  },
+  {
+   "t": 4.397,
+   "k": "swish",
+   "g": 0.18
+  },
+  {
+   "t": 5.104,
+   "k": "whoosh_b",
+   "g": 0.5
+  },
+  {
+   "t": 5.585,
+   "k": "tap",
+   "g": 0.38,
+   "pan": 0.3
+  },
+  {
+   "t": 5.635,
+   "k": "tick",
+   "g": 0.22,
+   "pan": 0.3
+  },
+  {
+   "t": 5.885,
+   "k": "tap",
+   "g": 0.38,
+   "pan": 0.3
+  },
+  {
+   "t": 5.935,
+   "k": "tick",
+   "g": 0.22,
+   "pan": 0.3
+  },
+  {
+   "t": 6.205,
+   "k": "tap",
+   "g": 0.38,
+   "pan": 0.3
+  },
+  {
+   "t": 6.255,
+   "k": "tick",
+   "g": 0.22,
+   "pan": 0.3
+  },
+  {
+   "t": 6.852,
+   "k": "whoosh_e",
+   "g": 0.55
+  },
+  {
+   "t": 7.072,
+   "k": "zoom_out",
+   "g": 0.3
+  },
+  {
+   "t": 8.267,
+   "k": "swish",
+   "g": 0.16,
+   "pan": -0.3
+  },
+  {
+   "t": 8.347,
+   "k": "swish",
+   "g": 0.16,
+   "pan": -0.09999999999999998
+  },
+  {
+   "t": 8.427,
+   "k": "swish",
+   "g": 0.16,
+   "pan": 0.10000000000000003
+  },
+  {
+   "t": 8.507,
+   "k": "swish",
+   "g": 0.16,
+   "pan": 0.3000000000000001
+  },
+  {
+   "t": 8.992,
+   "k": "whoosh_soft",
+   "g": 0.35,
+   "pan": -0.4
+  },
+  {
+   "t": 9.332,
+   "k": "pop",
+   "g": 0.22
+  },
+  {
+   "t": 10.189,
+   "k": "whoosh_d",
+   "g": 0.45
+  },
+  {
+   "t": 10.29,
+   "k": "hit",
+   "g": 0.45
+  },
+  {
+   "t": 10.29,
+   "k": "thump",
+   "g": 0.35
+  },
+  {
+   "t": 10.8,
+   "k": "swish",
+   "g": 0.35
+  },
+  {
+   "t": 10.85,
+   "k": "arrow",
+   "g": 0.2
+  },
+  {
+   "t": 11.926,
+   "k": "swish",
+   "g": 0.3
+  },
+  {
+   "t": 12.046,
+   "k": "whoosh_c",
+   "g": 0.4
+  },
+  {
+   "t": 12.476,
+   "k": "thump",
+   "g": 0.25
+  },
+  {
+   "t": 12.505,
+   "k": "check",
+   "g": 0.32,
+   "pan": 0.25
+  },
+  {
+   "t": 12.525,
+   "k": "pop",
+   "g": 0.14,
+   "pan": 0.25
+  },
+  {
+   "t": 12.72,
+   "k": "check",
+   "g": 0.32,
+   "pan": 0.25
+  },
+  {
+   "t": 12.74,
+   "k": "pop",
+   "g": 0.14,
+   "pan": 0.25
+  },
+  {
+   "t": 12.945,
+   "k": "check",
+   "g": 0.32,
+   "pan": 0.25
+  },
+  {
+   "t": 12.965,
+   "k": "pop",
+   "g": 0.14,
+   "pan": 0.25
+  },
+  {
+   "t": 13.295,
+   "k": "whoosh_b",
+   "g": 0.55
+  },
+  {
+   "t": 13.695,
+   "k": "pop",
+   "g": 0.22
+  },
+  {
+   "t": 13.835,
+   "k": "select",
+   "g": 0.2
+  },
+  {
+   "t": 14.065,
+   "k": "pop",
+   "g": 0.28,
+   "pan": 0.3
+  },
+  {
+   "t": 14.34,
+   "k": "pop",
+   "g": 0.28,
+   "pan": -0.3
+  },
+  {
+   "t": 14.72,
+   "k": "chime",
+   "g": 0.45
+  },
+  {
+   "t": 14.75,
+   "k": "check",
+   "g": 0.35
+  },
+  {
+   "t": 14.997,
+   "k": "deep",
+   "g": 0.55
+  },
+  {
+   "t": 15.007,
+   "k": "hit",
+   "g": 0.45
+  },
+  {
+   "t": 15.062,
+   "k": "riser",
+   "g": 0.035,
+   "d": 1.174999999999999
+  },
+  {
+   "t": 16.197,
+   "k": "hit",
+   "g": 0.36
+  },
+  {
+   "t": 16.197,
+   "k": "thump",
+   "g": 0.32
+  },
+  {
+   "t": 16.217,
+   "k": "deep",
+   "g": 0.18
+  },
+  {
+   "t": 16.612,
+   "k": "pop",
+   "g": 0.32
+  },
+  {
+   "t": 17.748,
+   "k": "whoosh_f",
+   "g": 0.55
+  },
+  {
+   "t": 17.848,
+   "k": "sting",
+   "g": 0.45
+  },
+  {
+   "t": 17.997,
+   "k": "pop",
+   "g": 0.35
+  },
+  {
+   "t": 18.747,
+   "k": "tap",
+   "g": 0.45
+  },
+  {
+   "t": 18.807,
+   "k": "check",
+   "g": 0.35
+  }
+ ],
+ "music": {
+  "drop": 14.997,
+  "back": 17.748,
+  "end": 21.072
+ },
+ "blur": [
+  [
+   0.83,
+   1.7,
+   8
+  ],
+  [
+   1,
+   2.1999999999999997,
+   4
+  ],
+  [
+   2.579,
+   3.2990000000000004,
+   8
+  ],
+  [
+   3.405,
+   3.925,
+   8
+  ],
+  [
+   5.0840000000000005,
+   5.524,
+   8
+  ],
+  [
+   6.832000000000001,
+   7.332000000000001,
+   8
+  ],
+  [
+   8.972000000000001,
+   9.792000000000002,
+   6
+  ],
+  [
+   10.169,
+   10.59,
+   8
+  ],
+  [
+   11.906,
+   12.676,
+   8
+  ],
+  [
+   13.275,
+   13.745,
+   8
+  ],
+  [
+   15.017,
+   17.748,
+   3
+  ],
+  [
+   17.548000000000002,
+   17.988,
+   8
+  ]
+ ]
+}

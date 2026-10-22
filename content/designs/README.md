@@ -88,3 +88,24 @@ Rebuild: `python3 source/reel_news_vo.py <kokoro-dir> <tmp>` → `node source/re
 > Run a brand? DM us "TEARDOWN" and we'll review your ads for free.
 >
 > #paidads #metaads #instagramads #facebookads #ecommerce #shopify #dtcbrand #adcreative #brandgrowth #mezmedia
+
+## Reel: "47 leads. Zero sales." (Apple-style)
+File: `reels/mezmedia_reel_47leads.mp4` (1080×1920, 30fps, 22.4s, Kokoro af_heart voiceover (fast read) + music + SFX, -14 LUFS, voice 12.6 dB over the bed). Same story as the "47 leads" carousel, told as a reel: the leads pour onto his lock screen, $0 in sales, he texts "Meta ads just don't work" and starts switching campaigns off, then turns the phone round to the leads and half of them were never buyers. The right lead and a reply in 3 minutes, then the lesson on black (leads pouring into a cracked funnel, 0 sales) and the follow end card.
+Rebuild: `python3 source/reel_leads_vo.py <kokoro-dir> <tmp>` → `node source/reel_leads.js <frames> <video.mp4>` → `python3 source/reel_leads_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Screens are HTML (`source/reel_leads_screens.js`) drawn by the shared phone engine (`source/reel_phone_kit.js`).
+
+**Caption**
+> How fast do you reply to a new lead? Be honest, tell me below.
+>
+> He got 47 leads from his ads and made zero sales. So he blamed Meta ads and nearly switched off all 4 campaigns.
+>
+> Then he read the leads. Half weren't buyers at all: a wrong number, someone just browsing, a click by mistake.
+>
+> The ads did their job. Lead quality was the problem, and so was the follow-up. The good leads didn't hear back for days.
+>
+> The fix wasn't clever. One good lead got a reply in 3 minutes and had a call booked for 3pm the same day.
+>
+> Before you put more money into Meta ads, I'd check two things: who your ads attract, and how quickly you follow up with leads once they enquire.
+>
+> (The story's an example, not a client.)
+>
+> #metaads #leadgeneration #smallbusiness

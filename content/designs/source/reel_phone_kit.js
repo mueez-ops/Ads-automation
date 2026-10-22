@@ -91,20 +91,20 @@ function phone(x, p, scr, o = {}) {
   if (sh > 0) { x.save(); x.globalAlpha *= 0.32 * sh; x.drawImage(SHADOW, x0 - 130 * s, y0 - 100 * s, 900 * s, 1700 * s); x.restore(); }
   x.save(); rrx(x, x0 + 20 * s, y0 + 20 * s, 600 * s, 1280 * s, 92 * s); x.clip(); x.translate(x0 + 20 * s, y0 + 20 * s); x.scale(s, s);
   x.fillStyle = WHT; x.fillRect(0, 0, 600, 1280);
-  const im = IMG[scr]; x.drawImage(im, 0, -(o.sy || 0), 600, im.height / 2);
+  const im = IMG[scr]; x.drawImage(im, -(o.sx || 0), -(o.sy || 0), 600, im.height / 2);
   if (o.over) o.over(x);
   if (o.dim > 0) { x.fillStyle = 'rgba(245,245,247,' + o.dim + ')'; x.fillRect(0, 0, 600, 1280); }
   x.restore();
-  x.drawImage(IMG.frameLight, x0 - 20 * s, y0 - 20 * s, 680 * s, 1360 * s);
+  x.drawImage(IMG[o.frame || 'frameLight'], x0 - 20 * s, y0 - 20 * s, 680 * s, 1360 * s);   // frameDark: white status bar
   x.restore();
 }
-function phone3d(x, p, scr, o = {}, rx = 0) {        // the same phone tilted back about its horizontal axis
-  if (Math.abs(rx) < 0.004) return phone(x, p, scr, o);
+function phone3d(x, p, scr, o = {}, rx = 0, ry = 0) {   // the same phone tilted back (rx) or turned (ry)
+  if (Math.abs(rx) < 0.004 && Math.abs(ry) < 0.004) return phone(x, p, scr, o);
   const s = p.s, lw = Math.ceil(680 * s), lh = Math.ceil(1360 * s);
-  x.save(); x.globalAlpha *= 0.32 * (o.alpha ?? 1) * (1 - Math.abs(rx)); x.drawImage(SHADOW, p.cx - 450 * s, p.cy - 760 * s, 900 * s, 1700 * s); x.restore();
+  x.save(); x.globalAlpha *= 0.32 * (o.alpha ?? 1) * (1 - Math.abs(rx)) * Math.abs(Math.cos(ry)); x.drawImage(SHADOW, p.cx - 450 * s, p.cy - 760 * s, 900 * s, 1700 * s); x.restore();
   lay.setTransform(1, 0, 0, 1, 0, 0); lay.clearRect(0, 0, LAY.width, LAY.height);
   phone(lay, P(lw / 2, lh / 2, s), scr, { ...o, alpha: 1, shadow: 0 });
-  x.save(); x.globalAlpha *= o.alpha ?? 1; persp(x, LAY, lw, lh, p.cx, p.cy, lw, lh, 0, rx); x.restore();
+  x.save(); x.globalAlpha *= o.alpha ?? 1; persp(x, LAY, lw, lh, p.cx, p.cy, lw, lh, ry, rx); x.restore();
 }
 
 // ---------- the world: shots and the transitions between them ----------
