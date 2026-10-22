@@ -14,8 +14,8 @@ const C = JSON.parse(fs.readFileSync(path.join(__dirname, 'reel_alex_cues.json')
 const Wd = (line) => C.words.filter((w) => w.line === line);
 const at = (line, i) => Wd(line)[i].s;
 const L = C.lines;
-// photos (Pexels 7534380, 7534382, 7534387, 4144288, 4144290), graded, in source/photos
-const PHOTOS = ['alex_hook', 'alex_grimace', 'alex_call', 'sara_smile', 'sara_phone'];
+// photos (Pexels 7534380, 7534382, 7534793, 4144288, 4144290), graded, in source/photos
+const PHOTOS = ['alex_hook', 'alex_grimace', 'alex_happy', 'sara_smile', 'sara_phone'];
 
 // ---------- captions: one word at a time (short words ride with their neighbour) ----------
 // "+" words were spoken but ride with the word before them ("$20" covers "twenty dollars"); the hook and the last
@@ -76,7 +76,7 @@ const K = {
 // motion blur: sub-frames per frame inside these windows [from, to, samples]
 const BLUR = [[T0.edits, T0.edits + 0.7, 8], [K.photo - 0.02, K.photo + 0.36, 8], [K.price - 0.02, K.price + 0.3, 6], [K.sheet - 0.02, K.sheet + 0.36, 6],
   [T0.switch, T0.switch + 0.7, 8], [K.zoom - 0.02, GRAB_END + 0.4, 8], [L.broken.s - 0.02, L.broken.s + 0.6, 6], [K.m1 - 0.02, L.dead.s + 0.3, 4],
-  [L.dead.s, L.fixed.s, 4], [K.booked - 0.1, K.booked + 0.4, 6], [K.friday - 0.02, K.friday + 0.6, 4], [RING + 0.2, RING + 0.6, 6]];
+  [L.dead.s, L.fixed.s, 4], [K.booked - 0.1, K.booked + 0.45, 10], [K.friday - 0.02, K.friday + 0.6, 4], [RING + 0.2, RING + 0.6, 6]];
 SHOTS.forEach((sh) => { if (['pushU', 'pushL', 'circle'].includes(sh.tin)) BLUR.push([sh.s - 0.2, sh.s + 0.24, 8]); });
 
 // ---------- sound design (reel_alex_audio.py maps each kind to a recorded or synthesized effect) ----------

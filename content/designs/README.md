@@ -138,3 +138,37 @@ Rebuild: `python3 source/reel_goal_vo.py <kokoro-dir> <tmp>` → `node source/re
 > (The business in the reel, Home Refit Co., is made up.)
 >
 > #metaads #leadgeneration #facebookads
+
+## Reel: "Alex spent $2,000 on Meta ads" (story, Apple-style)
+File: `reels/mezmedia_reel_alex.mp4` (1080×1920, 30fps, 30.0s, Kokoro af_heart voiceover at a natural pace + music + SFX, -14 LUFS, voice 14.9 dB over the bed). A person-led story. Frame 0 is a photo of Alex staring at his phone with "$2,000 on ads. 0 customers." on screen and a name card ("Alex · runs a cleaning company", labelled EXAMPLE STORY). His daughter Sara and a ten-second stopwatch open the loop by 3.8 s. On his phone he tries everything (a new photo, $20 off, a new audience); still nothing; his thumb stops over the switch in Ads Manager. Sara takes the phone, the camera goes into the screen, she taps "Book now" twice and nothing happens; the button cracks: it didn't work on phones. Two months go by on a calendar and a crowd of clicks bounces off the button. He fixes it: "Booked", the Friday lock screen fills with bookings, a new customer calls and Alex laughs. The lesson rises line by line as big type, then a silent follow tap on the end card. Alex, Sara and the business are made up. The photos are free Pexels photos (7534380, 7534382, 7534793 for Alex; 4144288, 4144290 for Sara), graded, in `source/photos/`.
+Rebuild: `python3 source/reel_alex_vo.py <kokoro-dir> <tmp>` → `node source/reel_alex.js <frames> <video.mp4>` → `python3 source/reel_alex_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Screens: `source/reel_alex_screens.js`; scenes: `source/reel_alex_scene.js`; shared phone engine: `source/reel_phone_kit.js`.
+
+**Script**
+> Alex spent $2,000 on Meta ads.
+> Not one customer.
+> His daughter found out why in ten seconds.
+> He tried everything. New photos. $20 off. A new audience.
+> Still nothing.
+> He opened Ads Manager to switch it all off.
+> Then Sara grabbed his phone and tried to book a cleaning.
+> She tapped Book now.
+> Nothing.
+> The button didn't work on phones.
+> Two months. Every click, a dead end.
+> He fixed it that night, and by Friday his phone was ringing.
+> Before you blame your ads, try booking yourself, on your phone.
+
+**Caption**
+> Alex spent $2,000 on ads and lost it to one broken button. When did you last test yours on your phone? Tell me below.
+>
+> A story, but maybe you've lived it.
+>
+> If your Meta ads get clicks but no sales, the ad might not be the problem. People tap your ad on their phone. Plenty of booking pages and landing pages only ever get checked on a laptop, by the person who built them.
+>
+> So before you change the photo, the price or the audience again, do what Sara did. It takes two minutes. Open your ad on your phone. Tap it. Pick a time, fill in the form, press Book now or Buy, and go right to the confirmation screen.
+>
+> Button does nothing? Form won't send? Page takes 10 seconds to load? That's where your ad money goes.
+>
+> (Alex, Sara and the cleaning company are made up.)
+>
+> #metaads #facebookads #landingpage

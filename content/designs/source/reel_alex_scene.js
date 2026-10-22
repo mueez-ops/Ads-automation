@@ -170,13 +170,13 @@ S.dead = (x, t) => {
 };
 
 // ---------- fixed: booked, then Friday ----------
-function bookedSheet(c, t) {
-  const k = clamp((t - K.booked - 0.05) / 0.35); if (k <= 0) return;
-  const y = lerp(1280, 880, expo(k));
+function bookedSheet(c, t) {                           // tall enough that "Booked" sits above the captions
+  const k = clamp((t - K.booked - 0.05) / 0.4); if (k <= 0) return;
+  const y = lerp(1280, 560, ease(k));
   c.save(); c.shadowColor = 'rgba(0,0,0,.18)'; c.shadowBlur = 30; rrx(c, 0, y, 600, 1280 - y + 40, [44, 44, 0, 0]); c.fillStyle = WHT; c.fill(); c.restore();
-  CHECK(c, 300, y + 90, 44, (t - K.booked - 0.15) / 0.3);
-  setF(c, '700 44px Body'); c.fillStyle = INK; c.textAlign = 'center'; c.fillText('Booked', 300, y + 192);
-  setF(c, '500 28px Body'); c.fillStyle = GREY; c.fillText('Deep clean · Fri 2:00 pm', 300, y + 236);
+  CHECK(c, 300, y + 130, 56, (t - K.booked - 0.2) / 0.3);
+  setF(c, '700 52px Body'); c.fillStyle = INK; c.textAlign = 'center'; c.fillText('Booked', 300, y + 262);
+  setF(c, '500 30px Body'); c.fillStyle = GREY; c.fillText('Deep clean · Fri 2:00 pm', 300, y + 312);
 }
 function bookings(c, t) {                              // Friday: the lock screen fills up
   c.drawImage(IMG.lock, 0, 0, 600, 1280);
@@ -199,21 +199,21 @@ S.fixed = (x, t) => {
   if (tk > 0 && tk < 1) { const [fx, fy] = toSlide(p, 300, 867); touch(x, lerp(980, fx, ease(tk * 1.8)), lerp(1500, fy, ease(tk * 1.8)), Math.sin(tk * Math.PI) * 1.4, clamp((t - K.booked + 0.05) / 0.3)); }
 };
 
-// ---------- Alex, on the phone to a new customer ----------
-function callBanner(x, t) {
+// ---------- a new customer calls; Alex laughs ----------
+function callBanner(x, t) {                           // under the caption, clear of his face and of Instagram's buttons
   const k = (t - T0.ring - 0.12) / 0.35; if (k <= 0) return;
-  const y = lerp(170, 310, expo(k)), ring_ = 1 + 0.06 * Math.max(0, Math.sin((t - T0.ring) * 18));
+  const y = lerp(1500, 1370, expo(k)), ring_ = 1 + 0.06 * Math.max(0, Math.sin((t - T0.ring) * 18));
   x.save(); x.globalAlpha = clamp(k * 2); x.shadowColor = 'rgba(0,0,0,.35)'; x.shadowBlur = 30;
-  rrx(x, 72, y - 72, 936, 144, 44); x.fillStyle = 'rgba(28,28,30,.94)'; x.fill(); x.shadowBlur = 0;
-  x.beginPath(); x.arc(152, y, 44, 0, TAU); x.fillStyle = '#48484A'; x.fill();
-  setF(x, '600 34px Body'); x.fillStyle = WHT; x.textAlign = 'center'; x.fillText('NC', 152, y + 12);
-  x.textAlign = 'left'; setF(x, '600 38px Body'); x.fillText('New customer', 220, y - 6); setF(x, '500 28px Body'); x.fillStyle = 'rgba(255,255,255,.62)'; x.fillText('Incoming call', 220, y + 34);
-  x.translate(924, y); x.scale(ring_, ring_); x.beginPath(); x.arc(0, 0, 42, 0, TAU); x.fillStyle = WHT; x.fill();
+  rrx(x, 64, y - 72, 856, 144, 44); x.fillStyle = 'rgba(28,28,30,.94)'; x.fill(); x.shadowBlur = 0;
+  x.beginPath(); x.arc(144, y, 44, 0, TAU); x.fillStyle = '#48484A'; x.fill();
+  setF(x, '600 34px Body'); x.fillStyle = WHT; x.textAlign = 'center'; x.fillText('NC', 144, y + 12);
+  x.textAlign = 'left'; setF(x, '600 38px Body'); x.fillText('New customer', 212, y - 6); setF(x, '500 28px Body'); x.fillStyle = 'rgba(255,255,255,.62)'; x.fillText('Incoming call', 212, y + 34);
+  x.translate(840, y); x.scale(ring_, ring_); x.beginPath(); x.arc(0, 0, 42, 0, TAU); x.fillStyle = WHT; x.fill();
   x.rotate(-0.35); x.fillStyle = INK; rrx(x, -19, -6, 38, 12, 6); x.fill(); rrx(x, -21, -12, 11, 18, 5); x.fill(); rrx(x, 10, -12, 11, 18, 5); x.fill();
   x.restore();
 }
 S.ring = (x, t) => {
-  pic(x, 'alex_call', 0.38, 0.5, 1.04 + 0.06 * eio((t - T0.ring) / 1.2), 820);
+  pic(x, 'alex_happy', 0.5, 0.35, 1.04 + 0.06 * eio((t - T0.ring) / 1.2), 700);
   veil(x, 900, 1600, 0.55);
   callBanner(x, t);
 };
