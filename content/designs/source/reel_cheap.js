@@ -92,6 +92,7 @@ const SRC=${JSON.stringify(img)};
 ${fs.readFileSync(path.join(__dirname, 'reel_kit_browser.js'), 'utf8')}
 const C=${JSON.stringify(C)}, SHOTS=${JSON.stringify(SHOTS)}, T0=${JSON.stringify(T0)}, CH=${JSON.stringify(CH)}, K=${JSON.stringify(K)}, BLUR=${JSON.stringify(BLUR)};
 const LN=${JSON.stringify(L)}, RECT=${JSON.stringify(rects)}, FPS=30;
+${fs.readFileSync(path.join(__dirname, 'reel_phone_kit.js'), 'utf8')}
 ${fs.readFileSync(path.join(__dirname, 'reel_cheap_scene.js'), 'utf8')}
 const fontsReady=Promise.all(['800 40px Logo','600 40px Logo','500 40px Body','600 40px Body','700 40px Body'].map(f=>document.fonts.load(f)));
 window.ready=Promise.all([window.ready,fontsReady]).then(()=>prepare());
