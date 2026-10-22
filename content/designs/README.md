@@ -109,3 +109,32 @@ Rebuild: `python3 source/reel_leads_vo.py <kokoro-dir> <tmp>` → `node source/r
 > (The story's an example, not a client.)
 >
 > #metaads #leadgeneration #smallbusiness
+
+## Reel: "2,000 clicks. Zero enquiries." (Apple-style)
+File: `reels/mezmedia_reel_2000clicks.mp4` (1080×1920, 30fps, 22.4s, Kokoro af_heart voiceover at a natural pace + music + SFX, -14 LUFS, voice 14.3 dB over the bed). Hook on screen at frame 0 ("2,000 clicks. 0 enquiries."), which folds into the numbers on a results screen with the campaign goal blurred out. The ad gets a new photo, headline and audience; clicks keep coming, enquiries stay at 0. Inside the campaign (black) the goal is revealed as Traffic, a crowd shows Meta pulling out the people who click, then the goal is switched to Leads and the people who enquire come through. Last line on screen as big type; a silent follow tap on the end card. The business is made up.
+Rebuild: `python3 source/reel_goal_vo.py <kokoro-dir> <tmp>` → `node source/reel_goal.js <frames> <video.mp4>` → `python3 source/reel_goal_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Screens: `source/reel_goal_screens.js`; shared phone engine: `source/reel_phone_kit.js`.
+
+**Script**
+> 2,000 clicks. Zero enquiries.
+> You asked Meta for the wrong thing.
+> So you change the photo. The headline. Even the audience.
+> Still nothing.
+> That's because Meta gives you exactly what you ask for.
+> Pick Traffic, and it'll find you people who click. Not people who enquire.
+> Pick Leads, and it goes looking for the ones who fill in the form.
+> Ask for enquiries, not clicks.
+
+**Caption**
+> Which goal is your campaign set to right now? Check it, then tell me below.
+>
+> If your Meta ads get clicks but no leads, look at this before you change the photo, the headline or the audience.
+>
+> It's the first thing Ads Manager asks you to pick: Awareness, Traffic, Engagement, Leads, App promotion or Sales. Meta optimises for the campaign goal you choose. Pick Traffic and it finds people who are likely to click. That's a different crowd from the people who fill in a form.
+>
+> Pick Leads and it goes looking for people likely to enquire. Ask for the result you actually want.
+>
+> Once the leads come in, the next step is telling Meta which ones turned into customers, so it can find more people like them.
+>
+> (The business in the reel, Home Refit Co., is made up.)
+>
+> #metaads #leadgeneration #facebookads

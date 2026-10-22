@@ -1,21 +1,6 @@
 // Browser-side shots for reel_leads.js, on the phone engine in reel_phone_kit.js (loaded first).
 // RECT gives the screen positions (px) of the parts the edit points at (from reel_leads_screens.js).
 // Each shot picks its phone up where the last one left it (the *P functions), so the cuts between them don't show.
-// ---------- helpers ----------
-const hex = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
-const mixc = (a, b, k) => { const A = hex(a), B = hex(b); return 'rgb(' + A.map((v, i) => Math.round(lerp(v, B[i], clamp(k)))).join(',') + ')'; };
-const jolt = (t, t0, amp = 14, d = 0.3) => { const u = t - t0; return u > 0 && u < d ? Math.sin(u * 80) * Math.exp(-u * 16) * amp : 0; };
-function kf(t, keys) {                               // keyframes [[time, ...values]], eased between neighbours
-  if (t <= keys[0][0]) return keys[0].slice(1);
-  for (let i = 0; i < keys.length - 1; i++) {
-    const [t0, ...a0] = keys[i], [t1, ...b0] = keys[i + 1];
-    if (t <= t1) { const k = eio((t - t0) / (t1 - t0)); return a0.map((v, j) => lerp(v, b0[j], k)); }
-  }
-  return keys[keys.length - 1].slice(1);
-}
-// part r = [x, y, w, h] of a (2x) screen picture, drawn in screen px, moved by dx, dy
-const part = (x, im, r, dx = 0, dy = 0) => x.drawImage(IMG[im], r[0] * 2, r[1] * 2, r[2] * 2, r[3] * 2, r[0] + dx, r[1] + dy, r[2], r[3]);
-const zoomAt = (x, px, py, z) => { x.translate(px, py); x.scale(z, z); x.translate(-px, -py); };
 
 // ---------- layouts ----------
 const LOCKP = P(540, 822, 0.72), HERO = P(540, 700, 0.82), REPLYP = P(540, 742, 0.92), CAMPSP = P(478, 690, 0.9), INBOXP = P(540, 676, 0.84);

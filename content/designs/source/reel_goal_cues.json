@@ -1,0 +1,523 @@
+{
+ "lines": {
+  "clicks": {
+   "s": 0.05,
+   "e": 1.199,
+   "text": "2,000 clicks"
+  },
+  "zero": {
+   "s": 1.319,
+   "e": 2.477,
+   "text": "zero enquiries"
+  },
+  "wrong": {
+   "s": 2.677,
+   "e": 4.212,
+   "text": "you asked Meta for the wrong thing"
+  },
+  "photo": {
+   "s": 4.432,
+   "e": 5.737,
+   "text": "so you change the photo"
+  },
+  "headline": {
+   "s": 5.817,
+   "e": 6.562,
+   "text": "the headline"
+  },
+  "audience": {
+   "s": 6.642,
+   "e": 7.725,
+   "text": "even the audience"
+  },
+  "nothing": {
+   "s": 7.905,
+   "e": 8.703,
+   "text": "still nothing"
+  },
+  "because": {
+   "s": 8.953,
+   "e": 11.615,
+   "text": "that's because Meta gives you exactly what you ask for"
+  },
+  "traffic": {
+   "s": 11.835,
+   "e": 14.272,
+   "text": "pick Traffic and it'll find you people who click"
+  },
+  "not": {
+   "s": 14.352,
+   "e": 15.734,
+   "text": "not people who enquire"
+  },
+  "leads": {
+   "s": 15.984,
+   "e": 19.015,
+   "text": "pick Leads and it goes looking for the ones who fill in the form"
+  },
+  "ask": {
+   "s": 19.265,
+   "e": 21.075,
+   "text": "ask for enquiries not clicks"
+  }
+ },
+ "words": [
+  {
+   "w": "2,000",
+   "s": 0.123,
+   "e": 0.673,
+   "line": "clicks"
+  },
+  {
+   "w": "clicks",
+   "s": 0.723,
+   "e": 1.223,
+   "line": "clicks"
+  },
+  {
+   "w": "zero",
+   "s": 1.445,
+   "e": 1.72,
+   "line": "zero"
+  },
+  {
+   "w": "enquiries",
+   "s": 1.745,
+   "e": 2.492,
+   "line": "zero"
+  },
+  {
+   "w": "you",
+   "s": 2.74,
+   "e": 2.815,
+   "line": "wrong"
+  },
+  {
+   "w": "asked",
+   "s": 2.865,
+   "e": 3.115,
+   "line": "wrong"
+  },
+  {
+   "w": "Meta",
+   "s": 3.165,
+   "e": 3.39,
+   "line": "wrong"
+  },
+  {
+   "w": "for",
+   "s": 3.44,
+   "e": 3.49,
+   "line": "wrong"
+  },
+  {
+   "w": "the",
+   "s": 3.54,
+   "e": 3.59,
+   "line": "wrong"
+  },
+  {
+   "w": "wrong",
+   "s": 3.64,
+   "e": 3.865,
+   "line": "wrong"
+  },
+  {
+   "w": "thing",
+   "s": 3.915,
+   "e": 4.25,
+   "line": "wrong"
+  },
+  {
+   "w": "so",
+   "s": 4.536,
+   "e": 4.636,
+   "line": "photo"
+  },
+  {
+   "w": "you",
+   "s": 4.687,
+   "e": 4.762,
+   "line": "photo"
+  },
+  {
+   "w": "change",
+   "s": 4.812,
+   "e": 5.136,
+   "line": "photo"
+  },
+  {
+   "w": "the",
+   "s": 5.162,
+   "e": 5.212,
+   "line": "photo"
+  },
+  {
+   "w": "photo",
+   "s": 5.262,
+   "e": 5.812,
+   "line": "photo"
+  },
+  {
+   "w": "the",
+   "s": 5.872,
+   "e": 5.947,
+   "line": "headline"
+  },
+  {
+   "w": "headline",
+   "s": 5.997,
+   "e": 6.67,
+   "line": "headline"
+  },
+  {
+   "w": "even",
+   "s": 6.716,
+   "e": 6.966,
+   "line": "audience"
+  },
+  {
+   "w": "the",
+   "s": 6.991,
+   "e": 7.041,
+   "line": "audience"
+  },
+  {
+   "w": "audience",
+   "s": 7.166,
+   "e": 7.727,
+   "line": "audience"
+  },
+  {
+   "w": "still",
+   "s": 8.006,
+   "e": 8.206,
+   "line": "nothing"
+  },
+  {
+   "w": "nothing",
+   "s": 8.256,
+   "e": 8.822,
+   "line": "nothing"
+  },
+  {
+   "w": "that's",
+   "s": 9.001,
+   "e": 9.226,
+   "line": "because"
+  },
+  {
+   "w": "because",
+   "s": 9.276,
+   "e": 9.501,
+   "line": "because"
+  },
+  {
+   "w": "Meta",
+   "s": 9.576,
+   "e": 9.976,
+   "line": "because"
+  },
+  {
+   "w": "gives",
+   "s": 10.026,
+   "e": 10.176,
+   "line": "because"
+  },
+  {
+   "w": "you",
+   "s": 10.201,
+   "e": 10.276,
+   "line": "because"
+  },
+  {
+   "w": "exactly",
+   "s": 10.326,
+   "e": 10.826,
+   "line": "because"
+  },
+  {
+   "w": "what",
+   "s": 10.876,
+   "e": 10.951,
+   "line": "because"
+  },
+  {
+   "w": "you",
+   "s": 10.976,
+   "e": 11.051,
+   "line": "because"
+  },
+  {
+   "w": "ask",
+   "s": 11.101,
+   "e": 11.326,
+   "line": "because"
+  },
+  {
+   "w": "for",
+   "s": 11.376,
+   "e": 11.641,
+   "line": "because"
+  },
+  {
+   "w": "pick",
+   "s": 11.898,
+   "e": 12.098,
+   "line": "traffic"
+  },
+  {
+   "w": "Traffic",
+   "s": 12.148,
+   "e": 12.723,
+   "line": "traffic"
+  },
+  {
+   "w": "and",
+   "s": 12.823,
+   "e": 12.898,
+   "line": "traffic"
+  },
+  {
+   "w": "it'll",
+   "s": 12.923,
+   "e": 13.048,
+   "line": "traffic"
+  },
+  {
+   "w": "find",
+   "s": 13.098,
+   "e": 13.323,
+   "line": "traffic"
+  },
+  {
+   "w": "you",
+   "s": 13.348,
+   "e": 13.423,
+   "line": "traffic"
+  },
+  {
+   "w": "people",
+   "s": 13.473,
+   "e": 13.773,
+   "line": "traffic"
+  },
+  {
+   "w": "who",
+   "s": 13.798,
+   "e": 13.898,
+   "line": "traffic"
+  },
+  {
+   "w": "click",
+   "s": 13.948,
+   "e": 14.286,
+   "line": "traffic"
+  },
+  {
+   "w": "not",
+   "s": 14.446,
+   "e": 14.621,
+   "line": "not"
+  },
+  {
+   "w": "people",
+   "s": 14.671,
+   "e": 14.971,
+   "line": "not"
+  },
+  {
+   "w": "who",
+   "s": 14.996,
+   "e": 15.096,
+   "line": "not"
+  },
+  {
+   "w": "enquire",
+   "s": 15.146,
+   "e": 15.781,
+   "line": "not"
+  },
+  {
+   "w": "pick",
+   "s": 16.028,
+   "e": 16.228,
+   "line": "leads"
+  },
+  {
+   "w": "Leads",
+   "s": 16.278,
+   "e": 16.778,
+   "line": "leads"
+  },
+  {
+   "w": "and",
+   "s": 16.878,
+   "e": 16.953,
+   "line": "leads"
+  },
+  {
+   "w": "it",
+   "s": 16.978,
+   "e": 17.028,
+   "line": "leads"
+  },
+  {
+   "w": "goes",
+   "s": 17.078,
+   "e": 17.303,
+   "line": "leads"
+  },
+  {
+   "w": "looking",
+   "s": 17.353,
+   "e": 17.628,
+   "line": "leads"
+  },
+  {
+   "w": "for",
+   "s": 17.678,
+   "e": 17.728,
+   "line": "leads"
+  },
+  {
+   "w": "the",
+   "s": 17.778,
+   "e": 17.828,
+   "line": "leads"
+  },
+  {
+   "w": "ones",
+   "s": 17.853,
+   "e": 18.028,
+   "line": "leads"
+  },
+  {
+   "w": "who",
+   "s": 18.053,
+   "e": 18.153,
+   "line": "leads"
+  },
+  {
+   "w": "fill",
+   "s": 18.228,
+   "e": 18.403,
+   "line": "leads"
+  },
+  {
+   "w": "in",
+   "s": 18.428,
+   "e": 18.503,
+   "line": "leads"
+  },
+  {
+   "w": "the",
+   "s": 18.503,
+   "e": 18.553,
+   "line": "leads"
+  },
+  {
+   "w": "form",
+   "s": 18.628,
+   "e": 19.035,
+   "line": "leads"
+  },
+  {
+   "w": "ask",
+   "s": 19.375,
+   "e": 19.575,
+   "line": "ask"
+  },
+  {
+   "w": "for",
+   "s": 19.6,
+   "e": 19.7,
+   "line": "ask"
+  },
+  {
+   "w": "enquiries",
+   "s": 19.725,
+   "e": 20.35,
+   "line": "ask"
+  },
+  {
+   "w": "not",
+   "s": 20.45,
+   "e": 20.6,
+   "line": "ask"
+  },
+  {
+   "w": "clicks",
+   "s": 20.65,
+   "e": 21.087,
+   "line": "ask"
+  }
+ ],
+ "voice_end": 21.075,
+ "end": 22.375,
+ "at": {
+  "clicks:2,000": 0.123,
+  "clicks:clicks": 0.723,
+  "zero:zero": 1.445,
+  "zero:enquiries": 1.745,
+  "wrong:you": 2.74,
+  "wrong:asked": 2.865,
+  "wrong:Meta": 3.165,
+  "wrong:for": 3.44,
+  "wrong:the": 3.54,
+  "wrong:wrong": 3.64,
+  "wrong:thing": 3.915,
+  "photo:so": 4.536,
+  "photo:you": 4.687,
+  "photo:change": 4.812,
+  "photo:the": 5.162,
+  "photo:photo": 5.262,
+  "headline:the": 5.872,
+  "headline:headline": 5.997,
+  "audience:even": 6.716,
+  "audience:the": 6.991,
+  "audience:audience": 7.166,
+  "nothing:still": 8.006,
+  "nothing:nothing": 8.256,
+  "because:that's": 9.001,
+  "because:because": 9.276,
+  "because:Meta": 9.576,
+  "because:gives": 10.026,
+  "because:you": 10.976,
+  "because:exactly": 10.326,
+  "because:what": 10.876,
+  "because:ask": 11.101,
+  "because:for": 11.376,
+  "traffic:pick": 11.898,
+  "traffic:Traffic": 12.148,
+  "traffic:and": 12.823,
+  "traffic:it'll": 12.923,
+  "traffic:find": 13.098,
+  "traffic:you": 13.348,
+  "traffic:people": 13.473,
+  "traffic:who": 13.798,
+  "traffic:click": 13.948,
+  "not:not": 14.446,
+  "not:people": 14.671,
+  "not:who": 14.996,
+  "not:enquire": 15.146,
+  "leads:pick": 16.028,
+  "leads:Leads": 16.278,
+  "leads:and": 16.878,
+  "leads:it": 16.978,
+  "leads:goes": 17.078,
+  "leads:looking": 17.353,
+  "leads:for": 17.678,
+  "leads:the": 18.503,
+  "leads:ones": 17.853,
+  "leads:who": 18.053,
+  "leads:fill": 18.228,
+  "leads:in": 18.428,
+  "leads:form": 18.628,
+  "ask:ask": 19.375,
+  "ask:for": 19.6,
+  "ask:enquiries": 19.725,
+  "ask:not": 20.45,
+  "ask:clicks": 20.65
+ }
+}

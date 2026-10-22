@@ -16,6 +16,20 @@ const [SCN, sx_] = mkc(W, H, true), [PA, pa] = mkc(), [PB, pb] = mkc(), [LAY, la
 const BIG = [-3 * W, -3 * H, 7 * W, 7 * H];
 
 // ---------- primitives ----------
+const hex = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
+const mixc = (a, b, k) => { const A = hex(a), B = hex(b); return 'rgb(' + A.map((v, i) => Math.round(lerp(v, B[i], clamp(k)))).join(',') + ')'; };
+const jolt = (t, t0, amp = 14, d = 0.3) => { const u = t - t0; return u > 0 && u < d ? Math.sin(u * 80) * Math.exp(-u * 16) * amp : 0; };
+function kf(t, keys) {                               // keyframes [[time, ...values]], eased between neighbours
+  if (t <= keys[0][0]) return keys[0].slice(1);
+  for (let i = 0; i < keys.length - 1; i++) {
+    const [t0, ...a0] = keys[i], [t1, ...b0] = keys[i + 1];
+    if (t <= t1) { const k = eio((t - t0) / (t1 - t0)); return a0.map((v, j) => lerp(v, b0[j], k)); }
+  }
+  return keys[keys.length - 1].slice(1);
+}
+// part r = [x, y, w, h] of a (2x) screen picture, drawn in screen px, moved by dx, dy
+const part = (x, im, r, dx = 0, dy = 0) => x.drawImage(IMG[im], r[0] * 2, r[1] * 2, r[2] * 2, r[3] * 2, r[0] + dx, r[1] + dy, r[2], r[3]);
+const zoomAt = (x, px, py, z) => { x.translate(px, py); x.scale(z, z); x.translate(-px, -py); };
 function rrx(x, X, Y, w, h, r) { x.beginPath(); x.roundRect(X, Y, w, h, r); }
 function setF(x, f, ls = 0) { x.font = f; x.letterSpacing = ls + 'px'; }
 function stage(x, dark) {                          // Apple stage: flat, with a soft light from above
