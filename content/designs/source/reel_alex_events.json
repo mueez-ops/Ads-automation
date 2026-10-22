@@ -1,0 +1,1664 @@
+{
+ "cues": {
+  "lines": {
+   "spent": {
+    "s": 0.05,
+    "e": 2.418,
+    "text": "Alex spent $2,000 + + on Meta ads"
+   },
+   "none": {
+    "s": 2.518,
+    "e": 3.597,
+    "text": "not one customer"
+   },
+   "found": {
+    "s": 3.797,
+    "e": 5.873,
+    "text": "his daughter found out why in ten seconds"
+   },
+   "tried": {
+    "s": 6.093,
+    "e": 7.196,
+    "text": "he tried everything"
+   },
+   "photos": {
+    "s": 7.246,
+    "e": 8.079,
+    "text": "new photos"
+   },
+   "off": {
+    "s": 8.129,
+    "e": 9.193,
+    "text": "$20 + off"
+   },
+   "audience": {
+    "s": 9.243,
+    "e": 10.104,
+    "text": "a new audience"
+   },
+   "still": {
+    "s": 10.244,
+    "e": 11.043,
+    "text": "still nothing"
+   },
+   "switch": {
+    "s": 11.203,
+    "e": 13.533,
+    "text": "he opened Ads Manager to switch it all off"
+   },
+   "grabbed": {
+    "s": 13.753,
+    "e": 16.478,
+    "text": "then Sara grabbed his phone and tried to book a cleaning"
+   },
+   "tapped": {
+    "s": 16.578,
+    "e": 17.637,
+    "text": "she tapped Book now"
+   },
+   "nothing": {
+    "s": 17.877,
+    "e": 18.517,
+    "text": "nothing"
+   },
+   "broken": {
+    "s": 18.737,
+    "e": 20.293,
+    "text": "the button didn't work on phones"
+   },
+   "months": {
+    "s": 20.393,
+    "e": 21.086,
+    "text": "two months"
+   },
+   "dead": {
+    "s": 21.146,
+    "e": 22.522,
+    "text": "every click a dead end"
+   },
+   "fixed": {
+    "s": 22.762,
+    "e": 25.678,
+    "text": "he fixed it that night and by Friday his phone was ringing"
+   },
+   "before": {
+    "s": 25.938,
+    "e": 28.977,
+    "text": "before you blame your ads try booking yourself on your phone"
+   }
+  },
+  "words": [
+   {
+    "w": "Alex",
+    "s": 0.119,
+    "e": 0.394,
+    "line": "spent"
+   },
+   {
+    "w": "spent",
+    "s": 0.419,
+    "e": 0.594,
+    "line": "spent"
+   },
+   {
+    "w": "$2,000",
+    "s": 0.669,
+    "e": 0.794,
+    "line": "spent"
+   },
+   {
+    "w": "+",
+    "s": 0.844,
+    "e": 1.194,
+    "line": "spent"
+   },
+   {
+    "w": "+",
+    "s": 1.219,
+    "e": 1.594,
+    "line": "spent"
+   },
+   {
+    "w": "on",
+    "s": 1.694,
+    "e": 1.744,
+    "line": "spent"
+   },
+   {
+    "w": "Meta",
+    "s": 1.794,
+    "e": 2.019,
+    "line": "spent"
+   },
+   {
+    "w": "ads",
+    "s": 2.069,
+    "e": 2.418,
+    "line": "spent"
+   },
+   {
+    "w": "not",
+    "s": 2.608,
+    "e": 2.783,
+    "line": "none"
+   },
+   {
+    "w": "one",
+    "s": 2.833,
+    "e": 3.008,
+    "line": "none"
+   },
+   {
+    "w": "customer",
+    "s": 3.058,
+    "e": 3.684,
+    "line": "none"
+   },
+   {
+    "w": "his",
+    "s": 3.833,
+    "e": 3.983,
+    "line": "found"
+   },
+   {
+    "w": "daughter",
+    "s": 4.033,
+    "e": 4.308,
+    "line": "found"
+   },
+   {
+    "w": "found",
+    "s": 4.358,
+    "e": 4.533,
+    "line": "found"
+   },
+   {
+    "w": "out",
+    "s": 4.558,
+    "e": 4.683,
+    "line": "found"
+   },
+   {
+    "w": "why",
+    "s": 4.733,
+    "e": 4.958,
+    "line": "found"
+   },
+   {
+    "w": "in",
+    "s": 5.008,
+    "e": 5.083,
+    "line": "found"
+   },
+   {
+    "w": "ten",
+    "s": 5.133,
+    "e": 5.333,
+    "line": "found"
+   },
+   {
+    "w": "seconds",
+    "s": 5.383,
+    "e": 5.879,
+    "line": "found"
+   },
+   {
+    "w": "he",
+    "s": 6.153,
+    "e": 6.228,
+    "line": "tried"
+   },
+   {
+    "w": "tried",
+    "s": 6.278,
+    "e": 6.603,
+    "line": "tried"
+   },
+   {
+    "w": "everything",
+    "s": 6.653,
+    "e": 7.258,
+    "line": "tried"
+   },
+   {
+    "w": "new",
+    "s": 7.347,
+    "e": 7.472,
+    "line": "photos"
+   },
+   {
+    "w": "photos",
+    "s": 7.522,
+    "e": 8.095,
+    "line": "photos"
+   },
+   {
+    "w": "$20",
+    "s": 8.198,
+    "e": 8.448,
+    "line": "off"
+   },
+   {
+    "w": "+",
+    "s": 8.498,
+    "e": 8.823,
+    "line": "off"
+   },
+   {
+    "w": "off",
+    "s": 8.873,
+    "e": 9.238,
+    "line": "off"
+   },
+   {
+    "w": "a",
+    "s": 9.243,
+    "e": 9.419,
+    "line": "audience"
+   },
+   {
+    "w": "new",
+    "s": 9.419,
+    "e": 9.519,
+    "line": "audience"
+   },
+   {
+    "w": "audience",
+    "s": 9.569,
+    "e": 10.139,
+    "line": "audience"
+   },
+   {
+    "w": "still",
+    "s": 10.345,
+    "e": 10.545,
+    "line": "still"
+   },
+   {
+    "w": "nothing",
+    "s": 10.595,
+    "e": 11.161,
+    "line": "still"
+   },
+   {
+    "w": "he",
+    "s": 11.233,
+    "e": 11.333,
+    "line": "switch"
+   },
+   {
+    "w": "opened",
+    "s": 11.383,
+    "e": 11.808,
+    "line": "switch"
+   },
+   {
+    "w": "Ads",
+    "s": 11.883,
+    "e": 12.108,
+    "line": "switch"
+   },
+   {
+    "w": "Manager",
+    "s": 12.158,
+    "e": 12.608,
+    "line": "switch"
+   },
+   {
+    "w": "to",
+    "s": 12.658,
+    "e": 12.683,
+    "line": "switch"
+   },
+   {
+    "w": "switch",
+    "s": 12.783,
+    "e": 12.983,
+    "line": "switch"
+   },
+   {
+    "w": "it",
+    "s": 13.008,
+    "e": 13.033,
+    "line": "switch"
+   },
+   {
+    "w": "all",
+    "s": 13.083,
+    "e": 13.233,
+    "line": "switch"
+   },
+   {
+    "w": "off",
+    "s": 13.283,
+    "e": 13.578,
+    "line": "switch"
+   },
+   {
+    "w": "then",
+    "s": 13.797,
+    "e": 13.972,
+    "line": "grabbed"
+   },
+   {
+    "w": "Sara",
+    "s": 14.047,
+    "e": 14.322,
+    "line": "grabbed"
+   },
+   {
+    "w": "grabbed",
+    "s": 14.372,
+    "e": 14.672,
+    "line": "grabbed"
+   },
+   {
+    "w": "his",
+    "s": 14.697,
+    "e": 14.822,
+    "line": "grabbed"
+   },
+   {
+    "w": "phone",
+    "s": 14.872,
+    "e": 15.347,
+    "line": "grabbed"
+   },
+   {
+    "w": "and",
+    "s": 15.422,
+    "e": 15.497,
+    "line": "grabbed"
+   },
+   {
+    "w": "tried",
+    "s": 15.547,
+    "e": 15.747,
+    "line": "grabbed"
+   },
+   {
+    "w": "to",
+    "s": 15.772,
+    "e": 15.797,
+    "line": "grabbed"
+   },
+   {
+    "w": "book",
+    "s": 15.847,
+    "e": 15.972,
+    "line": "grabbed"
+   },
+   {
+    "w": "a",
+    "s": 15.972,
+    "e": 16.072,
+    "line": "grabbed"
+   },
+   {
+    "w": "cleaning",
+    "s": 16.072,
+    "e": 16.483,
+    "line": "grabbed"
+   },
+   {
+    "w": "she",
+    "s": 16.693,
+    "e": 16.768,
+    "line": "tapped"
+   },
+   {
+    "w": "tapped",
+    "s": 16.818,
+    "e": 17.068,
+    "line": "tapped"
+   },
+   {
+    "w": "Book",
+    "s": 17.118,
+    "e": 17.293,
+    "line": "tapped"
+   },
+   {
+    "w": "now",
+    "s": 17.318,
+    "e": 17.709,
+    "line": "tapped"
+   },
+   {
+    "w": "nothing",
+    "s": 18.005,
+    "e": 18.618,
+    "line": "nothing"
+   },
+   {
+    "w": "the",
+    "s": 18.802,
+    "e": 18.852,
+    "line": "broken"
+   },
+   {
+    "w": "button",
+    "s": 18.902,
+    "e": 19.177,
+    "line": "broken"
+   },
+   {
+    "w": "didn't",
+    "s": 19.227,
+    "e": 19.402,
+    "line": "broken"
+   },
+   {
+    "w": "work",
+    "s": 19.427,
+    "e": 19.577,
+    "line": "broken"
+   },
+   {
+    "w": "on",
+    "s": 19.652,
+    "e": 19.752,
+    "line": "broken"
+   },
+   {
+    "w": "phones",
+    "s": 19.802,
+    "e": 20.294,
+    "line": "broken"
+   },
+   {
+    "w": "two",
+    "s": 20.47,
+    "e": 20.595,
+    "line": "months"
+   },
+   {
+    "w": "months",
+    "s": 20.645,
+    "e": 21.204,
+    "line": "months"
+   },
+   {
+    "w": "every",
+    "s": 21.215,
+    "e": 21.465,
+    "line": "dead"
+   },
+   {
+    "w": "click",
+    "s": 21.515,
+    "e": 21.79,
+    "line": "dead"
+   },
+   {
+    "w": "a",
+    "s": 21.79,
+    "e": 21.965,
+    "line": "dead"
+   },
+   {
+    "w": "dead",
+    "s": 21.965,
+    "e": 22.14,
+    "line": "dead"
+   },
+   {
+    "w": "end",
+    "s": 22.19,
+    "e": 22.554,
+    "line": "dead"
+   },
+   {
+    "w": "he",
+    "s": 22.808,
+    "e": 22.883,
+    "line": "fixed"
+   },
+   {
+    "w": "fixed",
+    "s": 22.933,
+    "e": 23.158,
+    "line": "fixed"
+   },
+   {
+    "w": "it",
+    "s": 23.183,
+    "e": 23.233,
+    "line": "fixed"
+   },
+   {
+    "w": "that",
+    "s": 23.283,
+    "e": 23.433,
+    "line": "fixed"
+   },
+   {
+    "w": "night",
+    "s": 23.458,
+    "e": 23.883,
+    "line": "fixed"
+   },
+   {
+    "w": "and",
+    "s": 23.983,
+    "e": 24.058,
+    "line": "fixed"
+   },
+   {
+    "w": "by",
+    "s": 24.083,
+    "e": 24.233,
+    "line": "fixed"
+   },
+   {
+    "w": "Friday",
+    "s": 24.308,
+    "e": 24.708,
+    "line": "fixed"
+   },
+   {
+    "w": "his",
+    "s": 24.758,
+    "e": 24.883,
+    "line": "fixed"
+   },
+   {
+    "w": "phone",
+    "s": 24.933,
+    "e": 25.158,
+    "line": "fixed"
+   },
+   {
+    "w": "was",
+    "s": 25.183,
+    "e": 25.283,
+    "line": "fixed"
+   },
+   {
+    "w": "ringing",
+    "s": 25.333,
+    "e": 25.687,
+    "line": "fixed"
+   },
+   {
+    "w": "before",
+    "s": 25.982,
+    "e": 26.232,
+    "line": "before"
+   },
+   {
+    "w": "you",
+    "s": 26.257,
+    "e": 26.332,
+    "line": "before"
+   },
+   {
+    "w": "blame",
+    "s": 26.382,
+    "e": 26.632,
+    "line": "before"
+   },
+   {
+    "w": "your",
+    "s": 26.657,
+    "e": 26.732,
+    "line": "before"
+   },
+   {
+    "w": "ads",
+    "s": 26.782,
+    "e": 27.232,
+    "line": "before"
+   },
+   {
+    "w": "try",
+    "s": 27.357,
+    "e": 27.582,
+    "line": "before"
+   },
+   {
+    "w": "booking",
+    "s": 27.632,
+    "e": 27.857,
+    "line": "before"
+   },
+   {
+    "w": "yourself",
+    "s": 27.882,
+    "e": 28.282,
+    "line": "before"
+   },
+   {
+    "w": "on",
+    "s": 28.357,
+    "e": 28.407,
+    "line": "before"
+   },
+   {
+    "w": "your",
+    "s": 28.432,
+    "e": 28.532,
+    "line": "before"
+   },
+   {
+    "w": "phone",
+    "s": 28.607,
+    "e": 28.988,
+    "line": "before"
+   }
+  ],
+  "voice_end": 28.977,
+  "end": 29.977,
+  "at": {
+   "spent:Alex": 0.119,
+   "spent:spent": 0.419,
+   "spent:$2,000": 0.669,
+   "spent:+": 1.219,
+   "spent:on": 1.694,
+   "spent:Meta": 1.794,
+   "spent:ads": 2.069,
+   "none:not": 2.608,
+   "none:one": 2.833,
+   "none:customer": 3.058,
+   "found:his": 3.833,
+   "found:daughter": 4.033,
+   "found:found": 4.358,
+   "found:out": 4.558,
+   "found:why": 4.733,
+   "found:in": 5.008,
+   "found:ten": 5.133,
+   "found:seconds": 5.383,
+   "tried:he": 6.153,
+   "tried:tried": 6.278,
+   "tried:everything": 6.653,
+   "photos:new": 7.347,
+   "photos:photos": 7.522,
+   "off:$20": 8.198,
+   "off:+": 8.498,
+   "off:off": 8.873,
+   "audience:a": 9.243,
+   "audience:new": 9.419,
+   "audience:audience": 9.569,
+   "still:still": 10.345,
+   "still:nothing": 10.595,
+   "switch:he": 11.233,
+   "switch:opened": 11.383,
+   "switch:Ads": 11.883,
+   "switch:Manager": 12.158,
+   "switch:to": 12.658,
+   "switch:switch": 12.783,
+   "switch:it": 13.008,
+   "switch:all": 13.083,
+   "switch:off": 13.283,
+   "grabbed:then": 13.797,
+   "grabbed:Sara": 14.047,
+   "grabbed:grabbed": 14.372,
+   "grabbed:his": 14.697,
+   "grabbed:phone": 14.872,
+   "grabbed:and": 15.422,
+   "grabbed:tried": 15.547,
+   "grabbed:to": 15.772,
+   "grabbed:book": 15.847,
+   "grabbed:a": 15.972,
+   "grabbed:cleaning": 16.072,
+   "tapped:she": 16.693,
+   "tapped:tapped": 16.818,
+   "tapped:Book": 17.118,
+   "tapped:now": 17.318,
+   "nothing:nothing": 18.005,
+   "broken:the": 18.802,
+   "broken:button": 18.902,
+   "broken:didn't": 19.227,
+   "broken:work": 19.427,
+   "broken:on": 19.652,
+   "broken:phones": 19.802,
+   "months:two": 20.47,
+   "months:months": 20.645,
+   "dead:every": 21.215,
+   "dead:click": 21.515,
+   "dead:a": 21.79,
+   "dead:dead": 21.965,
+   "dead:end": 22.19,
+   "fixed:he": 22.808,
+   "fixed:fixed": 22.933,
+   "fixed:it": 23.183,
+   "fixed:that": 23.283,
+   "fixed:night": 23.458,
+   "fixed:and": 23.983,
+   "fixed:by": 24.083,
+   "fixed:Friday": 24.308,
+   "fixed:his": 24.758,
+   "fixed:phone": 24.933,
+   "fixed:was": 25.183,
+   "fixed:ringing": 25.333,
+   "before:before": 25.982,
+   "before:you": 26.257,
+   "before:blame": 26.382,
+   "before:your": 28.432,
+   "before:ads": 26.782,
+   "before:try": 27.357,
+   "before:booking": 27.632,
+   "before:yourself": 27.882,
+   "before:on": 28.357,
+   "before:phone": 28.607
+  }
+ },
+ "shots": [
+  {
+   "key": "alex",
+   "s": 0,
+   "e": 3.797,
+   "tin": "none"
+  },
+  {
+   "key": "sara",
+   "s": 3.797,
+   "e": 6.093,
+   "tin": "pushL"
+  },
+  {
+   "key": "edits",
+   "s": 6.093,
+   "e": 10.244,
+   "tin": "pushU"
+  },
+  {
+   "key": "still",
+   "s": 10.244,
+   "e": 11.203,
+   "tin": "cut"
+  },
+  {
+   "key": "switch",
+   "s": 11.203,
+   "e": 13.753,
+   "tin": "pushU"
+  },
+  {
+   "key": "grab",
+   "s": 13.753,
+   "e": 15.382,
+   "tin": "pushL"
+  },
+  {
+   "key": "site",
+   "s": 15.382,
+   "e": 20.393,
+   "tin": "cut"
+  },
+  {
+   "key": "months",
+   "s": 20.393,
+   "e": 21.146,
+   "tin": "cut"
+  },
+  {
+   "key": "dead",
+   "s": 21.146,
+   "e": 22.762,
+   "tin": "none"
+  },
+  {
+   "key": "fixed",
+   "s": 22.762,
+   "e": 24.698,
+   "tin": "circle"
+  },
+  {
+   "key": "ring",
+   "s": 24.698,
+   "e": 25.938,
+   "tin": "pushL"
+  },
+  {
+   "key": "lesson",
+   "s": 25.938,
+   "e": 29.057,
+   "tin": "cut"
+  },
+  {
+   "key": "end",
+   "s": 29.057,
+   "e": 29.977,
+   "tin": "pushU"
+  }
+ ],
+ "captions": [
+  {
+   "text": "his",
+   "s": 3.833,
+   "line": "found",
+   "hl": false,
+   "e": 4.033
+  },
+  {
+   "text": "daughter",
+   "s": 4.033,
+   "line": "found",
+   "hl": false,
+   "e": 4.358
+  },
+  {
+   "text": "found",
+   "s": 4.358,
+   "line": "found",
+   "hl": false,
+   "e": 4.558
+  },
+  {
+   "text": "out",
+   "s": 4.558,
+   "line": "found",
+   "hl": false,
+   "e": 4.733
+  },
+  {
+   "text": "why",
+   "s": 4.733,
+   "line": "found",
+   "hl": false,
+   "e": 5.008
+  },
+  {
+   "text": "in",
+   "s": 5.008,
+   "line": "found",
+   "hl": false,
+   "e": 5.133
+  },
+  {
+   "text": "ten",
+   "s": 5.133,
+   "line": "found",
+   "hl": true,
+   "e": 5.383
+  },
+  {
+   "text": "seconds",
+   "s": 5.383,
+   "line": "found",
+   "hl": false,
+   "e": 6.153
+  },
+  {
+   "text": "he tried",
+   "s": 6.153,
+   "line": "tried",
+   "hl": false,
+   "e": 6.653
+  },
+  {
+   "text": "everything",
+   "s": 6.653,
+   "line": "tried",
+   "hl": true,
+   "e": 7.347
+  },
+  {
+   "text": "new",
+   "s": 7.347,
+   "line": "photos",
+   "hl": false,
+   "e": 7.522
+  },
+  {
+   "text": "photos",
+   "s": 7.522,
+   "line": "photos",
+   "hl": false,
+   "e": 8.198
+  },
+  {
+   "text": "$20",
+   "s": 8.198,
+   "line": "off",
+   "hl": false,
+   "e": 8.873
+  },
+  {
+   "text": "off",
+   "s": 8.873,
+   "line": "off",
+   "hl": false,
+   "e": 9.243
+  },
+  {
+   "text": "a",
+   "s": 9.243,
+   "line": "audience",
+   "hl": false,
+   "e": 9.419
+  },
+  {
+   "text": "new",
+   "s": 9.419,
+   "line": "audience",
+   "hl": false,
+   "e": 9.569
+  },
+  {
+   "text": "audience",
+   "s": 9.569,
+   "line": "audience",
+   "hl": false,
+   "e": 10.345
+  },
+  {
+   "text": "still",
+   "s": 10.345,
+   "line": "still",
+   "hl": false,
+   "e": 10.595
+  },
+  {
+   "text": "nothing",
+   "s": 10.595,
+   "line": "still",
+   "hl": true,
+   "e": 11.233
+  },
+  {
+   "text": "he",
+   "s": 11.233,
+   "line": "switch",
+   "hl": false,
+   "e": 11.383
+  },
+  {
+   "text": "opened",
+   "s": 11.383,
+   "line": "switch",
+   "hl": false,
+   "e": 11.883
+  },
+  {
+   "text": "Ads",
+   "s": 11.883,
+   "line": "switch",
+   "hl": false,
+   "e": 12.158
+  },
+  {
+   "text": "Manager",
+   "s": 12.158,
+   "line": "switch",
+   "hl": false,
+   "e": 12.658
+  },
+  {
+   "text": "to switch",
+   "s": 12.658,
+   "line": "switch",
+   "hl": false,
+   "e": 13.008
+  },
+  {
+   "text": "it all",
+   "s": 13.008,
+   "line": "switch",
+   "hl": false,
+   "e": 13.283
+  },
+  {
+   "text": "off",
+   "s": 13.283,
+   "line": "switch",
+   "hl": false,
+   "e": 13.797
+  },
+  {
+   "text": "then",
+   "s": 13.797,
+   "line": "grabbed",
+   "hl": false,
+   "e": 14.047
+  },
+  {
+   "text": "Sara",
+   "s": 14.047,
+   "line": "grabbed",
+   "hl": false,
+   "e": 14.372
+  },
+  {
+   "text": "grabbed",
+   "s": 14.372,
+   "line": "grabbed",
+   "hl": false,
+   "e": 14.697
+  },
+  {
+   "text": "his",
+   "s": 14.697,
+   "line": "grabbed",
+   "hl": false,
+   "e": 14.872
+  },
+  {
+   "text": "phone",
+   "s": 14.872,
+   "line": "grabbed",
+   "hl": false,
+   "e": 15.422
+  },
+  {
+   "text": "and tried",
+   "s": 15.422,
+   "line": "grabbed",
+   "hl": false,
+   "e": 15.772
+  },
+  {
+   "text": "to book a cleaning",
+   "s": 15.772,
+   "line": "grabbed",
+   "hl": false,
+   "e": 16.693
+  },
+  {
+   "text": "she tapped",
+   "s": 16.693,
+   "line": "tapped",
+   "hl": false,
+   "e": 17.118
+  },
+  {
+   "text": "Book",
+   "s": 17.118,
+   "line": "tapped",
+   "hl": false,
+   "e": 17.318
+  },
+  {
+   "text": "now",
+   "s": 17.318,
+   "line": "tapped",
+   "hl": false,
+   "e": 18.005
+  },
+  {
+   "text": "nothing",
+   "s": 18.005,
+   "line": "nothing",
+   "hl": true,
+   "e": 18.802
+  },
+  {
+   "text": "the button",
+   "s": 18.802,
+   "line": "broken",
+   "hl": false,
+   "e": 19.227
+  },
+  {
+   "text": "didn't",
+   "s": 19.227,
+   "line": "broken",
+   "hl": false,
+   "e": 19.427
+  },
+  {
+   "text": "work",
+   "s": 19.427,
+   "line": "broken",
+   "hl": false,
+   "e": 19.652
+  },
+  {
+   "text": "on",
+   "s": 19.652,
+   "line": "broken",
+   "hl": false,
+   "e": 19.802
+  },
+  {
+   "text": "phones",
+   "s": 19.802,
+   "line": "broken",
+   "hl": true,
+   "e": 20.47
+  },
+  {
+   "text": "two",
+   "s": 20.47,
+   "line": "months",
+   "hl": false,
+   "e": 20.645
+  },
+  {
+   "text": "months",
+   "s": 20.645,
+   "line": "months",
+   "hl": false,
+   "e": 21.215
+  },
+  {
+   "text": "every",
+   "s": 21.215,
+   "line": "dead",
+   "hl": false,
+   "e": 21.515
+  },
+  {
+   "text": "click",
+   "s": 21.515,
+   "line": "dead",
+   "hl": false,
+   "e": 21.79
+  },
+  {
+   "text": "a",
+   "s": 21.79,
+   "line": "dead",
+   "hl": false,
+   "e": 21.965
+  },
+  {
+   "text": "dead",
+   "s": 21.965,
+   "line": "dead",
+   "hl": true,
+   "e": 22.19
+  },
+  {
+   "text": "end",
+   "s": 22.19,
+   "line": "dead",
+   "hl": false,
+   "e": 22.808
+  },
+  {
+   "text": "he fixed",
+   "s": 22.808,
+   "line": "fixed",
+   "hl": false,
+   "e": 23.183
+  },
+  {
+   "text": "it that",
+   "s": 23.183,
+   "line": "fixed",
+   "hl": false,
+   "e": 23.458
+  },
+  {
+   "text": "night",
+   "s": 23.458,
+   "line": "fixed",
+   "hl": false,
+   "e": 23.983
+  },
+  {
+   "text": "and by",
+   "s": 23.983,
+   "line": "fixed",
+   "hl": false,
+   "e": 24.308
+  },
+  {
+   "text": "Friday",
+   "s": 24.308,
+   "line": "fixed",
+   "hl": false,
+   "e": 24.758
+  },
+  {
+   "text": "his",
+   "s": 24.758,
+   "line": "fixed",
+   "hl": false,
+   "e": 24.933
+  },
+  {
+   "text": "phone",
+   "s": 24.933,
+   "line": "fixed",
+   "hl": false,
+   "e": 25.183
+  },
+  {
+   "text": "was",
+   "s": 25.183,
+   "line": "fixed",
+   "hl": false,
+   "e": 25.333
+  },
+  {
+   "text": "ringing",
+   "s": 25.333,
+   "line": "fixed",
+   "hl": true,
+   "e": 25.987
+  }
+ ],
+ "events": [
+  {
+   "t": 0.03,
+   "k": "deep",
+   "g": 0.5
+  },
+  {
+   "t": 0.06,
+   "k": "hit",
+   "g": 0.4
+  },
+  {
+   "t": 0.4,
+   "k": "swish",
+   "g": 0.28
+  },
+  {
+   "t": 3.058,
+   "k": "thump",
+   "g": 0.3
+  },
+  {
+   "t": 3.797,
+   "k": "whoosh_b",
+   "g": 0.5
+  },
+  {
+   "t": 4.097,
+   "k": "pop",
+   "g": 0.2
+  },
+  {
+   "t": 5.183,
+   "k": "tick",
+   "g": 0.16,
+   "pan": 0.35
+  },
+  {
+   "t": 5.283,
+   "k": "tick",
+   "g": 0.16,
+   "pan": 0.35
+  },
+  {
+   "t": 5.383,
+   "k": "tick",
+   "g": 0.16,
+   "pan": 0.35
+  },
+  {
+   "t": 5.483,
+   "k": "tick",
+   "g": 0.16,
+   "pan": 0.35
+  },
+  {
+   "t": 5.583,
+   "k": "tick",
+   "g": 0.16,
+   "pan": 0.35
+  },
+  {
+   "t": 5.683,
+   "k": "tick",
+   "g": 0.16,
+   "pan": 0.35
+  },
+  {
+   "t": 5.793,
+   "k": "select",
+   "g": 0.3,
+   "pan": 0.35
+  },
+  {
+   "t": 6.093,
+   "k": "whoosh_c",
+   "g": 0.45
+  },
+  {
+   "t": 6.593,
+   "k": "thump",
+   "g": 0.25
+  },
+  {
+   "t": 7.462,
+   "k": "swish",
+   "g": 0.32,
+   "pan": -0.3
+  },
+  {
+   "t": 8.198,
+   "k": "pop",
+   "g": 0.3
+  },
+  {
+   "t": 8.248,
+   "k": "tick",
+   "g": 0.2
+  },
+  {
+   "t": 9.243,
+   "k": "whoosh_soft",
+   "g": 0.3,
+   "pan": 0.2
+  },
+  {
+   "t": 9.569,
+   "k": "pop",
+   "g": 0.22
+  },
+  {
+   "t": 10.224,
+   "k": "hit",
+   "g": 0.4
+  },
+  {
+   "t": 10.244,
+   "k": "deep",
+   "g": 0.35
+  },
+  {
+   "t": 11.203,
+   "k": "whoosh_c",
+   "g": 0.4
+  },
+  {
+   "t": 12.183,
+   "k": "riser",
+   "g": 0.03,
+   "d": 1.5700000000000007
+  },
+  {
+   "t": 13.753,
+   "k": "whoosh_e",
+   "g": 0.5
+  },
+  {
+   "t": 13.773,
+   "k": "hit",
+   "g": 0.3
+  },
+  {
+   "t": 14.932,
+   "k": "zoom",
+   "g": 0.4
+  },
+  {
+   "t": 17.118,
+   "k": "tap",
+   "g": 0.45
+  },
+  {
+   "t": 18.005,
+   "k": "tap",
+   "g": 0.45
+  },
+  {
+   "t": 18.065,
+   "k": "thump",
+   "g": 0.3
+  },
+  {
+   "t": 19.207,
+   "k": "hit",
+   "g": 0.42
+  },
+  {
+   "t": 19.227,
+   "k": "swish",
+   "g": 0.3
+  },
+  {
+   "t": 20.393,
+   "k": "deep",
+   "g": 0.4
+  },
+  {
+   "t": 20.59,
+   "k": "swish",
+   "g": 0.22
+  },
+  {
+   "t": 20.725,
+   "k": "swish",
+   "g": 0.22
+  },
+  {
+   "t": 21.146,
+   "k": "whoosh_d",
+   "g": 0.35
+  },
+  {
+   "t": 21.546,
+   "k": "pop",
+   "g": 0.14,
+   "pan": -0.4
+  },
+  {
+   "t": 21.716,
+   "k": "pop",
+   "g": 0.14,
+   "pan": 0.4
+  },
+  {
+   "t": 21.886,
+   "k": "pop",
+   "g": 0.14,
+   "pan": -0.4
+  },
+  {
+   "t": 22.056,
+   "k": "pop",
+   "g": 0.14,
+   "pan": 0.4
+  },
+  {
+   "t": 22.226,
+   "k": "pop",
+   "g": 0.14,
+   "pan": -0.4
+  },
+  {
+   "t": 22.396,
+   "k": "pop",
+   "g": 0.14,
+   "pan": 0.4
+  },
+  {
+   "t": 22.762,
+   "k": "whoosh_f",
+   "g": 0.4
+  },
+  {
+   "t": 22.933,
+   "k": "sparkle",
+   "g": 0.32
+  },
+  {
+   "t": 23.408,
+   "k": "tap",
+   "g": 0.4
+  },
+  {
+   "t": 23.558,
+   "k": "check",
+   "g": 0.38
+  },
+  {
+   "t": 23.598,
+   "k": "chime",
+   "g": 0.32
+  },
+  {
+   "t": 24.133,
+   "k": "pop",
+   "g": 0.2
+  },
+  {
+   "t": 24.263,
+   "k": "pop",
+   "g": 0.23
+  },
+  {
+   "t": 24.393,
+   "k": "pop",
+   "g": 0.26
+  },
+  {
+   "t": 24.523,
+   "k": "pop",
+   "g": 0.29000000000000004
+  },
+  {
+   "t": 24.698,
+   "k": "whoosh_b",
+   "g": 0.4
+  },
+  {
+   "t": 24.878,
+   "k": "ring",
+   "g": 0.22
+  },
+  {
+   "t": 25.478,
+   "k": "ring",
+   "g": 0.2
+  },
+  {
+   "t": 25.898,
+   "k": "deep",
+   "g": 0.4
+  },
+  {
+   "t": 27.057,
+   "k": "whoosh_soft",
+   "g": 0.18
+  },
+  {
+   "t": 29.057,
+   "k": "whoosh_f",
+   "g": 0.45
+  },
+  {
+   "t": 29.117,
+   "k": "sting",
+   "g": 0.4
+  },
+  {
+   "t": 29.307,
+   "k": "pop",
+   "g": 0.3
+  },
+  {
+   "t": 29.557,
+   "k": "tap",
+   "g": 0.4
+  },
+  {
+   "t": 29.617,
+   "k": "check",
+   "g": 0.3
+  }
+ ],
+ "music": {
+  "full": 6.093,
+  "still": 10.244,
+  "sw": 11.203,
+  "drop": 13.753,
+  "hush": 17.955,
+  "after": 18.737,
+  "back": 22.762,
+  "end": 29.057
+ },
+ "blur": [
+  [
+   6.093,
+   6.793,
+   8
+  ],
+  [
+   7.442000000000001,
+   7.822000000000001,
+   8
+  ],
+  [
+   8.178,
+   8.498000000000001,
+   6
+  ],
+  [
+   9.223,
+   9.603,
+   6
+  ],
+  [
+   11.203,
+   11.902999999999999,
+   8
+  ],
+  [
+   14.912,
+   15.782,
+   8
+  ],
+  [
+   18.717,
+   19.337,
+   6
+  ],
+  [
+   20.45,
+   21.446,
+   4
+  ],
+  [
+   21.146,
+   22.762,
+   4
+  ],
+  [
+   23.357999999999997,
+   23.857999999999997,
+   6
+  ],
+  [
+   24.063,
+   24.683,
+   4
+  ],
+  [
+   24.898,
+   25.298000000000002,
+   6
+  ],
+  [
+   3.597,
+   4.037,
+   8
+  ],
+  [
+   5.893,
+   6.333,
+   8
+  ],
+  [
+   11.003,
+   11.443,
+   8
+  ],
+  [
+   13.553,
+   13.993,
+   8
+  ],
+  [
+   22.562,
+   23.002,
+   8
+  ],
+  [
+   24.498,
+   24.938,
+   8
+  ],
+  [
+   28.857,
+   29.296999999999997,
+   8
+  ]
+ ]
+}

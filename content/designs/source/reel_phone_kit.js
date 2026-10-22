@@ -134,7 +134,8 @@ function world(t, x) {
     x.fillStyle = '#000'; x.fillRect(0, 0, W, H);
     if (sh.tin === 'circle') {
       x.drawImage(PA, 0, 0); x.save(); x.beginPath(); x.arc(540, 960, 1150 * ein(u / TD) + 1, 0, TAU); x.clip(); x.drawImage(PB, 0, 0); x.restore();
-    } else { x.drawImage(PA, 0, Math.round(-H * k)); x.drawImage(PB, 0, Math.round(H * (1 - k))); }
+    } else if (sh.tin === 'pushL') { x.drawImage(PA, Math.round(-W * k), 0); x.drawImage(PB, Math.round(W * (1 - k)), 0); }   // a whip to the side
+    else { x.drawImage(PA, 0, Math.round(-H * k)); x.drawImage(PB, 0, Math.round(H * (1 - k))); }
   } else drawShot(x, sh, t);
 }
 
