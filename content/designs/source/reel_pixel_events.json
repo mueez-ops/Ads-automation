@@ -1,0 +1,1577 @@
+{
+ "cues": {
+  "lines": {
+   "meta": {
+    "s": 0.05,
+    "e": 2.994,
+    "text": "if Meta can't see your sales it can't find you more buyers"
+   },
+   "store": {
+    "s": 3.214,
+    "e": 5.404,
+    "text": "this store sold 12 candles last week"
+   },
+   "shopify": {
+    "s": 5.584,
+    "e": 7.186,
+    "text": "Shopify showed all 12"
+   },
+   "zero": {
+    "s": 7.286,
+    "e": 8.864,
+    "text": "Ads Manager showed 0"
+   },
+   "guess": {
+    "s": 9.114,
+    "e": 12.175,
+    "text": "so Meta kept guessing who buys and kept guessing wrong"
+   },
+   "why": {
+    "s": 12.396,
+    "e": 12.911,
+    "text": "why"
+   },
+   "code": {
+    "s": 13.111,
+    "e": 15.925,
+    "text": "the tracking code wasn't firing on the thank-you + page"
+   },
+   "fix": {
+    "s": 16.185,
+    "e": 17.123,
+    "text": "2-minute + fix"
+   },
+   "open": {
+    "s": 17.224,
+    "e": 20.947,
+    "text": "open Events Manager tap Test events and buy from your own store"
+   },
+   "nothing": {
+    "s": 21.197,
+    "e": 21.836,
+    "text": "nothing"
+   },
+   "first": {
+    "s": 21.956,
+    "e": 23.008,
+    "text": "fix that first"
+   },
+   "finds": {
+    "s": 23.308,
+    "e": 26.41,
+    "text": "Meta finds buyers by watching the ones you already have"
+   }
+  },
+  "words": [
+   {
+    "w": "if",
+    "s": 0.119,
+    "e": 0.219,
+    "line": "meta"
+   },
+   {
+    "w": "Meta",
+    "s": 0.269,
+    "e": 0.494,
+    "line": "meta"
+   },
+   {
+    "w": "can't",
+    "s": 0.544,
+    "e": 0.719,
+    "line": "meta"
+   },
+   {
+    "w": "see",
+    "s": 0.769,
+    "e": 0.869,
+    "line": "meta"
+   },
+   {
+    "w": "your",
+    "s": 0.894,
+    "e": 0.994,
+    "line": "meta"
+   },
+   {
+    "w": "sales",
+    "s": 1.044,
+    "e": 1.569,
+    "line": "meta"
+   },
+   {
+    "w": "it",
+    "s": 1.694,
+    "e": 1.744,
+    "line": "meta"
+   },
+   {
+    "w": "can't",
+    "s": 1.794,
+    "e": 1.969,
+    "line": "meta"
+   },
+   {
+    "w": "find",
+    "s": 2.019,
+    "e": 2.194,
+    "line": "meta"
+   },
+   {
+    "w": "you",
+    "s": 2.219,
+    "e": 2.294,
+    "line": "meta"
+   },
+   {
+    "w": "more",
+    "s": 2.319,
+    "e": 2.444,
+    "line": "meta"
+   },
+   {
+    "w": "buyers",
+    "s": 2.494,
+    "e": 2.994,
+    "line": "meta"
+   },
+   {
+    "w": "this",
+    "s": 3.276,
+    "e": 3.401,
+    "line": "store"
+   },
+   {
+    "w": "store",
+    "s": 3.451,
+    "e": 3.701,
+    "line": "store"
+   },
+   {
+    "w": "sold",
+    "s": 3.751,
+    "e": 4.001,
+    "line": "store"
+   },
+   {
+    "w": "12",
+    "s": 4.076,
+    "e": 4.351,
+    "line": "store"
+   },
+   {
+    "w": "candles",
+    "s": 4.401,
+    "e": 4.801,
+    "line": "store"
+   },
+   {
+    "w": "last",
+    "s": 4.851,
+    "e": 5.101,
+    "line": "store"
+   },
+   {
+    "w": "week",
+    "s": 5.126,
+    "e": 5.425,
+    "line": "store"
+   },
+   {
+    "w": "Shopify",
+    "s": 5.697,
+    "e": 6.197,
+    "line": "shopify"
+   },
+   {
+    "w": "showed",
+    "s": 6.247,
+    "e": 6.472,
+    "line": "shopify"
+   },
+   {
+    "w": "all",
+    "s": 6.522,
+    "e": 6.697,
+    "line": "shopify"
+   },
+   {
+    "w": "12",
+    "s": 6.747,
+    "e": 7.225,
+    "line": "shopify"
+   },
+   {
+    "w": "Ads",
+    "s": 7.363,
+    "e": 7.613,
+    "line": "zero"
+   },
+   {
+    "w": "Manager",
+    "s": 7.663,
+    "e": 8.088,
+    "line": "zero"
+   },
+   {
+    "w": "showed",
+    "s": 8.163,
+    "e": 8.388,
+    "line": "zero"
+   },
+   {
+    "w": "0",
+    "s": 8.438,
+    "e": 8.908,
+    "line": "zero"
+   },
+   {
+    "w": "so",
+    "s": 9.229,
+    "e": 9.329,
+    "line": "guess"
+   },
+   {
+    "w": "Meta",
+    "s": 9.379,
+    "e": 9.604,
+    "line": "guess"
+   },
+   {
+    "w": "kept",
+    "s": 9.654,
+    "e": 9.854,
+    "line": "guess"
+   },
+   {
+    "w": "guessing",
+    "s": 9.904,
+    "e": 10.204,
+    "line": "guess"
+   },
+   {
+    "w": "who",
+    "s": 10.229,
+    "e": 10.329,
+    "line": "guess"
+   },
+   {
+    "w": "buys",
+    "s": 10.379,
+    "e": 10.954,
+    "line": "guess"
+   },
+   {
+    "w": "and",
+    "s": 11.079,
+    "e": 11.154,
+    "line": "guess"
+   },
+   {
+    "w": "kept",
+    "s": 11.204,
+    "e": 11.429,
+    "line": "guess"
+   },
+   {
+    "w": "guessing",
+    "s": 11.479,
+    "e": 11.804,
+    "line": "guess"
+   },
+   {
+    "w": "wrong",
+    "s": 11.854,
+    "e": 12.186,
+    "line": "guess"
+   },
+   {
+    "w": "why",
+    "s": 12.508,
+    "e": 13.078,
+    "line": "why"
+   },
+   {
+    "w": "the",
+    "s": 13.174,
+    "e": 13.224,
+    "line": "code"
+   },
+   {
+    "w": "tracking",
+    "s": 13.274,
+    "e": 13.649,
+    "line": "code"
+   },
+   {
+    "w": "code",
+    "s": 13.699,
+    "e": 14.099,
+    "line": "code"
+   },
+   {
+    "w": "wasn't",
+    "s": 14.174,
+    "e": 14.374,
+    "line": "code"
+   },
+   {
+    "w": "firing",
+    "s": 14.449,
+    "e": 14.899,
+    "line": "code"
+   },
+   {
+    "w": "on",
+    "s": 14.949,
+    "e": 15.049,
+    "line": "code"
+   },
+   {
+    "w": "the",
+    "s": 15.049,
+    "e": 15.124,
+    "line": "code"
+   },
+   {
+    "w": "thank-you",
+    "s": 15.174,
+    "e": 15.324,
+    "line": "code"
+   },
+   {
+    "w": "+",
+    "s": 15.349,
+    "e": 15.424,
+    "line": "code"
+   },
+   {
+    "w": "page",
+    "s": 15.474,
+    "e": 15.925,
+    "line": "code"
+   },
+   {
+    "w": "2-minute",
+    "s": 16.261,
+    "e": 16.386,
+    "line": "fix"
+   },
+   {
+    "w": "+",
+    "s": 16.411,
+    "e": 16.636,
+    "line": "fix"
+   },
+   {
+    "w": "fix",
+    "s": 16.686,
+    "e": 17.209,
+    "line": "fix"
+   },
+   {
+    "w": "open",
+    "s": 17.271,
+    "e": 17.571,
+    "line": "open"
+   },
+   {
+    "w": "Events",
+    "s": 17.621,
+    "e": 17.896,
+    "line": "open"
+   },
+   {
+    "w": "Manager",
+    "s": 17.946,
+    "e": 18.546,
+    "line": "open"
+   },
+   {
+    "w": "tap",
+    "s": 18.696,
+    "e": 18.921,
+    "line": "open"
+   },
+   {
+    "w": "Test",
+    "s": 18.971,
+    "e": 19.196,
+    "line": "open"
+   },
+   {
+    "w": "events",
+    "s": 19.221,
+    "e": 19.696,
+    "line": "open"
+   },
+   {
+    "w": "and",
+    "s": 19.796,
+    "e": 19.871,
+    "line": "open"
+   },
+   {
+    "w": "buy",
+    "s": 19.921,
+    "e": 20.146,
+    "line": "open"
+   },
+   {
+    "w": "from",
+    "s": 20.196,
+    "e": 20.296,
+    "line": "open"
+   },
+   {
+    "w": "your",
+    "s": 20.321,
+    "e": 20.396,
+    "line": "open"
+   },
+   {
+    "w": "own",
+    "s": 20.421,
+    "e": 20.546,
+    "line": "open"
+   },
+   {
+    "w": "store",
+    "s": 20.596,
+    "e": 20.957,
+    "line": "open"
+   },
+   {
+    "w": "nothing",
+    "s": 21.325,
+    "e": 21.938,
+    "line": "nothing"
+   },
+   {
+    "w": "fix",
+    "s": 22.045,
+    "e": 22.295,
+    "line": "first"
+   },
+   {
+    "w": "that",
+    "s": 22.345,
+    "e": 22.52,
+    "line": "first"
+   },
+   {
+    "w": "first",
+    "s": 22.57,
+    "e": 23.075,
+    "line": "first"
+   },
+   {
+    "w": "Meta",
+    "s": 23.39,
+    "e": 23.665,
+    "line": "finds"
+   },
+   {
+    "w": "finds",
+    "s": 23.74,
+    "e": 24.04,
+    "line": "finds"
+   },
+   {
+    "w": "buyers",
+    "s": 24.09,
+    "e": 24.69,
+    "line": "finds"
+   },
+   {
+    "w": "by",
+    "s": 24.74,
+    "e": 24.89,
+    "line": "finds"
+   },
+   {
+    "w": "watching",
+    "s": 24.94,
+    "e": 25.24,
+    "line": "finds"
+   },
+   {
+    "w": "the",
+    "s": 25.265,
+    "e": 25.315,
+    "line": "finds"
+   },
+   {
+    "w": "ones",
+    "s": 25.34,
+    "e": 25.515,
+    "line": "finds"
+   },
+   {
+    "w": "you",
+    "s": 25.565,
+    "e": 25.665,
+    "line": "finds"
+   },
+   {
+    "w": "already",
+    "s": 25.715,
+    "e": 25.99,
+    "line": "finds"
+   },
+   {
+    "w": "have",
+    "s": 26.04,
+    "e": 26.432,
+    "line": "finds"
+   }
+  ],
+  "voice_end": 26.41,
+  "end": 27.71,
+  "at": {
+   "meta:if": 0.119,
+   "meta:Meta": 0.269,
+   "meta:can't": 1.794,
+   "meta:see": 0.769,
+   "meta:your": 0.894,
+   "meta:sales": 1.044,
+   "meta:it": 1.694,
+   "meta:find": 2.019,
+   "meta:you": 2.219,
+   "meta:more": 2.319,
+   "meta:buyers": 2.494,
+   "store:this": 3.276,
+   "store:store": 3.451,
+   "store:sold": 3.751,
+   "store:12": 4.076,
+   "store:candles": 4.401,
+   "store:last": 4.851,
+   "store:week": 5.126,
+   "shopify:Shopify": 5.697,
+   "shopify:showed": 6.247,
+   "shopify:all": 6.522,
+   "shopify:12": 6.747,
+   "zero:Ads": 7.363,
+   "zero:Manager": 7.663,
+   "zero:showed": 8.163,
+   "zero:0": 8.438,
+   "guess:so": 9.229,
+   "guess:Meta": 9.379,
+   "guess:kept": 11.204,
+   "guess:guessing": 11.479,
+   "guess:who": 10.229,
+   "guess:buys": 10.379,
+   "guess:and": 11.079,
+   "guess:wrong": 11.854,
+   "why:why": 12.508,
+   "code:the": 15.049,
+   "code:tracking": 13.274,
+   "code:code": 13.699,
+   "code:wasn't": 14.174,
+   "code:firing": 14.449,
+   "code:on": 14.949,
+   "code:thank-you": 15.174,
+   "code:+": 15.349,
+   "code:page": 15.474,
+   "fix:2-minute": 16.261,
+   "fix:+": 16.411,
+   "fix:fix": 16.686,
+   "open:open": 17.271,
+   "open:Events": 17.621,
+   "open:Manager": 17.946,
+   "open:tap": 18.696,
+   "open:Test": 18.971,
+   "open:events": 19.221,
+   "open:and": 19.796,
+   "open:buy": 19.921,
+   "open:from": 20.196,
+   "open:your": 20.321,
+   "open:own": 20.421,
+   "open:store": 20.596,
+   "nothing:nothing": 21.325,
+   "first:fix": 22.045,
+   "first:that": 22.345,
+   "first:first": 22.57,
+   "finds:Meta": 23.39,
+   "finds:finds": 23.74,
+   "finds:buyers": 24.09,
+   "finds:by": 24.74,
+   "finds:watching": 24.94,
+   "finds:the": 25.265,
+   "finds:ones": 25.34,
+   "finds:you": 25.565,
+   "finds:already": 25.715,
+   "finds:have": 26.04
+  }
+ },
+ "shots": [
+  {
+   "key": "hook",
+   "s": 0,
+   "e": 3.214,
+   "tin": "none"
+  },
+  {
+   "key": "store",
+   "s": 3.214,
+   "e": 5.584,
+   "tin": "none"
+  },
+  {
+   "key": "shopify",
+   "s": 5.584,
+   "e": 7.286,
+   "tin": "none"
+  },
+  {
+   "key": "zero",
+   "s": 7.286,
+   "e": 9.114,
+   "tin": "pushL"
+  },
+  {
+   "key": "guess",
+   "s": 9.114,
+   "e": 12.396,
+   "tin": "circle"
+  },
+  {
+   "key": "code",
+   "s": 12.396,
+   "e": 16.185,
+   "tin": "circle"
+  },
+  {
+   "key": "fix",
+   "s": 16.185,
+   "e": 17.224,
+   "tin": "pushU"
+  },
+  {
+   "key": "open",
+   "s": 17.224,
+   "e": 21.197,
+   "tin": "none"
+  },
+  {
+   "key": "nothing",
+   "s": 21.197,
+   "e": 21.956,
+   "tin": "none"
+  },
+  {
+   "key": "first",
+   "s": 21.956,
+   "e": 23.308,
+   "tin": "none"
+  },
+  {
+   "key": "finds",
+   "s": 23.308,
+   "e": 26.51,
+   "tin": "cut"
+  },
+  {
+   "key": "end",
+   "s": 26.51,
+   "e": 27.71,
+   "tin": "pushU"
+  }
+ ],
+ "captions": [
+  {
+   "text": "if",
+   "s": 0.119,
+   "line": "meta",
+   "hl": false,
+   "e": 0.269
+  },
+  {
+   "text": "Meta",
+   "s": 0.269,
+   "line": "meta",
+   "hl": false,
+   "e": 0.544
+  },
+  {
+   "text": "can't",
+   "s": 0.544,
+   "line": "meta",
+   "hl": false,
+   "e": 0.769
+  },
+  {
+   "text": "see your",
+   "s": 0.769,
+   "line": "meta",
+   "hl": false,
+   "e": 1.044
+  },
+  {
+   "text": "sales",
+   "s": 1.044,
+   "line": "meta",
+   "hl": false,
+   "e": 1.694
+  },
+  {
+   "text": "it can't",
+   "s": 1.694,
+   "line": "meta",
+   "hl": false,
+   "e": 2.019
+  },
+  {
+   "text": "find",
+   "s": 2.019,
+   "line": "meta",
+   "hl": false,
+   "e": 2.219
+  },
+  {
+   "text": "you more",
+   "s": 2.219,
+   "line": "meta",
+   "hl": false,
+   "e": 2.494
+  },
+  {
+   "text": "buyers",
+   "s": 2.494,
+   "line": "meta",
+   "hl": false,
+   "e": 3.276
+  },
+  {
+   "text": "this",
+   "s": 3.276,
+   "line": "store",
+   "hl": false,
+   "e": 3.451
+  },
+  {
+   "text": "store",
+   "s": 3.451,
+   "line": "store",
+   "hl": false,
+   "e": 3.751
+  },
+  {
+   "text": "sold",
+   "s": 3.751,
+   "line": "store",
+   "hl": false,
+   "e": 4.076
+  },
+  {
+   "text": "12",
+   "s": 4.076,
+   "line": "store",
+   "hl": false,
+   "e": 4.401
+  },
+  {
+   "text": "candles",
+   "s": 4.401,
+   "line": "store",
+   "hl": false,
+   "e": 4.851
+  },
+  {
+   "text": "last",
+   "s": 4.851,
+   "line": "store",
+   "hl": false,
+   "e": 5.126
+  },
+  {
+   "text": "week",
+   "s": 5.126,
+   "line": "store",
+   "hl": false,
+   "e": 5.697
+  },
+  {
+   "text": "Shopify",
+   "s": 5.697,
+   "line": "shopify",
+   "hl": false,
+   "e": 6.247
+  },
+  {
+   "text": "showed",
+   "s": 6.247,
+   "line": "shopify",
+   "hl": false,
+   "e": 6.522
+  },
+  {
+   "text": "all",
+   "s": 6.522,
+   "line": "shopify",
+   "hl": false,
+   "e": 6.747
+  },
+  {
+   "text": "12",
+   "s": 6.747,
+   "line": "shopify",
+   "hl": false,
+   "e": 7.363
+  },
+  {
+   "text": "Ads",
+   "s": 7.363,
+   "line": "zero",
+   "hl": false,
+   "e": 7.663
+  },
+  {
+   "text": "Manager",
+   "s": 7.663,
+   "line": "zero",
+   "hl": false,
+   "e": 8.163
+  },
+  {
+   "text": "showed",
+   "s": 8.163,
+   "line": "zero",
+   "hl": false,
+   "e": 8.438
+  },
+  {
+   "text": "0",
+   "s": 8.438,
+   "line": "zero",
+   "hl": true,
+   "e": 9.208
+  },
+  {
+   "text": "so",
+   "s": 9.229,
+   "line": "guess",
+   "hl": false,
+   "e": 9.379
+  },
+  {
+   "text": "Meta",
+   "s": 9.379,
+   "line": "guess",
+   "hl": false,
+   "e": 9.654
+  },
+  {
+   "text": "kept",
+   "s": 9.654,
+   "line": "guess",
+   "hl": false,
+   "e": 9.904
+  },
+  {
+   "text": "guessing",
+   "s": 9.904,
+   "line": "guess",
+   "hl": false,
+   "e": 10.229
+  },
+  {
+   "text": "who",
+   "s": 10.229,
+   "line": "guess",
+   "hl": false,
+   "e": 10.379
+  },
+  {
+   "text": "buys",
+   "s": 10.379,
+   "line": "guess",
+   "hl": false,
+   "e": 11.079
+  },
+  {
+   "text": "and kept",
+   "s": 11.079,
+   "line": "guess",
+   "hl": false,
+   "e": 11.479
+  },
+  {
+   "text": "guessing",
+   "s": 11.479,
+   "line": "guess",
+   "hl": false,
+   "e": 11.854
+  },
+  {
+   "text": "wrong",
+   "s": 11.854,
+   "line": "guess",
+   "hl": true,
+   "e": 12.486
+  },
+  {
+   "text": "why",
+   "s": 12.508,
+   "line": "why",
+   "hl": true,
+   "e": 13.174
+  },
+  {
+   "text": "the tracking",
+   "s": 13.174,
+   "line": "code",
+   "hl": false,
+   "e": 13.699
+  },
+  {
+   "text": "code",
+   "s": 13.699,
+   "line": "code",
+   "hl": false,
+   "e": 14.174
+  },
+  {
+   "text": "wasn't",
+   "s": 14.174,
+   "line": "code",
+   "hl": false,
+   "e": 14.449
+  },
+  {
+   "text": "firing",
+   "s": 14.449,
+   "line": "code",
+   "hl": false,
+   "e": 14.949
+  },
+  {
+   "text": "on the thank-you",
+   "s": 14.949,
+   "line": "code",
+   "hl": false,
+   "e": 15.474
+  },
+  {
+   "text": "page",
+   "s": 15.474,
+   "line": "code",
+   "hl": false,
+   "e": 16.225
+  },
+  {
+   "text": "2-minute",
+   "s": 16.261,
+   "line": "fix",
+   "hl": false,
+   "e": 16.686
+  },
+  {
+   "text": "fix",
+   "s": 16.686,
+   "line": "fix",
+   "hl": false,
+   "e": 17.271
+  },
+  {
+   "text": "open",
+   "s": 17.271,
+   "line": "open",
+   "hl": false,
+   "e": 17.621
+  },
+  {
+   "text": "Events",
+   "s": 17.621,
+   "line": "open",
+   "hl": false,
+   "e": 17.946
+  },
+  {
+   "text": "Manager",
+   "s": 17.946,
+   "line": "open",
+   "hl": false,
+   "e": 18.696
+  },
+  {
+   "text": "tap",
+   "s": 18.696,
+   "line": "open",
+   "hl": false,
+   "e": 18.971
+  },
+  {
+   "text": "Test",
+   "s": 18.971,
+   "line": "open",
+   "hl": false,
+   "e": 19.221
+  },
+  {
+   "text": "events",
+   "s": 19.221,
+   "line": "open",
+   "hl": false,
+   "e": 19.796
+  },
+  {
+   "text": "and buy",
+   "s": 19.796,
+   "line": "open",
+   "hl": false,
+   "e": 20.196
+  },
+  {
+   "text": "from your own",
+   "s": 20.196,
+   "line": "open",
+   "hl": false,
+   "e": 20.596
+  },
+  {
+   "text": "store",
+   "s": 20.596,
+   "line": "open",
+   "hl": false,
+   "e": 21.257
+  },
+  {
+   "text": "nothing",
+   "s": 21.325,
+   "line": "nothing",
+   "hl": true,
+   "e": 22.045
+  },
+  {
+   "text": "fix",
+   "s": 22.045,
+   "line": "first",
+   "hl": false,
+   "e": 22.345
+  },
+  {
+   "text": "that",
+   "s": 22.345,
+   "line": "first",
+   "hl": false,
+   "e": 22.57
+  },
+  {
+   "text": "first",
+   "s": 22.57,
+   "line": "first",
+   "hl": false,
+   "e": 23.375
+  }
+ ],
+ "events": [
+  {
+   "t": 0.03,
+   "k": "deep",
+   "g": 0.5
+  },
+  {
+   "t": 0.06,
+   "k": "hit",
+   "g": 0.45
+  },
+  {
+   "t": 0.9,
+   "k": "swish",
+   "g": 0.4
+  },
+  {
+   "t": 0.95,
+   "k": "whoosh_c",
+   "g": 0.5
+  },
+  {
+   "t": 1.35,
+   "k": "thump",
+   "g": 0.3
+  },
+  {
+   "t": 1.37,
+   "k": "pop",
+   "g": 0.3,
+   "pan": -0.3
+  },
+  {
+   "t": 1.41,
+   "k": "pop",
+   "g": 0.26,
+   "pan": 0.3
+  },
+  {
+   "t": 2.494,
+   "k": "select",
+   "g": 0.22
+  },
+  {
+   "t": 3.214,
+   "k": "whoosh_soft",
+   "g": 0.35,
+   "pan": 0.3
+  },
+  {
+   "t": 3.751,
+   "k": "tick",
+   "g": 0.13,
+   "pan": -0.2
+  },
+  {
+   "t": 3.851,
+   "k": "tick",
+   "g": 0.135,
+   "pan": 0.2
+  },
+  {
+   "t": 3.951,
+   "k": "tick",
+   "g": 0.14,
+   "pan": -0.2
+  },
+  {
+   "t": 4.051,
+   "k": "tick",
+   "g": 0.14500000000000002,
+   "pan": 0.2
+  },
+  {
+   "t": 4.151,
+   "k": "tick",
+   "g": 0.15,
+   "pan": -0.2
+  },
+  {
+   "t": 4.251,
+   "k": "tick",
+   "g": 0.155,
+   "pan": 0.2
+  },
+  {
+   "t": 4.351,
+   "k": "tick",
+   "g": 0.16,
+   "pan": -0.2
+  },
+  {
+   "t": 4.451,
+   "k": "tick",
+   "g": 0.165,
+   "pan": 0.2
+  },
+  {
+   "t": 4.551,
+   "k": "tick",
+   "g": 0.17,
+   "pan": -0.2
+  },
+  {
+   "t": 4.651,
+   "k": "tick",
+   "g": 0.175,
+   "pan": 0.2
+  },
+  {
+   "t": 4.751,
+   "k": "tick",
+   "g": 0.18,
+   "pan": -0.2
+  },
+  {
+   "t": 4.851,
+   "k": "tick",
+   "g": 0.185,
+   "pan": 0.2
+  },
+  {
+   "t": 6.522,
+   "k": "swish",
+   "g": 0.25
+  },
+  {
+   "t": 6.747,
+   "k": "check",
+   "g": 0.35
+  },
+  {
+   "t": 7.286,
+   "k": "whoosh_b",
+   "g": 0.45
+  },
+  {
+   "t": 8.418,
+   "k": "thump",
+   "g": 0.32
+  },
+  {
+   "t": 8.438,
+   "k": "hit",
+   "g": 0.3
+  },
+  {
+   "t": 9.114,
+   "k": "whoosh_e",
+   "g": 0.45
+  },
+  {
+   "t": 9.134,
+   "k": "deep",
+   "g": 0.45
+  },
+  {
+   "t": 9.479,
+   "k": "whoosh_d",
+   "g": 0.35
+  },
+  {
+   "t": 9.904,
+   "k": "arrow",
+   "g": 0.12,
+   "pan": -0.25
+  },
+  {
+   "t": 10.124,
+   "k": "tick",
+   "g": 0.16,
+   "pan": -0.25
+  },
+  {
+   "t": 10.184,
+   "k": "arrow",
+   "g": 0.12,
+   "pan": 0
+  },
+  {
+   "t": 10.404,
+   "k": "tick",
+   "g": 0.16,
+   "pan": 0
+  },
+  {
+   "t": 10.424,
+   "k": "arrow",
+   "g": 0.12,
+   "pan": -0.5
+  },
+  {
+   "t": 10.644,
+   "k": "tick",
+   "g": 0.16,
+   "pan": -0.5
+  },
+  {
+   "t": 11.039,
+   "k": "arrow",
+   "g": 0.12,
+   "pan": 0.5
+  },
+  {
+   "t": 11.259,
+   "k": "tick",
+   "g": 0.16,
+   "pan": 0.5
+  },
+  {
+   "t": 11.239,
+   "k": "arrow",
+   "g": 0.12,
+   "pan": 0
+  },
+  {
+   "t": 11.459,
+   "k": "tick",
+   "g": 0.16,
+   "pan": 0
+  },
+  {
+   "t": 11.419,
+   "k": "arrow",
+   "g": 0.12,
+   "pan": 0.25
+  },
+  {
+   "t": 11.639,
+   "k": "tick",
+   "g": 0.16,
+   "pan": 0.25
+  },
+  {
+   "t": 11.579,
+   "k": "arrow",
+   "g": 0.12,
+   "pan": -0.75
+  },
+  {
+   "t": 11.799,
+   "k": "tick",
+   "g": 0.16,
+   "pan": -0.75
+  },
+  {
+   "t": 11.719,
+   "k": "arrow",
+   "g": 0.12,
+   "pan": 0.5
+  },
+  {
+   "t": 11.939,
+   "k": "tick",
+   "g": 0.16,
+   "pan": 0.5
+  },
+  {
+   "t": 11.804,
+   "k": "arrow",
+   "g": 0.12,
+   "pan": 0.75
+  },
+  {
+   "t": 12.024,
+   "k": "tick",
+   "g": 0.16,
+   "pan": 0.75
+  },
+  {
+   "t": 11.934,
+   "k": "arrow",
+   "g": 0.12,
+   "pan": -0.75
+  },
+  {
+   "t": 12.154,
+   "k": "tick",
+   "g": 0.16,
+   "pan": -0.75
+  },
+  {
+   "t": 11.854,
+   "k": "thump",
+   "g": 0.3
+  },
+  {
+   "t": 12.396,
+   "k": "whoosh_e",
+   "g": 0.45
+  },
+  {
+   "t": 12.508,
+   "k": "select",
+   "g": 0.25
+  },
+  {
+   "t": 13.274,
+   "k": "swish",
+   "g": 0.3
+  },
+  {
+   "t": 14.174,
+   "k": "pop",
+   "g": 0.28
+  },
+  {
+   "t": 14.449,
+   "k": "hit",
+   "g": 0.28
+  },
+  {
+   "t": 15.224,
+   "k": "swish",
+   "g": 0.22
+  },
+  {
+   "t": 16.185,
+   "k": "whoosh_c",
+   "g": 0.45
+  },
+  {
+   "t": 16.361,
+   "k": "pop",
+   "g": 0.28
+  },
+  {
+   "t": 18.696,
+   "k": "tap",
+   "g": 0.42
+  },
+  {
+   "t": 18.971,
+   "k": "swish",
+   "g": 0.3,
+   "pan": 0.3
+  },
+  {
+   "t": 19.796,
+   "k": "swish",
+   "g": 0.3,
+   "pan": 0.3
+  },
+  {
+   "t": 20.421,
+   "k": "tap",
+   "g": 0.42
+  },
+  {
+   "t": 20.596,
+   "k": "pop",
+   "g": 0.3
+  },
+  {
+   "t": 21.197,
+   "k": "swish",
+   "g": 0.3,
+   "pan": -0.3
+  },
+  {
+   "t": 21.305,
+   "k": "thump",
+   "g": 0.32
+  },
+  {
+   "t": 22.045,
+   "k": "pop",
+   "g": 0.3
+  },
+  {
+   "t": 22.57,
+   "k": "check",
+   "g": 0.38
+  },
+  {
+   "t": 22.62,
+   "k": "chime",
+   "g": 0.32
+  },
+  {
+   "t": 23.248,
+   "k": "deep",
+   "g": 0.45
+  },
+  {
+   "t": 23.288,
+   "k": "whoosh_f",
+   "g": 0.28
+  },
+  {
+   "t": 26.51,
+   "k": "whoosh_f",
+   "g": 0.5
+  },
+  {
+   "t": 26.59,
+   "k": "sting",
+   "g": 0.45
+  },
+  {
+   "t": 26.81,
+   "k": "pop",
+   "g": 0.35
+  },
+  {
+   "t": 27.01,
+   "k": "tap",
+   "g": 0.45
+  },
+  {
+   "t": 27.07,
+   "k": "check",
+   "g": 0.35
+  }
+ ],
+ "music": {
+  "drop": 9.114,
+  "fix": 16.185,
+  "hush": 21.265,
+  "back": 22.52,
+  "end": 26.51
+ },
+ "blur": [
+  [
+   0.83,
+   1.47,
+   8
+  ],
+  [
+   3.194,
+   3.814,
+   8
+  ],
+  [
+   3.731,
+   5.2509999999999994,
+   4
+  ],
+  [
+   9.459,
+   9.979,
+   8
+  ],
+  [
+   9.884,
+   12.254,
+   4
+  ],
+  [
+   13.254,
+   13.674,
+   4
+  ],
+  [
+   18.396,
+   18.746000000000002,
+   4
+  ],
+  [
+   18.951,
+   19.371,
+   8
+  ],
+  [
+   19.776,
+   20.195999999999998,
+   8
+  ],
+  [
+   21.177,
+   21.596999999999998,
+   8
+  ],
+  [
+   22.025000000000002,
+   22.395000000000003,
+   6
+  ],
+  [
+   22.55,
+   22.92,
+   6
+  ],
+  [
+   7.085999999999999,
+   7.526,
+   8
+  ],
+  [
+   8.914000000000001,
+   9.354000000000001,
+   8
+  ],
+  [
+   12.196000000000002,
+   12.636000000000001,
+   8
+  ],
+  [
+   15.985,
+   16.424999999999997,
+   8
+  ],
+  [
+   26.310000000000002,
+   26.75,
+   8
+  ]
+ ]
+}
