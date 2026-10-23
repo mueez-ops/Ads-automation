@@ -1,0 +1,700 @@
+{
+ "lines": {
+  "stop": {
+   "s": 0.05,
+   "e": 1.775,
+   "text": "stop editing your ads every day"
+  },
+  "costing": {
+   "s": 1.875,
+   "e": 3.155,
+   "text": "here's what it's costing you"
+  },
+  "monday": {
+   "s": 3.375,
+   "e": 4.69,
+   "text": "Monday a new headline"
+  },
+  "tuesday": {
+   "s": 4.79,
+   "e": 6.133,
+   "text": "Tuesday a bigger budget"
+  },
+  "wednesday": {
+   "s": 6.233,
+   "e": 7.655,
+   "text": "Wednesday a new audience"
+  },
+  "feels": {
+   "s": 7.875,
+   "e": 9.043,
+   "text": "feels like progress"
+  },
+  "isnt": {
+   "s": 9.203,
+   "e": 9.941,
+   "text": "it isn't"
+  },
+  "every": {
+   "s": 10.161,
+   "e": 13.264,
+   "text": "every one of those edits sends your ad set back into learning"
+  },
+  "needs": {
+   "s": 13.324,
+   "e": 16.668,
+   "text": "and Meta needs about 50 results in 7 days to finish"
+  },
+  "daily": {
+   "s": 16.868,
+   "e": 18.774,
+   "text": "edit daily and it never finishes"
+  },
+  "pays": {
+   "s": 18.954,
+   "e": 21.137,
+   "text": "your budget pays for learning not selling"
+  },
+  "make": {
+   "s": 21.357,
+   "e": 22.847,
+   "text": "make your changes in one go"
+  },
+  "leave": {
+   "s": 22.897,
+   "e": 24.86,
+   "text": "then leave the ad alone for 7 days"
+  },
+  "boring": {
+   "s": 25.12,
+   "e": 28.701,
+   "text": "boring ads that keep running beat clever ads that keep restarting"
+  }
+ },
+ "words": [
+  {
+   "w": "stop",
+   "s": 0.155,
+   "e": 0.43,
+   "line": "stop"
+  },
+  {
+   "w": "editing",
+   "s": 0.48,
+   "e": 0.73,
+   "line": "stop"
+  },
+  {
+   "w": "your",
+   "s": 0.755,
+   "e": 0.855,
+   "line": "stop"
+  },
+  {
+   "w": "ads",
+   "s": 0.905,
+   "e": 1.155,
+   "line": "stop"
+  },
+  {
+   "w": "every",
+   "s": 1.205,
+   "e": 1.455,
+   "line": "stop"
+  },
+  {
+   "w": "day",
+   "s": 1.505,
+   "e": 1.814,
+   "line": "stop"
+  },
+  {
+   "w": "here's",
+   "s": 1.956,
+   "e": 2.206,
+   "line": "costing"
+  },
+  {
+   "w": "what",
+   "s": 2.231,
+   "e": 2.306,
+   "line": "costing"
+  },
+  {
+   "w": "it's",
+   "s": 2.331,
+   "e": 2.431,
+   "line": "costing"
+  },
+  {
+   "w": "costing",
+   "s": 2.481,
+   "e": 2.881,
+   "line": "costing"
+  },
+  {
+   "w": "you",
+   "s": 2.931,
+   "e": 3.21,
+   "line": "costing"
+  },
+  {
+   "w": "Monday",
+   "s": 3.445,
+   "e": 3.895,
+   "line": "monday"
+  },
+  {
+   "w": "a",
+   "s": 3.895,
+   "e": 4.07,
+   "line": "monday"
+  },
+  {
+   "w": "new",
+   "s": 4.07,
+   "e": 4.17,
+   "line": "monday"
+  },
+  {
+   "w": "headline",
+   "s": 4.22,
+   "e": 4.763,
+   "line": "monday"
+  },
+  {
+   "w": "Tuesday",
+   "s": 4.855,
+   "e": 5.355,
+   "line": "tuesday"
+  },
+  {
+   "w": "a",
+   "s": 5.355,
+   "e": 5.53,
+   "line": "tuesday"
+  },
+  {
+   "w": "bigger",
+   "s": 5.53,
+   "e": 5.73,
+   "line": "tuesday"
+  },
+  {
+   "w": "budget",
+   "s": 5.78,
+   "e": 6.219,
+   "line": "tuesday"
+  },
+  {
+   "w": "Wednesday",
+   "s": 6.294,
+   "e": 6.819,
+   "line": "wednesday"
+  },
+  {
+   "w": "a",
+   "s": 6.819,
+   "e": 6.994,
+   "line": "wednesday"
+  },
+  {
+   "w": "new",
+   "s": 6.994,
+   "e": 7.094,
+   "line": "wednesday"
+  },
+  {
+   "w": "audience",
+   "s": 7.144,
+   "e": 7.655,
+   "line": "wednesday"
+  },
+  {
+   "w": "feels",
+   "s": 7.953,
+   "e": 8.253,
+   "line": "feels"
+  },
+  {
+   "w": "like",
+   "s": 8.278,
+   "e": 8.403,
+   "line": "feels"
+  },
+  {
+   "w": "progress",
+   "s": 8.453,
+   "e": 9.075,
+   "line": "feels"
+  },
+  {
+   "w": "it",
+   "s": 9.316,
+   "e": 9.366,
+   "line": "isnt"
+  },
+  {
+   "w": "isn't",
+   "s": 9.466,
+   "e": 10.078,
+   "line": "isnt"
+  },
+  {
+   "w": "every",
+   "s": 10.205,
+   "e": 10.455,
+   "line": "every"
+  },
+  {
+   "w": "one",
+   "s": 10.505,
+   "e": 10.605,
+   "line": "every"
+  },
+  {
+   "w": "of",
+   "s": 10.63,
+   "e": 10.68,
+   "line": "every"
+  },
+  {
+   "w": "those",
+   "s": 10.705,
+   "e": 10.905,
+   "line": "every"
+  },
+  {
+   "w": "edits",
+   "s": 10.955,
+   "e": 11.48,
+   "line": "every"
+  },
+  {
+   "w": "sends",
+   "s": 11.58,
+   "e": 11.78,
+   "line": "every"
+  },
+  {
+   "w": "your",
+   "s": 11.805,
+   "e": 11.905,
+   "line": "every"
+  },
+  {
+   "w": "ad",
+   "s": 11.98,
+   "e": 12.18,
+   "line": "every"
+  },
+  {
+   "w": "set",
+   "s": 12.23,
+   "e": 12.355,
+   "line": "every"
+  },
+  {
+   "w": "back",
+   "s": 12.405,
+   "e": 12.605,
+   "line": "every"
+  },
+  {
+   "w": "into",
+   "s": 12.63,
+   "e": 12.83,
+   "line": "every"
+  },
+  {
+   "w": "learning",
+   "s": 12.88,
+   "e": 13.276,
+   "line": "every"
+  },
+  {
+   "w": "and",
+   "s": 13.388,
+   "e": 13.488,
+   "line": "needs"
+  },
+  {
+   "w": "Meta",
+   "s": 13.538,
+   "e": 13.938,
+   "line": "needs"
+  },
+  {
+   "w": "needs",
+   "s": 14.013,
+   "e": 14.288,
+   "line": "needs"
+  },
+  {
+   "w": "about",
+   "s": 14.313,
+   "e": 14.563,
+   "line": "needs"
+  },
+  {
+   "w": "50",
+   "s": 14.638,
+   "e": 14.888,
+   "line": "needs"
+  },
+  {
+   "w": "results",
+   "s": 14.938,
+   "e": 15.338,
+   "line": "needs"
+  },
+  {
+   "w": "in",
+   "s": 15.388,
+   "e": 15.488,
+   "line": "needs"
+  },
+  {
+   "w": "7",
+   "s": 15.563,
+   "e": 15.838,
+   "line": "needs"
+  },
+  {
+   "w": "days",
+   "s": 15.888,
+   "e": 16.138,
+   "line": "needs"
+  },
+  {
+   "w": "to",
+   "s": 16.188,
+   "e": 16.213,
+   "line": "needs"
+  },
+  {
+   "w": "finish",
+   "s": 16.313,
+   "e": 16.668,
+   "line": "needs"
+  },
+  {
+   "w": "edit",
+   "s": 16.937,
+   "e": 17.137,
+   "line": "daily"
+  },
+  {
+   "w": "daily",
+   "s": 17.187,
+   "e": 17.637,
+   "line": "daily"
+  },
+  {
+   "w": "and",
+   "s": 17.762,
+   "e": 17.837,
+   "line": "daily"
+  },
+  {
+   "w": "it",
+   "s": 17.862,
+   "e": 17.912,
+   "line": "daily"
+  },
+  {
+   "w": "never",
+   "s": 17.962,
+   "e": 18.187,
+   "line": "daily"
+  },
+  {
+   "w": "finishes",
+   "s": 18.237,
+   "e": 18.788,
+   "line": "daily"
+  },
+  {
+   "w": "your",
+   "s": 19.019,
+   "e": 19.094,
+   "line": "pays"
+  },
+  {
+   "w": "budget",
+   "s": 19.144,
+   "e": 19.444,
+   "line": "pays"
+  },
+  {
+   "w": "pays",
+   "s": 19.494,
+   "e": 19.744,
+   "line": "pays"
+  },
+  {
+   "w": "for",
+   "s": 19.794,
+   "e": 19.894,
+   "line": "pays"
+  },
+  {
+   "w": "learning",
+   "s": 19.944,
+   "e": 20.394,
+   "line": "pays"
+  },
+  {
+   "w": "not",
+   "s": 20.519,
+   "e": 20.694,
+   "line": "pays"
+  },
+  {
+   "w": "selling",
+   "s": 20.744,
+   "e": 21.148,
+   "line": "pays"
+  },
+  {
+   "w": "make",
+   "s": 21.425,
+   "e": 21.575,
+   "line": "make"
+  },
+  {
+   "w": "your",
+   "s": 21.6,
+   "e": 21.675,
+   "line": "make"
+  },
+  {
+   "w": "changes",
+   "s": 21.725,
+   "e": 22.15,
+   "line": "make"
+  },
+  {
+   "w": "in",
+   "s": 22.2,
+   "e": 22.275,
+   "line": "make"
+  },
+  {
+   "w": "one",
+   "s": 22.325,
+   "e": 22.5,
+   "line": "make"
+  },
+  {
+   "w": "go",
+   "s": 22.55,
+   "e": 22.892,
+   "line": "make"
+  },
+  {
+   "w": "then",
+   "s": 22.941,
+   "e": 23.091,
+   "line": "leave"
+  },
+  {
+   "w": "leave",
+   "s": 23.141,
+   "e": 23.341,
+   "line": "leave"
+  },
+  {
+   "w": "the",
+   "s": 23.366,
+   "e": 23.416,
+   "line": "leave"
+  },
+  {
+   "w": "ad",
+   "s": 23.516,
+   "e": 23.666,
+   "line": "leave"
+  },
+  {
+   "w": "alone",
+   "s": 23.691,
+   "e": 23.991,
+   "line": "leave"
+  },
+  {
+   "w": "for",
+   "s": 24.041,
+   "e": 24.141,
+   "line": "leave"
+  },
+  {
+   "w": "7",
+   "s": 24.191,
+   "e": 24.466,
+   "line": "leave"
+  },
+  {
+   "w": "days",
+   "s": 24.516,
+   "e": 24.86,
+   "line": "leave"
+  },
+  {
+   "w": "boring",
+   "s": 25.167,
+   "e": 25.517,
+   "line": "boring"
+  },
+  {
+   "w": "ads",
+   "s": 25.567,
+   "e": 25.867,
+   "line": "boring"
+  },
+  {
+   "w": "that",
+   "s": 25.917,
+   "e": 26.017,
+   "line": "boring"
+  },
+  {
+   "w": "keep",
+   "s": 26.067,
+   "e": 26.242,
+   "line": "boring"
+  },
+  {
+   "w": "running",
+   "s": 26.292,
+   "e": 26.542,
+   "line": "boring"
+  },
+  {
+   "w": "beat",
+   "s": 26.617,
+   "e": 26.817,
+   "line": "boring"
+  },
+  {
+   "w": "clever",
+   "s": 26.867,
+   "e": 27.117,
+   "line": "boring"
+  },
+  {
+   "w": "ads",
+   "s": 27.217,
+   "e": 27.717,
+   "line": "boring"
+  },
+  {
+   "w": "that",
+   "s": 27.792,
+   "e": 27.892,
+   "line": "boring"
+  },
+  {
+   "w": "keep",
+   "s": 27.942,
+   "e": 28.092,
+   "line": "boring"
+  },
+  {
+   "w": "restarting",
+   "s": 28.117,
+   "e": 28.704,
+   "line": "boring"
+  }
+ ],
+ "voice_end": 28.701,
+ "end": 29.801,
+ "at": {
+  "stop:stop": 0.155,
+  "stop:editing": 0.48,
+  "stop:your": 0.755,
+  "stop:ads": 0.905,
+  "stop:every": 1.205,
+  "stop:day": 1.505,
+  "costing:here's": 1.956,
+  "costing:what": 2.231,
+  "costing:it's": 2.331,
+  "costing:costing": 2.481,
+  "costing:you": 2.931,
+  "monday:Monday": 3.445,
+  "monday:a": 3.895,
+  "monday:new": 4.07,
+  "monday:headline": 4.22,
+  "tuesday:Tuesday": 4.855,
+  "tuesday:a": 5.355,
+  "tuesday:bigger": 5.53,
+  "tuesday:budget": 5.78,
+  "wednesday:Wednesday": 6.294,
+  "wednesday:a": 6.819,
+  "wednesday:new": 6.994,
+  "wednesday:audience": 7.144,
+  "feels:feels": 7.953,
+  "feels:like": 8.278,
+  "feels:progress": 8.453,
+  "isnt:it": 9.316,
+  "isnt:isn't": 9.466,
+  "every:every": 10.205,
+  "every:one": 10.505,
+  "every:of": 10.63,
+  "every:those": 10.705,
+  "every:edits": 10.955,
+  "every:sends": 11.58,
+  "every:your": 11.805,
+  "every:ad": 11.98,
+  "every:set": 12.23,
+  "every:back": 12.405,
+  "every:into": 12.63,
+  "every:learning": 12.88,
+  "needs:and": 13.388,
+  "needs:Meta": 13.538,
+  "needs:needs": 14.013,
+  "needs:about": 14.313,
+  "needs:50": 14.638,
+  "needs:results": 14.938,
+  "needs:in": 15.388,
+  "needs:7": 15.563,
+  "needs:days": 15.888,
+  "needs:to": 16.188,
+  "needs:finish": 16.313,
+  "daily:edit": 16.937,
+  "daily:daily": 17.187,
+  "daily:and": 17.762,
+  "daily:it": 17.862,
+  "daily:never": 17.962,
+  "daily:finishes": 18.237,
+  "pays:your": 19.019,
+  "pays:budget": 19.144,
+  "pays:pays": 19.494,
+  "pays:for": 19.794,
+  "pays:learning": 19.944,
+  "pays:not": 20.519,
+  "pays:selling": 20.744,
+  "make:make": 21.425,
+  "make:your": 21.6,
+  "make:changes": 21.725,
+  "make:in": 22.2,
+  "make:one": 22.325,
+  "make:go": 22.55,
+  "leave:then": 22.941,
+  "leave:leave": 23.141,
+  "leave:the": 23.366,
+  "leave:ad": 23.516,
+  "leave:alone": 23.691,
+  "leave:for": 24.041,
+  "leave:7": 24.191,
+  "leave:days": 24.516,
+  "boring:boring": 25.167,
+  "boring:ads": 27.217,
+  "boring:that": 27.792,
+  "boring:keep": 27.942,
+  "boring:running": 26.292,
+  "boring:beat": 26.617,
+  "boring:clever": 26.867,
+  "boring:restarting": 28.117
+ }
+}
