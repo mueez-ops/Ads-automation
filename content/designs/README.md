@@ -200,3 +200,31 @@ Rebuild: `python3 source/reel_pixel_vo.py <kokoro-dir> <tmp>` → `node source/r
 > (The candle store in the reel is made up.)
 >
 > #metaads #metapixel #facebookads
+
+## Reel: "Stop editing your ads every day" (Apple-style)
+File: `reels/mezmedia_reel_edits.mp4` (1080×1920, 30fps, 29.8s, Kokoro af_heart voiceover at a natural pace + music + SFX, -14 LUFS, voice 12.8 dB over the bed). Hook on screen at frame 0 ("7 edits. Still learning."), which folds into the ad set: status Learning, 4 of 50 results, 7 edits this week. The week rewinds to Monday, and each edit (a new headline, a bigger budget, a new audience) is published and knocks the ad set back to Learning at 0 of 50. "Feels like progress": the three "published" notices stack up. "It isn't." On black, the learning meter climbs and an edit knocks it back to 0; it needs 50 results in 7 days, and with an edit every day it never gets there. The budget: 7 days of $35 pour into "Learning" ($245) while "Selling" stays at $0. The fix: all three changes in one edit ("Publish all"), then the same meter on light fills to 50 of 50 as the week goes by with no edits, and the status turns Active. Last line on screen as big type; a silent follow tap on the end card. The ad set and the phone screens are plain mock-ups, no real logos.
+Rebuild: `python3 source/reel_edits_vo.py <kokoro-dir> <tmp>` → `node source/reel_edits.js <frames> <video.mp4>` → `python3 source/reel_edits_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Screens: `source/reel_edits_screens.js`; scenes: `source/reel_edits_scene.js`; shared phone engine: `source/reel_phone_kit.js`.
+
+**Script**
+> Stop editing your ads every day. Here's what it's costing you.
+> Monday, a new headline. Tuesday, a bigger budget. Wednesday, a new audience.
+> Feels like progress.
+> It isn't.
+> Every one of those edits sends your ad set back into learning, and Meta needs about 50 results in 7 days to finish.
+> Edit daily, and it never finishes.
+> Your budget pays for learning, not selling.
+> Make your changes in one go, then leave the ad alone for 7 days.
+> Boring ads that keep running beat clever ads that keep restarting.
+
+**Caption**
+> How many times did you edit your Meta ads this week? Count them, then comment the number.
+>
+> Every big change you make sends the ad set back into the learning phase: new creative, a new audience, a big budget jump. To get out, it needs about 50 results in the 7 days after your last big edit. If you're editing every day, it never gets there.
+>
+> While it's learning, delivery is less steady and you usually pay more for each result. You can check in Ads Manager. The Delivery column says Learning.
+>
+> The fix is boring. Make all your changes in one edit, then don't touch it for 7 days. Judge it after that.
+>
+> (The ad set in the reel is a mock-up.)
+>
+> #metaads #facebookads #adsmanager
