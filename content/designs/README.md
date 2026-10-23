@@ -172,3 +172,31 @@ Rebuild: `python3 source/reel_alex_vo.py <kokoro-dir> <tmp>` → `node source/re
 > (Alex, Sara and the cleaning company are made up.)
 >
 > #metaads #facebookads #landingpage
+
+## Reel: "If Meta can't see your sales" (Apple-style)
+File: `reels/mezmedia_reel_pixel.mp4` (1080×1920, 30fps, 27.7s, Kokoro af_heart voiceover at a natural pace + music + SFX, -14 LUFS, voice 16.3 dB over the bed). Hook on screen at frame 0 ("12 sales. Meta saw 0."), which folds into two phones: the store's orders (12) and Ads Manager (Purchases 0). Twelve orders come in and get a tick; the 0 shakes. On black, Meta keeps guessing who buys: ads fly to people in a crowd and every one misses. "Why?" opens on the store's thank-you page, where the tracking code reads "Not firing". The 2-minute fix: Events Manager, Test events, a test purchase from the store; "Waiting for activity…", nothing; then "Tracking code: firing" and a Purchase comes through. Last line on screen as big type; a silent follow tap on the end card. The store (Glow Candle Co.) is made up and the phone screens are plain mock-ups, no real logos. Candle photo: Pexels 6755741, in `source/photos/candle.jpg`.
+Rebuild: `python3 source/reel_pixel_vo.py <kokoro-dir> <tmp>` → `node source/reel_pixel.js <frames> <video.mp4>` → `python3 source/reel_pixel_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Screens: `source/reel_pixel_screens.js`; scenes: `source/reel_pixel_scene.js`; shared phone engine: `source/reel_phone_kit.js`.
+
+**Script**
+> If Meta can't see your sales, it can't find you more buyers.
+> This store sold 12 candles last week.
+> Shopify showed all 12. Ads Manager showed 0.
+> So Meta kept guessing who buys, and kept guessing wrong.
+> Why?
+> The tracking code wasn't firing on the thank-you page.
+> Two-minute fix: open Events Manager, tap Test events, and buy from your own store.
+> Nothing? Fix that first.
+> Meta finds buyers by watching the ones you already have.
+
+**Caption**
+> Did your last sale show up in Ads Manager? Check it today, then tell me below.
+>
+> When your Meta ads bring in sales your store can see and Ads Manager shows none, check the tracking first. If the Meta pixel (or the Conversions API) never fires a Purchase event on your thank-you page, every sale happens where Meta can't see it. So it keeps guessing who buys, and you keep paying for the guesses.
+>
+> The 2-minute check: open Events Manager, go to Test events, and buy something from your own store. No Purchase showing up? Fix that before you touch the ads, the audience or the budget.
+>
+> Meta finds new buyers by learning from the ones you already have.
+>
+> (The candle store in the reel is made up.)
+>
+> #metaads #metapixel #facebookads
