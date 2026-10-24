@@ -228,3 +228,35 @@ Rebuild: `python3 source/reel_edits_vo.py <kokoro-dir> <tmp>` → `node source/r
 > (The ad set in the reel is a mock-up.)
 >
 > #metaads #facebookads #adsmanager
+
+## Reel: "What's on the top floors of the Burj Khalifa" (switch reel)
+File: `reels/mezmedia_reel_burj.mp4` (1080×1920, 30fps, 26.9s, Kokoro af_heart voiceover at a natural pace + music + SFX, -14 LUFS, voice 14.7 dB over the bed). It opens as a travel-facts reel in the look of the reference the brief came with: the written hook "Let me explain what's on the top floors of the Burj Khalifa" over the tower, slowly zooming in; the camera climbs to the top, floors 152–154 light up in yellow with their label, and a dashed line measures 585 m up from the ground. The Lounge's photo card comes out of those floors ("THE LOUNGE"), with a "World record" tag (Guinness World Records: highest lounge in a building, 585.36 m, level 154) and a "Booking only" stamp. Then the colour drains under a heartbeat and a clock (0:16, 0:17), and it switches: the reel shrinks into an iPhone on black, its clock counts to 0:19 ("You just watched this reel for 19 seconds", the real time when it is spoken), the post turns into an ad (yourbrand · Sponsored · Book now), and the last line is on screen as big type: "Run ads people actually watch. Then sell." A silent follow tap on the end card.
+The floor highlight is placed from the tower's known heights (a perspective fit through the antenna tip and the copper mechanical bands at levels 40-42, 73-75, 109-111 and 136-138), good to a couple of floors.
+Photos: the tower is Pexels 3463043 (Pexels licence), in `source/photos/burj_tower.jpg`; the lounge photo came with the brief and carries a "Dubai Ticket Expert" watermark, used as supplied in `source/photos/burj_lounge.jpg` (swap in a licensed copy before posting). Type: Montserrat (SIL Open Font License, `source/fonts/Montserrat-OFL.txt`).
+Rebuild: `python3 source/reel_burj_vo.py <kokoro-dir> <tmp>` → `node source/reel_burj.js <frames> <video.mp4>` → `python3 source/reel_burj_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_burj_scene.js`; shared phone engine: `source/reel_phone_kit.js`.
+
+**Script**
+> Let me explain what's on the top floors of the Burj Khalifa.
+> Floors 152 to 154. 585 metres up.
+> This is The Lounge, the highest lounge in the world.
+> Sofas, afternoon tea, and an outdoor terrace over Dubai.
+> And you can only get in with a booking.
+> (tension)
+> You just watched this reel for 19 seconds.
+> Now imagine your ad held people that long.
+> Run ads people actually watch. Then sell.
+
+**Caption**
+> Did you see the switch coming? Tell me the second you caught it.
+>
+> You came for the top floors of the Burj Khalifa and stayed 19 seconds. Nobody asked you to. Curiosity did the work.
+>
+> That's the first job of any ad: give people a reason to keep watching before you ask for anything. If your Meta ads open with the logo, the price or "limited offer", people scroll before they hear why they should care.
+>
+> Open with something they want to know. Hold them. Then sell. That's the hook your Instagram ads are missing.
+>
+> The facts are real, by the way. The Lounge on floors 152 to 154 sits 585 m up and holds the Guinness World Record for the highest lounge in a building. You need a booking to get in.
+>
+> (Lounge photo: Dubai Ticket Expert.)
+>
+> #metaads #instagramads #burjkhalifa
