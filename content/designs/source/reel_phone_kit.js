@@ -175,6 +175,7 @@ window.setTime = (t) => {
     const img = g.createImageData(W, H), o = img.data; for (let j = 0; j < o.length; j++) o[j] = ACC[j] / n; g.putImageData(img, 0, 0);
   }
   captions(t);
+  if (typeof overlay === 'function') overlay(t);   // a reel's own crisp type over the frame (not motion-blurred)
   g.save(); g.globalAlpha = 0.025; g.globalCompositeOperation = 'overlay'; g.drawImage(NOISE[Math.floor(t * 30) % 6], 0, 0, W, H); g.restore();
   vignette(g, 0.06);
 };

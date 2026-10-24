@@ -1,0 +1,585 @@
+{
+ "lines": {
+  "hook": {
+   "s": 0.05,
+   "e": 3.109,
+   "text": "let me explain what's on the top floors of the Burj Khalifa"
+  },
+  "floors": {
+   "s": 3.359,
+   "e": 5.698,
+   "text": "floors 152 + to 154 +"
+  },
+  "high": {
+   "s": 5.818,
+   "e": 8.072,
+   "text": "585 + + + metres up"
+  },
+  "lounge": {
+   "s": 8.272,
+   "e": 9.292,
+   "text": "this is the Lounge"
+  },
+  "record": {
+   "s": 9.342,
+   "e": 10.87,
+   "text": "the highest lounge in the world"
+  },
+  "inside": {
+   "s": 11.09,
+   "e": 14.655,
+   "text": "sofas afternoon tea and an outdoor terrace over Dubai"
+  },
+  "booking": {
+   "s": 14.775,
+   "e": 16.361,
+   "text": "and you can only get in with a booking"
+  },
+  "watched": {
+   "s": 17.761,
+   "e": 20.184,
+   "text": "you just watched this reel for 19 seconds"
+  },
+  "imagine": {
+   "s": 20.485,
+   "e": 22.698,
+   "text": "now imagine your ad held people that long"
+  },
+  "run": {
+   "s": 22.948,
+   "e": 24.865,
+   "text": "run ads people actually watch"
+  },
+  "sell": {
+   "s": 25.015,
+   "e": 25.746,
+   "text": "then sell"
+  }
+ },
+ "words": [
+  {
+   "w": "let",
+   "s": 0.121,
+   "e": 0.221,
+   "line": "hook"
+  },
+  {
+   "w": "me",
+   "s": 0.246,
+   "e": 0.346,
+   "line": "hook"
+  },
+  {
+   "w": "explain",
+   "s": 0.371,
+   "e": 0.921,
+   "line": "hook"
+  },
+  {
+   "w": "what's",
+   "s": 0.971,
+   "e": 1.146,
+   "line": "hook"
+  },
+  {
+   "w": "on",
+   "s": 1.196,
+   "e": 1.296,
+   "line": "hook"
+  },
+  {
+   "w": "the",
+   "s": 1.296,
+   "e": 1.346,
+   "line": "hook"
+  },
+  {
+   "w": "top",
+   "s": 1.396,
+   "e": 1.671,
+   "line": "hook"
+  },
+  {
+   "w": "floors",
+   "s": 1.721,
+   "e": 2.071,
+   "line": "hook"
+  },
+  {
+   "w": "of",
+   "s": 2.096,
+   "e": 2.171,
+   "line": "hook"
+  },
+  {
+   "w": "the",
+   "s": 2.171,
+   "e": 2.221,
+   "line": "hook"
+  },
+  {
+   "w": "Burj",
+   "s": 2.271,
+   "e": 2.546,
+   "line": "hook"
+  },
+  {
+   "w": "Khalifa",
+   "s": 2.596,
+   "e": 3.121,
+   "line": "hook"
+  },
+  {
+   "w": "floors",
+   "s": 3.452,
+   "e": 3.777,
+   "line": "floors"
+  },
+  {
+   "w": "152",
+   "s": 3.827,
+   "e": 4.002,
+   "line": "floors"
+  },
+  {
+   "w": "+",
+   "s": 4.052,
+   "e": 4.652,
+   "line": "floors"
+  },
+  {
+   "w": "to",
+   "s": 4.727,
+   "e": 4.752,
+   "line": "floors"
+  },
+  {
+   "w": "154",
+   "s": 4.852,
+   "e": 5.027,
+   "line": "floors"
+  },
+  {
+   "w": "+",
+   "s": 5.077,
+   "e": 5.743,
+   "line": "floors"
+  },
+  {
+   "w": "585",
+   "s": 5.904,
+   "e": 6.154,
+   "line": "high"
+  },
+  {
+   "w": "+",
+   "s": 6.179,
+   "e": 6.629,
+   "line": "high"
+  },
+  {
+   "w": "+",
+   "s": 6.704,
+   "e": 6.804,
+   "line": "high"
+  },
+  {
+   "w": "+",
+   "s": 6.904,
+   "e": 7.429,
+   "line": "high"
+  },
+  {
+   "w": "metres",
+   "s": 7.479,
+   "e": 7.779,
+   "line": "high"
+  },
+  {
+   "w": "up",
+   "s": 7.829,
+   "e": 8.093,
+   "line": "high"
+  },
+  {
+   "w": "this",
+   "s": 8.338,
+   "e": 8.488,
+   "line": "lounge"
+  },
+  {
+   "w": "is",
+   "s": 8.538,
+   "e": 8.638,
+   "line": "lounge"
+  },
+  {
+   "w": "the",
+   "s": 8.663,
+   "e": 8.713,
+   "line": "lounge"
+  },
+  {
+   "w": "Lounge",
+   "s": 8.763,
+   "e": 9.371,
+   "line": "lounge"
+  },
+  {
+   "w": "the",
+   "s": 9.405,
+   "e": 9.48,
+   "line": "record"
+  },
+  {
+   "w": "highest",
+   "s": 9.555,
+   "e": 9.955,
+   "line": "record"
+  },
+  {
+   "w": "lounge",
+   "s": 10.005,
+   "e": 10.305,
+   "line": "record"
+  },
+  {
+   "w": "in",
+   "s": 10.33,
+   "e": 10.405,
+   "line": "record"
+  },
+  {
+   "w": "the",
+   "s": 10.405,
+   "e": 10.455,
+   "line": "record"
+  },
+  {
+   "w": "world",
+   "s": 10.505,
+   "e": 10.936,
+   "line": "record"
+  },
+  {
+   "w": "sofas",
+   "s": 11.205,
+   "e": 11.73,
+   "line": "inside"
+  },
+  {
+   "w": "afternoon",
+   "s": 11.83,
+   "e": 12.33,
+   "line": "inside"
+  },
+  {
+   "w": "tea",
+   "s": 12.405,
+   "e": 12.88,
+   "line": "inside"
+  },
+  {
+   "w": "and",
+   "s": 13.005,
+   "e": 13.08,
+   "line": "inside"
+  },
+  {
+   "w": "an",
+   "s": 13.13,
+   "e": 13.155,
+   "line": "inside"
+  },
+  {
+   "w": "outdoor",
+   "s": 13.23,
+   "e": 13.58,
+   "line": "inside"
+  },
+  {
+   "w": "terrace",
+   "s": 13.63,
+   "e": 13.955,
+   "line": "inside"
+  },
+  {
+   "w": "over",
+   "s": 14.005,
+   "e": 14.18,
+   "line": "inside"
+  },
+  {
+   "w": "Dubai",
+   "s": 14.23,
+   "e": 14.674,
+   "line": "inside"
+  },
+  {
+   "w": "and",
+   "s": 14.842,
+   "e": 14.917,
+   "line": "booking"
+  },
+  {
+   "w": "you",
+   "s": 14.942,
+   "e": 15.017,
+   "line": "booking"
+  },
+  {
+   "w": "can",
+   "s": 15.042,
+   "e": 15.142,
+   "line": "booking"
+  },
+  {
+   "w": "only",
+   "s": 15.192,
+   "e": 15.442,
+   "line": "booking"
+  },
+  {
+   "w": "get",
+   "s": 15.492,
+   "e": 15.617,
+   "line": "booking"
+  },
+  {
+   "w": "in",
+   "s": 15.667,
+   "e": 15.742,
+   "line": "booking"
+  },
+  {
+   "w": "with",
+   "s": 15.767,
+   "e": 15.867,
+   "line": "booking"
+  },
+  {
+   "w": "a",
+   "s": 15.867,
+   "e": 15.967,
+   "line": "booking"
+  },
+  {
+   "w": "booking",
+   "s": 15.967,
+   "e": 16.437,
+   "line": "booking"
+  },
+  {
+   "w": "you",
+   "s": 17.839,
+   "e": 17.914,
+   "line": "watched"
+  },
+  {
+   "w": "just",
+   "s": 17.939,
+   "e": 18.164,
+   "line": "watched"
+  },
+  {
+   "w": "watched",
+   "s": 18.214,
+   "e": 18.539,
+   "line": "watched"
+  },
+  {
+   "w": "this",
+   "s": 18.589,
+   "e": 18.739,
+   "line": "watched"
+  },
+  {
+   "w": "reel",
+   "s": 18.789,
+   "e": 19.039,
+   "line": "watched"
+  },
+  {
+   "w": "for",
+   "s": 19.089,
+   "e": 19.189,
+   "line": "watched"
+  },
+  {
+   "w": "19",
+   "s": 19.239,
+   "e": 19.639,
+   "line": "watched"
+  },
+  {
+   "w": "seconds",
+   "s": 19.689,
+   "e": 20.238,
+   "line": "watched"
+  },
+  {
+   "w": "now",
+   "s": 20.579,
+   "e": 20.854,
+   "line": "imagine"
+  },
+  {
+   "w": "imagine",
+   "s": 20.904,
+   "e": 21.279,
+   "line": "imagine"
+  },
+  {
+   "w": "your",
+   "s": 21.304,
+   "e": 21.379,
+   "line": "imagine"
+  },
+  {
+   "w": "ad",
+   "s": 21.429,
+   "e": 21.579,
+   "line": "imagine"
+  },
+  {
+   "w": "held",
+   "s": 21.629,
+   "e": 21.829,
+   "line": "imagine"
+  },
+  {
+   "w": "people",
+   "s": 21.879,
+   "e": 22.179,
+   "line": "imagine"
+  },
+  {
+   "w": "that",
+   "s": 22.204,
+   "e": 22.354,
+   "line": "imagine"
+  },
+  {
+   "w": "long",
+   "s": 22.404,
+   "e": 22.742,
+   "line": "imagine"
+  },
+  {
+   "w": "run",
+   "s": 23.046,
+   "e": 23.296,
+   "line": "run"
+  },
+  {
+   "w": "ads",
+   "s": 23.371,
+   "e": 23.596,
+   "line": "run"
+  },
+  {
+   "w": "people",
+   "s": 23.646,
+   "e": 23.971,
+   "line": "run"
+  },
+  {
+   "w": "actually",
+   "s": 24.021,
+   "e": 24.396,
+   "line": "run"
+  },
+  {
+   "w": "watch",
+   "s": 24.446,
+   "e": 24.868,
+   "line": "run"
+  },
+  {
+   "w": "then",
+   "s": 25.121,
+   "e": 25.321,
+   "line": "sell"
+  },
+  {
+   "w": "sell",
+   "s": 25.396,
+   "e": 25.865,
+   "line": "sell"
+  }
+ ],
+ "voice_end": 25.746,
+ "end": 26.946,
+ "at": {
+  "hook:let": 0.121,
+  "hook:me": 0.246,
+  "hook:explain": 0.371,
+  "hook:what's": 0.971,
+  "hook:on": 1.196,
+  "hook:the": 2.171,
+  "hook:top": 1.396,
+  "hook:floors": 1.721,
+  "hook:of": 2.096,
+  "hook:Burj": 2.271,
+  "hook:Khalifa": 2.596,
+  "floors:floors": 3.452,
+  "floors:152": 3.827,
+  "floors:+": 5.077,
+  "floors:to": 4.727,
+  "floors:154": 4.852,
+  "high:585": 5.904,
+  "high:+": 6.904,
+  "high:metres": 7.479,
+  "high:up": 7.829,
+  "lounge:this": 8.338,
+  "lounge:is": 8.538,
+  "lounge:the": 8.663,
+  "lounge:Lounge": 8.763,
+  "record:the": 10.405,
+  "record:highest": 9.555,
+  "record:lounge": 10.005,
+  "record:in": 10.33,
+  "record:world": 10.505,
+  "inside:sofas": 11.205,
+  "inside:afternoon": 11.83,
+  "inside:tea": 12.405,
+  "inside:and": 13.005,
+  "inside:an": 13.13,
+  "inside:outdoor": 13.23,
+  "inside:terrace": 13.63,
+  "inside:over": 14.005,
+  "inside:Dubai": 14.23,
+  "booking:and": 14.842,
+  "booking:you": 14.942,
+  "booking:can": 15.042,
+  "booking:only": 15.192,
+  "booking:get": 15.492,
+  "booking:in": 15.667,
+  "booking:with": 15.767,
+  "booking:a": 15.867,
+  "booking:booking": 15.967,
+  "watched:you": 17.839,
+  "watched:just": 17.939,
+  "watched:watched": 18.214,
+  "watched:this": 18.589,
+  "watched:reel": 18.789,
+  "watched:for": 19.089,
+  "watched:19": 19.239,
+  "watched:seconds": 19.689,
+  "imagine:now": 20.579,
+  "imagine:imagine": 20.904,
+  "imagine:your": 21.304,
+  "imagine:ad": 21.429,
+  "imagine:held": 21.629,
+  "imagine:people": 21.879,
+  "imagine:that": 22.204,
+  "imagine:long": 22.404,
+  "run:run": 23.046,
+  "run:ads": 23.371,
+  "run:people": 23.646,
+  "run:actually": 24.021,
+  "run:watch": 24.446,
+  "sell:then": 25.121,
+  "sell:sell": 25.396
+ }
+}
