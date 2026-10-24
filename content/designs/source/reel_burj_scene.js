@@ -57,7 +57,7 @@ function altitude(x, t, v) {                         // 585 m, measured from the
     [100, 200, 300, 400, 500].forEach((m) => { const y = toF(v, 0, zToY(m))[1]; if (m <= z && y < H) { x.beginPath(); x.moveTo(X - 14, y); x.lineTo(X + 14, y); x.stroke(); } });
     x.restore();
   }
-  const ly = Math.min(Math.max(head, (ay + by) / 2), 1440);   // waits at the bottom of the frame until the line gets there
+  const ly = Math.min(Math.max(head, (ay + by) / 2), 1300);   // waits above the captions until the line gets there
   otext(x, Math.round(z) + ' M', X - 22, ly + 22, 64, YEL, 'right');
 }
 const CARD = { cx: 540, cy: 1000, w: 780, h: 521 };
