@@ -6,8 +6,8 @@ and commercial videos, not to be redistributed on their own), so they are not ke
 downloaded by id into <sfx_cache> the first time. The thumps and rises are synthesized. Music (120 bpm): a light
 groove in C major (C, G, Am, F) under the facts, with no kick until the camera climbs to the top floors; under the
 tension only a riser, a heartbeat and a clock; nothing but a low drone on "You just watched this reel for 19
-seconds"; then the full groove again, on a grid that puts a beat on "Run ads people actually watch", resolving on C
-under the end card.
+seconds"; then the full groove again, on a grid that puts a beat on "We scale businesses", resolving on C under the
+end card.
 Usage: python3 reel_burj_audio.py <vo.wav> <out.wav> <sfx_cache>
 """
 import json
@@ -81,7 +81,7 @@ for e in EV:
 # ---------- music ----------
 BEAT = 60 / 120
 G0 = M["beat"] % BEAT                                  # the facts: a beat on the climb to the top floors
-G1 = M["last"] % BEAT                                  # the payoff: a beat on "Run ads people actually watch"
+G1 = M["last"] % BEAT                                  # the pitch: a beat on "We scale businesses"
 # C major (C, G, Am, F)
 BRIGHT = ([[130.81, 164.81, 196.0, 261.63, 329.63], [98.0, 123.47, 146.83, 196.0, 246.94], [110.0, 130.81, 164.81, 220.0, 261.63], [87.31, 110.0, 130.81, 174.61, 220.0]],
           [[523.25, 659.25, 783.99, 1046.5], [493.88, 587.33, 783.99, 987.77], [440.0, 523.25, 659.25, 880.0], [440.0, 523.25, 698.46, 880.0]],

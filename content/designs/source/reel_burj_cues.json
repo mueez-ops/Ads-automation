@@ -45,15 +45,15 @@
    "e": 22.698,
    "text": "now imagine your ad held people that long"
   },
-  "run": {
-   "s": 22.948,
-   "e": 24.865,
-   "text": "run ads people actually watch"
+  "scale": {
+   "s": 22.998,
+   "e": 25.052,
+   "text": "we scale businesses with ads like this"
   },
-  "sell": {
-   "s": 25.015,
-   "e": 25.746,
-   "text": "then sell"
+  "dm": {
+   "s": 25.252,
+   "e": 27.947,
+   "text": "DM us the word teardown for a free ad review"
   }
  },
  "words": [
@@ -466,50 +466,110 @@
    "line": "imagine"
   },
   {
-   "w": "run",
-   "s": 23.046,
-   "e": 23.296,
-   "line": "run"
+   "w": "we",
+   "s": 23.054,
+   "e": 23.154,
+   "line": "scale"
+  },
+  {
+   "w": "scale",
+   "s": 23.204,
+   "e": 23.504,
+   "line": "scale"
+  },
+  {
+   "w": "businesses",
+   "s": 23.554,
+   "e": 24.079,
+   "line": "scale"
+  },
+  {
+   "w": "with",
+   "s": 24.104,
+   "e": 24.229,
+   "line": "scale"
   },
   {
    "w": "ads",
-   "s": 23.371,
-   "e": 23.596,
-   "line": "run"
+   "s": 24.304,
+   "e": 24.529,
+   "line": "scale"
   },
   {
-   "w": "people",
-   "s": 23.646,
-   "e": 23.971,
-   "line": "run"
+   "w": "like",
+   "s": 24.554,
+   "e": 24.704,
+   "line": "scale"
   },
   {
-   "w": "actually",
-   "s": 24.021,
-   "e": 24.396,
-   "line": "run"
+   "w": "this",
+   "s": 24.754,
+   "e": 25.054,
+   "line": "scale"
   },
   {
-   "w": "watch",
-   "s": 24.446,
-   "e": 24.868,
-   "line": "run"
+   "w": "DM",
+   "s": 25.303,
+   "e": 25.678,
+   "line": "dm"
   },
   {
-   "w": "then",
-   "s": 25.121,
-   "e": 25.321,
-   "line": "sell"
+   "w": "us",
+   "s": 25.728,
+   "e": 25.878,
+   "line": "dm"
   },
   {
-   "w": "sell",
-   "s": 25.396,
-   "e": 25.865,
-   "line": "sell"
+   "w": "the",
+   "s": 25.903,
+   "e": 25.953,
+   "line": "dm"
+  },
+  {
+   "w": "word",
+   "s": 26.003,
+   "e": 26.178,
+   "line": "dm"
+  },
+  {
+   "w": "teardown",
+   "s": 26.228,
+   "e": 26.753,
+   "line": "dm"
+  },
+  {
+   "w": "for",
+   "s": 26.828,
+   "e": 26.978,
+   "line": "dm"
+  },
+  {
+   "w": "a",
+   "s": 26.978,
+   "e": 27.103,
+   "line": "dm"
+  },
+  {
+   "w": "free",
+   "s": 27.103,
+   "e": 27.303,
+   "line": "dm"
+  },
+  {
+   "w": "ad",
+   "s": 27.353,
+   "e": 27.503,
+   "line": "dm"
+  },
+  {
+   "w": "review",
+   "s": 27.553,
+   "e": 27.961,
+   "line": "dm"
   }
  ],
- "voice_end": 25.746,
- "end": 26.946,
+ "voice_end": 27.947,
+ "end": 29.147,
  "at": {
   "hook:let": 0.121,
   "hook:me": 0.246,
@@ -574,12 +634,22 @@
   "imagine:people": 21.879,
   "imagine:that": 22.204,
   "imagine:long": 22.404,
-  "run:run": 23.046,
-  "run:ads": 23.371,
-  "run:people": 23.646,
-  "run:actually": 24.021,
-  "run:watch": 24.446,
-  "sell:then": 25.121,
-  "sell:sell": 25.396
+  "scale:we": 23.054,
+  "scale:scale": 23.204,
+  "scale:businesses": 23.554,
+  "scale:with": 24.104,
+  "scale:ads": 24.304,
+  "scale:like": 24.554,
+  "scale:this": 24.754,
+  "dm:DM": 25.303,
+  "dm:us": 25.728,
+  "dm:the": 25.903,
+  "dm:word": 26.003,
+  "dm:teardown": 26.228,
+  "dm:for": 26.828,
+  "dm:a": 26.978,
+  "dm:free": 27.103,
+  "dm:ad": 27.353,
+  "dm:review": 27.553
  }
 }

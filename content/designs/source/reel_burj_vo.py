@@ -22,8 +22,8 @@ LINES = [
     # the switch, after a beat of tension
     ("watched", "You just watched this reel for nineteen seconds.", "you just watched this reel for 19 seconds", 1.4, 0.92),
     ("imagine", "Now imagine your ad held people that long.", "now imagine your ad held people that long", 0.3, 1.05),
-    ("run", "Run ads people actually watch.", "run ads people actually watch", 0.25, 1.05),
-    ("sell", "Then sell.", "then sell", 0.15, 1.0),
+    ("scale", "We scale businesses with ads like this.", "we scale businesses with ads like this", 0.3, 1.05),
+    ("dm", "DM us the word teardown for a free ad review.", "DM us the word teardown for a free ad review", 0.2, 1.05),
 ]
 
 make_vo(LINES, sys.argv[1], sys.argv[2], Path(__file__).parent / "reel_burj_cues.json", tail=1.2)
