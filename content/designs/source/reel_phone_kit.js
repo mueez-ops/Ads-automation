@@ -145,15 +145,16 @@ function captions(t) {
   const c = CH.find((q) => t >= q.s && t < q.e); if (!c) return;
   const text = c.text.replace(/'/g, '’');
   const seen = i > 0 && u < TD / 2 && !['none', 'cut'].includes(sh.tin) ? SHOTS[i - 1].key : sh.key, dk = !!LIGHT[seen];
-  const k = clamp((t - c.s) / 0.06), out_ = clamp((c.e - t) / 0.07), last = !CH.find((q) => q.s === c.e), a = k * (last ? out_ : 1);
+  const tc = t - c.s + 1 / FPS;                      // a word is on screen from its first frame
+  const k = clamp(tc / 0.06), out_ = clamp((c.e - t) / 0.07), last = !CH.find((q) => q.s === c.e), a = k * (last ? out_ : 1);
   if (a <= 0) return;
   g.save(); g.globalAlpha = a; g.textAlign = 'center';
   setF(g, '800 172px Logo'); let size = 172; const w0 = g.measureText(text).width; if (w0 > 880) { size *= 880 / w0; setF(g, '800 ' + size + 'px Logo'); }
   g.letterSpacing = (-size * 0.045) + 'px';
-  const tw = g.measureText(text).width, sc = 1.1 - 0.1 * back(clamp((t - c.s) / 0.14)), Y = 1170;
+  const tw = g.measureText(text).width, sc = 1.1 - 0.1 * back(clamp(tc / 0.14)), Y = 1170;
   g.translate(540, Y - size * 0.32); g.scale(sc, sc); g.translate(0, size * 0.32);
   if (c.hl) {                                        // the key words sit in a solid box
-    g.fillStyle = dk ? INK : WHT; const bw = tw + size * 0.36; g.fillRect(-bw / 2, -size * 0.84, bw * expo((t - c.s) / 0.12), size * 1.08);
+    g.fillStyle = dk ? INK : WHT; const bw = tw + size * 0.36; g.fillRect(-bw / 2, -size * 0.84, bw * expo(tc / 0.12), size * 1.08);
     g.fillStyle = dk ? WHT : INK;
   } else { g.shadowColor = dk ? 'rgba(255,255,255,.95)' : 'rgba(0,0,0,.5)'; g.shadowBlur = 34; g.fillStyle = dk ? INK : WHT; }
   g.fillText(text, 0, 0); g.restore();
