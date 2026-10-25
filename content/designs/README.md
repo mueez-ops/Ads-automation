@@ -261,3 +261,37 @@ Rebuild: `python3 source/reel_burj_vo.py <kokoro-dir> <tmp>` → `node source/re
 > (Lounge photo: Dubai Ticket Expert.)
 >
 > #metaads #instagramads #burjkhalifa
+
+## Reel: "Nobody tells you the Eiffel Tower has a secret apartment at the top" (switch reel)
+File: `reels/mezmedia_reel_eiffel.mp4` (1080×1920, 30fps, 26.1s, Kokoro af_heart voiceover at a natural pace + music + SFX, -14 LUFS, voice 14.2 dB over the bed). The Burj Khalifa v2 format on a new story, with what v2 fixed built in from the start: the hook as a curiosity gap (hook score 88.0), the written hook "A secret apartment at the top." on screen from frame 0, and the camera whipping up the tower from the first frame. Mez Media's look from start to end: Inter type, captions one word at a time just below the centre, white outlines and pills over the photo. The top floor gets a white outline and a "Top floor" pill; Gustave Eiffel's portrait comes out of it ("Gustave Eiffel"); a "Rent it for a night?" pill gets stamped "Not for rent" on "no"; Thomas Edison's photo swings in beside him ("Thomas Edison", "1889"); and on "both" the two portraits fly off for the office as it is today, with the wax figures labelled "Edison" and "Eiffel" and "Today, in wax" on "wax". Then the colour drains under a heartbeat and a clock (0:14, 0:15), and it switches: the reel shrinks into an iPhone on black, its clock counts to 0:17 ("You've just watched this reel for 17 seconds", the real time when it is spoken), the post turns into an ad (yourbrand · Sponsored · Book now), and the pitch is on screen as big type: "We scale businesses with ads like this. DM us the word teardown for a free ad review." No end card: the last frame cuts back into the hook, so it loops.
+Facts and sources: Eiffel's private apartment at the top of the tower, kept for his experiments and his guests (toureiffel.paris); rich Parisians offered large sums to rent it for a night and he always refused (Jill Jonnes, *Eiffel's Tower*, quoted by Mental Floss; Domus; HowStuffWorks); Thomas Edison's visit on 10 September 1889, when he gave Eiffel a phonograph (toureiffel.paris); today a reconstruction of the office with wax figures of Eiffel, his daughter Claire and Edison, seen through its windows and too small to go into (toureiffel.paris).
+Photos: the tower is Pexels 3922718 (Pexels licence; the sky graded from teal to azure), in `source/photos/eiffel_tower.jpg`; Gustave Eiffel by Eugène Pirou (Galerie Contemporaine) and Thomas Edison with his phonograph (Brady-Handy collection, about 1878) are Library of Congress prints, public domain by age, cropped in `source/photos/eiffel_portrait.jpg` and `source/photos/eiffel_edison.jpg`; the office today is "Gustave Eiffel and Thomas Edison" by greger.ravik on Flickr (CC BY 2.0: keep the credit in the caption), in `source/photos/eiffel_office.jpg`. The night lighting of the tower is copyrighted for commercial use, so this reel stays in daylight.
+Rebuild: `python3 source/reel_eiffel_vo.py <kokoro-dir> <tmp>` → `node source/reel_eiffel.js <frames> <video.mp4>` → `python3 source/reel_eiffel_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_eiffel_scene.js`; shared phone engine: `source/reel_phone_kit.js`.
+
+**Script**
+> Nobody tells you the Eiffel Tower has a secret apartment at the top.
+> Gustave Eiffel built it for himself.
+> Paris's rich offered fortunes to rent it for one night.
+> He said no to all of them.
+> His most famous guest? Thomas Edison.
+> And they're both still up there. In wax.
+> (tension)
+> You've just watched this reel for 17 seconds.
+> Imagine your ad held people that long.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> You came for the secret apartment at the top of the Eiffel Tower and stayed 17 seconds. Nobody asked you to. Curiosity did the work.
+>
+> That's the first job of any ad: give people a reason to keep watching before you ask for anything. If your Meta ads open with the logo, the price or "limited offer", people scroll before they hear why they should care.
+>
+> We scale businesses with Instagram ads built the other way round: a hook people want to finish, then the offer.
+>
+> The facts are real, by the way. Eiffel kept a private apartment at the top of his tower for his experiments and his guests, and turned down the rich Parisians who offered fortunes to rent it for a night. Thomas Edison visited on 10 September 1889 and gave him a phonograph. From the top floor today you can look into the restored office: Eiffel, his daughter Claire and Edison, in wax.
+>
+> (Office photo: "Gustave Eiffel and Thomas Edison" by greger.ravik, CC BY 2.0, cropped. Archive photos: Library of Congress. Tower: Pexels.)
+>
+> #metaads #instagramads #eiffeltower
