@@ -61,9 +61,14 @@ def word_spans(k, text, spoken, cut):
     return spans
 
 
-def make_vo(lines, kdir, out_dir, cues_path, tail, voice="af_heart"):
+POLISH = "highpass=f=70,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=4200:t=q:w=1.2:g=2,acompressor=threshold=-20dB:ratio=2.5:attack=5:release=80:makeup=2"
+
+
+def make_vo(lines, kdir, out_dir, cues_path, tail, voice="af_heart", continuous=False, polish=POLISH):
     """lines: (key, spoken text, caption text with the same words, gap before, speed).
-    Writes the cues JSON and <out_dir>/vo.wav (44.1 kHz, lightly polished)."""
+    voice: a voice name, or {name: weight} to blend voices. continuous: synthesize each line as one take, so the
+    intonation runs through it. polish: the ffmpeg filter chain for the finished track.
+    Writes the cues JSON and <out_dir>/vo.wav (44.1 kHz)."""
     from faster_whisper import WhisperModel
     from kokoro_onnx import Kokoro
 
@@ -73,11 +78,13 @@ def make_vo(lines, kdir, out_dir, cues_path, tail, voice="af_heart"):
         expose_durations(kdir / "kokoro-v1.0.onnx", kdir / "kokoro-v1.0-dur.onnx")
     k = Kokoro(str(kdir / "kokoro-v1.0-dur.onnx"), str(kdir / "voices-v1.0.bin"))
     assert k.has_timings
+    if isinstance(voice, dict):
+        voice = sum(w * k.get_voice_style(n) for n, w in voice.items())
     wm = WhisperModel("small.en", compute_type="int8")
 
     clips, cues, t, sr = [], {"lines": {}, "words": []}, 0.0, 24000
     for key, text, shown, gap, speed in lines:
-        raw, sr, spoken = k.create_timed(text, voice=voice, speed=speed, lang="en-us", sentence_pause=0, clause_pause=0)
+        raw, sr, spoken = k.create_timed(text, voice=voice, speed=speed, lang="en-us", sentence_pause=0, clause_pause=0, continuous=continuous)
         s, cut = trim(raw, sr)
         t += gap
         dur = len(s) / sr
@@ -102,9 +109,8 @@ def make_vo(lines, kdir, out_dir, cues_path, tail, voice="af_heart"):
         track[i : i + len(s)] += s
     track = track[: int(cues["end"] * sr)]
     sf.write(out_dir / "vo_24k.wav", track, sr)
-    # light polish: high-pass, gentle presence lift, de-mud, soft compression
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", out_dir / "vo_24k.wav", "-af",
-                    "highpass=f=70,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=4200:t=q:w=1.2:g=2,acompressor=threshold=-20dB:ratio=2.5:attack=5:release=80:makeup=2",
+    # the default polish: high-pass, gentle presence lift, de-mud, soft compression
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", out_dir / "vo_24k.wav", "-af", polish,
                     "-ar", "44100", "-ac", "1", out_dir / "vo.wav"], check=True)
     Path(cues_path).write_text(json.dumps(cues, indent=1))
     print("voice ends", cues["voice_end"], "reel", cues["end"])

@@ -2,7 +2,7 @@
 // 14.5 seconds are a facts reel: a whip up the tower from the first frame under the written hook, the top floor
 // ringed, Gustave Eiffel's portrait out of it, the offers to rent it that he turned down ("Not for rent"), his most
 // famous guest Thomas Edison, and the twist: they are both still up there, in wax. Then a beat of tension, and the
-// switch: the reel you were watching shrinks into an iPhone, "You've just watched this reel for 17 seconds", the same
+// switch: the reel you were watching shrinks into an iPhone, "You've just watched this reel for 15 seconds", the same
 // reel turns into your ad, and the pitch: "We scale businesses with ads like this. DM us the word teardown for a free
 // ad review." No end card, so it loops straight back to the hook. Mez Media's look throughout: Inter type, captions
 // one word at a time just below the centre, white pills and outlines over the photo.
@@ -10,7 +10,7 @@
 // offered large sums to rent it for a night and he always refused (Jill Jonnes, "Eiffel's Tower", via Mental Floss;
 // Domus); Thomas Edison's visit on 10 September 1889, with a phonograph as a gift; today a reconstruction of the
 // office with wax figures of Eiffel, his daughter Claire and Edison, seen through its windows (toureiffel.paris).
-// The 17 is the real time when it is spoken.
+// The 15 is the real time when it is spoken.
 // Timing: reel_eiffel_cues.json (reel_eiffel_vo.py). Writes reel_eiffel_events.json for reel_eiffel_audio.py.
 // Usage: node reel_eiffel.js <frames-dir> <out.mp4> [--preview t1,t2,...]
 const fs = require('fs');
@@ -44,7 +44,7 @@ Object.keys(L).filter((line) => !QUIET.has(line)).forEach((line) => {
     i = j + 1;
   }
 });
-const TENSE = +(L.wax.e + 0.02).toFixed(3);
+const TENSE = +(L.reveal.e + 0.02).toFixed(3);
 CH.forEach((c, i) => {
   const nx = CH[i + 1];
   c.e = +(nx && nx.line === c.line ? nx.s : Math.min(nx ? nx.s : C.end, c.last + 0.3, c.s < TENSE ? TENSE : L.scale.s)).toFixed(3);
@@ -59,7 +59,7 @@ const SHOTS = [
   ['guest', L.guest.s, L.wax.s, 'none'],      // Thomas Edison joins him
   ['wax', L.wax.s, TENSE, 'none'],            // the office today: both of them, in wax
   ['tense', TENSE, L.watched.s, 'none'],      // the colour drains, a heartbeat, a clock
-  ['phone', L.watched.s, L.scale.s, 'cut'],   // black: the reel shrinks into a phone; 0:17; then it is your ad
+  ['phone', L.watched.s, L.scale.s, 'cut'],   // black: the reel shrinks into a phone; 0:15; then it is your ad
   ['pitch', L.scale.s, C.end, 'cut'],         // "We scale businesses with ads like this. DM us the word teardown..." (loops to the hook)
 ].map(([key, s, e, tin]) => ({ key, s: +s.toFixed(3), e: +e.toFixed(3), tin }));
 const T0 = Object.fromEntries(SHOTS.map((x) => [x.key, x.s]));
@@ -69,7 +69,7 @@ const K = {
   zoom: 0.9, hookOut: +(L.hook.e + 0.05).toFixed(3), ring: at('hook', 9), top: at('hook', 12),
   card: at('built', 0), title: at('built', 1), fort: at('offers', 3), rent: at('offers', 5), no: at('no', 2),
   guest: at('guest', 3), edi: at('guest', 5), yr: +(at('guest', 5) + 0.3).toFixed(3),
-  both: at('wax', 2), names: at('wax', 3), wax: at('wax', 7), tense: TENSE, freeze: +(TENSE - 0.1).toFixed(3),
+  both: at('wax', 2), names: at('wax', 3), wax: at('reveal', 1), tense: TENSE, freeze: +(TENSE - 0.1).toFixed(3),
   watched: at('watched', 2), num: at('watched', 6), ad: at('imagine', 2),
   s1: at('scale', 0), s2: at('scale', 3), d1: at('dm', 0), d2: at('dm', 4), d3: at('dm', 5), handle: +(L.dm.e + 0.05).toFixed(3),
 };

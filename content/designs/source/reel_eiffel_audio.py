@@ -6,7 +6,7 @@ Recorded effects come from the Mixkit free library (Mixkit Sound Effects Free Li
 and commercial videos, not to be redistributed on their own), so they are not kept in the repo: each is
 downloaded by id into <sfx_cache> the first time. The thumps and rises are synthesized. Music (120 bpm): the
 groove in C major (C, G, Am, F) from the first frame, with a hit on the whip up the tower; under the tension only a
-riser, a heartbeat and a clock; nothing but a low drone on "You've just watched this reel for 17 seconds"; then the
+riser, a heartbeat and a clock; nothing but a low drone on "You've just watched this reel for 15 seconds"; then the
 groove again, on a grid that puts a beat on "We scale businesses", resolving on C under the last line.
 Usage: python3 reel_eiffel_audio.py <vo.wav> <out.wav> <sfx_cache>
 """
