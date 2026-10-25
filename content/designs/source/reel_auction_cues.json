@@ -1,0 +1,573 @@
+{
+ "lines": {
+  "hook": {
+   "s": 0.05,
+   "e": 3.367,
+   "text": "nobody tells you a cheaper ad can beat yours on Instagram"
+  },
+  "auction": {
+   "s": 3.517,
+   "e": 5.674,
+   "text": "every ad you see there won an auction first"
+  },
+  "value": {
+   "s": 5.794,
+   "e": 8.4,
+   "text": "and the winner is the ad with the highest total value"
+  },
+  "formula": {
+   "s": 8.5,
+   "e": 12.942,
+   "text": "your bid times how likely that person is to act on it plus your ad's quality"
+  },
+  "so": {
+   "s": 13.242,
+   "e": 15.5,
+   "text": "so a better ad can win with a smaller bid"
+  },
+  "pitch": {
+   "s": 15.8,
+   "e": 18.155,
+   "text": "we scale brands with ads that win this auction"
+  },
+  "dm": {
+   "s": 18.305,
+   "e": 20.974,
+   "text": "DM us the word teardown for a free ad review"
+  }
+ },
+ "words": [
+  {
+   "w": "nobody",
+   "s": 0.113,
+   "e": 0.488,
+   "line": "hook"
+  },
+  {
+   "w": "tells",
+   "s": 0.538,
+   "e": 0.763,
+   "line": "hook"
+  },
+  {
+   "w": "you",
+   "s": 0.788,
+   "e": 0.863,
+   "line": "hook"
+  },
+  {
+   "w": "a",
+   "s": 0.863,
+   "e": 0.963,
+   "line": "hook"
+  },
+  {
+   "w": "cheaper",
+   "s": 0.963,
+   "e": 1.238,
+   "line": "hook"
+  },
+  {
+   "w": "ad",
+   "s": 1.338,
+   "e": 1.738,
+   "line": "hook"
+  },
+  {
+   "w": "can",
+   "s": 1.813,
+   "e": 1.963,
+   "line": "hook"
+  },
+  {
+   "w": "beat",
+   "s": 2.013,
+   "e": 2.188,
+   "line": "hook"
+  },
+  {
+   "w": "yours",
+   "s": 2.238,
+   "e": 2.588,
+   "line": "hook"
+  },
+  {
+   "w": "on",
+   "s": 2.688,
+   "e": 2.763,
+   "line": "hook"
+  },
+  {
+   "w": "Instagram",
+   "s": 2.813,
+   "e": 3.394,
+   "line": "hook"
+  },
+  {
+   "w": "every",
+   "s": 3.581,
+   "e": 3.831,
+   "line": "auction"
+  },
+  {
+   "w": "ad",
+   "s": 3.906,
+   "e": 4.081,
+   "line": "auction"
+  },
+  {
+   "w": "you",
+   "s": 4.106,
+   "e": 4.181,
+   "line": "auction"
+  },
+  {
+   "w": "see",
+   "s": 4.231,
+   "e": 4.331,
+   "line": "auction"
+  },
+  {
+   "w": "there",
+   "s": 4.356,
+   "e": 4.456,
+   "line": "auction"
+  },
+  {
+   "w": "won",
+   "s": 4.506,
+   "e": 4.681,
+   "line": "auction"
+  },
+  {
+   "w": "an",
+   "s": 4.756,
+   "e": 4.781,
+   "line": "auction"
+  },
+  {
+   "w": "auction",
+   "s": 4.831,
+   "e": 5.181,
+   "line": "auction"
+  },
+  {
+   "w": "first",
+   "s": 5.256,
+   "e": 5.709,
+   "line": "auction"
+  },
+  {
+   "w": "and",
+   "s": 5.858,
+   "e": 5.932,
+   "line": "value"
+  },
+  {
+   "w": "the",
+   "s": 5.958,
+   "e": 6.007,
+   "line": "value"
+  },
+  {
+   "w": "winner",
+   "s": 6.057,
+   "e": 6.232,
+   "line": "value"
+  },
+  {
+   "w": "is",
+   "s": 6.332,
+   "e": 6.408,
+   "line": "value"
+  },
+  {
+   "w": "the",
+   "s": 6.432,
+   "e": 6.482,
+   "line": "value"
+  },
+  {
+   "w": "ad",
+   "s": 6.608,
+   "e": 6.908,
+   "line": "value"
+  },
+  {
+   "w": "with",
+   "s": 6.958,
+   "e": 7.082,
+   "line": "value"
+  },
+  {
+   "w": "the",
+   "s": 7.082,
+   "e": 7.158,
+   "line": "value"
+  },
+  {
+   "w": "highest",
+   "s": 7.232,
+   "e": 7.632,
+   "line": "value"
+  },
+  {
+   "w": "total",
+   "s": 7.682,
+   "e": 7.958,
+   "line": "value"
+  },
+  {
+   "w": "value",
+   "s": 8.008,
+   "e": 8.412,
+   "line": "value"
+  },
+  {
+   "w": "your",
+   "s": 8.561,
+   "e": 8.711,
+   "line": "formula"
+  },
+  {
+   "w": "bid",
+   "s": 8.761,
+   "e": 9.086,
+   "line": "formula"
+  },
+  {
+   "w": "times",
+   "s": 9.186,
+   "e": 9.486,
+   "line": "formula"
+  },
+  {
+   "w": "how",
+   "s": 9.536,
+   "e": 9.711,
+   "line": "formula"
+  },
+  {
+   "w": "likely",
+   "s": 9.761,
+   "e": 10.111,
+   "line": "formula"
+  },
+  {
+   "w": "that",
+   "s": 10.161,
+   "e": 10.261,
+   "line": "formula"
+  },
+  {
+   "w": "person",
+   "s": 10.311,
+   "e": 10.661,
+   "line": "formula"
+  },
+  {
+   "w": "is",
+   "s": 10.711,
+   "e": 10.786,
+   "line": "formula"
+  },
+  {
+   "w": "to",
+   "s": 10.836,
+   "e": 10.861,
+   "line": "formula"
+  },
+  {
+   "w": "act",
+   "s": 10.986,
+   "e": 11.186,
+   "line": "formula"
+  },
+  {
+   "w": "on",
+   "s": 11.211,
+   "e": 11.361,
+   "line": "formula"
+  },
+  {
+   "w": "it",
+   "s": 11.411,
+   "e": 11.686,
+   "line": "formula"
+  },
+  {
+   "w": "plus",
+   "s": 11.811,
+   "e": 12.011,
+   "line": "formula"
+  },
+  {
+   "w": "your",
+   "s": 12.036,
+   "e": 12.136,
+   "line": "formula"
+  },
+  {
+   "w": "ad's",
+   "s": 12.211,
+   "e": 12.436,
+   "line": "formula"
+  },
+  {
+   "w": "quality",
+   "s": 12.486,
+   "e": 12.95,
+   "line": "formula"
+  },
+  {
+   "w": "so",
+   "s": 13.351,
+   "e": 13.451,
+   "line": "so"
+  },
+  {
+   "w": "a",
+   "s": 13.451,
+   "e": 13.551,
+   "line": "so"
+  },
+  {
+   "w": "better",
+   "s": 13.551,
+   "e": 13.751,
+   "line": "so"
+  },
+  {
+   "w": "ad",
+   "s": 13.851,
+   "e": 14.101,
+   "line": "so"
+  },
+  {
+   "w": "can",
+   "s": 14.151,
+   "e": 14.301,
+   "line": "so"
+  },
+  {
+   "w": "win",
+   "s": 14.351,
+   "e": 14.526,
+   "line": "so"
+  },
+  {
+   "w": "with",
+   "s": 14.576,
+   "e": 14.676,
+   "line": "so"
+  },
+  {
+   "w": "a",
+   "s": 14.676,
+   "e": 14.801,
+   "line": "so"
+  },
+  {
+   "w": "smaller",
+   "s": 14.801,
+   "e": 15.126,
+   "line": "so"
+  },
+  {
+   "w": "bid",
+   "s": 15.176,
+   "e": 15.518,
+   "line": "so"
+  },
+  {
+   "w": "we",
+   "s": 15.844,
+   "e": 15.919,
+   "line": "pitch"
+  },
+  {
+   "w": "scale",
+   "s": 15.969,
+   "e": 16.244,
+   "line": "pitch"
+  },
+  {
+   "w": "brands",
+   "s": 16.294,
+   "e": 16.619,
+   "line": "pitch"
+  },
+  {
+   "w": "with",
+   "s": 16.644,
+   "e": 16.769,
+   "line": "pitch"
+  },
+  {
+   "w": "ads",
+   "s": 16.844,
+   "e": 17.194,
+   "line": "pitch"
+  },
+  {
+   "w": "that",
+   "s": 17.244,
+   "e": 17.344,
+   "line": "pitch"
+  },
+  {
+   "w": "win",
+   "s": 17.394,
+   "e": 17.519,
+   "line": "pitch"
+  },
+  {
+   "w": "this",
+   "s": 17.544,
+   "e": 17.669,
+   "line": "pitch"
+  },
+  {
+   "w": "auction",
+   "s": 17.719,
+   "e": 18.168,
+   "line": "pitch"
+  },
+  {
+   "w": "DM",
+   "s": 18.378,
+   "e": 18.728,
+   "line": "dm"
+  },
+  {
+   "w": "us",
+   "s": 18.778,
+   "e": 18.928,
+   "line": "dm"
+  },
+  {
+   "w": "the",
+   "s": 18.953,
+   "e": 19.003,
+   "line": "dm"
+  },
+  {
+   "w": "word",
+   "s": 19.053,
+   "e": 19.228,
+   "line": "dm"
+  },
+  {
+   "w": "teardown",
+   "s": 19.278,
+   "e": 19.803,
+   "line": "dm"
+  },
+  {
+   "w": "for",
+   "s": 19.878,
+   "e": 20.028,
+   "line": "dm"
+  },
+  {
+   "w": "a",
+   "s": 20.028,
+   "e": 20.153,
+   "line": "dm"
+  },
+  {
+   "w": "free",
+   "s": 20.153,
+   "e": 20.353,
+   "line": "dm"
+  },
+  {
+   "w": "ad",
+   "s": 20.403,
+   "e": 20.553,
+   "line": "dm"
+  },
+  {
+   "w": "review",
+   "s": 20.603,
+   "e": 21.015,
+   "line": "dm"
+  }
+ ],
+ "voice_end": 20.974,
+ "end": 21.575,
+ "at": {
+  "hook:nobody": 0.113,
+  "hook:tells": 0.538,
+  "hook:you": 0.788,
+  "hook:a": 0.863,
+  "hook:cheaper": 0.963,
+  "hook:ad": 1.338,
+  "hook:can": 1.813,
+  "hook:beat": 2.013,
+  "hook:yours": 2.238,
+  "hook:on": 2.688,
+  "hook:Instagram": 2.813,
+  "auction:every": 3.581,
+  "auction:ad": 3.906,
+  "auction:you": 4.106,
+  "auction:see": 4.231,
+  "auction:there": 4.356,
+  "auction:won": 4.506,
+  "auction:an": 4.756,
+  "auction:auction": 4.831,
+  "auction:first": 5.256,
+  "value:and": 5.858,
+  "value:the": 7.082,
+  "value:winner": 6.057,
+  "value:is": 6.332,
+  "value:ad": 6.608,
+  "value:with": 6.958,
+  "value:highest": 7.232,
+  "value:total": 7.682,
+  "value:value": 8.008,
+  "formula:your": 12.036,
+  "formula:bid": 8.761,
+  "formula:times": 9.186,
+  "formula:how": 9.536,
+  "formula:likely": 9.761,
+  "formula:that": 10.161,
+  "formula:person": 10.311,
+  "formula:is": 10.711,
+  "formula:to": 10.836,
+  "formula:act": 10.986,
+  "formula:on": 11.211,
+  "formula:it": 11.411,
+  "formula:plus": 11.811,
+  "formula:ad's": 12.211,
+  "formula:quality": 12.486,
+  "so:so": 13.351,
+  "so:a": 14.676,
+  "so:better": 13.551,
+  "so:ad": 13.851,
+  "so:can": 14.151,
+  "so:win": 14.351,
+  "so:with": 14.576,
+  "so:smaller": 14.801,
+  "so:bid": 15.176,
+  "pitch:we": 15.844,
+  "pitch:scale": 15.969,
+  "pitch:brands": 16.294,
+  "pitch:with": 16.644,
+  "pitch:ads": 16.844,
+  "pitch:that": 17.244,
+  "pitch:win": 17.394,
+  "pitch:this": 17.544,
+  "pitch:auction": 17.719,
+  "dm:DM": 18.378,
+  "dm:us": 18.778,
+  "dm:the": 18.953,
+  "dm:word": 19.053,
+  "dm:teardown": 19.278,
+  "dm:for": 19.878,
+  "dm:a": 20.028,
+  "dm:free": 20.153,
+  "dm:ad": 20.403,
+  "dm:review": 20.603
+ }
+}
