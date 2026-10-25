@@ -1,0 +1,1350 @@
+{
+ "cues": {
+  "lines": {
+   "hook": {
+    "s": 0.05,
+    "e": 3.405,
+    "text": "nobody tells you the Eiffel Tower has a secret apartment at the top"
+   },
+   "built": {
+    "s": 3.525,
+    "e": 5.442,
+    "text": "Gustave Eiffel built it for himself"
+   },
+   "offers": {
+    "s": 5.562,
+    "e": 8.483,
+    "text": "Paris's rich offered fortunes to rent it for one night"
+   },
+   "no": {
+    "s": 8.533,
+    "e": 9.898,
+    "text": "he said no to all of them"
+   },
+   "guest": {
+    "s": 10.018,
+    "e": 12.257,
+    "text": "his most famous guest Thomas Edison"
+   },
+   "wax": {
+    "s": 12.377,
+    "e": 14.51,
+    "text": "and they're both still up there in wax"
+   },
+   "watched": {
+    "s": 15.51,
+    "e": 18.105,
+    "text": "you've just watched this reel for 17 seconds"
+   },
+   "imagine": {
+    "s": 18.355,
+    "e": 20.33,
+    "text": "imagine your ad held people that long"
+   },
+   "scale": {
+    "s": 20.58,
+    "e": 22.633,
+    "text": "we scale businesses with ads like this"
+   },
+   "dm": {
+    "s": 22.783,
+    "e": 25.452,
+    "text": "DM us the word teardown for a free ad review"
+   }
+  },
+  "words": [
+   {
+    "w": "nobody",
+    "s": 0.119,
+    "e": 0.494,
+    "line": "hook"
+   },
+   {
+    "w": "tells",
+    "s": 0.544,
+    "e": 0.769,
+    "line": "hook"
+   },
+   {
+    "w": "you",
+    "s": 0.794,
+    "e": 0.869,
+    "line": "hook"
+   },
+   {
+    "w": "the",
+    "s": 0.894,
+    "e": 0.919,
+    "line": "hook"
+   },
+   {
+    "w": "Eiffel",
+    "s": 1.044,
+    "e": 1.344,
+    "line": "hook"
+   },
+   {
+    "w": "Tower",
+    "s": 1.394,
+    "e": 1.869,
+    "line": "hook"
+   },
+   {
+    "w": "has",
+    "s": 1.919,
+    "e": 2.044,
+    "line": "hook"
+   },
+   {
+    "w": "a",
+    "s": 2.044,
+    "e": 2.219,
+    "line": "hook"
+   },
+   {
+    "w": "secret",
+    "s": 2.219,
+    "e": 2.544,
+    "line": "hook"
+   },
+   {
+    "w": "apartment",
+    "s": 2.569,
+    "e": 2.969,
+    "line": "hook"
+   },
+   {
+    "w": "at",
+    "s": 2.994,
+    "e": 3.044,
+    "line": "hook"
+   },
+   {
+    "w": "the",
+    "s": 3.069,
+    "e": 3.119,
+    "line": "hook"
+   },
+   {
+    "w": "top",
+    "s": 3.169,
+    "e": 3.506,
+    "line": "hook"
+   },
+   {
+    "w": "Gustave",
+    "s": 3.573,
+    "e": 3.998,
+    "line": "built"
+   },
+   {
+    "w": "Eiffel",
+    "s": 4.048,
+    "e": 4.398,
+    "line": "built"
+   },
+   {
+    "w": "built",
+    "s": 4.473,
+    "e": 4.673,
+    "line": "built"
+   },
+   {
+    "w": "it",
+    "s": 4.698,
+    "e": 4.748,
+    "line": "built"
+   },
+   {
+    "w": "for",
+    "s": 4.798,
+    "e": 4.898,
+    "line": "built"
+   },
+   {
+    "w": "himself",
+    "s": 4.923,
+    "e": 5.467,
+    "line": "built"
+   },
+   {
+    "w": "Paris's",
+    "s": 5.626,
+    "e": 6.076,
+    "line": "offers"
+   },
+   {
+    "w": "rich",
+    "s": 6.151,
+    "e": 6.526,
+    "line": "offers"
+   },
+   {
+    "w": "offered",
+    "s": 6.601,
+    "e": 6.901,
+    "line": "offers"
+   },
+   {
+    "w": "fortunes",
+    "s": 6.951,
+    "e": 7.551,
+    "line": "offers"
+   },
+   {
+    "w": "to",
+    "s": 7.626,
+    "e": 7.651,
+    "line": "offers"
+   },
+   {
+    "w": "rent",
+    "s": 7.751,
+    "e": 7.876,
+    "line": "offers"
+   },
+   {
+    "w": "it",
+    "s": 7.901,
+    "e": 7.951,
+    "line": "offers"
+   },
+   {
+    "w": "for",
+    "s": 8.001,
+    "e": 8.101,
+    "line": "offers"
+   },
+   {
+    "w": "one",
+    "s": 8.151,
+    "e": 8.251,
+    "line": "offers"
+   },
+   {
+    "w": "night",
+    "s": 8.276,
+    "e": 8.548,
+    "line": "offers"
+   },
+   {
+    "w": "he",
+    "s": 8.597,
+    "e": 8.697,
+    "line": "no"
+   },
+   {
+    "w": "said",
+    "s": 8.747,
+    "e": 8.947,
+    "line": "no"
+   },
+   {
+    "w": "no",
+    "s": 8.997,
+    "e": 9.222,
+    "line": "no"
+   },
+   {
+    "w": "to",
+    "s": 9.272,
+    "e": 9.322,
+    "line": "no"
+   },
+   {
+    "w": "all",
+    "s": 9.422,
+    "e": 9.572,
+    "line": "no"
+   },
+   {
+    "w": "of",
+    "s": 9.597,
+    "e": 9.647,
+    "line": "no"
+   },
+   {
+    "w": "them",
+    "s": 9.672,
+    "e": 9.961,
+    "line": "no"
+   },
+   {
+    "w": "his",
+    "s": 10.064,
+    "e": 10.189,
+    "line": "guest"
+   },
+   {
+    "w": "most",
+    "s": 10.214,
+    "e": 10.439,
+    "line": "guest"
+   },
+   {
+    "w": "famous",
+    "s": 10.489,
+    "e": 10.814,
+    "line": "guest"
+   },
+   {
+    "w": "guest",
+    "s": 10.864,
+    "e": 11.289,
+    "line": "guest"
+   },
+   {
+    "w": "Thomas",
+    "s": 11.414,
+    "e": 11.714,
+    "line": "guest"
+   },
+   {
+    "w": "Edison",
+    "s": 11.764,
+    "e": 12.26,
+    "line": "guest"
+   },
+   {
+    "w": "and",
+    "s": 12.446,
+    "e": 12.521,
+    "line": "wax"
+   },
+   {
+    "w": "they're",
+    "s": 12.546,
+    "e": 12.696,
+    "line": "wax"
+   },
+   {
+    "w": "both",
+    "s": 12.746,
+    "e": 12.971,
+    "line": "wax"
+   },
+   {
+    "w": "still",
+    "s": 13.021,
+    "e": 13.196,
+    "line": "wax"
+   },
+   {
+    "w": "up",
+    "s": 13.246,
+    "e": 13.346,
+    "line": "wax"
+   },
+   {
+    "w": "there",
+    "s": 13.371,
+    "e": 13.746,
+    "line": "wax"
+   },
+   {
+    "w": "in",
+    "s": 13.896,
+    "e": 13.996,
+    "line": "wax"
+   },
+   {
+    "w": "wax",
+    "s": 14.046,
+    "e": 14.51,
+    "line": "wax"
+   },
+   {
+    "w": "you've",
+    "s": 15.611,
+    "e": 15.761,
+    "line": "watched"
+   },
+   {
+    "w": "just",
+    "s": 15.811,
+    "e": 16.061,
+    "line": "watched"
+   },
+   {
+    "w": "watched",
+    "s": 16.111,
+    "e": 16.436,
+    "line": "watched"
+   },
+   {
+    "w": "this",
+    "s": 16.486,
+    "e": 16.636,
+    "line": "watched"
+   },
+   {
+    "w": "reel",
+    "s": 16.686,
+    "e": 16.936,
+    "line": "watched"
+   },
+   {
+    "w": "for",
+    "s": 16.986,
+    "e": 17.086,
+    "line": "watched"
+   },
+   {
+    "w": "17",
+    "s": 17.136,
+    "e": 17.561,
+    "line": "watched"
+   },
+   {
+    "w": "seconds",
+    "s": 17.611,
+    "e": 18.176,
+    "line": "watched"
+   },
+   {
+    "w": "imagine",
+    "s": 18.424,
+    "e": 18.849,
+    "line": "imagine"
+   },
+   {
+    "w": "your",
+    "s": 18.899,
+    "e": 18.974,
+    "line": "imagine"
+   },
+   {
+    "w": "ad",
+    "s": 19.024,
+    "e": 19.174,
+    "line": "imagine"
+   },
+   {
+    "w": "held",
+    "s": 19.224,
+    "e": 19.424,
+    "line": "imagine"
+   },
+   {
+    "w": "people",
+    "s": 19.474,
+    "e": 19.774,
+    "line": "imagine"
+   },
+   {
+    "w": "that",
+    "s": 19.824,
+    "e": 19.974,
+    "line": "imagine"
+   },
+   {
+    "w": "long",
+    "s": 20.024,
+    "e": 20.361,
+    "line": "imagine"
+   },
+   {
+    "w": "we",
+    "s": 20.635,
+    "e": 20.735,
+    "line": "scale"
+   },
+   {
+    "w": "scale",
+    "s": 20.785,
+    "e": 21.085,
+    "line": "scale"
+   },
+   {
+    "w": "businesses",
+    "s": 21.135,
+    "e": 21.66,
+    "line": "scale"
+   },
+   {
+    "w": "with",
+    "s": 21.685,
+    "e": 21.81,
+    "line": "scale"
+   },
+   {
+    "w": "ads",
+    "s": 21.885,
+    "e": 22.11,
+    "line": "scale"
+   },
+   {
+    "w": "like",
+    "s": 22.135,
+    "e": 22.285,
+    "line": "scale"
+   },
+   {
+    "w": "this",
+    "s": 22.335,
+    "e": 22.636,
+    "line": "scale"
+   },
+   {
+    "w": "DM",
+    "s": 22.856,
+    "e": 23.206,
+    "line": "dm"
+   },
+   {
+    "w": "us",
+    "s": 23.256,
+    "e": 23.406,
+    "line": "dm"
+   },
+   {
+    "w": "the",
+    "s": 23.431,
+    "e": 23.481,
+    "line": "dm"
+   },
+   {
+    "w": "word",
+    "s": 23.531,
+    "e": 23.706,
+    "line": "dm"
+   },
+   {
+    "w": "teardown",
+    "s": 23.756,
+    "e": 24.281,
+    "line": "dm"
+   },
+   {
+    "w": "for",
+    "s": 24.356,
+    "e": 24.506,
+    "line": "dm"
+   },
+   {
+    "w": "a",
+    "s": 24.506,
+    "e": 24.631,
+    "line": "dm"
+   },
+   {
+    "w": "free",
+    "s": 24.631,
+    "e": 24.831,
+    "line": "dm"
+   },
+   {
+    "w": "ad",
+    "s": 24.881,
+    "e": 25.031,
+    "line": "dm"
+   },
+   {
+    "w": "review",
+    "s": 25.081,
+    "e": 25.492,
+    "line": "dm"
+   }
+  ],
+  "voice_end": 25.452,
+  "end": 26.052,
+  "at": {
+   "hook:nobody": 0.119,
+   "hook:tells": 0.544,
+   "hook:you": 0.794,
+   "hook:the": 3.069,
+   "hook:Eiffel": 1.044,
+   "hook:Tower": 1.394,
+   "hook:has": 1.919,
+   "hook:a": 2.044,
+   "hook:secret": 2.219,
+   "hook:apartment": 2.569,
+   "hook:at": 2.994,
+   "hook:top": 3.169,
+   "built:Gustave": 3.573,
+   "built:Eiffel": 4.048,
+   "built:built": 4.473,
+   "built:it": 4.698,
+   "built:for": 4.798,
+   "built:himself": 4.923,
+   "offers:Paris's": 5.626,
+   "offers:rich": 6.151,
+   "offers:offered": 6.601,
+   "offers:fortunes": 6.951,
+   "offers:to": 7.626,
+   "offers:rent": 7.751,
+   "offers:it": 7.901,
+   "offers:for": 8.001,
+   "offers:one": 8.151,
+   "offers:night": 8.276,
+   "no:he": 8.597,
+   "no:said": 8.747,
+   "no:no": 8.997,
+   "no:to": 9.272,
+   "no:all": 9.422,
+   "no:of": 9.597,
+   "no:them": 9.672,
+   "guest:his": 10.064,
+   "guest:most": 10.214,
+   "guest:famous": 10.489,
+   "guest:guest": 10.864,
+   "guest:Thomas": 11.414,
+   "guest:Edison": 11.764,
+   "wax:and": 12.446,
+   "wax:they're": 12.546,
+   "wax:both": 12.746,
+   "wax:still": 13.021,
+   "wax:up": 13.246,
+   "wax:there": 13.371,
+   "wax:in": 13.896,
+   "wax:wax": 14.046,
+   "watched:you've": 15.611,
+   "watched:just": 15.811,
+   "watched:watched": 16.111,
+   "watched:this": 16.486,
+   "watched:reel": 16.686,
+   "watched:for": 16.986,
+   "watched:17": 17.136,
+   "watched:seconds": 17.611,
+   "imagine:imagine": 18.424,
+   "imagine:your": 18.899,
+   "imagine:ad": 19.024,
+   "imagine:held": 19.224,
+   "imagine:people": 19.474,
+   "imagine:that": 19.824,
+   "imagine:long": 20.024,
+   "scale:we": 20.635,
+   "scale:scale": 20.785,
+   "scale:businesses": 21.135,
+   "scale:with": 21.685,
+   "scale:ads": 21.885,
+   "scale:like": 22.135,
+   "scale:this": 22.335,
+   "dm:DM": 22.856,
+   "dm:us": 23.256,
+   "dm:the": 23.431,
+   "dm:word": 23.531,
+   "dm:teardown": 23.756,
+   "dm:for": 24.356,
+   "dm:a": 24.506,
+   "dm:free": 24.631,
+   "dm:ad": 24.881,
+   "dm:review": 25.081
+  }
+ },
+ "shots": [
+  {
+   "key": "hook",
+   "s": 0,
+   "e": 3.525,
+   "tin": "none"
+  },
+  {
+   "key": "built",
+   "s": 3.525,
+   "e": 5.562,
+   "tin": "none"
+  },
+  {
+   "key": "offers",
+   "s": 5.562,
+   "e": 10.018,
+   "tin": "none"
+  },
+  {
+   "key": "guest",
+   "s": 10.018,
+   "e": 12.377,
+   "tin": "none"
+  },
+  {
+   "key": "wax",
+   "s": 12.377,
+   "e": 14.53,
+   "tin": "none"
+  },
+  {
+   "key": "tense",
+   "s": 14.53,
+   "e": 15.51,
+   "tin": "none"
+  },
+  {
+   "key": "phone",
+   "s": 15.51,
+   "e": 20.58,
+   "tin": "cut"
+  },
+  {
+   "key": "pitch",
+   "s": 20.58,
+   "e": 26.052,
+   "tin": "cut"
+  }
+ ],
+ "captions": [
+  {
+   "text": "Gustave",
+   "s": 3.573,
+   "line": "built",
+   "hl": false,
+   "e": 4.048
+  },
+  {
+   "text": "Eiffel",
+   "s": 4.048,
+   "line": "built",
+   "hl": false,
+   "e": 4.473
+  },
+  {
+   "text": "built",
+   "s": 4.473,
+   "line": "built",
+   "hl": false,
+   "e": 4.698
+  },
+  {
+   "text": "it for himself",
+   "s": 4.698,
+   "line": "built",
+   "hl": false,
+   "e": 5.626
+  },
+  {
+   "text": "Paris's",
+   "s": 5.626,
+   "line": "offers",
+   "hl": false,
+   "e": 6.151
+  },
+  {
+   "text": "rich",
+   "s": 6.151,
+   "line": "offers",
+   "hl": false,
+   "e": 6.601
+  },
+  {
+   "text": "offered",
+   "s": 6.601,
+   "line": "offers",
+   "hl": false,
+   "e": 6.951
+  },
+  {
+   "text": "fortunes",
+   "s": 6.951,
+   "line": "offers",
+   "hl": true,
+   "e": 7.626
+  },
+  {
+   "text": "to rent",
+   "s": 7.626,
+   "line": "offers",
+   "hl": false,
+   "e": 7.901
+  },
+  {
+   "text": "it for",
+   "s": 7.901,
+   "line": "offers",
+   "hl": false,
+   "e": 8.151
+  },
+  {
+   "text": "one night",
+   "s": 8.151,
+   "line": "offers",
+   "hl": false,
+   "e": 8.597
+  },
+  {
+   "text": "he",
+   "s": 8.597,
+   "line": "no",
+   "hl": false,
+   "e": 8.747
+  },
+  {
+   "text": "said",
+   "s": 8.747,
+   "line": "no",
+   "hl": false,
+   "e": 8.997
+  },
+  {
+   "text": "no",
+   "s": 8.997,
+   "line": "no",
+   "hl": true,
+   "e": 9.272
+  },
+  {
+   "text": "to",
+   "s": 9.272,
+   "line": "no",
+   "hl": false,
+   "e": 9.422
+  },
+  {
+   "text": "all",
+   "s": 9.422,
+   "line": "no",
+   "hl": false,
+   "e": 9.597
+  },
+  {
+   "text": "of them",
+   "s": 9.597,
+   "line": "no",
+   "hl": false,
+   "e": 10.064
+  },
+  {
+   "text": "his",
+   "s": 10.064,
+   "line": "guest",
+   "hl": false,
+   "e": 10.214
+  },
+  {
+   "text": "most",
+   "s": 10.214,
+   "line": "guest",
+   "hl": false,
+   "e": 10.489
+  },
+  {
+   "text": "famous",
+   "s": 10.489,
+   "line": "guest",
+   "hl": false,
+   "e": 10.864
+  },
+  {
+   "text": "guest",
+   "s": 10.864,
+   "line": "guest",
+   "hl": false,
+   "e": 11.414
+  },
+  {
+   "text": "Thomas",
+   "s": 11.414,
+   "line": "guest",
+   "hl": false,
+   "e": 11.764
+  },
+  {
+   "text": "Edison",
+   "s": 11.764,
+   "line": "guest",
+   "hl": true,
+   "e": 12.446
+  },
+  {
+   "text": "and they're",
+   "s": 12.446,
+   "line": "wax",
+   "hl": false,
+   "e": 12.746
+  },
+  {
+   "text": "both",
+   "s": 12.746,
+   "line": "wax",
+   "hl": false,
+   "e": 13.021
+  },
+  {
+   "text": "still",
+   "s": 13.021,
+   "line": "wax",
+   "hl": false,
+   "e": 13.246
+  },
+  {
+   "text": "up there",
+   "s": 13.246,
+   "line": "wax",
+   "hl": false,
+   "e": 13.896
+  },
+  {
+   "text": "in",
+   "s": 13.896,
+   "line": "wax",
+   "hl": false,
+   "e": 14.046
+  },
+  {
+   "text": "wax",
+   "s": 14.046,
+   "line": "wax",
+   "hl": true,
+   "e": 14.53
+  },
+  {
+   "text": "you've",
+   "s": 15.611,
+   "line": "watched",
+   "hl": false,
+   "e": 15.811
+  },
+  {
+   "text": "just",
+   "s": 15.811,
+   "line": "watched",
+   "hl": false,
+   "e": 16.111
+  },
+  {
+   "text": "watched",
+   "s": 16.111,
+   "line": "watched",
+   "hl": false,
+   "e": 16.486
+  },
+  {
+   "text": "this",
+   "s": 16.486,
+   "line": "watched",
+   "hl": false,
+   "e": 16.686
+  },
+  {
+   "text": "reel",
+   "s": 16.686,
+   "line": "watched",
+   "hl": false,
+   "e": 16.986
+  },
+  {
+   "text": "for",
+   "s": 16.986,
+   "line": "watched",
+   "hl": false,
+   "e": 17.136
+  },
+  {
+   "text": "17",
+   "s": 17.136,
+   "line": "watched",
+   "hl": true,
+   "e": 17.611
+  },
+  {
+   "text": "seconds",
+   "s": 17.611,
+   "line": "watched",
+   "hl": false,
+   "e": 18.424
+  },
+  {
+   "text": "imagine",
+   "s": 18.424,
+   "line": "imagine",
+   "hl": false,
+   "e": 18.899
+  },
+  {
+   "text": "your ad",
+   "s": 18.899,
+   "line": "imagine",
+   "hl": false,
+   "e": 19.224
+  },
+  {
+   "text": "held",
+   "s": 19.224,
+   "line": "imagine",
+   "hl": false,
+   "e": 19.474
+  },
+  {
+   "text": "people",
+   "s": 19.474,
+   "line": "imagine",
+   "hl": false,
+   "e": 19.824
+  },
+  {
+   "text": "that",
+   "s": 19.824,
+   "line": "imagine",
+   "hl": false,
+   "e": 20.024
+  },
+  {
+   "text": "long",
+   "s": 20.024,
+   "line": "imagine",
+   "hl": false,
+   "e": 20.58
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "k": "hit",
+   "g": 0.45
+  },
+  {
+   "t": 0.02,
+   "k": "whoosh_c",
+   "g": 0.5
+  },
+  {
+   "t": 0.05,
+   "k": "deep",
+   "g": 0.4
+  },
+  {
+   "t": 0.8,
+   "k": "zoom",
+   "g": 0.2
+  },
+  {
+   "t": 2.569,
+   "k": "swish",
+   "g": 0.26,
+   "pan": -0.2
+  },
+  {
+   "t": 2.689,
+   "k": "select",
+   "g": 0.22
+  },
+  {
+   "t": 3.169,
+   "k": "pop",
+   "g": 0.3,
+   "pan": 0.25
+  },
+  {
+   "t": 3.493,
+   "k": "whoosh_soft",
+   "g": 0.35
+  },
+  {
+   "t": 3.693,
+   "k": "pop",
+   "g": 0.28
+  },
+  {
+   "t": 4.048,
+   "k": "select",
+   "g": 0.24
+  },
+  {
+   "t": 6.951,
+   "k": "sparkle",
+   "g": 0.24
+  },
+  {
+   "t": 7.751,
+   "k": "pop",
+   "g": 0.28,
+   "pan": 0.25
+  },
+  {
+   "t": 8.977,
+   "k": "thump",
+   "g": 0.42
+  },
+  {
+   "t": 8.997,
+   "k": "hit",
+   "g": 0.3
+  },
+  {
+   "t": 10.764,
+   "k": "whoosh_soft",
+   "g": 0.32,
+   "pan": 0.3
+  },
+  {
+   "t": 10.964,
+   "k": "pop",
+   "g": 0.26,
+   "pan": 0.25
+  },
+  {
+   "t": 11.764,
+   "k": "select",
+   "g": 0.24
+  },
+  {
+   "t": 12.064,
+   "k": "pop",
+   "g": 0.26,
+   "pan": 0.25
+  },
+  {
+   "t": 12.666,
+   "k": "whoosh_soft",
+   "g": 0.35
+  },
+  {
+   "t": 12.866,
+   "k": "pop",
+   "g": 0.28
+  },
+  {
+   "t": 13.021,
+   "k": "select",
+   "g": 0.2,
+   "pan": -0.25
+  },
+  {
+   "t": 13.201,
+   "k": "select",
+   "g": 0.2,
+   "pan": 0.25
+  },
+  {
+   "t": 14.046,
+   "k": "pop",
+   "g": 0.3
+  },
+  {
+   "t": 14.086,
+   "k": "sparkle",
+   "g": 0.22
+  },
+  {
+   "t": 14.53,
+   "k": "riser",
+   "g": 0.24,
+   "d": 0.9800000000000004
+  },
+  {
+   "t": 14.65,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 14.82,
+   "k": "thump",
+   "g": 0.24
+  },
+  {
+   "t": 15.13,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 15.3,
+   "k": "thump",
+   "g": 0.24
+  },
+  {
+   "t": 15.61,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 15.78,
+   "k": "thump",
+   "g": 0.24
+  },
+  {
+   "t": 14.58,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 14.83,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 15.08,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 15.33,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 15.48,
+   "k": "deep",
+   "g": 0.45
+  },
+  {
+   "t": 15.51,
+   "k": "hit",
+   "g": 0.45
+  },
+  {
+   "t": 15.46,
+   "k": "zoom_out",
+   "g": 0.18
+  },
+  {
+   "t": 16.533,
+   "k": "tick",
+   "g": 0.09100000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 16.593,
+   "k": "tick",
+   "g": 0.094,
+   "pan": 0.2
+  },
+  {
+   "t": 16.654,
+   "k": "tick",
+   "g": 0.097,
+   "pan": 0.2
+  },
+  {
+   "t": 16.714,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0.2
+  },
+  {
+   "t": 16.774,
+   "k": "tick",
+   "g": 0.10300000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 16.835,
+   "k": "tick",
+   "g": 0.10600000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 16.895,
+   "k": "tick",
+   "g": 0.10900000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 16.955,
+   "k": "tick",
+   "g": 0.11200000000000002,
+   "pan": 0.2
+  },
+  {
+   "t": 17.015,
+   "k": "tick",
+   "g": 0.115,
+   "pan": 0.2
+  },
+  {
+   "t": 17.076,
+   "k": "tick",
+   "g": 0.11800000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 17.136,
+   "k": "tick",
+   "g": 0.12100000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 17.136,
+   "k": "select",
+   "g": 0.3
+  },
+  {
+   "t": 19.024,
+   "k": "pop",
+   "g": 0.3
+  },
+  {
+   "t": 19.104,
+   "k": "swish",
+   "g": 0.24,
+   "pan": 0.3
+  },
+  {
+   "t": 20.54,
+   "k": "deep",
+   "g": 0.35
+  },
+  {
+   "t": 20.58,
+   "k": "whoosh_f",
+   "g": 0.26
+  },
+  {
+   "t": 22.806,
+   "k": "whoosh_soft",
+   "g": 0.28
+  },
+  {
+   "t": 23.756,
+   "k": "hit",
+   "g": 0.34
+  },
+  {
+   "t": 25.502,
+   "k": "pop",
+   "g": 0.3
+  }
+ ],
+ "music": {
+  "beat": 0,
+  "tense": 14.53,
+  "phone": 15.51,
+  "drop": 18.355,
+  "last": 20.58,
+  "end": 22.783
+ },
+ "blur": [
+  [
+   0,
+   0.9500000000000001,
+   8
+  ],
+  [
+   3.503,
+   4.223,
+   6
+  ],
+  [
+   10.744000000000002,
+   11.364,
+   4
+  ],
+  [
+   12.676,
+   13.346,
+   6
+  ],
+  [
+   15.229999999999999,
+   15.51,
+   4
+  ],
+  [
+   15.49,
+   16.16,
+   8
+  ],
+  [
+   19.004,
+   19.374000000000002,
+   4
+  ],
+  [
+   22.836000000000002,
+   23.256,
+   4
+  ]
+ ]
+}
