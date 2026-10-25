@@ -229,34 +229,34 @@ Rebuild: `python3 source/reel_edits_vo.py <kokoro-dir> <tmp>` → `node source/r
 >
 > #metaads #facebookads #adsmanager
 
-## Reel: "What's on the top floors of the Burj Khalifa" (switch reel)
-File: `reels/mezmedia_reel_burj.mp4` (1080×1920, 30fps, 29.1s, Kokoro af_heart voiceover at a natural pace + music + SFX, -14 LUFS, voice 14.8 dB over the bed). Mez Media's look from start to end: Inter type, captions one word at a time just below the centre, white outlines and pills over the photo. It opens as a facts reel: the written hook "Let me explain what's on the top floors of the Burj Khalifa" over the tower, slowly zooming in; the camera climbs to the top, floors 152–154 get a white outline and a "Floors 152–154" pill, and a dashed line measures 585 m up from the ground. The camera drops and The Lounge's photo card comes out of those floors, with "The Lounge", "World record" (Guinness World Records: highest lounge in a building, 585.36 m, level 154) and "Booking only" pills. Then the colour drains under a heartbeat and a clock (0:16, 0:17), and it switches: the reel shrinks into an iPhone on black, its clock counts to 0:19 ("You just watched this reel for 19 seconds", the real time when it is spoken), the post turns into an ad (yourbrand · Sponsored · Book now), and the pitch is on screen as big type: "We scale businesses with ads like this. DM us the word teardown for a free ad review." The end card's pill reads DM "TEARDOWN" and gets a silent tap.
-The floor outline is placed from the tower's known heights (a perspective fit through the antenna tip and the copper mechanical bands at levels 40-42, 73-75, 109-111 and 136-138), good to a couple of floors.
+## Reel: "Nobody tells you the Burj Khalifa has a lounge above its observation deck" (switch reel, v2)
+File: `reels/mezmedia_reel_burj_v2.mp4` (1080×1920, 30fps, 24.5s, Kokoro af_heart voiceover at a natural pace + music + SFX, -14 LUFS, voice 14.3 dB over the bed). The retention rebuild of `reels/mezmedia_reel_burj.mp4` (v1, 29.1s), which 87% of viewers skipped in the first seconds: v1 opened on "Let me explain what's on the top floors of the Burj Khalifa" (hook score 34.8) over a slow zoom on a still tower. v2 opens on a curiosity gap (hook score 81.6) with the written hook "A lounge above the observation deck." on screen from frame 0, and the camera whips up the tower from the first frame. Mez Media's look from start to end: Inter type, captions one word at a time just below the centre, white outlines and pills over the photo. Floors 152–154 get a white outline and a "Floors 152–154" pill with the observation deck marked below them, and a dashed line measures 585 m up from the ground. The camera drops and The Lounge's photo card comes out of those floors, with "The Lounge", "World record" (Guinness World Records: highest lounge in a building, 585.36 m, level 154) and "Booking only" pills. Then the colour drains under a heartbeat and a clock, and it switches: the reel shrinks into an iPhone on black, its clock counts to 0:15 ("You've just watched this reel for 15 seconds", the real time when it is spoken), the post turns into an ad (yourbrand · Sponsored · Book now), and the pitch is on screen as big type: "We scale businesses with ads like this. DM us the word teardown for a free ad review." No end card: the last frame cuts back into the hook, so it loops. 13 s of facts instead of 16.
+The floor outline is placed from the tower's known heights (a perspective fit through the antenna tip and the copper mechanical bands at levels 40-42, 73-75, 109-111 and 136-138), good to a couple of floors; the observation deck line (At the Top SKY, level 148, 555 m) comes from the same fit.
 Photos: the tower is Pexels 3463043 (Pexels licence), in `source/photos/burj_tower.jpg`; the lounge photo came with the brief and carries a "Dubai Ticket Expert" watermark, used as supplied in `source/photos/burj_lounge.jpg` (swap in a licensed copy before posting).
 Rebuild: `python3 source/reel_burj_vo.py <kokoro-dir> <tmp>` → `node source/reel_burj.js <frames> <video.mp4>` → `python3 source/reel_burj_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_burj_scene.js`; shared phone engine: `source/reel_phone_kit.js`.
 
 **Script**
-> Let me explain what's on the top floors of the Burj Khalifa.
-> Floors 152 to 154. 585 metres up.
-> This is The Lounge, the highest lounge in the world.
-> Sofas, afternoon tea, and an outdoor terrace over Dubai.
+> Nobody tells you the Burj Khalifa has a lounge above its observation deck.
+> It sits 585 metres up.
+> It's called The Lounge, the highest in the world,
+> with afternoon tea and a terrace over Dubai.
 > And you can only get in with a booking.
 > (tension)
-> You just watched this reel for 19 seconds.
-> Now imagine your ad held people that long.
+> You've just watched this reel for 15 seconds.
+> Imagine your ad held people that long.
 > We scale businesses with ads like this.
 > DM us the word teardown for a free ad review.
 
 **Caption**
 > DM us the word TEARDOWN and we'll review your ads for free.
 >
-> You came for the top floors of the Burj Khalifa and stayed 19 seconds. Nobody asked you to. Curiosity did the work.
+> You came for the lounge above the Burj Khalifa's observation deck and stayed 15 seconds. Nobody asked you to. Curiosity did the work.
 >
 > That's the first job of any ad: give people a reason to keep watching before you ask for anything. If your Meta ads open with the logo, the price or "limited offer", people scroll before they hear why they should care.
 >
 > We scale businesses with Instagram ads built the other way round: a hook people want to finish, then the offer.
 >
-> The facts are real, by the way. The Lounge on floors 152 to 154 sits 585 m up and holds the Guinness World Record for the highest lounge in a building. You need a booking to get in.
+> The facts are real, by the way. The Lounge on floors 152 to 154 sits 585 m up, above the At the Top SKY deck on level 148, and holds the Guinness World Record for the highest lounge in a building. You need a booking to get in.
 >
 > (Lounge photo: Dubai Ticket Expert.)
 >
