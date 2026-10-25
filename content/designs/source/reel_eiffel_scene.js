@@ -68,12 +68,12 @@ function edisonCard(x, t) {                          // his most famous guest sw
     pill(x, '1889', R0 - pillW(x, '1889', 30) / 2, T, 30, true, (t - K.yr) / 0.3, O);
   });
 }
-const HEADS = [['Edison', 140, 178], ['Eiffel', 709, 226]];   // the wax figures' heads in eiffel_office.jpg (1024 x 768 px)
+const HEADS = [['Edison', 185, 140], ['Eiffel', 940, 185]];   // the top of the wax figures' heads in eiffel_office.jpg (1024 x 768 px)
 function officeCard(x, t) {                          // the office today: the two of them, in wax
   const k = (t - K.both) / 0.55; if (k <= 0) return;
   const img = IMG.eiffel_office, z = 1 + 0.05 * clamp((t - K.both) / 3), s = Math.max(OFFICE.w / img.width, OFFICE.h / img.height) * z;
   photoCard(x, img, OFFICE.cx, OFFICE.cy, OFFICE.w, OFFICE.h, { sc: 0.15 + 0.85 * back(k), z }, (L0, R0, T, B) => {
-    HEADS.forEach(([str, hx, hy], i) => pill(x, str, (hx - img.width / 2) * s, (hy - img.height / 2) * s - 80, 30, false, (t - K.names - 0.18 * i) / 0.3, O));
+    HEADS.forEach(([str, hx, hy], i) => pill(x, str, (hx - img.width / 2) * s, (hy - img.height / 2) * s - 36, 30, false, (t - K.names - 0.18 * i) / 0.3, O));
     pill(x, 'Today, in wax', R0 - pillW(x, 'Today, in wax', 34) / 2, T, 34, true, (t - K.wax) / 0.3, O);
   });
 }
