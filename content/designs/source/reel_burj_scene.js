@@ -1,6 +1,7 @@
 // Browser-side shots for reel_burj.js. The facts half draws the tower photo (burj_tower.jpg: Pexels 3463043 at 0.62 of
-// its 4692 x 7038 px; every position below is in those original px) under a slow camera, with the floors outlined, the
-// altitude line and The Lounge's photo card, in the Mez Media look (white outlines, white pills, Inter type). The
+// its 4692 x 7038 px; every position below is in those original px) under a camera that crash-zooms up the tower from
+// the first frame, with the observation deck marked, the lounge's floors outlined above it, the altitude line and The
+// Lounge's photo card, in the Mez Media look (white outlines, white pills, Inter type). The
 // written hook and the clock are drawn by overlay(), so they stay crisp while the camera moves. The switch runs on the
 // phone engine in reel_phone_kit.js (loaded first).
 
@@ -10,9 +11,15 @@ const TW = 4692, TH = 7038;
 // and the copper mechanical bands (levels 40-42, 73-75, 109-111, 136-138); good to a couple of floors
 const zToY = (z) => (-8.421335807438819 * z + 8286.986147736838) / (0.001940965861986966 * z + 1);
 const BAR = [2140, 1545, 2430, 1640];                // the floors: x0, y0, x1, y1
-const CAMK = [[0, 2350, 3650, 0.285], [K.push, 2330, 3330, 0.335], [K.push + 1.05, 2290, 2272, 0.5], [K.card - 0.05, 2290, 2262, 0.505],
-  [K.card + 0.6, 2290, 3000, 0.5], [K.tense, 2290, 2975, 0.52], [T0.phone, 2290, 2900, 0.58]];   // [time, centre x, centre y, frame px per photo px]
-const view = (t) => kf(t, CAMK);
+const DECK = zToY(555.7);                            // At the Top SKY, level 148: the highest observation deck
+const ZOOM0 = [2330, 4880, 0.45];                    // where the crash zoom starts, on frame 0: low on the tower, so it whips up to the top
+const CAMK = [[K.zoom, 2290, 2272, 0.5], [K.card - 0.05, 2290, 2236, 0.535], [K.card + 0.6, 2290, 3000, 0.5],
+  [K.tense, 2290, 2975, 0.52], [T0.phone, 2290, 2900, 0.58]];   // [time, centre x, centre y, frame px per photo px]
+const view = (t) => {                                // fast off the first frame, settling on the top floors
+  if (t >= K.zoom) return kf(t, CAMK);
+  const k = expo(t / K.zoom), to = CAMK[0];
+  return [lerp(ZOOM0[0], to[1], k), lerp(ZOOM0[1], to[2], k), ZOOM0[2] * Math.pow(to[3] / ZOOM0[2], k)];
+};
 const toF = (v, X, Y) => [540 + (X - v[0]) * v[2], 960 + (Y - v[1]) * v[2]];
 const pillW = (x, str, size) => { setF(x, '600 ' + size + 'px Body', -size * 0.02); return x.measureText(str).width + size * 1.05; };
 
@@ -24,6 +31,13 @@ function floorRing(x, t, v) {                        // floors 152-154 outlined,
   rrx(x, ax, ay, w, h, r); x.fillStyle = 'rgba(255,255,255,' + 0.22 * ease(k) + ')'; x.fill();
   x.setLineDash([per * clamp(k), per + 10]); x.lineWidth = 5; x.lineCap = 'round'; x.strokeStyle = WHT; rrx(x, ax, ay, w, h, r); x.stroke(); x.restore();
   pill(x, 'Floors 152–154', bx + 22 + pillW(x, 'Floors 152–154', 34) / 2, (ay + by) / 2, 34, false, (t - K.l152) / 0.3, { f: 'Body', w: 600 });
+}
+function deckMark(x, t, v) {                         // the observation deck, just below the lounge
+  const k = (t - K.deck) / 0.35, out_ = clamp((t - K.alt + 0.2) / 0.3); if (k <= 0 || out_ >= 1) return;
+  const [ax, y] = toF(v, 2085, DECK), [bx] = toF(v, 2420, DECK);
+  x.save(); x.globalAlpha = 1 - out_; x.shadowColor = 'rgba(0,0,0,.5)'; x.shadowBlur = 10; x.lineWidth = 4; x.lineCap = 'round'; x.strokeStyle = WHT;
+  x.beginPath(); x.moveTo(ax, y); x.lineTo(lerp(ax, bx, expo(k)), y); x.stroke(); x.restore();
+  pill(x, 'Observation deck', ax - 18 - pillW(x, 'Observation deck', 32) / 2, y, 32, true, k * 1.2, { f: 'Body', w: 600, alpha: 1 - out_ });
 }
 function altitude(x, t, v) {                         // 585 m, measured from the ground up to those floors
   if (t < K.alt) return;
@@ -61,18 +75,18 @@ function bait(x, t) {
   const q = x.createLinearGradient(0, 700, 0, 1500); q.addColorStop(0, 'rgba(0,0,0,0)'); q.addColorStop(1, 'rgba(0,0,0,.55)');   // darker low down, so white type reads
   x.fillStyle = q; x.fillRect(0, 700, W, H - 700);
   x.fillStyle = 'rgba(0,0,0,' + 0.12 * ease((t - K.card) / 0.5) + ')'; x.fillRect(0, 0, W, H);   // and a little darker behind the card
-  floorRing(x, t, v); altitude(x, t, v); loungeCard(x, t, v);
+  floorRing(x, t, v); deckMark(x, t, v); altitude(x, t, v); loungeCard(x, t, v);
   x.restore();
   if (tk > 0) vignette(x, 0.75 * tk);
 }
 
 // ---------- overlay: the written hook and the clock (crisp, over the motion blur) ----------
-const HOOK = [['Let me explain what’s on', 0.82, 76], ['the top floors', 1, 150], ['of the Burj Khalifa.', 0.82, 76]];
+const HOOK = [['A lounge above', 1, 140], ['the observation deck.', 0.82, 96]];
 function hookText(x, t) {                            // on screen from frame 0
   const out_ = clamp((t - K.hookOut + 0.2) / 0.25); if (out_ >= 1) return;
-  x.save(); x.globalAlpha = 1 - out_; x.translate(0, -30 * ease(out_)); x.textAlign = 'center'; x.shadowColor = 'rgba(0,0,0,.45)'; x.shadowBlur = 30;
-  [860, 1000, 1094].forEach((Y, i) => {
-    const [str, a, max] = HOOK[i]; setF(x, '800 ' + max + 'px Logo', -max * 0.04); const fs = max * Math.min(1, 940 / x.measureText(str).width);
+  x.save(); x.globalAlpha = 1 - out_; x.translate(0, -30 * ease(out_)); x.textAlign = 'center'; x.shadowColor = 'rgba(0,0,0,.5)'; x.shadowBlur = 30;
+  [1030, 1132].forEach((Y, i) => {
+    const [str, a, max] = HOOK[i]; setF(x, '800 ' + max + 'px Logo', -max * 0.04); const fs = max * Math.min(1, 860 / x.measureText(str).width);
     setF(x, '800 ' + fs + 'px Logo', -fs * 0.04); x.fillStyle = 'rgba(255,255,255,' + a + ')'; x.fillText(str, 540, Y);
   });
   x.restore();
@@ -90,7 +104,7 @@ function overlay(t) {
 }
 
 const S = {};
-S.hook = bait; S.floors = bait; S.lounge = bait; S.tense = bait;
+S.hook = bait; S.high = bait; S.lounge = bait; S.tense = bait;
 
 // ---------- the switch: the reel you were watching, in a phone; then it is your ad ----------
 const PHN = { cy: 610, s: 0.62 };
@@ -119,7 +133,7 @@ function reelUI(c, t) {
   rail(c);
   const ad = ease((t - K.ad) / 0.35);
   acct(c, 'mezmedia_0', null, 1 - ad); acct(c, 'yourbrand', 'Sponsored', ad);
-  setF(c, '500 26px Body', 0); c.fillStyle = 'rgba(255,255,255,.9)'; c.textAlign = 'left'; c.fillText('Let me explain what’s on the top…', 30, 1090);
+  setF(c, '500 26px Body', 0); c.fillStyle = 'rgba(255,255,255,.9)'; c.textAlign = 'left'; c.fillText('Nobody tells you the Burj Khalifa…', 30, 1090);
   if (ad > 0) {                                      // the call to action every ad gets
     c.save(); c.globalAlpha = ad; c.translate(0, 50 * (1 - ad)); rrx(c, 24, 1118, 552, 90, 18); c.fillStyle = 'rgba(255,255,255,.96)'; c.fill();
     setF(c, '700 34px Body', 0); c.fillStyle = INK; c.fillText('Book now', 54, 1176); c.textAlign = 'right'; c.fillText('›', 548, 1177); c.restore();
@@ -127,7 +141,7 @@ function reelUI(c, t) {
   c.fillStyle = 'rgba(255,255,255,.3)'; c.fillRect(0, 1254, 600, 7); c.fillStyle = WHT; c.fillRect(0, 1254, 600 * 0.7, 7);
   const kt = (t - T0.phone - 0.3) / 0.3;               // the clock, counting the time you watched
   if (kt > 0) {
-    const n = Math.round(19 * clamp((t - K.watched) / (K.n19 - K.watched))), str = '0:' + String(n).padStart(2, '0');
+    const n = Math.round(NUM * clamp((t - K.watched) / (K.num - K.watched))), str = '0:' + String(n).padStart(2, '0');
     c.save(); c.globalAlpha = clamp(kt); setF(c, '600 46px Body', 0); const tw = c.measureText(str).width;
     rrx(c, 300 - tw / 2 - 62, 112, tw + 104, 80, 40); c.fillStyle = 'rgba(0,0,0,.62)'; c.fill();
     c.fillStyle = '#FF3B30'; c.beginPath(); c.arc(300 - tw / 2 - 28, 152, 12, 0, TAU); c.fill();
@@ -145,7 +159,7 @@ S.phone = (x, t) => {
 const PITCH = [[['We scale businesses', WHT, 's1'], ['with ads like this.', GREY, 's2']],
   [['DM us the word', WHT, 'd1'], ['teardown', null, 'd2'], ['for a free ad review.', GREY, 'd3']]];
 function pitchLines(x, t, lines, Y0) {
-  setF(x, '600 130px Logo', -4); const fs = 130 * Math.min(1, 900 / Math.max(...lines.map(([str]) => x.measureText(str).width)));
+  setF(x, '600 130px Logo', -4); const fs = 130 * Math.min(1, 830 / Math.max(...lines.map(([str]) => x.measureText(str).width)));   // 855 px at the end of the push
   lines.forEach(([str, col, k], i) => {
     const Y = Y0 + i * fs * 1.2, kk = (t - K[k] + 0.04) / 0.38, f = '600 ' + fs + 'px Logo';
     if (!col && kk > 0) {                               // the keyword, in a box
@@ -162,21 +176,7 @@ S.pitch = (x, t) => {
   if (ka < 1) { x.save(); x.globalAlpha = 1 - ka; x.translate(0, -120 * ka); pitchLines(x, t, PITCH[0], 860); x.restore(); }
   pitchLines(x, t, PITCH[1], 780);
   x.restore();
-};
-
-// ---------- end card ----------
-S.end = (x, t) => {
-  stage(x, true);
-  const u = t - T0.end;
-  x.save(); cam(x, 540, 960, 1 + 0.02 * clamp(u / 1.2));
-  rise(x, 'mez.', 540, 640, '800 210px Logo', WHT, (u - 0.05) / 0.4, -10);
-  rise(x, 'MEDIA', 552, 722, '600 42px Logo', GREY, (u - 0.12) / 0.35, 18);
-  const done = t >= K.dmTap + 0.06;
-  pill(x, done ? 'Sent' : 'DM “TEARDOWN”', 540, 840, 46, false, (u - 0.2) / 0.3, { w: 600, f: 'Body', bg: done ? MID : WHT, fg: done ? WHT : INK, sc: 1 - 0.06 * bump(t, K.dmTap, 0.25) });
-  x.globalAlpha = ease((u - 0.25) / 0.3); setF(x, '500 36px Body'); x.textAlign = 'center'; x.fillStyle = GREY; x.fillText('@mezmedia_0', 540, 950); x.globalAlpha = 1;
-  const tk = (t - (K.dmTap - 0.4)) / 0.75;
-  if (tk > 0 && tk < 1) touch(x, lerp(900, 560, ease(tk * 1.8)), lerp(1250, 850, ease(tk * 1.8)), Math.sin(tk * Math.PI) * 1.4, clamp((t - K.dmTap) / 0.3));
-  x.restore();
+  pill(x, '@mezmedia_0', 540, 1300, 40, false, (t - K.handle) / 0.3, { f: 'Body', w: 600 });   // who to DM; then it loops to the hook
 };
 
 // captions are white type on every stage here

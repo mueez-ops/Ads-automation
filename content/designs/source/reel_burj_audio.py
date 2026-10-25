@@ -3,11 +3,10 @@ voiceover.
 
 Recorded effects come from the Mixkit free library (Mixkit Sound Effects Free License: allowed in social media
 and commercial videos, not to be redistributed on their own), so they are not kept in the repo: each is
-downloaded by id into <sfx_cache> the first time. The thumps and rises are synthesized. Music (120 bpm): a light
-groove in C major (C, G, Am, F) under the facts, with no kick until the camera climbs to the top floors; under the
-tension only a riser, a heartbeat and a clock; nothing but a low drone on "You just watched this reel for 19
-seconds"; then the full groove again, on a grid that puts a beat on "We scale businesses", resolving on C under the
-end card.
+downloaded by id into <sfx_cache> the first time. The thumps and rises are synthesized. Music (120 bpm): the
+groove in C major (C, G, Am, F) from the first frame, with a hit on the crash zoom; under the tension only a riser,
+a heartbeat and a clock; nothing but a low drone on "You've just watched this reel for 15 seconds"; then the groove
+again, on a grid that puts a beat on "We scale businesses", resolving on C under the last line.
 Usage: python3 reel_burj_audio.py <vo.wav> <out.wav> <sfx_cache>
 """
 import json
@@ -80,7 +79,7 @@ for e in EV:
 
 # ---------- music ----------
 BEAT = 60 / 120
-G0 = M["beat"] % BEAT                                  # the facts: a beat on the climb to the top floors
+G0 = M["beat"] % BEAT                                  # the facts: a beat on the first frame
 G1 = M["last"] % BEAT                                  # the pitch: a beat on "We scale businesses"
 # C major (C, G, Am, F)
 BRIGHT = ([[130.81, 164.81, 196.0, 261.63, 329.63], [98.0, 123.47, 146.83, 196.0, 246.94], [110.0, 130.81, 164.81, 220.0, 261.63], [87.31, 110.0, 130.81, 174.61, 220.0]],
@@ -133,12 +132,9 @@ def groove(t0, t1, key, beat=True, plucks=True, pulse=False, pads=True, level=1.
         k += 1
 
 
-music.add(S.pad(BRIGHT[0][0], M["beat"] + 0.3, 1100), 0.0, 0.12)                     # the hook: a held chord, no beat yet
-music.add(S.riser(M["beat"] - 0.2, 300, 4200), 0.15, 0.05)
-groove(0.3, M["beat"], BRIGHT, beat=None, plucks=True, pads=False, level=0.75)        # plucks only
-groove(M["beat"], M["tense"], BRIGHT, level=0.8)                                       # the top floors, The Lounge
+groove(M["beat"], M["tense"], BRIGHT, level=0.85)                                      # the crash zoom, the top floors, The Lounge
 music.add(S.pad([55.0, 110.0, 130.81, 164.81], M["phone"] - M["tense"] + 0.1, 420), M["tense"], 0.09)   # under the tension
-music.add(S.pad([55.0, 82.41, 110.0], M["drop"] - M["phone"] + 0.2, 380), M["phone"] + 0.25, 0.08)     # "You just watched..."
+music.add(S.pad([55.0, 82.41, 110.0], M["drop"] - M["phone"] + 0.2, 380), M["phone"] + 0.25, 0.08)     # "You've just watched..."
 groove(M["drop"], M["end"], BRIGHT, level=0.85, g0=G1)                                  # your ad, held that long
 music.add(S.pad([130.81, 164.81, 196.0, 261.63, 329.63], END - M["end"] + 0.4, 1800), M["end"], 0.24)
 

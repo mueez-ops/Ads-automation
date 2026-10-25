@@ -3,1397 +3,1276 @@
   "lines": {
    "hook": {
     "s": 0.05,
-    "e": 3.109,
-    "text": "let me explain what's on the top floors of the Burj Khalifa"
-   },
-   "floors": {
-    "s": 3.359,
-    "e": 5.698,
-    "text": "floors 152 + to 154 +"
+    "e": 3.9,
+    "text": "nobody tells you the Burj Khalifa has a lounge above its observation deck"
    },
    "high": {
-    "s": 5.818,
-    "e": 8.072,
-    "text": "585 + + + metres up"
-   },
-   "lounge": {
-    "s": 8.272,
-    "e": 9.292,
-    "text": "this is the Lounge"
+    "s": 4.02,
+    "e": 6.374,
+    "text": "it sits 585 + + + metres up"
    },
    "record": {
-    "s": 9.342,
-    "e": 10.87,
-    "text": "the highest lounge in the world"
+    "s": 6.494,
+    "e": 8.72,
+    "text": "it's called the Lounge the highest in the world"
    },
    "inside": {
-    "s": 11.09,
-    "e": 14.655,
-    "text": "sofas afternoon tea and an outdoor terrace over Dubai"
+    "s": 8.77,
+    "e": 11.341,
+    "text": "with afternoon tea and a terrace over Dubai"
    },
    "booking": {
-    "s": 14.775,
-    "e": 16.361,
+    "s": 11.441,
+    "e": 13.024,
     "text": "and you can only get in with a booking"
    },
    "watched": {
-    "s": 17.761,
-    "e": 20.184,
-    "text": "you just watched this reel for 19 seconds"
+    "s": 14.024,
+    "e": 16.525,
+    "text": "you've just watched this reel for 15 seconds"
    },
    "imagine": {
-    "s": 20.485,
-    "e": 22.698,
-    "text": "now imagine your ad held people that long"
+    "s": 16.775,
+    "e": 18.749,
+    "text": "imagine your ad held people that long"
    },
    "scale": {
-    "s": 22.998,
-    "e": 25.052,
+    "s": 18.999,
+    "e": 21.053,
     "text": "we scale businesses with ads like this"
    },
    "dm": {
-    "s": 25.252,
-    "e": 27.947,
+    "s": 21.203,
+    "e": 23.872,
     "text": "DM us the word teardown for a free ad review"
    }
   },
   "words": [
    {
-    "w": "let",
-    "s": 0.121,
-    "e": 0.221,
+    "w": "nobody",
+    "s": 0.115,
+    "e": 0.49,
     "line": "hook"
    },
    {
-    "w": "me",
-    "s": 0.246,
-    "e": 0.346,
+    "w": "tells",
+    "s": 0.54,
+    "e": 0.765,
     "line": "hook"
    },
    {
-    "w": "explain",
-    "s": 0.371,
-    "e": 0.921,
-    "line": "hook"
-   },
-   {
-    "w": "what's",
-    "s": 0.971,
-    "e": 1.146,
-    "line": "hook"
-   },
-   {
-    "w": "on",
-    "s": 1.196,
-    "e": 1.296,
+    "w": "you",
+    "s": 0.79,
+    "e": 0.865,
     "line": "hook"
    },
    {
     "w": "the",
-    "s": 1.296,
-    "e": 1.346,
-    "line": "hook"
-   },
-   {
-    "w": "top",
-    "s": 1.396,
-    "e": 1.671,
-    "line": "hook"
-   },
-   {
-    "w": "floors",
-    "s": 1.721,
-    "e": 2.071,
-    "line": "hook"
-   },
-   {
-    "w": "of",
-    "s": 2.096,
-    "e": 2.171,
-    "line": "hook"
-   },
-   {
-    "w": "the",
-    "s": 2.171,
-    "e": 2.221,
+    "s": 0.89,
+    "e": 0.94,
     "line": "hook"
    },
    {
     "w": "Burj",
-    "s": 2.271,
-    "e": 2.546,
+    "s": 0.99,
+    "e": 1.265,
     "line": "hook"
    },
    {
     "w": "Khalifa",
-    "s": 2.596,
-    "e": 3.121,
+    "s": 1.315,
+    "e": 1.94,
     "line": "hook"
    },
    {
-    "w": "floors",
-    "s": 3.452,
-    "e": 3.777,
-    "line": "floors"
+    "w": "has",
+    "s": 2.015,
+    "e": 2.14,
+    "line": "hook"
    },
    {
-    "w": "152",
-    "s": 3.827,
-    "e": 4.002,
-    "line": "floors"
+    "w": "a",
+    "s": 2.14,
+    "e": 2.265,
+    "line": "hook"
    },
    {
-    "w": "+",
-    "s": 4.052,
-    "e": 4.652,
-    "line": "floors"
+    "w": "lounge",
+    "s": 2.265,
+    "e": 2.665,
+    "line": "hook"
    },
    {
-    "w": "to",
-    "s": 4.727,
-    "e": 4.752,
-    "line": "floors"
+    "w": "above",
+    "s": 2.715,
+    "e": 2.915,
+    "line": "hook"
    },
    {
-    "w": "154",
-    "s": 4.852,
-    "e": 5.027,
-    "line": "floors"
+    "w": "its",
+    "s": 2.94,
+    "e": 3.015,
+    "line": "hook"
    },
    {
-    "w": "+",
-    "s": 5.077,
-    "e": 5.743,
-    "line": "floors"
+    "w": "observation",
+    "s": 3.065,
+    "e": 3.565,
+    "line": "hook"
+   },
+   {
+    "w": "deck",
+    "s": 3.615,
+    "e": 3.907,
+    "line": "hook"
+   },
+   {
+    "w": "it",
+    "s": 4.083,
+    "e": 4.158,
+    "line": "high"
+   },
+   {
+    "w": "sits",
+    "s": 4.208,
+    "e": 4.433,
+    "line": "high"
    },
    {
     "w": "585",
-    "s": 5.904,
-    "e": 6.154,
+    "s": 4.483,
+    "e": 4.733,
     "line": "high"
    },
    {
     "w": "+",
-    "s": 6.179,
-    "e": 6.629,
+    "s": 4.758,
+    "e": 5.158,
     "line": "high"
    },
    {
     "w": "+",
-    "s": 6.704,
-    "e": 6.804,
+    "s": 5.208,
+    "e": 5.283,
     "line": "high"
    },
    {
     "w": "+",
-    "s": 6.904,
-    "e": 7.429,
+    "s": 5.358,
+    "e": 5.783,
     "line": "high"
    },
    {
     "w": "metres",
-    "s": 7.479,
-    "e": 7.779,
+    "s": 5.808,
+    "e": 6.083,
     "line": "high"
    },
    {
     "w": "up",
-    "s": 7.829,
-    "e": 8.093,
+    "s": 6.133,
+    "e": 6.386,
     "line": "high"
    },
    {
-    "w": "this",
-    "s": 8.338,
-    "e": 8.488,
-    "line": "lounge"
+    "w": "it's",
+    "s": 6.563,
+    "e": 6.713,
+    "line": "record"
    },
    {
-    "w": "is",
-    "s": 8.538,
-    "e": 8.638,
-    "line": "lounge"
+    "w": "called",
+    "s": 6.763,
+    "e": 6.913,
+    "line": "record"
    },
    {
     "w": "the",
-    "s": 8.663,
-    "e": 8.713,
-    "line": "lounge"
+    "s": 6.938,
+    "e": 6.988,
+    "line": "record"
    },
    {
     "w": "Lounge",
-    "s": 8.763,
-    "e": 9.371,
-    "line": "lounge"
+    "s": 7.038,
+    "e": 7.538,
+    "line": "record"
    },
    {
     "w": "the",
-    "s": 9.405,
-    "e": 9.48,
+    "s": 7.638,
+    "e": 7.713,
     "line": "record"
    },
    {
     "w": "highest",
-    "s": 9.555,
-    "e": 9.955,
-    "line": "record"
-   },
-   {
-    "w": "lounge",
-    "s": 10.005,
-    "e": 10.305,
+    "s": 7.788,
+    "e": 8.163,
     "line": "record"
    },
    {
     "w": "in",
-    "s": 10.33,
-    "e": 10.405,
+    "s": 8.188,
+    "e": 8.263,
     "line": "record"
    },
    {
     "w": "the",
-    "s": 10.405,
-    "e": 10.455,
+    "s": 8.263,
+    "e": 8.313,
     "line": "record"
    },
    {
     "w": "world",
-    "s": 10.505,
-    "e": 10.936,
+    "s": 8.363,
+    "e": 8.756,
     "line": "record"
    },
    {
-    "w": "sofas",
-    "s": 11.205,
-    "e": 11.73,
+    "w": "with",
+    "s": 8.814,
+    "e": 8.964,
     "line": "inside"
    },
    {
     "w": "afternoon",
-    "s": 11.83,
-    "e": 12.33,
+    "s": 9.039,
+    "e": 9.564,
     "line": "inside"
    },
    {
     "w": "tea",
-    "s": 12.405,
-    "e": 12.88,
+    "s": 9.639,
+    "e": 10.089,
     "line": "inside"
    },
    {
     "w": "and",
-    "s": 13.005,
-    "e": 13.08,
+    "s": 10.164,
+    "e": 10.239,
     "line": "inside"
    },
    {
-    "w": "an",
-    "s": 13.13,
-    "e": 13.155,
-    "line": "inside"
-   },
-   {
-    "w": "outdoor",
-    "s": 13.23,
-    "e": 13.58,
+    "w": "a",
+    "s": 10.239,
+    "e": 10.339,
     "line": "inside"
    },
    {
     "w": "terrace",
-    "s": 13.63,
-    "e": 13.955,
+    "s": 10.339,
+    "e": 10.664,
     "line": "inside"
    },
    {
     "w": "over",
-    "s": 14.005,
-    "e": 14.18,
+    "s": 10.714,
+    "e": 10.864,
     "line": "inside"
    },
    {
     "w": "Dubai",
-    "s": 14.23,
-    "e": 14.674,
+    "s": 10.914,
+    "e": 11.351,
     "line": "inside"
    },
    {
     "w": "and",
-    "s": 14.842,
-    "e": 14.917,
+    "s": 11.508,
+    "e": 11.583,
     "line": "booking"
    },
    {
     "w": "you",
-    "s": 14.942,
-    "e": 15.017,
+    "s": 11.608,
+    "e": 11.683,
     "line": "booking"
    },
    {
     "w": "can",
-    "s": 15.042,
-    "e": 15.142,
+    "s": 11.708,
+    "e": 11.808,
     "line": "booking"
    },
    {
     "w": "only",
-    "s": 15.192,
-    "e": 15.442,
+    "s": 11.858,
+    "e": 12.108,
     "line": "booking"
    },
    {
     "w": "get",
-    "s": 15.492,
-    "e": 15.617,
+    "s": 12.158,
+    "e": 12.284,
     "line": "booking"
    },
    {
     "w": "in",
-    "s": 15.667,
-    "e": 15.742,
+    "s": 12.333,
+    "e": 12.408,
     "line": "booking"
    },
    {
     "w": "with",
-    "s": 15.767,
-    "e": 15.867,
+    "s": 12.433,
+    "e": 12.534,
     "line": "booking"
    },
    {
     "w": "a",
-    "s": 15.867,
-    "e": 15.967,
+    "s": 12.534,
+    "e": 12.634,
     "line": "booking"
    },
    {
     "w": "booking",
-    "s": 15.967,
-    "e": 16.437,
+    "s": 12.634,
+    "e": 13.082,
     "line": "booking"
    },
    {
-    "w": "you",
-    "s": 17.839,
-    "e": 17.914,
+    "w": "you've",
+    "s": 14.125,
+    "e": 14.275,
     "line": "watched"
    },
    {
     "w": "just",
-    "s": 17.939,
-    "e": 18.164,
+    "s": 14.325,
+    "e": 14.575,
     "line": "watched"
    },
    {
     "w": "watched",
-    "s": 18.214,
-    "e": 18.539,
+    "s": 14.625,
+    "e": 14.95,
     "line": "watched"
    },
    {
     "w": "this",
-    "s": 18.589,
-    "e": 18.739,
+    "s": 15,
+    "e": 15.15,
     "line": "watched"
    },
    {
     "w": "reel",
-    "s": 18.789,
-    "e": 19.039,
+    "s": 15.2,
+    "e": 15.425,
     "line": "watched"
    },
    {
     "w": "for",
-    "s": 19.089,
-    "e": 19.189,
+    "s": 15.475,
+    "e": 15.575,
     "line": "watched"
    },
    {
-    "w": "19",
-    "s": 19.239,
-    "e": 19.639,
+    "w": "15",
+    "s": 15.625,
+    "e": 15.975,
     "line": "watched"
    },
    {
     "w": "seconds",
-    "s": 19.689,
-    "e": 20.238,
+    "s": 16.025,
+    "e": 16.584,
     "line": "watched"
    },
    {
-    "w": "now",
-    "s": 20.579,
-    "e": 20.854,
-    "line": "imagine"
-   },
-   {
     "w": "imagine",
-    "s": 20.904,
-    "e": 21.279,
+    "s": 16.844,
+    "e": 17.269,
     "line": "imagine"
    },
    {
     "w": "your",
-    "s": 21.304,
-    "e": 21.379,
+    "s": 17.319,
+    "e": 17.394,
     "line": "imagine"
    },
    {
     "w": "ad",
-    "s": 21.429,
-    "e": 21.579,
+    "s": 17.444,
+    "e": 17.594,
     "line": "imagine"
    },
    {
     "w": "held",
-    "s": 21.629,
-    "e": 21.829,
+    "s": 17.644,
+    "e": 17.844,
     "line": "imagine"
    },
    {
     "w": "people",
-    "s": 21.879,
-    "e": 22.179,
+    "s": 17.894,
+    "e": 18.194,
     "line": "imagine"
    },
    {
     "w": "that",
-    "s": 22.204,
-    "e": 22.354,
+    "s": 18.244,
+    "e": 18.394,
     "line": "imagine"
    },
    {
     "w": "long",
-    "s": 22.404,
-    "e": 22.742,
+    "s": 18.444,
+    "e": 18.78,
     "line": "imagine"
    },
    {
     "w": "we",
-    "s": 23.054,
-    "e": 23.154,
+    "s": 19.055,
+    "e": 19.155,
     "line": "scale"
    },
    {
     "w": "scale",
-    "s": 23.204,
-    "e": 23.504,
+    "s": 19.205,
+    "e": 19.505,
     "line": "scale"
    },
    {
     "w": "businesses",
-    "s": 23.554,
-    "e": 24.079,
+    "s": 19.555,
+    "e": 20.08,
     "line": "scale"
    },
    {
     "w": "with",
-    "s": 24.104,
-    "e": 24.229,
+    "s": 20.105,
+    "e": 20.23,
     "line": "scale"
    },
    {
     "w": "ads",
-    "s": 24.304,
-    "e": 24.529,
+    "s": 20.305,
+    "e": 20.53,
     "line": "scale"
    },
    {
     "w": "like",
-    "s": 24.554,
-    "e": 24.704,
+    "s": 20.555,
+    "e": 20.705,
     "line": "scale"
    },
    {
     "w": "this",
-    "s": 24.754,
-    "e": 25.054,
+    "s": 20.755,
+    "e": 21.055,
     "line": "scale"
    },
    {
     "w": "DM",
-    "s": 25.303,
-    "e": 25.678,
+    "s": 21.275,
+    "e": 21.625,
     "line": "dm"
    },
    {
     "w": "us",
-    "s": 25.728,
-    "e": 25.878,
+    "s": 21.675,
+    "e": 21.825,
     "line": "dm"
    },
    {
     "w": "the",
-    "s": 25.903,
-    "e": 25.953,
+    "s": 21.85,
+    "e": 21.9,
     "line": "dm"
    },
    {
     "w": "word",
-    "s": 26.003,
-    "e": 26.178,
+    "s": 21.95,
+    "e": 22.125,
     "line": "dm"
    },
    {
     "w": "teardown",
-    "s": 26.228,
-    "e": 26.753,
+    "s": 22.175,
+    "e": 22.7,
     "line": "dm"
    },
    {
     "w": "for",
-    "s": 26.828,
-    "e": 26.978,
+    "s": 22.775,
+    "e": 22.925,
     "line": "dm"
    },
    {
     "w": "a",
-    "s": 26.978,
-    "e": 27.103,
+    "s": 22.925,
+    "e": 23.05,
     "line": "dm"
    },
    {
     "w": "free",
-    "s": 27.103,
-    "e": 27.303,
+    "s": 23.05,
+    "e": 23.25,
     "line": "dm"
    },
    {
     "w": "ad",
-    "s": 27.353,
-    "e": 27.503,
+    "s": 23.3,
+    "e": 23.45,
     "line": "dm"
    },
    {
     "w": "review",
-    "s": 27.553,
-    "e": 27.961,
+    "s": 23.5,
+    "e": 23.912,
     "line": "dm"
    }
   ],
-  "voice_end": 27.947,
-  "end": 29.147,
+  "voice_end": 23.872,
+  "end": 24.472,
   "at": {
-   "hook:let": 0.121,
-   "hook:me": 0.246,
-   "hook:explain": 0.371,
-   "hook:what's": 0.971,
-   "hook:on": 1.196,
-   "hook:the": 2.171,
-   "hook:top": 1.396,
-   "hook:floors": 1.721,
-   "hook:of": 2.096,
-   "hook:Burj": 2.271,
-   "hook:Khalifa": 2.596,
-   "floors:floors": 3.452,
-   "floors:152": 3.827,
-   "floors:+": 5.077,
-   "floors:to": 4.727,
-   "floors:154": 4.852,
-   "high:585": 5.904,
-   "high:+": 6.904,
-   "high:metres": 7.479,
-   "high:up": 7.829,
-   "lounge:this": 8.338,
-   "lounge:is": 8.538,
-   "lounge:the": 8.663,
-   "lounge:Lounge": 8.763,
-   "record:the": 10.405,
-   "record:highest": 9.555,
-   "record:lounge": 10.005,
-   "record:in": 10.33,
-   "record:world": 10.505,
-   "inside:sofas": 11.205,
-   "inside:afternoon": 11.83,
-   "inside:tea": 12.405,
-   "inside:and": 13.005,
-   "inside:an": 13.13,
-   "inside:outdoor": 13.23,
-   "inside:terrace": 13.63,
-   "inside:over": 14.005,
-   "inside:Dubai": 14.23,
-   "booking:and": 14.842,
-   "booking:you": 14.942,
-   "booking:can": 15.042,
-   "booking:only": 15.192,
-   "booking:get": 15.492,
-   "booking:in": 15.667,
-   "booking:with": 15.767,
-   "booking:a": 15.867,
-   "booking:booking": 15.967,
-   "watched:you": 17.839,
-   "watched:just": 17.939,
-   "watched:watched": 18.214,
-   "watched:this": 18.589,
-   "watched:reel": 18.789,
-   "watched:for": 19.089,
-   "watched:19": 19.239,
-   "watched:seconds": 19.689,
-   "imagine:now": 20.579,
-   "imagine:imagine": 20.904,
-   "imagine:your": 21.304,
-   "imagine:ad": 21.429,
-   "imagine:held": 21.629,
-   "imagine:people": 21.879,
-   "imagine:that": 22.204,
-   "imagine:long": 22.404,
-   "scale:we": 23.054,
-   "scale:scale": 23.204,
-   "scale:businesses": 23.554,
-   "scale:with": 24.104,
-   "scale:ads": 24.304,
-   "scale:like": 24.554,
-   "scale:this": 24.754,
-   "dm:DM": 25.303,
-   "dm:us": 25.728,
-   "dm:the": 25.903,
-   "dm:word": 26.003,
-   "dm:teardown": 26.228,
-   "dm:for": 26.828,
-   "dm:a": 26.978,
-   "dm:free": 27.103,
-   "dm:ad": 27.353,
-   "dm:review": 27.553
+   "hook:nobody": 0.115,
+   "hook:tells": 0.54,
+   "hook:you": 0.79,
+   "hook:the": 0.89,
+   "hook:Burj": 0.99,
+   "hook:Khalifa": 1.315,
+   "hook:has": 2.015,
+   "hook:a": 2.14,
+   "hook:lounge": 2.265,
+   "hook:above": 2.715,
+   "hook:its": 2.94,
+   "hook:observation": 3.065,
+   "hook:deck": 3.615,
+   "high:it": 4.083,
+   "high:sits": 4.208,
+   "high:585": 4.483,
+   "high:+": 5.358,
+   "high:metres": 5.808,
+   "high:up": 6.133,
+   "record:it's": 6.563,
+   "record:called": 6.763,
+   "record:the": 8.263,
+   "record:Lounge": 7.038,
+   "record:highest": 7.788,
+   "record:in": 8.188,
+   "record:world": 8.363,
+   "inside:with": 8.814,
+   "inside:afternoon": 9.039,
+   "inside:tea": 9.639,
+   "inside:and": 10.164,
+   "inside:a": 10.239,
+   "inside:terrace": 10.339,
+   "inside:over": 10.714,
+   "inside:Dubai": 10.914,
+   "booking:and": 11.508,
+   "booking:you": 11.608,
+   "booking:can": 11.708,
+   "booking:only": 11.858,
+   "booking:get": 12.158,
+   "booking:in": 12.333,
+   "booking:with": 12.433,
+   "booking:a": 12.534,
+   "booking:booking": 12.634,
+   "watched:you've": 14.125,
+   "watched:just": 14.325,
+   "watched:watched": 14.625,
+   "watched:this": 15,
+   "watched:reel": 15.2,
+   "watched:for": 15.475,
+   "watched:15": 15.625,
+   "watched:seconds": 16.025,
+   "imagine:imagine": 16.844,
+   "imagine:your": 17.319,
+   "imagine:ad": 17.444,
+   "imagine:held": 17.644,
+   "imagine:people": 17.894,
+   "imagine:that": 18.244,
+   "imagine:long": 18.444,
+   "scale:we": 19.055,
+   "scale:scale": 19.205,
+   "scale:businesses": 19.555,
+   "scale:with": 20.105,
+   "scale:ads": 20.305,
+   "scale:like": 20.555,
+   "scale:this": 20.755,
+   "dm:DM": 21.275,
+   "dm:us": 21.675,
+   "dm:the": 21.85,
+   "dm:word": 21.95,
+   "dm:teardown": 22.175,
+   "dm:for": 22.775,
+   "dm:a": 22.925,
+   "dm:free": 23.05,
+   "dm:ad": 23.3,
+   "dm:review": 23.5
   }
  },
  "shots": [
   {
    "key": "hook",
    "s": 0,
-   "e": 3.359,
+   "e": 4.02,
    "tin": "none"
   },
   {
-   "key": "floors",
-   "s": 3.359,
-   "e": 8.272,
+   "key": "high",
+   "s": 4.02,
+   "e": 6.494,
    "tin": "none"
   },
   {
    "key": "lounge",
-   "s": 8.272,
-   "e": 16.381,
+   "s": 6.494,
+   "e": 13.044,
    "tin": "none"
   },
   {
    "key": "tense",
-   "s": 16.381,
-   "e": 17.761,
+   "s": 13.044,
+   "e": 14.024,
    "tin": "none"
   },
   {
    "key": "phone",
-   "s": 17.761,
-   "e": 22.998,
+   "s": 14.024,
+   "e": 18.999,
    "tin": "cut"
   },
   {
    "key": "pitch",
-   "s": 22.998,
-   "e": 28.247,
+   "s": 18.999,
+   "e": 24.472,
    "tin": "cut"
-  },
-  {
-   "key": "end",
-   "s": 28.247,
-   "e": 29.147,
-   "tin": "pushU"
   }
  ],
  "captions": [
   {
-   "text": "floors",
-   "s": 3.452,
-   "line": "floors",
+   "text": "it sits",
+   "s": 4.083,
+   "line": "high",
    "hl": false,
-   "e": 3.827
-  },
-  {
-   "text": "152",
-   "s": 3.827,
-   "line": "floors",
-   "hl": false,
-   "e": 4.727
-  },
-  {
-   "text": "to 154",
-   "s": 4.727,
-   "line": "floors",
-   "hl": false,
-   "e": 5.904
+   "e": 4.483
   },
   {
    "text": "585",
-   "s": 5.904,
+   "s": 4.483,
    "line": "high",
    "hl": true,
-   "e": 7.479
+   "e": 5.808
   },
   {
    "text": "metres",
-   "s": 7.479,
+   "s": 5.808,
    "line": "high",
    "hl": false,
-   "e": 7.829
+   "e": 6.133
   },
   {
    "text": "up",
-   "s": 7.829,
+   "s": 6.133,
    "line": "high",
    "hl": false,
-   "e": 8.338
+   "e": 6.563
   },
   {
-   "text": "this",
-   "s": 8.338,
-   "line": "lounge",
+   "text": "it's",
+   "s": 6.563,
+   "line": "record",
    "hl": false,
-   "e": 8.538
+   "e": 6.763
   },
   {
-   "text": "is the Lounge",
-   "s": 8.538,
-   "line": "lounge",
+   "text": "called",
+   "s": 6.763,
+   "line": "record",
    "hl": false,
-   "e": 9.405
+   "e": 6.938
+  },
+  {
+   "text": "the Lounge",
+   "s": 6.938,
+   "line": "record",
+   "hl": false,
+   "e": 7.638
   },
   {
    "text": "the",
-   "s": 9.405,
+   "s": 7.638,
    "line": "record",
    "hl": false,
-   "e": 9.555
+   "e": 7.788
   },
   {
    "text": "highest",
-   "s": 9.555,
+   "s": 7.788,
    "line": "record",
    "hl": true,
-   "e": 10.005
-  },
-  {
-   "text": "lounge",
-   "s": 10.005,
-   "line": "record",
-   "hl": false,
-   "e": 10.33
+   "e": 8.188
   },
   {
    "text": "in the world",
-   "s": 10.33,
+   "s": 8.188,
    "line": "record",
    "hl": false,
-   "e": 11.205
+   "e": 8.814
   },
   {
-   "text": "sofas",
-   "s": 11.205,
+   "text": "with",
+   "s": 8.814,
    "line": "inside",
    "hl": false,
-   "e": 11.83
+   "e": 9.039
   },
   {
    "text": "afternoon",
-   "s": 11.83,
+   "s": 9.039,
    "line": "inside",
    "hl": false,
-   "e": 12.405
+   "e": 9.639
   },
   {
    "text": "tea",
-   "s": 12.405,
+   "s": 9.639,
    "line": "inside",
    "hl": false,
-   "e": 13.005
+   "e": 10.164
   },
   {
-   "text": "and an outdoor",
-   "s": 13.005,
+   "text": "and a terrace",
+   "s": 10.164,
    "line": "inside",
    "hl": false,
-   "e": 13.63
-  },
-  {
-   "text": "terrace",
-   "s": 13.63,
-   "line": "inside",
-   "hl": false,
-   "e": 14.005
+   "e": 10.714
   },
   {
    "text": "over",
-   "s": 14.005,
+   "s": 10.714,
    "line": "inside",
    "hl": false,
-   "e": 14.23
+   "e": 10.914
   },
   {
    "text": "Dubai",
-   "s": 14.23,
+   "s": 10.914,
    "line": "inside",
    "hl": false,
-   "e": 14.842
+   "e": 11.508
   },
   {
    "text": "and you can",
-   "s": 14.842,
+   "s": 11.508,
    "line": "booking",
    "hl": false,
-   "e": 15.192
+   "e": 11.858
   },
   {
    "text": "only",
-   "s": 15.192,
+   "s": 11.858,
    "line": "booking",
    "hl": false,
-   "e": 15.492
+   "e": 12.158
   },
   {
    "text": "get",
-   "s": 15.492,
+   "s": 12.158,
    "line": "booking",
    "hl": false,
-   "e": 15.667
+   "e": 12.333
   },
   {
    "text": "in with a booking",
-   "s": 15.667,
+   "s": 12.333,
    "line": "booking",
    "hl": false,
-   "e": 16.381
+   "e": 13.044
   },
   {
-   "text": "you just",
-   "s": 17.839,
+   "text": "you've",
+   "s": 14.125,
    "line": "watched",
    "hl": false,
-   "e": 18.214
+   "e": 14.325
+  },
+  {
+   "text": "just",
+   "s": 14.325,
+   "line": "watched",
+   "hl": false,
+   "e": 14.625
   },
   {
    "text": "watched",
-   "s": 18.214,
+   "s": 14.625,
    "line": "watched",
    "hl": false,
-   "e": 18.589
+   "e": 15
   },
   {
    "text": "this",
-   "s": 18.589,
+   "s": 15,
    "line": "watched",
    "hl": false,
-   "e": 18.789
+   "e": 15.2
   },
   {
    "text": "reel",
-   "s": 18.789,
+   "s": 15.2,
    "line": "watched",
    "hl": false,
-   "e": 19.089
+   "e": 15.475
   },
   {
    "text": "for",
-   "s": 19.089,
+   "s": 15.475,
    "line": "watched",
    "hl": false,
-   "e": 19.239
+   "e": 15.625
   },
   {
-   "text": "19",
-   "s": 19.239,
+   "text": "15",
+   "s": 15.625,
    "line": "watched",
    "hl": true,
-   "e": 19.689
+   "e": 16.025
   },
   {
    "text": "seconds",
-   "s": 19.689,
+   "s": 16.025,
    "line": "watched",
    "hl": false,
-   "e": 20.538
-  },
-  {
-   "text": "now",
-   "s": 20.579,
-   "line": "imagine",
-   "hl": false,
-   "e": 20.904
+   "e": 16.844
   },
   {
    "text": "imagine",
-   "s": 20.904,
+   "s": 16.844,
    "line": "imagine",
    "hl": false,
-   "e": 21.304
+   "e": 17.319
   },
   {
    "text": "your ad",
-   "s": 21.304,
+   "s": 17.319,
    "line": "imagine",
    "hl": false,
-   "e": 21.629
+   "e": 17.644
   },
   {
    "text": "held",
-   "s": 21.629,
+   "s": 17.644,
    "line": "imagine",
    "hl": false,
-   "e": 21.879
+   "e": 17.894
   },
   {
    "text": "people",
-   "s": 21.879,
+   "s": 17.894,
    "line": "imagine",
    "hl": false,
-   "e": 22.204
+   "e": 18.244
   },
   {
    "text": "that",
-   "s": 22.204,
+   "s": 18.244,
    "line": "imagine",
    "hl": false,
-   "e": 22.404
+   "e": 18.444
   },
   {
    "text": "long",
-   "s": 22.404,
+   "s": 18.444,
    "line": "imagine",
    "hl": false,
-   "e": 22.998
+   "e": 18.999
   }
  ],
  "events": [
   {
-   "t": 0.03,
+   "t": 0,
+   "k": "hit",
+   "g": 0.45
+  },
+  {
+   "t": 0.02,
+   "k": "whoosh_c",
+   "g": 0.5
+  },
+  {
+   "t": 0.05,
    "k": "deep",
    "g": 0.4
   },
   {
-   "t": 0.05,
-   "k": "swish",
-   "g": 0.3
-  },
-  {
-   "t": 3.159,
-   "k": "whoosh_c",
-   "g": 0.45
-  },
-  {
-   "t": 3.809,
+   "t": 0.8,
    "k": "zoom",
-   "g": 0.22
+   "g": 0.2
   },
   {
-   "t": 3.452,
+   "t": 2.265,
    "k": "swish",
    "g": 0.26,
    "pan": -0.2
   },
   {
-   "t": 3.572,
+   "t": 2.385,
    "k": "select",
    "g": 0.22
   },
   {
-   "t": 3.827,
+   "t": 2.465,
    "k": "pop",
    "g": 0.3,
    "pan": 0.25
   },
   {
-   "t": 5.904,
-   "k": "tick",
-   "g": 0.09,
-   "pan": -0.3
-  },
-  {
-   "t": 6.115,
-   "k": "tick",
-   "g": 0.096,
-   "pan": -0.3
-  },
-  {
-   "t": 6.258,
-   "k": "tick",
-   "g": 0.102,
-   "pan": -0.3
-  },
-  {
-   "t": 6.384,
-   "k": "tick",
-   "g": 0.108,
-   "pan": -0.3
-  },
-  {
-   "t": 6.5,
-   "k": "tick",
-   "g": 0.11399999999999999,
-   "pan": -0.3
-  },
-  {
-   "t": 6.609,
-   "k": "tick",
-   "g": 0.12,
-   "pan": -0.3
-  },
-  {
-   "t": 6.712,
-   "k": "tick",
-   "g": 0.126,
-   "pan": -0.3
-  },
-  {
-   "t": 6.811,
-   "k": "tick",
-   "g": 0.132,
-   "pan": -0.3
-  },
-  {
-   "t": 6.906,
-   "k": "tick",
-   "g": 0.138,
-   "pan": -0.3
-  },
-  {
-   "t": 6.999,
-   "k": "tick",
-   "g": 0.144,
-   "pan": -0.3
-  },
-  {
-   "t": 7.089,
-   "k": "tick",
-   "g": 0.15,
-   "pan": -0.3
-  },
-  {
-   "t": 7.177,
-   "k": "tick",
-   "g": 0.156,
-   "pan": -0.3
-  },
-  {
-   "t": 7.263,
-   "k": "tick",
-   "g": 0.162,
-   "pan": -0.3
-  },
-  {
-   "t": 7.347,
-   "k": "tick",
-   "g": 0.16799999999999998,
-   "pan": -0.3
-  },
-  {
-   "t": 5.904,
-   "k": "riser",
-   "g": 0.16,
-   "d": 1.5250000000000004
-  },
-  {
-   "t": 7.429,
+   "t": 3.065,
    "k": "pop",
    "g": 0.26,
    "pan": -0.25
   },
   {
-   "t": 8.258,
+   "t": 4.483,
+   "k": "tick",
+   "g": 0.09,
+   "pan": -0.3
+  },
+  {
+   "t": 4.659,
+   "k": "tick",
+   "g": 0.096,
+   "pan": -0.3
+  },
+  {
+   "t": 4.779,
+   "k": "tick",
+   "g": 0.102,
+   "pan": -0.3
+  },
+  {
+   "t": 4.885,
+   "k": "tick",
+   "g": 0.108,
+   "pan": -0.3
+  },
+  {
+   "t": 4.981,
+   "k": "tick",
+   "g": 0.11399999999999999,
+   "pan": -0.3
+  },
+  {
+   "t": 5.072,
+   "k": "tick",
+   "g": 0.12,
+   "pan": -0.3
+  },
+  {
+   "t": 5.158,
+   "k": "tick",
+   "g": 0.126,
+   "pan": -0.3
+  },
+  {
+   "t": 5.241,
+   "k": "tick",
+   "g": 0.132,
+   "pan": -0.3
+  },
+  {
+   "t": 5.321,
+   "k": "tick",
+   "g": 0.138,
+   "pan": -0.3
+  },
+  {
+   "t": 5.398,
+   "k": "tick",
+   "g": 0.144,
+   "pan": -0.3
+  },
+  {
+   "t": 5.474,
+   "k": "tick",
+   "g": 0.15,
+   "pan": -0.3
+  },
+  {
+   "t": 5.547,
+   "k": "tick",
+   "g": 0.156,
+   "pan": -0.3
+  },
+  {
+   "t": 5.619,
+   "k": "tick",
+   "g": 0.162,
+   "pan": -0.3
+  },
+  {
+   "t": 5.689,
+   "k": "tick",
+   "g": 0.16799999999999998,
+   "pan": -0.3
+  },
+  {
+   "t": 4.483,
+   "k": "riser",
+   "g": 0.16,
+   "d": 1.2750000000000004
+  },
+  {
+   "t": 5.758,
+   "k": "pop",
+   "g": 0.26,
+   "pan": -0.25
+  },
+  {
+   "t": 6.858,
    "k": "whoosh_soft",
    "g": 0.35
   },
   {
-   "t": 8.458,
+   "t": 7.058,
    "k": "pop",
    "g": 0.28
   },
   {
-   "t": 8.763,
+   "t": 7.038,
    "k": "select",
    "g": 0.24
   },
   {
-   "t": 9.555,
+   "t": 7.788,
    "k": "pop",
    "g": 0.28,
    "pan": 0.25
   },
   {
-   "t": 9.595,
+   "t": 7.828,
    "k": "sparkle",
    "g": 0.22
   },
   {
-   "t": 15.967,
+   "t": 12.634,
    "k": "pop",
    "g": 0.3,
    "pan": 0.25
   },
   {
-   "t": 15.987,
+   "t": 12.654,
    "k": "thump",
    "g": 0.28
   },
   {
-   "t": 16.381,
+   "t": 13.044,
    "k": "riser",
    "g": 0.24,
-   "d": 1.379999999999999
+   "d": 0.9799999999999986
   },
   {
-   "t": 16.501,
+   "t": 13.164,
    "k": "thump",
    "g": 0.4
   },
   {
-   "t": 16.671,
+   "t": 13.334,
    "k": "thump",
    "g": 0.24
   },
   {
-   "t": 16.981,
+   "t": 13.644,
    "k": "thump",
    "g": 0.4
   },
   {
-   "t": 17.151,
+   "t": 13.814,
    "k": "thump",
    "g": 0.24
   },
   {
-   "t": 17.461,
+   "t": 14.124,
    "k": "thump",
    "g": 0.4
   },
   {
-   "t": 17.631,
+   "t": 14.294,
    "k": "thump",
    "g": 0.24
   },
   {
-   "t": 16.431,
+   "t": 13.094,
    "k": "tick",
    "g": 0.14,
    "pan": 0.35
   },
   {
-   "t": 16.681,
+   "t": 13.344,
    "k": "tick",
    "g": 0.14,
    "pan": 0.35
   },
   {
-   "t": 16.931,
+   "t": 13.594,
    "k": "tick",
    "g": 0.14,
    "pan": 0.35
   },
   {
-   "t": 17.181,
+   "t": 13.844,
    "k": "tick",
    "g": 0.14,
    "pan": 0.35
   },
   {
-   "t": 17.431,
-   "k": "tick",
-   "g": 0.14,
-   "pan": 0.35
-  },
-  {
-   "t": 17.731,
+   "t": 13.994,
    "k": "deep",
-   "g": 0.55
+   "g": 0.45
   },
   {
-   "t": 17.761,
+   "t": 14.024,
    "k": "hit",
    "g": 0.45
   },
   {
-   "t": 17.811,
+   "t": 13.974,
    "k": "zoom_out",
-   "g": 0.32
+   "g": 0.18
   },
   {
-   "t": 18.592,
+   "t": 15.025,
+   "k": "tick",
+   "g": 0.08800000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 15.092,
    "k": "tick",
    "g": 0.09100000000000001,
    "pan": 0.2
   },
   {
-   "t": 18.646,
+   "t": 15.158,
    "k": "tick",
    "g": 0.094,
    "pan": 0.2
   },
   {
-   "t": 18.7,
+   "t": 15.225,
    "k": "tick",
    "g": 0.097,
    "pan": 0.2
   },
   {
-   "t": 18.753,
+   "t": 15.292,
    "k": "tick",
    "g": 0.1,
    "pan": 0.2
   },
   {
-   "t": 18.807,
+   "t": 15.358,
    "k": "tick",
    "g": 0.10300000000000001,
    "pan": 0.2
   },
   {
-   "t": 18.861,
+   "t": 15.425,
    "k": "tick",
    "g": 0.10600000000000001,
    "pan": 0.2
   },
   {
-   "t": 18.915,
+   "t": 15.492,
    "k": "tick",
    "g": 0.10900000000000001,
    "pan": 0.2
   },
   {
-   "t": 18.969,
+   "t": 15.558,
    "k": "tick",
    "g": 0.11200000000000002,
    "pan": 0.2
   },
   {
-   "t": 19.023,
+   "t": 15.625,
    "k": "tick",
    "g": 0.115,
    "pan": 0.2
   },
   {
-   "t": 19.077,
-   "k": "tick",
-   "g": 0.11800000000000001,
-   "pan": 0.2
-  },
-  {
-   "t": 19.131,
-   "k": "tick",
-   "g": 0.12100000000000001,
-   "pan": 0.2
-  },
-  {
-   "t": 19.185,
-   "k": "tick",
-   "g": 0.124,
-   "pan": 0.2
-  },
-  {
-   "t": 19.239,
-   "k": "tick",
-   "g": 0.127,
-   "pan": 0.2
-  },
-  {
-   "t": 19.239,
+   "t": 15.625,
    "k": "select",
    "g": 0.3
   },
   {
-   "t": 21.429,
+   "t": 17.444,
    "k": "pop",
    "g": 0.3
   },
   {
-   "t": 21.509,
+   "t": 17.524,
    "k": "swish",
    "g": 0.24,
    "pan": 0.3
   },
   {
-   "t": 22.958,
+   "t": 18.959,
    "k": "deep",
    "g": 0.35
   },
   {
-   "t": 22.998,
+   "t": 18.999,
    "k": "whoosh_f",
    "g": 0.26
   },
   {
-   "t": 25.253,
+   "t": 21.225,
    "k": "whoosh_soft",
    "g": 0.28
   },
   {
-   "t": 26.228,
+   "t": 22.175,
    "k": "hit",
    "g": 0.34
   },
   {
-   "t": 28.247,
-   "k": "whoosh_f",
-   "g": 0.5
-  },
-  {
-   "t": 28.327,
-   "k": "sting",
-   "g": 0.45
-  },
-  {
-   "t": 28.547,
+   "t": 23.922,
    "k": "pop",
    "g": 0.3
-  },
-  {
-   "t": 28.747,
-   "k": "tap",
-   "g": 0.45
-  },
-  {
-   "t": 28.807,
-   "k": "check",
-   "g": 0.35
   }
  ],
  "music": {
-  "beat": 3.359,
-  "tense": 16.381,
-  "phone": 17.761,
-  "drop": 20.485,
-  "last": 22.998,
-  "end": 28.247
+  "beat": 0,
+  "tense": 13.044,
+  "phone": 14.024,
+  "drop": 16.775,
+  "last": 18.999,
+  "end": 21.203
  },
  "blur": [
   [
-   3.189,
-   4.259,
-   6
-  ],
-  [
-   8.267999999999999,
-   8.988,
-   6
-  ],
-  [
-   17.481,
-   17.761,
-   4
-  ],
-  [
-   17.741,
-   18.410999999999998,
+   0,
+   0.9500000000000001,
    8
   ],
   [
-   21.409,
-   21.779,
+   6.867999999999999,
+   7.588,
+   6
+  ],
+  [
+   13.744,
+   14.024,
    4
   ],
   [
-   25.283,
-   25.703,
-   4
-  ],
-  [
-   28.047,
-   28.487,
+   14.004,
+   14.674,
    8
+  ],
+  [
+   17.424,
+   17.794,
+   4
+  ],
+  [
+   21.255,
+   21.674999999999997,
+   4
   ]
  ]
 }
