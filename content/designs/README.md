@@ -65,6 +65,23 @@ Files: `post5_leads/` (7 slides), same Apple-style kit as above (`source/apple_k
 **Alt text (cover)**
 > Black slide with the headline "He got 47 leads. Not one became a customer." above an iPhone lock screen with a stacked "New lead: Lead #47 wants a quote" notification and "46 more notifications" under it.
 
+## Carousel: Your best ad is already written.
+Files: `post6_bestad/` (9 slides), same Apple-style kit (`source/apple_kit.js`), now with a short line under each headline, @mezmedia_0 top left and a page count top right. Five ads hiding on a brand's own website, each on a phone: the story page with the line that's already an ad, a Notes list of ad ideas crossed out, the brand timeline, a 10-second edit of the making, the promise on the product page, the $9 sample, the reviews, the checklist to screenshot, and the TEARDOWN DM. The brand on the screens is made up ("Your Brand"); the numbers are illustrations, not claims. Rebuild with `node source/build_bestad.js <out-dir>`.
+
+**Caption**
+> Before you pay for new ad ideas, read your own About page.
+>
+> Most brands treat ad creative as something to invent from scratch. But the hooks that sell are things you already say: where you started, how it's made, a 30-day return policy, a $9 sample, the reviews you've earned.
+>
+> That's 5 ads. Each one is a 10-second Meta ads clip you can film this week on your phone.
+>
+> Not sure which one is hiding on your site? DM us TEARDOWN and we'll review your ads and send 3 ideas, free.
+>
+> #metaads #adcreative #facebookads
+
+**Alt text (cover)**
+> Black slide with the headline "Your best ad is already written." and "It's on your own website. Here are 5 places to look." above an iPhone showing a brand's Our Story page, with the line "It started with one batch on our kitchen table" highlighted in yellow.
+
 ## Reel: "Breaking news" launch (black and white)
 File: `reels/mezmedia_breaking_news_launch.mp4` (1080×1920, 30fps, about 24.5s, deep British voiceover (Kokoro bm_lewis, fast read) + music + SFX, -14 LUFS).
 Rebuild: `python3 source/reel_news_vo.py <kokoro-dir> <tmp>` → `node source/reel_news.js <frames> <video.mp4>` → `python3 source/reel_news_audio.py <tmp>/vo.wav <mix.wav>`, then mux. Photos are free Pexels images converted to black and white (`source/photos/`).
