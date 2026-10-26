@@ -61,11 +61,38 @@ def word_spans(k, text, spoken, cut):
     return spans
 
 
+def line_fx(x, sr, rise_at, pitch=0.0, gain=0.0, flat=1.0, rise=0.0):
+    """One line re-intoned with Praat's overlap-add (same length, same timing, the voice's own formants): moved by
+    `pitch` semitones, its melody squeezed toward its median by `flat` (1 keeps it, 0 is a monotone), and with `rise`
+    the last word glides up that many semitones from where it starts (a question that goes up, not down). Then `gain` dB.
+    Needs praat-parselmouth (pip install praat-parselmouth)."""
+    import parselmouth
+    from parselmouth.praat import call
+    man = call(parselmouth.Sound(x, sr), "To Manipulation", 0.01, 60, 400)
+    tier = call(man, "Extract pitch tier")
+    pts = [(call(tier, "Get time from index", i), call(tier, "Get value at index", i))
+           for i in range(1, call(tier, "Get number of points") + 1)]
+    med = np.median([v for _, v in pts])
+    st = [(t, 12 * np.log2(v / med) * flat + pitch) for t, v in pts]
+    if rise:
+        s0 = next((v for t, v in reversed(st) if t <= rise_at), st[0][1])
+        t1 = st[-1][0]
+        st = [(t, v if t <= rise_at else s0 + rise * ((t - rise_at) / max(1e-3, t1 - rise_at)) ** 0.8) for t, v in st]
+    call(tier, "Remove points between", 0, len(x) / sr)
+    for t, v in st:
+        call(tier, "Add point", t, med * 2 ** (v / 12))
+    call([man, tier], "Replace pitch tier")
+    y = call(man, "Get resynthesis (overlap-add)").values[0] * 10 ** (gain / 20)
+    return np.pad(y, (0, max(0, len(x) - len(y))))[: len(x)]
+
+
 POLISH = "highpass=f=70,equalizer=f=300:t=q:w=1:g=-1.5,equalizer=f=4200:t=q:w=1.2:g=2,acompressor=threshold=-20dB:ratio=2.5:attack=5:release=80:makeup=2"
 
 
 def make_vo(lines, kdir, out_dir, cues_path, tail, voice="af_heart", continuous=False, polish=POLISH):
-    """lines: (key, spoken text, caption text with the same words, gap before, speed).
+    """lines: (key, spoken text, caption text with the same words, gap before, speed[, fx]); fx is an optional
+    {"pitch": semitones, "gain": dB, "flat": 0..1, "rise": semitones} for that line (see line_fx); the length is
+    unchanged, so a line can drop, lift, flatten, hush, punch or end on a question while its word times stay exact.
     voice: a voice name, or {name: weight} to blend voices. continuous: synthesize each line as one take, so the
     intonation runs through it. polish: the ffmpeg filter chain for the finished track.
     Writes the cues JSON and <out_dir>/vo.wav (44.1 kHz)."""
@@ -83,15 +110,17 @@ def make_vo(lines, kdir, out_dir, cues_path, tail, voice="af_heart", continuous=
     wm = WhisperModel("small.en", compute_type="int8")
 
     clips, cues, t, sr = [], {"lines": {}, "words": []}, 0.0, 24000
-    for key, text, shown, gap, speed in lines:
+    for key, text, shown, gap, speed, *fx in lines:
         raw, sr, spoken = k.create_timed(text, voice=voice, speed=speed, lang="en-us", sentence_pause=0, clause_pause=0, continuous=continuous)
         s, cut = trim(raw, sr)
+        spans = word_spans(k, text, spoken, cut)
+        if fx:
+            s = line_fx(s, sr, spans[-1][0], **fx[0])
         t += gap
         dur = len(s) / sr
         x16 = np.interp(np.arange(int(len(s) * 16000 / sr)) * sr / 16000, np.arange(len(s)), s).astype(np.float32)
         heard = [w for seg in wm.transcribe(x16, word_timestamps=True)[0] for w in seg.words]
         want = shown.split()
-        spans = word_spans(k, text, spoken, cut)
         assert len(spans) == len(want), (key, len(spans), len(want))
         for w, (a, b) in zip(want, spans):
             cues["words"].append({"w": w, "s": round(t + a, 3), "e": round(t + b, 3), "line": key})

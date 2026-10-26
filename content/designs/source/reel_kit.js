@@ -81,14 +81,17 @@ async function render(html, { frames, out, end, flag, list, gl }) {
   await pg.waitForFunction(() => window.ready, null, { timeout: 120000 });
   await pg.evaluate(async (faces) => { await Promise.all(faces.map((f) => document.fonts.load(f))); await window.ready; }, FACES);
   const times = flag === '--preview' ? list.split(',').map(Number) : Array.from({ length: Math.round(30 * end) }, (_, f) => f / 30);
+  // REEL_RANGE=a:b renders only frames a..b-1 and leaves the encode to the caller (for several renderers at once)
+  const [r0, r1] = (process.env.REEL_RANGE || `0:${times.length}`).split(':').map(Number), part = !!process.env.REEL_RANGE && flag !== '--preview';
   const el = await pg.$('#c');
-  for (let i = 0; i < times.length; i++) {
+  for (let i = part ? r0 : 0; i < (part ? Math.min(r1, times.length) : times.length); i++) {
     await pg.evaluate((t) => window.setTime(t), times[i]);
     const name = flag === '--preview' ? `p_${times[i].toFixed(2)}.jpg` : `f${String(i).padStart(4, '0')}.jpg`;
     await el.screenshot({ path: path.join(frames, name), type: 'jpeg', quality: 92 });
   }
   await browser.close();
-  if (flag !== '--preview') {
+  if (part) console.log(`frames ${r0}-${r1 - 1} in`, frames);
+  else if (flag !== '--preview') {
     execFileSync('ffmpeg', ['-y', '-framerate', '30', '-i', path.join(frames, 'f%04d.jpg'), '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-preset', 'slow', '-crf', '18', '-movflags', '+faststart', out], { stdio: 'ignore' });
     console.log('wrote', out);
   } else console.log('previews in', frames);

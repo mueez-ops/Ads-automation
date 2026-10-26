@@ -1,0 +1,1284 @@
+{
+ "lines": {
+  "see": {
+   "s": 0.05,
+   "e": 1.436,
+   "text": "your iPhone can see your face"
+  },
+  "dark": {
+   "s": 1.476,
+   "e": 2.58,
+   "text": "in total darkness"
+  },
+  "photo": {
+   "s": 2.88,
+   "e": 4.544,
+   "text": "but show it a perfect photo of you"
+  },
+  "nothing": {
+   "s": 4.944,
+   "e": 5.541,
+   "text": "nothing"
+  },
+  "asleep": {
+   "s": 5.841,
+   "e": 7.58,
+   "text": "hold it to your face while you're asleep"
+  },
+  "still": {
+   "s": 7.8,
+   "e": 8.575,
+   "text": "still locked"
+  },
+  "how": {
+   "s": 8.925,
+   "e": 10.366,
+   "text": "so how does it know it's really you"
+  },
+  "proj": {
+   "s": 10.546,
+   "e": 15.083,
+   "text": "above your screen a projector fires over 30,000 + invisible dots at your face"
+  },
+  "cam": {
+   "s": 15.203,
+   "e": 18.853,
+   "text": "a camera sees the dots on your nose land closer than the ones on your cheeks"
+  },
+  "map": {
+   "s": 18.913,
+   "e": 20.437,
+   "text": "that's a 3D + map of your face"
+  },
+  "flat": {
+   "s": 20.687,
+   "e": 22.781,
+   "text": "a photo is flat no depth no unlock"
+  },
+  "darkx": {
+   "s": 23.031,
+   "e": 25.647,
+   "text": "in the dark it lights you up with infrared you can't see"
+  },
+  "chip": {
+   "s": 25.827,
+   "e": 30.525,
+   "text": "a locked part of the chip turns that map into numbers and compares them with your saved face"
+  },
+  "odds": {
+   "s": 30.675,
+   "e": 32.03,
+   "text": "the odds a stranger gets in"
+  },
+  "million": {
+   "s": 32.15,
+   "e": 33.228,
+   "text": "less than 1 in a million"
+  },
+  "eyes": {
+   "s": 33.528,
+   "e": 35.614,
+   "text": "and asleep it checks that your eyes are open"
+  },
+  "shut": {
+   "s": 35.734,
+   "e": 36.902,
+   "text": "eyes closed locked"
+  },
+  "watched": {
+   "s": 37.902,
+   "e": 40.404,
+   "text": "you've just watched this reel for 39 seconds"
+  },
+  "imagine": {
+   "s": 40.554,
+   "e": 42.239,
+   "text": "imagine your ad held people that long"
+  },
+  "scale": {
+   "s": 42.389,
+   "e": 44.233,
+   "text": "we scale businesses with ads like this"
+  },
+  "dm": {
+   "s": 44.333,
+   "e": 46.692,
+   "text": "DM us the word teardown for a free ad review"
+  }
+ },
+ "words": [
+  {
+   "w": "your",
+   "s": 0.05,
+   "e": 0.15,
+   "line": "see"
+  },
+  {
+   "w": "iPhone",
+   "s": 0.2,
+   "e": 0.6,
+   "line": "see"
+  },
+  {
+   "w": "can",
+   "s": 0.625,
+   "e": 0.725,
+   "line": "see"
+  },
+  {
+   "w": "see",
+   "s": 0.775,
+   "e": 0.9,
+   "line": "see"
+  },
+  {
+   "w": "your",
+   "s": 0.925,
+   "e": 1.0,
+   "line": "see"
+  },
+  {
+   "w": "face",
+   "s": 1.05,
+   "e": 1.6,
+   "line": "see"
+  },
+  {
+   "w": "in",
+   "s": 1.476,
+   "e": 1.576,
+   "line": "dark"
+  },
+  {
+   "w": "total",
+   "s": 1.626,
+   "e": 1.926,
+   "line": "dark"
+  },
+  {
+   "w": "darkness",
+   "s": 1.976,
+   "e": 2.776,
+   "line": "dark"
+  },
+  {
+   "w": "but",
+   "s": 2.88,
+   "e": 2.98,
+   "line": "photo"
+  },
+  {
+   "w": "show",
+   "s": 3.055,
+   "e": 3.255,
+   "line": "photo"
+  },
+  {
+   "w": "it",
+   "s": 3.305,
+   "e": 3.355,
+   "line": "photo"
+  },
+  {
+   "w": "a",
+   "s": 3.355,
+   "e": 3.48,
+   "line": "photo"
+  },
+  {
+   "w": "perfect",
+   "s": 3.48,
+   "e": 3.805,
+   "line": "photo"
+  },
+  {
+   "w": "photo",
+   "s": 3.855,
+   "e": 4.18,
+   "line": "photo"
+  },
+  {
+   "w": "of",
+   "s": 4.205,
+   "e": 4.255,
+   "line": "photo"
+  },
+  {
+   "w": "you",
+   "s": 4.305,
+   "e": 4.755,
+   "line": "photo"
+  },
+  {
+   "w": "nothing",
+   "s": 4.944,
+   "e": 5.744,
+   "line": "nothing"
+  },
+  {
+   "w": "hold",
+   "s": 5.841,
+   "e": 6.041,
+   "line": "asleep"
+  },
+  {
+   "w": "it",
+   "s": 6.066,
+   "e": 6.116,
+   "line": "asleep"
+  },
+  {
+   "w": "to",
+   "s": 6.166,
+   "e": 6.191,
+   "line": "asleep"
+  },
+  {
+   "w": "your",
+   "s": 6.241,
+   "e": 6.341,
+   "line": "asleep"
+  },
+  {
+   "w": "face",
+   "s": 6.416,
+   "e": 6.741,
+   "line": "asleep"
+  },
+  {
+   "w": "while",
+   "s": 6.791,
+   "e": 6.916,
+   "line": "asleep"
+  },
+  {
+   "w": "you're",
+   "s": 6.966,
+   "e": 7.066,
+   "line": "asleep"
+  },
+  {
+   "w": "asleep",
+   "s": 7.116,
+   "e": 7.766,
+   "line": "asleep"
+  },
+  {
+   "w": "still",
+   "s": 7.8,
+   "e": 8.05,
+   "line": "still"
+  },
+  {
+   "w": "locked",
+   "s": 8.1,
+   "e": 8.725,
+   "line": "still"
+  },
+  {
+   "w": "so",
+   "s": 8.925,
+   "e": 9.025,
+   "line": "how"
+  },
+  {
+   "w": "how",
+   "s": 9.075,
+   "e": 9.175,
+   "line": "how"
+  },
+  {
+   "w": "does",
+   "s": 9.2,
+   "e": 9.3,
+   "line": "how"
+  },
+  {
+   "w": "it",
+   "s": 9.325,
+   "e": 9.375,
+   "line": "how"
+  },
+  {
+   "w": "know",
+   "s": 9.4,
+   "e": 9.525,
+   "line": "how"
+  },
+  {
+   "w": "it's",
+   "s": 9.55,
+   "e": 9.675,
+   "line": "how"
+  },
+  {
+   "w": "really",
+   "s": 9.725,
+   "e": 10.025,
+   "line": "how"
+  },
+  {
+   "w": "you",
+   "s": 10.1,
+   "e": 10.6,
+   "line": "how"
+  },
+  {
+   "w": "above",
+   "s": 10.546,
+   "e": 10.771,
+   "line": "proj"
+  },
+  {
+   "w": "your",
+   "s": 10.796,
+   "e": 10.921,
+   "line": "proj"
+  },
+  {
+   "w": "screen",
+   "s": 10.971,
+   "e": 11.321,
+   "line": "proj"
+  },
+  {
+   "w": "a",
+   "s": 11.321,
+   "e": 11.496,
+   "line": "proj"
+  },
+  {
+   "w": "projector",
+   "s": 11.496,
+   "e": 11.946,
+   "line": "proj"
+  },
+  {
+   "w": "fires",
+   "s": 12.021,
+   "e": 12.396,
+   "line": "proj"
+  },
+  {
+   "w": "over",
+   "s": 12.446,
+   "e": 12.621,
+   "line": "proj"
+  },
+  {
+   "w": "30,000",
+   "s": 12.721,
+   "e": 13.021,
+   "line": "proj"
+  },
+  {
+   "w": "+",
+   "s": 13.096,
+   "e": 13.446,
+   "line": "proj"
+  },
+  {
+   "w": "invisible",
+   "s": 13.496,
+   "e": 13.996,
+   "line": "proj"
+  },
+  {
+   "w": "dots",
+   "s": 14.046,
+   "e": 14.371,
+   "line": "proj"
+  },
+  {
+   "w": "at",
+   "s": 14.421,
+   "e": 14.471,
+   "line": "proj"
+  },
+  {
+   "w": "your",
+   "s": 14.496,
+   "e": 14.596,
+   "line": "proj"
+  },
+  {
+   "w": "face",
+   "s": 14.671,
+   "e": 15.296,
+   "line": "proj"
+  },
+  {
+   "w": "a",
+   "s": 15.203,
+   "e": 15.294,
+   "line": "cam"
+  },
+  {
+   "w": "camera",
+   "s": 15.294,
+   "e": 15.619,
+   "line": "cam"
+  },
+  {
+   "w": "sees",
+   "s": 15.694,
+   "e": 15.944,
+   "line": "cam"
+  },
+  {
+   "w": "the",
+   "s": 15.969,
+   "e": 16.044,
+   "line": "cam"
+  },
+  {
+   "w": "dots",
+   "s": 16.094,
+   "e": 16.394,
+   "line": "cam"
+  },
+  {
+   "w": "on",
+   "s": 16.469,
+   "e": 16.519,
+   "line": "cam"
+  },
+  {
+   "w": "your",
+   "s": 16.544,
+   "e": 16.644,
+   "line": "cam"
+  },
+  {
+   "w": "nose",
+   "s": 16.694,
+   "e": 16.944,
+   "line": "cam"
+  },
+  {
+   "w": "land",
+   "s": 16.994,
+   "e": 17.319,
+   "line": "cam"
+  },
+  {
+   "w": "closer",
+   "s": 17.394,
+   "e": 17.744,
+   "line": "cam"
+  },
+  {
+   "w": "than",
+   "s": 17.794,
+   "e": 17.869,
+   "line": "cam"
+  },
+  {
+   "w": "the",
+   "s": 17.894,
+   "e": 17.944,
+   "line": "cam"
+  },
+  {
+   "w": "ones",
+   "s": 17.994,
+   "e": 18.194,
+   "line": "cam"
+  },
+  {
+   "w": "on",
+   "s": 18.244,
+   "e": 18.294,
+   "line": "cam"
+  },
+  {
+   "w": "your",
+   "s": 18.319,
+   "e": 18.394,
+   "line": "cam"
+  },
+  {
+   "w": "cheeks",
+   "s": 18.444,
+   "e": 19.044,
+   "line": "cam"
+  },
+  {
+   "w": "that's",
+   "s": 18.913,
+   "e": 19.088,
+   "line": "map"
+  },
+  {
+   "w": "a",
+   "s": 19.088,
+   "e": 19.238,
+   "line": "map"
+  },
+  {
+   "w": "3D",
+   "s": 19.238,
+   "e": 19.413,
+   "line": "map"
+  },
+  {
+   "w": "+",
+   "s": 19.463,
+   "e": 19.563,
+   "line": "map"
+  },
+  {
+   "w": "map",
+   "s": 19.613,
+   "e": 19.813,
+   "line": "map"
+  },
+  {
+   "w": "of",
+   "s": 19.838,
+   "e": 19.888,
+   "line": "map"
+  },
+  {
+   "w": "your",
+   "s": 19.913,
+   "e": 19.988,
+   "line": "map"
+  },
+  {
+   "w": "face",
+   "s": 20.038,
+   "e": 20.613,
+   "line": "map"
+  },
+  {
+   "w": "a",
+   "s": 20.687,
+   "e": 20.787,
+   "line": "flat"
+  },
+  {
+   "w": "photo",
+   "s": 20.787,
+   "e": 21.087,
+   "line": "flat"
+  },
+  {
+   "w": "is",
+   "s": 21.112,
+   "e": 21.212,
+   "line": "flat"
+  },
+  {
+   "w": "flat",
+   "s": 21.262,
+   "e": 21.537,
+   "line": "flat"
+  },
+  {
+   "w": "no",
+   "s": 21.612,
+   "e": 21.787,
+   "line": "flat"
+  },
+  {
+   "w": "depth",
+   "s": 21.837,
+   "e": 22.112,
+   "line": "flat"
+  },
+  {
+   "w": "no",
+   "s": 22.187,
+   "e": 22.362,
+   "line": "flat"
+  },
+  {
+   "w": "unlock",
+   "s": 22.412,
+   "e": 23.087,
+   "line": "flat"
+  },
+  {
+   "w": "in",
+   "s": 23.031,
+   "e": 23.131,
+   "line": "darkx"
+  },
+  {
+   "w": "the",
+   "s": 23.131,
+   "e": 23.181,
+   "line": "darkx"
+  },
+  {
+   "w": "dark",
+   "s": 23.231,
+   "e": 23.581,
+   "line": "darkx"
+  },
+  {
+   "w": "it",
+   "s": 23.656,
+   "e": 23.706,
+   "line": "darkx"
+  },
+  {
+   "w": "lights",
+   "s": 23.756,
+   "e": 23.981,
+   "line": "darkx"
+  },
+  {
+   "w": "you",
+   "s": 24.006,
+   "e": 24.081,
+   "line": "darkx"
+  },
+  {
+   "w": "up",
+   "s": 24.181,
+   "e": 24.281,
+   "line": "darkx"
+  },
+  {
+   "w": "with",
+   "s": 24.306,
+   "e": 24.431,
+   "line": "darkx"
+  },
+  {
+   "w": "infrared",
+   "s": 24.481,
+   "e": 24.956,
+   "line": "darkx"
+  },
+  {
+   "w": "you",
+   "s": 24.981,
+   "e": 25.056,
+   "line": "darkx"
+  },
+  {
+   "w": "can't",
+   "s": 25.106,
+   "e": 25.306,
+   "line": "darkx"
+  },
+  {
+   "w": "see",
+   "s": 25.381,
+   "e": 25.881,
+   "line": "darkx"
+  },
+  {
+   "w": "a",
+   "s": 25.827,
+   "e": 25.927,
+   "line": "chip"
+  },
+  {
+   "w": "locked",
+   "s": 25.927,
+   "e": 26.227,
+   "line": "chip"
+  },
+  {
+   "w": "part",
+   "s": 26.277,
+   "e": 26.452,
+   "line": "chip"
+  },
+  {
+   "w": "of",
+   "s": 26.477,
+   "e": 26.552,
+   "line": "chip"
+  },
+  {
+   "w": "the",
+   "s": 26.552,
+   "e": 26.602,
+   "line": "chip"
+  },
+  {
+   "w": "chip",
+   "s": 26.652,
+   "e": 26.877,
+   "line": "chip"
+  },
+  {
+   "w": "turns",
+   "s": 26.927,
+   "e": 27.277,
+   "line": "chip"
+  },
+  {
+   "w": "that",
+   "s": 27.327,
+   "e": 27.477,
+   "line": "chip"
+  },
+  {
+   "w": "map",
+   "s": 27.527,
+   "e": 27.727,
+   "line": "chip"
+  },
+  {
+   "w": "into",
+   "s": 27.752,
+   "e": 27.952,
+   "line": "chip"
+  },
+  {
+   "w": "numbers",
+   "s": 28.002,
+   "e": 28.502,
+   "line": "chip"
+  },
+  {
+   "w": "and",
+   "s": 28.602,
+   "e": 28.677,
+   "line": "chip"
+  },
+  {
+   "w": "compares",
+   "s": 28.727,
+   "e": 29.127,
+   "line": "chip"
+  },
+  {
+   "w": "them",
+   "s": 29.177,
+   "e": 29.352,
+   "line": "chip"
+  },
+  {
+   "w": "with",
+   "s": 29.402,
+   "e": 29.502,
+   "line": "chip"
+  },
+  {
+   "w": "your",
+   "s": 29.527,
+   "e": 29.627,
+   "line": "chip"
+  },
+  {
+   "w": "saved",
+   "s": 29.702,
+   "e": 30.027,
+   "line": "chip"
+  },
+  {
+   "w": "face",
+   "s": 30.102,
+   "e": 30.727,
+   "line": "chip"
+  },
+  {
+   "w": "the",
+   "s": 30.675,
+   "e": 30.725,
+   "line": "odds"
+  },
+  {
+   "w": "odds",
+   "s": 30.825,
+   "e": 31.0,
+   "line": "odds"
+  },
+  {
+   "w": "a",
+   "s": 31.0,
+   "e": 31.1,
+   "line": "odds"
+  },
+  {
+   "w": "stranger",
+   "s": 31.1,
+   "e": 31.475,
+   "line": "odds"
+  },
+  {
+   "w": "gets",
+   "s": 31.525,
+   "e": 31.75,
+   "line": "odds"
+  },
+  {
+   "w": "in",
+   "s": 31.8,
+   "e": 32.225,
+   "line": "odds"
+  },
+  {
+   "w": "less",
+   "s": 32.15,
+   "e": 32.35,
+   "line": "million"
+  },
+  {
+   "w": "than",
+   "s": 32.375,
+   "e": 32.45,
+   "line": "million"
+  },
+  {
+   "w": "1",
+   "s": 32.5,
+   "e": 32.625,
+   "line": "million"
+  },
+  {
+   "w": "in",
+   "s": 32.65,
+   "e": 32.7,
+   "line": "million"
+  },
+  {
+   "w": "a",
+   "s": 32.7,
+   "e": 32.8,
+   "line": "million"
+  },
+  {
+   "w": "million",
+   "s": 32.8,
+   "e": 33.45,
+   "line": "million"
+  },
+  {
+   "w": "and",
+   "s": 33.528,
+   "e": 33.603,
+   "line": "eyes"
+  },
+  {
+   "w": "asleep",
+   "s": 33.653,
+   "e": 34.078,
+   "line": "eyes"
+  },
+  {
+   "w": "it",
+   "s": 34.153,
+   "e": 34.203,
+   "line": "eyes"
+  },
+  {
+   "w": "checks",
+   "s": 34.253,
+   "e": 34.503,
+   "line": "eyes"
+  },
+  {
+   "w": "that",
+   "s": 34.528,
+   "e": 34.628,
+   "line": "eyes"
+  },
+  {
+   "w": "your",
+   "s": 34.653,
+   "e": 34.778,
+   "line": "eyes"
+  },
+  {
+   "w": "eyes",
+   "s": 34.828,
+   "e": 35.028,
+   "line": "eyes"
+  },
+  {
+   "w": "are",
+   "s": 35.053,
+   "e": 35.128,
+   "line": "eyes"
+  },
+  {
+   "w": "open",
+   "s": 35.178,
+   "e": 35.828,
+   "line": "eyes"
+  },
+  {
+   "w": "eyes",
+   "s": 35.734,
+   "e": 35.959,
+   "line": "shut"
+  },
+  {
+   "w": "closed",
+   "s": 36.009,
+   "e": 36.409,
+   "line": "shut"
+  },
+  {
+   "w": "locked",
+   "s": 36.509,
+   "e": 37.084,
+   "line": "shut"
+  },
+  {
+   "w": "you've",
+   "s": 37.902,
+   "e": 38.027,
+   "line": "watched"
+  },
+  {
+   "w": "just",
+   "s": 38.052,
+   "e": 38.227,
+   "line": "watched"
+  },
+  {
+   "w": "watched",
+   "s": 38.277,
+   "e": 38.577,
+   "line": "watched"
+  },
+  {
+   "w": "this",
+   "s": 38.602,
+   "e": 38.752,
+   "line": "watched"
+  },
+  {
+   "w": "reel",
+   "s": 38.802,
+   "e": 39.027,
+   "line": "watched"
+  },
+  {
+   "w": "for",
+   "s": 39.077,
+   "e": 39.202,
+   "line": "watched"
+  },
+  {
+   "w": "39",
+   "s": 39.277,
+   "e": 39.827,
+   "line": "watched"
+  },
+  {
+   "w": "seconds",
+   "s": 39.902,
+   "e": 40.627,
+   "line": "watched"
+  },
+  {
+   "w": "imagine",
+   "s": 40.554,
+   "e": 40.929,
+   "line": "imagine"
+  },
+  {
+   "w": "your",
+   "s": 40.954,
+   "e": 41.029,
+   "line": "imagine"
+  },
+  {
+   "w": "ad",
+   "s": 41.079,
+   "e": 41.204,
+   "line": "imagine"
+  },
+  {
+   "w": "held",
+   "s": 41.254,
+   "e": 41.429,
+   "line": "imagine"
+  },
+  {
+   "w": "people",
+   "s": 41.479,
+   "e": 41.779,
+   "line": "imagine"
+  },
+  {
+   "w": "that",
+   "s": 41.804,
+   "e": 41.929,
+   "line": "imagine"
+  },
+  {
+   "w": "long",
+   "s": 41.979,
+   "e": 42.479,
+   "line": "imagine"
+  },
+  {
+   "w": "we",
+   "s": 42.389,
+   "e": 42.464,
+   "line": "scale"
+  },
+  {
+   "w": "scale",
+   "s": 42.514,
+   "e": 42.814,
+   "line": "scale"
+  },
+  {
+   "w": "businesses",
+   "s": 42.864,
+   "e": 43.339,
+   "line": "scale"
+  },
+  {
+   "w": "with",
+   "s": 43.364,
+   "e": 43.489,
+   "line": "scale"
+  },
+  {
+   "w": "ads",
+   "s": 43.564,
+   "e": 43.764,
+   "line": "scale"
+  },
+  {
+   "w": "like",
+   "s": 43.789,
+   "e": 43.914,
+   "line": "scale"
+  },
+  {
+   "w": "this",
+   "s": 43.964,
+   "e": 44.414,
+   "line": "scale"
+  },
+  {
+   "w": "DM",
+   "s": 44.333,
+   "e": 44.658,
+   "line": "dm"
+  },
+  {
+   "w": "us",
+   "s": 44.683,
+   "e": 44.833,
+   "line": "dm"
+  },
+  {
+   "w": "the",
+   "s": 44.858,
+   "e": 44.908,
+   "line": "dm"
+  },
+  {
+   "w": "word",
+   "s": 44.958,
+   "e": 45.133,
+   "line": "dm"
+  },
+  {
+   "w": "teardown",
+   "s": 45.183,
+   "e": 45.608,
+   "line": "dm"
+  },
+  {
+   "w": "for",
+   "s": 45.658,
+   "e": 45.783,
+   "line": "dm"
+  },
+  {
+   "w": "a",
+   "s": 45.783,
+   "e": 45.883,
+   "line": "dm"
+  },
+  {
+   "w": "free",
+   "s": 45.883,
+   "e": 46.083,
+   "line": "dm"
+  },
+  {
+   "w": "ad",
+   "s": 46.133,
+   "e": 46.283,
+   "line": "dm"
+  },
+  {
+   "w": "review",
+   "s": 46.333,
+   "e": 46.958,
+   "line": "dm"
+  }
+ ],
+ "voice_end": 46.692,
+ "end": 47.292,
+ "at": {
+  "see:your": 0.925,
+  "see:iPhone": 0.2,
+  "see:can": 0.625,
+  "see:see": 0.775,
+  "see:face": 1.05,
+  "dark:in": 1.476,
+  "dark:total": 1.626,
+  "dark:darkness": 1.976,
+  "photo:but": 2.88,
+  "photo:show": 3.055,
+  "photo:it": 3.305,
+  "photo:a": 3.355,
+  "photo:perfect": 3.48,
+  "photo:photo": 3.855,
+  "photo:of": 4.205,
+  "photo:you": 4.305,
+  "nothing:nothing": 4.944,
+  "asleep:hold": 5.841,
+  "asleep:it": 6.066,
+  "asleep:to": 6.166,
+  "asleep:your": 6.241,
+  "asleep:face": 6.416,
+  "asleep:while": 6.791,
+  "asleep:you're": 6.966,
+  "asleep:asleep": 7.116,
+  "still:still": 7.8,
+  "still:locked": 8.1,
+  "how:so": 8.925,
+  "how:how": 9.075,
+  "how:does": 9.2,
+  "how:it": 9.325,
+  "how:know": 9.4,
+  "how:it's": 9.55,
+  "how:really": 9.725,
+  "how:you": 10.1,
+  "proj:above": 10.546,
+  "proj:your": 14.496,
+  "proj:screen": 10.971,
+  "proj:a": 11.321,
+  "proj:projector": 11.496,
+  "proj:fires": 12.021,
+  "proj:over": 12.446,
+  "proj:30,000": 12.721,
+  "proj:+": 13.096,
+  "proj:invisible": 13.496,
+  "proj:dots": 14.046,
+  "proj:at": 14.421,
+  "proj:face": 14.671,
+  "cam:a": 15.203,
+  "cam:camera": 15.294,
+  "cam:sees": 15.694,
+  "cam:the": 17.894,
+  "cam:dots": 16.094,
+  "cam:on": 18.244,
+  "cam:your": 18.319,
+  "cam:nose": 16.694,
+  "cam:land": 16.994,
+  "cam:closer": 17.394,
+  "cam:than": 17.794,
+  "cam:ones": 17.994,
+  "cam:cheeks": 18.444,
+  "map:that's": 18.913,
+  "map:a": 19.088,
+  "map:3D": 19.238,
+  "map:+": 19.463,
+  "map:map": 19.613,
+  "map:of": 19.838,
+  "map:your": 19.913,
+  "map:face": 20.038,
+  "flat:a": 20.687,
+  "flat:photo": 20.787,
+  "flat:is": 21.112,
+  "flat:flat": 21.262,
+  "flat:no": 22.187,
+  "flat:depth": 21.837,
+  "flat:unlock": 22.412,
+  "darkx:in": 23.031,
+  "darkx:the": 23.131,
+  "darkx:dark": 23.231,
+  "darkx:it": 23.656,
+  "darkx:lights": 23.756,
+  "darkx:you": 24.981,
+  "darkx:up": 24.181,
+  "darkx:with": 24.306,
+  "darkx:infrared": 24.481,
+  "darkx:can't": 25.106,
+  "darkx:see": 25.381,
+  "chip:a": 25.827,
+  "chip:locked": 25.927,
+  "chip:part": 26.277,
+  "chip:of": 26.477,
+  "chip:the": 26.552,
+  "chip:chip": 26.652,
+  "chip:turns": 26.927,
+  "chip:that": 27.327,
+  "chip:map": 27.527,
+  "chip:into": 27.752,
+  "chip:numbers": 28.002,
+  "chip:and": 28.602,
+  "chip:compares": 28.727,
+  "chip:them": 29.177,
+  "chip:with": 29.402,
+  "chip:your": 29.527,
+  "chip:saved": 29.702,
+  "chip:face": 30.102,
+  "odds:the": 30.675,
+  "odds:odds": 30.825,
+  "odds:a": 31.0,
+  "odds:stranger": 31.1,
+  "odds:gets": 31.525,
+  "odds:in": 31.8,
+  "million:less": 32.15,
+  "million:than": 32.375,
+  "million:1": 32.5,
+  "million:in": 32.65,
+  "million:a": 32.7,
+  "million:million": 32.8,
+  "eyes:and": 33.528,
+  "eyes:asleep": 33.653,
+  "eyes:it": 34.153,
+  "eyes:checks": 34.253,
+  "eyes:that": 34.528,
+  "eyes:your": 34.653,
+  "eyes:eyes": 34.828,
+  "eyes:are": 35.053,
+  "eyes:open": 35.178,
+  "shut:eyes": 35.734,
+  "shut:closed": 36.009,
+  "shut:locked": 36.509,
+  "watched:you've": 37.902,
+  "watched:just": 38.052,
+  "watched:watched": 38.277,
+  "watched:this": 38.602,
+  "watched:reel": 38.802,
+  "watched:for": 39.077,
+  "watched:39": 39.277,
+  "watched:seconds": 39.902,
+  "imagine:imagine": 40.554,
+  "imagine:your": 40.954,
+  "imagine:ad": 41.079,
+  "imagine:held": 41.254,
+  "imagine:people": 41.479,
+  "imagine:that": 41.804,
+  "imagine:long": 41.979,
+  "scale:we": 42.389,
+  "scale:scale": 42.514,
+  "scale:businesses": 42.864,
+  "scale:with": 43.364,
+  "scale:ads": 43.564,
+  "scale:like": 43.789,
+  "scale:this": 43.964,
+  "dm:DM": 44.333,
+  "dm:us": 44.683,
+  "dm:the": 44.858,
+  "dm:word": 44.958,
+  "dm:teardown": 45.183,
+  "dm:for": 45.658,
+  "dm:a": 45.783,
+  "dm:free": 45.883,
+  "dm:ad": 46.133,
+  "dm:review": 46.333
+ }
+}

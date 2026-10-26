@@ -346,3 +346,43 @@ Rebuild: `python3 source/reel_rushmore_vo.py <kokoro-dir> <tmp>` → `node sourc
 > (Photos: Mount Rushmore, Pexels. Hall of Records, National Park Service. Gutzon Borglum, Library of Congress.)
 >
 > #metaads #instagramads #mountrushmore
+
+## Reel: "Your iPhone can see your face in total darkness" (3D explainer, new style)
+File: `reels/mezmedia_reel_faceid.mp4` (1080×1920, 30fps, 47.3s, Kokoro voiceover + music + SFX, -14 LUFS). The trial of the 17M-view explainer style (the touchscreen reel): a paradox hook, a second loop straight after it, then the mechanism one picture per line on one continuous 3D camera, captions at the top that build word by word (the word being said in white, the key word in a blue selection box with round handles), labels on leader lines, honest small print. If it does worse than the switch reels, we go back to the old style.
+The hook moves the voice up and down on purpose (am_fenrir, each line re-intoned with Praat): "Your iPhone can see your face," (the dots sweep a clay head, the lock opens) "in total darkness." (lower and weighty: the lights cut, only red infrared dots) "But show it a perfect photo of you..." (hushed and higher: a printed photo rises in front of the face) "Nothing." (low and flat, the music stops dead, a red "Locked" shakes) "Hold it to your face while you're asleep?" (rising question: moonlight, the eyes close) "Still locked." (low and flat, silence again). Then the camera whips to the top of the phone: the dot projector (traced: 34,000 rays fired at the scan, every dot lands where it would), "30,000+ dots, every time you look", the infrared camera's view, the nose's dots "closer" and the cheeks' "farther", the face disappears and leaves the 3D map coloured by depth, the photo beside it is one flat colour ("photo: flat", "Locked"), lights out and the flood illuminator's infrared picture, the map pulled into the Secure Enclave and turned into numbers that match "your saved face" ("Unlocked", "Match"), a grid of faces zooming out to a million (1,000 × 1,000 pixels, you in the blue box), the eye close-up ("eyes open", then it closes: "Locked"). Then the tension (colour drains, heartbeat, clock) and the switch as in the Rushmore reel: "You've just watched this reel for 39 seconds" (the real time when it is spoken), the post turns into an ad (yourbrand · Sponsored · Shop now), and the pitch.
+Facts (Apple: support.apple.com/en-us/102381 "About Face ID advanced technology", and Apple Platform Security): the TrueDepth camera projects and analyses more than 30,000 invisible dots to make a depth map of the face, and also captures an infrared image; the flood illuminator lets it work in total darkness; it needs depth, which isn't found in print or 2D digital photographs; a part of the neural engine protected inside the Secure Enclave turns the depth map and infrared image into a mathematical representation and compares it with the enrolled face; the chance a random person can unlock it is less than 1 in 1,000,000 (higher for twins, siblings and children under 13); it's attention-aware, checking that your eyes are open and looking at the device, which makes it harder to unlock without your knowledge, such as when you are sleeping. The numbers on screen are an illustration (small print says so).
+3D head: Lee Perry-Smith head scan by Infinite Realities, CC BY 3.0 (`source/models/LeePerrySmith.glb`, from the three.js examples). The scan's eyes are shut; the scene opens them by cutting an eyelid-shaped almond out of each lid in the shader, over a copy of the lid surface carved with an iris.
+Rebuild: `python3 source/reel_faceid_vo.py <kokoro-dir> <tmp>` → `node source/reel_faceid.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames so several renderers can run at once) → `python3 source/reel_faceid_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_faceid_scene.js` (three.js); the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Your iPhone can see your face, in total darkness.
+> But show it a perfect photo of you... Nothing.
+> Hold it to your face while you're asleep? Still locked.
+> So how does it know it's really you?
+> Above your screen, a projector fires over thirty thousand invisible dots at your face.
+> A camera sees the dots on your nose land closer than the ones on your cheeks.
+> That's a 3D map of your face. A photo is flat. No depth. No unlock.
+> In the dark, it lights you up with infrared you can't see.
+> A locked part of the chip turns that map into numbers, and compares them with your saved face.
+> The odds a stranger gets in? Less than one in a million.
+> And asleep? It checks that your eyes are open. Eyes closed? Locked.
+> (tension)
+> You've just watched this reel for 39 seconds.
+> Imagine your ad held people that long.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> You just spent 39 seconds learning why a photo of you can't open your phone. Nobody asked you to. The question did the work.
+>
+> That's the first job of any ad: give people a reason to keep watching before you ask for anything. If your Meta ads open with the logo, the price or "limited offer", people scroll before they hear why they should care.
+>
+> We scale businesses with Instagram ads built the other way round: a question people want answered, then the offer.
+>
+> The facts are Apple's. Face ID fires more than 30,000 invisible infrared dots and reads them as a depth map of your face, so it works in the dark and a flat photo has nothing to give it. Inside the chip, the Secure Enclave turns that map into numbers and compares them with your saved face. The chance a random person gets in is less than 1 in 1,000,000 (higher for twins, siblings and kids under 13). And with its default attention setting, it checks that your eyes are open, so it stays locked while you sleep. (Source: Apple Support, Apple Platform Security.)
+>
+> (3D head: Lee Perry-Smith scan by Infinite Realities, CC BY 3.0.)
+>
+> #metaads #instagramads #faceid
