@@ -1,1 +1,11 @@
 msg_id,lead_id,business_name,channel,stage,message_text,approved_at,sent_at,followup_date,status
+1a17a3c7d14f781b,A002,Loki Patera,Email: lab@lokipatera.com,1 - first message,M021 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
+1a17a3c82c83a843,A003,Sunday Stephens,Email: hello@sundaystephens.com,1 - first message,M022 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
+1a17a3c86e36c7aa,A004,Alana Maria Jewellery,Email: enquiries@alanamariajewellery.com,1 - first message,M023 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
+1a17a3c89eca49c3,A007,Black Finch,Email: hello@blackfinch.com.au,1 - first message,M024 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
+1a17a3c8d443725a,A008,Lott Studio,Email: info@lottstudio.com.au,1 - first message,M025 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
+1a17a3c8fe7000ae,A009,Graedance,Email: team@graedance.com,1 - first message,M026 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
+1a17a3c913d55cd4,A010,Cameron Studio,Email: online@cameronstudio.com.au,1 - first message,M027 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
+1a17a3c959ad4177,A011,Millie Savage,Email: hello@milliesavage.com,1 - first message,M028 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
+1a17a3c98e09bcb6,A012,Saf Organics,Email: info@saforganics.com,1 - first message,M029 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
+1a17a3c9ad39ac6f,A013,Rohr Remedy,Email: info@rohrremedy.com,1 - first message,M030 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
