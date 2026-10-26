@@ -29,3 +29,13 @@ msg_id,lead_id,business_name,channel,stage,message_text,approved_at,sent_at,foll
 1a17a694b88d0d36,A034,Society of Wanderers,Email: hello@societyofwanderers.com,1 - first message,M048 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
 1a17a694e7b63a08,A035,Castle and Things,Email: hello@castleandthings.com.au,1 - first message,M049 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
 1a17a69559168f9e,A036,Bonnie and Neil,Email: studio@bonnieandneil.com.au,1 - first message,M050 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
+1a17a7ff95ed9df6,A005,By Baby,Email: info@bybaby.com.au,1 - first message,M051 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:16:24Z,2026-10-30,sent
+1a17a7ffa3707345,A092,Sobah,Email: sobahbeverages@gmail.com,1 - first message,M052 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:16:24Z,2026-10-30,sent
+1a17a7ffc0c72618,A037,Robert Gordon,Email: interiors@robertgordonaustralia.com,1 - first message,M053 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:16:24Z,2026-10-30,sent
+1a17a8003b092065,A038,Fenton & Fenton,Email: hello@fentonandfenton.com.au,1 - first message,M054 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:16:24Z,2026-10-30,sent
+1a17a8005208a61b,A039,The Dharma Door,Email: hello@thedharmadoor.com.au,1 - first message,M055 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:16:24Z,2026-10-30,sent
+1a17a80080bdb45c,A040,Tigmi Trading,Email: hello@tigmitrading.com,1 - first message,M056 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:16:24Z,2026-10-30,sent
+1a17a800bf90c092,A041,Miss Amara,Email: hello@missamara.com.au,1 - first message,M057 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:16:24Z,2026-10-30,sent
+1a17a800e7492444,A042,Olive et Oriel,Email: contact@oliveetoriel.com,1 - first message,M058 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:16:24Z,2026-10-30,sent
+1a17a80180bafdac,A043,Greenhouse Interiors,Email: sales@greenhouseinteriors.com.au,1 - first message,M059 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:16:24Z,2026-10-30,sent
+1a17a801b480b81f,A044,Cultiver,Email: info@cultiver.com,1 - first message,M060 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:16:24Z,2026-10-30,sent
