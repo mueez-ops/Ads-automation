@@ -295,3 +295,37 @@ Rebuild: `python3 source/reel_eiffel_vo.py <kokoro-dir> <tmp>` → `node source/
 > (Office photo: "Gustave Eiffel and Thomas Edison" by greger.ravik, CC BY 2.0, cropped. Archive photos: Library of Congress. Tower: Pexels.)
 >
 > #metaads #instagramads #eiffeltower
+
+## Reel: "Nobody tells you Mount Rushmore has a secret room behind Lincoln's head" (switch reel)
+File: `reels/mezmedia_reel_rushmore.mp4` (1080×1920, 30fps, 26.0s, Kokoro voiceover read like a fast facts short + music + SFX, -14 LUFS, voice 17.5 dB over the bed). The Eiffel reel's format and voice (it cut the skip rate from 87% to 50%), with a second open loop straight after the hook ("And something is sealed inside it."), because the Eiffel reel's viewers left at about 6 seconds on average, once the first question was answered. Hook score 93.8. The camera whips along the faces from Washington to Lincoln on the first frame under the written hook "A secret room behind Lincoln's head."; his head gets a white outline and the room is marked "Behind here". The hall's location comes out of the rock (National Park Service photo, the doorway outlined, "Hall of Records", "Sealed"); Gutzon Borglum and the workers in the tunnel ("1938", "For the Constitution") get stamped "Never finished"; the entrance today comes in ("1998", the capstone outlined as the "Titanium vault"), sixteen panels light up in the doorway one by one ("16 panels", "America's story"), and "Not open to visitors" lands as the panels glow on "thousands". Then the colour drains under a heartbeat and a clock, and it switches: the reel shrinks into an iPhone on black, its clock counts to 0:18 ("You've just watched this reel for 18 seconds", the real time when it is spoken), the post turns into an ad (yourbrand · Sponsored · Book now), and the pitch as big type: "We scale businesses with ads like this. DM us the word teardown for a free ad review." No end card: it loops back into the hook.
+Facts (National Park Service, "Hall of Records", nps.gov/moru): the hall was to be cut into the canyon behind the faces, its stairway meeting "the canyon mouth behind Lincoln's head"; a 70-foot tunnel was blasted between July 1938 and July 1939 for documents "such as the Constitution and the Declaration of Independence"; work halted in 1939 when Congress directed that only the faces be carved; on 9 August 1998 sixteen porcelain enamel panels (in a teakwood box, inside a titanium vault, under a granite capstone) were placed in the floor of the hall's entry, telling how and why the memorial was carved and a short history of the United States; the repository is not open to visitors and is "left as a record for people thousands of years from now".
+Photos: Mount Rushmore is Pexels 136154 (Pexels licence), `source/photos/rushmore.jpg`; the hall's location, the workers in the tunnel (1938-39, photographed for the project by Charles d'Emery) and the entrance with the capstone are National Park Service photos from the Hall of Records page, `source/photos/rushmore_location.jpg`, `rushmore_workers.jpg` and `rushmore_entrance.jpg`; Gutzon Borglum (1923) is a Library of Congress print with no known restrictions on publication, `source/photos/rushmore_borglum.jpg`.
+Rebuild: `python3 source/reel_rushmore_vo.py <kokoro-dir> <tmp>` → `node source/reel_rushmore.js <frames> <video.mp4>` → `python3 source/reel_rushmore_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_rushmore_scene.js`; shared phone engine: `source/reel_phone_kit.js`.
+
+**Script**
+> Nobody tells you Mount Rushmore has a secret room behind Lincoln's head.
+> And something is sealed inside it.
+> The sculptor blasted it out in 1938, but never finished.
+> In 1998, they sealed a titanium vault in its floor.
+> Sixteen panels inside tell America's story.
+> Left for people. Thousands of years from now.
+> (tension)
+> You've just watched this reel for 18 seconds.
+> Imagine your ad held people that long.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> You came for Mount Rushmore's secret room and stayed 18 seconds. Nobody asked you to. Curiosity did the work.
+>
+> That's the first job of any ad: give people a reason to keep watching before you ask for anything. If your Meta ads open with the logo, the price or "limited offer", people scroll before they hear why they should care.
+>
+> We scale businesses with Instagram ads built the other way round: a hook people want to finish, then the offer.
+>
+> The facts are real, by the way. Gutzon Borglum started blasting a Hall of Records into the canyon behind the faces in 1938, meant for documents like the Constitution and the Declaration of Independence. Congress stopped the work in 1939. In 1998, sixteen porcelain panels went into a titanium vault in its floor, under a granite capstone. It's not open to visitors: it was left for people thousands of years from now. (Source: National Park Service.)
+>
+> (Photos: Mount Rushmore, Pexels. Hall of Records, National Park Service. Gutzon Borglum, Library of Congress.)
+>
+> #metaads #instagramads #mountrushmore

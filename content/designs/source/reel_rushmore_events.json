@@ -1,0 +1,1511 @@
+{
+ "cues": {
+  "lines": {
+   "hook": {
+    "s": 0.05,
+    "e": 3.523,
+    "text": "nobody tells you Mount Rushmore has a secret room behind Lincoln's head"
+   },
+   "sealed": {
+    "s": 3.583,
+    "e": 4.859,
+    "text": "and something is sealed inside it"
+   },
+   "blast": {
+    "s": 4.939,
+    "e": 8.005,
+    "text": "the sculptor blasted it out in 1938 + but never finished"
+   },
+   "vault": {
+    "s": 8.085,
+    "e": 11.01,
+    "text": "in 1998 + they sealed a titanium vault in its floor"
+   },
+   "panels": {
+    "s": 11.07,
+    "e": 13.364,
+    "text": "16 panels inside tell America's story"
+   },
+   "reveal": {
+    "s": 13.664,
+    "e": 15.96,
+    "text": "left for people thousands of years from now"
+   },
+   "watched": {
+    "s": 16.96,
+    "e": 19.225,
+    "text": "you've just watched this reel for 18 seconds"
+   },
+   "imagine": {
+    "s": 19.375,
+    "e": 21.076,
+    "text": "imagine your ad held people that long"
+   },
+   "scale": {
+    "s": 21.226,
+    "e": 22.993,
+    "text": "we scale businesses with ads like this"
+   },
+   "dm": {
+    "s": 23.093,
+    "e": 25.354,
+    "text": "DM us the word teardown for a free ad review"
+   }
+  },
+  "words": [
+   {
+    "w": "nobody",
+    "s": 0.05,
+    "e": 0.425,
+    "line": "hook"
+   },
+   {
+    "w": "tells",
+    "s": 0.475,
+    "e": 0.7,
+    "line": "hook"
+   },
+   {
+    "w": "you",
+    "s": 0.725,
+    "e": 0.8,
+    "line": "hook"
+   },
+   {
+    "w": "Mount",
+    "s": 0.85,
+    "e": 1.025,
+    "line": "hook"
+   },
+   {
+    "w": "Rushmore",
+    "s": 1.075,
+    "e": 1.55,
+    "line": "hook"
+   },
+   {
+    "w": "has",
+    "s": 1.6,
+    "e": 1.725,
+    "line": "hook"
+   },
+   {
+    "w": "a",
+    "s": 1.725,
+    "e": 1.85,
+    "line": "hook"
+   },
+   {
+    "w": "secret",
+    "s": 1.85,
+    "e": 2.15,
+    "line": "hook"
+   },
+   {
+    "w": "room",
+    "s": 2.2,
+    "e": 2.55,
+    "line": "hook"
+   },
+   {
+    "w": "behind",
+    "s": 2.6,
+    "e": 2.875,
+    "line": "hook"
+   },
+   {
+    "w": "Lincoln's",
+    "s": 2.925,
+    "e": 3.225,
+    "line": "hook"
+   },
+   {
+    "w": "head",
+    "s": 3.275,
+    "e": 3.75,
+    "line": "hook"
+   },
+   {
+    "w": "and",
+    "s": 3.583,
+    "e": 3.658,
+    "line": "sealed"
+   },
+   {
+    "w": "something",
+    "s": 3.708,
+    "e": 3.983,
+    "line": "sealed"
+   },
+   {
+    "w": "is",
+    "s": 4.033,
+    "e": 4.083,
+    "line": "sealed"
+   },
+   {
+    "w": "sealed",
+    "s": 4.133,
+    "e": 4.358,
+    "line": "sealed"
+   },
+   {
+    "w": "inside",
+    "s": 4.383,
+    "e": 4.733,
+    "line": "sealed"
+   },
+   {
+    "w": "it",
+    "s": 4.783,
+    "e": 5.108,
+    "line": "sealed"
+   },
+   {
+    "w": "the",
+    "s": 4.939,
+    "e": 4.989,
+    "line": "blast"
+   },
+   {
+    "w": "sculptor",
+    "s": 5.039,
+    "e": 5.389,
+    "line": "blast"
+   },
+   {
+    "w": "blasted",
+    "s": 5.439,
+    "e": 5.814,
+    "line": "blast"
+   },
+   {
+    "w": "it",
+    "s": 5.839,
+    "e": 5.864,
+    "line": "blast"
+   },
+   {
+    "w": "out",
+    "s": 5.914,
+    "e": 6.089,
+    "line": "blast"
+   },
+   {
+    "w": "in",
+    "s": 6.114,
+    "e": 6.164,
+    "line": "blast"
+   },
+   {
+    "w": "1938",
+    "s": 6.189,
+    "e": 6.514,
+    "line": "blast"
+   },
+   {
+    "w": "+",
+    "s": 6.564,
+    "e": 7.139,
+    "line": "blast"
+   },
+   {
+    "w": "but",
+    "s": 7.214,
+    "e": 7.314,
+    "line": "blast"
+   },
+   {
+    "w": "never",
+    "s": 7.364,
+    "e": 7.539,
+    "line": "blast"
+   },
+   {
+    "w": "finished",
+    "s": 7.589,
+    "e": 8.214,
+    "line": "blast"
+   },
+   {
+    "w": "in",
+    "s": 8.085,
+    "e": 8.159,
+    "line": "vault"
+   },
+   {
+    "w": "1998",
+    "s": 8.21,
+    "e": 8.51,
+    "line": "vault"
+   },
+   {
+    "w": "+",
+    "s": 8.534,
+    "e": 9.135,
+    "line": "vault"
+   },
+   {
+    "w": "they",
+    "s": 9.235,
+    "e": 9.309,
+    "line": "vault"
+   },
+   {
+    "w": "sealed",
+    "s": 9.36,
+    "e": 9.534,
+    "line": "vault"
+   },
+   {
+    "w": "a",
+    "s": 9.534,
+    "e": 9.635,
+    "line": "vault"
+   },
+   {
+    "w": "titanium",
+    "s": 9.635,
+    "e": 10.184,
+    "line": "vault"
+   },
+   {
+    "w": "vault",
+    "s": 10.235,
+    "e": 10.46,
+    "line": "vault"
+   },
+   {
+    "w": "in",
+    "s": 10.509,
+    "e": 10.559,
+    "line": "vault"
+   },
+   {
+    "w": "its",
+    "s": 10.585,
+    "e": 10.66,
+    "line": "vault"
+   },
+   {
+    "w": "floor",
+    "s": 10.71,
+    "e": 11.259,
+    "line": "vault"
+   },
+   {
+    "w": "16",
+    "s": 11.07,
+    "e": 11.37,
+    "line": "panels"
+   },
+   {
+    "w": "panels",
+    "s": 11.42,
+    "e": 11.72,
+    "line": "panels"
+   },
+   {
+    "w": "inside",
+    "s": 11.77,
+    "e": 12.27,
+    "line": "panels"
+   },
+   {
+    "w": "tell",
+    "s": 12.345,
+    "e": 12.47,
+    "line": "panels"
+   },
+   {
+    "w": "America's",
+    "s": 12.495,
+    "e": 12.92,
+    "line": "panels"
+   },
+   {
+    "w": "story",
+    "s": 12.97,
+    "e": 13.62,
+    "line": "panels"
+   },
+   {
+    "w": "left",
+    "s": 13.664,
+    "e": 13.889,
+    "line": "reveal"
+   },
+   {
+    "w": "for",
+    "s": 13.914,
+    "e": 14.014,
+    "line": "reveal"
+   },
+   {
+    "w": "people",
+    "s": 14.064,
+    "e": 14.564,
+    "line": "reveal"
+   },
+   {
+    "w": "thousands",
+    "s": 14.714,
+    "e": 15.089,
+    "line": "reveal"
+   },
+   {
+    "w": "of",
+    "s": 15.114,
+    "e": 15.164,
+    "line": "reveal"
+   },
+   {
+    "w": "years",
+    "s": 15.214,
+    "e": 15.464,
+    "line": "reveal"
+   },
+   {
+    "w": "from",
+    "s": 15.514,
+    "e": 15.614,
+    "line": "reveal"
+   },
+   {
+    "w": "now",
+    "s": 15.639,
+    "e": 16.214,
+    "line": "reveal"
+   },
+   {
+    "w": "you've",
+    "s": 16.96,
+    "e": 17.085,
+    "line": "watched"
+   },
+   {
+    "w": "just",
+    "s": 17.135,
+    "e": 17.385,
+    "line": "watched"
+   },
+   {
+    "w": "watched",
+    "s": 17.435,
+    "e": 17.76,
+    "line": "watched"
+   },
+   {
+    "w": "this",
+    "s": 17.785,
+    "e": 17.91,
+    "line": "watched"
+   },
+   {
+    "w": "reel",
+    "s": 17.96,
+    "e": 18.185,
+    "line": "watched"
+   },
+   {
+    "w": "for",
+    "s": 18.235,
+    "e": 18.335,
+    "line": "watched"
+   },
+   {
+    "w": "18",
+    "s": 18.385,
+    "e": 18.685,
+    "line": "watched"
+   },
+   {
+    "w": "seconds",
+    "s": 18.735,
+    "e": 19.485,
+    "line": "watched"
+   },
+   {
+    "w": "imagine",
+    "s": 19.375,
+    "e": 19.75,
+    "line": "imagine"
+   },
+   {
+    "w": "your",
+    "s": 19.775,
+    "e": 19.85,
+    "line": "imagine"
+   },
+   {
+    "w": "ad",
+    "s": 19.9,
+    "e": 20.05,
+    "line": "imagine"
+   },
+   {
+    "w": "held",
+    "s": 20.1,
+    "e": 20.275,
+    "line": "imagine"
+   },
+   {
+    "w": "people",
+    "s": 20.325,
+    "e": 20.6,
+    "line": "imagine"
+   },
+   {
+    "w": "that",
+    "s": 20.625,
+    "e": 20.75,
+    "line": "imagine"
+   },
+   {
+    "w": "long",
+    "s": 20.8,
+    "e": 21.325,
+    "line": "imagine"
+   },
+   {
+    "w": "we",
+    "s": 21.226,
+    "e": 21.301,
+    "line": "scale"
+   },
+   {
+    "w": "scale",
+    "s": 21.351,
+    "e": 21.626,
+    "line": "scale"
+   },
+   {
+    "w": "businesses",
+    "s": 21.676,
+    "e": 22.126,
+    "line": "scale"
+   },
+   {
+    "w": "with",
+    "s": 22.151,
+    "e": 22.276,
+    "line": "scale"
+   },
+   {
+    "w": "ads",
+    "s": 22.351,
+    "e": 22.551,
+    "line": "scale"
+   },
+   {
+    "w": "like",
+    "s": 22.576,
+    "e": 22.701,
+    "line": "scale"
+   },
+   {
+    "w": "this",
+    "s": 22.726,
+    "e": 23.176,
+    "line": "scale"
+   },
+   {
+    "w": "DM",
+    "s": 23.093,
+    "e": 23.418,
+    "line": "dm"
+   },
+   {
+    "w": "us",
+    "s": 23.468,
+    "e": 23.618,
+    "line": "dm"
+   },
+   {
+    "w": "the",
+    "s": 23.643,
+    "e": 23.693,
+    "line": "dm"
+   },
+   {
+    "w": "word",
+    "s": 23.743,
+    "e": 23.918,
+    "line": "dm"
+   },
+   {
+    "w": "teardown",
+    "s": 23.968,
+    "e": 24.393,
+    "line": "dm"
+   },
+   {
+    "w": "for",
+    "s": 24.443,
+    "e": 24.543,
+    "line": "dm"
+   },
+   {
+    "w": "a",
+    "s": 24.543,
+    "e": 24.643,
+    "line": "dm"
+   },
+   {
+    "w": "free",
+    "s": 24.643,
+    "e": 24.818,
+    "line": "dm"
+   },
+   {
+    "w": "ad",
+    "s": 24.868,
+    "e": 25.018,
+    "line": "dm"
+   },
+   {
+    "w": "review",
+    "s": 25.043,
+    "e": 25.643,
+    "line": "dm"
+   }
+  ],
+  "voice_end": 25.354,
+  "end": 25.954,
+  "at": {
+   "hook:nobody": 0.05,
+   "hook:tells": 0.475,
+   "hook:you": 0.725,
+   "hook:Mount": 0.85,
+   "hook:Rushmore": 1.075,
+   "hook:has": 1.6,
+   "hook:a": 1.725,
+   "hook:secret": 1.85,
+   "hook:room": 2.2,
+   "hook:behind": 2.6,
+   "hook:Lincoln's": 2.925,
+   "hook:head": 3.275,
+   "sealed:and": 3.583,
+   "sealed:something": 3.708,
+   "sealed:is": 4.033,
+   "sealed:sealed": 4.133,
+   "sealed:inside": 4.383,
+   "sealed:it": 4.783,
+   "blast:the": 4.939,
+   "blast:sculptor": 5.039,
+   "blast:blasted": 5.439,
+   "blast:it": 5.839,
+   "blast:out": 5.914,
+   "blast:in": 6.114,
+   "blast:1938": 6.189,
+   "blast:+": 6.564,
+   "blast:but": 7.214,
+   "blast:never": 7.364,
+   "blast:finished": 7.589,
+   "vault:in": 10.509,
+   "vault:1998": 8.21,
+   "vault:+": 8.534,
+   "vault:they": 9.235,
+   "vault:sealed": 9.36,
+   "vault:a": 9.534,
+   "vault:titanium": 9.635,
+   "vault:vault": 10.235,
+   "vault:its": 10.585,
+   "vault:floor": 10.71,
+   "panels:16": 11.07,
+   "panels:panels": 11.42,
+   "panels:inside": 11.77,
+   "panels:tell": 12.345,
+   "panels:America's": 12.495,
+   "panels:story": 12.97,
+   "reveal:left": 13.664,
+   "reveal:for": 13.914,
+   "reveal:people": 14.064,
+   "reveal:thousands": 14.714,
+   "reveal:of": 15.114,
+   "reveal:years": 15.214,
+   "reveal:from": 15.514,
+   "reveal:now": 15.639,
+   "watched:you've": 16.96,
+   "watched:just": 17.135,
+   "watched:watched": 17.435,
+   "watched:this": 17.785,
+   "watched:reel": 17.96,
+   "watched:for": 18.235,
+   "watched:18": 18.385,
+   "watched:seconds": 18.735,
+   "imagine:imagine": 19.375,
+   "imagine:your": 19.775,
+   "imagine:ad": 19.9,
+   "imagine:held": 20.1,
+   "imagine:people": 20.325,
+   "imagine:that": 20.625,
+   "imagine:long": 20.8,
+   "scale:we": 21.226,
+   "scale:scale": 21.351,
+   "scale:businesses": 21.676,
+   "scale:with": 22.151,
+   "scale:ads": 22.351,
+   "scale:like": 22.576,
+   "scale:this": 22.726,
+   "dm:DM": 23.093,
+   "dm:us": 23.468,
+   "dm:the": 23.643,
+   "dm:word": 23.743,
+   "dm:teardown": 23.968,
+   "dm:for": 24.443,
+   "dm:a": 24.543,
+   "dm:free": 24.643,
+   "dm:ad": 24.868,
+   "dm:review": 25.043
+  }
+ },
+ "shots": [
+  {
+   "key": "hook",
+   "s": 0,
+   "e": 3.583,
+   "tin": "none"
+  },
+  {
+   "key": "sealed",
+   "s": 3.583,
+   "e": 4.939,
+   "tin": "none"
+  },
+  {
+   "key": "blast",
+   "s": 4.939,
+   "e": 8.085,
+   "tin": "none"
+  },
+  {
+   "key": "vault",
+   "s": 8.085,
+   "e": 11.07,
+   "tin": "none"
+  },
+  {
+   "key": "panels",
+   "s": 11.07,
+   "e": 13.664,
+   "tin": "none"
+  },
+  {
+   "key": "reveal",
+   "s": 13.664,
+   "e": 15.98,
+   "tin": "none"
+  },
+  {
+   "key": "tense",
+   "s": 15.98,
+   "e": 16.96,
+   "tin": "none"
+  },
+  {
+   "key": "phone",
+   "s": 16.96,
+   "e": 21.226,
+   "tin": "cut"
+  },
+  {
+   "key": "pitch",
+   "s": 21.226,
+   "e": 25.954,
+   "tin": "cut"
+  }
+ ],
+ "captions": [
+  {
+   "text": "and something",
+   "s": 3.583,
+   "line": "sealed",
+   "hl": false,
+   "e": 4.033
+  },
+  {
+   "text": "is",
+   "s": 4.033,
+   "line": "sealed",
+   "hl": false,
+   "e": 4.133
+  },
+  {
+   "text": "sealed",
+   "s": 4.133,
+   "line": "sealed",
+   "hl": true,
+   "e": 4.383
+  },
+  {
+   "text": "inside",
+   "s": 4.383,
+   "line": "sealed",
+   "hl": false,
+   "e": 4.783
+  },
+  {
+   "text": "it",
+   "s": 4.783,
+   "line": "sealed",
+   "hl": false,
+   "e": 4.939
+  },
+  {
+   "text": "the sculptor",
+   "s": 4.939,
+   "line": "blast",
+   "hl": false,
+   "e": 5.439
+  },
+  {
+   "text": "blasted",
+   "s": 5.439,
+   "line": "blast",
+   "hl": false,
+   "e": 5.839
+  },
+  {
+   "text": "it out",
+   "s": 5.839,
+   "line": "blast",
+   "hl": false,
+   "e": 6.114
+  },
+  {
+   "text": "in 1938",
+   "s": 6.114,
+   "line": "blast",
+   "hl": false,
+   "e": 7.214
+  },
+  {
+   "text": "but",
+   "s": 7.214,
+   "line": "blast",
+   "hl": false,
+   "e": 7.364
+  },
+  {
+   "text": "never",
+   "s": 7.364,
+   "line": "blast",
+   "hl": true,
+   "e": 7.589
+  },
+  {
+   "text": "finished",
+   "s": 7.589,
+   "line": "blast",
+   "hl": false,
+   "e": 8.085
+  },
+  {
+   "text": "in 1998",
+   "s": 8.085,
+   "line": "vault",
+   "hl": false,
+   "e": 9.235
+  },
+  {
+   "text": "they",
+   "s": 9.235,
+   "line": "vault",
+   "hl": false,
+   "e": 9.36
+  },
+  {
+   "text": "sealed",
+   "s": 9.36,
+   "line": "vault",
+   "hl": true,
+   "e": 9.534
+  },
+  {
+   "text": "a",
+   "s": 9.534,
+   "line": "vault",
+   "hl": false,
+   "e": 9.635
+  },
+  {
+   "text": "titanium",
+   "s": 9.635,
+   "line": "vault",
+   "hl": true,
+   "e": 10.235
+  },
+  {
+   "text": "vault",
+   "s": 10.235,
+   "line": "vault",
+   "hl": false,
+   "e": 10.509
+  },
+  {
+   "text": "in its floor",
+   "s": 10.509,
+   "line": "vault",
+   "hl": false,
+   "e": 11.07
+  },
+  {
+   "text": "16",
+   "s": 11.07,
+   "line": "panels",
+   "hl": false,
+   "e": 11.42
+  },
+  {
+   "text": "panels",
+   "s": 11.42,
+   "line": "panels",
+   "hl": false,
+   "e": 11.77
+  },
+  {
+   "text": "inside",
+   "s": 11.77,
+   "line": "panels",
+   "hl": false,
+   "e": 12.345
+  },
+  {
+   "text": "tell",
+   "s": 12.345,
+   "line": "panels",
+   "hl": false,
+   "e": 12.495
+  },
+  {
+   "text": "America's",
+   "s": 12.495,
+   "line": "panels",
+   "hl": false,
+   "e": 12.97
+  },
+  {
+   "text": "story",
+   "s": 12.97,
+   "line": "panels",
+   "hl": false,
+   "e": 13.664
+  },
+  {
+   "text": "left",
+   "s": 13.664,
+   "line": "reveal",
+   "hl": false,
+   "e": 13.914
+  },
+  {
+   "text": "for",
+   "s": 13.914,
+   "line": "reveal",
+   "hl": false,
+   "e": 14.064
+  },
+  {
+   "text": "people",
+   "s": 14.064,
+   "line": "reveal",
+   "hl": false,
+   "e": 14.714
+  },
+  {
+   "text": "thousands",
+   "s": 14.714,
+   "line": "reveal",
+   "hl": true,
+   "e": 15.114
+  },
+  {
+   "text": "of years",
+   "s": 15.114,
+   "line": "reveal",
+   "hl": false,
+   "e": 15.514
+  },
+  {
+   "text": "from now",
+   "s": 15.514,
+   "line": "reveal",
+   "hl": false,
+   "e": 15.98
+  },
+  {
+   "text": "you've",
+   "s": 16.96,
+   "line": "watched",
+   "hl": false,
+   "e": 17.135
+  },
+  {
+   "text": "just",
+   "s": 17.135,
+   "line": "watched",
+   "hl": false,
+   "e": 17.435
+  },
+  {
+   "text": "watched",
+   "s": 17.435,
+   "line": "watched",
+   "hl": false,
+   "e": 17.785
+  },
+  {
+   "text": "this",
+   "s": 17.785,
+   "line": "watched",
+   "hl": false,
+   "e": 17.96
+  },
+  {
+   "text": "reel",
+   "s": 17.96,
+   "line": "watched",
+   "hl": false,
+   "e": 18.235
+  },
+  {
+   "text": "for",
+   "s": 18.235,
+   "line": "watched",
+   "hl": false,
+   "e": 18.385
+  },
+  {
+   "text": "18",
+   "s": 18.385,
+   "line": "watched",
+   "hl": true,
+   "e": 18.735
+  },
+  {
+   "text": "seconds",
+   "s": 18.735,
+   "line": "watched",
+   "hl": false,
+   "e": 19.375
+  },
+  {
+   "text": "imagine",
+   "s": 19.375,
+   "line": "imagine",
+   "hl": false,
+   "e": 19.775
+  },
+  {
+   "text": "your ad",
+   "s": 19.775,
+   "line": "imagine",
+   "hl": false,
+   "e": 20.1
+  },
+  {
+   "text": "held",
+   "s": 20.1,
+   "line": "imagine",
+   "hl": false,
+   "e": 20.325
+  },
+  {
+   "text": "people",
+   "s": 20.325,
+   "line": "imagine",
+   "hl": false,
+   "e": 20.625
+  },
+  {
+   "text": "that",
+   "s": 20.625,
+   "line": "imagine",
+   "hl": false,
+   "e": 20.8
+  },
+  {
+   "text": "long",
+   "s": 20.8,
+   "line": "imagine",
+   "hl": false,
+   "e": 21.226
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "k": "hit",
+   "g": 0.45
+  },
+  {
+   "t": 0.02,
+   "k": "whoosh_c",
+   "g": 0.5,
+   "pan": 0.3
+  },
+  {
+   "t": 0.05,
+   "k": "deep",
+   "g": 0.4
+  },
+  {
+   "t": 0.8,
+   "k": "zoom",
+   "g": 0.2
+  },
+  {
+   "t": 2.2,
+   "k": "swish",
+   "g": 0.26,
+   "pan": 0.2
+  },
+  {
+   "t": 2.32,
+   "k": "select",
+   "g": 0.22
+  },
+  {
+   "t": 2.6,
+   "k": "pop",
+   "g": 0.3,
+   "pan": 0.3
+  },
+  {
+   "t": 3.628,
+   "k": "whoosh_soft",
+   "g": 0.35
+  },
+  {
+   "t": 3.828,
+   "k": "pop",
+   "g": 0.28
+  },
+  {
+   "t": 4.113,
+   "k": "thump",
+   "g": 0.36
+  },
+  {
+   "t": 4.133,
+   "k": "tap",
+   "g": 0.3
+  },
+  {
+   "t": 4.939,
+   "k": "whoosh_soft",
+   "g": 0.3,
+   "pan": -0.3
+  },
+  {
+   "t": 5.139,
+   "k": "pop",
+   "g": 0.26,
+   "pan": -0.3
+  },
+  {
+   "t": 5.399,
+   "k": "deep",
+   "g": 0.4
+  },
+  {
+   "t": 5.439,
+   "k": "hit",
+   "g": 0.32,
+   "pan": 0.3
+  },
+  {
+   "t": 6.189,
+   "k": "pop",
+   "g": 0.26,
+   "pan": 0.25
+  },
+  {
+   "t": 7.569,
+   "k": "thump",
+   "g": 0.42
+  },
+  {
+   "t": 7.589,
+   "k": "hit",
+   "g": 0.3
+  },
+  {
+   "t": 8.005,
+   "k": "whoosh_soft",
+   "g": 0.35
+  },
+  {
+   "t": 8.205,
+   "k": "pop",
+   "g": 0.28
+  },
+  {
+   "t": 8.21,
+   "k": "select",
+   "g": 0.24,
+   "pan": 0.25
+  },
+  {
+   "t": 10.509,
+   "k": "pop",
+   "g": 0.3
+  },
+  {
+   "t": 10.559,
+   "k": "sparkle",
+   "g": 0.22
+  },
+  {
+   "t": 11.07,
+   "k": "tick",
+   "g": 0.08,
+   "pan": -0.3
+  },
+  {
+   "t": 11.11,
+   "k": "tick",
+   "g": 0.084,
+   "pan": -0.26
+  },
+  {
+   "t": 11.15,
+   "k": "tick",
+   "g": 0.088,
+   "pan": -0.21999999999999997
+  },
+  {
+   "t": 11.19,
+   "k": "tick",
+   "g": 0.092,
+   "pan": -0.18
+  },
+  {
+   "t": 11.23,
+   "k": "tick",
+   "g": 0.096,
+   "pan": -0.13999999999999999
+  },
+  {
+   "t": 11.27,
+   "k": "tick",
+   "g": 0.1,
+   "pan": -0.09999999999999998
+  },
+  {
+   "t": 11.31,
+   "k": "tick",
+   "g": 0.10400000000000001,
+   "pan": -0.06
+  },
+  {
+   "t": 11.35,
+   "k": "tick",
+   "g": 0.108,
+   "pan": -0.019999999999999962
+  },
+  {
+   "t": 11.39,
+   "k": "tick",
+   "g": 0.112,
+   "pan": 0.020000000000000018
+  },
+  {
+   "t": 11.43,
+   "k": "tick",
+   "g": 0.116,
+   "pan": 0.06
+  },
+  {
+   "t": 11.47,
+   "k": "tick",
+   "g": 0.12,
+   "pan": 0.10000000000000003
+  },
+  {
+   "t": 11.51,
+   "k": "tick",
+   "g": 0.124,
+   "pan": 0.14
+  },
+  {
+   "t": 11.55,
+   "k": "tick",
+   "g": 0.128,
+   "pan": 0.18
+  },
+  {
+   "t": 11.59,
+   "k": "tick",
+   "g": 0.132,
+   "pan": 0.22000000000000003
+  },
+  {
+   "t": 11.63,
+   "k": "tick",
+   "g": 0.136,
+   "pan": 0.26000000000000006
+  },
+  {
+   "t": 11.67,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.3
+  },
+  {
+   "t": 12.97,
+   "k": "pop",
+   "g": 0.26
+  },
+  {
+   "t": 13.664,
+   "k": "pop",
+   "g": 0.3,
+   "pan": 0.25
+  },
+  {
+   "t": 14.714,
+   "k": "chime",
+   "g": 0.22
+  },
+  {
+   "t": 15.98,
+   "k": "riser",
+   "g": 0.24,
+   "d": 0.9800000000000004
+  },
+  {
+   "t": 16.1,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 16.27,
+   "k": "thump",
+   "g": 0.24
+  },
+  {
+   "t": 16.58,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 16.75,
+   "k": "thump",
+   "g": 0.24
+  },
+  {
+   "t": 17.06,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 17.23,
+   "k": "thump",
+   "g": 0.24
+  },
+  {
+   "t": 16.03,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 16.28,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 16.53,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 16.78,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 16.93,
+   "k": "deep",
+   "g": 0.45
+  },
+  {
+   "t": 16.96,
+   "k": "hit",
+   "g": 0.45
+  },
+  {
+   "t": 16.91,
+   "k": "zoom_out",
+   "g": 0.18
+  },
+  {
+   "t": 17.804,
+   "k": "tick",
+   "g": 0.09100000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 17.857,
+   "k": "tick",
+   "g": 0.094,
+   "pan": 0.2
+  },
+  {
+   "t": 17.91,
+   "k": "tick",
+   "g": 0.097,
+   "pan": 0.2
+  },
+  {
+   "t": 17.963,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0.2
+  },
+  {
+   "t": 18.016,
+   "k": "tick",
+   "g": 0.10300000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 18.068,
+   "k": "tick",
+   "g": 0.10600000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 18.121,
+   "k": "tick",
+   "g": 0.10900000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 18.174,
+   "k": "tick",
+   "g": 0.11200000000000002,
+   "pan": 0.2
+  },
+  {
+   "t": 18.227,
+   "k": "tick",
+   "g": 0.115,
+   "pan": 0.2
+  },
+  {
+   "t": 18.279,
+   "k": "tick",
+   "g": 0.11800000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 18.332,
+   "k": "tick",
+   "g": 0.12100000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 18.385,
+   "k": "tick",
+   "g": 0.124,
+   "pan": 0.2
+  },
+  {
+   "t": 18.385,
+   "k": "select",
+   "g": 0.3
+  },
+  {
+   "t": 19.9,
+   "k": "pop",
+   "g": 0.3
+  },
+  {
+   "t": 19.98,
+   "k": "swish",
+   "g": 0.24,
+   "pan": 0.3
+  },
+  {
+   "t": 21.186,
+   "k": "deep",
+   "g": 0.35
+  },
+  {
+   "t": 21.226,
+   "k": "whoosh_f",
+   "g": 0.26
+  },
+  {
+   "t": 23.043,
+   "k": "whoosh_soft",
+   "g": 0.28
+  },
+  {
+   "t": 23.968,
+   "k": "hit",
+   "g": 0.34
+  },
+  {
+   "t": 25.404,
+   "k": "pop",
+   "g": 0.3
+  }
+ ],
+ "music": {
+  "beat": 0,
+  "tense": 15.98,
+  "phone": 16.96,
+  "drop": 19.375,
+  "last": 21.226,
+  "end": 23.093
+ },
+ "blur": [
+  [
+   0,
+   0.9500000000000001,
+   8
+  ],
+  [
+   3.6380000000000003,
+   4.308,
+   6
+  ],
+  [
+   4.919,
+   5.989,
+   4
+  ],
+  [
+   8.015,
+   8.685,
+   6
+  ],
+  [
+   16.68,
+   16.96,
+   4
+  ],
+  [
+   16.94,
+   17.61,
+   8
+  ],
+  [
+   19.88,
+   20.25,
+   4
+  ],
+  [
+   23.073,
+   23.493,
+   4
+  ]
+ ]
+}
