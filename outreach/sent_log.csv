@@ -7,5 +7,15 @@ msg_id,lead_id,business_name,channel,stage,message_text,approved_at,sent_at,foll
 1a17a3c8fe7000ae,A009,Graedance,Email: team@graedance.com,1 - first message,M026 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
 1a17a3c913d55cd4,A010,Cameron Studio,Email: online@cameronstudio.com.au,1 - first message,M027 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
 1a17a3c959ad4177,A011,Millie Savage,Email: hello@milliesavage.com,1 - first message,M028 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
-1a17a3c98e09bcb6,A012,Saf Organics,Email: info@saforganics.com,1 - first message,M029 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
+1a17a3c98e09bcb6,A012,Saf Organics,Email: info@saforganics.com,1 - first message,M029 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,"bounced 2026-10-26T22:02Z: saforganics.com receives no email (null MX); their site is saforganics.com.au, address to check"
 1a17a3c9ad39ac6f,A013,Rohr Remedy,Email: info@rohrremedy.com,1 - first message,M030 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:02:44Z,2026-10-30,sent
+1a17a528df20a155,A014,Zen Botanics,Email: hello@zenbotanics.com.au,1 - first message,M031 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
+1a17a528f6ab76e2,A015,The Aussie Man,Email: info@theaussieman.com,1 - first message,M032 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
+1a17a5290c90c120,A016,Biologi,Email: enquiries@biologi.com.au,1 - first message,M033 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
+1a17a5294639ba06,A017,The Jojoba Company,Email: info@thejojobacompany.com.au,1 - first message,M034 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
+1a17a529941cbeb4,A018,Black Chicken Remedies,Email: support@blackchicken.com.au,1 - first message,M035 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
+1a17a529bda55a7d,A019,Kester Black,Email: hello@kesterblack.com,1 - first message,M036 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
+1a17a529cabad5f2,A020,Skin Juice,Email: hello@skinjuice.com.au,1 - first message,M037 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
+1a17a52a56cc94ce,A021,LÜK Beautifood,Email: service@lukbeautifood.com,1 - first message,M038 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
+1a17a52a81691c7e,A022,Hunter Lab,Email: hunter@hunterlab.com.au,1 - first message,M039 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
+1a17a52ab20b1b86,A023,Little Innoscents,Email: marketing@littleinnoscents.com.au,1 - first message,M040 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
