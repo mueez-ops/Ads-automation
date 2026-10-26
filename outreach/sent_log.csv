@@ -19,3 +19,13 @@ msg_id,lead_id,business_name,channel,stage,message_text,approved_at,sent_at,foll
 1a17a52a56cc94ce,A021,LÜK Beautifood,Email: service@lukbeautifood.com,1 - first message,M038 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
 1a17a52a81691c7e,A022,Hunter Lab,Email: hunter@hunterlab.com.au,1 - first message,M039 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
 1a17a52ab20b1b86,A023,Little Innoscents,Email: marketing@littleinnoscents.com.au,1 - first message,M040 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:26:46Z,2026-10-30,sent
+1a17a6935988f61e,A025,Ere Perez,Email: online@ereperez.com,1 - first message,M041 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
+1a17a6936bbf1e63,A027,Naked Sundays,Email: info@nakedsundays.com,1 - first message,M042 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
+1a17a693b315ee68,A029,al.ive body,Email: hello@alivebody.com.au,1 - first message,M043 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
+1a17a693fd3881eb,A030,Davroe,Email: customerservice@davroe.com,1 - first message,M044 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
+1a17a6943f762cde,A031,Palm Beach Collection,Email: info@palmbeachcollection.com.au,1 - first message,M045 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
+1a17a6946d0541ac,A032,Maison Balzac,Email: bonjour@maisonbalzac.com,1 - first message,M046 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
+1a17a69480991135,A033,Northern Light,Email: enquiry@northernlight.com.au,1 - first message,M047 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
+1a17a694b88d0d36,A034,Society of Wanderers,Email: hello@societyofwanderers.com,1 - first message,M048 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
+1a17a694e7b63a08,A035,Castle and Things,Email: hello@castleandthings.com.au,1 - first message,M049 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
+1a17a69559168f9e,A036,Bonnie and Neil,Email: studio@bonnieandneil.com.au,1 - first message,M050 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T22:51:30Z,2026-10-30,sent
