@@ -79,3 +79,13 @@ msg_id,lead_id,business_name,channel,stage,message_text,approved_at,sent_at,foll
 1a17adbd3e1fc577,A080,ONA Coffee,Email: admin@onacoffee.com.au,1 - first message,M098 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:56:34Z,2026-10-30,sent
 1a17adbd4c0cf85f,A081,Industry Beans,Email: hello@industrybeans.com,1 - first message,M099 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:56:34Z,2026-10-30,sent
 1a17adbd6a873748,A082,Mecca Coffee,Email: marketing@meccacoffee.com.au,1 - first message,M100 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:56:34Z,2026-10-30,sent
+1a17af2f50b2f409,A001,Metal and Dust,Email: hello@metalanddust.com.au,1 - first message,M101 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T01:22:05Z,2026-10-30,sent
+1a17af2f6b7d1881,A065,Natalie Rolt,Email: info@natalierolt.com,1 - first message,M102 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T01:22:05Z,2026-10-30,sent
+1a17af2f95124008,A097,4MyEarth,Email: sales@4myearth.com.au,1 - first message,M103 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T01:22:05Z,2026-10-30,sent
+1a17af2fd0ef6cbd,A083,Tea Drop,Email: enquiries@teadrop.com.au,1 - first message,M104 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T01:22:05Z,2026-10-30,sent
+1a17af2fe01d337c,A084,Love Tea,Email: info@lovetea.com.au,1 - first message,M105 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T01:22:05Z,2026-10-30,sent
+1a17af300a44a617,A085,Tea Tonic,Email: teatonic@teatonic.com.au,1 - first message,M106 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T01:22:05Z,2026-10-30,sent
+1a17af30519a80a1,A087,Prana Chai,Email: info@pranachai.com,1 - first message,M107 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T01:22:05Z,2026-10-30,sent
+1a17af31904b8e3a,A088,Bunsters,Email: hello@bunstersworldwide.com,1 - first message,M108 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T01:22:05Z,2026-10-30,sent
+1a17af320cce7d41,A089,Brookfarm,Email: marketing@brookfarm.com.au,1 - first message,M109 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T01:22:05Z,2026-10-30,sent
+1a17af331453402b,A090,Bare Blends,Email: contact@bareblends.com.au,1 - first message,M110 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T01:22:05Z,2026-10-30,sent
