@@ -103,8 +103,8 @@ A006,Briwok,Taryn,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",
 A006,Briwok,Taryn,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
 A045,Lightly,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
 A045,Lightly,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
-A046,Utopia Goods,Bruce Slorach & Sophie Tatlow,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
-A046,Utopia Goods,Bruce Slorach & Sophie Tatlow,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A046,Utopia Goods,Bruce Slorach & Sophie Tatlow,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",cancelled (Email 1 bounced)
+A046,Utopia Goods,Bruce Slorach & Sophie Tatlow,Email,3 - final,2026-11-03,"M2 sent, no reply",cancelled (Email 1 bounced)
 A047,Snooza,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
 A047,Snooza,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
 A048,Mustard Made,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
@@ -119,3 +119,23 @@ A052,habbot,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pendi
 A052,habbot,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
 A053,FRANKIE4,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
 A053,FRANKIE4,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A024,Eco by Sonya,Sonya Driver,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
+A024,Eco by Sonya,Sonya Driver,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A054,Status Anxiety,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
+A054,Status Anxiety,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A055,Nimble Activewear,Vera & Katia,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
+A055,Nimble Activewear,Vera & Katia,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A056,DARMHA,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
+A056,DARMHA,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A057,Nagnata,Laura May & Hannah Gibbs,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
+A057,Nagnata,Laura May & Hannah Gibbs,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A058,Henne,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
+A058,Henne,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A059,Citizen Wolf,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
+A059,Citizen Wolf,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A061,State of Escape,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
+A061,State of Escape,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A062,Bausele,Christophe Hoppé,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
+A062,Bausele,Christophe Hoppé,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A063,Huskee,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
+A063,Huskee,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending

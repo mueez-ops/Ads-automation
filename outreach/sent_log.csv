@@ -41,7 +41,7 @@ msg_id,lead_id,business_name,channel,stage,message_text,approved_at,sent_at,foll
 1a17a801b480b81f,A044,Cultiver,Email: info@cultiver.com,1 - first message,M060 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:16:24Z,2026-10-30,sent
 1a17a96d36c8e0a2,A006,Briwok,Email: taryn@briwok.com,1 - first message,M061 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:41:32Z,2026-10-30,sent
 1a17a96d6453b50f,A045,Lightly,Email: info@lightly.com.au,1 - first message,M062 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:41:32Z,2026-10-30,sent
-1a17a96d8817a17c,A046,Utopia Goods,Email: australiainfo@utopiagoods.com,1 - first message,M063 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:41:32Z,2026-10-30,sent
+1a17a96d8817a17c,A046,Utopia Goods,Email: australiainfo@utopiagoods.com,1 - first message,M063 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:41:32Z,2026-10-30,bounced 2026-10-26T23:41Z: australiainfo@utopiagoods.com does not exist (5.1.3 no such user); address to check
 1a17a96e0452f45a,A047,Snooza,Email: info@snooza.com.au,1 - first message,M064 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:41:32Z,2026-10-30,sent
 1a17a96e40e5195b,A048,Mustard Made,Email: hello@mustardmade.com,1 - first message,M065 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:41:32Z,2026-10-30,sent
 1a17a96e980cdf2f,A049,Auguste the Label,Email: marketing@augustethelabel.com,1 - first message,M066 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:41:32Z,2026-10-30,sent
@@ -49,3 +49,13 @@ msg_id,lead_id,business_name,channel,stage,message_text,approved_at,sent_at,foll
 1a17a96efafe516c,A051,bond-eye,Email: info@bond-eye.com.au,1 - first message,M068 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:41:32Z,2026-10-30,sent
 1a17a96f4df83ace,A052,habbot,Email: info@habbotstudios.com,1 - first message,M069 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:41:32Z,2026-10-30,sent
 1a17a96f65a6a16c,A053,FRANKIE4,Email: info@frankie4.com.au,1 - first message,M070 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-26T23:41:32Z,2026-10-30,sent
+1a17aaeae83535ed,A024,Eco by Sonya,Email: hello@ecotan.com.au,1 - first message,M071 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
+1a17aaeb2adccf68,A054,Status Anxiety,Email: contact@statusanxiety.com,1 - first message,M072 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
+1a17aaeb5fcc0d4a,A055,Nimble Activewear,Email: hello@nimbleactivewear.com,1 - first message,M073 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
+1a17aaeb7e9d35e7,A056,DARMHA,Email: info@darmha.com,1 - first message,M074 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
+1a17aaebdae0faeb,A057,Nagnata,Email: info@nagnata.com,1 - first message,M075 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
+1a17aaebedeced68,A058,Henne,Email: customercare@henne.com.au,1 - first message,M076 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
+1a17aaec0ada6e06,A059,Citizen Wolf,Email: howl@citizenwolf.com,1 - first message,M077 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
+1a17aaec4b10e303,A061,State of Escape,Email: info@stateofescape.com.au,1 - first message,M078 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
+1a17aaec83c42abd,A062,Bausele,Email: info@bausele.com,1 - first message,M079 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
+1a17aaecfd42cba5,A063,Huskee,Email: hello@huskee.co,1 - first message,M080 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
