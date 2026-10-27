@@ -59,3 +59,13 @@ msg_id,lead_id,business_name,channel,stage,message_text,approved_at,sent_at,foll
 1a17aaec4b10e303,A061,State of Escape,Email: info@stateofescape.com.au,1 - first message,M078 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
 1a17aaec83c42abd,A062,Bausele,Email: info@bausele.com,1 - first message,M079 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
 1a17aaecfd42cba5,A063,Huskee,Email: hello@huskee.co,1 - first message,M080 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:07:37Z,2026-10-30,sent
+1a17ac52a648ccd2,A028,NAK Hair,Email: support@nakhair.com.au,1 - first message,M081 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:32:14Z,2026-10-30,sent
+1a17ac52ff78c445,A064,KIVARI,Email: customercare@kivari.com.au,1 - first message,M082 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:32:14Z,2026-10-30,sent
+1a17ac530424d5f2,A066,Lazybones,Email: info@lazybones.com.au,1 - first message,M083 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:32:14Z,2026-10-30,sent
+1a17ac535aa48f80,A067,Kinga Csilla,Email: hello@kingacsilla.com,1 - first message,M084 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:32:14Z,2026-10-30,sent
+1a17ac536ca3b867,A068,Mister Zimi,Email: online@misterzimi.com,1 - first message,M085 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:32:14Z,2026-10-30,sent
+1a17ac53890680b4,A069,Snuggle Hunny,Email: hello@snugglehunnykids.com.au,1 - first message,M086 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:32:14Z,2026-10-30,sent
+1a17ac53c3fad8a0,A070,Goldie + Ace,Email: care@goldieandace.com,1 - first message,M087 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:32:14Z,2026-10-30,sent
+1a17ac5433cbecbe,A071,Wilson & Frenchy,Email: hello@wilsonandfrenchy.com.au,1 - first message,M088 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:32:14Z,2026-10-30,sent
+1a17ac54733feb50,A072,Huxbaby,Email: hello@huxbaby.com,1 - first message,M089 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:32:14Z,2026-10-30,sent
+1a17ac54bcc5a263,A073,Banabae,Email: hello@banabae.com,1 - first message,M090 in messages_queue.csv,"2026-10-26 (Mueez: ""Send all 100"")",2026-10-27T00:32:14Z,2026-10-30,sent
