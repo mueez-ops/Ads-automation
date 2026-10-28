@@ -386,3 +386,42 @@ Rebuild: `python3 source/reel_faceid_vo.py <kokoro-dir> <tmp>` → `node source/
 > (3D head: Lee Perry-Smith scan by Infinite Realities, CC BY 3.0.)
 >
 > #metaads #instagramads #faceid
+
+## Reel: "This is the reality of Brez Scales" (switch reel, mixed style)
+File: `reels/mezmedia_reel_brez.mp4` (1080×1920, 30fps, 49.2s, Kokoro voiceover + music + SFX, -14 LUFS). Two looks mixed, as asked: the addxstudio explainer Mueez sent (kinetic type that builds word by word with the key words in red, a paper invoice card whose number rolls before it lands, coral-to-purple gradients, a vertical ticker of figures, inline icons, a gradient figure beside a cutout, a calm deep male narrator at ~200 words a minute) and the Rushmore/Eiffel switch reels (a photo under the written hook on the first frame, photo cards with white pills and stamps, a beat of tension, the switch into a phone, the pitch). The hook "This is the reality of Brez Scales." is on screen from frame 0; the open loop is "But the money isn't coming from where you think."
+He is a real person, so the reel only says what can be sourced and says where each part comes from in small print: what he says he makes ($400K a month before 21, "His own figure. Not independently verified."), his start (college in late 2022, digital marketing, dropped out; a cracked phone, Canva and TikTok; ads for clothing brands for a cut of their profits), the cars as the site that sells his mentorship wrote about them (a crashed Lambo, a towed G-Wagon, a BMW banged up three hours after he bought it, "notorious for wrecking rentals", "If a rented Lambo gets you a client... that's ROI, not a flex"), and where reviewers say the money comes from (mostly selling courses, a $47 bootcamp to an invitation-only mentorship of about $4,800). It does not call him a fraud or say anything about his finances that the sources don't. No photos of him; Canva and TikTok are named, not shown as logos.
+Sources: Whop blog, "From dropping out to making $400K/month at 20 years old" (2025, Whop is where he sells his mentorship); drews-review.com/brez-scales (2026); potionads.com Brezscales course review ("independent verification of revenue figures is unavailable"). Details in `source/reel_brez_vo.py`.
+Photos (Pexels licence): Lamborghini Aventador at night and on the road, Adrian Newell (Pexels 9814982, 9814983) `source/photos/brez_lambo.jpg`, `brez_lambo_road.jpg`; red G-Wagon, Ishan Kulshrestha (8622790) `brez_gwagon.jpg`, the dealer's plate under the stamp; BMW M4, Jae Park (3849556) `brez_bmw.jpg`; empty lecture hall (356065) `brez_lecture.jpg`.
+Rebuild: `python3 source/reel_brez_vo.py <kokoro-dir> <tmp>` → `node source/reel_brez.js <frames> <video.mp4>` → `python3 source/reel_brez_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_brez_scene.js`; the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> This is the reality of Brez Scales.
+> He says he hit four hundred thousand dollars a month, before he turned twenty-one.
+> But the money isn't coming from where you think.
+> Late 2022. He's a college student, studying digital marketing. He drops out.
+> With a cracked phone, Canva and TikTok, he runs ads for clothing brands, for a cut of their profits.
+> Then came the lifestyle. A crashed Lambo. A towed G-Wagon. A BMW banged up three hours after he bought it.
+> Even the site that sells his mentorship calls the cars marketing. Some of them, rentals.
+> So where does the money come from? Reviewers say: mostly, selling courses.
+> A forty-seven dollar bootcamp. A mentorship around forty-eight hundred.
+> And the lifestyle is what sells them.
+> (tension)
+> You've just watched this reel for 40 seconds.
+> Imagine your ad held people that long.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> You just watched 40 seconds about someone else's money. Nobody asked you to. The story did the work.
+>
+> That's the first job of any ad: give people a reason to keep watching before you ask for anything. If your Meta ads open with the logo, the price or "limited offer", people scroll before they hear why they should care.
+>
+> We scale businesses with Instagram ads built the other way round: a story people want to finish, then the offer.
+>
+> On the facts: the $400K a month is his own figure and hasn't been independently verified. The college, the cracked phone and the cars come from Whop's own write-up of him (Whop is the platform that sells his mentorship), which also calls the cars marketing and some of them rentals. The course prices and "mostly selling courses" come from independent reviews of his programs, which are mixed: some students say it helped them.
+>
+> (Photos: Pexels.)
+>
+> #metaads #instagramads #brezscales

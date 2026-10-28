@@ -1,0 +1,2018 @@
+{
+ "cues": {
+  "lines": {
+   "hook": {
+    "s": 0.05,
+    "e": 2.4,
+    "text": "this is the reality of Brez Scales"
+   },
+   "claim": {
+    "s": 2.55,
+    "e": 6.018,
+    "text": "he says he hit $400,000 + + + a month before he turned 21"
+   },
+   "loop": {
+    "s": 6.218,
+    "e": 8.59,
+    "text": "but the money isn't coming from where you think"
+   },
+   "school": {
+    "s": 8.81,
+    "e": 12.91,
+    "text": "late 2022 + he's a college student studying digital marketing he drops out"
+   },
+   "start": {
+    "s": 13.03,
+    "e": 17.623,
+    "text": "with a cracked phone Canva and TikTok he runs ads for clothing brands for a cut of their profits"
+   },
+   "cars": {
+    "s": 17.773,
+    "e": 23.284,
+    "text": "then came the lifestyle a crashed Lambo a towed G-Wagon a BMW banged up 3 hours after he bought it"
+   },
+   "rented": {
+    "s": 23.434,
+    "e": 27.529,
+    "text": "even the site that sells his mentorship calls the cars marketing some of them rentals"
+   },
+   "money": {
+    "s": 27.709,
+    "e": 31.041,
+    "text": "so where does the money come from reviewers say mostly selling courses"
+   },
+   "prices": {
+    "s": 31.141,
+    "e": 34.793,
+    "text": "a $47 + bootcamp a mentorship around $4,800 +"
+   },
+   "sells": {
+    "s": 35.043,
+    "e": 37.368,
+    "text": "and the lifestyle is what sells them"
+   },
+   "watched": {
+    "s": 38.368,
+    "e": 41.12,
+    "text": "you've just watched this reel for 40 seconds"
+   },
+   "imagine": {
+    "s": 41.27,
+    "e": 43.348,
+    "text": "imagine your ad held people that long"
+   },
+   "scale": {
+    "s": 43.498,
+    "e": 45.801,
+    "text": "we scale businesses with ads like this"
+   },
+   "dm": {
+    "s": 45.901,
+    "e": 48.553,
+    "text": "DM us the word teardown for a free ad review"
+   }
+  },
+  "words": [
+   {
+    "w": "this",
+    "s": 0.05,
+    "e": 0.2,
+    "line": "hook"
+   },
+   {
+    "w": "is",
+    "s": 0.25,
+    "e": 0.35,
+    "line": "hook"
+   },
+   {
+    "w": "the",
+    "s": 0.375,
+    "e": 0.425,
+    "line": "hook"
+   },
+   {
+    "w": "reality",
+    "s": 0.475,
+    "e": 0.95,
+    "line": "hook"
+   },
+   {
+    "w": "of",
+    "s": 1,
+    "e": 1.075,
+    "line": "hook"
+   },
+   {
+    "w": "Brez",
+    "s": 1.125,
+    "e": 1.4,
+    "line": "hook"
+   },
+   {
+    "w": "Scales",
+    "s": 1.45,
+    "e": 2.4,
+    "line": "hook"
+   },
+   {
+    "w": "he",
+    "s": 2.55,
+    "e": 2.625,
+    "line": "claim"
+   },
+   {
+    "w": "says",
+    "s": 2.675,
+    "e": 2.85,
+    "line": "claim"
+   },
+   {
+    "w": "he",
+    "s": 2.875,
+    "e": 2.95,
+    "line": "claim"
+   },
+   {
+    "w": "hit",
+    "s": 2.975,
+    "e": 3.125,
+    "line": "claim"
+   },
+   {
+    "w": "$400,000",
+    "s": 3.175,
+    "e": 3.325,
+    "line": "claim"
+   },
+   {
+    "w": "+",
+    "s": 3.375,
+    "e": 3.625,
+    "line": "claim"
+   },
+   {
+    "w": "+",
+    "s": 3.675,
+    "e": 4,
+    "line": "claim"
+   },
+   {
+    "w": "+",
+    "s": 4.025,
+    "e": 4.325,
+    "line": "claim"
+   },
+   {
+    "w": "a",
+    "s": 4.325,
+    "e": 4.425,
+    "line": "claim"
+   },
+   {
+    "w": "month",
+    "s": 4.425,
+    "e": 4.7,
+    "line": "claim"
+   },
+   {
+    "w": "before",
+    "s": 4.775,
+    "e": 5,
+    "line": "claim"
+   },
+   {
+    "w": "he",
+    "s": 5.025,
+    "e": 5.1,
+    "line": "claim"
+   },
+   {
+    "w": "turned",
+    "s": 5.15,
+    "e": 5.4,
+    "line": "claim"
+   },
+   {
+    "w": "21",
+    "s": 5.45,
+    "e": 6.375,
+    "line": "claim"
+   },
+   {
+    "w": "but",
+    "s": 6.218,
+    "e": 6.318,
+    "line": "loop"
+   },
+   {
+    "w": "the",
+    "s": 6.343,
+    "e": 6.393,
+    "line": "loop"
+   },
+   {
+    "w": "money",
+    "s": 6.443,
+    "e": 6.718,
+    "line": "loop"
+   },
+   {
+    "w": "isn't",
+    "s": 6.768,
+    "e": 6.943,
+    "line": "loop"
+   },
+   {
+    "w": "coming",
+    "s": 6.993,
+    "e": 7.293,
+    "line": "loop"
+   },
+   {
+    "w": "from",
+    "s": 7.343,
+    "e": 7.493,
+    "line": "loop"
+   },
+   {
+    "w": "where",
+    "s": 7.543,
+    "e": 7.668,
+    "line": "loop"
+   },
+   {
+    "w": "you",
+    "s": 7.718,
+    "e": 7.818,
+    "line": "loop"
+   },
+   {
+    "w": "think",
+    "s": 7.893,
+    "e": 8.618,
+    "line": "loop"
+   },
+   {
+    "w": "late",
+    "s": 8.81,
+    "e": 8.985,
+    "line": "school"
+   },
+   {
+    "w": "2022",
+    "s": 9.035,
+    "e": 9.285,
+    "line": "school"
+   },
+   {
+    "w": "+",
+    "s": 9.335,
+    "e": 9.86,
+    "line": "school"
+   },
+   {
+    "w": "he's",
+    "s": 9.91,
+    "e": 10.01,
+    "line": "school"
+   },
+   {
+    "w": "a",
+    "s": 10.01,
+    "e": 10.11,
+    "line": "school"
+   },
+   {
+    "w": "college",
+    "s": 10.11,
+    "e": 10.41,
+    "line": "school"
+   },
+   {
+    "w": "student",
+    "s": 10.46,
+    "e": 10.835,
+    "line": "school"
+   },
+   {
+    "w": "studying",
+    "s": 10.91,
+    "e": 11.235,
+    "line": "school"
+   },
+   {
+    "w": "digital",
+    "s": 11.285,
+    "e": 11.535,
+    "line": "school"
+   },
+   {
+    "w": "marketing",
+    "s": 11.585,
+    "e": 12.085,
+    "line": "school"
+   },
+   {
+    "w": "he",
+    "s": 12.185,
+    "e": 12.26,
+    "line": "school"
+   },
+   {
+    "w": "drops",
+    "s": 12.31,
+    "e": 12.585,
+    "line": "school"
+   },
+   {
+    "w": "out",
+    "s": 12.635,
+    "e": 13.26,
+    "line": "school"
+   },
+   {
+    "w": "with",
+    "s": 13.03,
+    "e": 13.104,
+    "line": "start"
+   },
+   {
+    "w": "a",
+    "s": 13.104,
+    "e": 13.205,
+    "line": "start"
+   },
+   {
+    "w": "cracked",
+    "s": 13.205,
+    "e": 13.479,
+    "line": "start"
+   },
+   {
+    "w": "phone",
+    "s": 13.53,
+    "e": 13.78,
+    "line": "start"
+   },
+   {
+    "w": "Canva",
+    "s": 13.854,
+    "e": 14.18,
+    "line": "start"
+   },
+   {
+    "w": "and",
+    "s": 14.205,
+    "e": 14.28,
+    "line": "start"
+   },
+   {
+    "w": "TikTok",
+    "s": 14.33,
+    "e": 14.905,
+    "line": "start"
+   },
+   {
+    "w": "he",
+    "s": 15.005,
+    "e": 15.079,
+    "line": "start"
+   },
+   {
+    "w": "runs",
+    "s": 15.13,
+    "e": 15.355,
+    "line": "start"
+   },
+   {
+    "w": "ads",
+    "s": 15.405,
+    "e": 15.63,
+    "line": "start"
+   },
+   {
+    "w": "for",
+    "s": 15.655,
+    "e": 15.755,
+    "line": "start"
+   },
+   {
+    "w": "clothing",
+    "s": 15.805,
+    "e": 16.105,
+    "line": "start"
+   },
+   {
+    "w": "brands",
+    "s": 16.154,
+    "e": 16.555,
+    "line": "start"
+   },
+   {
+    "w": "for",
+    "s": 16.605,
+    "e": 16.68,
+    "line": "start"
+   },
+   {
+    "w": "a",
+    "s": 16.68,
+    "e": 16.755,
+    "line": "start"
+   },
+   {
+    "w": "cut",
+    "s": 16.755,
+    "e": 16.88,
+    "line": "start"
+   },
+   {
+    "w": "of",
+    "s": 16.904,
+    "e": 16.954,
+    "line": "start"
+   },
+   {
+    "w": "their",
+    "s": 16.98,
+    "e": 17.055,
+    "line": "start"
+   },
+   {
+    "w": "profits",
+    "s": 17.105,
+    "e": 17.954,
+    "line": "start"
+   },
+   {
+    "w": "then",
+    "s": 17.773,
+    "e": 17.873,
+    "line": "cars"
+   },
+   {
+    "w": "came",
+    "s": 17.923,
+    "e": 18.048,
+    "line": "cars"
+   },
+   {
+    "w": "the",
+    "s": 18.073,
+    "e": 18.123,
+    "line": "cars"
+   },
+   {
+    "w": "lifestyle",
+    "s": 18.173,
+    "e": 18.698,
+    "line": "cars"
+   },
+   {
+    "w": "a",
+    "s": 18.698,
+    "e": 18.823,
+    "line": "cars"
+   },
+   {
+    "w": "crashed",
+    "s": 18.823,
+    "e": 19.148,
+    "line": "cars"
+   },
+   {
+    "w": "Lambo",
+    "s": 19.198,
+    "e": 19.673,
+    "line": "cars"
+   },
+   {
+    "w": "a",
+    "s": 19.673,
+    "e": 19.873,
+    "line": "cars"
+   },
+   {
+    "w": "towed",
+    "s": 19.873,
+    "e": 20.148,
+    "line": "cars"
+   },
+   {
+    "w": "G-Wagon",
+    "s": 20.198,
+    "e": 20.848,
+    "line": "cars"
+   },
+   {
+    "w": "a",
+    "s": 20.848,
+    "e": 21.048,
+    "line": "cars"
+   },
+   {
+    "w": "BMW",
+    "s": 21.048,
+    "e": 21.623,
+    "line": "cars"
+   },
+   {
+    "w": "banged",
+    "s": 21.673,
+    "e": 21.948,
+    "line": "cars"
+   },
+   {
+    "w": "up",
+    "s": 21.998,
+    "e": 22.098,
+    "line": "cars"
+   },
+   {
+    "w": "3",
+    "s": 22.148,
+    "e": 22.323,
+    "line": "cars"
+   },
+   {
+    "w": "hours",
+    "s": 22.373,
+    "e": 22.598,
+    "line": "cars"
+   },
+   {
+    "w": "after",
+    "s": 22.623,
+    "e": 22.798,
+    "line": "cars"
+   },
+   {
+    "w": "he",
+    "s": 22.823,
+    "e": 22.898,
+    "line": "cars"
+   },
+   {
+    "w": "bought",
+    "s": 22.948,
+    "e": 23.148,
+    "line": "cars"
+   },
+   {
+    "w": "it",
+    "s": 23.198,
+    "e": 23.723,
+    "line": "cars"
+   },
+   {
+    "w": "even",
+    "s": 23.434,
+    "e": 23.634,
+    "line": "rented"
+   },
+   {
+    "w": "the",
+    "s": 23.659,
+    "e": 23.709,
+    "line": "rented"
+   },
+   {
+    "w": "site",
+    "s": 23.759,
+    "e": 23.984,
+    "line": "rented"
+   },
+   {
+    "w": "that",
+    "s": 24.009,
+    "e": 24.084,
+    "line": "rented"
+   },
+   {
+    "w": "sells",
+    "s": 24.134,
+    "e": 24.359,
+    "line": "rented"
+   },
+   {
+    "w": "his",
+    "s": 24.384,
+    "e": 24.509,
+    "line": "rented"
+   },
+   {
+    "w": "mentorship",
+    "s": 24.559,
+    "e": 25.059,
+    "line": "rented"
+   },
+   {
+    "w": "calls",
+    "s": 25.109,
+    "e": 25.384,
+    "line": "rented"
+   },
+   {
+    "w": "the",
+    "s": 25.409,
+    "e": 25.459,
+    "line": "rented"
+   },
+   {
+    "w": "cars",
+    "s": 25.509,
+    "e": 25.809,
+    "line": "rented"
+   },
+   {
+    "w": "marketing",
+    "s": 25.859,
+    "e": 26.434,
+    "line": "rented"
+   },
+   {
+    "w": "some",
+    "s": 26.584,
+    "e": 26.709,
+    "line": "rented"
+   },
+   {
+    "w": "of",
+    "s": 26.734,
+    "e": 26.784,
+    "line": "rented"
+   },
+   {
+    "w": "them",
+    "s": 26.809,
+    "e": 26.984,
+    "line": "rented"
+   },
+   {
+    "w": "rentals",
+    "s": 27.059,
+    "e": 27.884,
+    "line": "rented"
+   },
+   {
+    "w": "so",
+    "s": 27.709,
+    "e": 27.809,
+    "line": "money"
+   },
+   {
+    "w": "where",
+    "s": 27.834,
+    "e": 27.934,
+    "line": "money"
+   },
+   {
+    "w": "does",
+    "s": 27.959,
+    "e": 28.059,
+    "line": "money"
+   },
+   {
+    "w": "the",
+    "s": 28.084,
+    "e": 28.134,
+    "line": "money"
+   },
+   {
+    "w": "money",
+    "s": 28.184,
+    "e": 28.384,
+    "line": "money"
+   },
+   {
+    "w": "come",
+    "s": 28.434,
+    "e": 28.634,
+    "line": "money"
+   },
+   {
+    "w": "from",
+    "s": 28.684,
+    "e": 28.859,
+    "line": "money"
+   },
+   {
+    "w": "reviewers",
+    "s": 28.934,
+    "e": 29.284,
+    "line": "money"
+   },
+   {
+    "w": "say",
+    "s": 29.334,
+    "e": 29.584,
+    "line": "money"
+   },
+   {
+    "w": "mostly",
+    "s": 29.684,
+    "e": 30.084,
+    "line": "money"
+   },
+   {
+    "w": "selling",
+    "s": 30.159,
+    "e": 30.459,
+    "line": "money"
+   },
+   {
+    "w": "courses",
+    "s": 30.509,
+    "e": 31.409,
+    "line": "money"
+   },
+   {
+    "w": "a",
+    "s": 31.141,
+    "e": 31.257,
+    "line": "prices"
+   },
+   {
+    "w": "$47",
+    "s": 31.257,
+    "e": 31.857,
+    "line": "prices"
+   },
+   {
+    "w": "+",
+    "s": 31.907,
+    "e": 32.132,
+    "line": "prices"
+   },
+   {
+    "w": "bootcamp",
+    "s": 32.182,
+    "e": 32.782,
+    "line": "prices"
+   },
+   {
+    "w": "a",
+    "s": 32.782,
+    "e": 32.957,
+    "line": "prices"
+   },
+   {
+    "w": "mentorship",
+    "s": 32.957,
+    "e": 33.582,
+    "line": "prices"
+   },
+   {
+    "w": "around",
+    "s": 33.632,
+    "e": 33.882,
+    "line": "prices"
+   },
+   {
+    "w": "$4,800",
+    "s": 33.957,
+    "e": 34.332,
+    "line": "prices"
+   },
+   {
+    "w": "+",
+    "s": 34.382,
+    "e": 35.207,
+    "line": "prices"
+   },
+   {
+    "w": "and",
+    "s": 35.043,
+    "e": 35.118,
+    "line": "sells"
+   },
+   {
+    "w": "the",
+    "s": 35.143,
+    "e": 35.193,
+    "line": "sells"
+   },
+   {
+    "w": "lifestyle",
+    "s": 35.243,
+    "e": 35.893,
+    "line": "sells"
+   },
+   {
+    "w": "is",
+    "s": 35.943,
+    "e": 36.043,
+    "line": "sells"
+   },
+   {
+    "w": "what",
+    "s": 36.093,
+    "e": 36.243,
+    "line": "sells"
+   },
+   {
+    "w": "sells",
+    "s": 36.318,
+    "e": 36.643,
+    "line": "sells"
+   },
+   {
+    "w": "them",
+    "s": 36.693,
+    "e": 37.393,
+    "line": "sells"
+   },
+   {
+    "w": "you've",
+    "s": 38.368,
+    "e": 38.493,
+    "line": "watched"
+   },
+   {
+    "w": "just",
+    "s": 38.518,
+    "e": 38.743,
+    "line": "watched"
+   },
+   {
+    "w": "watched",
+    "s": 38.793,
+    "e": 39.118,
+    "line": "watched"
+   },
+   {
+    "w": "this",
+    "s": 39.143,
+    "e": 39.318,
+    "line": "watched"
+   },
+   {
+    "w": "reel",
+    "s": 39.368,
+    "e": 39.643,
+    "line": "watched"
+   },
+   {
+    "w": "for",
+    "s": 39.693,
+    "e": 39.793,
+    "line": "watched"
+   },
+   {
+    "w": "40",
+    "s": 39.868,
+    "e": 40.118,
+    "line": "watched"
+   },
+   {
+    "w": "seconds",
+    "s": 40.193,
+    "e": 41.118,
+    "line": "watched"
+   },
+   {
+    "w": "imagine",
+    "s": 41.27,
+    "e": 41.72,
+    "line": "imagine"
+   },
+   {
+    "w": "your",
+    "s": 41.77,
+    "e": 41.87,
+    "line": "imagine"
+   },
+   {
+    "w": "ad",
+    "s": 41.92,
+    "e": 42.095,
+    "line": "imagine"
+   },
+   {
+    "w": "held",
+    "s": 42.145,
+    "e": 42.37,
+    "line": "imagine"
+   },
+   {
+    "w": "people",
+    "s": 42.42,
+    "e": 42.745,
+    "line": "imagine"
+   },
+   {
+    "w": "that",
+    "s": 42.795,
+    "e": 42.945,
+    "line": "imagine"
+   },
+   {
+    "w": "long",
+    "s": 42.995,
+    "e": 43.745,
+    "line": "imagine"
+   },
+   {
+    "w": "we",
+    "s": 43.498,
+    "e": 43.573,
+    "line": "scale"
+   },
+   {
+    "w": "scale",
+    "s": 43.623,
+    "e": 43.923,
+    "line": "scale"
+   },
+   {
+    "w": "businesses",
+    "s": 43.973,
+    "e": 44.423,
+    "line": "scale"
+   },
+   {
+    "w": "with",
+    "s": 44.448,
+    "e": 44.573,
+    "line": "scale"
+   },
+   {
+    "w": "ads",
+    "s": 44.648,
+    "e": 44.873,
+    "line": "scale"
+   },
+   {
+    "w": "like",
+    "s": 44.898,
+    "e": 45.073,
+    "line": "scale"
+   },
+   {
+    "w": "this",
+    "s": 45.123,
+    "e": 45.773,
+    "line": "scale"
+   },
+   {
+    "w": "DM",
+    "s": 45.901,
+    "e": 46.226,
+    "line": "dm"
+   },
+   {
+    "w": "us",
+    "s": 46.251,
+    "e": 46.401,
+    "line": "dm"
+   },
+   {
+    "w": "the",
+    "s": 46.426,
+    "e": 46.476,
+    "line": "dm"
+   },
+   {
+    "w": "word",
+    "s": 46.526,
+    "e": 46.751,
+    "line": "dm"
+   },
+   {
+    "w": "teardown",
+    "s": 46.801,
+    "e": 47.251,
+    "line": "dm"
+   },
+   {
+    "w": "for",
+    "s": 47.301,
+    "e": 47.451,
+    "line": "dm"
+   },
+   {
+    "w": "a",
+    "s": 47.451,
+    "e": 47.576,
+    "line": "dm"
+   },
+   {
+    "w": "free",
+    "s": 47.576,
+    "e": 47.801,
+    "line": "dm"
+   },
+   {
+    "w": "ad",
+    "s": 47.851,
+    "e": 48.051,
+    "line": "dm"
+   },
+   {
+    "w": "review",
+    "s": 48.101,
+    "e": 48.901,
+    "line": "dm"
+   }
+  ],
+  "voice_end": 48.553,
+  "end": 49.153,
+  "at": {
+   "hook:this": 0.05,
+   "hook:is": 0.25,
+   "hook:the": 0.375,
+   "hook:reality": 0.475,
+   "hook:of": 1,
+   "hook:Brez": 1.125,
+   "hook:Scales": 1.45,
+   "claim:he": 5.025,
+   "claim:says": 2.675,
+   "claim:hit": 2.975,
+   "claim:$400,000": 3.175,
+   "claim:+": 4.025,
+   "claim:a": 4.325,
+   "claim:month": 4.425,
+   "claim:before": 4.775,
+   "claim:turned": 5.15,
+   "claim:21": 5.45,
+   "loop:but": 6.218,
+   "loop:the": 6.343,
+   "loop:money": 6.443,
+   "loop:isn't": 6.768,
+   "loop:coming": 6.993,
+   "loop:from": 7.343,
+   "loop:where": 7.543,
+   "loop:you": 7.718,
+   "loop:think": 7.893,
+   "school:late": 8.81,
+   "school:2022": 9.035,
+   "school:+": 9.335,
+   "school:he's": 9.91,
+   "school:a": 10.01,
+   "school:college": 10.11,
+   "school:student": 10.46,
+   "school:studying": 10.91,
+   "school:digital": 11.285,
+   "school:marketing": 11.585,
+   "school:he": 12.185,
+   "school:drops": 12.31,
+   "school:out": 12.635,
+   "start:with": 13.03,
+   "start:a": 16.68,
+   "start:cracked": 13.205,
+   "start:phone": 13.53,
+   "start:Canva": 13.854,
+   "start:and": 14.205,
+   "start:TikTok": 14.33,
+   "start:he": 15.005,
+   "start:runs": 15.13,
+   "start:ads": 15.405,
+   "start:for": 16.605,
+   "start:clothing": 15.805,
+   "start:brands": 16.154,
+   "start:cut": 16.755,
+   "start:of": 16.904,
+   "start:their": 16.98,
+   "start:profits": 17.105,
+   "cars:then": 17.773,
+   "cars:came": 17.923,
+   "cars:the": 18.073,
+   "cars:lifestyle": 18.173,
+   "cars:a": 20.848,
+   "cars:crashed": 18.823,
+   "cars:Lambo": 19.198,
+   "cars:towed": 19.873,
+   "cars:G-Wagon": 20.198,
+   "cars:BMW": 21.048,
+   "cars:banged": 21.673,
+   "cars:up": 21.998,
+   "cars:3": 22.148,
+   "cars:hours": 22.373,
+   "cars:after": 22.623,
+   "cars:he": 22.823,
+   "cars:bought": 22.948,
+   "cars:it": 23.198,
+   "rented:even": 23.434,
+   "rented:the": 25.409,
+   "rented:site": 23.759,
+   "rented:that": 24.009,
+   "rented:sells": 24.134,
+   "rented:his": 24.384,
+   "rented:mentorship": 24.559,
+   "rented:calls": 25.109,
+   "rented:cars": 25.509,
+   "rented:marketing": 25.859,
+   "rented:some": 26.584,
+   "rented:of": 26.734,
+   "rented:them": 26.809,
+   "rented:rentals": 27.059,
+   "money:so": 27.709,
+   "money:where": 27.834,
+   "money:does": 27.959,
+   "money:the": 28.084,
+   "money:money": 28.184,
+   "money:come": 28.434,
+   "money:from": 28.684,
+   "money:reviewers": 28.934,
+   "money:say": 29.334,
+   "money:mostly": 29.684,
+   "money:selling": 30.159,
+   "money:courses": 30.509,
+   "prices:a": 32.782,
+   "prices:$47": 31.257,
+   "prices:+": 34.382,
+   "prices:bootcamp": 32.182,
+   "prices:mentorship": 32.957,
+   "prices:around": 33.632,
+   "prices:$4,800": 33.957,
+   "sells:and": 35.043,
+   "sells:the": 35.143,
+   "sells:lifestyle": 35.243,
+   "sells:is": 35.943,
+   "sells:what": 36.093,
+   "sells:sells": 36.318,
+   "sells:them": 36.693,
+   "watched:you've": 38.368,
+   "watched:just": 38.518,
+   "watched:watched": 38.793,
+   "watched:this": 39.143,
+   "watched:reel": 39.368,
+   "watched:for": 39.693,
+   "watched:40": 39.868,
+   "watched:seconds": 40.193,
+   "imagine:imagine": 41.27,
+   "imagine:your": 41.77,
+   "imagine:ad": 41.92,
+   "imagine:held": 42.145,
+   "imagine:people": 42.42,
+   "imagine:that": 42.795,
+   "imagine:long": 42.995,
+   "scale:we": 43.498,
+   "scale:scale": 43.623,
+   "scale:businesses": 43.973,
+   "scale:with": 44.448,
+   "scale:ads": 44.648,
+   "scale:like": 44.898,
+   "scale:this": 45.123,
+   "dm:DM": 45.901,
+   "dm:us": 46.251,
+   "dm:the": 46.426,
+   "dm:word": 46.526,
+   "dm:teardown": 46.801,
+   "dm:for": 47.301,
+   "dm:a": 47.451,
+   "dm:free": 47.576,
+   "dm:ad": 47.851,
+   "dm:review": 48.101
+  }
+ },
+ "shots": [
+  {
+   "key": "hook",
+   "s": 0,
+   "e": 2.55,
+   "tin": "none"
+  },
+  {
+   "key": "claim",
+   "s": 2.55,
+   "e": 6.218,
+   "tin": "cut"
+  },
+  {
+   "key": "loop",
+   "s": 6.218,
+   "e": 8.81,
+   "tin": "cut"
+  },
+  {
+   "key": "school",
+   "s": 8.81,
+   "e": 13.03,
+   "tin": "cut"
+  },
+  {
+   "key": "start",
+   "s": 13.03,
+   "e": 17.773,
+   "tin": "pushL"
+  },
+  {
+   "key": "cars",
+   "s": 17.773,
+   "e": 23.434,
+   "tin": "cut"
+  },
+  {
+   "key": "rented",
+   "s": 23.434,
+   "e": 27.709,
+   "tin": "cut"
+  },
+  {
+   "key": "money",
+   "s": 27.709,
+   "e": 31.141,
+   "tin": "cut"
+  },
+  {
+   "key": "prices",
+   "s": 31.141,
+   "e": 35.043,
+   "tin": "cut"
+  },
+  {
+   "key": "sells",
+   "s": 35.043,
+   "e": 37.488,
+   "tin": "cut"
+  },
+  {
+   "key": "tense",
+   "s": 37.488,
+   "e": 38.368,
+   "tin": "none"
+  },
+  {
+   "key": "phone",
+   "s": 38.368,
+   "e": 43.498,
+   "tin": "cut"
+  },
+  {
+   "key": "pitch",
+   "s": 43.498,
+   "e": 49.153,
+   "tin": "cut"
+  }
+ ],
+ "captions": [
+  {
+   "text": "you've",
+   "s": 38.368,
+   "e": 38.518,
+   "line": "watched",
+   "hl": false
+  },
+  {
+   "text": "just",
+   "s": 38.518,
+   "e": 38.793,
+   "line": "watched",
+   "hl": false
+  },
+  {
+   "text": "watched",
+   "s": 38.793,
+   "e": 39.143,
+   "line": "watched",
+   "hl": false
+  },
+  {
+   "text": "this",
+   "s": 39.143,
+   "e": 39.368,
+   "line": "watched",
+   "hl": false
+  },
+  {
+   "text": "reel",
+   "s": 39.368,
+   "e": 39.693,
+   "line": "watched",
+   "hl": false
+  },
+  {
+   "text": "for",
+   "s": 39.693,
+   "e": 39.868,
+   "line": "watched",
+   "hl": false
+  },
+  {
+   "text": "40",
+   "s": 39.868,
+   "e": 40.193,
+   "line": "watched",
+   "hl": true
+  },
+  {
+   "text": "seconds",
+   "s": 40.193,
+   "e": 41.418,
+   "line": "watched",
+   "hl": false
+  },
+  {
+   "text": "imagine",
+   "s": 41.27,
+   "e": 41.77,
+   "line": "imagine",
+   "hl": false
+  },
+  {
+   "text": "your",
+   "s": 41.77,
+   "e": 41.92,
+   "line": "imagine",
+   "hl": false
+  },
+  {
+   "text": "ad",
+   "s": 41.92,
+   "e": 42.145,
+   "line": "imagine",
+   "hl": false
+  },
+  {
+   "text": "held",
+   "s": 42.145,
+   "e": 42.42,
+   "line": "imagine",
+   "hl": false
+  },
+  {
+   "text": "people",
+   "s": 42.42,
+   "e": 42.795,
+   "line": "imagine",
+   "hl": false
+  },
+  {
+   "text": "that",
+   "s": 42.795,
+   "e": 42.995,
+   "line": "imagine",
+   "hl": false
+  },
+  {
+   "text": "long",
+   "s": 42.995,
+   "e": 43.498,
+   "line": "imagine",
+   "hl": false
+  }
+ ],
+ "events": [
+  {
+   "t": 0,
+   "k": "hit",
+   "g": 0.45
+  },
+  {
+   "t": 0.02,
+   "k": "whoosh_c",
+   "g": 0.45,
+   "pan": 0.3
+  },
+  {
+   "t": 0.05,
+   "k": "deep",
+   "g": 0.4
+  },
+  {
+   "t": 0.475,
+   "k": "select",
+   "g": 0.22
+  },
+  {
+   "t": 2.53,
+   "k": "swish",
+   "g": 0.3
+  },
+  {
+   "t": 3.175,
+   "k": "pop",
+   "g": 0.3
+  },
+  {
+   "t": 3.175,
+   "k": "tick",
+   "g": 0.07,
+   "pan": -0.2
+  },
+  {
+   "t": 3.215,
+   "k": "tick",
+   "g": 0.07600000000000001,
+   "pan": -0.16
+  },
+  {
+   "t": 3.255,
+   "k": "tick",
+   "g": 0.082,
+   "pan": -0.12000000000000001
+  },
+  {
+   "t": 3.295,
+   "k": "tick",
+   "g": 0.08800000000000001,
+   "pan": -0.08000000000000002
+  },
+  {
+   "t": 3.335,
+   "k": "tick",
+   "g": 0.094,
+   "pan": -0.04000000000000001
+  },
+  {
+   "t": 3.375,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0
+  },
+  {
+   "t": 3.415,
+   "k": "tick",
+   "g": 0.10600000000000001,
+   "pan": 0.03999999999999998
+  },
+  {
+   "t": 3.455,
+   "k": "tick",
+   "g": 0.11200000000000002,
+   "pan": 0.08000000000000002
+  },
+  {
+   "t": 3.495,
+   "k": "tick",
+   "g": 0.11800000000000001,
+   "pan": 0.12
+  },
+  {
+   "t": 3.535,
+   "k": "tick",
+   "g": 0.124,
+   "pan": 0.15999999999999998
+  },
+  {
+   "t": 5.45,
+   "k": "select",
+   "g": 0.24
+  },
+  {
+   "t": 6.198,
+   "k": "whoosh_soft",
+   "g": 0.3
+  },
+  {
+   "t": 7.893,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 8.79,
+   "k": "whoosh_soft",
+   "g": 0.3
+  },
+  {
+   "t": 9.035,
+   "k": "pop",
+   "g": 0.26
+  },
+  {
+   "t": 11.585,
+   "k": "pop",
+   "g": 0.24,
+   "pan": 0.25
+  },
+  {
+   "t": 12.29,
+   "k": "thump",
+   "g": 0.42
+  },
+  {
+   "t": 12.31,
+   "k": "hit",
+   "g": 0.3
+  },
+  {
+   "t": 12.98,
+   "k": "whoosh_f",
+   "g": 0.3,
+   "pan": -0.3
+  },
+  {
+   "t": 13.53,
+   "k": "pop",
+   "g": 0.26,
+   "pan": -0.25
+  },
+  {
+   "t": 13.854,
+   "k": "pop",
+   "g": 0.24
+  },
+  {
+   "t": 14.33,
+   "k": "pop",
+   "g": 0.24,
+   "pan": 0.25
+  },
+  {
+   "t": 15.805,
+   "k": "swish",
+   "g": 0.24
+  },
+  {
+   "t": 16.755,
+   "k": "select",
+   "g": 0.26
+  },
+  {
+   "t": 17.753,
+   "k": "whoosh_soft",
+   "g": 0.3
+  },
+  {
+   "t": 19.148,
+   "k": "whoosh_c",
+   "g": 0.3,
+   "pan": -0.3
+  },
+  {
+   "t": 19.318,
+   "k": "hit",
+   "g": 0.3
+  },
+  {
+   "t": 20.148,
+   "k": "whoosh_c",
+   "g": 0.28,
+   "pan": 0.3
+  },
+  {
+   "t": 20.318,
+   "k": "thump",
+   "g": 0.35
+  },
+  {
+   "t": 20.998,
+   "k": "whoosh_c",
+   "g": 0.28,
+   "pan": -0.2
+  },
+  {
+   "t": 22.148,
+   "k": "hit",
+   "g": 0.3
+  },
+  {
+   "t": 23.414,
+   "k": "swish",
+   "g": 0.28
+  },
+  {
+   "t": 25.859,
+   "k": "select",
+   "g": 0.26
+  },
+  {
+   "t": 27.009,
+   "k": "whoosh_soft",
+   "g": 0.24
+  },
+  {
+   "t": 27.159,
+   "k": "chime",
+   "g": 0.2
+  },
+  {
+   "t": 27.689,
+   "k": "whoosh_soft",
+   "g": 0.3
+  },
+  {
+   "t": 28.934,
+   "k": "tick",
+   "g": 0.06,
+   "pan": 0.3
+  },
+  {
+   "t": 28.994,
+   "k": "tick",
+   "g": 0.064,
+   "pan": 0.26
+  },
+  {
+   "t": 29.054,
+   "k": "tick",
+   "g": 0.068,
+   "pan": 0.21999999999999997
+  },
+  {
+   "t": 29.114,
+   "k": "tick",
+   "g": 0.072,
+   "pan": 0.18
+  },
+  {
+   "t": 29.174,
+   "k": "tick",
+   "g": 0.076,
+   "pan": 0.13999999999999999
+  },
+  {
+   "t": 29.234,
+   "k": "tick",
+   "g": 0.08,
+   "pan": 0.09999999999999998
+  },
+  {
+   "t": 29.294,
+   "k": "tick",
+   "g": 0.08399999999999999,
+   "pan": 0.06
+  },
+  {
+   "t": 29.354,
+   "k": "tick",
+   "g": 0.088,
+   "pan": 0.019999999999999962
+  },
+  {
+   "t": 29.414,
+   "k": "tick",
+   "g": 0.092,
+   "pan": -0.020000000000000018
+  },
+  {
+   "t": 29.474,
+   "k": "tick",
+   "g": 0.096,
+   "pan": -0.06
+  },
+  {
+   "t": 29.534,
+   "k": "tick",
+   "g": 0.1,
+   "pan": -0.10000000000000003
+  },
+  {
+   "t": 29.594,
+   "k": "tick",
+   "g": 0.104,
+   "pan": -0.14
+  },
+  {
+   "t": 29.654,
+   "k": "tick",
+   "g": 0.108,
+   "pan": -0.18
+  },
+  {
+   "t": 29.714,
+   "k": "tick",
+   "g": 0.112,
+   "pan": -0.22000000000000003
+  },
+  {
+   "t": 30.509,
+   "k": "pop",
+   "g": 0.3
+  },
+  {
+   "t": 31.121,
+   "k": "swish",
+   "g": 0.26
+  },
+  {
+   "t": 31.257,
+   "k": "tap",
+   "g": 0.3
+  },
+  {
+   "t": 33.957,
+   "k": "tap",
+   "g": 0.32
+  },
+  {
+   "t": 34.207,
+   "k": "select",
+   "g": 0.24
+  },
+  {
+   "t": 35.023,
+   "k": "deep",
+   "g": 0.32
+  },
+  {
+   "t": 36.318,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 37.488,
+   "k": "riser",
+   "g": 0.2,
+   "d": 0.8800000000000026
+  },
+  {
+   "t": 37.608,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 37.778,
+   "k": "thump",
+   "g": 0.24
+  },
+  {
+   "t": 38.028,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 38.198,
+   "k": "thump",
+   "g": 0.24
+  },
+  {
+   "t": 37.538,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 37.788,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 38.038,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 38.338,
+   "k": "deep",
+   "g": 0.45
+  },
+  {
+   "t": 38.368,
+   "k": "hit",
+   "g": 0.45
+  },
+  {
+   "t": 38.318,
+   "k": "zoom_out",
+   "g": 0.18
+  },
+  {
+   "t": 39.169,
+   "k": "tick",
+   "g": 0.088,
+   "pan": 0.2
+  },
+  {
+   "t": 39.196,
+   "k": "tick",
+   "g": 0.09,
+   "pan": 0.2
+  },
+  {
+   "t": 39.223,
+   "k": "tick",
+   "g": 0.092,
+   "pan": 0.2
+  },
+  {
+   "t": 39.25,
+   "k": "tick",
+   "g": 0.094,
+   "pan": 0.2
+  },
+  {
+   "t": 39.277,
+   "k": "tick",
+   "g": 0.096,
+   "pan": 0.2
+  },
+  {
+   "t": 39.304,
+   "k": "tick",
+   "g": 0.098,
+   "pan": 0.2
+  },
+  {
+   "t": 39.331,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0.2
+  },
+  {
+   "t": 39.357,
+   "k": "tick",
+   "g": 0.10200000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 39.384,
+   "k": "tick",
+   "g": 0.104,
+   "pan": 0.2
+  },
+  {
+   "t": 39.411,
+   "k": "tick",
+   "g": 0.106,
+   "pan": 0.2
+  },
+  {
+   "t": 39.438,
+   "k": "tick",
+   "g": 0.108,
+   "pan": 0.2
+  },
+  {
+   "t": 39.465,
+   "k": "tick",
+   "g": 0.11,
+   "pan": 0.2
+  },
+  {
+   "t": 39.492,
+   "k": "tick",
+   "g": 0.112,
+   "pan": 0.2
+  },
+  {
+   "t": 39.519,
+   "k": "tick",
+   "g": 0.11399999999999999,
+   "pan": 0.2
+  },
+  {
+   "t": 39.546,
+   "k": "tick",
+   "g": 0.11599999999999999,
+   "pan": 0.2
+  },
+  {
+   "t": 39.572,
+   "k": "tick",
+   "g": 0.118,
+   "pan": 0.2
+  },
+  {
+   "t": 39.599,
+   "k": "tick",
+   "g": 0.12,
+   "pan": 0.2
+  },
+  {
+   "t": 39.626,
+   "k": "tick",
+   "g": 0.122,
+   "pan": 0.2
+  },
+  {
+   "t": 39.653,
+   "k": "tick",
+   "g": 0.124,
+   "pan": 0.2
+  },
+  {
+   "t": 39.68,
+   "k": "tick",
+   "g": 0.126,
+   "pan": 0.2
+  },
+  {
+   "t": 39.707,
+   "k": "tick",
+   "g": 0.128,
+   "pan": 0.2
+  },
+  {
+   "t": 39.734,
+   "k": "tick",
+   "g": 0.13,
+   "pan": 0.2
+  },
+  {
+   "t": 39.761,
+   "k": "tick",
+   "g": 0.132,
+   "pan": 0.2
+  },
+  {
+   "t": 39.787,
+   "k": "tick",
+   "g": 0.134,
+   "pan": 0.2
+  },
+  {
+   "t": 39.814,
+   "k": "tick",
+   "g": 0.136,
+   "pan": 0.2
+  },
+  {
+   "t": 39.841,
+   "k": "tick",
+   "g": 0.138,
+   "pan": 0.2
+  },
+  {
+   "t": 39.868,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.2
+  },
+  {
+   "t": 39.868,
+   "k": "select",
+   "g": 0.3
+  },
+  {
+   "t": 41.92,
+   "k": "pop",
+   "g": 0.3
+  },
+  {
+   "t": 42,
+   "k": "swish",
+   "g": 0.24,
+   "pan": 0.3
+  },
+  {
+   "t": 43.198,
+   "k": "deep",
+   "g": 0.32
+  },
+  {
+   "t": 43.298,
+   "k": "whoosh_f",
+   "g": 0.22
+  },
+  {
+   "t": 45.851,
+   "k": "whoosh_soft",
+   "g": 0.28
+  },
+  {
+   "t": 46.801,
+   "k": "hit",
+   "g": 0.34
+  },
+  {
+   "t": 48.603,
+   "k": "pop",
+   "g": 0.3
+  }
+ ],
+ "music": {
+  "beat": 0,
+  "tense": 37.488,
+  "phone": 38.368,
+  "drop": 41.27,
+  "last": 43.498,
+  "end": 45.901
+ },
+ "blur": [
+  [
+   0,
+   0.7,
+   6
+  ],
+  [
+   13.01,
+   13.379999999999999,
+   4
+  ],
+  [
+   19.098,
+   19.548000000000002,
+   4
+  ],
+  [
+   20.098,
+   20.548000000000002,
+   4
+  ],
+  [
+   20.947999999999997,
+   21.398,
+   4
+  ],
+  [
+   27.689,
+   31.141,
+   3
+  ],
+  [
+   38.348,
+   39.018,
+   6
+  ],
+  [
+   45.881,
+   46.301,
+   4
+  ]
+ ]
+}
