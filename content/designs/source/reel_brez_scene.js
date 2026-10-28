@@ -253,7 +253,7 @@ function money(x, t) {
   const kt = kk(t, K.reviewers - 0.15, 0.3);
   if (kt > 0) {
     const pos = Math.min(7, (t - K.reviewers + 0.15) * 3.6), i0 = Math.floor(pos), fr = pos - i0;
-    x.save(); x.globalAlpha = kt; x.beginPath(); x.rect(0, 640, W, 620); x.clip();
+    x.save(); x.globalAlpha = kt; x.beginPath(); x.rect(0, 720, W, 560); x.clip();
     for (let j = -2; j <= 2; j++) {
       const i = i0 + j; if (i < 0 || i >= TICK.length) continue;
       const Y = 980 + (j - fr) * 230, d = Math.abs(j - fr);
@@ -261,8 +261,8 @@ function money(x, t) {
       x.fillStyle = d < 0.5 ? INKD : 'rgba(0,0,0,' + (0.22 - 0.08 * Math.min(2, d)) + ')'; x.fillText(TICK[i], 110, Y);
     }
     x.restore();
-    setF(x, '600 30px Body', 3); x.fillStyle = '#6E6E73'; x.textAlign = 'left'; x.globalAlpha = kt; x.fillText('COURSES', 760, 960); x.globalAlpha = 1;
-    x.strokeStyle = RED; x.lineWidth = 4; x.beginPath(); x.moveTo(920, 950); x.lineTo(970, 950); x.moveTo(952, 934); x.lineTo(970, 950); x.lineTo(952, 966); x.stroke();
+    setF(x, '600 30px Body', 3); x.fillStyle = '#6E6E73'; x.textAlign = 'left'; x.globalAlpha = kt; x.fillText('COURSES', 116, 690);   // above the ticker, clear of the widest figure
+    x.strokeStyle = RED; x.lineWidth = 4; x.beginPath(); x.moveTo(300, 680); x.lineTo(350, 680); x.moveTo(332, 664); x.lineTo(350, 680); x.lineTo(332, 696); x.stroke(); x.globalAlpha = 1;
   }
   kin(x, 'money', t, { y: 1480, size: 84, from: 7, red: ['courses', 'selling'] });
   fine(x, 'Reviewers’ estimate, not his accounts. Source: course reviews (2026)', kk(t, K.reviewers, 0.4), true);
