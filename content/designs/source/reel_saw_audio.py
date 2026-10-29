@@ -24,6 +24,7 @@ from pathlib import Path
 import numpy as np
 import soundfile as sf
 from scipy import signal
+from scipy.ndimage import uniform_filter1d
 
 import sfx_pro as S
 
@@ -287,11 +288,37 @@ music.add(S.pad([55.0, 82.41, 110.0], M["drop"] - M["phone"] + 0.2, 380), M["pho
 groove(music, M["drop"], M["end"], BRIGHT, level=0.85, g0=G1)                                # your ad, held that long
 music.add(S.pad([130.81, 164.81, 196.0, 261.63, 329.63], END - M["end"] + 0.4, 1800), M["end"], 0.24)
 
+def brighten(x, t0, t1, db=10.0, f=3500):
+    """A lift above f for t0..t1 (crossfaded in and out), no change to timing."""
+    a, b = int(t0 * S.SR) - 400, int(t1 * S.SR) + 400
+    seg = x[a:b].copy()
+    y = seg + S.hp(seg, f) * (10 ** (db / 20) - 1)
+    fade = np.ones(len(seg)); fade[:400] = np.linspace(0, 1, 400); fade[-400:] = np.linspace(1, 0, 400)
+    x[a:b] = seg * (1 - fade) + y * fade
+
+
+def master(voice, music, sfx, duck=0.82, music_gain=0.32, sfx_gain=0.55, voice_gain=1.0):
+    """sfx_pro.master with its two moving averages done in linear time (uniform_filter1d, the same zero-padded box)
+    instead of np.convolve, which takes many minutes on a 42-second track while the renderers have the CPU."""
+    v = voice if voice.ndim == 2 else S.stereo(voice)
+    lvl = uniform_filter1d(np.abs(v).mean(axis=1), S.n_(0.03), mode="constant")
+    lvl = lvl / (np.max(lvl) + 1e-9)
+    d = 1 - duck * np.clip(lvl * 3.5, 0, 1)
+    d = uniform_filter1d(d, S.n_(0.25), mode="constant")[:, None]   # slow release: no pumping between phrases
+    norm = lambda x: x / (np.max(np.abs(x)) + 1e-9)
+    mix = norm(v) * voice_gain + norm(music) * music_gain * d + norm(sfx) * sfx_gain * (0.4 + 0.6 * d)
+    return np.tanh(mix / np.max(np.abs(mix)) * 1.15) * 0.92
+
+
 voice, sr = sf.read(sys.argv[1])
 assert sr == S.SR
 voice = voice if voice.ndim == 1 else voice.mean(axis=1)
+# "So he started his own saw company": the voice's S is soft enough that "So" can be heard as "Though" (Whisper does);
+# a lift on that one onset makes it "So"
+so = next(w for w in C["words"] if w["line"] == "own")
+brighten(voice, so["s"] - 0.03, so["s"] + 0.09)
 v = np.zeros(len(music.buf)); n = min(len(v), len(voice)); v[:n] = voice[:n]
-mix = S.master(S.stereo(v), music.buf, sfx.buf, duck=0.7, music_gain=0.135, sfx_gain=0.3, voice_gain=1.0)
+mix = master(S.stereo(v), music.buf, sfx.buf, duck=0.7, music_gain=0.135, sfx_gain=0.3, voice_gain=1.0)
 fade = S.n_(0.4); mix[-fade:] *= np.linspace(1, 0, fade)[:, None]
 sf.write(sys.argv[2], mix, S.SR, subtype="PCM_16")
 print("wrote", sys.argv[2])

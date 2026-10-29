@@ -496,16 +496,16 @@ function three(x, t) {
   R3.render(scene, cam); x.drawImage(glc, 0, 0);
   // labels
   label(x, BOARD.localToWorld(v3([0.1, 0.35, HD_OFF - BL / 2 + 0.2])).toArray(), 60, -260, 'hot dog', win(t, K.hot - 0.05, K.salty - 0.1, 0.3, 0.2));
-  label(x, [0, -0.55 + RB * 0.98, 0.25], 60, -170, 'spinning blade', win(t, K.stopsW - 0.1, K.signal, 0.3, 0.2));
-  label(x, ARBOR.localToWorld(v3([0, Math.sin(3.6) * (RB + 0.05), Math.cos(3.6) * (RB + 0.05)])).toArray(), -40, 300, 'tiny electrical signal', win(t, K.tiny - 0.05, K.woodW - 0.2, 0.3, 0.2), { bg: BLUE, fg: WHT });
+  label(x, [0, -0.55 + RB * 0.98, 0.25], 80, 250, 'spinning blade', win(t, K.stopsW - 0.1, K.signal, 0.3, 0.2));
+  label(x, ARBOR.localToWorld(v3([0, RB + 0.05, 0])).toArray(), 0, 150, 'tiny electrical signal', win(t, K.tiny - 0.05, K.woodW - 0.2, 0.3, 0.2), { bg: BLUE, fg: WHT });
   label(x, BOARD.localToWorld(v3([-0.1, 0.35, TIP + 0.4])).toArray(), -40, -280, 'skin conducts', win(t, K.conducts - 0.1, K.touch + 0.1, 0.3, 0.2));
   label(x, CART.localToWorld(v3([0, 0.05, 0])).toArray(), -40, 330, 'spring', win(t, K.spring - 0.1, K.alum - 0.05, 0.3, 0.2));
   label(x, CART.localToWorld(v3([0, PAWL.position.y - 0.1, 0.2])).toArray(), -40, 300, 'aluminum brake', win(t, K.alum - 0.1, K.stop + 0.2, 0.3, 0.2), { bg: BLUE, fg: WHT });
-  label(x, ARBOR.localToWorld(v3([0, RB * 0.75, 0.3])).toArray(), 40, -330, 'drops below the table', win(t, K.drops + 0.05, K.blink - 0.1, 0.3, 0.2));
+  label(x, ARBOR.localToWorld(v3([0, RB * 0.75, 0.3])).toArray(), 60, 120, 'drops below the table', win(t, K.drops + 0.05, K.blink - 0.1, 0.3, 0.2));
   label(x, BOARD.localToWorld(v3([0, 0.3, TIP + 0.01])).toArray(), 0, -250, 'a nick', win(t, K.nickW - 0.1, K.cost - 0.3, 0.3, 0.12));
   if (HERO.visible && t < K.offeredW) {
-    label(x, HCART.localToWorld(v3([0, 0.25, 0])).toArray(), 40, -300, 'single-use', win(t, K.single - 0.1, K.offeredW - 0.1, 0.3, 0.2), { bg: RED, fg: WHT });
-    label(x, HBLADE.localToWorld(v3([0, RB * 0.55, 0.6])).toArray(), -40, 320, 'blade: usually ruined', win(t, K.ruined - 0.3, K.offeredW - 0.1, 0.3, 0.2));
+    label(x, HCART.localToWorld(v3([0, 0.25, 0])).toArray(), 40, -300, 'single-use', win(t, K.single - 0.1, K.offered - 0.05, 0.3, 0.15), { bg: RED, fg: WHT });
+    label(x, HBLADE.localToWorld(v3([0, RB * 0.55, 0.6])).toArray(), -40, 320, 'blade: usually ruined', win(t, K.ruined - 0.3, K.offered - 0.05, 0.3, 0.15));
   }
   if (TOWN.visible) {
     label(x, [0, FLOOR_Y + 10, -140], 0, -330, 'big tool companies', win(t, K.big - 0.05, K.told + 0.2, 0.3, 0.2));
