@@ -425,3 +425,41 @@ Rebuild: `python3 source/reel_brez_vo.py <kokoro-dir> <tmp>` → `node source/re
 > (Photos: Pexels.)
 >
 > #metaads #instagramads #brezscales
+
+## Reel: "You type a question to AI. It never reads a single word of it." (3D explainer, Face ID style)
+File: `reels/mezmedia_reel_ai.mp4` (1080×1920, 30fps, 42.1s, Kokoro voiceover + music + SFX, -14 LUFS). Back to the Face ID reel's format after the Brez reel (84 views; Face ID got 1,400): a paradox hook with the voice moving up and down, the mechanism one picture per line on one continuous 3D camera, top captions that build word by word with the key word in a blue selection box, labels on leader lines, small print with sources, then the tension and the switch. The read is faster than Face ID's, which felt slow: same voice (am_fenrir), lines at 1.2 to 1.3x speed with 0.05 to 0.15 s between them, so the reel runs 42 s instead of 47.
+The hook: "You type a question to AI." (bright, lifting at the end; the question types itself on a phone) "It never reads a single word of it." (dropped and weighty: the words lift off the screen and break into digits) "Not one." (low and flat, the music stops dead, a red "words read: 0") "So how does it answer you in seconds?" (a question that climbs; the message is sent). Then one camera follows it: a pulse of light leaves the phone along a fiber-optic cable across a dark map ("fiber-optic cable", "pulses of light"), the camera pulls up and back to show the whole data center, then dives through its door. Inside, "Why is the sky blue?" is chopped into its 6 real tokens ("about 4 letters each"), which flip to their real IDs (10445 374 279 13180 6437 30, "token ID"); each grows its list of numbers ("GPT-3: 12,288 numbers each"); ten layer plates stack up and every token's attention arcs reach back to the ones before it ("attention: looking back"); a counter runs to 350,000,000,000 operations for one token over the GPUs; a panel scores the next token and picks "Air"; the loop runs token by token ("tokens written") and the real answer types itself out on the phone, then both bubbles turn into their token IDs: "It never read your words. It did math on them." Then the tension (colour drains, heartbeat, clock) and the switch: "You've just watched this reel for 34 seconds" (the real time when it is spoken), the post turns into an ad (yourbrand · Sponsored · Shop now), and the pitch.
+Facts: tokens are about 4 characters of English each (OpenAI Help Center, "What are tokens and how to count them?"). The tokens and IDs on screen are real, from GPT-4's tokenizer (tiktoken `cl100k_base`, 100,277 entries): "Why is the sky blue?" is 10445 374 279 13180 6437 30, and "Air scatters blue light more than red." is Air| sc|atters| blue| light| more| than| red|. (26777 1156 10385 6437 3177 810 1109 2579 13). GPT-3 turns each token into 12,288 numbers and runs 96 layers with 175 billion parameters (Brown et al. 2020, "Language Models are Few-Shot Learners", Table 2.1); attention lets each token look at the tokens before it (Vaswani et al. 2017, "Attention Is All You Need"); one token costs about 2 operations per parameter (Kaplan et al. 2020, "Scaling Laws for Neural Language Models"), about 350 billion for GPT-3. The model scores every token in its vocabulary and picks one, adds it and runs again; chat apps stream the tokens as they come, which is why answers type themselves out. Air scatters blue light more than red (Rayleigh scattering). Most long-distance internet traffic travels through fiber-optic cable; the small print says the first hop is Wi-Fi or mobile data. The scores on the panel and the numbers in each list are an illustration (small print says so).
+Rebuild: `python3 source/reel_ai_vo.py <kokoro-dir> <tmp>` → `node source/reel_ai.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames so several renderers can run at once) → `python3 source/reel_ai_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_ai_scene.js` (three.js); the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> You type a question to AI.
+> It never reads a single word of it. Not one.
+> So how does it answer you in seconds?
+> Your message is fired through fiber-optic cables, as pulses of light, to a data center.
+> There, it's chopped into tokens: chunks of about four letters.
+> Each token becomes a number. Which points to a list of thousands of numbers.
+> Now the model runs. Dozens of layers, where every token looks back at the ones before it.
+> Hundreds of billions of calculations, for every token.
+> Next, it scores every token it knows, and picks one.
+> Then it runs again. And again. One token at a time.
+> That's why answers type themselves out.
+> It never read your words. It did math on them.
+> (tension)
+> You've just watched this reel for 34 seconds.
+> Imagine your ad held people that long.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> You just spent 34 seconds learning what happens after you hit send. Nobody asked you to. The question did the work.
+>
+> That's the first job of any ad: give people a reason to keep watching before you ask for anything. If your Meta ads open with the logo, the price or "limited offer", people scroll before they hear why they should care.
+>
+> We scale businesses with Instagram ads built the other way round: a question people want answered, then the offer.
+>
+> How it works, in short: your message is split into tokens (about 4 characters of English each, per OpenAI). Each token is a number: "Why is the sky blue?" is 6 of them in GPT-4's tokenizer. The model turns each one into a long list of numbers (12,288 in GPT-3), runs them through dozens of layers (96 in GPT-3), scores every token it knows and picks the next one, then does it all again for the token after that. For a GPT-3-sized model that's about 350 billion calculations per token. (Sources: OpenAI Help Center; Brown et al. 2020; Kaplan et al. 2020; Vaswani et al. 2017.)
+>
+> #metaads #instagramads #ai

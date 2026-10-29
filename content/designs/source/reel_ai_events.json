@@ -1,0 +1,3132 @@
+{
+ "cues": {
+  "lines": {
+   "type": {
+    "s": 0.05,
+    "e": 1.41,
+    "text": "you type a question to AI"
+   },
+   "never": {
+    "s": 1.47,
+    "e": 2.979,
+    "text": "it never reads a single word of it"
+   },
+   "notone": {
+    "s": 3.119,
+    "e": 3.756,
+    "text": "not one"
+   },
+   "how": {
+    "s": 3.896,
+    "e": 5.42,
+    "text": "so how does it answer you in seconds"
+   },
+   "fiber": {
+    "s": 5.52,
+    "e": 9.937,
+    "text": "your message is fired through fiber-optic cables as pulses of light to a data center"
+   },
+   "tokens": {
+    "s": 10.017,
+    "e": 12.69,
+    "text": "there it's chopped into tokens chunks of about 4 letters"
+   },
+   "number": {
+    "s": 12.75,
+    "e": 13.993,
+    "text": "each token becomes a number"
+   },
+   "thousands": {
+    "s": 14.073,
+    "e": 16.022,
+    "text": "which points to a list of thousands of numbers"
+   },
+   "layers": {
+    "s": 16.122,
+    "e": 20.33,
+    "text": "now the model runs dozens of layers where every token looks back at the ones before it"
+   },
+   "calc": {
+    "s": 20.39,
+    "e": 23.173,
+    "text": "hundreds of billions of calculations for every token"
+   },
+   "scores": {
+    "s": 23.273,
+    "e": 25.734,
+    "text": "next it scores every token it knows and picks one"
+   },
+   "again": {
+    "s": 25.814,
+    "e": 28.275,
+    "text": "then it runs again and again one token at a time"
+   },
+   "types": {
+    "s": 28.355,
+    "e": 29.966,
+    "text": "that's why answers type themselves out"
+   },
+   "math": {
+    "s": 30.106,
+    "e": 32.259,
+    "text": "it never read your words it did math on them"
+   },
+   "watched": {
+    "s": 32.959,
+    "e": 35.35,
+    "text": "you've just watched this reel for 34 seconds"
+   },
+   "imagine": {
+    "s": 35.45,
+    "e": 37.183,
+    "text": "imagine your ad held people that long"
+   },
+   "scale": {
+    "s": 37.283,
+    "e": 39.027,
+    "text": "we scale businesses with ads like this"
+   },
+   "dm": {
+    "s": 39.127,
+    "e": 41.486,
+    "text": "DM us the word teardown for a free ad review"
+   }
+  },
+  "words": [
+   {
+    "w": "you",
+    "s": 0.05,
+    "e": 0.125,
+    "line": "type"
+   },
+   {
+    "w": "type",
+    "s": 0.175,
+    "e": 0.375,
+    "line": "type"
+   },
+   {
+    "w": "a",
+    "s": 0.375,
+    "e": 0.45,
+    "line": "type"
+   },
+   {
+    "w": "question",
+    "s": 0.45,
+    "e": 0.825,
+    "line": "type"
+   },
+   {
+    "w": "to",
+    "s": 0.875,
+    "e": 0.9,
+    "line": "type"
+   },
+   {
+    "w": "AI",
+    "s": 1,
+    "e": 1.6,
+    "line": "type"
+   },
+   {
+    "w": "it",
+    "s": 1.47,
+    "e": 1.545,
+    "line": "never"
+   },
+   {
+    "w": "never",
+    "s": 1.595,
+    "e": 1.82,
+    "line": "never"
+   },
+   {
+    "w": "reads",
+    "s": 1.87,
+    "e": 2.07,
+    "line": "never"
+   },
+   {
+    "w": "a",
+    "s": 2.07,
+    "e": 2.22,
+    "line": "never"
+   },
+   {
+    "w": "single",
+    "s": 2.22,
+    "e": 2.52,
+    "line": "never"
+   },
+   {
+    "w": "word",
+    "s": 2.57,
+    "e": 2.77,
+    "line": "never"
+   },
+   {
+    "w": "of",
+    "s": 2.795,
+    "e": 2.845,
+    "line": "never"
+   },
+   {
+    "w": "it",
+    "s": 2.895,
+    "e": 3.245,
+    "line": "never"
+   },
+   {
+    "w": "not",
+    "s": 3.119,
+    "e": 3.319,
+    "line": "notone"
+   },
+   {
+    "w": "one",
+    "s": 3.369,
+    "e": 3.894,
+    "line": "notone"
+   },
+   {
+    "w": "so",
+    "s": 3.896,
+    "e": 3.996,
+    "line": "how"
+   },
+   {
+    "w": "how",
+    "s": 4.046,
+    "e": 4.146,
+    "line": "how"
+   },
+   {
+    "w": "does",
+    "s": 4.171,
+    "e": 4.271,
+    "line": "how"
+   },
+   {
+    "w": "it",
+    "s": 4.296,
+    "e": 4.321,
+    "line": "how"
+   },
+   {
+    "w": "answer",
+    "s": 4.396,
+    "e": 4.621,
+    "line": "how"
+   },
+   {
+    "w": "you",
+    "s": 4.671,
+    "e": 4.746,
+    "line": "how"
+   },
+   {
+    "w": "in",
+    "s": 4.796,
+    "e": 4.896,
+    "line": "how"
+   },
+   {
+    "w": "seconds",
+    "s": 4.946,
+    "e": 5.596,
+    "line": "how"
+   },
+   {
+    "w": "your",
+    "s": 5.52,
+    "e": 5.645,
+    "line": "fiber"
+   },
+   {
+    "w": "message",
+    "s": 5.695,
+    "e": 6.02,
+    "line": "fiber"
+   },
+   {
+    "w": "is",
+    "s": 6.07,
+    "e": 6.17,
+    "line": "fiber"
+   },
+   {
+    "w": "fired",
+    "s": 6.22,
+    "e": 6.57,
+    "line": "fiber"
+   },
+   {
+    "w": "through",
+    "s": 6.62,
+    "e": 6.795,
+    "line": "fiber"
+   },
+   {
+    "w": "fiber-optic",
+    "s": 6.87,
+    "e": 7.545,
+    "line": "fiber"
+   },
+   {
+    "w": "cables",
+    "s": 7.595,
+    "e": 8.045,
+    "line": "fiber"
+   },
+   {
+    "w": "as",
+    "s": 8.12,
+    "e": 8.22,
+    "line": "fiber"
+   },
+   {
+    "w": "pulses",
+    "s": 8.27,
+    "e": 8.595,
+    "line": "fiber"
+   },
+   {
+    "w": "of",
+    "s": 8.62,
+    "e": 8.695,
+    "line": "fiber"
+   },
+   {
+    "w": "light",
+    "s": 8.745,
+    "e": 8.995,
+    "line": "fiber"
+   },
+   {
+    "w": "to",
+    "s": 9.095,
+    "e": 9.145,
+    "line": "fiber"
+   },
+   {
+    "w": "a",
+    "s": 9.145,
+    "e": 9.27,
+    "line": "fiber"
+   },
+   {
+    "w": "data",
+    "s": 9.27,
+    "e": 9.52,
+    "line": "fiber"
+   },
+   {
+    "w": "center",
+    "s": 9.57,
+    "e": 10.145,
+    "line": "fiber"
+   },
+   {
+    "w": "there",
+    "s": 10.017,
+    "e": 10.192,
+    "line": "tokens"
+   },
+   {
+    "w": "it's",
+    "s": 10.242,
+    "e": 10.317,
+    "line": "tokens"
+   },
+   {
+    "w": "chopped",
+    "s": 10.367,
+    "e": 10.617,
+    "line": "tokens"
+   },
+   {
+    "w": "into",
+    "s": 10.642,
+    "e": 10.767,
+    "line": "tokens"
+   },
+   {
+    "w": "tokens",
+    "s": 10.817,
+    "e": 11.342,
+    "line": "tokens"
+   },
+   {
+    "w": "chunks",
+    "s": 11.442,
+    "e": 11.742,
+    "line": "tokens"
+   },
+   {
+    "w": "of",
+    "s": 11.767,
+    "e": 11.817,
+    "line": "tokens"
+   },
+   {
+    "w": "about",
+    "s": 11.842,
+    "e": 12.067,
+    "line": "tokens"
+   },
+   {
+    "w": "4",
+    "s": 12.117,
+    "e": 12.267,
+    "line": "tokens"
+   },
+   {
+    "w": "letters",
+    "s": 12.317,
+    "e": 12.867,
+    "line": "tokens"
+   },
+   {
+    "w": "each",
+    "s": 12.75,
+    "e": 12.9,
+    "line": "number"
+   },
+   {
+    "w": "token",
+    "s": 12.95,
+    "e": 13.25,
+    "line": "number"
+   },
+   {
+    "w": "becomes",
+    "s": 13.275,
+    "e": 13.525,
+    "line": "number"
+   },
+   {
+    "w": "a",
+    "s": 13.525,
+    "e": 13.625,
+    "line": "number"
+   },
+   {
+    "w": "number",
+    "s": 13.625,
+    "e": 14.15,
+    "line": "number"
+   },
+   {
+    "w": "which",
+    "s": 14.073,
+    "e": 14.223,
+    "line": "thousands"
+   },
+   {
+    "w": "points",
+    "s": 14.273,
+    "e": 14.523,
+    "line": "thousands"
+   },
+   {
+    "w": "to",
+    "s": 14.573,
+    "e": 14.623,
+    "line": "thousands"
+   },
+   {
+    "w": "a",
+    "s": 14.623,
+    "e": 14.748,
+    "line": "thousands"
+   },
+   {
+    "w": "list",
+    "s": 14.748,
+    "e": 14.923,
+    "line": "thousands"
+   },
+   {
+    "w": "of",
+    "s": 14.948,
+    "e": 15.023,
+    "line": "thousands"
+   },
+   {
+    "w": "thousands",
+    "s": 15.073,
+    "e": 15.448,
+    "line": "thousands"
+   },
+   {
+    "w": "of",
+    "s": 15.473,
+    "e": 15.523,
+    "line": "thousands"
+   },
+   {
+    "w": "numbers",
+    "s": 15.573,
+    "e": 16.198,
+    "line": "thousands"
+   },
+   {
+    "w": "now",
+    "s": 16.122,
+    "e": 16.347,
+    "line": "layers"
+   },
+   {
+    "w": "the",
+    "s": 16.372,
+    "e": 16.422,
+    "line": "layers"
+   },
+   {
+    "w": "model",
+    "s": 16.472,
+    "e": 16.747,
+    "line": "layers"
+   },
+   {
+    "w": "runs",
+    "s": 16.797,
+    "e": 17.197,
+    "line": "layers"
+   },
+   {
+    "w": "dozens",
+    "s": 17.297,
+    "e": 17.622,
+    "line": "layers"
+   },
+   {
+    "w": "of",
+    "s": 17.647,
+    "e": 17.722,
+    "line": "layers"
+   },
+   {
+    "w": "layers",
+    "s": 17.772,
+    "e": 18.097,
+    "line": "layers"
+   },
+   {
+    "w": "where",
+    "s": 18.147,
+    "e": 18.272,
+    "line": "layers"
+   },
+   {
+    "w": "every",
+    "s": 18.322,
+    "e": 18.572,
+    "line": "layers"
+   },
+   {
+    "w": "token",
+    "s": 18.622,
+    "e": 18.972,
+    "line": "layers"
+   },
+   {
+    "w": "looks",
+    "s": 19.022,
+    "e": 19.197,
+    "line": "layers"
+   },
+   {
+    "w": "back",
+    "s": 19.247,
+    "e": 19.422,
+    "line": "layers"
+   },
+   {
+    "w": "at",
+    "s": 19.447,
+    "e": 19.497,
+    "line": "layers"
+   },
+   {
+    "w": "the",
+    "s": 19.522,
+    "e": 19.572,
+    "line": "layers"
+   },
+   {
+    "w": "ones",
+    "s": 19.622,
+    "e": 19.847,
+    "line": "layers"
+   },
+   {
+    "w": "before",
+    "s": 19.897,
+    "e": 20.222,
+    "line": "layers"
+   },
+   {
+    "w": "it",
+    "s": 20.272,
+    "e": 20.622,
+    "line": "layers"
+   },
+   {
+    "w": "hundreds",
+    "s": 20.39,
+    "e": 20.79,
+    "line": "calc"
+   },
+   {
+    "w": "of",
+    "s": 20.815,
+    "e": 20.89,
+    "line": "calc"
+   },
+   {
+    "w": "billions",
+    "s": 20.94,
+    "e": 21.29,
+    "line": "calc"
+   },
+   {
+    "w": "of",
+    "s": 21.315,
+    "e": 21.365,
+    "line": "calc"
+   },
+   {
+    "w": "calculations",
+    "s": 21.415,
+    "e": 22.19,
+    "line": "calc"
+   },
+   {
+    "w": "for",
+    "s": 22.265,
+    "e": 22.39,
+    "line": "calc"
+   },
+   {
+    "w": "every",
+    "s": 22.44,
+    "e": 22.69,
+    "line": "calc"
+   },
+   {
+    "w": "token",
+    "s": 22.74,
+    "e": 23.39,
+    "line": "calc"
+   },
+   {
+    "w": "next",
+    "s": 23.273,
+    "e": 23.498,
+    "line": "scores"
+   },
+   {
+    "w": "it",
+    "s": 23.548,
+    "e": 23.598,
+    "line": "scores"
+   },
+   {
+    "w": "scores",
+    "s": 23.648,
+    "e": 23.973,
+    "line": "scores"
+   },
+   {
+    "w": "every",
+    "s": 24.023,
+    "e": 24.273,
+    "line": "scores"
+   },
+   {
+    "w": "token",
+    "s": 24.323,
+    "e": 24.623,
+    "line": "scores"
+   },
+   {
+    "w": "it",
+    "s": 24.648,
+    "e": 24.698,
+    "line": "scores"
+   },
+   {
+    "w": "knows",
+    "s": 24.723,
+    "e": 24.998,
+    "line": "scores"
+   },
+   {
+    "w": "and",
+    "s": 25.048,
+    "e": 25.123,
+    "line": "scores"
+   },
+   {
+    "w": "picks",
+    "s": 25.173,
+    "e": 25.423,
+    "line": "scores"
+   },
+   {
+    "w": "one",
+    "s": 25.473,
+    "e": 25.948,
+    "line": "scores"
+   },
+   {
+    "w": "then",
+    "s": 25.814,
+    "e": 25.914,
+    "line": "again"
+   },
+   {
+    "w": "it",
+    "s": 25.939,
+    "e": 25.989,
+    "line": "again"
+   },
+   {
+    "w": "runs",
+    "s": 26.039,
+    "e": 26.239,
+    "line": "again"
+   },
+   {
+    "w": "again",
+    "s": 26.264,
+    "e": 26.539,
+    "line": "again"
+   },
+   {
+    "w": "and",
+    "s": 26.614,
+    "e": 26.689,
+    "line": "again"
+   },
+   {
+    "w": "again",
+    "s": 26.713,
+    "e": 27.088,
+    "line": "again"
+   },
+   {
+    "w": "one",
+    "s": 27.213,
+    "e": 27.389,
+    "line": "again"
+   },
+   {
+    "w": "token",
+    "s": 27.439,
+    "e": 27.764,
+    "line": "again"
+   },
+   {
+    "w": "at",
+    "s": 27.789,
+    "e": 27.814,
+    "line": "again"
+   },
+   {
+    "w": "a",
+    "s": 27.814,
+    "e": 27.963,
+    "line": "again"
+   },
+   {
+    "w": "time",
+    "s": 27.963,
+    "e": 28.514,
+    "line": "again"
+   },
+   {
+    "w": "that's",
+    "s": 28.355,
+    "e": 28.53,
+    "line": "types"
+   },
+   {
+    "w": "why",
+    "s": 28.58,
+    "e": 28.755,
+    "line": "types"
+   },
+   {
+    "w": "answers",
+    "s": 28.805,
+    "e": 29.08,
+    "line": "types"
+   },
+   {
+    "w": "type",
+    "s": 29.13,
+    "e": 29.28,
+    "line": "types"
+   },
+   {
+    "w": "themselves",
+    "s": 29.305,
+    "e": 29.705,
+    "line": "types"
+   },
+   {
+    "w": "out",
+    "s": 29.755,
+    "e": 30.23,
+    "line": "types"
+   },
+   {
+    "w": "it",
+    "s": 30.106,
+    "e": 30.181,
+    "line": "math"
+   },
+   {
+    "w": "never",
+    "s": 30.231,
+    "e": 30.456,
+    "line": "math"
+   },
+   {
+    "w": "read",
+    "s": 30.506,
+    "e": 30.656,
+    "line": "math"
+   },
+   {
+    "w": "your",
+    "s": 30.681,
+    "e": 30.756,
+    "line": "math"
+   },
+   {
+    "w": "words",
+    "s": 30.806,
+    "e": 31.156,
+    "line": "math"
+   },
+   {
+    "w": "it",
+    "s": 31.256,
+    "e": 31.331,
+    "line": "math"
+   },
+   {
+    "w": "did",
+    "s": 31.381,
+    "e": 31.531,
+    "line": "math"
+   },
+   {
+    "w": "math",
+    "s": 31.581,
+    "e": 31.856,
+    "line": "math"
+   },
+   {
+    "w": "on",
+    "s": 31.881,
+    "e": 32.031,
+    "line": "math"
+   },
+   {
+    "w": "them",
+    "s": 32.056,
+    "e": 32.506,
+    "line": "math"
+   },
+   {
+    "w": "you've",
+    "s": 32.959,
+    "e": 33.059,
+    "line": "watched"
+   },
+   {
+    "w": "just",
+    "s": 33.084,
+    "e": 33.284,
+    "line": "watched"
+   },
+   {
+    "w": "watched",
+    "s": 33.334,
+    "e": 33.634,
+    "line": "watched"
+   },
+   {
+    "w": "this",
+    "s": 33.659,
+    "e": 33.809,
+    "line": "watched"
+   },
+   {
+    "w": "reel",
+    "s": 33.859,
+    "e": 34.084,
+    "line": "watched"
+   },
+   {
+    "w": "for",
+    "s": 34.134,
+    "e": 34.259,
+    "line": "watched"
+   },
+   {
+    "w": "34",
+    "s": 34.334,
+    "e": 34.809,
+    "line": "watched"
+   },
+   {
+    "w": "seconds",
+    "s": 34.859,
+    "e": 35.559,
+    "line": "watched"
+   },
+   {
+    "w": "imagine",
+    "s": 35.45,
+    "e": 35.825,
+    "line": "imagine"
+   },
+   {
+    "w": "your",
+    "s": 35.85,
+    "e": 35.925,
+    "line": "imagine"
+   },
+   {
+    "w": "ad",
+    "s": 35.975,
+    "e": 36.125,
+    "line": "imagine"
+   },
+   {
+    "w": "held",
+    "s": 36.175,
+    "e": 36.35,
+    "line": "imagine"
+   },
+   {
+    "w": "people",
+    "s": 36.4,
+    "e": 36.7,
+    "line": "imagine"
+   },
+   {
+    "w": "that",
+    "s": 36.725,
+    "e": 36.85,
+    "line": "imagine"
+   },
+   {
+    "w": "long",
+    "s": 36.9,
+    "e": 37.425,
+    "line": "imagine"
+   },
+   {
+    "w": "we",
+    "s": 37.283,
+    "e": 37.358,
+    "line": "scale"
+   },
+   {
+    "w": "scale",
+    "s": 37.408,
+    "e": 37.683,
+    "line": "scale"
+   },
+   {
+    "w": "businesses",
+    "s": 37.733,
+    "e": 38.183,
+    "line": "scale"
+   },
+   {
+    "w": "with",
+    "s": 38.208,
+    "e": 38.308,
+    "line": "scale"
+   },
+   {
+    "w": "ads",
+    "s": 38.383,
+    "e": 38.583,
+    "line": "scale"
+   },
+   {
+    "w": "like",
+    "s": 38.608,
+    "e": 38.733,
+    "line": "scale"
+   },
+   {
+    "w": "this",
+    "s": 38.783,
+    "e": 39.208,
+    "line": "scale"
+   },
+   {
+    "w": "DM",
+    "s": 39.127,
+    "e": 39.452,
+    "line": "dm"
+   },
+   {
+    "w": "us",
+    "s": 39.477,
+    "e": 39.627,
+    "line": "dm"
+   },
+   {
+    "w": "the",
+    "s": 39.652,
+    "e": 39.702,
+    "line": "dm"
+   },
+   {
+    "w": "word",
+    "s": 39.752,
+    "e": 39.927,
+    "line": "dm"
+   },
+   {
+    "w": "teardown",
+    "s": 39.977,
+    "e": 40.402,
+    "line": "dm"
+   },
+   {
+    "w": "for",
+    "s": 40.452,
+    "e": 40.577,
+    "line": "dm"
+   },
+   {
+    "w": "a",
+    "s": 40.577,
+    "e": 40.677,
+    "line": "dm"
+   },
+   {
+    "w": "free",
+    "s": 40.677,
+    "e": 40.877,
+    "line": "dm"
+   },
+   {
+    "w": "ad",
+    "s": 40.927,
+    "e": 41.077,
+    "line": "dm"
+   },
+   {
+    "w": "review",
+    "s": 41.127,
+    "e": 41.752,
+    "line": "dm"
+   }
+  ],
+  "voice_end": 41.486,
+  "end": 42.086,
+  "at": {
+   "type:you": 0.05,
+   "type:type": 0.175,
+   "type:a": 0.375,
+   "type:question": 0.45,
+   "type:to": 0.875,
+   "type:AI": 1,
+   "never:it": 2.895,
+   "never:never": 1.595,
+   "never:reads": 1.87,
+   "never:a": 2.07,
+   "never:single": 2.22,
+   "never:word": 2.57,
+   "never:of": 2.795,
+   "notone:not": 3.119,
+   "notone:one": 3.369,
+   "how:so": 3.896,
+   "how:how": 4.046,
+   "how:does": 4.171,
+   "how:it": 4.296,
+   "how:answer": 4.396,
+   "how:you": 4.671,
+   "how:in": 4.796,
+   "how:seconds": 4.946,
+   "fiber:your": 5.52,
+   "fiber:message": 5.695,
+   "fiber:is": 6.07,
+   "fiber:fired": 6.22,
+   "fiber:through": 6.62,
+   "fiber:fiber-optic": 6.87,
+   "fiber:cables": 7.595,
+   "fiber:as": 8.12,
+   "fiber:pulses": 8.27,
+   "fiber:of": 8.62,
+   "fiber:light": 8.745,
+   "fiber:to": 9.095,
+   "fiber:a": 9.145,
+   "fiber:data": 9.27,
+   "fiber:center": 9.57,
+   "tokens:there": 10.017,
+   "tokens:it's": 10.242,
+   "tokens:chopped": 10.367,
+   "tokens:into": 10.642,
+   "tokens:tokens": 10.817,
+   "tokens:chunks": 11.442,
+   "tokens:of": 11.767,
+   "tokens:about": 11.842,
+   "tokens:4": 12.117,
+   "tokens:letters": 12.317,
+   "number:each": 12.75,
+   "number:token": 12.95,
+   "number:becomes": 13.275,
+   "number:a": 13.525,
+   "number:number": 13.625,
+   "thousands:which": 14.073,
+   "thousands:points": 14.273,
+   "thousands:to": 14.573,
+   "thousands:a": 14.623,
+   "thousands:list": 14.748,
+   "thousands:of": 15.473,
+   "thousands:thousands": 15.073,
+   "thousands:numbers": 15.573,
+   "layers:now": 16.122,
+   "layers:the": 19.522,
+   "layers:model": 16.472,
+   "layers:runs": 16.797,
+   "layers:dozens": 17.297,
+   "layers:of": 17.647,
+   "layers:layers": 17.772,
+   "layers:where": 18.147,
+   "layers:every": 18.322,
+   "layers:token": 18.622,
+   "layers:looks": 19.022,
+   "layers:back": 19.247,
+   "layers:at": 19.447,
+   "layers:ones": 19.622,
+   "layers:before": 19.897,
+   "layers:it": 20.272,
+   "calc:hundreds": 20.39,
+   "calc:of": 21.315,
+   "calc:billions": 20.94,
+   "calc:calculations": 21.415,
+   "calc:for": 22.265,
+   "calc:every": 22.44,
+   "calc:token": 22.74,
+   "scores:next": 23.273,
+   "scores:it": 24.648,
+   "scores:scores": 23.648,
+   "scores:every": 24.023,
+   "scores:token": 24.323,
+   "scores:knows": 24.723,
+   "scores:and": 25.048,
+   "scores:picks": 25.173,
+   "scores:one": 25.473,
+   "again:then": 25.814,
+   "again:it": 25.939,
+   "again:runs": 26.039,
+   "again:again": 26.713,
+   "again:and": 26.614,
+   "again:one": 27.213,
+   "again:token": 27.439,
+   "again:at": 27.789,
+   "again:a": 27.814,
+   "again:time": 27.963,
+   "types:that's": 28.355,
+   "types:why": 28.58,
+   "types:answers": 28.805,
+   "types:type": 29.13,
+   "types:themselves": 29.305,
+   "types:out": 29.755,
+   "math:it": 31.256,
+   "math:never": 30.231,
+   "math:read": 30.506,
+   "math:your": 30.681,
+   "math:words": 30.806,
+   "math:did": 31.381,
+   "math:math": 31.581,
+   "math:on": 31.881,
+   "math:them": 32.056,
+   "watched:you've": 32.959,
+   "watched:just": 33.084,
+   "watched:watched": 33.334,
+   "watched:this": 33.659,
+   "watched:reel": 33.859,
+   "watched:for": 34.134,
+   "watched:34": 34.334,
+   "watched:seconds": 34.859,
+   "imagine:imagine": 35.45,
+   "imagine:your": 35.85,
+   "imagine:ad": 35.975,
+   "imagine:held": 36.175,
+   "imagine:people": 36.4,
+   "imagine:that": 36.725,
+   "imagine:long": 36.9,
+   "scale:we": 37.283,
+   "scale:scale": 37.408,
+   "scale:businesses": 37.733,
+   "scale:with": 38.208,
+   "scale:ads": 38.383,
+   "scale:like": 38.608,
+   "scale:this": 38.783,
+   "dm:DM": 39.127,
+   "dm:us": 39.477,
+   "dm:the": 39.652,
+   "dm:word": 39.752,
+   "dm:teardown": 39.977,
+   "dm:for": 40.452,
+   "dm:a": 40.577,
+   "dm:free": 40.677,
+   "dm:ad": 40.927,
+   "dm:review": 41.127
+  }
+ },
+ "shots": [
+  {
+   "key": "ai",
+   "s": 0,
+   "e": 32.339,
+   "tin": "none"
+  },
+  {
+   "key": "tense",
+   "s": 32.339,
+   "e": 32.959,
+   "tin": "none"
+  },
+  {
+   "key": "phone",
+   "s": 32.959,
+   "e": 37.283,
+   "tin": "cut"
+  },
+  {
+   "key": "pitch",
+   "s": 37.283,
+   "e": 42.086,
+   "tin": "cut"
+  }
+ ],
+ "captions": [
+  {
+   "line": "type",
+   "s": 0,
+   "rows": [
+    [
+     {
+      "w": "you",
+      "s": -0.1,
+      "e": 0.125,
+      "hl": false
+     },
+     {
+      "w": "type",
+      "s": 0.175,
+      "e": 0.375,
+      "hl": false
+     },
+     {
+      "w": "a",
+      "s": 0.375,
+      "e": 0.45,
+      "hl": false
+     },
+     {
+      "w": "question",
+      "s": 0.45,
+      "e": 0.825,
+      "hl": false
+     },
+     {
+      "w": "to",
+      "s": 0.875,
+      "e": 0.9,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "AI",
+      "s": 1,
+      "e": 1.6,
+      "hl": true
+     }
+    ]
+   ],
+   "e": 1.47
+  },
+  {
+   "line": "never",
+   "s": 1.47,
+   "rows": [
+    [
+     {
+      "w": "it",
+      "s": 1.47,
+      "e": 1.545,
+      "hl": false
+     },
+     {
+      "w": "never",
+      "s": 1.595,
+      "e": 1.82,
+      "hl": true
+     },
+     {
+      "w": "reads",
+      "s": 1.87,
+      "e": 2.07,
+      "hl": false
+     },
+     {
+      "w": "a",
+      "s": 2.07,
+      "e": 2.22,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "single",
+      "s": 2.22,
+      "e": 2.52,
+      "hl": false
+     },
+     {
+      "w": "word",
+      "s": 2.57,
+      "e": 2.77,
+      "hl": false
+     },
+     {
+      "w": "of",
+      "s": 2.795,
+      "e": 2.845,
+      "hl": false
+     },
+     {
+      "w": "it",
+      "s": 2.895,
+      "e": 3.245,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 3.119
+  },
+  {
+   "line": "notone",
+   "s": 3.119,
+   "rows": [
+    [
+     {
+      "w": "not",
+      "s": 3.119,
+      "e": 3.319,
+      "hl": false
+     },
+     {
+      "w": "one",
+      "s": 3.369,
+      "e": 3.894,
+      "hl": true
+     }
+    ]
+   ],
+   "e": 3.896
+  },
+  {
+   "line": "how",
+   "s": 3.896,
+   "rows": [
+    [
+     {
+      "w": "so",
+      "s": 3.896,
+      "e": 3.996,
+      "hl": false
+     },
+     {
+      "w": "how",
+      "s": 4.046,
+      "e": 4.146,
+      "hl": false
+     },
+     {
+      "w": "does",
+      "s": 4.171,
+      "e": 4.271,
+      "hl": false
+     },
+     {
+      "w": "it",
+      "s": 4.296,
+      "e": 4.321,
+      "hl": false
+     },
+     {
+      "w": "answer",
+      "s": 4.396,
+      "e": 4.621,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "you",
+      "s": 4.671,
+      "e": 4.746,
+      "hl": false
+     },
+     {
+      "w": "in",
+      "s": 4.796,
+      "e": 4.896,
+      "hl": false
+     },
+     {
+      "w": "seconds",
+      "s": 4.946,
+      "e": 5.596,
+      "hl": true
+     }
+    ]
+   ],
+   "e": 5.52
+  },
+  {
+   "line": "fiber",
+   "s": 5.52,
+   "rows": [
+    [
+     {
+      "w": "your",
+      "s": 5.52,
+      "e": 5.645,
+      "hl": false
+     },
+     {
+      "w": "message",
+      "s": 5.695,
+      "e": 6.02,
+      "hl": false
+     },
+     {
+      "w": "is",
+      "s": 6.07,
+      "e": 6.17,
+      "hl": false
+     },
+     {
+      "w": "fired",
+      "s": 6.22,
+      "e": 6.57,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "through",
+      "s": 6.62,
+      "e": 6.795,
+      "hl": false
+     },
+     {
+      "w": "fiber-optic",
+      "s": 6.87,
+      "e": 7.545,
+      "hl": true
+     }
+    ]
+   ],
+   "e": 7.595
+  },
+  {
+   "line": "fiber",
+   "s": 7.595,
+   "rows": [
+    [
+     {
+      "w": "cables",
+      "s": 7.595,
+      "e": 8.045,
+      "hl": false
+     },
+     {
+      "w": "as",
+      "s": 8.12,
+      "e": 8.22,
+      "hl": false
+     },
+     {
+      "w": "pulses",
+      "s": 8.27,
+      "e": 8.595,
+      "hl": false
+     },
+     {
+      "w": "of",
+      "s": 8.62,
+      "e": 8.695,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "light",
+      "s": 8.745,
+      "e": 8.995,
+      "hl": true
+     },
+     {
+      "w": "to",
+      "s": 9.095,
+      "e": 9.145,
+      "hl": false
+     },
+     {
+      "w": "a",
+      "s": 9.145,
+      "e": 9.27,
+      "hl": false
+     },
+     {
+      "w": "data",
+      "s": 9.27,
+      "e": 9.52,
+      "hl": false
+     },
+     {
+      "w": "center",
+      "s": 9.57,
+      "e": 10.145,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 10.017
+  },
+  {
+   "line": "tokens",
+   "s": 10.017,
+   "rows": [
+    [
+     {
+      "w": "there",
+      "s": 10.017,
+      "e": 10.192,
+      "hl": false
+     },
+     {
+      "w": "it's",
+      "s": 10.242,
+      "e": 10.317,
+      "hl": false
+     },
+     {
+      "w": "chopped",
+      "s": 10.367,
+      "e": 10.617,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "into",
+      "s": 10.642,
+      "e": 10.767,
+      "hl": false
+     },
+     {
+      "w": "tokens",
+      "s": 10.817,
+      "e": 11.342,
+      "hl": true
+     },
+     {
+      "w": "chunks",
+      "s": 11.442,
+      "e": 11.742,
+      "hl": false
+     },
+     {
+      "w": "of",
+      "s": 11.767,
+      "e": 11.817,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 11.842
+  },
+  {
+   "line": "tokens",
+   "s": 11.842,
+   "rows": [
+    [
+     {
+      "w": "about",
+      "s": 11.842,
+      "e": 12.067,
+      "hl": false
+     },
+     {
+      "w": "4",
+      "s": 12.117,
+      "e": 12.267,
+      "hl": true
+     },
+     {
+      "w": "letters",
+      "s": 12.317,
+      "e": 12.867,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 12.75
+  },
+  {
+   "line": "number",
+   "s": 12.75,
+   "rows": [
+    [
+     {
+      "w": "each",
+      "s": 12.75,
+      "e": 12.9,
+      "hl": false
+     },
+     {
+      "w": "token",
+      "s": 12.95,
+      "e": 13.25,
+      "hl": false
+     },
+     {
+      "w": "becomes",
+      "s": 13.275,
+      "e": 13.525,
+      "hl": false
+     },
+     {
+      "w": "a",
+      "s": 13.525,
+      "e": 13.625,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "number",
+      "s": 13.625,
+      "e": 14.15,
+      "hl": true
+     }
+    ]
+   ],
+   "e": 14.073
+  },
+  {
+   "line": "thousands",
+   "s": 14.073,
+   "rows": [
+    [
+     {
+      "w": "which",
+      "s": 14.073,
+      "e": 14.223,
+      "hl": false
+     },
+     {
+      "w": "points",
+      "s": 14.273,
+      "e": 14.523,
+      "hl": false
+     },
+     {
+      "w": "to",
+      "s": 14.573,
+      "e": 14.623,
+      "hl": false
+     },
+     {
+      "w": "a",
+      "s": 14.623,
+      "e": 14.748,
+      "hl": false
+     },
+     {
+      "w": "list",
+      "s": 14.748,
+      "e": 14.923,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "of",
+      "s": 14.948,
+      "e": 15.023,
+      "hl": false
+     },
+     {
+      "w": "thousands",
+      "s": 15.073,
+      "e": 15.448,
+      "hl": true
+     },
+     {
+      "w": "of",
+      "s": 15.473,
+      "e": 15.523,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 15.573
+  },
+  {
+   "line": "thousands",
+   "s": 15.573,
+   "rows": [
+    [
+     {
+      "w": "numbers",
+      "s": 15.573,
+      "e": 16.198,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 16.122
+  },
+  {
+   "line": "layers",
+   "s": 16.122,
+   "rows": [
+    [
+     {
+      "w": "now",
+      "s": 16.122,
+      "e": 16.347,
+      "hl": false
+     },
+     {
+      "w": "the",
+      "s": 16.372,
+      "e": 16.422,
+      "hl": false
+     },
+     {
+      "w": "model",
+      "s": 16.472,
+      "e": 16.747,
+      "hl": false
+     },
+     {
+      "w": "runs",
+      "s": 16.797,
+      "e": 17.197,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "dozens",
+      "s": 17.297,
+      "e": 17.622,
+      "hl": false
+     },
+     {
+      "w": "of",
+      "s": 17.647,
+      "e": 17.722,
+      "hl": false
+     },
+     {
+      "w": "layers",
+      "s": 17.772,
+      "e": 18.097,
+      "hl": true
+     },
+     {
+      "w": "where",
+      "s": 18.147,
+      "e": 18.272,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 18.322
+  },
+  {
+   "line": "layers",
+   "s": 18.322,
+   "rows": [
+    [
+     {
+      "w": "every",
+      "s": 18.322,
+      "e": 18.572,
+      "hl": false
+     },
+     {
+      "w": "token",
+      "s": 18.622,
+      "e": 18.972,
+      "hl": false
+     },
+     {
+      "w": "looks",
+      "s": 19.022,
+      "e": 19.197,
+      "hl": false
+     },
+     {
+      "w": "back",
+      "s": 19.247,
+      "e": 19.422,
+      "hl": true
+     }
+    ],
+    [
+     {
+      "w": "at",
+      "s": 19.447,
+      "e": 19.497,
+      "hl": false
+     },
+     {
+      "w": "the",
+      "s": 19.522,
+      "e": 19.572,
+      "hl": false
+     },
+     {
+      "w": "ones",
+      "s": 19.622,
+      "e": 19.847,
+      "hl": false
+     },
+     {
+      "w": "before",
+      "s": 19.897,
+      "e": 20.222,
+      "hl": false
+     },
+     {
+      "w": "it",
+      "s": 20.272,
+      "e": 20.622,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 20.39
+  },
+  {
+   "line": "calc",
+   "s": 20.39,
+   "rows": [
+    [
+     {
+      "w": "hundreds",
+      "s": 20.39,
+      "e": 20.79,
+      "hl": false
+     },
+     {
+      "w": "of",
+      "s": 20.815,
+      "e": 20.89,
+      "hl": false
+     },
+     {
+      "w": "billions",
+      "s": 20.94,
+      "e": 21.29,
+      "hl": true
+     }
+    ],
+    [
+     {
+      "w": "of",
+      "s": 21.315,
+      "e": 21.365,
+      "hl": false
+     },
+     {
+      "w": "calculations",
+      "s": 21.415,
+      "e": 22.19,
+      "hl": false
+     },
+     {
+      "w": "for",
+      "s": 22.265,
+      "e": 22.39,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 22.44
+  },
+  {
+   "line": "calc",
+   "s": 22.44,
+   "rows": [
+    [
+     {
+      "w": "every",
+      "s": 22.44,
+      "e": 22.69,
+      "hl": false
+     },
+     {
+      "w": "token",
+      "s": 22.74,
+      "e": 23.39,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 23.273
+  },
+  {
+   "line": "scores",
+   "s": 23.273,
+   "rows": [
+    [
+     {
+      "w": "next",
+      "s": 23.273,
+      "e": 23.498,
+      "hl": false
+     },
+     {
+      "w": "it",
+      "s": 23.548,
+      "e": 23.598,
+      "hl": false
+     },
+     {
+      "w": "scores",
+      "s": 23.648,
+      "e": 23.973,
+      "hl": true
+     },
+     {
+      "w": "every",
+      "s": 24.023,
+      "e": 24.273,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "token",
+      "s": 24.323,
+      "e": 24.623,
+      "hl": false
+     },
+     {
+      "w": "it",
+      "s": 24.648,
+      "e": 24.698,
+      "hl": false
+     },
+     {
+      "w": "knows",
+      "s": 24.723,
+      "e": 24.998,
+      "hl": false
+     },
+     {
+      "w": "and",
+      "s": 25.048,
+      "e": 25.123,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 25.173
+  },
+  {
+   "line": "scores",
+   "s": 25.173,
+   "rows": [
+    [
+     {
+      "w": "picks",
+      "s": 25.173,
+      "e": 25.423,
+      "hl": false
+     },
+     {
+      "w": "one",
+      "s": 25.473,
+      "e": 25.948,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 25.814
+  },
+  {
+   "line": "again",
+   "s": 25.814,
+   "rows": [
+    [
+     {
+      "w": "then",
+      "s": 25.814,
+      "e": 25.914,
+      "hl": false
+     },
+     {
+      "w": "it",
+      "s": 25.939,
+      "e": 25.989,
+      "hl": false
+     },
+     {
+      "w": "runs",
+      "s": 26.039,
+      "e": 26.239,
+      "hl": false
+     },
+     {
+      "w": "again",
+      "s": 26.264,
+      "e": 26.539,
+      "hl": true
+     },
+     {
+      "w": "and",
+      "s": 26.614,
+      "e": 26.689,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "again",
+      "s": 26.713,
+      "e": 27.088,
+      "hl": true
+     },
+     {
+      "w": "one",
+      "s": 27.213,
+      "e": 27.389,
+      "hl": false
+     },
+     {
+      "w": "token",
+      "s": 27.439,
+      "e": 27.764,
+      "hl": false
+     },
+     {
+      "w": "at",
+      "s": 27.789,
+      "e": 27.814,
+      "hl": false
+     },
+     {
+      "w": "a",
+      "s": 27.814,
+      "e": 27.963,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 27.963
+  },
+  {
+   "line": "again",
+   "s": 27.963,
+   "rows": [
+    [
+     {
+      "w": "time",
+      "s": 27.963,
+      "e": 28.514,
+      "hl": true
+     }
+    ]
+   ],
+   "e": 28.355
+  },
+  {
+   "line": "types",
+   "s": 28.355,
+   "rows": [
+    [
+     {
+      "w": "that's",
+      "s": 28.355,
+      "e": 28.53,
+      "hl": false
+     },
+     {
+      "w": "why",
+      "s": 28.58,
+      "e": 28.755,
+      "hl": false
+     },
+     {
+      "w": "answers",
+      "s": 28.805,
+      "e": 29.08,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "type",
+      "s": 29.13,
+      "e": 29.28,
+      "hl": false
+     },
+     {
+      "w": "themselves",
+      "s": 29.305,
+      "e": 29.705,
+      "hl": true
+     },
+     {
+      "w": "out",
+      "s": 29.755,
+      "e": 30.23,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 30.106
+  },
+  {
+   "line": "math",
+   "s": 30.106,
+   "rows": [
+    [
+     {
+      "w": "it",
+      "s": 30.106,
+      "e": 30.181,
+      "hl": false
+     },
+     {
+      "w": "never",
+      "s": 30.231,
+      "e": 30.456,
+      "hl": true
+     },
+     {
+      "w": "read",
+      "s": 30.506,
+      "e": 30.656,
+      "hl": false
+     },
+     {
+      "w": "your",
+      "s": 30.681,
+      "e": 30.756,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "words",
+      "s": 30.806,
+      "e": 31.156,
+      "hl": false
+     },
+     {
+      "w": "it",
+      "s": 31.256,
+      "e": 31.331,
+      "hl": false
+     },
+     {
+      "w": "did",
+      "s": 31.381,
+      "e": 31.531,
+      "hl": false
+     },
+     {
+      "w": "math",
+      "s": 31.581,
+      "e": 31.856,
+      "hl": true
+     },
+     {
+      "w": "on",
+      "s": 31.881,
+      "e": 32.031,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 32.056
+  },
+  {
+   "line": "math",
+   "s": 32.056,
+   "rows": [
+    [
+     {
+      "w": "them",
+      "s": 32.056,
+      "e": 32.506,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 32.906
+  },
+  {
+   "line": "watched",
+   "s": 32.959,
+   "rows": [
+    [
+     {
+      "w": "you've",
+      "s": 32.959,
+      "e": 33.059,
+      "hl": false
+     },
+     {
+      "w": "just",
+      "s": 33.084,
+      "e": 33.284,
+      "hl": false
+     },
+     {
+      "w": "watched",
+      "s": 33.334,
+      "e": 33.634,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "this",
+      "s": 33.659,
+      "e": 33.809,
+      "hl": false
+     },
+     {
+      "w": "reel",
+      "s": 33.859,
+      "e": 34.084,
+      "hl": false
+     },
+     {
+      "w": "for",
+      "s": 34.134,
+      "e": 34.259,
+      "hl": false
+     },
+     {
+      "w": "34",
+      "s": 34.334,
+      "e": 34.809,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 34.859
+  },
+  {
+   "line": "watched",
+   "s": 34.859,
+   "rows": [
+    [
+     {
+      "w": "seconds",
+      "s": 34.859,
+      "e": 35.559,
+      "hl": true
+     }
+    ]
+   ],
+   "e": 35.45
+  },
+  {
+   "line": "imagine",
+   "s": 35.45,
+   "rows": [
+    [
+     {
+      "w": "imagine",
+      "s": 35.45,
+      "e": 35.825,
+      "hl": false
+     },
+     {
+      "w": "your",
+      "s": 35.85,
+      "e": 35.925,
+      "hl": false
+     },
+     {
+      "w": "ad",
+      "s": 35.975,
+      "e": 36.125,
+      "hl": false
+     },
+     {
+      "w": "held",
+      "s": 36.175,
+      "e": 36.35,
+      "hl": false
+     }
+    ],
+    [
+     {
+      "w": "people",
+      "s": 36.4,
+      "e": 36.7,
+      "hl": false
+     },
+     {
+      "w": "that",
+      "s": 36.725,
+      "e": 36.85,
+      "hl": false
+     },
+     {
+      "w": "long",
+      "s": 36.9,
+      "e": 37.425,
+      "hl": false
+     }
+    ]
+   ],
+   "e": 37.825
+  }
+ ],
+ "events": [
+  {
+   "t": 0.05,
+   "k": "key",
+   "g": 0.16,
+   "pan": -0.1
+  },
+  {
+   "t": 0.14,
+   "k": "key",
+   "g": 0.16,
+   "pan": -0.08
+  },
+  {
+   "t": 0.23,
+   "k": "key",
+   "g": 0.16,
+   "pan": -0.060000000000000005
+  },
+  {
+   "t": 0.32,
+   "k": "key",
+   "g": 0.16,
+   "pan": -0.04000000000000001
+  },
+  {
+   "t": 0.41,
+   "k": "key",
+   "g": 0.16,
+   "pan": -0.020000000000000004
+  },
+  {
+   "t": 0.5,
+   "k": "key",
+   "g": 0.16,
+   "pan": 0
+  },
+  {
+   "t": 0.59,
+   "k": "key",
+   "g": 0.16,
+   "pan": 0.01999999999999999
+  },
+  {
+   "t": 0.68,
+   "k": "key",
+   "g": 0.16,
+   "pan": 0.04000000000000001
+  },
+  {
+   "t": 0.77,
+   "k": "key",
+   "g": 0.16,
+   "pan": 0.06
+  },
+  {
+   "t": 1,
+   "k": "pop",
+   "g": 0.2
+  },
+  {
+   "t": 1.565,
+   "k": "deep",
+   "g": 0.4
+  },
+  {
+   "t": 2.57,
+   "k": "glitch",
+   "g": 0.3
+  },
+  {
+   "t": 3.349,
+   "k": "thump",
+   "g": 0.45
+  },
+  {
+   "t": 4.376,
+   "k": "tap",
+   "g": 0.3
+  },
+  {
+   "t": 4.416,
+   "k": "whoosh_f",
+   "g": 0.35,
+   "pan": 0.2
+  },
+  {
+   "t": 4.946,
+   "k": "select",
+   "g": 0.2
+  },
+  {
+   "t": 6.22,
+   "k": "laser",
+   "g": 0.3
+  },
+  {
+   "t": 8.27,
+   "k": "tick",
+   "g": 0.08,
+   "pan": -0.3
+  },
+  {
+   "t": 8.35,
+   "k": "tick",
+   "g": 0.09,
+   "pan": -0.18
+  },
+  {
+   "t": 8.43,
+   "k": "tick",
+   "g": 0.1,
+   "pan": -0.06
+  },
+  {
+   "t": 8.51,
+   "k": "tick",
+   "g": 0.11,
+   "pan": 0.06
+  },
+  {
+   "t": 8.59,
+   "k": "tick",
+   "g": 0.12,
+   "pan": 0.18
+  },
+  {
+   "t": 8.67,
+   "k": "tick",
+   "g": 0.13,
+   "pan": 0.3
+  },
+  {
+   "t": 9.27,
+   "k": "pop",
+   "g": 0.26
+  },
+  {
+   "t": 9.917,
+   "k": "whoosh_c",
+   "g": 0.38
+  },
+  {
+   "t": 10.037,
+   "k": "hit",
+   "g": 0.3
+  },
+  {
+   "t": 10.417,
+   "k": "chop",
+   "g": 0.24,
+   "pan": -0.4
+  },
+  {
+   "t": 10.497,
+   "k": "chop",
+   "g": 0.24,
+   "pan": -0.24000000000000002
+  },
+  {
+   "t": 10.577,
+   "k": "chop",
+   "g": 0.24,
+   "pan": -0.08000000000000002
+  },
+  {
+   "t": 10.657,
+   "k": "chop",
+   "g": 0.24,
+   "pan": 0.07999999999999996
+  },
+  {
+   "t": 10.737,
+   "k": "chop",
+   "g": 0.24,
+   "pan": 0.24
+  },
+  {
+   "t": 10.817,
+   "k": "chop",
+   "g": 0.24,
+   "pan": 0.4
+  },
+  {
+   "t": 12.117,
+   "k": "select",
+   "g": 0.22
+  },
+  {
+   "t": 13.275,
+   "k": "flip",
+   "g": 0.2,
+   "pan": -0.4
+  },
+  {
+   "t": 13.335,
+   "k": "flip",
+   "g": 0.2,
+   "pan": -0.24000000000000002
+  },
+  {
+   "t": 13.395,
+   "k": "flip",
+   "g": 0.2,
+   "pan": -0.08000000000000002
+  },
+  {
+   "t": 13.455,
+   "k": "flip",
+   "g": 0.2,
+   "pan": 0.07999999999999996
+  },
+  {
+   "t": 13.515,
+   "k": "flip",
+   "g": 0.2,
+   "pan": 0.24
+  },
+  {
+   "t": 13.575,
+   "k": "flip",
+   "g": 0.2,
+   "pan": 0.4
+  },
+  {
+   "t": 14.748,
+   "k": "riser",
+   "g": 0.16,
+   "d": 0.6
+  },
+  {
+   "t": 15.073,
+   "k": "sparkle",
+   "g": 0.24
+  },
+  {
+   "t": 16.472,
+   "k": "deep",
+   "g": 0.3
+  },
+  {
+   "t": 17.772,
+   "k": "tick",
+   "g": 0.07,
+   "pan": 0.3
+  },
+  {
+   "t": 17.892,
+   "k": "tick",
+   "g": 0.07600000000000001,
+   "pan": 0.24
+  },
+  {
+   "t": 18.012,
+   "k": "tick",
+   "g": 0.082,
+   "pan": 0.18
+  },
+  {
+   "t": 18.132,
+   "k": "tick",
+   "g": 0.08800000000000001,
+   "pan": 0.12
+  },
+  {
+   "t": 18.252,
+   "k": "tick",
+   "g": 0.094,
+   "pan": 0.06
+  },
+  {
+   "t": 18.372,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0
+  },
+  {
+   "t": 18.492,
+   "k": "tick",
+   "g": 0.10600000000000001,
+   "pan": -0.06
+  },
+  {
+   "t": 18.612,
+   "k": "tick",
+   "g": 0.11200000000000002,
+   "pan": -0.12
+  },
+  {
+   "t": 18.732,
+   "k": "tick",
+   "g": 0.11800000000000001,
+   "pan": -0.18
+  },
+  {
+   "t": 18.852,
+   "k": "tick",
+   "g": 0.124,
+   "pan": -0.24000000000000005
+  },
+  {
+   "t": 19.247,
+   "k": "swish",
+   "g": 0.24
+  },
+  {
+   "t": 20.34,
+   "k": "whoosh_soft",
+   "g": 0.32
+  },
+  {
+   "t": 20.94,
+   "k": "tick",
+   "g": 0.06,
+   "pan": -0.3
+  },
+  {
+   "t": 20.99,
+   "k": "tick",
+   "g": 0.064,
+   "pan": -0.255
+  },
+  {
+   "t": 21.04,
+   "k": "tick",
+   "g": 0.068,
+   "pan": -0.21
+  },
+  {
+   "t": 21.09,
+   "k": "tick",
+   "g": 0.072,
+   "pan": -0.16499999999999998
+  },
+  {
+   "t": 21.14,
+   "k": "tick",
+   "g": 0.076,
+   "pan": -0.12
+  },
+  {
+   "t": 21.19,
+   "k": "tick",
+   "g": 0.08,
+   "pan": -0.07500000000000001
+  },
+  {
+   "t": 21.24,
+   "k": "tick",
+   "g": 0.08399999999999999,
+   "pan": -0.02999999999999997
+  },
+  {
+   "t": 21.29,
+   "k": "tick",
+   "g": 0.088,
+   "pan": 0.015000000000000013
+  },
+  {
+   "t": 21.34,
+   "k": "tick",
+   "g": 0.092,
+   "pan": 0.06
+  },
+  {
+   "t": 21.39,
+   "k": "tick",
+   "g": 0.096,
+   "pan": 0.10499999999999998
+  },
+  {
+   "t": 21.44,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0.14999999999999997
+  },
+  {
+   "t": 21.49,
+   "k": "tick",
+   "g": 0.104,
+   "pan": 0.195
+  },
+  {
+   "t": 21.54,
+   "k": "tick",
+   "g": 0.108,
+   "pan": 0.24000000000000005
+  },
+  {
+   "t": 21.59,
+   "k": "tick",
+   "g": 0.112,
+   "pan": 0.285
+  },
+  {
+   "t": 22.44,
+   "k": "pop",
+   "g": 0.26
+  },
+  {
+   "t": 23.648,
+   "k": "scan",
+   "g": 0.26
+  },
+  {
+   "t": 25.453,
+   "k": "thump",
+   "g": 0.38
+  },
+  {
+   "t": 25.473,
+   "k": "select",
+   "g": 0.3
+  },
+  {
+   "t": 26.264,
+   "k": "pop",
+   "g": 0.2,
+   "pan": -0.2
+  },
+  {
+   "t": 26.713,
+   "k": "pop",
+   "g": 0.21000000000000002,
+   "pan": -0.12000000000000001
+  },
+  {
+   "t": 27.213,
+   "k": "pop",
+   "g": 0.22,
+   "pan": -0.04000000000000001
+  },
+  {
+   "t": 27.463,
+   "k": "pop",
+   "g": 0.23,
+   "pan": 0.03999999999999998
+  },
+  {
+   "t": 27.663,
+   "k": "pop",
+   "g": 0.24000000000000002,
+   "pan": 0.12
+  },
+  {
+   "t": 27.833,
+   "k": "pop",
+   "g": 0.25,
+   "pan": 0.2
+  },
+  {
+   "t": 28.235,
+   "k": "whoosh_c",
+   "g": 0.32,
+   "pan": -0.2
+  },
+  {
+   "t": 28.555,
+   "k": "key",
+   "g": 0.14,
+   "pan": -0.1
+  },
+  {
+   "t": 28.675,
+   "k": "key",
+   "g": 0.14,
+   "pan": -0.07
+  },
+  {
+   "t": 28.795,
+   "k": "key",
+   "g": 0.14,
+   "pan": -0.04000000000000001
+  },
+  {
+   "t": 28.915,
+   "k": "key",
+   "g": 0.14,
+   "pan": -0.010000000000000009
+  },
+  {
+   "t": 29.035,
+   "k": "key",
+   "g": 0.14,
+   "pan": 0.01999999999999999
+  },
+  {
+   "t": 29.155,
+   "k": "key",
+   "g": 0.14,
+   "pan": 0.04999999999999999
+  },
+  {
+   "t": 29.275,
+   "k": "key",
+   "g": 0.14,
+   "pan": 0.07999999999999999
+  },
+  {
+   "t": 29.395,
+   "k": "key",
+   "g": 0.14,
+   "pan": 0.10999999999999999
+  },
+  {
+   "t": 29.515,
+   "k": "key",
+   "g": 0.14,
+   "pan": 0.13999999999999999
+  },
+  {
+   "t": 30.806,
+   "k": "glitch",
+   "g": 0.24
+  },
+  {
+   "t": 31.561,
+   "k": "thump",
+   "g": 0.42
+  },
+  {
+   "t": 32.339,
+   "k": "riser",
+   "g": 0.2,
+   "d": 0.6200000000000045
+  },
+  {
+   "t": 32.439,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 32.609,
+   "k": "thump",
+   "g": 0.24
+  },
+  {
+   "t": 32.839,
+   "k": "thump",
+   "g": 0.4
+  },
+  {
+   "t": 33.009,
+   "k": "thump",
+   "g": 0.24
+  },
+  {
+   "t": 32.389,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 32.639,
+   "k": "tick",
+   "g": 0.14,
+   "pan": 0.35
+  },
+  {
+   "t": 32.929,
+   "k": "deep",
+   "g": 0.45
+  },
+  {
+   "t": 32.959,
+   "k": "hit",
+   "g": 0.45
+  },
+  {
+   "t": 32.909,
+   "k": "zoom_out",
+   "g": 0.18
+  },
+  {
+   "t": 33.687,
+   "k": "tick",
+   "g": 0.08399999999999999,
+   "pan": 0.2
+  },
+  {
+   "t": 33.716,
+   "k": "tick",
+   "g": 0.086,
+   "pan": 0.2
+  },
+  {
+   "t": 33.746,
+   "k": "tick",
+   "g": 0.088,
+   "pan": 0.2
+  },
+  {
+   "t": 33.775,
+   "k": "tick",
+   "g": 0.09,
+   "pan": 0.2
+  },
+  {
+   "t": 33.805,
+   "k": "tick",
+   "g": 0.092,
+   "pan": 0.2
+  },
+  {
+   "t": 33.834,
+   "k": "tick",
+   "g": 0.094,
+   "pan": 0.2
+  },
+  {
+   "t": 33.863,
+   "k": "tick",
+   "g": 0.096,
+   "pan": 0.2
+  },
+  {
+   "t": 33.893,
+   "k": "tick",
+   "g": 0.098,
+   "pan": 0.2
+  },
+  {
+   "t": 33.922,
+   "k": "tick",
+   "g": 0.1,
+   "pan": 0.2
+  },
+  {
+   "t": 33.952,
+   "k": "tick",
+   "g": 0.10200000000000001,
+   "pan": 0.2
+  },
+  {
+   "t": 33.981,
+   "k": "tick",
+   "g": 0.104,
+   "pan": 0.2
+  },
+  {
+   "t": 34.01,
+   "k": "tick",
+   "g": 0.106,
+   "pan": 0.2
+  },
+  {
+   "t": 34.04,
+   "k": "tick",
+   "g": 0.108,
+   "pan": 0.2
+  },
+  {
+   "t": 34.069,
+   "k": "tick",
+   "g": 0.11,
+   "pan": 0.2
+  },
+  {
+   "t": 34.099,
+   "k": "tick",
+   "g": 0.112,
+   "pan": 0.2
+  },
+  {
+   "t": 34.128,
+   "k": "tick",
+   "g": 0.11399999999999999,
+   "pan": 0.2
+  },
+  {
+   "t": 34.158,
+   "k": "tick",
+   "g": 0.11599999999999999,
+   "pan": 0.2
+  },
+  {
+   "t": 34.187,
+   "k": "tick",
+   "g": 0.118,
+   "pan": 0.2
+  },
+  {
+   "t": 34.216,
+   "k": "tick",
+   "g": 0.12,
+   "pan": 0.2
+  },
+  {
+   "t": 34.246,
+   "k": "tick",
+   "g": 0.122,
+   "pan": 0.2
+  },
+  {
+   "t": 34.275,
+   "k": "tick",
+   "g": 0.124,
+   "pan": 0.2
+  },
+  {
+   "t": 34.305,
+   "k": "tick",
+   "g": 0.126,
+   "pan": 0.2
+  },
+  {
+   "t": 34.334,
+   "k": "tick",
+   "g": 0.128,
+   "pan": 0.2
+  },
+  {
+   "t": 34.334,
+   "k": "select",
+   "g": 0.3
+  },
+  {
+   "t": 35.975,
+   "k": "pop",
+   "g": 0.3
+  },
+  {
+   "t": 36.055,
+   "k": "swish",
+   "g": 0.24,
+   "pan": 0.3
+  },
+  {
+   "t": 36.983,
+   "k": "deep",
+   "g": 0.32
+  },
+  {
+   "t": 37.083,
+   "k": "whoosh_f",
+   "g": 0.22
+  },
+  {
+   "t": 39.077,
+   "k": "whoosh_soft",
+   "g": 0.28
+  },
+  {
+   "t": 39.977,
+   "k": "hit",
+   "g": 0.34
+  },
+  {
+   "t": 41.536,
+   "k": "pop",
+   "g": 0.3
+  }
+ ],
+ "music": {
+  "gap1": 3.119,
+  "gap1e": 3.8059999999999996,
+  "how": 3.896,
+  "groove": 5.52,
+  "tense": 32.339,
+  "phone": 32.959,
+  "drop": 35.45,
+  "last": 37.283,
+  "end": 39.127
+ },
+ "blur": [
+  [
+   4.346,
+   6.02,
+   4
+  ],
+  [
+   8.545,
+   9.42,
+   3
+  ],
+  [
+   9.567,
+   9.917,
+   6
+  ],
+  [
+   9.757,
+   9.917,
+   10
+  ],
+  [
+   9.917,
+   10.417,
+   4
+  ],
+  [
+   20.34,
+   20.990000000000002,
+   3
+  ],
+  [
+   28.205000000000002,
+   28.705000000000002,
+   4
+  ],
+  [
+   32.939,
+   33.609,
+   6
+  ],
+  [
+   39.107,
+   39.527,
+   4
+  ]
+ ]
+}
