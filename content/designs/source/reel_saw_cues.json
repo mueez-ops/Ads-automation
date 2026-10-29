@@ -1,0 +1,1192 @@
+{
+ "lines": {
+  "why": {
+   "s": 0.05,
+   "e": 2.346,
+   "text": "why would anyone push a hot dog into a saw blade"
+  },
+  "salty": {
+   "s": 2.446,
+   "e": 4.593,
+   "text": "because it's about as salty and wet as a finger"
+  },
+  "stops": {
+   "s": 4.713,
+   "e": 6.677,
+   "text": "and this saw stops before it can take one"
+  },
+  "signal": {
+   "s": 6.777,
+   "e": 8.743,
+   "text": "the blade carries a tiny electrical signal"
+  },
+  "wood": {
+   "s": 8.823,
+   "e": 14.596,
+   "text": "cutting wood barely changes it but skin conducts electricity so the instant it touches a tooth the signal changes"
+  },
+  "brake": {
+   "s": 14.656,
+   "e": 16.813,
+   "text": "a spring fires an aluminum brake into the teeth"
+  },
+  "stop": {
+   "s": 16.873,
+   "e": 20.335,
+   "text": "the blade stops dead in under 5 milliseconds and drops under the table"
+  },
+  "blink": {
+   "s": 20.395,
+   "e": 21.312,
+   "text": "faster than a blink"
+  },
+  "nick": {
+   "s": 21.412,
+   "e": 22.591,
+   "text": "the hot dog gets a nick"
+  },
+  "cost": {
+   "s": 22.711,
+   "e": 26.286,
+   "text": "but it costs the saw the brake is single-use and the blade's usually ruined"
+  },
+  "offered": {
+   "s": 26.406,
+   "e": 28.687,
+   "text": "its inventor offered it to the big tool companies"
+  },
+  "sell": {
+   "s": 28.767,
+   "e": 30.867,
+   "text": "he says they told him safety doesn't sell"
+  },
+  "own": {
+   "s": 31.007,
+   "e": 32.714,
+   "text": "so he started his own saw company"
+  },
+  "watched": {
+   "s": 33.414,
+   "e": 35.804,
+   "text": "you've just watched this reel for 34 seconds"
+  },
+  "imagine": {
+   "s": 35.904,
+   "e": 37.637,
+   "text": "imagine your ad held people that long"
+  },
+  "scale": {
+   "s": 37.737,
+   "e": 39.581,
+   "text": "we scale businesses with ads like this"
+  },
+  "dm": {
+   "s": 39.681,
+   "e": 42.04,
+   "text": "DM us the word teardown for a free ad review"
+  }
+ },
+ "words": [
+  {
+   "w": "why",
+   "s": 0.05,
+   "e": 0.25,
+   "line": "why"
+  },
+  {
+   "w": "would",
+   "s": 0.275,
+   "e": 0.375,
+   "line": "why"
+  },
+  {
+   "w": "anyone",
+   "s": 0.425,
+   "e": 0.675,
+   "line": "why"
+  },
+  {
+   "w": "push",
+   "s": 0.725,
+   "e": 0.85,
+   "line": "why"
+  },
+  {
+   "w": "a",
+   "s": 0.85,
+   "e": 0.95,
+   "line": "why"
+  },
+  {
+   "w": "hot",
+   "s": 0.95,
+   "e": 1.15,
+   "line": "why"
+  },
+  {
+   "w": "dog",
+   "s": 1.2,
+   "e": 1.45,
+   "line": "why"
+  },
+  {
+   "w": "into",
+   "s": 1.475,
+   "e": 1.65,
+   "line": "why"
+  },
+  {
+   "w": "a",
+   "s": 1.65,
+   "e": 1.75,
+   "line": "why"
+  },
+  {
+   "w": "saw",
+   "s": 1.75,
+   "e": 1.925,
+   "line": "why"
+  },
+  {
+   "w": "blade",
+   "s": 1.975,
+   "e": 2.55,
+   "line": "why"
+  },
+  {
+   "w": "because",
+   "s": 2.446,
+   "e": 2.671,
+   "line": "salty"
+  },
+  {
+   "w": "it's",
+   "s": 2.696,
+   "e": 2.771,
+   "line": "salty"
+  },
+  {
+   "w": "about",
+   "s": 2.796,
+   "e": 2.996,
+   "line": "salty"
+  },
+  {
+   "w": "as",
+   "s": 3.021,
+   "e": 3.071,
+   "line": "salty"
+  },
+  {
+   "w": "salty",
+   "s": 3.146,
+   "e": 3.521,
+   "line": "salty"
+  },
+  {
+   "w": "and",
+   "s": 3.571,
+   "e": 3.646,
+   "line": "salty"
+  },
+  {
+   "w": "wet",
+   "s": 3.696,
+   "e": 3.921,
+   "line": "salty"
+  },
+  {
+   "w": "as",
+   "s": 3.971,
+   "e": 4.046,
+   "line": "salty"
+  },
+  {
+   "w": "a",
+   "s": 4.046,
+   "e": 4.171,
+   "line": "salty"
+  },
+  {
+   "w": "finger",
+   "s": 4.171,
+   "e": 4.821,
+   "line": "salty"
+  },
+  {
+   "w": "and",
+   "s": 4.713,
+   "e": 4.788,
+   "line": "stops"
+  },
+  {
+   "w": "this",
+   "s": 4.813,
+   "e": 4.938,
+   "line": "stops"
+  },
+  {
+   "w": "saw",
+   "s": 4.988,
+   "e": 5.213,
+   "line": "stops"
+  },
+  {
+   "w": "stops",
+   "s": 5.263,
+   "e": 5.613,
+   "line": "stops"
+  },
+  {
+   "w": "before",
+   "s": 5.663,
+   "e": 5.913,
+   "line": "stops"
+  },
+  {
+   "w": "it",
+   "s": 5.938,
+   "e": 5.988,
+   "line": "stops"
+  },
+  {
+   "w": "can",
+   "s": 6.013,
+   "e": 6.088,
+   "line": "stops"
+  },
+  {
+   "w": "take",
+   "s": 6.138,
+   "e": 6.388,
+   "line": "stops"
+  },
+  {
+   "w": "one",
+   "s": 6.438,
+   "e": 6.888,
+   "line": "stops"
+  },
+  {
+   "w": "the",
+   "s": 6.777,
+   "e": 6.827,
+   "line": "signal"
+  },
+  {
+   "w": "blade",
+   "s": 6.877,
+   "e": 7.127,
+   "line": "signal"
+  },
+  {
+   "w": "carries",
+   "s": 7.177,
+   "e": 7.427,
+   "line": "signal"
+  },
+  {
+   "w": "a",
+   "s": 7.427,
+   "e": 7.527,
+   "line": "signal"
+  },
+  {
+   "w": "tiny",
+   "s": 7.527,
+   "e": 7.827,
+   "line": "signal"
+  },
+  {
+   "w": "electrical",
+   "s": 7.877,
+   "e": 8.352,
+   "line": "signal"
+  },
+  {
+   "w": "signal",
+   "s": 8.402,
+   "e": 8.977,
+   "line": "signal"
+  },
+  {
+   "w": "cutting",
+   "s": 8.823,
+   "e": 9.148,
+   "line": "wood"
+  },
+  {
+   "w": "wood",
+   "s": 9.198,
+   "e": 9.323,
+   "line": "wood"
+  },
+  {
+   "w": "barely",
+   "s": 9.373,
+   "e": 9.648,
+   "line": "wood"
+  },
+  {
+   "w": "changes",
+   "s": 9.698,
+   "e": 10.098,
+   "line": "wood"
+  },
+  {
+   "w": "it",
+   "s": 10.148,
+   "e": 10.348,
+   "line": "wood"
+  },
+  {
+   "w": "but",
+   "s": 10.423,
+   "e": 10.523,
+   "line": "wood"
+  },
+  {
+   "w": "skin",
+   "s": 10.598,
+   "e": 10.873,
+   "line": "wood"
+  },
+  {
+   "w": "conducts",
+   "s": 10.923,
+   "e": 11.298,
+   "line": "wood"
+  },
+  {
+   "w": "electricity",
+   "s": 11.348,
+   "e": 11.923,
+   "line": "wood"
+  },
+  {
+   "w": "so",
+   "s": 11.973,
+   "e": 12.073,
+   "line": "wood"
+  },
+  {
+   "w": "the",
+   "s": 12.098,
+   "e": 12.123,
+   "line": "wood"
+  },
+  {
+   "w": "instant",
+   "s": 12.223,
+   "e": 12.498,
+   "line": "wood"
+  },
+  {
+   "w": "it",
+   "s": 12.523,
+   "e": 12.573,
+   "line": "wood"
+  },
+  {
+   "w": "touches",
+   "s": 12.623,
+   "e": 12.923,
+   "line": "wood"
+  },
+  {
+   "w": "a",
+   "s": 12.923,
+   "e": 13.098,
+   "line": "wood"
+  },
+  {
+   "w": "tooth",
+   "s": 13.098,
+   "e": 13.423,
+   "line": "wood"
+  },
+  {
+   "w": "the",
+   "s": 13.498,
+   "e": 13.573,
+   "line": "wood"
+  },
+  {
+   "w": "signal",
+   "s": 13.648,
+   "e": 13.948,
+   "line": "wood"
+  },
+  {
+   "w": "changes",
+   "s": 13.998,
+   "e": 14.823,
+   "line": "wood"
+  },
+  {
+   "w": "a",
+   "s": 14.656,
+   "e": 14.731,
+   "line": "brake"
+  },
+  {
+   "w": "spring",
+   "s": 14.731,
+   "e": 15.006,
+   "line": "brake"
+  },
+  {
+   "w": "fires",
+   "s": 15.056,
+   "e": 15.406,
+   "line": "brake"
+  },
+  {
+   "w": "an",
+   "s": 15.456,
+   "e": 15.481,
+   "line": "brake"
+  },
+  {
+   "w": "aluminum",
+   "s": 15.531,
+   "e": 15.956,
+   "line": "brake"
+  },
+  {
+   "w": "brake",
+   "s": 16.006,
+   "e": 16.231,
+   "line": "brake"
+  },
+  {
+   "w": "into",
+   "s": 16.256,
+   "e": 16.406,
+   "line": "brake"
+  },
+  {
+   "w": "the",
+   "s": 16.431,
+   "e": 16.481,
+   "line": "brake"
+  },
+  {
+   "w": "teeth",
+   "s": 16.531,
+   "e": 17.031,
+   "line": "brake"
+  },
+  {
+   "w": "the",
+   "s": 16.873,
+   "e": 16.923,
+   "line": "stop"
+  },
+  {
+   "w": "blade",
+   "s": 16.973,
+   "e": 17.273,
+   "line": "stop"
+  },
+  {
+   "w": "stops",
+   "s": 17.323,
+   "e": 17.648,
+   "line": "stop"
+  },
+  {
+   "w": "dead",
+   "s": 17.723,
+   "e": 17.948,
+   "line": "stop"
+  },
+  {
+   "w": "in",
+   "s": 17.998,
+   "e": 18.073,
+   "line": "stop"
+  },
+  {
+   "w": "under",
+   "s": 18.123,
+   "e": 18.273,
+   "line": "stop"
+  },
+  {
+   "w": "5",
+   "s": 18.348,
+   "e": 18.623,
+   "line": "stop"
+  },
+  {
+   "w": "milliseconds",
+   "s": 18.673,
+   "e": 19.248,
+   "line": "stop"
+  },
+  {
+   "w": "and",
+   "s": 19.298,
+   "e": 19.373,
+   "line": "stop"
+  },
+  {
+   "w": "drops",
+   "s": 19.423,
+   "e": 19.698,
+   "line": "stop"
+  },
+  {
+   "w": "under",
+   "s": 19.748,
+   "e": 19.848,
+   "line": "stop"
+  },
+  {
+   "w": "the",
+   "s": 19.873,
+   "e": 19.923,
+   "line": "stop"
+  },
+  {
+   "w": "table",
+   "s": 19.973,
+   "e": 20.598,
+   "line": "stop"
+  },
+  {
+   "w": "faster",
+   "s": 20.395,
+   "e": 20.695,
+   "line": "blink"
+  },
+  {
+   "w": "than",
+   "s": 20.72,
+   "e": 20.845,
+   "line": "blink"
+  },
+  {
+   "w": "a",
+   "s": 20.845,
+   "e": 20.92,
+   "line": "blink"
+  },
+  {
+   "w": "blink",
+   "s": 20.92,
+   "e": 21.47,
+   "line": "blink"
+  },
+  {
+   "w": "the",
+   "s": 21.412,
+   "e": 21.462,
+   "line": "nick"
+  },
+  {
+   "w": "hot",
+   "s": 21.512,
+   "e": 21.712,
+   "line": "nick"
+  },
+  {
+   "w": "dog",
+   "s": 21.762,
+   "e": 21.987,
+   "line": "nick"
+  },
+  {
+   "w": "gets",
+   "s": 22.037,
+   "e": 22.187,
+   "line": "nick"
+  },
+  {
+   "w": "a",
+   "s": 22.187,
+   "e": 22.287,
+   "line": "nick"
+  },
+  {
+   "w": "nick",
+   "s": 22.287,
+   "e": 22.762,
+   "line": "nick"
+  },
+  {
+   "w": "but",
+   "s": 22.711,
+   "e": 22.811,
+   "line": "cost"
+  },
+  {
+   "w": "it",
+   "s": 22.836,
+   "e": 22.886,
+   "line": "cost"
+  },
+  {
+   "w": "costs",
+   "s": 22.936,
+   "e": 23.236,
+   "line": "cost"
+  },
+  {
+   "w": "the",
+   "s": 23.286,
+   "e": 23.361,
+   "line": "cost"
+  },
+  {
+   "w": "saw",
+   "s": 23.436,
+   "e": 23.761,
+   "line": "cost"
+  },
+  {
+   "w": "the",
+   "s": 23.861,
+   "e": 23.911,
+   "line": "cost"
+  },
+  {
+   "w": "brake",
+   "s": 23.961,
+   "e": 24.236,
+   "line": "cost"
+  },
+  {
+   "w": "is",
+   "s": 24.286,
+   "e": 24.361,
+   "line": "cost"
+  },
+  {
+   "w": "single-use",
+   "s": 24.436,
+   "e": 24.911,
+   "line": "cost"
+  },
+  {
+   "w": "and",
+   "s": 24.961,
+   "e": 25.036,
+   "line": "cost"
+  },
+  {
+   "w": "the",
+   "s": 25.061,
+   "e": 25.111,
+   "line": "cost"
+  },
+  {
+   "w": "blade's",
+   "s": 25.161,
+   "e": 25.486,
+   "line": "cost"
+  },
+  {
+   "w": "usually",
+   "s": 25.536,
+   "e": 25.886,
+   "line": "cost"
+  },
+  {
+   "w": "ruined",
+   "s": 25.936,
+   "e": 26.511,
+   "line": "cost"
+  },
+  {
+   "w": "its",
+   "s": 26.406,
+   "e": 26.531,
+   "line": "offered"
+  },
+  {
+   "w": "inventor",
+   "s": 26.581,
+   "e": 26.956,
+   "line": "offered"
+  },
+  {
+   "w": "offered",
+   "s": 27.081,
+   "e": 27.356,
+   "line": "offered"
+  },
+  {
+   "w": "it",
+   "s": 27.381,
+   "e": 27.431,
+   "line": "offered"
+  },
+  {
+   "w": "to",
+   "s": 27.481,
+   "e": 27.506,
+   "line": "offered"
+  },
+  {
+   "w": "the",
+   "s": 27.556,
+   "e": 27.606,
+   "line": "offered"
+  },
+  {
+   "w": "big",
+   "s": 27.656,
+   "e": 27.831,
+   "line": "offered"
+  },
+  {
+   "w": "tool",
+   "s": 27.881,
+   "e": 28.081,
+   "line": "offered"
+  },
+  {
+   "w": "companies",
+   "s": 28.131,
+   "e": 28.881,
+   "line": "offered"
+  },
+  {
+   "w": "he",
+   "s": 28.767,
+   "e": 28.842,
+   "line": "sell"
+  },
+  {
+   "w": "says",
+   "s": 28.892,
+   "e": 29.092,
+   "line": "sell"
+  },
+  {
+   "w": "they",
+   "s": 29.117,
+   "e": 29.242,
+   "line": "sell"
+  },
+  {
+   "w": "told",
+   "s": 29.292,
+   "e": 29.542,
+   "line": "sell"
+  },
+  {
+   "w": "him",
+   "s": 29.567,
+   "e": 29.767,
+   "line": "sell"
+  },
+  {
+   "w": "safety",
+   "s": 29.892,
+   "e": 30.242,
+   "line": "sell"
+  },
+  {
+   "w": "doesn't",
+   "s": 30.292,
+   "e": 30.517,
+   "line": "sell"
+  },
+  {
+   "w": "sell",
+   "s": 30.567,
+   "e": 31.092,
+   "line": "sell"
+  },
+  {
+   "w": "so",
+   "s": 31.007,
+   "e": 31.107,
+   "line": "own"
+  },
+  {
+   "w": "he",
+   "s": 31.132,
+   "e": 31.207,
+   "line": "own"
+  },
+  {
+   "w": "started",
+   "s": 31.257,
+   "e": 31.557,
+   "line": "own"
+  },
+  {
+   "w": "his",
+   "s": 31.582,
+   "e": 31.707,
+   "line": "own"
+  },
+  {
+   "w": "own",
+   "s": 31.757,
+   "e": 31.957,
+   "line": "own"
+  },
+  {
+   "w": "saw",
+   "s": 32.032,
+   "e": 32.207,
+   "line": "own"
+  },
+  {
+   "w": "company",
+   "s": 32.257,
+   "e": 32.932,
+   "line": "own"
+  },
+  {
+   "w": "you've",
+   "s": 33.414,
+   "e": 33.514,
+   "line": "watched"
+  },
+  {
+   "w": "just",
+   "s": 33.539,
+   "e": 33.739,
+   "line": "watched"
+  },
+  {
+   "w": "watched",
+   "s": 33.789,
+   "e": 34.089,
+   "line": "watched"
+  },
+  {
+   "w": "this",
+   "s": 34.114,
+   "e": 34.264,
+   "line": "watched"
+  },
+  {
+   "w": "reel",
+   "s": 34.314,
+   "e": 34.539,
+   "line": "watched"
+  },
+  {
+   "w": "for",
+   "s": 34.589,
+   "e": 34.714,
+   "line": "watched"
+  },
+  {
+   "w": "34",
+   "s": 34.789,
+   "e": 35.264,
+   "line": "watched"
+  },
+  {
+   "w": "seconds",
+   "s": 35.314,
+   "e": 36.014,
+   "line": "watched"
+  },
+  {
+   "w": "imagine",
+   "s": 35.904,
+   "e": 36.279,
+   "line": "imagine"
+  },
+  {
+   "w": "your",
+   "s": 36.304,
+   "e": 36.379,
+   "line": "imagine"
+  },
+  {
+   "w": "ad",
+   "s": 36.429,
+   "e": 36.579,
+   "line": "imagine"
+  },
+  {
+   "w": "held",
+   "s": 36.629,
+   "e": 36.804,
+   "line": "imagine"
+  },
+  {
+   "w": "people",
+   "s": 36.854,
+   "e": 37.154,
+   "line": "imagine"
+  },
+  {
+   "w": "that",
+   "s": 37.179,
+   "e": 37.304,
+   "line": "imagine"
+  },
+  {
+   "w": "long",
+   "s": 37.354,
+   "e": 37.879,
+   "line": "imagine"
+  },
+  {
+   "w": "we",
+   "s": 37.737,
+   "e": 37.812,
+   "line": "scale"
+  },
+  {
+   "w": "scale",
+   "s": 37.862,
+   "e": 38.162,
+   "line": "scale"
+  },
+  {
+   "w": "businesses",
+   "s": 38.212,
+   "e": 38.687,
+   "line": "scale"
+  },
+  {
+   "w": "with",
+   "s": 38.712,
+   "e": 38.837,
+   "line": "scale"
+  },
+  {
+   "w": "ads",
+   "s": 38.912,
+   "e": 39.112,
+   "line": "scale"
+  },
+  {
+   "w": "like",
+   "s": 39.137,
+   "e": 39.262,
+   "line": "scale"
+  },
+  {
+   "w": "this",
+   "s": 39.312,
+   "e": 39.762,
+   "line": "scale"
+  },
+  {
+   "w": "DM",
+   "s": 39.681,
+   "e": 40.006,
+   "line": "dm"
+  },
+  {
+   "w": "us",
+   "s": 40.031,
+   "e": 40.181,
+   "line": "dm"
+  },
+  {
+   "w": "the",
+   "s": 40.206,
+   "e": 40.256,
+   "line": "dm"
+  },
+  {
+   "w": "word",
+   "s": 40.306,
+   "e": 40.481,
+   "line": "dm"
+  },
+  {
+   "w": "teardown",
+   "s": 40.531,
+   "e": 40.956,
+   "line": "dm"
+  },
+  {
+   "w": "for",
+   "s": 41.006,
+   "e": 41.131,
+   "line": "dm"
+  },
+  {
+   "w": "a",
+   "s": 41.131,
+   "e": 41.231,
+   "line": "dm"
+  },
+  {
+   "w": "free",
+   "s": 41.231,
+   "e": 41.431,
+   "line": "dm"
+  },
+  {
+   "w": "ad",
+   "s": 41.481,
+   "e": 41.631,
+   "line": "dm"
+  },
+  {
+   "w": "review",
+   "s": 41.681,
+   "e": 42.306,
+   "line": "dm"
+  }
+ ],
+ "voice_end": 42.04,
+ "end": 42.64,
+ "at": {
+  "why:why": 0.05,
+  "why:would": 0.275,
+  "why:anyone": 0.425,
+  "why:push": 0.725,
+  "why:a": 1.65,
+  "why:hot": 0.95,
+  "why:dog": 1.2,
+  "why:into": 1.475,
+  "why:saw": 1.75,
+  "why:blade": 1.975,
+  "salty:because": 2.446,
+  "salty:it's": 2.696,
+  "salty:about": 2.796,
+  "salty:as": 3.971,
+  "salty:salty": 3.146,
+  "salty:and": 3.571,
+  "salty:wet": 3.696,
+  "salty:a": 4.046,
+  "salty:finger": 4.171,
+  "stops:and": 4.713,
+  "stops:this": 4.813,
+  "stops:saw": 4.988,
+  "stops:stops": 5.263,
+  "stops:before": 5.663,
+  "stops:it": 5.938,
+  "stops:can": 6.013,
+  "stops:take": 6.138,
+  "stops:one": 6.438,
+  "signal:the": 6.777,
+  "signal:blade": 6.877,
+  "signal:carries": 7.177,
+  "signal:a": 7.427,
+  "signal:tiny": 7.527,
+  "signal:electrical": 7.877,
+  "signal:signal": 8.402,
+  "wood:cutting": 8.823,
+  "wood:wood": 9.198,
+  "wood:barely": 9.373,
+  "wood:changes": 13.998,
+  "wood:it": 12.523,
+  "wood:but": 10.423,
+  "wood:skin": 10.598,
+  "wood:conducts": 10.923,
+  "wood:electricity": 11.348,
+  "wood:so": 11.973,
+  "wood:the": 13.498,
+  "wood:instant": 12.223,
+  "wood:touches": 12.623,
+  "wood:a": 12.923,
+  "wood:tooth": 13.098,
+  "wood:signal": 13.648,
+  "brake:a": 14.656,
+  "brake:spring": 14.731,
+  "brake:fires": 15.056,
+  "brake:an": 15.456,
+  "brake:aluminum": 15.531,
+  "brake:brake": 16.006,
+  "brake:into": 16.256,
+  "brake:the": 16.431,
+  "brake:teeth": 16.531,
+  "stop:the": 19.873,
+  "stop:blade": 16.973,
+  "stop:stops": 17.323,
+  "stop:dead": 17.723,
+  "stop:in": 17.998,
+  "stop:under": 19.748,
+  "stop:5": 18.348,
+  "stop:milliseconds": 18.673,
+  "stop:and": 19.298,
+  "stop:drops": 19.423,
+  "stop:table": 19.973,
+  "blink:faster": 20.395,
+  "blink:than": 20.72,
+  "blink:a": 20.845,
+  "blink:blink": 20.92,
+  "nick:the": 21.412,
+  "nick:hot": 21.512,
+  "nick:dog": 21.762,
+  "nick:gets": 22.037,
+  "nick:a": 22.187,
+  "nick:nick": 22.287,
+  "cost:but": 22.711,
+  "cost:it": 22.836,
+  "cost:costs": 22.936,
+  "cost:the": 25.061,
+  "cost:saw": 23.436,
+  "cost:brake": 23.961,
+  "cost:is": 24.286,
+  "cost:single-use": 24.436,
+  "cost:and": 24.961,
+  "cost:blade's": 25.161,
+  "cost:usually": 25.536,
+  "cost:ruined": 25.936,
+  "offered:its": 26.406,
+  "offered:inventor": 26.581,
+  "offered:offered": 27.081,
+  "offered:it": 27.381,
+  "offered:to": 27.481,
+  "offered:the": 27.556,
+  "offered:big": 27.656,
+  "offered:tool": 27.881,
+  "offered:companies": 28.131,
+  "sell:he": 28.767,
+  "sell:says": 28.892,
+  "sell:they": 29.117,
+  "sell:told": 29.292,
+  "sell:him": 29.567,
+  "sell:safety": 29.892,
+  "sell:doesn't": 30.292,
+  "sell:sell": 30.567,
+  "own:so": 31.007,
+  "own:he": 31.132,
+  "own:started": 31.257,
+  "own:his": 31.582,
+  "own:own": 31.757,
+  "own:saw": 32.032,
+  "own:company": 32.257,
+  "watched:you've": 33.414,
+  "watched:just": 33.539,
+  "watched:watched": 33.789,
+  "watched:this": 34.114,
+  "watched:reel": 34.314,
+  "watched:for": 34.589,
+  "watched:34": 34.789,
+  "watched:seconds": 35.314,
+  "imagine:imagine": 35.904,
+  "imagine:your": 36.304,
+  "imagine:ad": 36.429,
+  "imagine:held": 36.629,
+  "imagine:people": 36.854,
+  "imagine:that": 37.179,
+  "imagine:long": 37.354,
+  "scale:we": 37.737,
+  "scale:scale": 37.862,
+  "scale:businesses": 38.212,
+  "scale:with": 38.712,
+  "scale:ads": 38.912,
+  "scale:like": 39.137,
+  "scale:this": 39.312,
+  "dm:DM": 39.681,
+  "dm:us": 40.031,
+  "dm:the": 40.206,
+  "dm:word": 40.306,
+  "dm:teardown": 40.531,
+  "dm:for": 41.006,
+  "dm:a": 41.131,
+  "dm:free": 41.231,
+  "dm:ad": 41.481,
+  "dm:review": 41.681
+ }
+}

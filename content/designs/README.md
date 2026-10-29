@@ -463,3 +463,42 @@ Rebuild: `python3 source/reel_ai_vo.py <kokoro-dir> <tmp>` → `node source/reel
 > How it works, in short: your message is split into tokens (about 4 characters of English each, per OpenAI). Each token is a number: "Why is the sky blue?" is 6 of them in GPT-4's tokenizer. The model turns each one into a long list of numbers (12,288 in GPT-3), runs them through dozens of layers (96 in GPT-3), scores every token it knows and picks the next one, then does it all again for the token after that. For a GPT-3-sized model that's about 350 billion calculations per token. (Sources: OpenAI Help Center; Brown et al. 2020; Kaplan et al. 2020; Vaswani et al. 2017.)
 >
 > #metaads #instagramads #ai
+
+## Reel: "Why would anyone push a hot dog into a saw blade?" (3D explainer, a Zack D. Films topic with our angle)
+File: `reels/mezmedia_reel_saw.mp4` (1080×1920, 30fps, 42.6s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: analyse Zack D. Films' most watched videos, take one of their topics, make it different. Their channel (yt-dlp listing of all 4,101 shorts, October 2026): 23 shorts over 100M views, 259 over 50M, median 14M; the top 25 run 24 to 46 seconds (median 30) with a median like rate of 3.1%; titles are about 5 words, often a question, one emoji; body topics are 29% of their top 100 against 16% of all their shorts, and question titles 24% against 11%. Top five: How Stitches Work (255M), How Splinters Get Unstuck (216M), The Reason The McFlurry Spoon Looks Weird (166M), How Long Are Your Blood Vessels? (157M), Could Ancient Armor Stop Bullets? (156M). We took "Saws That Stop For Fingers" (120M): a mechanism with built-in tension, like our Face ID reel, which is our best. The difference: it opens on the hot dog test instead of a finger, shows the stop in slow motion with a millisecond clock, adds what the stop costs the saw (single-use brake, ruined blade) and ends on the inventor being told "safety doesn't sell" and starting his own company; then our switch.
+Format as the Face ID and AI reels: a hook that moves the voice up and down ("Why would anyone push a hot dog into a saw blade?" rising, "Because it's about as salty and wet as a finger." low and flat with the music cut, "And this saw stops before it can take one." bright), one continuous 3D camera: the board mid-cut with sawdust and the hot dog riding at the teeth, a card comparing a hot dog and a finger, the whole saw, X-ray (the table and cabinet see-through, edges drawn in blue) with a ring of light for the blade's signal and a scope that stays steady through wood and drops red at the touch, time slowing to a crawl, the brake cartridge's spring firing the aluminum pawl into the teeth, the clock to "stopped in under 5 ms", the blade dropping under the table, bars for a blink, the hot dog's nick (and a bandage), the brake and blade lifted out jammed together ("single-use", "blade: usually ruined"), a flight down a road to three generic tool factories that get red X marks, the quote, and his own factory rising with saws rolling out. Then the tension and the switch: "You've just watched this reel for 34 seconds" (the real time when it is spoken), the post turns into an ad, and the pitch.
+Facts and sources (details in `source/reel_saw_vo.py`): NPR, "Sharp Edge: One Man's Quest To Improve Saw Safety" (2010, story and transcript): a hot dog has about the same salt and moisture content as a finger; the saw induces a slight current on the blade, wood doesn't conduct but a finger does; the brake stops the blade in less than 5/1,000th of a second; Steve Gass is a woodworker, physicist and patent attorney; tool companies told him "safety doesn't sell". Woodcraft and ToolsToday on how SawStop's system works: skin changes the blade's signal, a spring-loaded aluminum brake stops the blade in under 5 ms and the blade assembly drops below the table; the brake cartridge must be replaced after activation and the blade usually too. Woodworker's Journal on the hot dog demo's nick. A blink lasts roughly 100 to 150 ms. The clock and its in-between numbers are an illustration (small print says so); the saw, the brake cartridge and the buildings are generic, no brand shown.
+Rebuild: `python3 source/reel_saw_vo.py <kokoro-dir> <tmp>` → `node source/reel_saw.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames) → `python3 source/reel_saw_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_saw_scene.js` (three.js); the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Why would anyone push a hot dog into a saw blade?
+> Because it's about as salty and wet as a finger.
+> And this saw stops before it can take one.
+> The blade carries a tiny electrical signal.
+> Cutting wood barely changes it. But skin conducts electricity, so the instant it touches a tooth, the signal changes.
+> A spring fires an aluminum brake into the teeth.
+> The blade stops dead in under five milliseconds, and drops under the table.
+> Faster than a blink.
+> The hot dog gets a nick.
+> But it costs the saw. The brake is single-use, and the blade's usually ruined.
+> Its inventor offered it to the big tool companies.
+> He says they told him: safety doesn't sell.
+> So he started his own saw company.
+> (tension)
+> You've just watched this reel for 34 seconds.
+> Imagine your ad held people that long.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> You just spent 34 seconds watching a hot dog and a table saw. Nobody asked you to. The question did the work.
+>
+> That's the first job of any ad: give people a reason to keep watching before you ask for anything. If your Meta ads open with the logo, the price or "limited offer", people scroll before they hear why they should care.
+>
+> We scale businesses with Instagram ads built the other way round: a question people want answered, then the offer.
+>
+> How the saw works. The blade carries a small electrical signal. Wood barely changes it. Skin does, because you conduct electricity, so the moment a finger (or a hot dog, which has about the same salt and moisture) touches a tooth, a spring fires an aluminum brake into the blade. It stops in under 5 milliseconds and drops below the table. The cost: the brake's single-use and the blade's usually ruined. Its inventor, Steve Gass, told NPR the big tool companies said "safety doesn't sell". So he started his own saw company. In the US, table saws cause about 4,000 amputations a year (CPSC figures, via the National Consumers League). Sources: NPR, Woodcraft, ToolsToday.
+>
+> #metaads #instagramads #woodworking
