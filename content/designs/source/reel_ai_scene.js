@@ -251,7 +251,7 @@ function panelDraw(step, picked) {
 // ---------- camera ----------
 const VIEW = {
   ph0: [[0.6, 1.0, 6.2], [0, 0.45, 0], 40], phIn0: [[0.45, -0.75, 4.3], [0, -1.22, 0.1], 40], phIn1: [[0.3, -0.85, 3.7], [0, -1.24, 0.1], 40], ph1: [[1.5, 1.6, 7.6], [0, 0.6, 0.5], 40], ph2: [[1.0, 1.3, 7.0], [0, 0.5, 0], 40],
-  tokIn: [hall([0, 3.0, 5.0]), hall([0, 2.6, 0]), 40], tok: [hall([0, 3.3, 9.0]), hall([0, 2.55, 0]), 40], tok2: [hall([0.6, 3.6, 8.2]), hall([0, 2.5, 0]), 40],
+  tokIn: [hall([0, 3.0, 10.6]), hall([0, 2.6, 0]), 40], tok: [hall([0, 3.3, 9.0]), hall([0, 2.55, 0]), 40], tok2: [hall([0.6, 3.6, 8.2]), hall([0, 2.5, 0]), 40],
   emb: [hall([5.0, 7.0, 9.6]), hall([-0.6, 2.2, -2.4]), 42], lay: [hall([8.0, 10.5, 11.5]), hall([0, 7.4, -2.6]), 46], lay2: [hall([6.0, 12.5, 9.5]), hall([0, 8.6, -2.6]), 46],
   hall: [hall([15, 10, 23]), hall([0, 6, -3]), 50], top: [hall([0, 15.3, 8.0]), hall([0, 13.4, -2.2]), 38], wide: [hall([9, 10.5, 15.5]), hall([0, 6.4, -2.4]), 52],
   phA: [[0.55, 1.3, 4.9], [0, 0.75, 0], 40], phB: [[0.3, 1.2, 4.6], [0, 0.72, 0], 40],
@@ -430,7 +430,7 @@ function three(x, t) {
   // inside
   if (inHall(t)) {
     label(x, hall([slot(3)[0], slot(3)[1] - 0.3, 0.1]), 0, 330, 'about 4 letters each', win(t, K.four - 0.1, K.number + 0.1, 0.35, 0.2));
-    label(x, hall([slot(0)[0], slot(0)[1] + 0.3, 0.1]), 0, -330, 'token ID', win(t, K.num - 0.1, K.thousands + 0.1, 0.35, 0.2), { bg: BLUE, fg: WHT });
+    label(x, hall([slot(0)[0], slot(0)[1] + 0.3, 0.1]), 0, -210, 'token ID', win(t, K.num - 0.1, K.thousands + 0.1, 0.35, 0.2), { bg: BLUE, fg: WHT });
     label(x, hall([slot(2)[0] + 0.45, slot(2)[1], -6.6]), -60, -300, 'GPT-3: 12,288 numbers each', win(t, K.thou - 0.05, K.layers + 0.2, 0.35, 0.2));
     label(x, hall([2.0, 4.3 + 9 * 0.85, -2.6]), 30, -220, 'layers (GPT-3 has 96)', win(t, K.lay - 0.05, K.every + 0.2, 0.35, 0.2));
     label(x, hall([-1.12, 4.3 + actFrac(t) * 9 * 0.85 + 0.6, 0.4]), -60, 330, 'attention: looking back', win(t, K.back - 0.2, K.calc, 0.35, 0.2), { bg: BLUE, fg: WHT });

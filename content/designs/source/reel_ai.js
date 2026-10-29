@@ -82,7 +82,7 @@ const K = {
 const BEATS = [0, 1].map((i) => +(TENSE + 0.1 + i * 0.4).toFixed(3));   // the heartbeat under the tension
 
 // motion blur: sub-frames per frame inside these windows [from, to, samples]
-const BLUR = [[K.send - 0.05, K.fiber + 0.5, 4], [K.lightw - 0.2, K.dc + 0.15, 3], [K.tokens - 0.45, K.tokens - 0.1, 6], [K.tokens - 0.26, K.tokens - 0.1, 10], [K.tokens - 0.1, K.tokens + 0.4, 4], [K.calc - 0.05, K.calc + 0.6, 3],
+const BLUR = [[K.send - 0.05, K.fiber + 0.5, 4], [K.lightw - 0.2, K.dc + 0.15, 3], [K.tokens - 0.45, K.tokens - 0.1, 6], [K.tokens - 0.26, K.tokens - 0.1, 10], [K.tokens - 0.1, K.tokens + 0.4, 4], [K.calc - 0.05, K.billions - 0.17, 3],
   [K.types - 0.15, K.types + 0.35, 4], [T0.phone - 0.02, T0.phone + 0.65, 6], [K.d1 - 0.02, K.d1 + 0.4, 4]];
 
 // ---------- sound design (reel_ai_audio.py maps each kind to a recorded or synthesized effect) ----------
