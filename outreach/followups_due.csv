@@ -81,8 +81,8 @@ A036,Bonnie and Neil,Bonnie Ashley & Neil Downie,Email,2 - follow-up (new idea),
 A036,Bonnie and Neil,Bonnie Ashley & Neil Downie,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
 A005,By Baby,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
 A005,By Baby,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
-A092,Sobah,Dr Clinton Schultz,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
-A092,Sobah,Dr Clinton Schultz,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A092,Sobah,Dr Clinton Schultz,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",on hold: email 1 not delivered yet (recipient inbox full)
+A092,Sobah,Dr Clinton Schultz,Email,3 - final,2026-11-03,"M2 sent, no reply",on hold: email 1 not delivered yet (recipient inbox full)
 A037,Robert Gordon,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
 A037,Robert Gordon,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
 A038,Fenton & Fenton,Lucy Fenton,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
@@ -199,8 +199,8 @@ A089,Brookfarm,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pe
 A089,Brookfarm,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
 A090,Bare Blends,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
 A090,Bare Blends,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
-A026,Sodashi,Megan Larsen,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
-A026,Sodashi,Megan Larsen,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
+A026,Sodashi,Megan Larsen,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply","cancelled: email 1 bounced (blocked by their mail filter, 550 5.4.1)"
+A026,Sodashi,Megan Larsen,Email,3 - final,2026-11-03,"M2 sent, no reply","cancelled: email 1 bounced (blocked by their mail filter, 550 5.4.1)"
 A086,Bahen & Co,,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
 A086,Bahen & Co,,Email,3 - final,2026-11-03,"M2 sent, no reply",pending
 A091,Happy Way,Ben & Hien,Email,2 - follow-up (new idea),2026-10-30,"M1 sent, no reply",pending
