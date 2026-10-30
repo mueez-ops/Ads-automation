@@ -1,6 +1,6 @@
 // Mez Media reel: "Why would anyone pay a million dollars for whale vomit?" One of Zack D. Films' most watched topics
 // ("Whale Vomit Is Worth Millions", 86M views) made the way the armor reel was (1,800 views, 19% skip rate): a question
-// hook with action on the first frame, the expressive female voice, a new camera set-up about every second (19 in the
+// hook with action on the first frame, the expressive female voice, a new camera set-up about every second (18 in the
 // first 21 seconds), captions at the top built word by word, labels on leader lines, small print with sources; then
 // the switch (a feed that flicks past ads selling "the lump" and stops on one selling what it does) and the pitch.
 // Facts and sources: reel_whale_vo.py. Timing: reel_whale_cues.json. Writes reel_whale_events.json for the audio.

@@ -179,7 +179,7 @@ WATER.rotation.x = -Math.PI / 2; SURF.add(WATER);
 const FLOAT = new X.Mesh(lumpGeometry(0.33, 5), MAT('#FFFFFF', { map: lumpTex, r: 0.7 })); SURF.add(FLOAT);
 const FOAM = new X.Mesh(new X.RingGeometry(0.36, 0.55, 40), new X.MeshBasicMaterial({ color: '#E8F6FF', transparent: true, opacity: 0.35, depthWrite: false })); FOAM.rotation.x = -Math.PI / 2; FOAM.position.y = 0.01; SURF.add(FOAM);
 const SKYSUN = new X.Sprite(glowMat('#FFF4D6', 1)); SKYSUN.scale.setScalar(70); SURF.add(SKYSUN);
-const CARC = makeWhale({ col: '#E4DED6' }); CARC.G.position.set(-19, 0.15, -22); CARC.G.rotation.order = 'YXZ'; CARC.G.rotation.set(1.57, 0.35, 0); SURF.add(CARC.G);
+const CARC = makeWhale({ col: '#E4DED6' }); CARC.G.position.set(-19, -0.3, -22); CARC.G.rotation.order = 'YXZ'; CARC.G.rotation.set(Math.PI, 0.35, 0); SURF.add(CARC.G);   // belly up
 const BOAT = (() => {
   const G = new X.Group(), geo = new X.BoxGeometry(2.2, 0.8, 6.2, 4, 2, 12), p = geo.attributes.position;
   for (let i = 0; i < p.count; i++) { const z = p.getZ(i), y = p.getY(i), k = clamp((z - 1.2) / 1.9); p.setX(i, p.getX(i) * (1 - 0.85 * k * k) * (y < 0 ? 0.8 : 1)); p.setY(i, y + 0.25 * k * k); }
@@ -287,6 +287,7 @@ function setWorld(t) {
   // the whale swims; X-ray from "It forms" to the cut to the fresh lump
   const xr = where === 'under' ? win(t, K.forms - 0.05, K.stinksL, 0.35, 0.05) : 0;
   if (UNDER.visible) swim(t, 0.32);
+  WH.G.position.x = t < K.pay ? lerp(-3.2, 1.6, t / K.pay) : 0;          // in the first second it glides at the camera
   [WH.skin, WH.jaw.material, WH.lip.material].forEach((m) => {   // opaque materials stay in the opaque pass until the X-ray starts
     const see = xr > 0.01; if (m.transparent !== see) { m.transparent = see; m.needsUpdate = true; } m.opacity = lerp(1, 0.0, xr); m.depthWrite = !see;
   });
@@ -381,12 +382,12 @@ function priceTag(x, t) {
   const a = win(t, K.million - 0.12, K.whale - 0.06, 0.1, 0.08); if (a <= 0) return;
   const [px, py] = project([PED_L[0] + 0.2, PH_L + 0.55, 0.1]);
   const sw = 0.3 * Math.exp(-(t - K.million) * 3) * Math.sin((t - K.million) * 11);
-  x.save(); x.globalAlpha = a; x.translate(Math.min(px + 60, W - 250), py - 380); x.rotate(-0.12 + sw);
+  x.save(); x.globalAlpha = a; x.translate(Math.min(px + 60, W - 280), py - 380); x.rotate(-0.1 + sw);
   x.strokeStyle = 'rgba(255,255,255,.85)'; x.lineWidth = 3; x.beginPath(); x.moveTo(0, -220); x.lineTo(0, 0); x.stroke();
   x.shadowColor = 'rgba(0,0,0,.5)'; x.shadowBlur = 30; x.fillStyle = '#F4E3B8';
   x.beginPath(); x.moveTo(-40, 0); x.lineTo(40, 0); x.lineTo(210, 60); x.lineTo(210, 190); x.lineTo(-210, 190); x.lineTo(-210, 60); x.closePath(); x.fill();
   x.shadowBlur = 0; x.fillStyle = '#7A5A1E'; x.beginPath(); x.arc(0, 30, 12, 0, TAU); x.fill();
-  setF(x, '800 92px Logo', -3); x.fillStyle = '#1D1D1F'; x.textAlign = 'center'; x.fillText('$1,000,000', 0, 160);
+  setF(x, '800 78px Logo', -3); x.fillStyle = '#1D1D1F'; x.textAlign = 'center'; x.fillText('$1,000,000', 0, 152);
   x.restore();
 }
 // "And it isn't even vomit": the word, struck out
