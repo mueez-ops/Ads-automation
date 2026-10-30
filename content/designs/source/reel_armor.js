@@ -39,7 +39,7 @@ Object.keys(L).filter((line) => !SKIP.has(line)).forEach((line) => {
 CH[0].s = 0; CH[0].rows[0][0].s = -0.1;              // the first word is on the first frame
 CH.forEach((c, i) => {
   const nx = CH[i + 1], last = c.rows.flat().slice(-1)[0].e;
-  c.e = +Math.min(nx ? nx.s : C.end, nx && nx.line === c.line ? nx.s : last + 0.4).toFixed(3);
+  c.e = +Math.min(nx ? nx.s : C.end, nx && nx.line === c.line ? nx.s : last + 0.4, L.scale.s).toFixed(3);   // gone when the pitch starts
 });
 
 // ---------- the edit: the 3D world, then the feed, then the pitch ----------
