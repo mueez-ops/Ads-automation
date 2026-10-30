@@ -1,0 +1,772 @@
+{
+ "lines": {
+  "why": {
+   "s": 0.05,
+   "e": 2.581,
+   "text": "why would anyone pay a million dollars for whale vomit"
+  },
+  "perfume": {
+   "s": 2.621,
+   "e": 3.518,
+   "text": "for perfume"
+  },
+  "isnt": {
+   "s": 3.638,
+   "e": 5.007,
+   "text": "and it isn't even vomit"
+  },
+  "forms": {
+   "s": 5.087,
+   "e": 7.748,
+   "text": "it forms in a sperm whale's gut around squid beaks"
+  },
+  "stinks": {
+   "s": 7.808,
+   "e": 8.768,
+   "text": "fresh it stinks"
+  },
+  "sweet": {
+   "s": 8.828,
+   "e": 10.191,
+   "text": "years at sea make it sweet"
+  },
+  "found": {
+   "s": 10.291,
+   "e": 14.103,
+   "text": "Yemeni fishermen found 127 + + + kilos inside a dead whale"
+  },
+  "sold": {
+   "s": 14.163,
+   "e": 16.192,
+   "text": "it sold for $1.5M + + + + +"
+  },
+  "last": {
+   "s": 16.292,
+   "e": 18.128,
+   "text": "why it makes perfume last longer"
+  },
+  "lump": {
+   "s": 18.228,
+   "e": 21.031,
+   "text": "nobody paid for the lump they paid for what it does"
+  },
+  "ads": {
+   "s": 21.251,
+   "e": 22.419,
+   "text": "most ads sell the lump"
+  },
+  "sell": {
+   "s": 22.479,
+   "e": 23.398,
+   "text": "sell what it does"
+  },
+  "scale": {
+   "s": 23.548,
+   "e": 25.435,
+   "text": "we scale businesses with ads like this"
+  },
+  "dm": {
+   "s": 25.515,
+   "e": 27.922,
+   "text": "DM us the word teardown for a free ad review"
+  }
+ },
+ "words": [
+  {
+   "w": "why",
+   "s": 0.076,
+   "e": 0.276,
+   "line": "why"
+  },
+  {
+   "w": "would",
+   "s": 0.301,
+   "e": 0.376,
+   "line": "why"
+  },
+  {
+   "w": "anyone",
+   "s": 0.426,
+   "e": 0.676,
+   "line": "why"
+  },
+  {
+   "w": "pay",
+   "s": 0.726,
+   "e": 0.926,
+   "line": "why"
+  },
+  {
+   "w": "a",
+   "s": 0.926,
+   "e": 1.026,
+   "line": "why"
+  },
+  {
+   "w": "million",
+   "s": 1.026,
+   "e": 1.301,
+   "line": "why"
+  },
+  {
+   "w": "dollars",
+   "s": 1.351,
+   "e": 1.726,
+   "line": "why"
+  },
+  {
+   "w": "for",
+   "s": 1.776,
+   "e": 1.876,
+   "line": "why"
+  },
+  {
+   "w": "whale",
+   "s": 1.926,
+   "e": 2.151,
+   "line": "why"
+  },
+  {
+   "w": "vomit",
+   "s": 2.201,
+   "e": 2.801,
+   "line": "why"
+  },
+  {
+   "w": "for",
+   "s": 2.695,
+   "e": 2.795,
+   "line": "perfume"
+  },
+  {
+   "w": "perfume",
+   "s": 2.845,
+   "e": 3.82,
+   "line": "perfume"
+  },
+  {
+   "w": "and",
+   "s": 3.7,
+   "e": 3.775,
+   "line": "isnt"
+  },
+  {
+   "w": "it",
+   "s": 3.825,
+   "e": 3.875,
+   "line": "isnt"
+  },
+  {
+   "w": "isn't",
+   "s": 4.025,
+   "e": 4.2,
+   "line": "isnt"
+  },
+  {
+   "w": "even",
+   "s": 4.25,
+   "e": 4.475,
+   "line": "isnt"
+  },
+  {
+   "w": "vomit",
+   "s": 4.525,
+   "e": 5.225,
+   "line": "isnt"
+  },
+  {
+   "w": "it",
+   "s": 5.131,
+   "e": 5.206,
+   "line": "forms"
+  },
+  {
+   "w": "forms",
+   "s": 5.256,
+   "e": 5.531,
+   "line": "forms"
+  },
+  {
+   "w": "in",
+   "s": 5.556,
+   "e": 5.606,
+   "line": "forms"
+  },
+  {
+   "w": "a",
+   "s": 5.606,
+   "e": 5.706,
+   "line": "forms"
+  },
+  {
+   "w": "sperm",
+   "s": 5.706,
+   "e": 5.956,
+   "line": "forms"
+  },
+  {
+   "w": "whale's",
+   "s": 6.006,
+   "e": 6.256,
+   "line": "forms"
+  },
+  {
+   "w": "gut",
+   "s": 6.306,
+   "e": 6.656,
+   "line": "forms"
+  },
+  {
+   "w": "around",
+   "s": 6.876,
+   "e": 7.101,
+   "line": "forms"
+  },
+  {
+   "w": "squid",
+   "s": 7.151,
+   "e": 7.351,
+   "line": "forms"
+  },
+  {
+   "w": "beaks",
+   "s": 7.401,
+   "e": 7.926,
+   "line": "forms"
+  },
+  {
+   "w": "fresh",
+   "s": 7.869,
+   "e": 8.119,
+   "line": "stinks"
+  },
+  {
+   "w": "it",
+   "s": 8.169,
+   "e": 8.219,
+   "line": "stinks"
+  },
+  {
+   "w": "stinks",
+   "s": 8.269,
+   "e": 9.019,
+   "line": "stinks"
+  },
+  {
+   "w": "years",
+   "s": 8.913,
+   "e": 9.188,
+   "line": "sweet"
+  },
+  {
+   "w": "at",
+   "s": 9.213,
+   "e": 9.263,
+   "line": "sweet"
+  },
+  {
+   "w": "sea",
+   "s": 9.313,
+   "e": 9.463,
+   "line": "sweet"
+  },
+  {
+   "w": "make",
+   "s": 9.488,
+   "e": 9.638,
+   "line": "sweet"
+  },
+  {
+   "w": "it",
+   "s": 9.663,
+   "e": 9.713,
+   "line": "sweet"
+  },
+  {
+   "w": "sweet",
+   "s": 9.763,
+   "e": 10.413,
+   "line": "sweet"
+  },
+  {
+   "w": "Yemeni",
+   "s": 10.325,
+   "e": 10.625,
+   "line": "found"
+  },
+  {
+   "w": "fishermen",
+   "s": 10.675,
+   "e": 11.15,
+   "line": "found"
+  },
+  {
+   "w": "found",
+   "s": 11.2,
+   "e": 11.375,
+   "line": "found"
+  },
+  {
+   "w": "127",
+   "s": 11.375,
+   "e": 11.475,
+   "line": "found"
+  },
+  {
+   "w": "+",
+   "s": 11.475,
+   "e": 11.85,
+   "line": "found"
+  },
+  {
+   "w": "+",
+   "s": 11.9,
+   "e": 11.975,
+   "line": "found"
+  },
+  {
+   "w": "+",
+   "s": 12.025,
+   "e": 12.5,
+   "line": "found"
+  },
+  {
+   "w": "kilos",
+   "s": 12.55,
+   "e": 13.125,
+   "line": "found"
+  },
+  {
+   "w": "inside",
+   "s": 13.2,
+   "e": 13.525,
+   "line": "found"
+  },
+  {
+   "w": "a",
+   "s": 13.525,
+   "e": 13.625,
+   "line": "found"
+  },
+  {
+   "w": "dead",
+   "s": 13.625,
+   "e": 13.8,
+   "line": "found"
+  },
+  {
+   "w": "whale",
+   "s": 13.85,
+   "e": 14.375,
+   "line": "found"
+  },
+  {
+   "w": "it",
+   "s": 14.217,
+   "e": 14.317,
+   "line": "sold"
+  },
+  {
+   "w": "sold",
+   "s": 14.367,
+   "e": 14.642,
+   "line": "sold"
+  },
+  {
+   "w": "for",
+   "s": 14.692,
+   "e": 14.792,
+   "line": "sold"
+  },
+  {
+   "w": "$1.5M",
+   "s": 14.842,
+   "e": 14.942,
+   "line": "sold"
+  },
+  {
+   "w": "+",
+   "s": 14.967,
+   "e": 15.042,
+   "line": "sold"
+  },
+  {
+   "w": "+",
+   "s": 15.042,
+   "e": 15.142,
+   "line": "sold"
+  },
+  {
+   "w": "+",
+   "s": 15.142,
+   "e": 15.367,
+   "line": "sold"
+  },
+  {
+   "w": "+",
+   "s": 15.417,
+   "e": 15.667,
+   "line": "sold"
+  },
+  {
+   "w": "+",
+   "s": 15.717,
+   "e": 16.417,
+   "line": "sold"
+  },
+  {
+   "w": "why",
+   "s": 16.345,
+   "e": 16.695,
+   "line": "last"
+  },
+  {
+   "w": "it",
+   "s": 16.795,
+   "e": 16.845,
+   "line": "last"
+  },
+  {
+   "w": "makes",
+   "s": 16.87,
+   "e": 17.045,
+   "line": "last"
+  },
+  {
+   "w": "perfume",
+   "s": 17.095,
+   "e": 17.42,
+   "line": "last"
+  },
+  {
+   "w": "last",
+   "s": 17.47,
+   "e": 17.745,
+   "line": "last"
+  },
+  {
+   "w": "longer",
+   "s": 17.77,
+   "e": 18.37,
+   "line": "last"
+  },
+  {
+   "w": "nobody",
+   "s": 18.308,
+   "e": 18.708,
+   "line": "lump"
+  },
+  {
+   "w": "paid",
+   "s": 18.758,
+   "e": 19.008,
+   "line": "lump"
+  },
+  {
+   "w": "for",
+   "s": 19.058,
+   "e": 19.108,
+   "line": "lump"
+  },
+  {
+   "w": "the",
+   "s": 19.158,
+   "e": 19.208,
+   "line": "lump"
+  },
+  {
+   "w": "lump",
+   "s": 19.258,
+   "e": 19.658,
+   "line": "lump"
+  },
+  {
+   "w": "they",
+   "s": 19.903,
+   "e": 19.978,
+   "line": "lump"
+  },
+  {
+   "w": "paid",
+   "s": 20.028,
+   "e": 20.278,
+   "line": "lump"
+  },
+  {
+   "w": "for",
+   "s": 20.328,
+   "e": 20.428,
+   "line": "lump"
+  },
+  {
+   "w": "what",
+   "s": 20.453,
+   "e": 20.553,
+   "line": "lump"
+  },
+  {
+   "w": "it",
+   "s": 20.578,
+   "e": 20.628,
+   "line": "lump"
+  },
+  {
+   "w": "does",
+   "s": 20.678,
+   "e": 21.253,
+   "line": "lump"
+  },
+  {
+   "w": "most",
+   "s": 21.31,
+   "e": 21.535,
+   "line": "ads"
+  },
+  {
+   "w": "ads",
+   "s": 21.61,
+   "e": 21.785,
+   "line": "ads"
+  },
+  {
+   "w": "sell",
+   "s": 21.835,
+   "e": 21.985,
+   "line": "ads"
+  },
+  {
+   "w": "the",
+   "s": 22.01,
+   "e": 22.06,
+   "line": "ads"
+  },
+  {
+   "w": "lump",
+   "s": 22.11,
+   "e": 22.61,
+   "line": "ads"
+  },
+  {
+   "w": "sell",
+   "s": 22.586,
+   "e": 22.786,
+   "line": "sell"
+  },
+  {
+   "w": "what",
+   "s": 22.811,
+   "e": 22.886,
+   "line": "sell"
+  },
+  {
+   "w": "it",
+   "s": 22.911,
+   "e": 22.961,
+   "line": "sell"
+  },
+  {
+   "w": "does",
+   "s": 23.011,
+   "e": 23.636,
+   "line": "sell"
+  },
+  {
+   "w": "we",
+   "s": 23.579,
+   "e": 23.654,
+   "line": "scale"
+  },
+  {
+   "w": "scale",
+   "s": 23.704,
+   "e": 23.979,
+   "line": "scale"
+  },
+  {
+   "w": "businesses",
+   "s": 24.029,
+   "e": 24.529,
+   "line": "scale"
+  },
+  {
+   "w": "with",
+   "s": 24.554,
+   "e": 24.679,
+   "line": "scale"
+  },
+  {
+   "w": "ads",
+   "s": 24.754,
+   "e": 24.954,
+   "line": "scale"
+  },
+  {
+   "w": "like",
+   "s": 24.979,
+   "e": 25.104,
+   "line": "scale"
+  },
+  {
+   "w": "this",
+   "s": 25.154,
+   "e": 25.654,
+   "line": "scale"
+  },
+  {
+   "w": "DM",
+   "s": 25.565,
+   "e": 25.915,
+   "line": "dm"
+  },
+  {
+   "w": "us",
+   "s": 25.965,
+   "e": 26.115,
+   "line": "dm"
+  },
+  {
+   "w": "the",
+   "s": 26.14,
+   "e": 26.19,
+   "line": "dm"
+  },
+  {
+   "w": "word",
+   "s": 26.24,
+   "e": 26.415,
+   "line": "dm"
+  },
+  {
+   "w": "teardown",
+   "s": 26.465,
+   "e": 26.915,
+   "line": "dm"
+  },
+  {
+   "w": "for",
+   "s": 26.965,
+   "e": 27.09,
+   "line": "dm"
+  },
+  {
+   "w": "a",
+   "s": 27.09,
+   "e": 27.19,
+   "line": "dm"
+  },
+  {
+   "w": "free",
+   "s": 27.19,
+   "e": 27.39,
+   "line": "dm"
+  },
+  {
+   "w": "ad",
+   "s": 27.44,
+   "e": 27.59,
+   "line": "dm"
+  },
+  {
+   "w": "review",
+   "s": 27.615,
+   "e": 28.24,
+   "line": "dm"
+  }
+ ],
+ "voice_end": 27.922,
+ "end": 28.522,
+ "at": {
+  "why:why": 0.076,
+  "why:would": 0.301,
+  "why:anyone": 0.426,
+  "why:pay": 0.726,
+  "why:a": 0.926,
+  "why:million": 1.026,
+  "why:dollars": 1.351,
+  "why:for": 1.776,
+  "why:whale": 1.926,
+  "why:vomit": 2.201,
+  "perfume:for": 2.695,
+  "perfume:perfume": 2.845,
+  "isnt:and": 3.7,
+  "isnt:it": 3.825,
+  "isnt:isn't": 4.025,
+  "isnt:even": 4.25,
+  "isnt:vomit": 4.525,
+  "forms:it": 5.131,
+  "forms:forms": 5.256,
+  "forms:in": 5.556,
+  "forms:a": 5.606,
+  "forms:sperm": 5.706,
+  "forms:whale's": 6.006,
+  "forms:gut": 6.306,
+  "forms:around": 6.876,
+  "forms:squid": 7.151,
+  "forms:beaks": 7.401,
+  "stinks:fresh": 7.869,
+  "stinks:it": 8.169,
+  "stinks:stinks": 8.269,
+  "sweet:years": 8.913,
+  "sweet:at": 9.213,
+  "sweet:sea": 9.313,
+  "sweet:make": 9.488,
+  "sweet:it": 9.663,
+  "sweet:sweet": 9.763,
+  "found:Yemeni": 10.325,
+  "found:fishermen": 10.675,
+  "found:found": 11.2,
+  "found:127": 11.375,
+  "found:+": 12.025,
+  "found:kilos": 12.55,
+  "found:inside": 13.2,
+  "found:a": 13.525,
+  "found:dead": 13.625,
+  "found:whale": 13.85,
+  "sold:it": 14.217,
+  "sold:sold": 14.367,
+  "sold:for": 14.692,
+  "sold:$1.5M": 14.842,
+  "sold:+": 15.717,
+  "last:why": 16.345,
+  "last:it": 16.795,
+  "last:makes": 16.87,
+  "last:perfume": 17.095,
+  "last:last": 17.47,
+  "last:longer": 17.77,
+  "lump:nobody": 18.308,
+  "lump:paid": 20.028,
+  "lump:for": 20.328,
+  "lump:the": 19.158,
+  "lump:lump": 19.258,
+  "lump:they": 19.903,
+  "lump:what": 20.453,
+  "lump:it": 20.578,
+  "lump:does": 20.678,
+  "ads:most": 21.31,
+  "ads:ads": 21.61,
+  "ads:sell": 21.835,
+  "ads:the": 22.01,
+  "ads:lump": 22.11,
+  "sell:sell": 22.586,
+  "sell:what": 22.811,
+  "sell:it": 22.911,
+  "sell:does": 23.011,
+  "scale:we": 23.579,
+  "scale:scale": 23.704,
+  "scale:businesses": 24.029,
+  "scale:with": 24.554,
+  "scale:ads": 24.754,
+  "scale:like": 24.979,
+  "scale:this": 25.154,
+  "dm:DM": 25.565,
+  "dm:us": 25.965,
+  "dm:the": 26.14,
+  "dm:word": 26.24,
+  "dm:teardown": 26.465,
+  "dm:for": 26.965,
+  "dm:a": 27.09,
+  "dm:free": 27.19,
+  "dm:ad": 27.44,
+  "dm:review": 27.615
+ }
+}

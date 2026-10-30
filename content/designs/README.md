@@ -542,3 +542,42 @@ Rebuild: `python3 source/reel_armor_vo.py <kokoro-dir> <tmp>` → `node source/r
 > The history: armorers proved breastplates with a pistol or musket shot and left the dent as a guarantee (The Met). A London breastplate in the Royal Collection still bears "the proof-mark of a musket-shot". As guns got stronger, armor got thicker. One cuirassier armor in The Met, made around 1610 to 1630, weighs 39.24 kg.
 >
 > #metaads #instagramads #ugcads
+
+## Reel: "Why would anyone pay a million dollars for whale vomit?" (3D explainer, the armor reel's method)
+File: `reels/mezmedia_reel_whale.mp4` (1080×1920, 30fps, 28.5s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: another reel made the same way as the armor reel, which got 1,800 views with a 19% skip rate. Topic: Zack D. Films' "Whale Vomit Is Worth Millions" (86M views). Our angle: nobody paid for the lump, they paid for what it does; most ads sell the lump. (Their "Why You Always See A Trash Can At Disney" was set aside: the "30 steps" story is not confirmed by Disney.)
+Same method: a "Why would anyone…?" hook with something happening on the first frame (a sperm whale coming out of the blue), the same female voice and melody engine (`source/vo_expr.py`; pitch range 14.7 semitones, close to the armor reel's 15.6 and well above the 11.2 of the older female reels), about 220 words a minute, and 18 camera set-ups in the first 21 seconds: the whale coming at the camera, the lump on a velvet pedestal with a $1,000,000 tag, the whale's mouth burping bubbles on "vomit", a perfume bottle spraying, "VOMIT" struck out, an X-ray of the whale with the gut, squid beaks and the lump forming, the fresh lump steaming with stink lines and flies, days and nights racing over the lump floating at sea as it pales, an aerial of a fishing boat by a floating carcass, the lump on a scale counting to 127 kg, cash raining as the counter hits $1,500,000, the bottle with scent that lingers ("lasts longer"), the lump's spotlight switching off on "the lump" and the bottle's coming on for "what it does". Then the switch: our reel shrinks into a phone that flicks past three ads selling the product's specs and stops on one that shows what it does (a double-tap heart); then the pitch.
+Facts and sources (details in `source/reel_whale_vo.py`): BBC Science Focus ("The bizarre (and pretty gross) science of whale vomit"): the evidence says ambergris is not vomited at all; in around 1 to 5% of sperm whales indigestible squid beaks work into the gut, which coats them in a waxy substance that builds into a solid mass; fresh, it smells strongly of faeces, and floating in the sun the smell mellows; it is prized as a fixative in fine perfume; possession and trade are illegal in some countries, including the US. Aged ambergris is described as sweet and earthy (Museums Victoria specimen record). Gulf News (AFP, 2021): 35 fishermen found a floating sperm whale carcass about 26 km off Aden in February 2021; the 127 kg of ambergris inside sold to a Gulf businessman for more than $1.5 million. The National: prized "for making scents last longer", about $12,000 a kilo. The whale, the boat, the bottle and the ads in the feed are illustrations (brand_a, brand_b, brand_c, yourbrand are placeholders).
+Rebuild: `python3 source/reel_whale_vo.py <kokoro-dir> <tmp>` → `node source/reel_whale.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames) → `python3 source/reel_whale_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_whale_scene.js` (three.js); the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Why would anyone pay a million dollars for whale vomit?
+> For perfume!
+> And it isn't even vomit.
+> It forms in a sperm whale's gut, around squid beaks.
+> Fresh, it stinks!
+> Years at sea make it sweet.
+> Yemeni fishermen found 127 kilos inside a dead whale.
+> It sold for one and a half million dollars!
+> Why? It makes perfume last longer.
+> Nobody paid for the lump. They paid for what it does.
+> Most ads sell the lump.
+> Sell what it does.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> In 2021, fishermen off Aden in Yemen found 127 kg of ambergris inside a dead sperm whale. It sold for more than $1.5 million.
+>
+> It isn't even vomit. It forms in the gut of a few sperm whales, around squid beaks they can't digest. Fresh, it stinks. Years at sea make it smell sweet.
+>
+> Nobody paid for the lump. They paid for what it does: it makes perfume last longer.
+>
+> Most ads sell the lump. The product, the specs, the new formula. The ads that sell show what it does for you.
+>
+> That's how we scale businesses with Meta ads and Instagram ads.
+>
+> Sources: BBC Science Focus, Gulf News, The National.
+>
+> #metaads #instagramads #adcreative
