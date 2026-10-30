@@ -502,3 +502,43 @@ Rebuild: `python3 source/reel_saw_vo.py <kokoro-dir> <tmp>` → `node source/ree
 > How the saw works. The blade carries a small electrical signal. Wood barely changes it. Skin does, because you conduct electricity, so the moment a finger (or a hot dog, which has about the same salt and moisture) touches a tooth, a spring fires an aluminum brake into the blade. It stops in under 5 milliseconds and drops below the table. The cost: the brake's single-use and the blade's usually ruined. Its inventor, Steve Gass, told NPR the big tool companies said "safety doesn't sell". So he started his own saw company. In the US, table saws cause about 4,000 amputations a year (CPSC figures, via the National Consumers League). Sources: NPR, Woodcraft, ToolsToday.
 >
 > #metaads #instagramads #woodworking
+
+## Reel: "Why would anyone shoot a brand new suit of armor?" (3D explainer, a Zack D. Films topic with our angle)
+File: `reels/mezmedia_reel_armor.mp4` (1080×1920, 30fps, 28.3s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: another topic from Zack D. Films' most watched shorts (the saw reel got 141 views), our old female voice with real highs and lows in the first seconds, a strong start, the camera angle changing every moment, faster than the saw reel. Topic: "Could Ancient Armor Stop Bullets?" (156M views, their fifth most watched). Our angle: the proof mark as the first ad. Armorers shot their own breastplates and left the dent in as a guarantee; a spotless one proved nothing; customers still scroll past promises and stop for proof.
+Fast: 28 seconds against the saw reel's 42.6, about 220 words a minute, and 20 camera set-ups in the first 19.5 seconds (a hard cut on almost every line, each shot moving): the musket aimed at the suit from behind the stock, the muzzle flash, a chase camera behind the ball in slow motion, the hit and the dent, "SOLD" stamped, a bullet-time orbit round a ball that punches through a plain plate (seen from the exit side), the suit flying apart and slamming back together with a card on plate thickness, a low hero shot with the weight counting to 39 kg, a sight locking on the chest, over the shoulder for the proof shot, a second chase camera, the dent forming, "PASSED" stamped, a light crossing the dent, the label "proof mark", and a spotless second suit that goes dark on "It proved nothing". Then the switch: the reel shrinks into a phone, swipes past three ads that only promise, and stops on an ad that shows the dent (a double-tap heart); then the pitch.
+The voice: af_heart with 30% af_sarah (the Eiffel and Rushmore voice), now read through `source/vo_expr.py`, which changes the melody inside the voice model instead of shifting pitch afterwards. Kokoro predicts a pitch curve and hands it to its decoder; a copy of the model (built by `vo_expr.build_model`) takes that curve as an input, along with a length for every phoneme, so each word gets its own accent: questions climb ("…suit of armor?"), punchlines drop ("It proved nothing."), key words go up and stretch ("To SELL it!", "On PURPOSE!"), and pauses sit where a person would breathe ("If the ball only dented it… it passed!"). Measured with Praat: the pitch moves over 15.8 semitones (5th to 95th percentile) against 11.2 for the Rushmore read, with the same speech quality (DNSMOS SIG 3.67 against 3.71); Whisper hears every line as written, and in the final mix every word over the gunshots.
+Facts and sources (details in `source/reel_armor_vo.py`): The Met (Cuirassier's Armor, 22258; Shot-Proof Cuirass, 31058): armorers fired a pistol or musket at a finished piece and left the dent as a guarantee of the steel; Royal Collection Trust (RCIN 67303-a): a London breastplate "bearing at the right of its chest the proof-mark of a musket-shot"; Worcester Art Museum: breastplates and helmets were often musket-proof, limbs only pistol-proof; a collector's note on Prince Maurits' cavalry armor: the dent "was not to be removed"; The Met (24985): a cuirassier armor of about 1610–30 weighs 39.24 kg. The suit, the musket and the plate are generic illustrations (small print says so); the feed's ads are placeholders (brand_a, brand_b, brand_c, yourbrand).
+Rebuild: `python3 source/reel_armor_vo.py <kokoro-dir> <tmp>` → `node source/reel_armor.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames) → `python3 source/reel_armor_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_armor_scene.js` (three.js); the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Why would anyone shoot a brand new suit of armor?
+> To sell it!
+> Back then, musket balls could punch right through steel.
+> So armor got thicker, and heavier.
+> Some suits hit 39 kilos!
+> But would it really stop a ball?
+> So the armorer would take a shot at it.
+> If the ball only dented it… it passed!
+> And that dent stayed in. On purpose!
+> A proof mark.
+> A spotless suit? It proved nothing.
+> Your customers are the same.
+> They scroll past promises.
+> They stop for proof.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> Armorers used to shoot their own breastplates before they sold them. If the ball only dented the steel, the armor passed. The dent stayed in on purpose, as a guarantee. It's called a proof mark.
+>
+> A spotless breastplate looked nicer. It proved nothing.
+>
+> Your ads work the same way. Nobody stops for "best quality, guaranteed". We all stop for proof we can see: the product taking the hit, the test, the before and after.
+>
+> That's how we scale businesses with Meta ads and Instagram ads. Proof first.
+>
+> The history: armorers proved breastplates with a pistol or musket shot and left the dent as a guarantee (The Met). A London breastplate in the Royal Collection still bears "the proof-mark of a musket-shot". As guns got stronger, armor got thicker. One cuirassier armor in The Met, made around 1610 to 1630, weighs 39.24 kg.
+>
+> #metaads #instagramads #ugcads

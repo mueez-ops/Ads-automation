@@ -307,7 +307,7 @@ function camAt(t) {
   }
   if (a === 'fly2') {
     const fl = flightAt(t), p = ballPos(fl ? fl[1] : 1);
-    return [p[0] + 0.6, p[1] - 0.25, p[2] + 2.1, p[0] + DA[0] * 6, p[1] + DA[1] * 6 + 0.45, p[2] + DA[2] * 6, 40];
+    return [p[0] + 0.3, p[1] + 0.35, p[2] + 2.2, p[0] + DA[0] * 6, p[1] + DA[1] * 6 + 0.6, p[2] + DA[2] * 6, 40];
   }
   if (a === 'orbit') {                               // round the ball in the air, the plate coming up behind it
     const z = PUNCH_Z0 - PLATE_V * (t - K.guns), ph = lerp(-0.85, 0.55, (t - t0) / (t1 - t0)), r = lerp(1.9, 1.5, (t - t0) / (t1 - t0));
@@ -559,9 +559,10 @@ function reelPage(c, r, t) {                         // one full-screen reel, 60
   if (r.kind !== 'ours') { rrx(c, 24, 1118, 552, 90, 18); c.fillStyle = 'rgba(255,255,255,.96)'; c.fill(); setF(c, '700 34px Body', 0); c.fillStyle = INK; c.fillText('Shop now', 54, 1176); c.textAlign = 'right'; c.fillText('›', 548, 1177); c.textAlign = 'left'; }
   c.fillStyle = 'rgba(255,255,255,.3)'; c.fillRect(0, 1254, 600, 7); c.fillStyle = WHT; c.fillRect(0, 1254, 600 * 0.6, 7);
 }
-const swipeAt = (t) => {                             // how many reels down the feed has gone
-  const a = K.scrollW - 0.06, b = K.stopW + 0.28, u = clamp((t - a) / (b - a));
-  return (REELS.length - 1) * (u < 0.5 ? 4 * u * u * u : 1 - Math.pow(-2 * u + 2, 3) / 2) + 0.025 * bump(t, b - 0.02, 0.35);
+const swipeAt = (t) => {                             // how many reels down the feed has gone: four quick flicks, each
+  let f = 0;                                         // promise on screen for a moment, the last landing on the proof
+  for (let i = 0; i < REELS.length - 1; i++) f += eio((t - (K.stopW - 0.15 - (REELS.length - 2 - i) * 0.36)) / 0.15);
+  return f - 0.03 * bump(t, K.stopW + 0.05, 0.3);
 };
 function feedUI(c, t) {
   const f = swipeAt(t), i0 = Math.floor(f), off = (f - i0) * 1280;
