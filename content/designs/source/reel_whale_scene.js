@@ -311,6 +311,7 @@ function setWorld(t) {
   if (t >= K.found) SKYSUN.position.set(-300, 25, -240);
   WAKE.forEach((m, i) => { const u = ((t * 0.5 + i / WAKE.length) % 1); m.position.set(BOAT.position.x - 1.5 - u * 6, 0.02, BOAT.position.z + 2 - u * 4); m.scale.setScalar(1 + u * 5); m.material.opacity = 0.25 * (1 - u); });
   BOAT.position.y = 0.04 * Math.sin(t * 1.8); BOAT.rotation.z = 0.03 * Math.sin(t * 1.4);
+  CARC.G.visible = BOAT.visible = t >= K.found - 0.1; WAKE.forEach((m) => { m.visible = BOAT.visible; });   // only once the fishermen are mentioned
   // the studio: the lump on its pedestal (or the scale), the perfume bottle, the spotlights
   const onScale = t >= K.n127 - 0.06 && t < K.inside - 0.05;
   HERO.position.set(onScale ? SCL[0] : PED_L[0], onScale ? 0.16 + 0.28 : PH_L + 0.04 + 0.28, onScale ? SCL[1] : PED_L[1]);
