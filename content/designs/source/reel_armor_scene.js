@@ -311,7 +311,7 @@ function camAt(t) {
   }
   if (a === 'orbit') {                               // round the ball in the air, the plate coming up behind it
     const z = PUNCH_Z0 - PLATE_V * (t - K.guns), ph = lerp(-0.85, 0.55, (t - t0) / (t1 - t0)), r = lerp(1.9, 1.5, (t - t0) / (t1 - t0));
-    return [PL[0] + Math.sin(ph) * r, PL[1] + 0.35, z + Math.cos(ph) * r, PL[0] - Math.sin(ph) * 0.4, PL[1] - 0.05, z - 1.2, 40];
+    return [PL[0] + Math.sin(ph) * r, PL[1] + 0.35, z + Math.cos(ph) * r, PL[0], PL[1] + 0.05, z - 0.15, 40];
   }
   const u = clamp((t - t0) / Math.max(0.05, t1 - t0)), k = 0.6 * ease(u) + 0.4 * u, A = VIEW[a], B = VIEW[b];
   return [...lerp3(A[0], B[0], k), ...lerp3(A[1], B[1], k), lerp(A[2], B[2], k)];
