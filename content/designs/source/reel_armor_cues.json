@@ -1,0 +1,815 @@
+{
+ "lines": {
+  "why": {
+   "s": 0.05,
+   "e": 2.167,
+   "text": "why would anyone shoot a brand new suit of armor"
+  },
+  "sell": {
+   "s": 2.207,
+   "e": 2.909,
+   "text": "to sell it"
+  },
+  "guns": {
+   "s": 3.009,
+   "e": 5.325,
+   "text": "back then musket balls could punch right through steel"
+  },
+  "thicker": {
+   "s": 5.385,
+   "e": 7.223,
+   "text": "so armor got thicker and heavier"
+  },
+  "kilos": {
+   "s": 7.273,
+   "e": 9.018,
+   "text": "some suits hit 39 kilos"
+  },
+  "really": {
+   "s": 9.118,
+   "e": 10.405,
+   "text": "but would it really stop a ball"
+  },
+  "shot": {
+   "s": 10.465,
+   "e": 12.017,
+   "text": "so the armorer would take a shot at it"
+  },
+  "passed": {
+   "s": 12.077,
+   "e": 14.194,
+   "text": "if the ball only dented it it passed"
+  },
+  "stayed": {
+   "s": 14.274,
+   "e": 16.225,
+   "text": "and that dent stayed in on purpose"
+  },
+  "mark": {
+   "s": 16.285,
+   "e": 17.194,
+   "text": "a proof mark"
+  },
+  "spotless": {
+   "s": 17.294,
+   "e": 18.23,
+   "text": "a spotless suit"
+  },
+  "nothing": {
+   "s": 18.27,
+   "e": 19.247,
+   "text": "it proved nothing"
+  },
+  "same": {
+   "s": 19.497,
+   "e": 20.825,
+   "text": "your customers are the same"
+  },
+  "scroll": {
+   "s": 20.875,
+   "e": 21.999,
+   "text": "they scroll past promises"
+  },
+  "stop": {
+   "s": 22.049,
+   "e": 23.224,
+   "text": "they stop for proof"
+  },
+  "scale": {
+   "s": 23.374,
+   "e": 25.262,
+   "text": "we scale businesses with ads like this"
+  },
+  "dm": {
+   "s": 25.342,
+   "e": 27.749,
+   "text": "DM us the word teardown for a free ad review"
+  }
+ },
+ "words": [
+  {
+   "w": "why",
+   "s": 0.079,
+   "e": 0.279,
+   "line": "why"
+  },
+  {
+   "w": "would",
+   "s": 0.304,
+   "e": 0.379,
+   "line": "why"
+  },
+  {
+   "w": "anyone",
+   "s": 0.429,
+   "e": 0.729,
+   "line": "why"
+  },
+  {
+   "w": "shoot",
+   "s": 0.804,
+   "e": 0.954,
+   "line": "why"
+  },
+  {
+   "w": "a",
+   "s": 0.954,
+   "e": 1.054,
+   "line": "why"
+  },
+  {
+   "w": "brand",
+   "s": 1.054,
+   "e": 1.329,
+   "line": "why"
+  },
+  {
+   "w": "new",
+   "s": 1.379,
+   "e": 1.504,
+   "line": "why"
+  },
+  {
+   "w": "suit",
+   "s": 1.579,
+   "e": 1.729,
+   "line": "why"
+  },
+  {
+   "w": "of",
+   "s": 1.754,
+   "e": 1.804,
+   "line": "why"
+  },
+  {
+   "w": "armor",
+   "s": 1.854,
+   "e": 2.429,
+   "line": "why"
+  },
+  {
+   "w": "to",
+   "s": 2.272,
+   "e": 2.322,
+   "line": "sell"
+  },
+  {
+   "w": "sell",
+   "s": 2.447,
+   "e": 2.672,
+   "line": "sell"
+  },
+  {
+   "w": "it",
+   "s": 2.722,
+   "e": 3.147,
+   "line": "sell"
+  },
+  {
+   "w": "back",
+   "s": 3.038,
+   "e": 3.238,
+   "line": "guns"
+  },
+  {
+   "w": "then",
+   "s": 3.263,
+   "e": 3.488,
+   "line": "guns"
+  },
+  {
+   "w": "musket",
+   "s": 3.588,
+   "e": 3.863,
+   "line": "guns"
+  },
+  {
+   "w": "balls",
+   "s": 3.888,
+   "e": 4.138,
+   "line": "guns"
+  },
+  {
+   "w": "could",
+   "s": 4.188,
+   "e": 4.263,
+   "line": "guns"
+  },
+  {
+   "w": "punch",
+   "s": 4.313,
+   "e": 4.513,
+   "line": "guns"
+  },
+  {
+   "w": "right",
+   "s": 4.588,
+   "e": 4.813,
+   "line": "guns"
+  },
+  {
+   "w": "through",
+   "s": 4.863,
+   "e": 4.963,
+   "line": "guns"
+  },
+  {
+   "w": "steel",
+   "s": 5.013,
+   "e": 5.588,
+   "line": "guns"
+  },
+  {
+   "w": "so",
+   "s": 5.472,
+   "e": 5.597,
+   "line": "thicker"
+  },
+  {
+   "w": "armor",
+   "s": 5.647,
+   "e": 5.872,
+   "line": "thicker"
+  },
+  {
+   "w": "got",
+   "s": 5.897,
+   "e": 6.047,
+   "line": "thicker"
+  },
+  {
+   "w": "thicker",
+   "s": 6.097,
+   "e": 6.397,
+   "line": "thicker"
+  },
+  {
+   "w": "and",
+   "s": 6.617,
+   "e": 6.692,
+   "line": "thicker"
+  },
+  {
+   "w": "heavier",
+   "s": 6.742,
+   "e": 7.592,
+   "line": "thicker"
+  },
+  {
+   "w": "some",
+   "s": 7.348,
+   "e": 7.523,
+   "line": "kilos"
+  },
+  {
+   "w": "suits",
+   "s": 7.573,
+   "e": 7.723,
+   "line": "kilos"
+  },
+  {
+   "w": "hit",
+   "s": 7.748,
+   "e": 7.923,
+   "line": "kilos"
+  },
+  {
+   "w": "39",
+   "s": 7.998,
+   "e": 8.473,
+   "line": "kilos"
+  },
+  {
+   "w": "kilos",
+   "s": 8.523,
+   "e": 9.223,
+   "line": "kilos"
+  },
+  {
+   "w": "but",
+   "s": 9.153,
+   "e": 9.253,
+   "line": "really"
+  },
+  {
+   "w": "would",
+   "s": 9.278,
+   "e": 9.353,
+   "line": "really"
+  },
+  {
+   "w": "it",
+   "s": 9.378,
+   "e": 9.428,
+   "line": "really"
+  },
+  {
+   "w": "really",
+   "s": 9.478,
+   "e": 9.703,
+   "line": "really"
+  },
+  {
+   "w": "stop",
+   "s": 9.753,
+   "e": 9.978,
+   "line": "really"
+  },
+  {
+   "w": "a",
+   "s": 9.978,
+   "e": 10.078,
+   "line": "really"
+  },
+  {
+   "w": "ball",
+   "s": 10.078,
+   "e": 10.628,
+   "line": "really"
+  },
+  {
+   "w": "so",
+   "s": 10.541,
+   "e": 10.641,
+   "line": "shot"
+  },
+  {
+   "w": "the",
+   "s": 10.666,
+   "e": 10.691,
+   "line": "shot"
+  },
+  {
+   "w": "armorer",
+   "s": 10.791,
+   "e": 11.141,
+   "line": "shot"
+  },
+  {
+   "w": "would",
+   "s": 11.166,
+   "e": 11.241,
+   "line": "shot"
+  },
+  {
+   "w": "take",
+   "s": 11.291,
+   "e": 11.441,
+   "line": "shot"
+  },
+  {
+   "w": "a",
+   "s": 11.441,
+   "e": 11.541,
+   "line": "shot"
+  },
+  {
+   "w": "shot",
+   "s": 11.541,
+   "e": 11.716,
+   "line": "shot"
+  },
+  {
+   "w": "at",
+   "s": 11.791,
+   "e": 11.816,
+   "line": "shot"
+  },
+  {
+   "w": "it",
+   "s": 11.866,
+   "e": 12.216,
+   "line": "shot"
+  },
+  {
+   "w": "if",
+   "s": 12.126,
+   "e": 12.201,
+   "line": "passed"
+  },
+  {
+   "w": "the",
+   "s": 12.226,
+   "e": 12.276,
+   "line": "passed"
+  },
+  {
+   "w": "ball",
+   "s": 12.326,
+   "e": 12.551,
+   "line": "passed"
+  },
+  {
+   "w": "only",
+   "s": 12.601,
+   "e": 12.801,
+   "line": "passed"
+  },
+  {
+   "w": "dented",
+   "s": 12.851,
+   "e": 13.126,
+   "line": "passed"
+  },
+  {
+   "w": "it",
+   "s": 13.176,
+   "e": 13.426,
+   "line": "passed"
+  },
+  {
+   "w": "it",
+   "s": 13.671,
+   "e": 13.721,
+   "line": "passed"
+  },
+  {
+   "w": "passed",
+   "s": 13.771,
+   "e": 14.346,
+   "line": "passed"
+  },
+  {
+   "w": "and",
+   "s": 14.325,
+   "e": 14.4,
+   "line": "stayed"
+  },
+  {
+   "w": "that",
+   "s": 14.425,
+   "e": 14.55,
+   "line": "stayed"
+  },
+  {
+   "w": "dent",
+   "s": 14.6,
+   "e": 14.75,
+   "line": "stayed"
+  },
+  {
+   "w": "stayed",
+   "s": 14.775,
+   "e": 15.0,
+   "line": "stayed"
+  },
+  {
+   "w": "in",
+   "s": 15.025,
+   "e": 15.3,
+   "line": "stayed"
+  },
+  {
+   "w": "on",
+   "s": 15.595,
+   "e": 15.67,
+   "line": "stayed"
+  },
+  {
+   "w": "purpose",
+   "s": 15.72,
+   "e": 16.42,
+   "line": "stayed"
+  },
+  {
+   "w": "a",
+   "s": 16.366,
+   "e": 16.466,
+   "line": "mark"
+  },
+  {
+   "w": "proof",
+   "s": 16.466,
+   "e": 16.716,
+   "line": "mark"
+  },
+  {
+   "w": "mark",
+   "s": 16.766,
+   "e": 17.416,
+   "line": "mark"
+  },
+  {
+   "w": "a",
+   "s": 17.356,
+   "e": 17.456,
+   "line": "spotless"
+  },
+  {
+   "w": "spotless",
+   "s": 17.456,
+   "e": 17.831,
+   "line": "spotless"
+  },
+  {
+   "w": "suit",
+   "s": 17.906,
+   "e": 18.456,
+   "line": "spotless"
+  },
+  {
+   "w": "it",
+   "s": 18.347,
+   "e": 18.422,
+   "line": "nothing"
+  },
+  {
+   "w": "proved",
+   "s": 18.472,
+   "e": 18.772,
+   "line": "nothing"
+  },
+  {
+   "w": "nothing",
+   "s": 18.822,
+   "e": 19.497,
+   "line": "nothing"
+  },
+  {
+   "w": "your",
+   "s": 19.538,
+   "e": 19.638,
+   "line": "same"
+  },
+  {
+   "w": "customers",
+   "s": 19.688,
+   "e": 20.188,
+   "line": "same"
+  },
+  {
+   "w": "are",
+   "s": 20.213,
+   "e": 20.288,
+   "line": "same"
+  },
+  {
+   "w": "the",
+   "s": 20.313,
+   "e": 20.388,
+   "line": "same"
+  },
+  {
+   "w": "same",
+   "s": 20.463,
+   "e": 21.063,
+   "line": "same"
+  },
+  {
+   "w": "they",
+   "s": 20.923,
+   "e": 20.998,
+   "line": "scroll"
+  },
+  {
+   "w": "scroll",
+   "s": 21.048,
+   "e": 21.273,
+   "line": "scroll"
+  },
+  {
+   "w": "past",
+   "s": 21.298,
+   "e": 21.473,
+   "line": "scroll"
+  },
+  {
+   "w": "promises",
+   "s": 21.498,
+   "e": 22.173,
+   "line": "scroll"
+  },
+  {
+   "w": "they",
+   "s": 22.092,
+   "e": 22.242,
+   "line": "stop"
+  },
+  {
+   "w": "stop",
+   "s": 22.292,
+   "e": 22.592,
+   "line": "stop"
+  },
+  {
+   "w": "for",
+   "s": 22.642,
+   "e": 22.742,
+   "line": "stop"
+  },
+  {
+   "w": "proof",
+   "s": 22.792,
+   "e": 23.467,
+   "line": "stop"
+  },
+  {
+   "w": "we",
+   "s": 23.406,
+   "e": 23.481,
+   "line": "scale"
+  },
+  {
+   "w": "scale",
+   "s": 23.531,
+   "e": 23.806,
+   "line": "scale"
+  },
+  {
+   "w": "businesses",
+   "s": 23.856,
+   "e": 24.356,
+   "line": "scale"
+  },
+  {
+   "w": "with",
+   "s": 24.381,
+   "e": 24.506,
+   "line": "scale"
+  },
+  {
+   "w": "ads",
+   "s": 24.581,
+   "e": 24.781,
+   "line": "scale"
+  },
+  {
+   "w": "like",
+   "s": 24.806,
+   "e": 24.931,
+   "line": "scale"
+  },
+  {
+   "w": "this",
+   "s": 24.981,
+   "e": 25.481,
+   "line": "scale"
+  },
+  {
+   "w": "DM",
+   "s": 25.391,
+   "e": 25.741,
+   "line": "dm"
+  },
+  {
+   "w": "us",
+   "s": 25.791,
+   "e": 25.941,
+   "line": "dm"
+  },
+  {
+   "w": "the",
+   "s": 25.966,
+   "e": 26.016,
+   "line": "dm"
+  },
+  {
+   "w": "word",
+   "s": 26.066,
+   "e": 26.241,
+   "line": "dm"
+  },
+  {
+   "w": "teardown",
+   "s": 26.291,
+   "e": 26.741,
+   "line": "dm"
+  },
+  {
+   "w": "for",
+   "s": 26.791,
+   "e": 26.916,
+   "line": "dm"
+  },
+  {
+   "w": "a",
+   "s": 26.916,
+   "e": 27.016,
+   "line": "dm"
+  },
+  {
+   "w": "free",
+   "s": 27.016,
+   "e": 27.216,
+   "line": "dm"
+  },
+  {
+   "w": "ad",
+   "s": 27.266,
+   "e": 27.416,
+   "line": "dm"
+  },
+  {
+   "w": "review",
+   "s": 27.441,
+   "e": 28.066,
+   "line": "dm"
+  }
+ ],
+ "voice_end": 27.749,
+ "end": 28.349,
+ "at": {
+  "why:why": 0.079,
+  "why:would": 0.304,
+  "why:anyone": 0.429,
+  "why:shoot": 0.804,
+  "why:a": 0.954,
+  "why:brand": 1.054,
+  "why:new": 1.379,
+  "why:suit": 1.579,
+  "why:of": 1.754,
+  "why:armor": 1.854,
+  "sell:to": 2.272,
+  "sell:sell": 2.447,
+  "sell:it": 2.722,
+  "guns:back": 3.038,
+  "guns:then": 3.263,
+  "guns:musket": 3.588,
+  "guns:balls": 3.888,
+  "guns:could": 4.188,
+  "guns:punch": 4.313,
+  "guns:right": 4.588,
+  "guns:through": 4.863,
+  "guns:steel": 5.013,
+  "thicker:so": 5.472,
+  "thicker:armor": 5.647,
+  "thicker:got": 5.897,
+  "thicker:thicker": 6.097,
+  "thicker:and": 6.617,
+  "thicker:heavier": 6.742,
+  "kilos:some": 7.348,
+  "kilos:suits": 7.573,
+  "kilos:hit": 7.748,
+  "kilos:39": 7.998,
+  "kilos:kilos": 8.523,
+  "really:but": 9.153,
+  "really:would": 9.278,
+  "really:it": 9.378,
+  "really:really": 9.478,
+  "really:stop": 9.753,
+  "really:a": 9.978,
+  "really:ball": 10.078,
+  "shot:so": 10.541,
+  "shot:the": 10.666,
+  "shot:armorer": 10.791,
+  "shot:would": 11.166,
+  "shot:take": 11.291,
+  "shot:a": 11.441,
+  "shot:shot": 11.541,
+  "shot:at": 11.791,
+  "shot:it": 11.866,
+  "passed:if": 12.126,
+  "passed:the": 12.226,
+  "passed:ball": 12.326,
+  "passed:only": 12.601,
+  "passed:dented": 12.851,
+  "passed:it": 13.671,
+  "passed:passed": 13.771,
+  "stayed:and": 14.325,
+  "stayed:that": 14.425,
+  "stayed:dent": 14.6,
+  "stayed:stayed": 14.775,
+  "stayed:in": 15.025,
+  "stayed:on": 15.595,
+  "stayed:purpose": 15.72,
+  "mark:a": 16.366,
+  "mark:proof": 16.466,
+  "mark:mark": 16.766,
+  "spotless:a": 17.356,
+  "spotless:spotless": 17.456,
+  "spotless:suit": 17.906,
+  "nothing:it": 18.347,
+  "nothing:proved": 18.472,
+  "nothing:nothing": 18.822,
+  "same:your": 19.538,
+  "same:customers": 19.688,
+  "same:are": 20.213,
+  "same:the": 20.313,
+  "same:same": 20.463,
+  "scroll:they": 20.923,
+  "scroll:scroll": 21.048,
+  "scroll:past": 21.298,
+  "scroll:promises": 21.498,
+  "stop:they": 22.092,
+  "stop:stop": 22.292,
+  "stop:for": 22.642,
+  "stop:proof": 22.792,
+  "scale:we": 23.406,
+  "scale:scale": 23.531,
+  "scale:businesses": 23.856,
+  "scale:with": 24.381,
+  "scale:ads": 24.581,
+  "scale:like": 24.806,
+  "scale:this": 24.981,
+  "dm:DM": 25.391,
+  "dm:us": 25.791,
+  "dm:the": 25.966,
+  "dm:word": 26.066,
+  "dm:teardown": 26.291,
+  "dm:for": 26.791,
+  "dm:a": 26.916,
+  "dm:free": 27.016,
+  "dm:ad": 27.266,
+  "dm:review": 27.441
+ }
+}
