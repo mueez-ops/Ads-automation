@@ -82,10 +82,10 @@ const EV = [];
 const ev = (t, k, g = 1, o = {}) => EV.push({ t: +t.toFixed(3), k, g, ...o });
 ev(0, 'room', 0.42, { d: T0.feed - 0.1 }); ev(0, 'scratch', 0.5, { d: K.equals - 0.1 });
 ev(K.equals - 0.06, 'whoosh_c', 0.28); ev(K.equals, 'clang', 0.5); ev(K.equals + 0.02, 'thump', 0.3);
-ev(K.sickL - 0.05, 'whoosh_soft', 0.22); ev(K.sick - 0.05, 'sigh', 0.36); ev(K.writing - 0.06, 'whoosh_soft', 0.2); ev(K.writing, 'scratch', 0.3, { d: Math.max(0.2, K.isq - K.writing - 0.08) });   // quiet under 'is equal to'
+ev(K.sickL - 0.05, 'whoosh_soft', 0.22); ev(K.sick - 0.05, 'sigh', 0.36); ev(K.writing - 0.06, 'whoosh_soft', 0.2); ev(K.writing, 'scratch', 0.3, { d: Math.max(0.2, K.isq - K.writing - 0.25) });   // silent for the pause before 'is equal to'
 ev(K.docL - 0.05, 'whoosh_soft', 0.24); ev(K.n1557, 'stamp', 0.36); ev(K.welsh, 'scratch', 0.3, { d: K.math - K.welsh - 0.1 });
 ev(K.math - 0.06, 'whoosh_c', 0.24); ev(K.book, 'bookthud', 0.42);
-ev(K.againL - 0.05, 'whoosh_soft', 0.22); for (let i = 0; i < 9; i++) { const tf = K.wrote + (K.a2 - K.wrote) * i / 9; ev(tf, 'flip', tf < K.a1 - 0.05 ? 0.07 : 0.2 + 0.02 * i, { pan: (i % 2 ? 0.2 : -0.2) }); }
+ev(K.againL - 0.05, 'whoosh_soft', 0.22); for (let i = 0; i < 9; i++) { const tf = K.wrote + (K.a2 - K.wrote) * i / 9; if (tf > K.a1 - 0.05) ev(tf, 'flip', 0.2 + 0.02 * i, { pan: (i % 2 ? 0.2 : -0.2) }); }   // none under 'is equal to'
 ev(K.a2 - 0.06, 'whoosh_c', 0.26); ev(K.a3, 'bookthud', 0.5); ev(K.a3 + 0.02, 'thump', 0.3);
 ev(K.linesL - 0.05, 'whoosh_soft', 0.22); ev(K.linesL + 0.05, 'ding', 0.34); ev(K.drew, 'stroke', 0.42); ev(K.drew + 0.42, 'stroke', 0.42, { pan: 0.1 });
 ev(K.why2L - 0.05, 'whoosh_c', 0.26); ev(K.why2L, 'riser', 0.2, { d: 0.9 });

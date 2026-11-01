@@ -47,6 +47,27 @@ LINES = [
 POLISH = ("highpass=f=90,equalizer=f=250:t=q:w=1:g=-2.5,equalizer=f=3500:t=q:w=1.2:g=3,equalizer=f=9000:t=q:w=1:g=1.5,"
           "acompressor=threshold=-22dB:ratio=4:attack=3:release=60:makeup=4,alimiter=limit=0.9")
 
+# a short click Kokoro leaves after "writing", in the pause before "is equal to", which is heard as "it is equal to":
+# silence the 60 ms after the word (timing unchanged)
+CLEAN = [("sick", "writing")]
+
+
+def clean(out_dir, cues_path):
+    import json
+    import numpy as np
+    import soundfile as sf
+    words = json.loads(Path(cues_path).read_text())["words"]
+    wav = Path(out_dir) / "vo.wav"
+    x, sr = sf.read(wav)
+    for line, word in CLEAN:
+        w = next(q for q in words if q["line"] == line and q["w"] == word)
+        i0, i1 = int((w["e"] + 0.006) * sr), int((w["e"] + 0.066) * sr)
+        g = np.zeros(i1 - i0); r = int(0.004 * sr); g[:r] = np.linspace(1, 0, r)
+        x[i0:i1] = x[i0:i1] * (g[:, None] if x.ndim == 2 else g)
+    sf.write(wav, x, sr)
+
+
 if __name__ == "__main__":
-    make_vo(LINES, sys.argv[1], sys.argv[2], Path(__file__).parent / "reel_equals_cues.json", tail=0.6,
-            voice={"af_heart": 0.7, "af_sarah": 0.3}, polish=POLISH)
+    cues = Path(__file__).parent / "reel_equals_cues.json"
+    make_vo(LINES, sys.argv[1], sys.argv[2], cues, tail=0.6, voice={"af_heart": 0.7, "af_sarah": 0.3}, polish=POLISH)
+    clean(sys.argv[2], cues)
