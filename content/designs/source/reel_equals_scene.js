@@ -232,9 +232,16 @@ const placeLimb = (mesh, a, b) => { mesh.position.copy(a).add(b).multiplyScalar(
 const ball = (r, m) => { const b = new X.Mesh(new X.SphereGeometry(r, 14, 10), m); ROOM.add(b); return b; };
 const RUP = limb(0.052, gown), RFO = limb(0.046, gown), LUP = limb(0.052, gown), LFO = limb(0.046, gown);
 const RJ = [ball(0.052, gown), ball(0.046, gown)], LJ = [ball(0.052, gown), ball(0.046, gown)];
-const handM = MAT('#C99A78', { r: 0.6 }), RFIST = ball(0.026, handM), LFIST = ball(0.028, handM), RCUFF = new X.Mesh(new X.CylinderGeometry(0.05, 0.05, 0.03, 16), white), LCUFF = new X.Mesh(new X.CylinderGeometry(0.05, 0.05, 0.03, 16), white);
+const handM = MAT('#C99A78', { r: 0.6 }), RFIST = new X.Group(), LFIST = ball(0.028, handM), RCUFF = new X.Mesh(new X.CylinderGeometry(0.05, 0.05, 0.03, 16), white), LCUFF = new X.Mesh(new X.CylinderGeometry(0.05, 0.05, 0.03, 16), white);
 ROOM.add(RCUFF, LCUFF);
-RFIST.scale.set(1, 0.85, 1.3); LFIST.scale.set(1.2, 0.7, 1.35);
+LFIST.scale.set(1.2, 0.7, 1.35);
+{                                                     // his writing hand: +y runs up the quill; fingers wrap the shaft, the thumb on the far side
+  ROOM.add(RFIST);
+  const palm = new X.Mesh(new X.SphereGeometry(0.021, 16, 12), handM); palm.scale.set(1.05, 1.2, 0.85); palm.position.set(0.017, 0.012, 0.008); RFIST.add(palm);
+  [-0.006, 0.004, 0.014].forEach((y0, i) => { const f = new X.Mesh(new X.CapsuleGeometry(0.0072, 0.014, 4, 8), handM); f.rotation.z = Math.PI / 2 - 0.25; f.position.set(0.006 - 0.002 * i, y0, -0.009); RFIST.add(f); });
+  const idx = new X.Mesh(new X.CapsuleGeometry(0.0068, 0.026, 4, 8), handM); idx.rotation.x = 0.22; idx.position.set(0.004, -0.016, -0.004); RFIST.add(idx);
+  const th = new X.Mesh(new X.CapsuleGeometry(0.0078, 0.02, 4, 8), handM); th.rotation.z = 0.35; th.position.set(-0.009, -0.006, 0.007); RFIST.add(th);
+}
 
 // ---------- the gold "=": two bars ----------
 const gold = MAT('#E7B34A', { m: 1, r: 0.22, env: 1.6 });
@@ -355,7 +362,7 @@ function setWorld(t) {
   const grip = t < K.a3 || t >= K.drew - 0.15 && t < K.drew + 1.2 ? QUILL.position.clone().add(dir.clone().multiplyScalar(0.07)) : v3([0.22, DESK_Y + 0.04, -0.12]).lerp(v3([0.2, DESK_Y + 0.05, -0.05]), P.drop);
   const wristR = grip.clone().add(v3([0.03, 0.03, 0.06])), elbR = shR.clone().add(wristR).multiplyScalar(0.5).add(v3([0.12, -0.14, 0.04]));
   placeLimb(RUP, shR, elbR); placeLimb(RFO, elbR, wristR); RJ[0].position.copy(shR); RJ[1].position.copy(elbR);
-  RFIST.position.copy(grip); RCUFF.position.copy(wristR); RCUFF.quaternion.setFromUnitVectors(v3([0, 1, 0]), wristR.clone().sub(elbR).normalize());
+  RFIST.position.copy(grip); RFIST.quaternion.setFromUnitVectors(v3([0, 1, 0]), dir); RCUFF.position.copy(wristR); RCUFF.quaternion.setFromUnitVectors(v3([0, 1, 0]), wristR.clone().sub(elbR).normalize());
   const handL = v3([-0.24, DESK_Y + 0.025, -0.24]).add(v3([0, 0, 0.1 * P.drop])), wristL = handL.clone().add(v3([-0.02, 0.01, 0.07])), elbL = shL.clone().add(wristL).multiplyScalar(0.5).add(v3([-0.12, -0.13, 0.05]));
   placeLimb(LUP, shL, elbL); placeLimb(LFO, elbL, wristL); LJ[0].position.copy(shL); LJ[1].position.copy(elbL);
   LFIST.position.copy(handL); LCUFF.position.copy(wristL); LCUFF.quaternion.setFromUnitVectors(v3([0, 1, 0]), wristL.clone().sub(elbL).normalize());

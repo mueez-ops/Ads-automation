@@ -102,7 +102,8 @@ ev(K.d1 - 0.05, 'whoosh_soft', 0.28); ev(K.d2, 'hit', 0.34);
 ev(K.handle, 'pop', 0.3);
 // the score: a low drone under the question; the groove from "In 1557", a breath before "No two things can be more
 // equal", a warm lift as the rails run to infinity; lighter under the feed, and back for the pitch
-const MUSIC = { start: K.docL, hush: [K.why2L - 0.05, K.equalL - 0.02], dawn: K.equalL, feed: T0.feed, pitch: T0.pitch, end: L.dm.s };
+const MUSIC = { start: K.docL, hush: [K.why2L - 0.05, K.equalL - 0.02], dawn: K.equalL, feed: T0.feed, pitch: T0.pitch, end: L.dm.s,
+  quiet: [[K.wrote + 0.1, at('again', 2) + 0.02]] };   // no drum in the pause before the second 'is equal to'
 fs.writeFileSync(path.join(__dirname, 'reel_equals_events.json'), JSON.stringify({ cues: C, shots: SHOTS, captions: CH, events: EV, music: MUSIC, blur: BLUR }, null, 1));
 
 (async () => {

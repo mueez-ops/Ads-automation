@@ -268,6 +268,9 @@ def groove(trk, t0, t1, key, beat=True, plucks=True, pads=True, level=1.0, g0=0.
     while g0 + k * BEAT / 2 < t1 - 0.02:
         tt, kr = g0 + k * BEAT / 2, k - k0
         bar = (kr // 8) % 4
+        if any(a <= tt <= b for a, b in M.get("quiet", [])):     # a pause in the voice that must stay clear
+            k += 1
+            continue
         if beat is True and kr % 2 == 0:
             trk.add(S.kick(), tt, 0.6 * level)
         if beat is True and kr % 4 == 2:
