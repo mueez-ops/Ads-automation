@@ -581,3 +581,43 @@ Rebuild: `python3 source/reel_whale_vo.py <kokoro-dir> <tmp>` → `node source/r
 > Sources: BBC Science Focus, Gulf News, The National.
 >
 > #metaads #instagramads #adcreative
+
+## Reel: "Why would anyone put a bell on a grave?" (3D explainer, the armor reel's method)
+File: `reels/mezmedia_reel_bell.mp4` (1080×1920, 30fps, 28.9s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: another reel made the same way as the armor and whale reels (the armor reel got 1,800 views with a 19% skip rate). Topic: Zack D. Films' "Why Did People Put Bells On Graves?" (108M views on YouTube). Our angle: the bell was never the product, peace of mind was; find the customer's fear, then sell them the bell.
+Same method: a "Why would anyone…?" hook with something happening on the first frame (the grave bell already swinging under a full moon), the same female voice and melody engine (`source/vo_expr.py`; pitch range 14.4 semitones, against 11.2 for the older female reels), about 220 words a minute, and 21 camera set-ups in the first 22 seconds: the ringing bell, a close-up with its label, a dive through the ground to the coffin, the man inside whose eyes snap open on "wasn't dead!", a row of graves with bells for "In the 1800s", the hinged lid slamming shut over him on "terrified" with three nails, earth raining on the lid, the pipe, post and bell flying in for "safety coffins", the pipe at the surface, his eyes darting on "Wake up underground", his hand pulling the cord, the bell ringing above ground as the night watchman's lantern comes, an overhead of the man lying buried while a clock runs to 1:15 hrs, his top hat popping out of the pipe, 22 patents raining down, a wide empty graveyard with "known rescues: 0", a still bell against the moon, the bell alone on a turntable in a studio for "the product", and the sun coming up behind the grave for "Peace of mind". Then the switch: our reel shrinks into a phone that flicks past three ads listing features and stops on one that names a fear ("Worried it won't fit? Free returns. Forever.", with a little bell and a double-tap heart); then the pitch.
+Facts and sources (details in `source/reel_bell_vo.py`): Wikipedia, "Safety coffin": the fear of being buried alive peaked in the 19th-century cholera epidemics, when fear of contagion led to quick burials; most safety coffins had a cord attached to a bell that the person could ring if they revived; Taberger's design put the bell above ground to alert the cemetery's night watchman. Weird NJ, "Mr. Vester's Safety Coffin" (citing the New York Times of 2 September 1868 and Jan Bondeson's *Buried Alive*): Franz Vester of Newark patented his burial case in 1868 (US patent 81,437: a tube to the surface with a ladder, and a cord to a bell) and stayed buried for an hour and 15 minutes in a public demonstration; at least 22 patents for safety coffins were applied for between 1868 and 1925. The Phrase Finder, "Saved by the bell": there is no evidence anyone was ever saved by one, or that they were even used; the phrase comes from boxing. The man, his top hat, the lantern, the studio and the ads in the feed are illustrations (brand_a, brand_b, brand_c, yourbrand are placeholders).
+Rebuild: `python3 source/reel_bell_vo.py <kokoro-dir> <tmp>` → `node source/reel_bell.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames) → `python3 source/reel_bell_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_bell_scene.js` (three.js); the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Why would anyone put a bell on a grave?
+> In case the person inside wasn't dead!
+> In the 1800s, people were terrified of being buried alive.
+> So inventors built safety coffins.
+> Wake up underground, pull the cord... and a bell rings above you!
+> One inventor had himself buried to prove it worked.
+> Inventors filed at least 22 patents.
+> Nobody is known to have been saved by one.
+> The bell was never the product. Peace of mind was.
+> Find their fear.
+> Sell them the bell.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> In 1868, Franz Vester of Newark had himself buried for an hour and 15 minutes. On purpose. He wanted to prove his safety coffin worked.
+>
+> In the 1800s, people were so afraid of being buried alive that inventors put a cord inside the coffin, tied to a bell above the grave. Wake up underground, pull the cord, and the bell rings for the night watchman. At least 22 safety coffin patents were filed between 1868 and 1925.
+>
+> Nobody's known to have been saved by one.
+>
+> The bell was never the product. Peace of mind was.
+>
+> Most ads you scroll past list features: premium quality, 24/7 support, new and improved. The ads that sell find your customer's fear first. Then they sell them the bell.
+>
+> That's how we scale businesses with Meta ads and Instagram ads.
+>
+> Sources: Wikipedia ("Safety coffin"), Weird NJ, The Phrase Finder.
+>
+> #metaads #instagramads #adcreative
