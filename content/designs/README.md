@@ -621,3 +621,44 @@ Rebuild: `python3 source/reel_bell_vo.py <kokoro-dir> <tmp>` → `node source/re
 > Sources: Wikipedia ("Safety coffin"), Weird NJ, The Phrase Finder.
 >
 > #metaads #instagramads #adcreative
+
+## Reel: "Why would anyone invent the equals sign?" (3D explainer, the armor reel's method)
+File: `reels/mezmedia_reel_equals.mp4` (1080×1920, 30fps, 27.8s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: another reel made the same way as the armor, whale and bell reels. Topic: Zack D. Films' "How The Equals Sign Was Invented" (92M views on YouTube). Our angle: he turned three words into two lines; most ads say too much, say it in two lines.
+Same method: a "Why would anyone…?" hook with something happening on the first frame (a quill racing across a page by candlelight), the same female voice and melody engine (`source/vo_expr.py`; pitch range 14.3 semitones, against 11.2 for the older female reels; "is equal to" droned low each time it is quoted), about 215 words a minute, and 15 camera set-ups in the first 20 seconds: the quill writing, a gold "=" slamming onto the book, Recorde's fed-up face (sighing on "sick"), the page filling with "is equalle to" over his shoulder, the candlelit study with a "1557" stamp, the book's title, pages flipping, the phrase piling up over everything on "again, and again, and again!" as his head drops onto the desk, the quill drawing two long lines, the lines lifting off the page as gold bars, twin lines running to infinity in the dark with his words "noe .2. thynges, can be moare equalle", his long sign next to today's "=", a calculator's "=" key pressed (2+2, then 4), and the three words "is", "equalle", "to" snapping into the two gold bars. Then the switch: our reel shrinks into a phone that flicks past ads with walls of text and stops on one that says it in two lines ("Cold for 24 hours. Fits your cup holder.", with a double-tap heart); then the pitch.
+Facts and sources (details in `source/reel_equals_vo.py`): Robert Recorde (born in Tenby, Wales, about 1510; MD, Cambridge, 1545) was a physician and mathematician; the equals sign first appears in his algebra book *The Whetstone of Witte* (London, 1557) (Wikipedia, "Robert Recorde" and "Equals sign"; MAA Convergence, "Mathematical Treasures: Robert Recorde's Whetstone of Witte"). His reason, in the book: "And to auoide the tediouse repetition of these woordes : is equalle to : I will sette as I doe often in woorke vse, a paire of paralleles, or Gemowe lines of one lengthe, thus: =====, bicause noe .2. thynges, can be moare equalle." (quoted by Caltech, "Question of the week: who invented the equal sign and why?", and the MacTutor archive; "Gemowe" means twin). He drew the sign much longer than today's (MAA Convergence). It was not popular at first and became the standard around 1700, helped by Newton and Leibniz using it (Wikipedia, "Equals sign"). The study, Recorde's look, the calculator and the ads in the feed are illustrations (brand_a, brand_b, brand_c, yourbrand are placeholders).
+Rebuild: `python3 source/reel_equals_vo.py <kokoro-dir> <tmp>` → `node source/reel_equals.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames) → `python3 source/reel_equals_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_equals_scene.js` (three.js); the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Why would anyone invent the equals sign?
+> Because he was sick of writing "is equal to"!
+> In 1557, a Welsh doctor was writing a math book.
+> He wrote "is equal to"... again, and again, and again!
+> So he drew two lines instead.
+> But why two lines?
+> No two things can be more equal.
+> His version was way longer!
+> Now it's on every calculator.
+> He turned three words into two lines.
+> Most ads say too much.
+> Say it in two lines.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> In 1557, a Welsh doctor named Robert Recorde got tired of writing "is equal to" in his algebra book, over and over, so he drew two lines instead.
+>
+> Why two lines? In his own spelling: "bicause noe .2. thynges, can be moare equalle."
+>
+> His sign was much longer than ours, and it took over a century to catch on. Now it's on every calculator you've ever used.
+>
+> Three words. Two lines.
+>
+> Most ads say too much. The ones that sell say it in two lines.
+>
+> That's how we scale businesses with Meta ads and Instagram ads.
+>
+> Sources: MAA Convergence, Caltech, Wikipedia ("Equals sign").
+>
+> #metaads #instagramads #adcreative
