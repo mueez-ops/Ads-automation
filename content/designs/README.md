@@ -662,3 +662,40 @@ Rebuild: `python3 source/reel_equals_vo.py <kokoro-dir> <tmp>` → `node source/
 > Sources: MAA Convergence, Caltech, Wikipedia ("Equals sign").
 >
 > #metaads #instagramads #adcreative
+
+## Reel: "Why would anyone drill a tiny hole in a gas nozzle?" (3D explainer, the armor reel's method)
+File: `reels/mezmedia_reel_pump.mp4` (1080×1920, 30fps, 25.1s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: another reel made the same way as the armor, whale, bell and equals reels. Topic: Zack D. Films' "How Gas Pumps Know When To Stop" (87M views on YouTube). Our angle: one tiny hole tells the pump to stop; your ads need that hole, or they keep pumping money after they stop working.
+Same method: a "Why would anyone…?" hook with something happening on the first frame (a pump's dollars racing), the same female voice and melody engine (`source/vo_expr.py`; pitch range 14.1 semitones, against 11.2 for the older female reels), about 230 words a minute, and 13 camera set-ups in the first 15 seconds: the pump's display counting, a big see-through cutaway of the nozzle with the tiny hole glowing at its tip, the trigger letting go and the display freezing green on "stop", fuel rushing past the venturi, air sucked in at the hole and up a little blue tube, the gas level rising to cover the hole, the air stopping, the diaphragm being pulled, the latch tripping and the spring snapping the valve shut (red), the forecourt at night with a sensor and a chip crossed out on "No sensors. No electronics.", and the hole on its own: "Just a hole". Then the switch: our reel shrinks into a phone and flicks to an ad with a pump-style spend meter on it; on "after they stop working" the ad drains of colour and its results line goes flat while the spend keeps pumping faster; on "Know when to stop" the meter freezes green and the ad's switch flips to Paused; then the pitch.
+Facts and sources (details in `source/reel_pump_vo.py`): the shut-off is purely mechanical; fuel rushing through a venturi inside the nozzle creates low pressure, which draws air through a small port near the tip of the spout and up a tube to a chamber in the handle; when the tank is full, fuel covers the port, the air stops, the vacuum in the chamber builds and pulls a small diaphragm, which trips the latch holding the main valve open, and a spring snaps the valve shut (Hagerty, "How the Venturi effect enables gas pump shutoffs and carburetors"; ABC News, "Answer Geek: How Gas Pumps Sense Full Tank"; Motorcyclist, "How Does A Gas Pump Nozzle Work?"). The forecourt, the cutaway, the spend meter and the ad in the feed are illustrations (yourbrand is a placeholder; the meter's figures are not real data).
+Rebuild: `python3 source/reel_pump_vo.py <kokoro-dir> <tmp>` → `node source/reel_pump.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames) → `python3 source/reel_pump_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_pump_scene.js` (three.js); the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Why would anyone drill a tiny hole in a gas nozzle?
+> So the pump knows when to stop!
+> As gas rushes through, it sucks air in through the hole.
+> When your tank is full, the gas covers the hole.
+> No more air.
+> The suction yanks a little diaphragm, and the valve snaps shut!
+> No sensors. No electronics. Just a hole.
+> Your ads need that hole.
+> Or they keep pumping money after they stop working.
+> Know when to stop.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> A gas pump nozzle has a tiny hole near the tip. As fuel rushes through, it sucks air in through that hole. When your tank is full, the fuel covers the hole, the air stops, and the suction yanks a little diaphragm that snaps the valve shut.
+>
+> No sensors. No electronics. Just a hole.
+>
+> Your ads need that hole. Without it, they keep pumping money long after they've stopped working.
+>
+> Know when to stop. Then put that budget behind the ads that still sell.
+>
+> That's how we scale businesses with Meta ads and Instagram ads.
+>
+> Sources: Hagerty, ABC News, Motorcyclist.
+>
+> #metaads #instagramads #adcreative
