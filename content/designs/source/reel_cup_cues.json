@@ -1,0 +1,697 @@
+{
+ "lines": {
+  "why": {
+   "s": 0.05,
+   "e": 2.676,
+   "text": "why would a company buy a stranger a brand new car"
+  },
+  "cup": {
+   "s": 2.726,
+   "e": 4.242,
+   "text": "because her cup survived a fire"
+  },
+  "shell": {
+   "s": 4.342,
+   "e": 5.521,
+   "text": "her car burned to a shell"
+  },
+  "fine": {
+   "s": 5.581,
+   "e": 8.013,
+   "text": "but in the cupholder her Stanley cup was fine"
+  },
+  "ice": {
+   "s": 8.073,
+   "e": 9.422,
+   "text": "and there was still ice inside"
+  },
+  "views": {
+   "s": 9.522,
+   "e": 11.406,
+   "text": "her video got tens of millions of views"
+  },
+  "reply": {
+   "s": 11.486,
+   "e": 14.216,
+   "text": "Stanley's president replied we'll replace your car"
+  },
+  "did": {
+   "s": 14.276,
+   "e": 15.029,
+   "text": "and they did"
+  },
+  "made": {
+   "s": 15.189,
+   "e": 17.691,
+   "text": "Stanley didn't make that ad a customer did"
+  },
+  "find": {
+   "s": 17.791,
+   "e": 20.672,
+   "text": "find your customers' proof then put money behind it"
+  },
+  "scale": {
+   "s": 20.822,
+   "e": 22.71,
+   "text": "we scale businesses with ads like this"
+  },
+  "dm": {
+   "s": 22.79,
+   "e": 25.197,
+   "text": "DM us the word teardown for a free ad review"
+  }
+ },
+ "words": [
+  {
+   "w": "why",
+   "s": 0.077,
+   "e": 0.252,
+   "line": "why"
+  },
+  {
+   "w": "would",
+   "s": 0.277,
+   "e": 0.352,
+   "line": "why"
+  },
+  {
+   "w": "a",
+   "s": 0.352,
+   "e": 0.452,
+   "line": "why"
+  },
+  {
+   "w": "company",
+   "s": 0.452,
+   "e": 0.977,
+   "line": "why"
+  },
+  {
+   "w": "buy",
+   "s": 1.027,
+   "e": 1.152,
+   "line": "why"
+  },
+  {
+   "w": "a",
+   "s": 1.152,
+   "e": 1.252,
+   "line": "why"
+  },
+  {
+   "w": "stranger",
+   "s": 1.252,
+   "e": 1.727,
+   "line": "why"
+  },
+  {
+   "w": "a",
+   "s": 1.727,
+   "e": 1.902,
+   "line": "why"
+  },
+  {
+   "w": "brand",
+   "s": 1.902,
+   "e": 2.177,
+   "line": "why"
+  },
+  {
+   "w": "new",
+   "s": 2.227,
+   "e": 2.327,
+   "line": "why"
+  },
+  {
+   "w": "car",
+   "s": 2.377,
+   "e": 2.952,
+   "line": "why"
+  },
+  {
+   "w": "because",
+   "s": 2.764,
+   "e": 2.989,
+   "line": "cup"
+  },
+  {
+   "w": "her",
+   "s": 3.014,
+   "e": 3.089,
+   "line": "cup"
+  },
+  {
+   "w": "cup",
+   "s": 3.139,
+   "e": 3.339,
+   "line": "cup"
+  },
+  {
+   "w": "survived",
+   "s": 3.389,
+   "e": 3.764,
+   "line": "cup"
+  },
+  {
+   "w": "a",
+   "s": 3.764,
+   "e": 3.864,
+   "line": "cup"
+  },
+  {
+   "w": "fire",
+   "s": 3.864,
+   "e": 4.489,
+   "line": "cup"
+  },
+  {
+   "w": "her",
+   "s": 4.381,
+   "e": 4.456,
+   "line": "shell"
+  },
+  {
+   "w": "car",
+   "s": 4.506,
+   "e": 4.756,
+   "line": "shell"
+  },
+  {
+   "w": "burned",
+   "s": 4.806,
+   "e": 5.031,
+   "line": "shell"
+  },
+  {
+   "w": "to",
+   "s": 5.081,
+   "e": 5.106,
+   "line": "shell"
+  },
+  {
+   "w": "a",
+   "s": 5.106,
+   "e": 5.231,
+   "line": "shell"
+  },
+  {
+   "w": "shell",
+   "s": 5.231,
+   "e": 5.756,
+   "line": "shell"
+  },
+  {
+   "w": "but",
+   "s": 5.609,
+   "e": 5.709,
+   "line": "fine"
+  },
+  {
+   "w": "in",
+   "s": 5.734,
+   "e": 5.809,
+   "line": "fine"
+  },
+  {
+   "w": "the",
+   "s": 5.809,
+   "e": 5.859,
+   "line": "fine"
+  },
+  {
+   "w": "cupholder",
+   "s": 5.909,
+   "e": 6.509,
+   "line": "fine"
+  },
+  {
+   "w": "her",
+   "s": 6.754,
+   "e": 6.829,
+   "line": "fine"
+  },
+  {
+   "w": "Stanley",
+   "s": 6.879,
+   "e": 7.229,
+   "line": "fine"
+  },
+  {
+   "w": "cup",
+   "s": 7.279,
+   "e": 7.479,
+   "line": "fine"
+  },
+  {
+   "w": "was",
+   "s": 7.504,
+   "e": 7.604,
+   "line": "fine"
+  },
+  {
+   "w": "fine",
+   "s": 7.654,
+   "e": 8.254,
+   "line": "fine"
+  },
+  {
+   "w": "and",
+   "s": 8.132,
+   "e": 8.207,
+   "line": "ice"
+  },
+  {
+   "w": "there",
+   "s": 8.232,
+   "e": 8.307,
+   "line": "ice"
+  },
+  {
+   "w": "was",
+   "s": 8.307,
+   "e": 8.407,
+   "line": "ice"
+  },
+  {
+   "w": "still",
+   "s": 8.432,
+   "e": 8.632,
+   "line": "ice"
+  },
+  {
+   "w": "ice",
+   "s": 8.682,
+   "e": 8.882,
+   "line": "ice"
+  },
+  {
+   "w": "inside",
+   "s": 8.932,
+   "e": 9.657,
+   "line": "ice"
+  },
+  {
+   "w": "her",
+   "s": 9.552,
+   "e": 9.627,
+   "line": "views"
+  },
+  {
+   "w": "video",
+   "s": 9.677,
+   "e": 9.952,
+   "line": "views"
+  },
+  {
+   "w": "got",
+   "s": 10.002,
+   "e": 10.152,
+   "line": "views"
+  },
+  {
+   "w": "tens",
+   "s": 10.202,
+   "e": 10.427,
+   "line": "views"
+  },
+  {
+   "w": "of",
+   "s": 10.452,
+   "e": 10.502,
+   "line": "views"
+  },
+  {
+   "w": "millions",
+   "s": 10.552,
+   "e": 10.877,
+   "line": "views"
+  },
+  {
+   "w": "of",
+   "s": 10.902,
+   "e": 10.952,
+   "line": "views"
+  },
+  {
+   "w": "views",
+   "s": 11.002,
+   "e": 11.602,
+   "line": "views"
+  },
+  {
+   "w": "Stanley's",
+   "s": 11.569,
+   "e": 11.994,
+   "line": "reply"
+  },
+  {
+   "w": "president",
+   "s": 12.044,
+   "e": 12.444,
+   "line": "reply"
+  },
+  {
+   "w": "replied",
+   "s": 12.469,
+   "e": 13.044,
+   "line": "reply"
+  },
+  {
+   "w": "we'll",
+   "s": 13.289,
+   "e": 13.389,
+   "line": "reply"
+  },
+  {
+   "w": "replace",
+   "s": 13.414,
+   "e": 13.739,
+   "line": "reply"
+  },
+  {
+   "w": "your",
+   "s": 13.764,
+   "e": 13.839,
+   "line": "reply"
+  },
+  {
+   "w": "car",
+   "s": 13.889,
+   "e": 14.464,
+   "line": "reply"
+  },
+  {
+   "w": "and",
+   "s": 14.351,
+   "e": 14.451,
+   "line": "did"
+  },
+  {
+   "w": "they",
+   "s": 14.476,
+   "e": 14.601,
+   "line": "did"
+  },
+  {
+   "w": "did",
+   "s": 14.651,
+   "e": 15.251,
+   "line": "did"
+  },
+  {
+   "w": "Stanley",
+   "s": 15.285,
+   "e": 15.66,
+   "line": "made"
+  },
+  {
+   "w": "didn't",
+   "s": 15.71,
+   "e": 15.86,
+   "line": "made"
+  },
+  {
+   "w": "make",
+   "s": 15.885,
+   "e": 16.035,
+   "line": "made"
+  },
+  {
+   "w": "that",
+   "s": 16.085,
+   "e": 16.21,
+   "line": "made"
+  },
+  {
+   "w": "ad",
+   "s": 16.26,
+   "e": 16.635,
+   "line": "made"
+  },
+  {
+   "w": "a",
+   "s": 16.755,
+   "e": 16.98,
+   "line": "made"
+  },
+  {
+   "w": "customer",
+   "s": 16.98,
+   "e": 17.405,
+   "line": "made"
+  },
+  {
+   "w": "did",
+   "s": 17.455,
+   "e": 17.93,
+   "line": "made"
+  },
+  {
+   "w": "find",
+   "s": 17.853,
+   "e": 18.103,
+   "line": "find"
+  },
+  {
+   "w": "your",
+   "s": 18.128,
+   "e": 18.203,
+   "line": "find"
+  },
+  {
+   "w": "customers'",
+   "s": 18.253,
+   "e": 18.753,
+   "line": "find"
+  },
+  {
+   "w": "proof",
+   "s": 18.803,
+   "e": 19.278,
+   "line": "find"
+  },
+  {
+   "w": "then",
+   "s": 19.523,
+   "e": 19.698,
+   "line": "find"
+  },
+  {
+   "w": "put",
+   "s": 19.748,
+   "e": 19.848,
+   "line": "find"
+  },
+  {
+   "w": "money",
+   "s": 19.873,
+   "e": 20.048,
+   "line": "find"
+  },
+  {
+   "w": "behind",
+   "s": 20.073,
+   "e": 20.473,
+   "line": "find"
+  },
+  {
+   "w": "it",
+   "s": 20.523,
+   "e": 20.923,
+   "line": "find"
+  },
+  {
+   "w": "we",
+   "s": 20.854,
+   "e": 20.928,
+   "line": "scale"
+  },
+  {
+   "w": "scale",
+   "s": 20.978,
+   "e": 21.254,
+   "line": "scale"
+  },
+  {
+   "w": "businesses",
+   "s": 21.304,
+   "e": 21.804,
+   "line": "scale"
+  },
+  {
+   "w": "with",
+   "s": 21.828,
+   "e": 21.954,
+   "line": "scale"
+  },
+  {
+   "w": "ads",
+   "s": 22.028,
+   "e": 22.228,
+   "line": "scale"
+  },
+  {
+   "w": "like",
+   "s": 22.254,
+   "e": 22.379,
+   "line": "scale"
+  },
+  {
+   "w": "this",
+   "s": 22.428,
+   "e": 22.928,
+   "line": "scale"
+  },
+  {
+   "w": "DM",
+   "s": 22.839,
+   "e": 23.189,
+   "line": "dm"
+  },
+  {
+   "w": "us",
+   "s": 23.239,
+   "e": 23.389,
+   "line": "dm"
+  },
+  {
+   "w": "the",
+   "s": 23.414,
+   "e": 23.464,
+   "line": "dm"
+  },
+  {
+   "w": "word",
+   "s": 23.514,
+   "e": 23.689,
+   "line": "dm"
+  },
+  {
+   "w": "teardown",
+   "s": 23.739,
+   "e": 24.189,
+   "line": "dm"
+  },
+  {
+   "w": "for",
+   "s": 24.239,
+   "e": 24.364,
+   "line": "dm"
+  },
+  {
+   "w": "a",
+   "s": 24.364,
+   "e": 24.464,
+   "line": "dm"
+  },
+  {
+   "w": "free",
+   "s": 24.464,
+   "e": 24.664,
+   "line": "dm"
+  },
+  {
+   "w": "ad",
+   "s": 24.714,
+   "e": 24.864,
+   "line": "dm"
+  },
+  {
+   "w": "review",
+   "s": 24.889,
+   "e": 25.514,
+   "line": "dm"
+  }
+ ],
+ "voice_end": 25.197,
+ "end": 25.797,
+ "at": {
+  "why:why": 0.077,
+  "why:would": 0.277,
+  "why:a": 1.727,
+  "why:company": 0.452,
+  "why:buy": 1.027,
+  "why:stranger": 1.252,
+  "why:brand": 1.902,
+  "why:new": 2.227,
+  "why:car": 2.377,
+  "cup:because": 2.764,
+  "cup:her": 3.014,
+  "cup:cup": 3.139,
+  "cup:survived": 3.389,
+  "cup:a": 3.764,
+  "cup:fire": 3.864,
+  "shell:her": 4.381,
+  "shell:car": 4.506,
+  "shell:burned": 4.806,
+  "shell:to": 5.081,
+  "shell:a": 5.106,
+  "shell:shell": 5.231,
+  "fine:but": 5.609,
+  "fine:in": 5.734,
+  "fine:the": 5.809,
+  "fine:cupholder": 5.909,
+  "fine:her": 6.754,
+  "fine:Stanley": 6.879,
+  "fine:cup": 7.279,
+  "fine:was": 7.504,
+  "fine:fine": 7.654,
+  "ice:and": 8.132,
+  "ice:there": 8.232,
+  "ice:was": 8.307,
+  "ice:still": 8.432,
+  "ice:ice": 8.682,
+  "ice:inside": 8.932,
+  "views:her": 9.552,
+  "views:video": 9.677,
+  "views:got": 10.002,
+  "views:tens": 10.202,
+  "views:of": 10.902,
+  "views:millions": 10.552,
+  "views:views": 11.002,
+  "reply:Stanley's": 11.569,
+  "reply:president": 12.044,
+  "reply:replied": 12.469,
+  "reply:we'll": 13.289,
+  "reply:replace": 13.414,
+  "reply:your": 13.764,
+  "reply:car": 13.889,
+  "did:and": 14.351,
+  "did:they": 14.476,
+  "did:did": 14.651,
+  "made:Stanley": 15.285,
+  "made:didn't": 15.71,
+  "made:make": 15.885,
+  "made:that": 16.085,
+  "made:ad": 16.26,
+  "made:a": 16.755,
+  "made:customer": 16.98,
+  "made:did": 17.455,
+  "find:find": 17.853,
+  "find:your": 18.128,
+  "find:customers'": 18.253,
+  "find:proof": 18.803,
+  "find:then": 19.523,
+  "find:put": 19.748,
+  "find:money": 19.873,
+  "find:behind": 20.073,
+  "find:it": 20.523,
+  "scale:we": 20.854,
+  "scale:scale": 20.978,
+  "scale:businesses": 21.304,
+  "scale:with": 21.828,
+  "scale:ads": 22.028,
+  "scale:like": 22.254,
+  "scale:this": 22.428,
+  "dm:DM": 22.839,
+  "dm:us": 23.239,
+  "dm:the": 23.414,
+  "dm:word": 23.514,
+  "dm:teardown": 23.739,
+  "dm:for": 24.239,
+  "dm:a": 24.364,
+  "dm:free": 24.464,
+  "dm:ad": 24.714,
+  "dm:review": 24.889
+ }
+}

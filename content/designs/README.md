@@ -699,3 +699,40 @@ Rebuild: `python3 source/reel_pump_vo.py <kokoro-dir> <tmp>` → `node source/re
 > Sources: Hagerty, ABC News, Motorcyclist.
 >
 > #metaads #instagramads #adcreative
+
+## Reel: "Why would a company buy a stranger a brand new car?" (3D explainer, the armor reel's method)
+File: `reels/mezmedia_reel_cup.mp4` (1080×1920, 30fps, 25.8s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: another reel made the same way as the armor, bell, equals and pump reels. Topic: Zack D. Films' "Stanley Cup Saves Life" (82M views on YouTube). Our angle: the best ad Stanley ever got was made by a customer; find your customers' proof, then put money behind it.
+Same method: a "Why would…?" hook with something happening on the first frame (a car on fire at night), the same female voice and melody engine (`source/vo_expr.py`; pitch range 14.5 semitones), about 215 words a minute, and 14 camera set-ups in the first 15 seconds: the car burning, flames pouring out of the windscreen from a low angle, the side with fire out of every window, the cup in its cupholder among the flames, the fire flaring on "fire", the opening frame again at dawn with the car a burnt shell, the cup through the window, the cup close up ("her Stanley cup"), a quarter-cut cutaway of the cup with ice floating inside ("still ice inside"), her video in a phone with its views climbing to 60M+, a new SUV with a red bow rolling up and flashing its lights on "replace", the bow, and the new SUV next to the burnt car under confetti. Then the switch: our reel shrinks into a phone and flicks to her video; on "proof" it is outlined green as a real customer's proof; on "money" it turns into a Sponsored post with a Shop now button while coins stack up behind the phone; then the pitch.
+Facts and sources (details in `source/reel_cup_vo.py`): in 2023 a TikTok user named Danielle posted a video of her burnt-out car; her Stanley cup had survived in the cupholder with ice still inside, and the video drew tens of millions of views (reported as 60 million to over 90 million). Stanley's president, Terence Reilly, replied that the company would replace her vehicle, and Stanley bought her a new SUV (Scripps News, "Stanley gifts TikToker new SUV after her cup survives car fire"; CarAdvice, "Tumbler cup survives car fire, its manufacturer to buy owner a new car"). The street, the cars, the cutaway and the posts in the phone are illustrations; the views counter tops out at the lowest reported figure.
+Rebuild: `python3 source/reel_cup_vo.py <kokoro-dir> <tmp>` → `node source/reel_cup.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames) → `python3 source/reel_cup_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_cup_scene.js` (three.js); the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Why would a company buy a stranger a brand new car?
+> Because her cup survived a fire!
+> Her car burned to a shell.
+> But in the cupholder, her Stanley cup was fine.
+> And there was still ice inside!
+> Her video got tens of millions of views.
+> Stanley's president replied: we'll replace your car.
+> And they did.
+> Stanley didn't make that ad. A customer did.
+> Find your customers' proof. Then put money behind it.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> In 2023 a woman's car caught fire. Gutted. But in the cupholder her Stanley cup was fine, and there was still ice inside it.
+>
+> She filmed it. Tens of millions of views. Then Stanley's president replied that they'd replace her car, and they actually did.
+>
+> Stanley didn't make that ad. A customer did, on her phone, standing next to a burnt-out car.
+>
+> Your customers are making proof like this right now: reviews, unboxings, a ten-second clip of the product doing its job in someone's kitchen. Find it. Ask if you can use it. Then put money behind it.
+>
+> That's how we scale businesses with Meta ads and Instagram ads.
+>
+> Sources: Scripps News, CarAdvice.
+>
+> #metaads #instagramads #ugc
