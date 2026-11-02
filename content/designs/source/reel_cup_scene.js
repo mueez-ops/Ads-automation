@@ -197,6 +197,7 @@ const NWHEELS = [];
   [1, -1].forEach((sd) => { const tail = new X.Mesh(new X.BoxGeometry(0.15, 0.012, 0.55), bowD); tail.position.set(0.12, -0.08, sd * 0.24); tail.rotation.set(sd * 0.25, sd * 0.5, 0); BOWP.add(tail); });
   const knot = new X.Mesh(new X.SphereGeometry(0.09, 16, 12), bowM); knot.scale.set(1.1, 0.9, 1.2); BOWP.add(knot);
 }
+const HEADGLOW = [0.66, -0.66].map((z0) => { const s0 = new X.Sprite(glowMat('#FFF6E0', 0)); s0.material.toneMapped = false; s0.position.set(2.36, 0.98, z0); s0.scale.set(1.1, 0.7, 1); NEWCAR.add(s0); return s0; });
 NEWCAR.visible = false;
 
 // ---------- the cutaway: a quarter of the cup cut away, ice still floating inside (y = 100) ----------
@@ -326,10 +327,10 @@ function setWorld(t) {
     c0.position.set(b.x + 0.03 * rat * Math.sin(t * 60 + i), b.y + bob + 0.025 * rat * Math.abs(Math.sin(t * 47 + i * 2)), b.z);
     c0.rotation.set(r0.x + 0.4 * rat * Math.sin(t * 30 + i) + 0.05 * Math.sin(t * 1.7 + i), r0.y + 0.04 * Math.sin(t * 1.3 + i), r0.z); });
   WATERTOP.position.y = 0.22 * S5 + 0.006 * rat * Math.sin(t * 40);
-  // the new SUV rolls in and stops in front of the shell; its lights flash on "replace"
+  // the new SUV rolls up and stops ahead of the shell; its lights flash in the pause after "replied"
   NEWCAR.visible = ph === 'day'; const kc = ease((t - K.replyL + 0.4) / 1.4); SUVX = lerp(15, 4.6, kc);
   NEWCAR.position.set(SUVX, 0, 3.2); NWHEELS.forEach((w0) => { w0.rotation.z = (15 - SUVX) / 0.37; });
-  HEADM.emissiveIntensity = 1.0 + 2.4 * (bump(t, K.replace + 0.1, 0.14) + bump(t, K.replace + 0.34, 0.14));
+  const blink = bump(t, K.replied + 0.42, 0.14) + bump(t, K.replied + 0.66, 0.14); HEADM.emissiveIntensity = 1.0 + 2.4 * blink; HEADGLOW.forEach((s0) => { s0.material.opacity = 0.95 * blink; s0.visible = blink > 0; });
   const c0 = camAt(t); if (name === 'suv' && !DEBUGCAM) c0[3] = lerp(c0[3], SUVX, 0.75);
   cam.position.set(c0[0], c0[1], c0[2]); cam.lookAt(c0[3], c0[4], c0[5]); cam.fov = c0[6]; cam.updateProjectionMatrix();
 }

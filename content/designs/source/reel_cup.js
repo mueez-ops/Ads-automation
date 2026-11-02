@@ -85,7 +85,7 @@ ev(K.shellL - 0.05, 'whoosh_soft', 0.22); ev(K.shellL, 'sizzle', 0.34, { d: K.fi
 ev(K.fineL - 0.05, 'whoosh_soft', 0.2); ev(K.stanley - 0.06, 'whoosh_c', 0.24); ev(K.fineW, 'ding', 0.4);
 ev(K.iceL - 0.05, 'whoosh_soft', 0.22); ev(K.ice - 0.02, 'rattle', 0.5); ev(K.ice + 0.35, 'rattle', 0.3);
 ev(K.viewsL - 0.05, 'whoosh_f', 0.24); for (let i = 0; i < 10; i++) ev(K.viewsL + 0.2 + 1.5 * Math.pow(i / 10, 0.7), 'notif', 0.2 + 0.025 * i, { pan: (i % 2 ? 0.25 : -0.25) });
-ev(K.replyL - 0.05, 'whoosh_soft', 0.22); ev(K.replyL, 'engine', 0.3, { d: K.replace - K.replyL + 0.4 }); ev(K.replied - 0.06, 'whoosh_soft', 0.18); ev(K.replace - 0.05, 'whoosh_c', 0.24); ev(K.replace + 0.1, 'chirp', 0.22); ev(K.replace + 0.34, 'chirp', 0.2);
+ev(K.replyL - 0.05, 'whoosh_soft', 0.22); ev(K.replyL, 'engine', 0.3, { d: K.replace - K.replyL + 0.4 }); ev(K.replied - 0.06, 'whoosh_soft', 0.18); ev(K.replace - 0.05, 'whoosh_c', 0.24); ev(K.replied + 0.42, 'chirp', 0.22); ev(K.replied + 0.66, 'chirp', 0.2);
 ev(K.did - 0.04, 'ta', 0.4); ev(K.did, 'confetti', 0.36);
 ev(T0.feed - 0.03, 'deep', 0.36); ev(T0.feed, 'zoom_out', 0.2); ev(K.ad + 0.1, 'swish', 0.3, { pan: 0.2 });
 ev(K.proof, 'select', 0.3); for (let i = 0; i < 6; i++) ev(K.money + 0.08 * i, 'coin', 0.2 + 0.03 * i, { pan: (i % 2 ? 0.2 : -0.2) });
