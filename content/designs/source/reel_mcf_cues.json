@@ -1,0 +1,683 @@
+{
+ "lines": {
+  "why": {
+   "s": 0.05,
+   "e": 2.169,
+   "text": "why would anyone make a spoon with a hollow handle"
+  },
+  "mixer": {
+   "s": 2.219,
+   "e": 4.139,
+   "text": "because the McFlurry spoon is the mixer"
+  },
+  "plug": {
+   "s": 4.219,
+   "e": 6.537,
+   "text": "the machine plugs into the handle and spins it"
+  },
+  "whip": {
+   "s": 6.597,
+   "e": 8.432,
+   "text": "it whips the toppings through the ice cream"
+  },
+  "stays": {
+   "s": 8.492,
+   "e": 10.504,
+   "text": "then it stays in the cup and you eat with it"
+  },
+  "own": {
+   "s": 10.564,
+   "e": 12.265,
+   "text": "so every cup gets its own mixer"
+  },
+  "jobs": {
+   "s": 12.365,
+   "e": 14.035,
+   "text": "one spoon two jobs"
+  },
+  "ad": {
+   "s": 14.195,
+   "e": 16.437,
+   "text": "your ad's first second needs two jobs too"
+  },
+  "stop": {
+   "s": 16.517,
+   "e": 18.359,
+   "text": "stop the scroll and show what you sell"
+  },
+  "scale": {
+   "s": 18.509,
+   "e": 20.396,
+   "text": "we scale businesses with ads like this"
+  },
+  "dm": {
+   "s": 20.476,
+   "e": 22.883,
+   "text": "DM us the word teardown for a free ad review"
+  }
+ },
+ "words": [
+  {
+   "w": "why",
+   "s": 0.082,
+   "e": 0.282,
+   "line": "why"
+  },
+  {
+   "w": "would",
+   "s": 0.307,
+   "e": 0.382,
+   "line": "why"
+  },
+  {
+   "w": "anyone",
+   "s": 0.432,
+   "e": 0.682,
+   "line": "why"
+  },
+  {
+   "w": "make",
+   "s": 0.707,
+   "e": 0.832,
+   "line": "why"
+  },
+  {
+   "w": "a",
+   "s": 0.832,
+   "e": 0.957,
+   "line": "why"
+  },
+  {
+   "w": "spoon",
+   "s": 0.957,
+   "e": 1.257,
+   "line": "why"
+  },
+  {
+   "w": "with",
+   "s": 1.282,
+   "e": 1.357,
+   "line": "why"
+  },
+  {
+   "w": "a",
+   "s": 1.357,
+   "e": 1.457,
+   "line": "why"
+  },
+  {
+   "w": "hollow",
+   "s": 1.457,
+   "e": 1.757,
+   "line": "why"
+  },
+  {
+   "w": "handle",
+   "s": 1.807,
+   "e": 2.432,
+   "line": "why"
+  },
+  {
+   "w": "because",
+   "s": 2.255,
+   "e": 2.505,
+   "line": "mixer"
+  },
+  {
+   "w": "the",
+   "s": 2.53,
+   "e": 2.58,
+   "line": "mixer"
+  },
+  {
+   "w": "McFlurry",
+   "s": 2.605,
+   "e": 3.055,
+   "line": "mixer"
+  },
+  {
+   "w": "spoon",
+   "s": 3.13,
+   "e": 3.455,
+   "line": "mixer"
+  },
+  {
+   "w": "is",
+   "s": 3.505,
+   "e": 3.605,
+   "line": "mixer"
+  },
+  {
+   "w": "the",
+   "s": 3.63,
+   "e": 3.68,
+   "line": "mixer"
+  },
+  {
+   "w": "mixer",
+   "s": 3.73,
+   "e": 4.38,
+   "line": "mixer"
+  },
+  {
+   "w": "the",
+   "s": 4.255,
+   "e": 4.305,
+   "line": "plug"
+  },
+  {
+   "w": "machine",
+   "s": 4.33,
+   "e": 4.68,
+   "line": "plug"
+  },
+  {
+   "w": "plugs",
+   "s": 4.73,
+   "e": 4.98,
+   "line": "plug"
+  },
+  {
+   "w": "into",
+   "s": 5.005,
+   "e": 5.155,
+   "line": "plug"
+  },
+  {
+   "w": "the",
+   "s": 5.18,
+   "e": 5.23,
+   "line": "plug"
+  },
+  {
+   "w": "handle",
+   "s": 5.28,
+   "e": 5.705,
+   "line": "plug"
+  },
+  {
+   "w": "and",
+   "s": 5.925,
+   "e": 6.0,
+   "line": "plug"
+  },
+  {
+   "w": "spins",
+   "s": 6.05,
+   "e": 6.35,
+   "line": "plug"
+  },
+  {
+   "w": "it",
+   "s": 6.4,
+   "e": 6.8,
+   "line": "plug"
+  },
+  {
+   "w": "it",
+   "s": 6.649,
+   "e": 6.724,
+   "line": "whip"
+  },
+  {
+   "w": "whips",
+   "s": 6.774,
+   "e": 6.974,
+   "line": "whip"
+  },
+  {
+   "w": "the",
+   "s": 6.999,
+   "e": 7.049,
+   "line": "whip"
+  },
+  {
+   "w": "toppings",
+   "s": 7.099,
+   "e": 7.524,
+   "line": "whip"
+  },
+  {
+   "w": "through",
+   "s": 7.599,
+   "e": 7.724,
+   "line": "whip"
+  },
+  {
+   "w": "the",
+   "s": 7.749,
+   "e": 7.774,
+   "line": "whip"
+  },
+  {
+   "w": "ice",
+   "s": 7.874,
+   "e": 8.074,
+   "line": "whip"
+  },
+  {
+   "w": "cream",
+   "s": 8.124,
+   "e": 8.674,
+   "line": "whip"
+  },
+  {
+   "w": "then",
+   "s": 8.543,
+   "e": 8.643,
+   "line": "stays"
+  },
+  {
+   "w": "it",
+   "s": 8.668,
+   "e": 8.718,
+   "line": "stays"
+  },
+  {
+   "w": "stays",
+   "s": 8.768,
+   "e": 9.018,
+   "line": "stays"
+  },
+  {
+   "w": "in",
+   "s": 9.043,
+   "e": 9.118,
+   "line": "stays"
+  },
+  {
+   "w": "the",
+   "s": 9.118,
+   "e": 9.168,
+   "line": "stays"
+  },
+  {
+   "w": "cup",
+   "s": 9.218,
+   "e": 9.568,
+   "line": "stays"
+  },
+  {
+   "w": "and",
+   "s": 9.788,
+   "e": 9.863,
+   "line": "stays"
+  },
+  {
+   "w": "you",
+   "s": 9.888,
+   "e": 9.963,
+   "line": "stays"
+  },
+  {
+   "w": "eat",
+   "s": 10.013,
+   "e": 10.138,
+   "line": "stays"
+  },
+  {
+   "w": "with",
+   "s": 10.163,
+   "e": 10.288,
+   "line": "stays"
+  },
+  {
+   "w": "it",
+   "s": 10.338,
+   "e": 10.738,
+   "line": "stays"
+  },
+  {
+   "w": "so",
+   "s": 10.649,
+   "e": 10.774,
+   "line": "own"
+  },
+  {
+   "w": "every",
+   "s": 10.824,
+   "e": 11.074,
+   "line": "own"
+  },
+  {
+   "w": "cup",
+   "s": 11.124,
+   "e": 11.324,
+   "line": "own"
+  },
+  {
+   "w": "gets",
+   "s": 11.374,
+   "e": 11.574,
+   "line": "own"
+  },
+  {
+   "w": "its",
+   "s": 11.599,
+   "e": 11.674,
+   "line": "own"
+  },
+  {
+   "w": "own",
+   "s": 11.699,
+   "e": 11.799,
+   "line": "own"
+  },
+  {
+   "w": "mixer",
+   "s": 11.849,
+   "e": 12.499,
+   "line": "own"
+  },
+  {
+   "w": "one",
+   "s": 12.428,
+   "e": 12.628,
+   "line": "jobs"
+  },
+  {
+   "w": "spoon",
+   "s": 12.678,
+   "e": 13.128,
+   "line": "jobs"
+  },
+  {
+   "w": "two",
+   "s": 13.348,
+   "e": 13.498,
+   "line": "jobs"
+  },
+  {
+   "w": "jobs",
+   "s": 13.548,
+   "e": 14.273,
+   "line": "jobs"
+  },
+  {
+   "w": "your",
+   "s": 14.247,
+   "e": 14.322,
+   "line": "ad"
+  },
+  {
+   "w": "ad's",
+   "s": 14.372,
+   "e": 14.597,
+   "line": "ad"
+  },
+  {
+   "w": "first",
+   "s": 14.647,
+   "e": 14.872,
+   "line": "ad"
+  },
+  {
+   "w": "second",
+   "s": 14.922,
+   "e": 15.297,
+   "line": "ad"
+  },
+  {
+   "w": "needs",
+   "s": 15.372,
+   "e": 15.572,
+   "line": "ad"
+  },
+  {
+   "w": "two",
+   "s": 15.622,
+   "e": 15.747,
+   "line": "ad"
+  },
+  {
+   "w": "jobs",
+   "s": 15.772,
+   "e": 16.122,
+   "line": "ad"
+  },
+  {
+   "w": "too",
+   "s": 16.172,
+   "e": 16.722,
+   "line": "ad"
+  },
+  {
+   "w": "stop",
+   "s": 16.594,
+   "e": 16.819,
+   "line": "stop"
+  },
+  {
+   "w": "the",
+   "s": 16.844,
+   "e": 16.894,
+   "line": "stop"
+  },
+  {
+   "w": "scroll",
+   "s": 16.944,
+   "e": 17.369,
+   "line": "stop"
+  },
+  {
+   "w": "and",
+   "s": 17.589,
+   "e": 17.664,
+   "line": "stop"
+  },
+  {
+   "w": "show",
+   "s": 17.714,
+   "e": 17.814,
+   "line": "stop"
+  },
+  {
+   "w": "what",
+   "s": 17.839,
+   "e": 17.914,
+   "line": "stop"
+  },
+  {
+   "w": "you",
+   "s": 17.939,
+   "e": 18.014,
+   "line": "stop"
+  },
+  {
+   "w": "sell",
+   "s": 18.064,
+   "e": 18.614,
+   "line": "stop"
+  },
+  {
+   "w": "we",
+   "s": 18.54,
+   "e": 18.615,
+   "line": "scale"
+  },
+  {
+   "w": "scale",
+   "s": 18.665,
+   "e": 18.94,
+   "line": "scale"
+  },
+  {
+   "w": "businesses",
+   "s": 18.99,
+   "e": 19.49,
+   "line": "scale"
+  },
+  {
+   "w": "with",
+   "s": 19.515,
+   "e": 19.64,
+   "line": "scale"
+  },
+  {
+   "w": "ads",
+   "s": 19.715,
+   "e": 19.915,
+   "line": "scale"
+  },
+  {
+   "w": "like",
+   "s": 19.94,
+   "e": 20.065,
+   "line": "scale"
+  },
+  {
+   "w": "this",
+   "s": 20.115,
+   "e": 20.615,
+   "line": "scale"
+  },
+  {
+   "w": "DM",
+   "s": 20.525,
+   "e": 20.875,
+   "line": "dm"
+  },
+  {
+   "w": "us",
+   "s": 20.925,
+   "e": 21.075,
+   "line": "dm"
+  },
+  {
+   "w": "the",
+   "s": 21.1,
+   "e": 21.15,
+   "line": "dm"
+  },
+  {
+   "w": "word",
+   "s": 21.2,
+   "e": 21.375,
+   "line": "dm"
+  },
+  {
+   "w": "teardown",
+   "s": 21.425,
+   "e": 21.875,
+   "line": "dm"
+  },
+  {
+   "w": "for",
+   "s": 21.925,
+   "e": 22.05,
+   "line": "dm"
+  },
+  {
+   "w": "a",
+   "s": 22.05,
+   "e": 22.15,
+   "line": "dm"
+  },
+  {
+   "w": "free",
+   "s": 22.15,
+   "e": 22.35,
+   "line": "dm"
+  },
+  {
+   "w": "ad",
+   "s": 22.4,
+   "e": 22.55,
+   "line": "dm"
+  },
+  {
+   "w": "review",
+   "s": 22.575,
+   "e": 23.2,
+   "line": "dm"
+  }
+ ],
+ "voice_end": 22.883,
+ "end": 23.483,
+ "at": {
+  "why:why": 0.082,
+  "why:would": 0.307,
+  "why:anyone": 0.432,
+  "why:make": 0.707,
+  "why:a": 1.357,
+  "why:spoon": 0.957,
+  "why:with": 1.282,
+  "why:hollow": 1.457,
+  "why:handle": 1.807,
+  "mixer:because": 2.255,
+  "mixer:the": 3.63,
+  "mixer:McFlurry": 2.605,
+  "mixer:spoon": 3.13,
+  "mixer:is": 3.505,
+  "mixer:mixer": 3.73,
+  "plug:the": 5.18,
+  "plug:machine": 4.33,
+  "plug:plugs": 4.73,
+  "plug:into": 5.005,
+  "plug:handle": 5.28,
+  "plug:and": 5.925,
+  "plug:spins": 6.05,
+  "plug:it": 6.4,
+  "whip:it": 6.649,
+  "whip:whips": 6.774,
+  "whip:the": 7.749,
+  "whip:toppings": 7.099,
+  "whip:through": 7.599,
+  "whip:ice": 7.874,
+  "whip:cream": 8.124,
+  "stays:then": 8.543,
+  "stays:it": 10.338,
+  "stays:stays": 8.768,
+  "stays:in": 9.043,
+  "stays:the": 9.118,
+  "stays:cup": 9.218,
+  "stays:and": 9.788,
+  "stays:you": 9.888,
+  "stays:eat": 10.013,
+  "stays:with": 10.163,
+  "own:so": 10.649,
+  "own:every": 10.824,
+  "own:cup": 11.124,
+  "own:gets": 11.374,
+  "own:its": 11.599,
+  "own:own": 11.699,
+  "own:mixer": 11.849,
+  "jobs:one": 12.428,
+  "jobs:spoon": 12.678,
+  "jobs:two": 13.348,
+  "jobs:jobs": 13.548,
+  "ad:your": 14.247,
+  "ad:ad's": 14.372,
+  "ad:first": 14.647,
+  "ad:second": 14.922,
+  "ad:needs": 15.372,
+  "ad:two": 15.622,
+  "ad:jobs": 15.772,
+  "ad:too": 16.172,
+  "stop:stop": 16.594,
+  "stop:the": 16.844,
+  "stop:scroll": 16.944,
+  "stop:and": 17.589,
+  "stop:show": 17.714,
+  "stop:what": 17.839,
+  "stop:you": 17.939,
+  "stop:sell": 18.064,
+  "scale:we": 18.54,
+  "scale:scale": 18.665,
+  "scale:businesses": 18.99,
+  "scale:with": 19.515,
+  "scale:ads": 19.715,
+  "scale:like": 19.94,
+  "scale:this": 20.115,
+  "dm:DM": 20.525,
+  "dm:us": 20.925,
+  "dm:the": 21.1,
+  "dm:word": 21.2,
+  "dm:teardown": 21.425,
+  "dm:for": 21.925,
+  "dm:a": 22.05,
+  "dm:free": 22.15,
+  "dm:ad": 22.4,
+  "dm:review": 22.575
+ }
+}

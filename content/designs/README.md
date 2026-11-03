@@ -736,3 +736,39 @@ Rebuild: `python3 source/reel_cup_vo.py <kokoro-dir> <tmp>` → `node source/ree
 > Sources: Scripps News, CarAdvice.
 >
 > #metaads #instagramads #ugc
+
+## Reel: "Why would anyone make a spoon with a hollow handle?" (3D explainer, the armor reel's method)
+File: `reels/mezmedia_reel_mcf.mp4` (1080×1920, 30fps, 23.5s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: another reel made the same way as the armor, bell, equals, pump and Stanley reels. Topic: Zack D. Films' "McFlurry Spoon Looks Weird" (166M views on YouTube, their most watched). Our angle: the spoon does two jobs, and the first second of an ad has to as well: stop the scroll and show what you sell.
+Same method: a "Why would anyone…?" hook with something happening on the first frame (the spoon plunging into a cup, cookie bits jumping), the same female voice and melody engine (`source/vo_expr.py`; pitch range 14.4 semitones), about 230 words a minute, and 15 camera set-ups in the first 14 seconds: the spoon dropping in, its square handle from above ("hollow?"), a flight down the inside of the handle towards the light with the spindle coming in at the far end, the mixer with its spindle, the cup rising to it, the spoon labelled "the mixer", an X-ray of the orange spindle sliding into the blue see-through handle, the spoon spinning (arrows round the handle), the toppings swirling into the ice cream from above and straight down, the spindle letting go, a scoop lifted on the same spoon, a row of five cups each with its own spoon ("mixer" over each), and the spoon on a turntable ("spoon", then "mixer"). Then the switch: our reel shrinks into a phone and flicks to an ad with its first second marked on the progress bar; a checklist appears ("stop the scroll", "show what you sell"); on "Stop the scroll" the feed flicks past three posts and stops hard on the ad (ticked); on "sell" the ad's blender whirs and a Shop now bar comes up (ticked); then the pitch.
+Facts and sources (details in `source/reel_mcf_vo.py`): the McFlurry spoon's hollow handle clips onto the McFlurry machine, which spins it to mix the toppings into the soft serve; the crew then hand it over in the cup and it is the spoon you eat with. McDonald's, October 2023: "True McFlurry fans know the spoon doubles as a spindle, which restaurant crew use to mix the perfect amount of sweet toppings into our creamy soft serve" (CNN; Fox Business; Scripps News). The McFlurry was first made on 7 June 1995 in Bathurst, New Brunswick, by franchisee Ron McLellan, and the hollow-handled spoon was developed the same year (McDonald's Canada newsroom). In late October 2023 McDonald's said its U.S. restaurants would switch to a reusable spindle, cleaned after each McFlurry, and a smaller spoon (CNN; Fox Business; Scripps News); the small print says so. The counter, the mixer, the cups and the ad in the phone are our own illustrations, with no logos (yourbrand is a placeholder).
+Rebuild: `python3 source/reel_mcf_vo.py <kokoro-dir> <tmp>` → `node source/reel_mcf.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames) → `python3 source/reel_mcf_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_mcf_scene.js` (three.js); the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Why would anyone make a spoon with a hollow handle?
+> Because the McFlurry spoon is the mixer!
+> The machine plugs into the handle, and spins it!
+> It whips the toppings through the ice cream.
+> Then it stays in the cup, and you eat with it!
+> So every cup gets its own mixer.
+> One spoon. Two jobs.
+> Your ad's first second needs two jobs too.
+> Stop the scroll, and show what you sell.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> The McFlurry spoon looks weird for a reason. Its handle is hollow.
+>
+> The mixer's spindle slots into that handle and spins the spoon, whipping the toppings through the ice cream. Then the crew hands the cup over and you eat with the same spoon. McDonald's own words: it "doubles as a spindle."
+>
+> One spoon. Two jobs.
+>
+> Your ad's first second needs two jobs too. Stop the scroll, and show what you sell. Not a logo. Not a slow intro. The product doing its thing.
+>
+> That's how we scale businesses with Meta ads and Instagram ads.
+>
+> Sources: CNN, Fox Business, Scripps News, McDonald's Canada.
+>
+> #metaads #instagramads #adcreative
