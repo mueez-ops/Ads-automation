@@ -772,3 +772,39 @@ Rebuild: `python3 source/reel_mcf_vo.py <kokoro-dir> <tmp>` → `node source/ree
 > Sources: CNN, Fox Business, Scripps News, McDonald's Canada.
 >
 > #metaads #instagramads #adcreative
+
+## Reel: "Why would a bee sting you, if it kills her?" (3D explainer, the armor reel's method)
+File: `reels/mezmedia_reel_bee.mp4` (1080×1920, 30fps, 26.5s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: another reel made the same way as the McFlurry reel (which reached 2,000 views). Topic: Zack D. Films' "Why Bees Die After They Sting You" (115M views on YouTube). Our angle: one sting tags you and the hive does the rest, which is how retargeting works: the first ad tags who is interested, the next ads find them and sell.
+Same method: a "Why would…?" hook with something happening on the first frame (a honeybee flying straight at the camera over a forearm), the same female voice and melody engine (`source/vo_expr.py`; pitch range 14.8 semitones), about 235 words a minute, and 16 camera set-ups in the first 16 seconds: the bee diving in, landing, curling and stinging ("stinger"), a hive box in a garden, bees on honeycomb, the stinger huge with its barbs, beside a harpoon, a cutaway of the skin with the barbs hooked in, the bee tearing free and leaving the venom sac, the sac still pumping venom down the stinger with a stopwatch running to a minute, the alarm scent rising from the sting, a banana coming up out of it, the spot marked with yellow rings, the hive pouring out, and the swarm closing on the mark. Then the switch: our reel shrinks into a phone and flicks to "ad 1" (a placeholder coffee brand); on "It tags who's interested" six of eight viewers under the phone light up as tagged; on "Then your next ads" it flicks to "ad 2" ("Still thinking about it?") shown to the tagged viewers, and on "sell" a "New order" notice drops in; then the pitch.
+Facts and sources (details in `source/reel_bee_vo.py`): worker honeybees have barbed stingers; in mammal skin the barbs catch, and when the bee pulls away the stinger tears free with the venom gland and part of the digestive tract, and she dies; queens, bumblebees, wasps and hornets have smooth stingers (BBC Wildlife / Discover Wildlife; UC Agriculture and Natural Resources, Bug Squad). The stinger's muscles keep pumping venom for about 45 to 60 seconds (entomologist Eric Mussen, UC ANR). The sting releases an alarm pheromone from the Koschevnikov gland; its main active compound, isopentyl acetate ("banana oil"), smells like bananas, and it draws other bees to the spot and makes them defensive (Bee Culture; list of honey bee pheromones). The bees, the arm, the hive, the cutaway and the ads in the phone are our own illustrations (yourbrand is a placeholder; the viewers and the order are not real data).
+Rebuild: `python3 source/reel_bee_vo.py <kokoro-dir> <tmp>` → `node source/reel_bee.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames) → `python3 source/reel_bee_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, loudnorm to -14 LUFS, then mux. Scenes: `source/reel_bee_scene.js` (three.js); the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Why would a bee sting you, if it kills her?
+> Because she's defending the hive!
+> Her stinger has barbs, like a harpoon.
+> It hooks in your skin, and rips out of her body!
+> And it keeps pumping venom, for up to a minute.
+> It also leaves a smell, like bananas, that marks you for the hive.
+> One sting tags you. The hive does the rest.
+> Your first ad doesn't need to sell. It tags who's interested.
+> Then your next ads find them, and sell.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> A honeybee dies after she stings you. Her stinger is barbed, so it hooks into your skin and tears out of her body when she pulls away.
+>
+> It keeps pumping venom for up to a minute. And it gives off an alarm scent that smells like bananas, which calls the rest of the hive to exactly where you are.
+>
+> One sting tags you. The hive does the rest.
+>
+> That's retargeting. Your first ad doesn't have to sell. It tags the people who watched. Then your next ads find them again and close.
+>
+> That's how we scale businesses with Meta ads and Instagram ads.
+>
+> Sources: BBC Wildlife, UC Agriculture and Natural Resources, Bee Culture.
+>
+> #metaads #instagramads #retargeting
