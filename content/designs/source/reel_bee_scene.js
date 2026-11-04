@@ -283,7 +283,7 @@ function setWorld(t) {
   const mk = t > K.marks - 0.1 ? 1 : 0; [MARK, MARK2].forEach((m, i) => { const u = ((t - K.marks) * 0.8 + i * 0.5) % 1; m.material.opacity = mk * (onArm ? 0.85 * (1 - u) : 0); m.scale.setScalar(0.6 + 1.6 * u); });
   // the swarm: out of the hive towards you, then down onto the mark
   HSWARM.forEach((s0, i) => { const d = s0.userData; if (n === 'hive') { const a = d.a + t * (1.2 + d.sp); s0.position.set(8 * d.r * Math.cos(a), 9 + 7 * d.h + 1.5 * Math.sin(t * 3 + i), 26 + 6 * d.r * Math.sin(a)); s0.scale.setScalar(1.6); s0.visible = i < 14; return; }
-    const u = clamp((t - K.tagsL + 0.15 - 0.4 * d.r) / 1.0); s0.visible = n === 'swarm' && u > 0; s0.position.set((d.a - Math.PI) * 9 * u + 3 * Math.sin(t * 5 + i), 7 + 6 * d.h + 10 * u * (d.h - 0.3), 22 + 60 * u); s0.scale.setScalar(1.7); s0.material.rotation = 0.4 * Math.sin(t * 9 + i); });
+    const u = ((t - K.tagsL) * 0.6 + d.r) % 1, on = n === 'swarm' && (t - K.tagsL) * 0.6 + d.r > 0.25 * d.h; s0.visible = on; s0.position.set((d.a - Math.PI) * 8 * u + 3 * Math.sin(t * 5 + i), 7 + 6 * d.h + 9 * u * (d.h - 0.3), 22 + 52 * u); s0.scale.setScalar(1.7); s0.material.rotation = 0.4 * Math.sin(t * 9 + i); });   // a steady stream out of the hive
   ASWARM.forEach((s0, i) => { const d = s0.userData, u = clamp((t - K.the2 + 0.1 - 0.5 * d.r) / 0.9), r = lerp(26, 0.8 + 1.2 * d.h, ease(u)), a = d.a + t * (2 + d.sp);
     s0.visible = n === 'attack' && t > K.the2 - 0.2; s0.position.set(SITEP[0] + r * Math.cos(a), SITEP[1] + 0.6 + r * 0.35 * d.h + 0.3 * Math.sin(t * 7 + i), SITEP[2] + r * Math.sin(a)); s0.scale.setScalar(1.2); s0.material.rotation = a; });
   HBEES.forEach((b0, i) => { setWings(b0, t, false); b0.position.x += 0; });
