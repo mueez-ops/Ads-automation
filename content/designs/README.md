@@ -808,3 +808,68 @@ Rebuild: `python3 source/reel_bee_vo.py <kokoro-dir> <tmp>` → `node source/ree
 > Sources: BBC Wildlife, UC Agriculture and Natural Resources, Bee Culture.
 >
 > #metaads #instagramads #retargeting
+
+## Reel: "Over 25? You can't hear what this box is playing." (3D explainer, rebuilt hook)
+File: `reels/mezmedia_reel_mosq.mp4` (1080×1920, 30fps, 28.7s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: another reel with a much stronger hook, because the bee reel was skipped at its hook. Topic: the Mosquito, the anti-loitering box that plays a tone most adults can't hear. Our angle: the box plays to everyone and the sound itself picks who hears it. A Meta ad works the same way: Meta shows it to a crowd, and the hook decides who stops (our position: the creative beats the targeting).
+What changed in the hook, and why:
+- The old "Why would…?" questions are gone. This hook is a claim aimed at the viewer, with a number in the first three words. `hookscore.py` rates it 84 STRONG; the bee hook scores 45 WEAK on the same check.
+- The whole hook card is on screen from the first frame ("over 25? / you can't hear what / this box is playing", dim until each word is said), not built word by word.
+- The first frame is already a story: the box pulsing pink, two teenagers covering their ears, and the shopkeeper sweeping on as if nothing is happening.
+- The script passed the ig-human panel at 74. The voiceover uses the same female voice and melody engine (`source/vo_expr.py`; pitch range 14.6 semitones, the bee reel's 14.8).
+Shots: 18 camera set-ups in the first 20 seconds:
+- the shop at night and the box up close ("this box")
+- the shopkeeper ("over 25")
+- the teenagers flinching ("under 25"), then running off
+- the empty doorway
+- the box alone in a studio ("the Mosquito", "made in Wales, 2005")
+- the doorway from above as teens clear out
+- the whine as a wave out of the grille, with a counter to ≈17,000 Hz
+- the cochlea with its hair cells coloured by pitch ("inside your ear"), the high-pitch end greying out ("high notes go first")
+- the shopkeeper again ("hears nothing")
+- a phone setting "Mosquito" as its ringtone, then ringing
+- a classroom where a phone on a desk rings, the teacher writing on ("hears nothing"), two students grinning
+- a split screen: a teen flinching beside the calm teacher, one pink wave across both ("hears it", "hears nothing")
+Then the switch: the reel shrinks into a phone and flicks to a placeholder coffee ad ("your ad = the box"). On "Meta plays it to a crowd" pink rings spread over a crowd; on "Your hook decides" the ad's first line is boxed as "the hook" and five people light up ("your buyers stop"). Then the pitch.
+The real tone is never played. On screen it is pink shells; in the mix it is a soft throb on every pulse.
+Facts and sources (details in `source/reel_mosq_vo.py`):
+- The Mosquito went on sale in 2005, made by Howard Stapleton's Compound Security of Merthyr Tydfil, Wales, to stop teenagers loitering outside shops (Compound Security; the Ig Nobel citation).
+- Its tone is around 17 kHz, which most people over about 25 cannot hear (The New York Times, "A Ring Tone Meant to Fall on Deaf Ears", 12 June 2006).
+- Hair cells at the wide end (base) of the cochlea pick up high-pitched sounds (NIDCD, "How Do We Hear?"). In age-related hearing loss those wear out first (StatPearls, "Presbycusis").
+- Students put the tone on their phones as a ringtone most teachers couldn't hear (NYT, 2006). Stapleton won the 2006 Ig Nobel Peace Prize for both (improbable.com).
+The people, the shop, the ear, the classroom and the ad in the phone are our own illustrations (yourbrand is a placeholder; the crowd is not real data).
+Rebuild:
+1. `python3 source/reel_mosq_vo.py <kokoro-dir> <tmp>`
+2. `node source/reel_mosq.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames)
+3. `python3 source/reel_mosq_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, then loudnorm to -14 LUFS and mux.
+Scenes: `source/reel_mosq_scene.js` (three.js, with a jointed figure rig for the people); the switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Over 25? You can't hear what this box is playing.
+> Teenagers can. They hate it. That's the point.
+> It's the Mosquito, built in Wales to clear teens from shop doorways.
+> It shrieks at about 17,000 hertz.
+> Ageing ears lose the high notes first. Most adults hear nothing.
+> Then teenagers made it a ringtone, so phones could ring in class while most teachers heard nothing.
+> Same sound. Two audiences.
+> Your ad is that box. Meta plays it to a crowd. Your hook decides who hears it.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> The Mosquito is a small box that shops mount above their doors. It plays a tone at about 17,000 hertz.
+>
+> Most people over 25 can't hear it, because ageing ears lose the high notes first. Teenagers hear it loud and clear, and they move on.
+>
+> Then teenagers turned it around. They made the same tone a ringtone, so their phones could ring in class without most teachers noticing.
+>
+> Same sound, two audiences. The box never picks who hears it. The sound does.
+>
+> Your ads work the same way. Meta shows them to a big crowd, and your hook decides who stops. That's the part we write first.
+>
+> That's how we scale businesses with Meta ads and Instagram ads.
+>
+> Sources: The New York Times (12 June 2006); the 2006 Ig Nobel Peace Prize; NIDCD.
+>
+> #metaads #instagramads #adhooks
