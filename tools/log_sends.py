@@ -1,8 +1,9 @@
-"""Log first-message email sends. Usage: python3 tools/log_sends.py [--approved TEXT] LEAD=GMAIL_MESSAGE_ID ...
+"""Log first-message email sends. Usage: python3 tools/log_sends.py [--approved TEXT] LEAD=GMAIL_MESSAGE_ID[@TIME] ...
 For each lead: a row in outreach/sent_log.csv; 'sent <time>' in send_schedule.csv and on its first message in
 messages_queue.csv; 'Email 1 sent' in leads/lead_database.csv; and the two follow-ups (3 working days and 7 days
-after the send, Sydney date) in followups_due.csv. Rows that don't change keep their exact bytes (the files mix CRLF
-and LF line endings); new rows are CRLF like the rows around them."""
+after the send, Sydney date) in followups_due.csv. TIME (UTC, e.g. 2026-10-30T03:35:24Z) is when the email was sent,
+for logging a send after the fact; without it the send is logged as now. Rows that don't change keep their exact
+bytes (the files mix CRLF and LF line endings); new rows are CRLF like the rows around them."""
 import csv, io, os, sys, datetime as dt
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -11,16 +12,21 @@ args = sys.argv[1:]
 approved = ""
 if args[:1] == ["--approved"]:
     approved, args = args[1], args[2:]
-sends = dict(a.split("=", 1) for a in args)
 now = dt.datetime.now(dt.timezone.utc)
-stamp = now.strftime("%Y-%m-%dT%H:%M:%SZ")
-au_day = (now + dt.timedelta(hours=11)).date()   # the date in Sydney (AEDT)
+sends, sent_at = {}, {}
+for a in args:
+    lead, mid = a.split("=", 1)
+    mid, _, t = mid.partition("@")
+    sends[lead] = mid
+    sent_at[lead] = dt.datetime.strptime(t, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc) if t else now
 def add_workdays(d, n):
     while n:
         d += dt.timedelta(days=1)
         n -= d.weekday() < 5
     return d
-due = [add_workdays(au_day, 3).isoformat(), (au_day + dt.timedelta(days=7)).isoformat()]
+stamp = {k: t.strftime("%Y-%m-%dT%H:%M:%SZ") for k, t in sent_at.items()}
+au_day = {k: (t + dt.timedelta(hours=11)).date() for k, t in sent_at.items()}   # the date in Sydney (AEDT)
+due = {k: [add_workdays(d, 3).isoformat(), (d + dt.timedelta(days=7)).isoformat()] for k, d in au_day.items()}
 
 def row_bytes(values, crlf=True):
     b = io.StringIO()
@@ -44,30 +50,36 @@ def edit_lines(path, key, changes):
 def append(path, rows):
     open(path, "ab").write(b"".join(row_bytes(r) for r in rows))
 
-leads = {r["lead_id"]: r for r in csv.DictReader(open(P("leads", "lead_database.csv"), newline=""))}
+leads = {r["lead_id"]: r for r in csv.DictReader(open(P("leads", "lead_database.csv"), newline="", encoding="utf-8"))}
 missing = [k for k in sends if k not in leads]
 if missing:
     sys.exit(f"unknown leads: {missing}")
+logged = {r["lead_id"] for r in csv.DictReader(open(P("outreach", "sent_log.csv"), newline="", encoding="utf-8"))}
+again = [k for k in sends if k in logged]
+if again:
+    sys.exit(f"already in sent_log.csv: {again}")
 
 # messages_queue has multi-line message text, so it is parsed whole; its rows all end in CRLF
 qpath = P("outreach", "messages_queue.csv")
-q = list(csv.reader(open(qpath, newline="")))
+q = list(csv.reader(open(qpath, newline="", encoding="utf-8")))
 qi = {h: i for i, h in enumerate(q[0])}
 msg_of = {}
 for r in q[1:]:
     if r[qi["lead_id"]] in sends and r[qi["stage"]].startswith("1"):
-        r[qi["status"]] = f"sent {stamp}"
+        r[qi["status"]] = f"sent {stamp[r[qi['lead_id']]]}"
         msg_of[r[qi["lead_id"]]] = r[qi["msg_id"]]
 open(qpath, "wb").write(b"".join(row_bytes(r) for r in q))
 
-sched = edit_lines(P("outreach", "send_schedule.csv"), "lead_id", {k: {"status": f"sent {stamp}"} for k in sends})
+sched = edit_lines(P("outreach", "send_schedule.csv"), "lead_id", {k: {"status": f"sent {stamp[k]}"} for k in sends})
 edit_lines(P("leads", "lead_database.csv"), "lead_id",
-           {k: {"status": f"Email 1 sent {au_day} (AU); follow-ups due {due[0]}, {due[1]}"} for k in sends})
+           {k: {"status": f"Email 1 sent {au_day[k]} (AU); follow-ups due {due[k][0]}, {due[k][1]}"} for k in sends})
 append(P("outreach", "sent_log.csv"),
        [[m, k, leads[k]["business_name"], f"Email: {leads[k]['contact_email']}", "1 - first message",
-         f"{msg_of.get(k, '?')} in messages_queue.csv", approved, stamp, due[0], "sent"] for k, m in sends.items()])
+         f"{msg_of.get(k, '?')} in messages_queue.csv", approved, stamp[k], due[k][0], "sent"] for k, m in sends.items()])
 append(P("outreach", "followups_due.csv"),
        [[k, leads[k]["business_name"], leads[k]["contact_name"], "Email", stage, d, dep, "pending"]
-        for k in sends for stage, d, dep in (("2 - follow-up (new idea)", due[0], "M1 sent, no reply"),
-                                             ("3 - final", due[1], "M2 sent, no reply"))])
-print(f"logged {len(sends)} sends at {stamp}; schedule rows updated: {len(sched)}; queue messages: {len(msg_of)}; follow-ups {due}")
+        for k in sends for stage, d, dep in (("2 - follow-up (new idea)", due[k][0], "M1 sent, no reply"),
+                                             ("3 - final", due[k][1], "M2 sent, no reply"))])
+span = sorted(stamp.values())
+print(f"logged {len(sends)} sends ({span[0]} to {span[-1]}); schedule rows updated: {len(sched)}; "
+      f"queue messages: {len(msg_of)}; follow-ups {sorted({d for v in due.values() for d in v})}")
