@@ -873,3 +873,63 @@ Scenes: `source/reel_mosq_scene.js` (three.js, with a jointed figure rig for the
 > Sources: The New York Times (12 June 2006); the 2006 Ig Nobel Peace Prize; NIDCD.
 >
 > #metaads #instagramads #adhooks
+
+## Reel: "You can't tickle yourself. Unless it lands 0.2 seconds late." (3D explainer, the Mosquito reel's hook method)
+File: `reels/mezmedia_reel_tickle.mp4` (1080×1920, 30fps, 28.8s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: another reel made the way the Mosquito reel was, after it reached 2,400 views. Topic: why you can't tickle yourself, and the 1999 robot experiment at University College London that made a self-made touch tickle by delaying it 0.2 seconds. Our angle: the brain mutes what it sees coming, and in a feed it sees ads coming (logo, product, shop now), so the hook has to be the part it didn't predict. That angle is our view, not a finding of the papers.
+How the hook follows the Mosquito method:
+- It's a claim aimed at the viewer, with a number in it. `hookscore.py` rates it 84 STRONG, level with the Mosquito hook.
+- The whole hook card is on screen from the first frame ("you can't tickle yourself / unless it lands / 0.2 seconds late"), dim until each word is said.
+- The first frame is already moving: someone on a sofa tickles their own ribs with a bored face, fingers going.
+- The script passed the ig-human panel at 74.7. The voiceover uses the same female voice and melody engine (`source/vo_expr.py`), with a pitch range of 14.6 semitones (the Mosquito reel's was 14.6 too).
+Shots: 16 camera set-ups before the feed:
+- the sofa, tickling your own ribs, bored ("your own fingers")
+- a teaser from the lab: foam on a palm ("+0.2 s"), then the person laughing
+- the same person as an x-ray, the brain lit inside ("your brain")
+- the touch going up the arm and the prediction coming down to meet it, cancelling ("touch", "prediction")
+- a dial turning the touch down ("touch felt")
+- the 1999 lab: a table, two robot arms, a monitor ("UCL, London, 1999", "robot 1", "robot 2")
+- the left hand moving robot 1 ("you move this"), and robot 2 stroking foam over the right palm ("foam on your palm")
+- the monitor at "DELAY 0 ms", a bored face and an empty "tickle felt" bar
+- the monitor rolling to "200 ms", then the person laughing as the bar fills ("feels like someone else")
+- a brain, magnified, with signals flying in and going grey ("muted")
+Then the switch: the reel shrinks into a phone and flicks through three placeholder ads (a logo, a product, a "Shop now" button). Each one is muted as it lands ("logo", "product", "shop now", "muted"). On "So your hook has to be the delay" a fourth ad opens with a line nobody expects ("We made this bottle too heavy."), boxed as "the hook", and it gets through ("felt"). Then the pitch.
+Facts and sources (details in `source/reel_tickle_vo.py`):
+- A touch you make yourself feels weaker than the same touch from someone else. The brain predicts the sensory result of your own movements and turns the response down (Blakemore, Wolpert & Frith, "Central cancellation of self-produced tickle sensation", Nature Neuroscience, 1998).
+- At University College London, 16 people moved one robot arm with the left hand while a second robot stroked foam across the right palm. Ticklishness ratings rose as the delay grew from 0 to 200 ms, and at 200 ms they were no different from an outside touch. 14 of the 16 said they had not noticed the delays (Blakemore, Frith & Wolpert, Journal of Cognitive Neuroscience, 1999).
+- "Muted" ads are our reading of the lesson, not a finding of either paper.
+The people, the rooms, the robots and the ads are our own illustrations ("yourbrand" is a placeholder). The "tickle felt" bar has no numbers, because it isn't data. The giggle and the laugh are Mixkit recordings, cut short.
+Rebuild:
+1. `python3 source/reel_tickle_vo.py <kokoro-dir> <tmp>`
+2. `node source/reel_tickle.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames)
+3. `python3 source/reel_tickle_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, then loudnorm to -14 LUFS and mux.
+Scenes: `source/reel_tickle_scene.js` (three.js). It reuses the Mosquito reel's figure rig, adding fingers, eyelids and a laugh, and moves the robot arms with two-link IK. The switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> You can't tickle yourself. Unless it lands 0.2 seconds late.
+> Your brain saw it coming. It predicts your own touch, and turns it down.
+> London scientists tested it with two robots. You move one, and the other strokes your palm with foam.
+> No delay: barely a tickle. Delay it 0.2 seconds, and it feels like someone else did it!
+> Your brain mutes whatever it sees coming. In your feed, it sees ads coming.
+> Logo. Product. Shop now. Muted.
+> So your hook has to be the delay.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> Try tickling your own ribs. Barely anything, right? Your brain saw it coming.
+>
+> It predicts the touch your own hand is about to make, and it turns the feeling down before it even lands.
+>
+> In 1999, scientists at University College London tested this with two robots. People moved one robot arm with their left hand while a second robot stroked a piece of foam across their right palm.
+>
+> No delay: it barely tickled. But delay the stroke by 0.2 seconds and people rated it as tickly as a touch from someone else. 14 of the 16 said they never noticed the delay at all.
+>
+> Your feed works the same way. People see the logo, the product and the "shop now" coming, and their brain tunes it out. So your hook has to be the part nobody saw coming.
+>
+> That's how we scale businesses with Meta ads and Instagram ads.
+>
+> Sources: Blakemore, Wolpert & Frith, Nature Neuroscience (1998); Blakemore, Frith & Wolpert, Journal of Cognitive Neuroscience (1999).
+>
+> #metaads #instagramads #adhooks

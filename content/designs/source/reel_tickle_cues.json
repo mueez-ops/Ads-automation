@@ -1,0 +1,826 @@
+{
+ "lines": {
+  "cant": {
+   "s": 0.05,
+   "e": 1.174,
+   "text": "you can't tickle yourself"
+  },
+  "unless": {
+   "s": 1.214,
+   "e": 3.281,
+   "text": "unless it lands zero point two seconds late"
+  },
+  "saw": {
+   "s": 3.361,
+   "e": 4.567,
+   "text": "your brain saw it coming"
+  },
+  "predicts": {
+   "s": 4.617,
+   "e": 6.637,
+   "text": "it predicts your own touch and turns it down"
+  },
+  "robots": {
+   "s": 6.717,
+   "e": 8.966,
+   "text": "london scientists tested it with two robots"
+  },
+  "foam": {
+   "s": 8.996,
+   "e": 11.372,
+   "text": "you move one and the other strokes your palm with foam"
+  },
+  "nodelay": {
+   "s": 11.442,
+   "e": 13.078,
+   "text": "no delay barely a tickle"
+  },
+  "delay": {
+   "s": 13.138,
+   "e": 16.526,
+   "text": "delay it zero point two seconds and it feels like someone else did it"
+  },
+  "mutes": {
+   "s": 16.616,
+   "e": 18.399,
+   "text": "your brain mutes whatever it sees coming"
+  },
+  "feed": {
+   "s": 18.469,
+   "e": 20.261,
+   "text": "in your feed it sees ads coming"
+  },
+  "logo": {
+   "s": 20.291,
+   "e": 22.482,
+   "text": "logo product shop now muted"
+  },
+  "hookd": {
+   "s": 22.542,
+   "e": 23.997,
+   "text": "so your hook has to be the delay"
+  },
+  "scale": {
+   "s": 24.097,
+   "e": 25.86,
+   "text": "we scale businesses with ads like this"
+  },
+  "dm": {
+   "s": 25.92,
+   "e": 28.221,
+   "text": "DM us the word teardown for a free ad review"
+  }
+ },
+ "words": [
+  {
+   "w": "you",
+   "s": 0.102,
+   "e": 0.177,
+   "line": "cant"
+  },
+  {
+   "w": "can't",
+   "s": 0.227,
+   "e": 0.402,
+   "line": "cant"
+  },
+  {
+   "w": "tickle",
+   "s": 0.452,
+   "e": 0.677,
+   "line": "cant"
+  },
+  {
+   "w": "yourself",
+   "s": 0.702,
+   "e": 1.352,
+   "line": "cant"
+  },
+  {
+   "w": "unless",
+   "s": 1.25,
+   "e": 1.475,
+   "line": "unless"
+  },
+  {
+   "w": "it",
+   "s": 1.5,
+   "e": 1.55,
+   "line": "unless"
+  },
+  {
+   "w": "lands",
+   "s": 1.575,
+   "e": 1.95,
+   "line": "unless"
+  },
+  {
+   "w": "zero",
+   "s": 2.05,
+   "e": 2.3,
+   "line": "unless"
+  },
+  {
+   "w": "point",
+   "s": 2.35,
+   "e": 2.575,
+   "line": "unless"
+  },
+  {
+   "w": "two",
+   "s": 2.625,
+   "e": 2.725,
+   "line": "unless"
+  },
+  {
+   "w": "seconds",
+   "s": 2.775,
+   "e": 3.05,
+   "line": "unless"
+  },
+  {
+   "w": "late",
+   "s": 3.1,
+   "e": 3.55,
+   "line": "unless"
+  },
+  {
+   "w": "your",
+   "s": 3.404,
+   "e": 3.529,
+   "line": "saw"
+  },
+  {
+   "w": "brain",
+   "s": 3.579,
+   "e": 3.854,
+   "line": "saw"
+  },
+  {
+   "w": "saw",
+   "s": 3.904,
+   "e": 4.054,
+   "line": "saw"
+  },
+  {
+   "w": "it",
+   "s": 4.079,
+   "e": 4.129,
+   "line": "saw"
+  },
+  {
+   "w": "coming",
+   "s": 4.179,
+   "e": 4.804,
+   "line": "saw"
+  },
+  {
+   "w": "it",
+   "s": 4.67,
+   "e": 4.72,
+   "line": "predicts"
+  },
+  {
+   "w": "predicts",
+   "s": 4.77,
+   "e": 5.02,
+   "line": "predicts"
+  },
+  {
+   "w": "your",
+   "s": 5.045,
+   "e": 5.12,
+   "line": "predicts"
+  },
+  {
+   "w": "own",
+   "s": 5.145,
+   "e": 5.245,
+   "line": "predicts"
+  },
+  {
+   "w": "touch",
+   "s": 5.295,
+   "e": 5.645,
+   "line": "predicts"
+  },
+  {
+   "w": "and",
+   "s": 5.865,
+   "e": 5.94,
+   "line": "predicts"
+  },
+  {
+   "w": "turns",
+   "s": 5.99,
+   "e": 6.215,
+   "line": "predicts"
+  },
+  {
+   "w": "it",
+   "s": 6.24,
+   "e": 6.29,
+   "line": "predicts"
+  },
+  {
+   "w": "down",
+   "s": 6.34,
+   "e": 6.865,
+   "line": "predicts"
+  },
+  {
+   "w": "london",
+   "s": 6.76,
+   "e": 7.06,
+   "line": "robots"
+  },
+  {
+   "w": "scientists",
+   "s": 7.11,
+   "e": 7.66,
+   "line": "robots"
+  },
+  {
+   "w": "tested",
+   "s": 7.71,
+   "e": 8.01,
+   "line": "robots"
+  },
+  {
+   "w": "it",
+   "s": 8.035,
+   "e": 8.085,
+   "line": "robots"
+  },
+  {
+   "w": "with",
+   "s": 8.11,
+   "e": 8.235,
+   "line": "robots"
+  },
+  {
+   "w": "two",
+   "s": 8.285,
+   "e": 8.41,
+   "line": "robots"
+  },
+  {
+   "w": "robots",
+   "s": 8.46,
+   "e": 9.185,
+   "line": "robots"
+  },
+  {
+   "w": "you",
+   "s": 9.031,
+   "e": 9.106,
+   "line": "foam"
+  },
+  {
+   "w": "move",
+   "s": 9.156,
+   "e": 9.381,
+   "line": "foam"
+  },
+  {
+   "w": "one",
+   "s": 9.431,
+   "e": 9.706,
+   "line": "foam"
+  },
+  {
+   "w": "and",
+   "s": 9.926,
+   "e": 10.001,
+   "line": "foam"
+  },
+  {
+   "w": "the",
+   "s": 10.026,
+   "e": 10.051,
+   "line": "foam"
+  },
+  {
+   "w": "other",
+   "s": 10.126,
+   "e": 10.276,
+   "line": "foam"
+  },
+  {
+   "w": "strokes",
+   "s": 10.326,
+   "e": 10.551,
+   "line": "foam"
+  },
+  {
+   "w": "your",
+   "s": 10.576,
+   "e": 10.651,
+   "line": "foam"
+  },
+  {
+   "w": "palm",
+   "s": 10.701,
+   "e": 10.926,
+   "line": "foam"
+  },
+  {
+   "w": "with",
+   "s": 10.951,
+   "e": 11.051,
+   "line": "foam"
+  },
+  {
+   "w": "foam",
+   "s": 11.101,
+   "e": 11.626,
+   "line": "foam"
+  },
+  {
+   "w": "no",
+   "s": 11.521,
+   "e": 11.721,
+   "line": "nodelay"
+  },
+  {
+   "w": "delay",
+   "s": 11.771,
+   "e": 12.121,
+   "line": "nodelay"
+  },
+  {
+   "w": "barely",
+   "s": 12.341,
+   "e": 12.641,
+   "line": "nodelay"
+  },
+  {
+   "w": "a",
+   "s": 12.641,
+   "e": 12.741,
+   "line": "nodelay"
+  },
+  {
+   "w": "tickle",
+   "s": 12.741,
+   "e": 13.316,
+   "line": "nodelay"
+  },
+  {
+   "w": "delay",
+   "s": 13.186,
+   "e": 13.461,
+   "line": "delay"
+  },
+  {
+   "w": "it",
+   "s": 13.511,
+   "e": 13.611,
+   "line": "delay"
+  },
+  {
+   "w": "zero",
+   "s": 13.686,
+   "e": 14.036,
+   "line": "delay"
+  },
+  {
+   "w": "point",
+   "s": 14.086,
+   "e": 14.311,
+   "line": "delay"
+  },
+  {
+   "w": "two",
+   "s": 14.361,
+   "e": 14.461,
+   "line": "delay"
+  },
+  {
+   "w": "seconds",
+   "s": 14.511,
+   "e": 15.061,
+   "line": "delay"
+  },
+  {
+   "w": "and",
+   "s": 15.281,
+   "e": 15.356,
+   "line": "delay"
+  },
+  {
+   "w": "it",
+   "s": 15.381,
+   "e": 15.431,
+   "line": "delay"
+  },
+  {
+   "w": "feels",
+   "s": 15.481,
+   "e": 15.706,
+   "line": "delay"
+  },
+  {
+   "w": "like",
+   "s": 15.731,
+   "e": 15.856,
+   "line": "delay"
+  },
+  {
+   "w": "someone",
+   "s": 15.906,
+   "e": 16.081,
+   "line": "delay"
+  },
+  {
+   "w": "else",
+   "s": 16.106,
+   "e": 16.256,
+   "line": "delay"
+  },
+  {
+   "w": "did",
+   "s": 16.306,
+   "e": 16.406,
+   "line": "delay"
+  },
+  {
+   "w": "it",
+   "s": 16.456,
+   "e": 16.831,
+   "line": "delay"
+  },
+  {
+   "w": "your",
+   "s": 16.652,
+   "e": 16.727,
+   "line": "mutes"
+  },
+  {
+   "w": "brain",
+   "s": 16.777,
+   "e": 17.052,
+   "line": "mutes"
+  },
+  {
+   "w": "mutes",
+   "s": 17.102,
+   "e": 17.402,
+   "line": "mutes"
+  },
+  {
+   "w": "whatever",
+   "s": 17.452,
+   "e": 17.627,
+   "line": "mutes"
+  },
+  {
+   "w": "it",
+   "s": 17.677,
+   "e": 17.727,
+   "line": "mutes"
+  },
+  {
+   "w": "sees",
+   "s": 17.777,
+   "e": 18.002,
+   "line": "mutes"
+  },
+  {
+   "w": "coming",
+   "s": 18.052,
+   "e": 18.652,
+   "line": "mutes"
+  },
+  {
+   "w": "in",
+   "s": 18.519,
+   "e": 18.594,
+   "line": "feed"
+  },
+  {
+   "w": "your",
+   "s": 18.619,
+   "e": 18.719,
+   "line": "feed"
+  },
+  {
+   "w": "feed",
+   "s": 18.769,
+   "e": 19.094,
+   "line": "feed"
+  },
+  {
+   "w": "it",
+   "s": 19.314,
+   "e": 19.364,
+   "line": "feed"
+  },
+  {
+   "w": "sees",
+   "s": 19.414,
+   "e": 19.614,
+   "line": "feed"
+  },
+  {
+   "w": "ads",
+   "s": 19.664,
+   "e": 19.889,
+   "line": "feed"
+  },
+  {
+   "w": "coming",
+   "s": 19.939,
+   "e": 20.489,
+   "line": "feed"
+  },
+  {
+   "w": "logo",
+   "s": 20.36,
+   "e": 20.785,
+   "line": "logo"
+  },
+  {
+   "w": "product",
+   "s": 20.86,
+   "e": 21.335,
+   "line": "logo"
+  },
+  {
+   "w": "shop",
+   "s": 21.46,
+   "e": 21.685,
+   "line": "logo"
+  },
+  {
+   "w": "now",
+   "s": 21.71,
+   "e": 21.96,
+   "line": "logo"
+  },
+  {
+   "w": "muted",
+   "s": 22.155,
+   "e": 22.705,
+   "line": "logo"
+  },
+  {
+   "w": "so",
+   "s": 22.629,
+   "e": 22.729,
+   "line": "hookd"
+  },
+  {
+   "w": "your",
+   "s": 22.754,
+   "e": 22.829,
+   "line": "hookd"
+  },
+  {
+   "w": "hook",
+   "s": 22.879,
+   "e": 23.054,
+   "line": "hookd"
+  },
+  {
+   "w": "has",
+   "s": 23.104,
+   "e": 23.254,
+   "line": "hookd"
+  },
+  {
+   "w": "to",
+   "s": 23.304,
+   "e": 23.329,
+   "line": "hookd"
+  },
+  {
+   "w": "be",
+   "s": 23.379,
+   "e": 23.479,
+   "line": "hookd"
+  },
+  {
+   "w": "the",
+   "s": 23.504,
+   "e": 23.554,
+   "line": "hookd"
+  },
+  {
+   "w": "delay",
+   "s": 23.604,
+   "e": 24.254,
+   "line": "hookd"
+  },
+  {
+   "w": "we",
+   "s": 24.131,
+   "e": 24.206,
+   "line": "scale"
+  },
+  {
+   "w": "scale",
+   "s": 24.256,
+   "e": 24.531,
+   "line": "scale"
+  },
+  {
+   "w": "businesses",
+   "s": 24.581,
+   "e": 25.006,
+   "line": "scale"
+  },
+  {
+   "w": "with",
+   "s": 25.031,
+   "e": 25.156,
+   "line": "scale"
+  },
+  {
+   "w": "ads",
+   "s": 25.231,
+   "e": 25.431,
+   "line": "scale"
+  },
+  {
+   "w": "like",
+   "s": 25.456,
+   "e": 25.581,
+   "line": "scale"
+  },
+  {
+   "w": "this",
+   "s": 25.606,
+   "e": 26.056,
+   "line": "scale"
+  },
+  {
+   "w": "DM",
+   "s": 25.969,
+   "e": 26.294,
+   "line": "dm"
+  },
+  {
+   "w": "us",
+   "s": 26.344,
+   "e": 26.494,
+   "line": "dm"
+  },
+  {
+   "w": "the",
+   "s": 26.519,
+   "e": 26.569,
+   "line": "dm"
+  },
+  {
+   "w": "word",
+   "s": 26.619,
+   "e": 26.794,
+   "line": "dm"
+  },
+  {
+   "w": "teardown",
+   "s": 26.844,
+   "e": 27.269,
+   "line": "dm"
+  },
+  {
+   "w": "for",
+   "s": 27.319,
+   "e": 27.419,
+   "line": "dm"
+  },
+  {
+   "w": "a",
+   "s": 27.419,
+   "e": 27.519,
+   "line": "dm"
+  },
+  {
+   "w": "free",
+   "s": 27.519,
+   "e": 27.694,
+   "line": "dm"
+  },
+  {
+   "w": "ad",
+   "s": 27.744,
+   "e": 27.894,
+   "line": "dm"
+  },
+  {
+   "w": "review",
+   "s": 27.919,
+   "e": 28.519,
+   "line": "dm"
+  }
+ ],
+ "voice_end": 28.221,
+ "end": 28.821,
+ "at": {
+  "cant:you": 0.102,
+  "cant:can't": 0.227,
+  "cant:tickle": 0.452,
+  "cant:yourself": 0.702,
+  "unless:unless": 1.25,
+  "unless:it": 1.5,
+  "unless:lands": 1.575,
+  "unless:zero": 2.05,
+  "unless:point": 2.35,
+  "unless:two": 2.625,
+  "unless:seconds": 2.775,
+  "unless:late": 3.1,
+  "saw:your": 3.404,
+  "saw:brain": 3.579,
+  "saw:saw": 3.904,
+  "saw:it": 4.079,
+  "saw:coming": 4.179,
+  "predicts:it": 6.24,
+  "predicts:predicts": 4.77,
+  "predicts:your": 5.045,
+  "predicts:own": 5.145,
+  "predicts:touch": 5.295,
+  "predicts:and": 5.865,
+  "predicts:turns": 5.99,
+  "predicts:down": 6.34,
+  "robots:london": 6.76,
+  "robots:scientists": 7.11,
+  "robots:tested": 7.71,
+  "robots:it": 8.035,
+  "robots:with": 8.11,
+  "robots:two": 8.285,
+  "robots:robots": 8.46,
+  "foam:you": 9.031,
+  "foam:move": 9.156,
+  "foam:one": 9.431,
+  "foam:and": 9.926,
+  "foam:the": 10.026,
+  "foam:other": 10.126,
+  "foam:strokes": 10.326,
+  "foam:your": 10.576,
+  "foam:palm": 10.701,
+  "foam:with": 10.951,
+  "foam:foam": 11.101,
+  "nodelay:no": 11.521,
+  "nodelay:delay": 11.771,
+  "nodelay:barely": 12.341,
+  "nodelay:a": 12.641,
+  "nodelay:tickle": 12.741,
+  "delay:delay": 13.186,
+  "delay:it": 16.456,
+  "delay:zero": 13.686,
+  "delay:point": 14.086,
+  "delay:two": 14.361,
+  "delay:seconds": 14.511,
+  "delay:and": 15.281,
+  "delay:feels": 15.481,
+  "delay:like": 15.731,
+  "delay:someone": 15.906,
+  "delay:else": 16.106,
+  "delay:did": 16.306,
+  "mutes:your": 16.652,
+  "mutes:brain": 16.777,
+  "mutes:mutes": 17.102,
+  "mutes:whatever": 17.452,
+  "mutes:it": 17.677,
+  "mutes:sees": 17.777,
+  "mutes:coming": 18.052,
+  "feed:in": 18.519,
+  "feed:your": 18.619,
+  "feed:feed": 18.769,
+  "feed:it": 19.314,
+  "feed:sees": 19.414,
+  "feed:ads": 19.664,
+  "feed:coming": 19.939,
+  "logo:logo": 20.36,
+  "logo:product": 20.86,
+  "logo:shop": 21.46,
+  "logo:now": 21.71,
+  "logo:muted": 22.155,
+  "hookd:so": 22.629,
+  "hookd:your": 22.754,
+  "hookd:hook": 22.879,
+  "hookd:has": 23.104,
+  "hookd:to": 23.304,
+  "hookd:be": 23.379,
+  "hookd:the": 23.504,
+  "hookd:delay": 23.604,
+  "scale:we": 24.131,
+  "scale:scale": 24.256,
+  "scale:businesses": 24.581,
+  "scale:with": 25.031,
+  "scale:ads": 25.231,
+  "scale:like": 25.456,
+  "scale:this": 25.606,
+  "dm:DM": 25.969,
+  "dm:us": 26.344,
+  "dm:the": 26.519,
+  "dm:word": 26.619,
+  "dm:teardown": 26.844,
+  "dm:for": 27.319,
+  "dm:a": 27.419,
+  "dm:free": 27.519,
+  "dm:ad": 27.744,
+  "dm:review": 27.919
+ }
+}
