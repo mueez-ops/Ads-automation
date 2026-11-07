@@ -1,0 +1,775 @@
+{
+ "lines": {
+  "every": {
+   "s": 0.05,
+   "e": 1.556,
+   "text": "every three seconds your eyes shut"
+  },
+  "never": {
+   "s": 1.597,
+   "e": 3.145,
+   "text": "you've never seen it not once"
+  },
+  "dims": {
+   "s": 3.225,
+   "e": 6.563,
+   "text": "your brain dims your vision up to fifty milliseconds before every blink"
+  },
+  "dark": {
+   "s": 6.593,
+   "e": 7.964,
+   "text": "so you never notice the dark"
+  },
+  "tokyo": {
+   "s": 8.044,
+   "e": 11.815,
+   "text": "in tokyo scientists tracked the blinks of fourteen people watching mister bean"
+  },
+  "lined": {
+   "s": 11.865,
+   "e": 15.463,
+   "text": "their blinks lined up at the dull bits an empty street a parked car"
+  },
+  "action": {
+   "s": 15.523,
+   "e": 17.339,
+   "text": "during the action they barely blinked"
+  },
+  "ad": {
+   "s": 17.429,
+   "e": 18.944,
+   "text": "your ad gets watched the same way"
+  },
+  "logo": {
+   "s": 18.984,
+   "e": 22.143,
+   "text": "logo spinning in blink slow product pan blink"
+  },
+  "cut": {
+   "s": 22.203,
+   "e": 23.822,
+   "text": "so cut the seconds they'd blink through"
+  },
+  "scale": {
+   "s": 23.922,
+   "e": 25.684,
+   "text": "we scale businesses with ads like this"
+  },
+  "dm": {
+   "s": 25.744,
+   "e": 28.045,
+   "text": "DM us the word teardown for a free ad review"
+  }
+ },
+ "words": [
+  {
+   "w": "every",
+   "s": 0.088,
+   "e": 0.338,
+   "line": "every"
+  },
+  {
+   "w": "three",
+   "s": 0.388,
+   "e": 0.538,
+   "line": "every"
+  },
+  {
+   "w": "seconds",
+   "s": 0.588,
+   "e": 0.888,
+   "line": "every"
+  },
+  {
+   "w": "your",
+   "s": 0.913,
+   "e": 0.988,
+   "line": "every"
+  },
+  {
+   "w": "eyes",
+   "s": 1.038,
+   "e": 1.213,
+   "line": "every"
+  },
+  {
+   "w": "shut",
+   "s": 1.288,
+   "e": 1.763,
+   "line": "every"
+  },
+  {
+   "w": "you've",
+   "s": 1.646,
+   "e": 1.746,
+   "line": "never"
+  },
+  {
+   "w": "never",
+   "s": 1.771,
+   "e": 1.946,
+   "line": "never"
+  },
+  {
+   "w": "seen",
+   "s": 1.996,
+   "e": 2.171,
+   "line": "never"
+  },
+  {
+   "w": "it",
+   "s": 2.221,
+   "e": 2.396,
+   "line": "never"
+  },
+  {
+   "w": "not",
+   "s": 2.616,
+   "e": 2.766,
+   "line": "never"
+  },
+  {
+   "w": "once",
+   "s": 2.791,
+   "e": 3.316,
+   "line": "never"
+  },
+  {
+   "w": "your",
+   "s": 3.249,
+   "e": 3.349,
+   "line": "dims"
+  },
+  {
+   "w": "brain",
+   "s": 3.399,
+   "e": 3.674,
+   "line": "dims"
+  },
+  {
+   "w": "dims",
+   "s": 3.724,
+   "e": 3.924,
+   "line": "dims"
+  },
+  {
+   "w": "your",
+   "s": 3.949,
+   "e": 4.024,
+   "line": "dims"
+  },
+  {
+   "w": "vision",
+   "s": 4.074,
+   "e": 4.474,
+   "line": "dims"
+  },
+  {
+   "w": "up",
+   "s": 4.549,
+   "e": 4.599,
+   "line": "dims"
+  },
+  {
+   "w": "to",
+   "s": 4.649,
+   "e": 4.674,
+   "line": "dims"
+  },
+  {
+   "w": "fifty",
+   "s": 4.774,
+   "e": 5.024,
+   "line": "dims"
+  },
+  {
+   "w": "milliseconds",
+   "s": 5.074,
+   "e": 5.649,
+   "line": "dims"
+  },
+  {
+   "w": "before",
+   "s": 5.699,
+   "e": 5.924,
+   "line": "dims"
+  },
+  {
+   "w": "every",
+   "s": 5.974,
+   "e": 6.224,
+   "line": "dims"
+  },
+  {
+   "w": "blink",
+   "s": 6.274,
+   "e": 6.799,
+   "line": "dims"
+  },
+  {
+   "w": "so",
+   "s": 6.672,
+   "e": 6.772,
+   "line": "dark"
+  },
+  {
+   "w": "you",
+   "s": 6.797,
+   "e": 6.872,
+   "line": "dark"
+  },
+  {
+   "w": "never",
+   "s": 6.922,
+   "e": 7.147,
+   "line": "dark"
+  },
+  {
+   "w": "notice",
+   "s": 7.197,
+   "e": 7.447,
+   "line": "dark"
+  },
+  {
+   "w": "the",
+   "s": 7.497,
+   "e": 7.547,
+   "line": "dark"
+  },
+  {
+   "w": "dark",
+   "s": 7.597,
+   "e": 8.147,
+   "line": "dark"
+  },
+  {
+   "w": "in",
+   "s": 8.077,
+   "e": 8.152,
+   "line": "tokyo"
+  },
+  {
+   "w": "tokyo",
+   "s": 8.202,
+   "e": 8.802,
+   "line": "tokyo"
+  },
+  {
+   "w": "scientists",
+   "s": 8.927,
+   "e": 9.377,
+   "line": "tokyo"
+  },
+  {
+   "w": "tracked",
+   "s": 9.427,
+   "e": 9.652,
+   "line": "tokyo"
+  },
+  {
+   "w": "the",
+   "s": 9.677,
+   "e": 9.727,
+   "line": "tokyo"
+  },
+  {
+   "w": "blinks",
+   "s": 9.777,
+   "e": 10.027,
+   "line": "tokyo"
+  },
+  {
+   "w": "of",
+   "s": 10.052,
+   "e": 10.102,
+   "line": "tokyo"
+  },
+  {
+   "w": "fourteen",
+   "s": 10.152,
+   "e": 10.452,
+   "line": "tokyo"
+  },
+  {
+   "w": "people",
+   "s": 10.502,
+   "e": 10.827,
+   "line": "tokyo"
+  },
+  {
+   "w": "watching",
+   "s": 10.997,
+   "e": 11.297,
+   "line": "tokyo"
+  },
+  {
+   "w": "mister",
+   "s": 11.322,
+   "e": 11.522,
+   "line": "tokyo"
+  },
+  {
+   "w": "bean",
+   "s": 11.572,
+   "e": 12.072,
+   "line": "tokyo"
+  },
+  {
+   "w": "their",
+   "s": 11.898,
+   "e": 11.973,
+   "line": "lined"
+  },
+  {
+   "w": "blinks",
+   "s": 12.023,
+   "e": 12.298,
+   "line": "lined"
+  },
+  {
+   "w": "lined",
+   "s": 12.348,
+   "e": 12.548,
+   "line": "lined"
+  },
+  {
+   "w": "up",
+   "s": 12.598,
+   "e": 12.673,
+   "line": "lined"
+  },
+  {
+   "w": "at",
+   "s": 12.818,
+   "e": 12.868,
+   "line": "lined"
+  },
+  {
+   "w": "the",
+   "s": 12.893,
+   "e": 12.943,
+   "line": "lined"
+  },
+  {
+   "w": "dull",
+   "s": 12.993,
+   "e": 13.168,
+   "line": "lined"
+  },
+  {
+   "w": "bits",
+   "s": 13.218,
+   "e": 13.668,
+   "line": "lined"
+  },
+  {
+   "w": "an",
+   "s": 13.938,
+   "e": 13.963,
+   "line": "lined"
+  },
+  {
+   "w": "empty",
+   "s": 14.013,
+   "e": 14.238,
+   "line": "lined"
+  },
+  {
+   "w": "street",
+   "s": 14.288,
+   "e": 14.613,
+   "line": "lined"
+  },
+  {
+   "w": "a",
+   "s": 14.733,
+   "e": 14.858,
+   "line": "lined"
+  },
+  {
+   "w": "parked",
+   "s": 14.858,
+   "e": 15.133,
+   "line": "lined"
+  },
+  {
+   "w": "car",
+   "s": 15.183,
+   "e": 15.708,
+   "line": "lined"
+  },
+  {
+   "w": "during",
+   "s": 15.566,
+   "e": 15.741,
+   "line": "action"
+  },
+  {
+   "w": "the",
+   "s": 15.766,
+   "e": 15.791,
+   "line": "action"
+  },
+  {
+   "w": "action",
+   "s": 15.891,
+   "e": 16.316,
+   "line": "action"
+  },
+  {
+   "w": "they",
+   "s": 16.511,
+   "e": 16.586,
+   "line": "action"
+  },
+  {
+   "w": "barely",
+   "s": 16.636,
+   "e": 16.911,
+   "line": "action"
+  },
+  {
+   "w": "blinked",
+   "s": 16.961,
+   "e": 17.536,
+   "line": "action"
+  },
+  {
+   "w": "your",
+   "s": 17.461,
+   "e": 17.586,
+   "line": "ad"
+  },
+  {
+   "w": "ad",
+   "s": 17.636,
+   "e": 17.786,
+   "line": "ad"
+  },
+  {
+   "w": "gets",
+   "s": 17.836,
+   "e": 18.061,
+   "line": "ad"
+  },
+  {
+   "w": "watched",
+   "s": 18.111,
+   "e": 18.336,
+   "line": "ad"
+  },
+  {
+   "w": "the",
+   "s": 18.361,
+   "e": 18.411,
+   "line": "ad"
+  },
+  {
+   "w": "same",
+   "s": 18.461,
+   "e": 18.686,
+   "line": "ad"
+  },
+  {
+   "w": "way",
+   "s": 18.711,
+   "e": 19.186,
+   "line": "ad"
+  },
+  {
+   "w": "logo",
+   "s": 19.042,
+   "e": 19.342,
+   "line": "logo"
+  },
+  {
+   "w": "spinning",
+   "s": 19.392,
+   "e": 19.642,
+   "line": "logo"
+  },
+  {
+   "w": "in",
+   "s": 19.667,
+   "e": 19.942,
+   "line": "logo"
+  },
+  {
+   "w": "blink",
+   "s": 20.187,
+   "e": 20.487,
+   "line": "logo"
+  },
+  {
+   "w": "slow",
+   "s": 20.707,
+   "e": 20.882,
+   "line": "logo"
+  },
+  {
+   "w": "product",
+   "s": 20.932,
+   "e": 21.232,
+   "line": "logo"
+  },
+  {
+   "w": "pan",
+   "s": 21.282,
+   "e": 21.582,
+   "line": "logo"
+  },
+  {
+   "w": "blink",
+   "s": 21.802,
+   "e": 22.352,
+   "line": "logo"
+  },
+  {
+   "w": "so",
+   "s": 22.28,
+   "e": 22.38,
+   "line": "cut"
+  },
+  {
+   "w": "cut",
+   "s": 22.43,
+   "e": 22.53,
+   "line": "cut"
+  },
+  {
+   "w": "the",
+   "s": 22.555,
+   "e": 22.605,
+   "line": "cut"
+  },
+  {
+   "w": "seconds",
+   "s": 22.655,
+   "e": 23.03,
+   "line": "cut"
+  },
+  {
+   "w": "they'd",
+   "s": 23.08,
+   "e": 23.18,
+   "line": "cut"
+  },
+  {
+   "w": "blink",
+   "s": 23.23,
+   "e": 23.455,
+   "line": "cut"
+  },
+  {
+   "w": "through",
+   "s": 23.505,
+   "e": 24.08,
+   "line": "cut"
+  },
+  {
+   "w": "we",
+   "s": 23.956,
+   "e": 24.031,
+   "line": "scale"
+  },
+  {
+   "w": "scale",
+   "s": 24.081,
+   "e": 24.356,
+   "line": "scale"
+  },
+  {
+   "w": "businesses",
+   "s": 24.406,
+   "e": 24.831,
+   "line": "scale"
+  },
+  {
+   "w": "with",
+   "s": 24.856,
+   "e": 24.981,
+   "line": "scale"
+  },
+  {
+   "w": "ads",
+   "s": 25.056,
+   "e": 25.256,
+   "line": "scale"
+  },
+  {
+   "w": "like",
+   "s": 25.281,
+   "e": 25.406,
+   "line": "scale"
+  },
+  {
+   "w": "this",
+   "s": 25.431,
+   "e": 25.881,
+   "line": "scale"
+  },
+  {
+   "w": "DM",
+   "s": 25.794,
+   "e": 26.119,
+   "line": "dm"
+  },
+  {
+   "w": "us",
+   "s": 26.169,
+   "e": 26.319,
+   "line": "dm"
+  },
+  {
+   "w": "the",
+   "s": 26.344,
+   "e": 26.394,
+   "line": "dm"
+  },
+  {
+   "w": "word",
+   "s": 26.444,
+   "e": 26.619,
+   "line": "dm"
+  },
+  {
+   "w": "teardown",
+   "s": 26.669,
+   "e": 27.094,
+   "line": "dm"
+  },
+  {
+   "w": "for",
+   "s": 27.144,
+   "e": 27.244,
+   "line": "dm"
+  },
+  {
+   "w": "a",
+   "s": 27.244,
+   "e": 27.344,
+   "line": "dm"
+  },
+  {
+   "w": "free",
+   "s": 27.344,
+   "e": 27.519,
+   "line": "dm"
+  },
+  {
+   "w": "ad",
+   "s": 27.569,
+   "e": 27.719,
+   "line": "dm"
+  },
+  {
+   "w": "review",
+   "s": 27.744,
+   "e": 28.344,
+   "line": "dm"
+  }
+ ],
+ "voice_end": 28.045,
+ "end": 28.645,
+ "at": {
+  "every:every": 0.088,
+  "every:three": 0.388,
+  "every:seconds": 0.588,
+  "every:your": 0.913,
+  "every:eyes": 1.038,
+  "every:shut": 1.288,
+  "never:you've": 1.646,
+  "never:never": 1.771,
+  "never:seen": 1.996,
+  "never:it": 2.221,
+  "never:not": 2.616,
+  "never:once": 2.791,
+  "dims:your": 3.949,
+  "dims:brain": 3.399,
+  "dims:dims": 3.724,
+  "dims:vision": 4.074,
+  "dims:up": 4.549,
+  "dims:to": 4.649,
+  "dims:fifty": 4.774,
+  "dims:milliseconds": 5.074,
+  "dims:before": 5.699,
+  "dims:every": 5.974,
+  "dims:blink": 6.274,
+  "dark:so": 6.672,
+  "dark:you": 6.797,
+  "dark:never": 6.922,
+  "dark:notice": 7.197,
+  "dark:the": 7.497,
+  "dark:dark": 7.597,
+  "tokyo:in": 8.077,
+  "tokyo:tokyo": 8.202,
+  "tokyo:scientists": 8.927,
+  "tokyo:tracked": 9.427,
+  "tokyo:the": 9.677,
+  "tokyo:blinks": 9.777,
+  "tokyo:of": 10.052,
+  "tokyo:fourteen": 10.152,
+  "tokyo:people": 10.502,
+  "tokyo:watching": 10.997,
+  "tokyo:mister": 11.322,
+  "tokyo:bean": 11.572,
+  "lined:their": 11.898,
+  "lined:blinks": 12.023,
+  "lined:lined": 12.348,
+  "lined:up": 12.598,
+  "lined:at": 12.818,
+  "lined:the": 12.893,
+  "lined:dull": 12.993,
+  "lined:bits": 13.218,
+  "lined:an": 13.938,
+  "lined:empty": 14.013,
+  "lined:street": 14.288,
+  "lined:a": 14.733,
+  "lined:parked": 14.858,
+  "lined:car": 15.183,
+  "action:during": 15.566,
+  "action:the": 15.766,
+  "action:action": 15.891,
+  "action:they": 16.511,
+  "action:barely": 16.636,
+  "action:blinked": 16.961,
+  "ad:your": 17.461,
+  "ad:ad": 17.636,
+  "ad:gets": 17.836,
+  "ad:watched": 18.111,
+  "ad:the": 18.361,
+  "ad:same": 18.461,
+  "ad:way": 18.711,
+  "logo:logo": 19.042,
+  "logo:spinning": 19.392,
+  "logo:in": 19.667,
+  "logo:blink": 21.802,
+  "logo:slow": 20.707,
+  "logo:product": 20.932,
+  "logo:pan": 21.282,
+  "cut:so": 22.28,
+  "cut:cut": 22.43,
+  "cut:the": 22.555,
+  "cut:seconds": 22.655,
+  "cut:they'd": 23.08,
+  "cut:blink": 23.23,
+  "cut:through": 23.505,
+  "scale:we": 23.956,
+  "scale:scale": 24.081,
+  "scale:businesses": 24.406,
+  "scale:with": 24.856,
+  "scale:ads": 25.056,
+  "scale:like": 25.281,
+  "scale:this": 25.431,
+  "dm:DM": 25.794,
+  "dm:us": 26.169,
+  "dm:the": 26.344,
+  "dm:word": 26.444,
+  "dm:teardown": 26.669,
+  "dm:for": 27.144,
+  "dm:a": 27.244,
+  "dm:free": 27.344,
+  "dm:ad": 27.569,
+  "dm:review": 27.744
+ }
+}

@@ -933,3 +933,65 @@ Scenes: `source/reel_tickle_scene.js` (three.js). It reuses the Mosquito reel's 
 > Sources: Blakemore, Wolpert & Frith, Nature Neuroscience (1998); Blakemore, Frith & Wolpert, Journal of Cognitive Neuroscience (1999).
 >
 > #metaads #instagramads #adhooks
+
+## Reel: "Every 3 seconds your eyes shut. You've never seen it. Not once." (3D explainer, the Mosquito reel's hook method)
+File: `reels/mezmedia_reel_blink.mp4` (1080×1920, 30fps, 28.6s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: another reel, after the Mosquito reel's 2,400 views and the tickle reel. Topic: your brain hides every blink from you, and people watching the same video blink together at its dull bits. Our angle: an ad gets watched the same way, so cut the seconds they'd blink through. That angle is our view, not a finding of the paper.
+The hook:
+- It's a claim aimed at the viewer, with a number in it. `hookscore.py` rates it 93.8 STRONG, the highest of the three (the Mosquito and tickle hooks scored 84).
+- The whole hook card is on screen from the first frame. The first frame is a giant eye mid-blink, with a phone's glow reflected in it.
+- The script passed the ig-human panel at 76.6. The voiceover uses the same female voice and melody engine (`source/vo_expr.py`), with a pitch range of 14.7 semitones.
+Shots: 17 camera set-ups before the feed:
+- a giant eye, mid-blink, then shutting on "shut"
+- someone in bed on their phone at night, blinking ("blink"), then the feed over their shoulder ("not once")
+- the same person as an x-ray: what they see flows from the eye to the back of the brain, then dims before the lid comes down ("vision", "vision: dimmed")
+- a timing chart: what you see drops up to 50 ms before the eyelid starts to close ("up to 50 ms"; it illustrates the timing and isn't data)
+- the giant eye again, shutting on "blink"
+- two film strips: what reaches your eye has a dark frame in it, and what you notice has no gap ("the dark")
+- the lab in Tokyo: a viewer 1 m from a 17-inch screen ("Tokyo, 2009", "1 m from a 17\" screen"), with electrodes above and below the left eye and a trace that spikes on each blink ("electrodes")
+- fourteen viewers in tiers ("14 people")
+- fourteen rows of blinks sliding into columns ("lined up")
+- the fourteen blinking together at a dull bit, then the screen showing an empty street and a parked car while a row of 14 eyes closes at once
+- the fourteen wide-eyed while something happens on screen ("the action"), and the row of eyes staying open ("no blinks")
+Then the switch: the reel shrinks into a phone and becomes a placeholder ad that opens on a spinning logo. On "Blink." two eyelids close over the whole frame. Then comes a slow pan across the product, and another blink. On "So cut the seconds they'd blink through" the ad's first seconds appear as a bar: "logo spin" and "slow pan" are cut out with scissors, and "the action" moves to the start, so the ad now opens with the bottle mid-flip ("Catch this."). Then the pitch. The music stops for each "Blink." too.
+Facts and sources (details in `source/reel_blink_vo.py`):
+- People blink about 17 times a minute at rest (150 volunteers; Bentivoglio et al., "Analysis of blink rate patterns in normal subjects", Movement Disorders, 1997). The people in the study below blinked 24.2 times a minute at rest. That's a blink every 2.5 to 3.5 seconds.
+- Blinking suppresses vision from up to 50 ms before the lid starts to move, which is why the dark goes unnoticed (Volkmann, Riggs & Moore, "Eyeblinks and visual suppression", Science, 1980; Volkmann, Vision Research, 1986; as summarised by Nakano et al., 2009).
+- At the University of Tokyo, Juntendo University and RIKEN, the blinks of 14 people were recorded with electrodes above and below the left eye while they watched silent clips from "Rowan Atkinson in Mr. Bean 1" on a 17-inch screen 1 m away. Their blinks lined up "during scenes that required less attention such as at the conclusion of an action, during the absence of the main character, during a long shot". Of the 17 biggest peaks, 11 showed only a still car, a car moving predictably or an empty street, and "blinks were suppressed while an action of the main character was unfolding" (Nakano, Yamamoto, Kitajo, Takahashi & Kitazawa, "Synchronization of spontaneous eyeblinks while viewing video stories", Proceedings of the Royal Society B, 2009).
+- "Your ad gets watched the same way" is our reading of the lesson, not a finding of the paper.
+The people, the rooms, the eye, the lab and the cartoon on the screen are our own illustrations. The study used clips of a British TV comedy, which we don't show. "yourbrand" is a placeholder.
+Rebuild:
+1. `python3 source/reel_blink_vo.py <kokoro-dir> <tmp>`
+2. `node source/reel_blink.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames)
+3. `python3 source/reel_blink_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, then loudnorm to -14 LUFS and mux.
+Scenes: `source/reel_blink_scene.js` (three.js). The giant eye is an eyeball with a painted iris, two lid shells that rotate shut, lashes and a skin sphere around it. The people reuse the Mosquito reel's figure rig. The switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Every 3 seconds your eyes shut. You've never seen it. Not once.
+> Your brain dims your vision up to 50 milliseconds before every blink, so you never notice the dark.
+> In Tokyo, scientists tracked the blinks of 14 people watching Mr. Bean.
+> Their blinks lined up at the dull bits: an empty street, a parked car.
+> During the action, they barely blinked.
+> Your ad gets watched the same way.
+> Logo spinning in? Blink. Slow product pan? Blink.
+> So cut the seconds they'd blink through.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> Every 3 seconds or so, your eyes shut. You've never seen it, because your brain turns your vision down up to 50 milliseconds before each blink.
+>
+> In 2009, scientists in Tokyo tracked the blinks of 14 people while they watched silent clips of Mr. Bean.
+>
+> Their blinks lined up. People blinked together at the dull bits: an empty street, a parked car, the end of an action. While something was happening, they barely blinked at all.
+>
+> Your ad gets watched the same way. A logo spinning in is a dull bit. So is a slow pan across the product. That's where your viewer blinks.
+>
+> So cut the seconds they'd blink through, and open on the action.
+>
+> That's how we scale businesses with Meta ads and Instagram ads.
+>
+> Sources: Nakano et al., Proceedings of the Royal Society B (2009); Bentivoglio et al., Movement Disorders (1997); Volkmann et al., Science (1980).
+>
+> #metaads #instagramads #adhooks
