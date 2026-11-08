@@ -995,3 +995,63 @@ Scenes: `source/reel_blink_scene.js` (three.js). The giant eye is an eyeball wit
 > Sources: Nakano et al., Proceedings of the Royal Society B (2009); Bentivoglio et al., Movement Disorders (1997); Volkmann et al., Science (1980).
 >
 > #metaads #instagramads #adhooks
+
+## Reel: "Half of you won't notice a stranger swapped mid-chat. Not even the voice." (3D explainer, the Mosquito reel's hook method)
+File: `reels/mezmedia_reel_door.mp4` (1080×1920, 30fps, 28.3s, Kokoro voiceover + music + SFX, -14 LUFS). Asked for: another reel, after the Mosquito (2,400 views), tickle and blink reels. Topic: the 1998 "door study" at Cornell. A man asking for directions was swapped for another man while a door was carried between him and the person helping him, and 8 of 15 people never noticed. Our angle: viewers miss small changes too, so stop testing tweaks and swap the first three seconds. That angle is our view of ad testing, not a finding of the paper.
+The hook:
+- It's a claim aimed at the viewer, with a number in it. `hookscore.py` rates it 88.0 STRONG.
+- The whole hook card is on screen from the first frame. The first frame is already moving: a carrier and the door sliding between the two people.
+- The hook shows the swap itself in slow motion: the door covers the man with the map on "swapped", and a different man is standing there when it has passed ("a different man", "new voice"). Then the edit rewinds to the start of the meeting.
+- The script passed the ig-human panel at 78.0. The voiceover uses the same female voice and melody engine (`source/vo_expr.py`), with a pitch range of 14.3 semitones.
+Shots: 12 camera set-ups before the feed:
+- over the pedestrian's shoulder as the door passes; the reveal; the new man talking ("a different man", "new voice")
+- a tape rewind, then the campus: the man with the map walks up ("man with a map", "Cornell, 1998"), and over his shoulder to the pedestrian
+- the door coming, tracked by the camera, with a clock at 0:09 and 0:10 ("a door")
+- the pedestrian's point of view as the door covers the man she is helping
+- from above: the man with the map takes the back of the door, and the carrier steps into his place ("the swap")
+- behind the door, the side she can't see ("takes his place")
+- a line-up of the two men against a height chart: blue shirt and green shirt, two different voices, about 5 cm apart
+- the pedestrian still giving directions to the new man while the old one walks off with the door; 15 figures, 8 grey ("kept giving directions") and 7 pink ("noticed")
+- her face glaring after the door ("the door: rude!")
+Then the switch: the reel shrinks into a phone and becomes a placeholder ad. On "New button colour?" its "Shop now" button flips from blue to green, and on "New font?" the headline changes font. Five viewer faces under the phone don't react ("most won't notice"), and the two tests are struck out on "stop testing tweaks". On "swap the first three seconds" a door slides across the phone and the ad now opens on a new first line ("Your water is too warm."). The faces light up ("first 3 seconds: swapped"). Then the pitch.
+Facts and sources (details and quotes in `source/reel_door_vo.py`, from the paper's full text):
+- Simons & Levin, "Failure to detect changes to people during a real-world interaction", Psychonomic Bulletin & Review 5(4):644-649, 1998. On the Cornell University campus, an experimenter with a campus map asked 15 pedestrians for directions. After 10 to 15 seconds, two men carrying a door passed between them, and the experimenter swapped places with the man carrying the back of the door, who carried on with an identical map. The door blocked the view for about a second.
+- The two men wore different clothes, differed in height by about 5 cm and had clearly different voices. Only 7 of the 15 pedestrians noticed the change, and the others carried on as if nothing had happened. Most only reported that the people carrying the door were rude.
+- Asked beforehand, a class of 50 students all said they would notice. With the men dressed as construction workers, only 4 of 12 students noticed.
+- "Your viewers miss changes too ... swap the first three seconds" is our view, not a finding of the paper.
+The people, the campus, the door and the ad are our own illustrations ("yourbrand" is a placeholder). The 15 figures show the paper's count; they aren't real people.
+Rebuild:
+1. `python3 source/reel_door_vo.py <kokoro-dir> <tmp>`
+2. `node source/reel_door.js <frames> <video.mp4>` (software WebGL; `REEL_RANGE=a:b` renders part of the frames)
+3. `python3 source/reel_door_audio.py <tmp>/vo.wav <mix.wav> <sfx-cache>`, then loudnorm to -14 LUFS and mux.
+Scenes: `source/reel_door_scene.js` (three.js). The people reuse the Mosquito reel's figure rig, with walking, carrying, pointing and talking poses. The story runs on its own clock (`STORYT` in `reel_door.js`), so the hook can show the swap and the edit can rewind. The switch runs on `source/reel_phone_kit.js`.
+
+**Script**
+> Half of you won't notice a stranger swapped mid-chat. Not even the voice.
+> A man with a map asked strangers at Cornell for directions.
+> 10 seconds in, two men carried a door between them, and behind it, one of the carriers took his place.
+> New clothes. New voice.
+> 8 of 15 kept giving directions.
+> Most only noticed the door was rude.
+> Your viewers miss changes too.
+> New button colour? New font? Most won't see it.
+> So stop testing tweaks, and swap the first 3 seconds.
+> We scale businesses with ads like this.
+> DM us the word teardown for a free ad review.
+
+**Caption**
+> DM us the word TEARDOWN and we'll review your ads for free.
+>
+> Half of you won't notice a stranger swapped mid-chat. Not even the voice.
+>
+> In 1998, a man with a campus map asked strangers at Cornell University for directions. About 10 seconds in, two men carried a door between them, and behind it, one of the carriers took his place.
+>
+> Different clothes. A different height. A clearly different voice. Only 7 of the 15 people noticed. The rest kept giving directions, and most only mentioned that the door was rude.
+>
+> Your viewers miss small changes too. A new button colour or a new font is easy to miss. So we test a new first 3 seconds instead.
+>
+> That's how we scale businesses with Meta ads and Instagram ads.
+>
+> Source: Simons & Levin, "Failure to detect changes to people during a real-world interaction", Psychonomic Bulletin & Review (1998).
+>
+> #metaads #instagramads #adhooks
