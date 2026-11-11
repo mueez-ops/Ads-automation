@@ -199,3 +199,27 @@ msg_id,lead_id,business_name,channel,stage,message_text,approved_at,sent_at,foll
 1a18ae073492ce52,C098,Viktoria & Woods,Email: marketing@viktoriaandwoods.com.au,1 - first message,M218 in messages_queue.csv,"not recorded: sent from the Gmail drafts on 2026-10-30, found in Sent and logged 2026-11-06",2026-10-30T03:35:27Z,2026-11-04,sent
 1a18ae06ee8abb75,C099,Third Form,Email: social@thirdform.com.au,1 - first message,M219 in messages_queue.csv,"not recorded: sent from the Gmail drafts on 2026-10-30, found in Sent and logged 2026-11-06",2026-10-30T03:35:26Z,2026-11-04,sent
 1a18ae06520f4a8a,C100,Ena Pelly,Email: enquiries@enapelly.com.au,1 - first message,M220 in messages_queue.csv,"not recorded: sent from the Gmail drafts on 2026-10-30, found in Sent and logged 2026-11-06",2026-10-30T03:35:24Z,2026-11-04,sent
+1a1cc1047247dec9,N001,MUSOU,Email: hello@musouofficial.com,1 - first message,M423 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:23:31Z,2026-11-17,sent
+1a1cc104cafe8ca8,N002,Acci,Email: hello@acciacci.com.au,1 - first message,M424 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:23:31Z,2026-11-17,sent
+1a1cc105636b5628,N003,Skylan Studios,Email: hello@skylanstudios.com,1 - first message,M425 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:23:31Z,2026-11-17,sent
+1a1cc105e8945e11,N004,HUZZAH,Email: hello@huzzahworld.com.au,1 - first message,M426 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:23:31Z,2026-11-17,sent
+1a1cc1064fa88f04,N005,PLATONIKA,Email: michelle@platonika.com.au,1 - first message,M427 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:23:31Z,2026-11-17,sent
+1a1cc1068ec627d4,N006,Other Normal,Email: pr@othernormal.com.au,1 - first message,M428 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:23:31Z,2026-11-17,sent
+1a1cc106fe56710a,N007,Joni Skincare,Email: hello@joniskincare.com.au,1 - first message,M429 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:23:31Z,2026-11-17,sent
+1a1cc10736d5db0e,N008,The Artist Nest,Email: hello@theartistnest.com.au,1 - first message,M430 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:23:31Z,2026-11-17,sent
+1a1cc10797fc8f30,N009,Freeing Venus,Email: hello@freeingvenus.com,1 - first message,M431 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:23:31Z,2026-11-17,sent
+1a1cc1080e49df73,N010,Romeo Waiting,Email: info@romeowaiting.com,1 - first message,M432 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:23:31Z,2026-11-17,sent
+1a1cc1087d9aa194,N011,Anita Ov,Email: info@anitaov.com,1 - first message,M433 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:23:31Z,2026-11-17,sent
+1a1cc109195eded5,N012,CIRQULAR,Email: hello@joincirqular.com,1 - first message,M434 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:23:31Z,2026-11-17,sent
+1a1cc1103bae49c9,N013,Stori of Africa,Email: hello@storiofafrica.com,1 - first message,M435 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:24:24Z,2026-11-17,sent
+1a1cc1107a0b2466,N014,Mooody Lemon,Email: mooodylemonceramics@gmail.com,1 - first message,M436 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:24:24Z,2026-11-17,sent
+1a1cc110f5b20a95,N015,eru studios,Email: eru.studioss@gmail.com,1 - first message,M437 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:24:24Z,2026-11-17,sent
+1a1cc1113e6e6cc1,N016,Restful Lizards,Email: restfullizards@gmail.com,1 - first message,M438 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:24:24Z,2026-11-17,sent
+1a1cc111959829c5,N017,Good Throw Co,Email: hello@goodthrowco.com.au,1 - first message,M439 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:24:24Z,2026-11-17,sent
+1a1cc112060c382c,N018,VAN BRUSSEL,Email: info@vanbrussel.com,1 - first message,M440 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:24:24Z,2026-11-17,sent
+1a1cc112770682d0,N019,Elegant Ensembles,Email: hello@elegants.au,1 - first message,M441 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:24:24Z,2026-11-17,sent
+1a1cc112ce07b33f,N020,Saigey,Email: saige.coleman22@hotmail.com,1 - first message,M442 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:24:24Z,2026-11-17,sent
+1a1cc113251657b9,N021,Paris Jade Burrows,Email: pr@parisjadeburrows.com,1 - first message,M443 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:24:24Z,2026-11-17,sent
+1a1cc1139891cbbc,N022,Monika Branagan,Email: hello@monikabranagan.com,1 - first message,M444 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:24:24Z,2026-11-17,sent
+1a1cc113fa7b5c71,N023,Senchi,Email: lmcreative.au@gmail.com,1 - first message,M445 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:24:24Z,2026-11-17,sent
+1a1cc114397a81f9,N024,Kepler Keychains,Email: info@keplerkeychains.com,1 - first message,M446 in messages_queue.csv,"2026-11-11 (Mueez: ""Send the mails"")",2026-11-11T19:24:24Z,2026-11-17,sent
