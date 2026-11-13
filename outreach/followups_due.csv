@@ -511,8 +511,8 @@ C108,Kloke,Amy Gallagher and Adam Coombes,Email,2 - follow-up (new idea),2026-11
 C108,Kloke,Amy Gallagher and Adam Coombes,Email,3 - final,2026-11-20,"M2 sent, no reply",pending
 C109,Friends with Frank,Julia McCarthy,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
 C109,Friends with Frank,Julia McCarthy,Email,3 - final,2026-11-20,"M2 sent, no reply",pending
-C110,LE BUNS,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
-C110,LE BUNS,,Email,3 - final,2026-11-20,"M2 sent, no reply",pending
+C110,LE BUNS,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",cancelled (Email 1 bounced)
+C110,LE BUNS,,Email,3 - final,2026-11-20,"M2 sent, no reply",cancelled (Email 1 bounced)
 C111,Mode Mischief Studios,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
 C111,Mode Mischief Studios,,Email,3 - final,2026-11-20,"M2 sent, no reply",pending
 C112,Myra Swim,Bianca Elouise,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
@@ -723,3 +723,203 @@ C200,Sea Street,Hayley O'Connor,Email,2 - follow-up (new idea),2026-11-17,"M1 se
 C200,Sea Street,Hayley O'Connor,Email,3 - final,2026-11-19,"M2 sent, no reply",pending
 C055,Palm Swim,,Email,2 - follow-up (new idea),2026-11-11,"M1 sent, no reply",pending
 C055,Palm Swim,,Email,3 - final,2026-11-13,"M2 sent, no reply",pending
+S001,Pickleslut,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S001,Pickleslut,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S002,Buluuy Mirrii,Colleen,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S002,Buluuy Mirrii,Colleen,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S003,Fruitchouli,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S003,Fruitchouli,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S004,Georgia Rose Studio,Georgia Rose Allen,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S004,Georgia Rose Studio,Georgia Rose Allen,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S005,Eleven Wolves,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S005,Eleven Wolves,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S006,Foke,Holly Clinton,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S006,Foke,Holly Clinton,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S007,Little Bread Winner,Cascie Heart,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S007,Little Bread Winner,Cascie Heart,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S008,Mama Melisse,Melisse Fernando,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S008,Mama Melisse,Melisse Fernando,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S009,Micaela Dietrich Jewellery,Micaela Dietrich,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S009,Micaela Dietrich Jewellery,Micaela Dietrich,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S010,Rose + Reggie,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S010,Rose + Reggie,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S011,The 3 Bees Honey,Sophia,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S011,The 3 Bees Honey,Sophia,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S012,The Bloom Code,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",cancelled (Email 1 bounced)
+S012,The Bloom Code,,Email,3 - final,2026-11-21,"M2 sent, no reply",cancelled (Email 1 bounced)
+S013,Ukiyo Boutique,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S013,Ukiyo Boutique,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S014,Violet Clark Studio,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S014,Violet Clark Studio,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S015,Wilde Aroma,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S015,Wilde Aroma,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S016,Chai Addict,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S016,Chai Addict,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S017,DY•5,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S017,DY•5,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S018,Junco Drinks,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S018,Junco Drinks,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S019,Lana's Garden,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S019,Lana's Garden,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S020,Lyfer,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S020,Lyfer,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S021,Matcha Mate,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S021,Matcha Mate,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S022,Muddied Hands,Daisy,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S022,Muddied Hands,Daisy,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S023,Sambal Sambal,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S023,Sambal Sambal,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S024,Sorry Nonna,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S024,Sorry Nonna,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S025,CRAYV,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S025,CRAYV,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S026,Beansprout Studio,Anwen,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S026,Beansprout Studio,Anwen,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S027,RCK Candles,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S027,RCK Candles,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S028,Forty-Love,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S028,Forty-Love,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S029,Nourish by Nature,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S029,Nourish by Nature,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S030,Bloomy Days,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S030,Bloomy Days,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S031,Born Bizzy,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S031,Born Bizzy,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S032,ChamCham,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S032,ChamCham,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S033,Fleurieu Made,Angelina Russo,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S033,Fleurieu Made,Angelina Russo,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S034,Furfolk,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S034,Furfolk,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S035,Goose & Pebble,Melissa,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S035,Goose & Pebble,Melissa,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S036,Gumnut Trails,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S036,Gumnut Trails,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S037,Katie Bourchier,Katie Bourchier,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S037,Katie Bourchier,Katie Bourchier,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S038,LaJala The Label,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S038,LaJala The Label,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S039,Lawrie Crafted,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S039,Lawrie Crafted,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S040,Modi The Label,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S040,Modi The Label,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S041,Ochre Dough,Mikaela Egan,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S041,Ochre Dough,Mikaela Egan,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S042,Papermoon,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S042,Papermoon,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S043,Perspectry,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S043,Perspectry,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S044,SISUU,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S044,SISUU,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S045,The Soapstress,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S045,The Soapstress,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S046,The Tasty Stuff,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S046,The Tasty Stuff,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S047,Thousand Apologies,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S047,Thousand Apologies,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S048,Bentley Dawn,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S048,Bentley Dawn,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S049,DC Cartel,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S049,DC Cartel,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S050,Quarm,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S050,Quarm,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S051,enokidomiso,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S051,enokidomiso,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S052,Jalayimiya,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S052,Jalayimiya,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S053,Sense Products,Vesna,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S053,Sense Products,Vesna,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S054,Kasmiri,Anna Kiousis,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S054,Kasmiri,Anna Kiousis,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S055,Earthlings United,Anna,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S055,Earthlings United,Anna,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S056,Jyelah Mind & Body,Kerrilee Philp,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S056,Jyelah Mind & Body,Kerrilee Philp,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S057,Sono Studio,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S057,Sono Studio,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S058,Botanic Enve,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S058,Botanic Enve,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S059,Bourke St the Label,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S059,Bourke St the Label,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S060,Dalia's Pantry,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S060,Dalia's Pantry,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S061,[et cetera] WOMAN,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S061,[et cetera] WOMAN,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S062,Find Your Treasures,Kate Searle,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S062,Find Your Treasures,Kate Searle,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S063,Knot A Label,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S063,Knot A Label,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S064,Lunae Active,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S064,Lunae Active,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S065,Mrs C's,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S065,Mrs C's,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S066,Myrtle & Dove,Joanne,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S066,Myrtle & Dove,Joanne,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S067,Paper Pops,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S067,Paper Pops,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S068,Put a lid on it,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S068,Put a lid on it,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S069,Schusser Threads,Abi,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S069,Schusser Threads,Abi,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S070,Sodasmith,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S070,Sodasmith,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S071,Sunset Daze,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S071,Sunset Daze,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S072,van Ermel Scherer,Verity,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S072,van Ermel Scherer,Verity,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S073,We The Wild,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S073,We The Wild,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S074,Belicious Kids,Alice and Zoe,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S074,Belicious Kids,Alice and Zoe,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S075,BY.VOTTARI,Sophia-Marie Vottari,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S075,BY.VOTTARI,Sophia-Marie Vottari,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S076,Casale,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S076,Casale,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S077,FunkyFunYou,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S077,FunkyFunYou,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S078,Hazel Baby Soy Candles,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S078,Hazel Baby Soy Candles,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S079,I AM Threads,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S079,I AM Threads,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S080,mappottery,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S080,mappottery,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S081,Marina Civiero,Marina Civiero,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S081,Marina Civiero,Marina Civiero,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S082,Nourished Skin Co,Kate Basset,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S082,Nourished Skin Co,Kate Basset,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S083,Soka Pantry,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S083,Soka Pantry,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S084,úton,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S084,úton,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S085,Arcadia Scott Ceramics,Arcadia Scott,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S085,Arcadia Scott Ceramics,Arcadia Scott,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S086,Bendigo Brittle,Greta Donaldson,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S086,Bendigo Brittle,Greta Donaldson,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S087,Designs by Shin,Shin,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S087,Designs by Shin,Shin,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S088,Public Holiday,Carly Buteux and Joe Dodd,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S088,Public Holiday,Carly Buteux and Joe Dodd,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S089,Marisol,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S089,Marisol,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S090,micropod,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S090,micropod,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S091,The Urban Cottage,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S091,The Urban Cottage,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S092,The Green Print Collective,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S092,The Green Print Collective,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S093,Twill & Tee,Jo Appel,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S093,Twill & Tee,Jo Appel,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S094,Women's Work,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S094,Women's Work,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S095,Cockatoo-Collins Studio,Delvene Cockatoo-Collins,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S095,Cockatoo-Collins Studio,Delvene Cockatoo-Collins,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S096,Dodgy Paper,Roger,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S096,Dodgy Paper,Roger,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S097,Quillan,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S097,Quillan,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S098,Misty's Salted Caramel,Misty,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S098,Misty's Salted Caramel,Misty,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S099,Tamarind Tree,,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S099,Tamarind Tree,,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
+S100,Elvis Et Moi,Emilie Costechareyre,Email,2 - follow-up (new idea),2026-11-18,"M1 sent, no reply",pending
+S100,Elvis Et Moi,Emilie Costechareyre,Email,3 - final,2026-11-21,"M2 sent, no reply",pending
